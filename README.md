@@ -91,6 +91,25 @@ Essentials for personal support workers providing palliative and end-of-life car
 3. **Cross-reference** — Concepts link between books (e.g., body mechanics in Sorrentino's connects to musculoskeletal system in The Human Body)
 4. **Study** — Each part contains chapter summaries, key terms, and clinical correlations
 
+## Local Setup & Obsidian Integration
+
+To use this knowledge base locally with full graph visualization and instant search:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/8LUEPRINT3/awesome-health-science-wiki.git
+   ```
+
+2. **Open in Obsidian:**
+   - Launch Obsidian
+   - Click **Open folder as vault**
+   - Select the cloned `awesome-health-science-wiki` folder
+
+3. **Explore:**
+   - Use the **Graph View** to visualize connections between topics
+   - Use `Ctrl/Cmd + Shift + F` for full-text search across all textbooks
+   - Use `Ctrl/Cmd + O` to quickly jump to any file
+
 ## Contributing
 
 This is a personal knowledge base. If you find errors or have suggestions, please open an issue.
