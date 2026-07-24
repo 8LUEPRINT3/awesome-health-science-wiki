@@ -1,0 +1,3005 @@
+---
+title: The Human Body - Part 1
+source: The Human Body.md
+---
+
+YOU’VE JUST PURCHASED
+MORE THAN
+A TEXTBOOK!
+Enhance your learning with Evolve Student Resources.
+These online study tools and exercises can help deepen your
+understanding of textbook content so you can be more
+prepared for class, perform better on exams, and succeed
+in your course.
+Activate the complete learning experience that comes with each
+http://evolve.elsevier.com/Herlihy
+If your school uses its own Learning Management System, your resources may be
+delivered on that platform. Consult with your instructor.
+has already been revealed, the code may have been used and cannot
+be re-used for registration. To purchase a new code to access these
+Place
+valuable study resources, simply follow the link above.
+Sticker
+Here
+REGISTER TODAY!
+You can now purchase Elsevier products on Evolve!
+Go to evolve.elsevier.com/shop to search and browse for products.
+2019v1.0
+
+EDITION
+7
+The Human
+Body in Health
+and Illness
+Barbara Herlihy,
+BSN, MA, PhD (Physiology), RN
+Professor Emerita of Biology
+University of the Incarnate Word
+School of Mathematics, Science, and Engineering
+San Antonio, Texas
+
+Elsevier
+3251 Riverport Lane
+St. Louis, Missouri 63043
+THE HUMAN BODY IN HEALTH AND ILLNESS, SEVENTH EDITION ISBN: 978-0-323-71126-5
+Copyright © 2022 by Elsevier, Inc. All rights reserved.
+No part of this publication may be reproduced or transmitted in any form or by any means, electronic or
+mechanical, including photocopying, recording, or any information storage and retrieval system, without
+permission in writing from the publisher. Details on how to seek permission, further information about the
+Publisher’s permissions policies and our arrangements with organizations such as the Copyright Clearance
+Center and the Copyright Licensing Agency, can be found at our website: www.elsevier.com/permissions.
+This book and the individual contributions contained in it are protected under copyright by the Publisher
+(other than as may be noted herein).
+Notice
+Practitioners and researchers must always rely on their own experience and knowledge in evaluating
+and using any information, methods, compounds or experiments described herein. Because of rapid
+advances in the medical sciences, in particular, independent verification of diagnoses and drug dosages
+should be made. To the fullest extent of the law, no responsibility is assumed by Elsevier, authors, editors
+or contributors for any injury and/or damage to persons or property as a matter of products liability,
+negligence or otherwise, or from any use or operation of any methods, products, instructions, or ideas
+contained in the material herein.
+Previous editions copyrighted 2018, 2014, 2011, 2007, 2003, and 2000.
+Library of Congress Control Number: 2020943614
+Executive Content Strategist: Lee Henderson
+Senior Content Development Manager: Laurie Gower
+Senior Content Development Specialist: Laura Selkirk
+Publishing Services Manager: Julie Eddy
+Senior Project Manager: Rachel E. McMullen
+Design Direction: Renee Duenow
+Printed in India
+Last digit is the print number: 9 8 7 6 5 4 3 2 1
+
+To all who live wisely and compassionately.
+Wisely in seeing the divine in each other, our fur friends, and Mother Earth,
+and Compassionately in drawing the excluded into this sacred circle of life.
+Everything belongs!
+Love,
+Barbara
+
+Acknowledgments
+The publishing and republishing of an anatomy and rewrote, and photocopied in the midst of being a mom
+physiology text require the combined efforts of many to my three adorable, very mobile, and vocal grand-
+persons with diverse talents. I have been blessed to children. Whew! Thanks to my children, grandchildren
+work with many generous and talented individuals (grand total . . . five, from toddler to teen, all great in
+at Elsevier and offer my grateful thanks, especially to their own way), and friends for their insistence on lei-
+Melissa Rawe—always available, helpful, and ever- sure and play; they are in charge of my mental health.
+encouraging. Special thanks also to Lee Henderson I highly recommend “grannyhood”—it is beyond joy
+who gently, efficiently, and wisely kept it all moving and gets better!
+forward. Thanks to my fur baby, Annie (woof), for the hours
+Many thanks also to my students, friends, and ad- she hovered around me and my laptop. As usual, a
+ministration at the University of the Incarnate Word. special acknowledgment to my beloved dachshund,
+They have graciously supported me through all seven Pretzyl, who labored so hard on the first two editions.
+editions. A word of gratitude to the Sisters of Charity Six other furry helpers—Julia, Kenner, Cajun, Zeke,
+of the Incarnate Word for their vision and commitment Lucy, and Minky—are missed but certainly not for-
+that enlivens the university and the community it gotten. These fur babies gave me so much pleasure
+serves. Love them! A special thanks to Dr. Bonnie Mc- and are now hopping around together on Rain-
+Cormick, a colleague and friend for many years who bow Bridge. A well-fed and sassy feral cat popula-
+thankfully kept me out of meetings and in the class- tion (five beauties) has been added; other “rescues”
+room. And that, my friends, was an enormous act of have followed and are “indoor dwellers”—Micky
+kindness . . . and profoundly appreciated. and Frankie. To all of you who humor me about my
+Thanks to my husband, Jerry, kind, most often pet collection and devotion, many, many thanks for
+patient, and always carefully critical (emphasis on understanding.
+carefully). He has contributed much to this text by Last but certainly not least, many thanks to those
+constructing tables, proofreading, and offering many who used previous editions and were kind enough to
+helpful hints; he, too, is a physiologist. Thanks to my forward comments and suggestions. Your assistance is
+daughter Kellie, a nurse practitioner, who proofread, so appreciated. Keep the comments coming!
+iv
+
+To the Instructor
+Again, with enthusiasm and wonder, here is the sev- even two) allows. This text focuses on the physiology
+enth edition of The Human Body in Health and Illness— that is basic and most clinically relevant. Pathophysi-
+older, wiser, still smiling, and eager to walk with you ology is introduced primarily to clarify physiological
+on your journey into the health professions. It’s an ex- function. For instance, the different types of anemias
+citing journey for all, instructors and students, as we illustrate the various steps in the making and sustain-
+study and ponder the wisdom of the human body. ing of healthy red blood cells. A second concern has
+The Human Body in Health and Illness tells the story to do with the recognition that we are not preparing
+of the human body with all its parts and the way these physiologists; instead, we want the student to be able
+parts work together. It is a story that we have told to use the physiology to understand clinically relevant
+many times in our classes. It is also a story that gets content such as pathophysiology, physical assessment,
+better with each telling as the body continues to reveal diagnostics, and pharmacology. An understanding of
+its mysteries and how marvelously it has been created. physiology is crucial for advancement in the medically
+I hope that you enjoy telling the story as much as I do. related sciences.
+The Human Body in Health and Illness is a basic anat-
+omy and physiology text addressed to the student
+TEXTBOOK STRENGTHS
+preparing for a career in the health professions. It is
+written for students with minimal preparation in the • Anatomy and physiology are clearly and simply
+sciences; no prior knowledge of biology, chemistry, explained. A meticulously prepared set of illustra-
+or physics is required. The text provides all the back- tions—complete with amusing cartoons—supports
+ground science information needed for an understand- the text. In fact, the story of the body is told as much
+ing of anatomy and physiology. through the art as through the written word.
+The basic principles of chemistry and biochemistry • The text truly integrates pathophysiology; it is not
+are presented in Chapters 2–4, and they set the stage merely boxed in or tacked on at the end. The inte-
+for an understanding of cellular function, fluid and grated pathophysiology is used primarily to amplify
+electrolyte balance, endocrine function, and digestion. the normal anatomy and physiology. The expanded
+Chapter 5, Microbiology Basics, presents clinically Medical Terminology and Disorders tables and fre-
+relevant microbiological topics. Check out the stories quent references to common medical terminology
+“Rick, Nick, and the Sick Tick” and “Dr. Semmelweis allow the text to be used for an introductory course
+Screams: ‘Wash Those Mitts!’” The latter is an amus- in pathophysiology and medical terminology.
+ing presentation of a sad tale in the history of medicine • In addition to the pathophysiology, other topics are
+and corresponds to the current emphasis on hand hy- liberally integrated throughout the text. These in-
+giene and health care–associated infection. clude common diagnostic procedures such as blood
+The anatomy and physiology content is presented count, lumbar puncture, urinalysis, and electrocardi-
+in a traditional order, from simple to complex. The ography. Pharmacological topics are also introduced
+text begins with a description of a single cell and pro- and, like the pathophysiology, are used to amplify
+gresses through the various organ systems. There are the normal anatomy and physiology. For instance,
+two key themes that run throughout the text: (1) the the discussion of the neuromuscular junction is en-
+relationship between structure and function—the stu- hanced by a description of the effects of the neuro-
+dent must understand that an organ is anatomically muscular blocking agents. Because of the effort of the
+designed to perform a specific physiological function; text to make clinical correlations, it sets the stage for
+and (2) homeostasis—the role that each organ system the more advanced health science courses, including
+plays in sustaining life and what happens when that pharmacology and medical-s urgical nursing.
+delicate balance is disturbed. • As You Age boxes list major physiologic changes
+The text addresses two concerns about the selec- the occur with aging.
+tion of content. The first has to do with the amount of • Move It boxes describe the physiologic changes as-
+content. The field of anatomy and physiology is huge; sociated with exercise.
+therefore there must be a selection of content that can be • Re-Think and Go Figure boxes are liberally dis-
+mastered in the short period of time that a semester (or tributed throughout each chapter and encourage
+v
+
+vi TO THE INSTRUCTOR
+students to master that content before progressing 3. Provide review for students engaged in pathophysi-
+through the chapter. Ramp It Up! boxes develop se- ology and pharmacology whose memories need to
+lected clinically relevant topics that are simply too be refreshed in the physiology.
+advanced to be included in the text as basic informa-
+STUDY GUIDE
+tion. These boxed features contain new or advanced
+content commonly used in the clinical setting and The Study Guide for The Human Body in Health and Ill-
+allow instructors to scale their coverage in a man- ness offers something for students at all levels of learn-
+ner appropriate to the course. They offer students ing and is a ready-made resource for instructors look-
+the chance to make further connections between the ing for homework assignments. Each chapter includes
+text and their future careers. (See the To the Student two parts: Part I, Mastering the Basics, with matching,
+preface on page ix for descriptions and examples of labeling, and coloring exercises; and Part II, Putting It
+each of the chapter features.) All Together, containing multiple-choice questions, case
+• Medical terminology is introduced, defined, and studies, and word puzzles. Textbook page references
+used throughout the text. Common clinical terms are included with the questions, and the answer key is
+such as hyperkalemia, vasodilation, hypertension, and available on the Evolve website, only to instructors.
+diagnosis are defined and reused so that the stu-
+EVOLVE INSTRUCTOR LEARNING RESOURCES
+dent gradually builds up a substantial medical vo-
+cabulary. The expanded Medical Terminology and The Evolve website for The Human Body in Health and
+Disorders tables were deliberately constructed to Illness (http://evolve.elsevier.com/Herlihy) includes
+maximize the use of common medical terms and all of the Student Resources, as well as the following
+disorders. To help foster a broader understanding Instructor Resources:
+of medical terminology, word parts and their mean- • Answer Key for the Study Guide, Audience Re-
+ings are included for nearly every term presented. sponse System questions, Image Collection, and Ex-
+Repetition of these helps students gain greater amView Test Banks that include over 2300 questions!
+ground in understanding the very specific medical • Instructor’s Chapter Exams, Classroom Activities—
+language they will be learning to use for a future including Bingo, Line ‘Em Up, Sorting, and Word
+in the health professions. A description is also pro- Puzzles—and the TEACH Instructor Resource.
+vided, which gives the definition or other pertinent
+information on the topic. TEACH Instructor Resource on Evolve
+• The Review Your Knowledge section has been ex- Instructors who adopt the textbook will also receive ac-
+panded to include questions that require an ana- cess to the TEACH Instructor Resource, which links all
+lytical response. The Go Figure questions are based parts of the Herlihy educational package with custom-
+on the story told by the artwork. The questions can izable Lesson Plans based on objectives drawn from
+only be answered by analyzing the art and/or the the text. The TEACH Lesson Plans are based on the
+information presented in the tables. This exercise chapter-by-chapter organization of The Human Body
+encourages the student to see beyond the “pretty in Health and Illness and can be modified or combined
+pictures” and realize that a picture is truly worth a to meet your curriculum’s scheduling and teaching
+thousand words. I would encourage you to assist needs.
+your students to see that the art and the text are con- TEACH has been completely updated and revised
+veying the same message. for this edition. The TEACH Lesson Plans help instruc-
+• The text is supported by many activities, exercises, tors prepare for class and make full use of the rich ar-
+puzzles, and games (e.g., Body Bingo) on Evolve ray of ancillaries and resources that come with the text-
+(http://evolve.elsevier.com/Herlihy). These activi- book. The content covered in each textbook chapter is
+ties emphasize the focus of this text—clinically rel- divided across one or more lesson plans, each designed
+evant anatomy and physiology. to occupy 50 minutes of class time. Lesson plans are
+• Last, the text incorporates many amusing anecdotes organized into easily understandable sections that are
+from the history of medicine. Although the human each tied to the chapter learning objectives:
+body is perfectly logical and predictable, we hu- • Instructor Preparation: This section provides a
+mans think, do, and say some strange things. Tales checklist of all the things you need to do to prepare
+from the medical crypt provide some good laughs for class, including a list of all the items you need to
+and much humility. bring to class to perform any activity or demonstra-
+tion included in the lesson plan.
+• Student Preparation: Textbook readings, study guide
+CLASSROOM RESOURCES
+exercises, online activities, and other applicable home-
+Materials from the Study Guide and Evolve Instructor work assignments for each lesson are provided here,
+Learning Resources can be used to: along with an overall estimated completion time.
+1. Remediate students who are having difficulty in • The 50-Minute Lesson Plan: A lecture outline that
+grasping the content. reflects the chapter lecture slides that come as part of
+2. Remediate students who have missed class(es). TEACH is included, as well as classroom activities
+
+TO THE INSTRUCTOR vii
+and online activities, one or more critical thinking Plan section. An easy-to-use table maps each assess-
+questions, and time estimates for the classroom lec- ment tool to the lesson plans and chapter objectives
+ture and activities. so that you can see all your assessment options—by
+• Assessment Plan: To ensure that your students chapter, by lesson, and by objective—and choose
+have mastered all the objectives, the TEACH In- accordingly.
+structor Resource includes a separate Assessment
+
+To the Student
+This book will take you on an amazing journey through
+MOVE IT
+the human body. You will learn many body parts and,
+more importantly, how they work in an integrated This feature describes the physiologic effects of exercise.
+manner to keep you going. You will use this informa- It supports the view that “sitting is the new smoking.”
+tion in your clinical practice when patients become ill Hence, the title Move It.
+with disorders of those structures. The following spe-
+GO FIGURE
+cial features were created to help make learning enjoy-
+able and fun. The Go Figure boxes contain questions that relate to
+the figures and art work. The questions prompt the
+TEXTBOOK FEATURES reader to integrate the figures with the story related
+in the text.
+KEY TERMS
+MEDICAL TERMINOLOGY AND DISORDERS TABLES
+Key terms are listed at the beginning of each chapter,
+These tables describe medical terms and specific dis-
+along with a page reference. Each is (1) presented in
+orders related to individual body systems, with a
+the text in blue print, (2) accompanied by a pronuncia-
+focus on developing a strong working medical vo-
+tion guide, (3) thoroughly explained within the chap-
+cabulary, which is necessary for a career in the health
+ter, and (4) defined in the glossary.
+professions.
+OBJECTIVES
+END-OF-CHAPTER FEATURES
+Numbered objectives identify the goals for each
+Summary Outline
+chapter.
+A detailed outline at the end of each chapter summa-
+rizes key concepts and serves as an excellent review
+ILLUSTRATIONS
+of the chapter content. Use it as a study tool to review
+Original illustrations and full-color cartoons help you
+your reading and prepare for exams.
+make sense of anatomy and physiology using humor,
+Review Your Knowledge
+clarity, and insight.
+The matching and multiple-choice questions in this
+DO YOU KNOW section cover the major points of the chapter and allow
+Most of these boxed vignettes refer to clinical situations; you to test your comprehension.
+others relate to interesting and amusing historical
+ANSWERS TO REVIEW YOUR KNOWLEDGE AND
+events related to anatomy and physiology.
+GO FIGURE QUESTIONS
+RAMP IT UP! The Appendix contains answers to all Review Your
+Knowledge and Go Figure questions found in the
+These features challenge you with more advanced
+anatomy and physiology topics.
+textbook.
+GLOSSARY
+RE-THINK
+The glossary includes a pronunciation guide and a
+These questions are liberally placed throughout the
+brief definition of all key terms and many other words
+chapter to help reinforce important concepts.
+in the text.
+AS YOU AGE
+STUDY GUIDE
+These boxed features contain numbered lists describing
+Enhance your learning of the textbook content with the
+how the aging process affects human anatomy and
+accompanying Study Guide for The Human Body in
+physiology.
+Health and Illness. The Study Guide has something
+SUM IT UP! to offer students at all levels of learning, from labeling
+and coloring exercises to multiple-choice practice tests
+These features appear regularly throughout the chap-
+and case studies.
+ters and help you synthesize key concepts.
+viii
+
+Contents
+1 Introduction to the Human Body, 1
+2 Basic Chemistry, 15
+3 Cells, 30
+4 Cell Metabolism, 48
+5 Microbiology Basics, 65
+6 Tissues and Membranes, 78
+7 Integumentary System and Body Temperature, 94
+8 Skeletal System, 113
+9 Muscular System, 146
+10 Nervous System: Nervous Tissue and Brain, 175
+11 Nervous System: Spinal Cord and Peripheral Nerves, 203
+12 Autonomic Nervous System, 221
+13 Sensory System, 234
+14 Endocrine System, 262
+15 Blood, 286
+16 Anatomy of the Heart, 310
+17 Function of the Heart, 326
+18 Anatomy of the Blood Vessels and Special Circulations, 341
+19 Functions of the Blood Vessels, 360
+20 Lymphatic System, 374
+21 Immune System, 383
+22 Respiratory System, 400
+23 Digestive System, 429
+24 Urinary System, 459
+25 Water, Electrolyte, and Acid-Base Balance, 477
+26 Reproductive Systems, 491
+27 Human Development and Heredity, 514
+Answers to Review Your Knowledge, 532
+Glossary, 542
+ix
+
+This page intentionally left blank
+
+1
+Introduction to the Human Body
+http://evolve.elsevier.com/Herlihy
+Objectives
+1. Define the terms anatomy and physiology. 6. List common terms used for relative positions of the body.
+2. List the levels of organization of the human body. 7. Describe the three major planes of the body.
+3. Describe the 12 major organ systems. 8. List anatomical terms for quadrants and regions of the
+4. Define homeostasis. body.
+5. Describe the anatomical position. 9. Describe the major cavities of the body.
+Key Terms
+abdominopelvic cavity (p. 9) mediastinum (p. 9) spinal (vertebral) cavity (p. 9)
+anatomical position (p. 7) organs (p. 2) thoracic cavity (p. 9)
+anatomy (p. 1) pericardial cavity (p. 9) transverse plane (p. 7)
+cranial cavity (p. 9) physiology (p. 1) ventral cavity (p. 8)
+dorsal cavity (p. 8) pleural cavities (p. 9) viscera (p. 8)
+frontal plane (p. 7) quadrants (p. 10)
+h om eostasis (p. 6) sagittal plane (p. 7)
+The human body is a wonderful creation. Millions of mi-
+ANATOMY AND PHYSIOLOGY: WHAT
+croscopic parts work together in a coordinated fashion to
+THEY ARE
+keep you going for approximately 75 years. Most of us are
+curious about our bodies—how they work, why they do
+WHAT’S IT MEAN?
+not work, what makes us tick, and what makes us sick. As
+you learn more about the body, you will sometimes have Anatomy (ah-NAT-o-mee) is the branch of science that
+the same questions as the cartoon character below: “What studies the structure of the body. For example, anato-
+is this? Why do I need it? How does it work? Why don’t my describes what the heart looks like, how big it is,
+I have one?” As you study anatomy and physiology, you what it is made of, how it is organized, and where it is
+will learn the answers to these questions. located. The word anatomy comes from the Greek word
+meaning to dissect. The science of anatomy arose from
+observations made by scientists centuries ago as they
+dissected bodies that were usually stolen from the lo-
+cal graveyard.
+Physiology (fiz-ee-OL-o-jee) is the branch of sci-
+ence that describes how the body functions. For ex-
+ample, physiology describes how the heart pumps
+blood and why the pumping of blood is essential for
+life. Pathophysiology (path-o-fiz-ee-OL-o-jee) is the
+branch of science that describes the consequences
+of the improper functioning of the body (i.e., how a
+body part functions when a person has a disease).
+Pathophysiology describes what happens during a
+heart attack and when the heart functions poorly or
+not at all.
+1
+
+2 CHAPTER 1 Introduction to the Human Body
+ability to grasp an object (Fig. 1.1). The heart pumps
+blood, and the long, strong, flexible tail of the mon-
+key allows it to hang from the tree. Structure and
+function are related.
+Re-Think
+1. W hat is the difference between anatomy and physiology?
+2. U sing any household item, explain what is meant by
+“structure and function are related.”
+Do You Know...
+Why This Grave Is Being Robbed, and Why the Grave Robber Is
+in Big, Big Trouble?
+Dissection of the human body during medieval times was not
+allowed. Thus the only way that early anatomists were able
+to obtain human bodies for dissection was to rob graves.
+Medieval scientists hired people to rob graves. Punishment
+for robbing graves was swift and severe. This lad will be in
+big, big trouble if he is caught, and it looks as if he will be.
+Surprisingly, grave robbing was common early in this century
+and in this country. Many a medical student who enrolled in
+the most prestigious medical schools had to “get” his own
+cadaver (dead body).
+Fig. 1.1 Structure and Function are Closely Related.
+Go Figure (Refer to Fig 1.1)
+1. T /F __ The purpose of this figure is to show that anatomy
+(structure) is related to function (physiology).
+WHY DO I NEED TO KNOW THIS?
+THE BODY’S LEVELS OF ORGANIZATION
+Why study anatomy and physiology as part of your
+professional curriculum? Unless you gain a good The body is organized from the very simple to the
+understanding of normal anatomy and physiology, complex, from the microscopic atom to the complex
+you cannot understand the diseases and disorders human organism. Note the progression from simple
+experienced by your patients, nor can you under- to complex in Fig. 1.2. Tiny atoms form molecules.
+stand the basis for the various forms of treatment, These, in turn, form larger molecules. The larger
+such as drug therapy and surgical procedures. You molecules are eventually organized into cells, the ba-
+want to give your patients the best possible care, so sic unit of life. Specialized groups of cells form tis-
+you must have a sound understanding of the hu- sues. Tissues are then arranged into organs, such as
+man body. the heart, stomach, and kidney. Groups of organs, in
+Anatomy and physiology are closely related. turn, create organ systems. Each organ system has a
+Structure and function go together. When you exam- function, such as digestion, excretion, or reproduc-
+ine the anatomy of a body part, ask yourself how tion. All the organ systems together form the human
+its structure relates to its function. For example, the organism. From simple to complex, the body is built
+structure of the hand is related to its function: its from the tiny atom to the human being.
+
+Introduction to the Human Body CHAPTER 1 3
+Atoms
+Molecules
+Cells
+Tissue
+Organ
+Organism
+system
+Organ
+Fig. 1.2 Levels of Organization, from Atoms to Human Organism.
+Go Figure (Refer to Fig 1.2) maintenance of body posture. Cardiac muscles are
+1. T /F __ The stomach and intestines are organs that are found in the heart and enable the heart to pump
+part of the digestive organ system. blood throughout the body. Smooth muscles are
+found in various organs and tubes; contraction and
+relaxation of this muscle type helps move body flu-
+id. Vascular smooth muscle, for instance, helps to
+MAJOR ORGAN SYSTEMS
+move blood through the blood vessels.
+Twelve major organ systems make up the human body. • The nervous system is made up of the brain, spinal
+Each performs specific functions that enable the hu- cord, nerves, and sense organs. Sensory nerves re-
+man body to operate as a coordinated whole. Refer to ceive information from the environment and bring
+Fig. 1.3 and identify the location and distribution of the it to the spinal cord and brain, where it is interpret-
+organs of each system. ed. Decisions made by the brain and spinal cord are
+• The integumentary (in-teg-yoo-MEN-tar-ee) system transmitted along motor nerves to various body
+consists of the skin and related structures, such as structures to elicit a response such as leg movement.
+hair and nails. The integumentary system forms a And, of course, our brain thinks, emotes, remem-
+covering for the body, helps to regulate body tem- bers, reflects, integrates, creates, and performs all
+perature, and contains some of the structures neces- those higher-level functions that characterize the
+sary for sensation. human brain.
+• The skeletal system forms the basic framework of • The endocrine (EN-doh-krin) system contains nu-
+the body. It consists primarily of bones, joints, and merous glands that secrete hormones and chemi-
+cartilage. The skeleton protects and supports body cal substances that regulate body activities such
+organs and enables us to move around. Because the as growth, reproduction, metabolism, and water
+bones contain bone marrow they also produce most balance.
+of the blood cells. • The circulatory (SER-kyoo-lah-tor-ee) system con-
+• The muscular system has three types of muscles. sists of the blood, heart, and blood vessels. This sys-
+Skeletal muscles attach to the bones and are re- tem pumps (heart) and transports (blood vessels)
+sponsible for movement of the skeleton and the blood throughout the body. Blood carries nutrients
+
+4 CHAPTER 1  Introduction to the Human Body
+| Integumentary system | Skeletal system    | Muscular system  |
+| -------------------- | ------------------ | ---------------- |
+| Nervous system       | Circulatory system | Endocrine system |
+Fig. 1.3 Major Organ Systems of the Body.
+
+|                  |                  | Introduction to the Human Body  | CHAPTER 1          | 5   |
+| ---------------- | ---------------- | ------------------------------- | ------------------ | --- |
+| Lymphatic system | Digestive system |                                 | Respiratory system |     |
+Urinary  system Reproductive system
+Fig. 1.3, cont’d
+
+6 CHAPTER 1 Introduction to the Human Body
+Go Figure (Refer to Fig 1.3)
+1. T he heart and blood vessels are organs that form
+the _______________ system. (nervous, lymphatic,
+endocrine, circulatory)
+2. T he kidneys, brain, and lungs are ________________.
+(organ systems, parts of the circulatory system, organs,
+nerve cells)
+and oxygen to all the body’s cells and also carries the
+waste away from the cells to the organs of excretion.
+• The lymphatic (lim-FAT-ik) system is made up of the
+lymph nodes, lymphatic vessels, lymph, and other
+lymphatic organs. Lymph and lymphatic structures
+play an important role in fluid balance and in the
+defense of the body against pathogens and other
+foreign material.
+• The immune system is an elaborate defense sys-
+tem that protects the body not only from patho-
+gens, but also from allergens, such as pollens, bee
+venom, and some of our own cells that have gone
+awry (cancer cells). The immune system is widely
+distributed throughout the body (it is not shown in
+Fig. 1.3).
+• The respiratory system contains the lungs and other
+structures that conduct air to and from the lungs.
+Oxygen-rich air moves into the lungs; the oxygen is
+picked up by the blood and distributed throughout Fig. 1.4 Anatomical Position.
+the body. Carbon dioxide–rich air moves out of the
+Go Figure (Refer to Fig 1.4)
+lungs, thereby ridding the body of waste. The respi-
+ratory system also plays a key role in the regulation 1. W hich of the following is true of the anatomical position?
+of acid-base balance. ______________ (head is bowed, the person is sitting,
+• The digestive system is composed of organs de- palms of the hand are facing forward, forearms are
+signed to ingest food and break it down into sub- flexed)
+stances that can be absorbed by the body. Food that
+is not absorbed is eliminated as waste. called homeostatic mechanisms. Homeostatic imbalance
+• The urinary system contains the kidneys and other results in disease or dysfunction.
+structures that help excrete waste products from the
+body through the urine. More importantly, the uri-
+Sum It Up!
+nary system helps control the water, electrolyte, and
+Anatomy and physiology describe the structure and function
+acid-base balance in the body.
+of the body. The body is constructed from simple to complex
+• The reproductive system is made up of organs and
+(atoms to molecules to cells to tissues to organs to organ
+structures that enable humans to reproduce.
+systems to the human organism). The 12 major organ sys-
+tems are shown in Fig. 1.3. Homeostatic mechanisms en-
+HOMEOSTASIS: STAYING THE SAME able the body to “stay the same” despite changing internal
+an d external environments.
+Homeostasis (ho-me-o-STAY-sis) literally means stay-
+ing (stasis) the same (homeo). The term refers to the
+body’s ability to maintain a stable internal environ-
+ANATOMICAL TERMS: TALKING ABOUT
+ment in response to a changing environment. For ex-
+THE BODY
+ample, in a healthy person, body temperature stays
+at approximately 98.6°F (37°C), even when room tem- Special terms describe the location, position, and re-
+perature increases to 100°F or decreases to 60°F. The gions of body parts. Because these terms are used fre-
+amount of water in your cells stays the same wheth- quently, you should become familiar with them now.
+er you drink 2, 3, or 4 L of water per day. Your blood People in the medical field are often accused of speak-
+sugar remains within normal limits whether you have ing their own language. Indeed, we do! We always use
+just eaten a turkey dinner or have fasted for 6 hours. these terms as if the body were standing in its anatomi-
+Mechanisms that help to maintain homeostasis are cal position.
+
+Introduction to the Human Body CHAPTER 1 7
+ANATOMICAL POSITION the center. For example, the heart is located central-
+ly, whereas the blood vessels are located peripher-
+In its anatomical position, the body is standing erect,
+ally (away from the center and extending toward
+with the face forward, the arms at the sides, and the
+the limbs). The brain and spinal cord are called the
+toes and palms of the hands directed forward (Fig. 1.4).
+central nervous system, and the nerves are called
+the peripheral nervous system.
+RELATIVE POSITIONS
+Re-Think
+Specific terms describe the position of one body part
+in relation to another body part. These are direction- 1. U se the terms proximal and distal to describe the
+al terms. They are like the more familiar directions relationship of the wrist to the elbow.
+2. U se the terms proximal and distal to describe the
+of north, south, east, and west; however, describing
+relationship of the fingers to the wrist.
+Canada as being located north of the United States
+3. U se the terms medial and lateral to describe the parts of
+would be correct, whereas describing the head as
+the thigh. Do the same with the eye.
+“north of the chest” would sound strange. Therefore,
+in locating body parts, we use other terminology. The
+terms come in pairs. Note that the two terms in each
+PLANES OF THE BODY
+pair are generally opposites. Remember, the references
+are valid only for the body in its anatomical position.
+When we refer to the left side of the body, the top half
+• Superior and inferior. Superior means that a part is
+of the body, or the front of the body, we are referring
+above another part or is closer to the head. For exam-
+to the planes of the body. Each plane divides the body
+ple, the head is superior to the chest. Inferior means
+with an imaginary line in one direction. Fig. 1.5 shows
+that a part is located below another part or is closer to
+the following three important planes:
+the feet. For example, the chest is inferior to the head.
+• Sagittal plane (see Fig. 1.5A). The sagittal plane di-
+• Anterior and posterior. Anterior means toward the
+vides the body lengthwise into right and left por-
+front surface (the belly surface). Posterior means to-
+tions. If the cut is made exactly down the midline
+ward the back surface. For example, the heart is an-
+of the body, the right and left halves of the body are
+terior to the spinal cord, but the heart is posterior to
+equal. This division is a midsagittal section.
+the breastbone. Another word for anterior is ventral,
+• Frontal plane (see Fig. 1.5B). The frontal plane di-
+and another word for posterior is dorsal. Consider
+vides the body into anterior (ventral) and posterior
+the dorsal fin of a fish. It is the dorsal part of the
+(dorsal) portions. This plane creates the front part of
+shark that can be seen moving effortlessly and very
+the body and the back part of the body. The frontal
+quickly toward your surfboard!
+plane is also called the coronal plane. Coronal means
+• Medial and lateral. Imagine a line drawn through the
+“crown,” so the imaginary line for the coronal plane
+middle of your body, dividing it into right and left
+is made across the part of the head where a crown
+halves. This is the midline. Medial means toward the
+would sit and then downward through the body.
+midline of the body. For example, the nose is medial
+• Transverse plane (see Fig. 1.5C). The transverse
+to the ears. Lateral means away from the midline
+plane divides the body horizontally, creating an up-
+of the body. For example, the ears are lateral to the
+per (superior) and a lower (inferior) body. When the
+nose. In the anatomical position, the hand is closer
+body or an organ is cut horizontally or transversely,
+to the lateral thigh than to the medial thigh.
+it is called a cross section.
+• Proximal and distal. Proximal means that the structure
+is nearer to the point of attachment, often the trunk of
+REGIONAL TERMS
+the body. Because the elbow is closer to the point of
+attachment than is the wrist, the elbow is described
+Specific terms describe the different regions or areas of
+as proximal to the wrist. The wrist is proximal to the
+the body. Fig. 1.6 illustrates the terms used to identify the
+fingers, meaning that the wrist is closer to the trunk
+regions on the anterior and posterior surfaces of the body.
+than are the fingers. Distal means that a part is farther
+On the anterior surface, identify the following
+away from the point of attachment than another part.
+regions:
+For example, the wrist is distal to the elbow, and the
+Abdominal: anterior trunk just below the ribs
+fingers are distal to the wrist.
+Antecubital: area in front of the elbow
+• Superficial and deep. Superficial means that a part is
+Axillary: armpit
+located on or near the surface of the body. The skin
+Brachial: arm
+is superficial to the muscles. Deep means that the
+Buccal: cheek area; cavity between the gum and cheek
+body part is away from the surface of the body. The
+Cephalic: head
+bones, for example, are deep to the skin.
+Cervical: neck region
+• Central and peripheral. Central means that the part
+Cranial: nearer to the head
+is located in the center. Peripheral means away from
+Digital: fingers, toes
+
+8 CHAPTER 1 Introduction to the Human Body
+A B C
+Fig. 1.5 Planes of the Body. (A) Sagittal. (B) Frontal (coronal). (C) Transverse.
+Go Figure (Refer to Fig 1.5) Sum It Up!
+1. W hich plane provides a right and left? Specific terms describe the relative positions of one body
+_________________ (coronal, sagittal, frontal, transverse) part to the other. The terms are valid when used in ref-
+2. W hich plane is also referred to as coronal? erence to the body in its anatomical position. The terms
+____________________ (frontal, transverse, sagittal, are paired as opposites and include superior and inferior,
+midsagittal) anterior (ventral) and posterior (dorsal), medial and lateral,
+proximal and distal, superficial and deep, and central and
+peripheral. The body can be cut into three planes: sagit-
+Femoral: thigh area
+tal (right and left), frontal or coronal (front and back), and
+Flank: fleshy area along each side between the lower
+transverse (top and bottom) planes. Common terms are
+ribs and the top of the hip bones
+used to identify specific areas of the anterior and posterior
+Inguinal: area where the thigh meets the trunk of the
+su rface areas.
+body; often called the groin
+Oral: mouth
+Orbital: area around the eye
+Patellar: front of the knee over the kneecap Re-Think
+Pedal: foot 1. A sagittal plane yields right and left halves of the
+Plantar: sole of the foot body. Compare this with frontal and transverse
+Pubic: genital area planes.
+Sternal: middle of the chest (over the breastbone area) 2. O f the following terms, which can be seen only on the
+Umbilical: navel posterior view of the body: umbilical, antecubital, gluteal,
+lumbar, sternal, patellar, and popliteal?
+On the posterior surface, identify the following regions:
+Caudal: near to the lower region of the spinal column
+(near the tailbone)
+Deltoid: rounded area of the shoulder closest to the arm
+CAVITIES OF THE BODY
+Gluteal: buttocks
+Lumbar: area of the back between the ribs and the hips The organs, called viscera (VISS-er-ah), are located
+Occipital: back of the head within the cavities of the body. Cavities are large inter-
+Popliteal: behind, or back of, the knee area nal spaces. The body contains two major cavities: the
+Scapular: shoulder blade area dorsal cavity and the ventral cavity (Fig. 1.7).
+
+Introduction to the Human Body CHAPTER 1 9
+Cranial
+Cephalic
+Orbital
+Occipital
+Buccal Oral
+Cervical
+Deltoid
+Sternal Scapular
+Abdominal
+Axillary
+Brachial Lumbar
+Antecubital
+Flank
+Caudal
+Inguinal
+Umbilical
+Digital
+Gluteal
+Pubic
+Femoral
+Patellar
+Popliteal
+Pedal
+Plantar
+A B
+Fig. 1.6 Regional Terms. (A) Anterior view. (B) Posterior view.
+VENTRAL CAVITY
+Go Figure (Refer to Fig 1.6)
+The larger ventral cavity is located toward the front
+1. P rovide the other terms that describe the following:
+of the body and has two divisions, the thoracic (thoh-
+buttocks, armpit, groin, belly button, mouth. (axillary,
+RASS-ik) cavity and the abdominopelvic (ab-DOM-i-
+inguinal, oral, gluteal, umbilical)
+no-PEL-vik) cavity.
+2. T his area is seen only on the posterior view.
+_______________ (umbilical, sternal, lumbar, patellar)
+THORACIC CAVITY
+The thoracic cavity is located above the diaphragm
+and is surrounded by the rib cage. The thoracic cav-
+DORSAL CAVITY
+ity is divided into two compartments by the mediasti-
+The dorsal cavity is located toward the back of the num (MEE-dee-ass-TI-num), a space that contains the
+body and has two divisions, the cranial cavity and the heart, thymus gland, and parts of the esophagus, tra-
+spinal (vertebral) cavity. chea, and large blood vessels attached to the heart. The
+The cranial cavity is located within the skull and con- pericardial (pair-i-KAR-dee-al) cavity (not shown) is lo-
+tains the brain. The spinal, or vertebral, cavity extends cated within the mediastinum and contains the heart.
+downward from the cranial cavity and is surrounded by The right and left lungs are located on either side of the
+bony vertebrae; it contains the spinal cord. The cranial mediastinum in the pleural cavities. The lungs occupy
+and spinal cavities form one continuous space. most of the space within the thoracic cavity.
+
+10 CHAPTER 1 Introduction to the Human Body
+Mediastinum
+Pleural cavities
+Cranial cavity
+Spinal cavity
+Dorsal
+Thoracic cavity cavity
+Diaphragm
+Abdominal
+Ventral cavity
+cavity
+Abdomino-
+pelvic cavity
+Pelvic
+cavity
+Fig. 1.7 Major Body Cavities.
+Go Figure (Refer to Fig 1.7) from the level of the hips and includes the remainder
+of the intestines, the rectum, the urinary bladder, and
+1. W hich of the following is located within the ventral,
+the internal parts of the reproductive system.
+thoracic, and pleural cavities? _______________? (heart,
+Because the abdominopelvic cavity is so large, it is sub-
+stomach, lungs, brain)
+divided into smaller areas for study. Quadrants and re-
+2. W hich cavity houses only the brain? ______________
+(cranial, dorsal, thoracic, mediastinum) gions divide the abdominopelvic cavity. Note the organs
+3. W hich structure separates the thoracic cavity from located in each quadrant or region, as shown in Fig. 1.8.
+the abdominopelvic cavity? _________________?
+Division into Quadrants
+(mediastinum, diaphragm, spine, umbilicus)
+The abdominopelvic cavity can be divided into four
+quadrants (see Fig. 1.8A). The quadrants are named for
+ABDOMINOPELVIC CAVITY
+their positions: right upper quadrant (RUQ), left upper
+The abdominopelvic cavity is located below the dia- quadrant (LUQ), right lower quadrant (RLQ), and left
+phragm. The upper portion of this cavity is the ab- lower quadrant (LLQ).
+dominal cavity. It contains the stomach, most of the Quadrant terms are used frequently in the clinical
+intestines, and the liver, gallbladder, pancreas, spleen, setting. For example, a patient in the emergency room
+and kidneys. The lower portion of the abdominopelvic who has acute pain in the RLQ may be diagnosed with
+cavity is called the pelvic cavity. It extends downward appendicitis. Note that the RLQ appears to be on your
+
+Introduction to the Human Body CHAPTER 1 11
+Right Left
+hypo- Epigastric hypo-
+chondriac region chondriac
+Right upper Left upper
+region region
+quadrant quadrant
+Right Left
+Umbilical
+lumbar lumbar
+region
+region region
+Right lower Left lower
+quadrant quadrant Right Hypo- Left
+iliac gastric iliac
+region region region
+A B
+Fig. 1.8 The Abdominopelvic Cavity. (A) Four quadrants. (B) Nine regions.
+Go Figure (Refer to Fig 1.8) just below the umbilical region. Hypogastric literally
+means below (hypo) the stomach (gastric).
+1. W hich of the regions is included in the
+Six regions are located on either side of the central
+RUQ? _____________ (left lumbar, right
+regions. They include the hypochondriac, lumbar, and
+hypochondriac, hypogastric, umbilical)
+iliac regions. The right and left hypochondriac regions
+2. W hich of the following is immediately inferior to the
+epigastric region? ______________________? (left iliac, are located on either side of the epigastric region and
+RUQ, umbilical, LUQ) overlie the lower ribs. The word hypochondriac literally
+means below (hypo) the cartilage (chondro) and refers to
+the composition of the ribs (cartilage). The right and left
+left. This is similar to looking in a mirror. Keep this in lumbar regions are located on either side of the umbili-
+mind when you are studying the diagrams in the text. cal region and are inferior to the hypochondriac regions.
+Here’s an easy way to remember this: Lower your right The right and left iliac regions, also called the right and
+arm. It will be lateral to the RUQ and RLQ. left inguinal regions, are located on either side of the hy-
+pogastric region. Knowledge of these regions helps you
+Division into Regions understand terms such as epigastric pain and umbilical
+A second system divides the abdominopelvic cavity hernia. Remember that quadrants and regions refer only
+into nine separate regions that resemble the squares to the abdominopelvic cavity and not to the thoracic
+for tic-tac-toe (see Fig. 1.8B). The three central regions cavity.
+(from top to bottom) are the epigastric, umbilical, and
+hypogastric regions. The epigastric region is located Other Cavities
+below the breastbone. Epigastric literally means upon Four smaller cavities are located in the head. They
+(epi) the stomach (gastric). The umbilical region is the include the oral cavity, nasal cavities, orbital cavities,
+centermost region and surrounds the umbilicus, or and middle ear cavities. (These cavities are described
+navel (belly button). The hypogastric region is located in later chapters.)
+
+12 CHAPTER 1 Introduction to the Human Body
+Re-Think Sum It Up!
+1. W hat muscle structure separates the thoracic cavity from The organs or viscera are located within body cavities. The
+the abdominopelvic cavity? two major cavities are the dorsal cavity, located toward the
+2. O f the following terms, determine which pertain to the back of the body, and the larger ventral cavity, located in the
+ventral cavity: thoracic cavity, brain, vertebral cavity, front of the body. The dorsal cavity is subdivided into the
+abdominopelvic cavity, pleural cavity, dorsal cavity, cranial cavity and the spinal cavity. The ventral cavity is di-
+mediastinum, stomach, heart, and spinal cord. vided by the diaphragm into the thoracic cavity (including the
+mediastinum, pericardial cavity, and pleural cavities) and the
+abdominopelvic cavity. The abdominopelvic cavity is divided
+in to quadrants and regions.
+Medical Terminology and Disorders Introduction to Medical Terminology
+The medical profession has its own language, called medical terminology. In general, there are four main types or kinds of
+word parts. By learning these and how they can be put together, you can often “translate” many long and challenging medical
+words by breaking them up into their word parts.
+A word root is the core of the word and provides the basic meaning or “subject” of the word. The other word parts, such
+as suffixes and prefixes, modify the word root so that it takes on a new meaning. For example, in the word hepatitis, the
+word root is hepat-, meaning liver.
+A suffix is a word part attached to the end of the word root; it modifies the word root. If we add -itis, which is a
+suffix that means inflammation, to the word root for liver, hepat-, we get hepatitis, which means inflammation of
+the liver.
+A prefix is a word part attached to the beginning of the word root; it modifies the word root. For example, the word
+nutrition refers to a normal and healthy food intake. By adding the prefix mal- (French for bad), as in malnutrition, the
+word root has been modified to mean poor or bad nutrition.
+Combining vowels are word parts used to ease the pronunciation, as in angioplasty (angi/o/plasty). Angi- means blood
+vessel, and -plasty means repair of. The -o- joining the word parts eases the pronunciation; it does not modify the
+meaning of the word. When you see angi/o-, you are seeing the word root and its combining vowel.
+In the Medical Terminology and Disorders tables you will see many terms with which you are probably familiar, but what you
+may not be familiar with is what their individual word parts are and how they are put together to make up many of the
+words you use every day. For instance, consider -ectomy, which means excision or removal of. Think of all the terms that
+have -ectomy at the end—such as lobectomy, vasectomy, hysterectomy, appendectomy, tonsillectomy—and you will
+see how valuable knowing what this one word part is.
+MEDICAL TERM WORD PARTS WORD PART DESCRIPTION
+MEANING OR
+DERIVATION
+anatomy ana- up or apart Anatomy is the branch of science that describes
+the structure of a body, especially as revealed
+-tomy incision; to cut
+by dissection. For example, the heart has four
+chambers.
+antecubital ante- before; in front of Antecubital space is the area of the arm anterior to
+the elbow. A sample of blood is commonly drawn
+-cubital From the word meaning “elbow”
+from a vein in the antecubital space.
+biology bio- life Biology is the study of life and living organisms.
+-logy study of
+diagnosis dia- apart Diagnosis is the process of identifying the nature and
+cause of a disease or injury through an analysis of
+-gnos/o- knowing
+data, such as the patient’s symptoms and laboratory
+-osis condition or increase
+studies.
+pathologist path/o- pertaining to disease A pathologist examines tissue for evidence of disease.
+-logist one who specializes in
+homeostasis home/o- sameness Homeostasis refers to the relative constancy of the
+internal environment of the body despite many
+-stasis stand still
+challenges to upset the balance.
+transverse trans- across A transverse plane cuts across the body; an upper
+and lower body is created.
+-verse From the word meaning “to turn”
+
+Introduction to the Human Body CHAPTER 1 13
+Medical Terminology and Disorders Introduction to Medical Terminology—cont’d
+MEDICAL TERM WORD PARTS WORD PART DESCRIPTION
+MEANING OR
+DERIVATION
+midepigastric mid- middle Related to the middle of the epigastric region of the
+abdomen. A person may complain of midepigastric
+-epi- above or upon
+discomfort.
+-gastr/o- stomach
+-ic pertaining to
+prognosis pro- before Refers to a likely course or outcome of a disease. For
+example, the prognosis of a person who seeks early
+-gnos/o- knowing
+treatment of a basal cell carcinoma (skin cancer) is
+-osis condition or increase
+excellent; the prognosis of a person with metastatic
+cancer is less favorable.
+quadrant quadr/i- four The abdominopelvic cavity is divided into four equal
+areas called quadrants.
+-ant performing/promoting.
+Get Ready for Exams!
+Summary Outline 1. Ventral cavity
+a. Thoracic cavity: superior to the diaphragm;
+Anatomy is the study of structure; physiology is the study of
+contains the pleural cavities (lungs), mediasti-
+function. Structure (anatomy) and function (physiology) are
+num, and pericardial cavity
+related.
+b. Abdominopelvic cavity: located inferior to the
+I. The Body’s Levels of Organization diaphragm
+A. From simple to complex: atoms to molecules to c. Abdominal cavity: upper part that contains the
+cells to tissues to organs to organ systems to human stomach, most of the intestines, and the liver,
+organism spleen, and kidneys
+B. Major organ systems (12) d. Pelvic cavity: lower part that contains the repro-
+1. Integumentary system ductive organs, urinary bladder, and lower part
+2. Skeletal system of the intestines
+3. Muscular system e. For reference: the abdominopelvic cavity is
+4. Nervous system divided into four quadrants and nine regions.
+5. Endocrine system
+6. Heart and circulatory system
+Review Your Knowledge
+7. Lymphatic system
+8. Immune system Matching: Directions of the Body
+9. Respiratory system Directions: Match the following words with their descrip-
+10. Digestive system tions. Some words may be used more than once or not at all.
+11. Urinary system
+a. posterior 1. ___ Toward the midline of the body;
+12. Reproductive system
+b. distal opposite of lateral
+C. Homeostasis: the body’s ability to maintain a stable
+c. medial 2. ___ Structure that is nearer to the trunk
+internal environment in response to various internal
+d. anterior than another part; opposite of distal
+and external challenges.
+e. proximal 3. ___ Part of the radius (forearm bone)
+II. Anatomical Terms: Talking About the Body
+f. superior that is closer to the wrist than to the
+A. Anatomical position: the body standing erect, arms
+g. deep elbow
+by the side, with palms and toes facing forward
+4. ___ The lungs are located above the
+B. Relative positions: superior-inferior, anterior-posterior,
+diaphragm; their position relative to
+medial-lateral, proximal-distal, superficial-deep,
+the diaphragm is described as being
+central-peripheral
+above
+C. Planes (three): sagittal, frontal (coronal), and trans-
+5. ___ Toward the front (the belly surface);
+verse planes
+another word is ventral
+D. Regional terms: listed in Fig. 1.6
+E. Cavities of the body
+1. Dorsal cavity
+a. Cranial cavity: contains the brain
+b. Spinal (vertebral) cavity: contains the spinal
+cord
+
+14 CHAPTER 1 Introduction to the Human Body
+Matching: Regional Terms 6. The frontal plane
+Directions: Match the following words with their descriptions. a. splits the body into right- and left-half sections.
+a. inguinal 1. ___ Armpit b. is also the coronal plane.
+b. oral 2. ___ Kneecap area c. splits the body into a top and a bottom section.
+c. lumbar 3. ___ Breastbone area d. creates a transverse cross section.
+d. axillary 4. ___ Front part of the elbow area
+7. Which of the following terms best describes when a
+e. buccal 5. ___ Fleshy area along the side
+person sweats in order to decrease body temperature?
+f. patellar between the ribs and hip bone
+a. Pathophysiology
+g. flank 6. ___ Pertaining to the mouth
+b. Evisceration
+h. antecubital 7. ___ Lower back area extending from
+c. Homeostasis
+i. sternal the chest to the hips
+d. Midsagittal
+j. scapular 8. ___ Pertains to the space between
+8. Which of the following is true of these terms: sternal,
+the cheek and gum
+umbilical, patellar, and antecubital?
+9. ___ Groin region
+a. All are superior to the inguinal area.
+10. ___ Shoulder blade area
+b. All lie within the ventral cavity.
+c. All can be viewed on the anterior body.
+Multiple Choice
+d. All lie within the dorsal cavity.
+1. This part of the humerus (arm bone) is closer to the
+9. These structures are located within the pleural cavities,
+elbow than to the axillary region.
+the thoracic cavity, and the ventral cavity.
+a. Anterior
+a. Heart and great vessels
+b. Superior
+b. Lungs
+c. Distal
+c. Brain and spinal cord
+d. Proximal
+d. Intestines
+2. Describe the relationship of the mediastinum to the
+10. These structures are located within the pericardial cav-
+diaphragm.
+ity, the mediastinum, and the thoracic cavity.
+a. Distal
+a. Heart and great vessels
+b. Deep
+b. Liver and stomach
+c. Anterior
+c. Lungs
+d. Superior
+d. Intestines
+3. The umbilical region is located
+11. The common element of the words pathology, patho-
+a. inferior to the inguinal region.
+gen, and pathophysiology is that they all refer to
+b. superior to the RUQ.
+a. persons who dissect bodies.
+c. inferior to the diaphragm.
+b. homeostatic mechanisms.
+d. within the midepigastric region.
+c. disease.
+4. The sternal area is d. drugs that are used to treat diseases.
+a. the groin.
+b. referred to as the breastbone area.
+c. located within the RLQ.
+d. observed only on the posterior view of the body.
+5. Which of the following is not descriptive of the
+mediastinum?
+a. Thoracic cavity
+b. Dorsal cavity
+c. Ventral cavity
+d. Superior to the diaphragm
+
+2
+Basic Chemistry
+http://evolve.elsevier.com/Herlihy
+Objectives
+1. Define the terms matter, element, and atom, and complete 4. Explain the difference between a molecule and a
+the following: compound, and list five reasons why water is essential to
+• List the four elements that comprise 96% of body life.
+weight. 5. Explain the role of catalysts and enzymes.
+• Describe the three components of an atom. 6. Define pH; differentiate between acids and bases.
+• Describe the role of electrons in the formation of 7. List the six forms of energy, and describe the role of
+chemical bonds. adenosine triphosphate (ATP) in energy transfer.
+2. Differentiate among ionic, covalent, and hydrogen bonds. 8. Differentiate among a mixture, solution, suspension,
+3. Describe the formation of ions, including the differences colloidal suspension, and precipitate.
+among electrolytes, cations, and anions.
+Key Terms
+acid (p. 23) colloid (p. 27) matter (p. 5)
+adenosine triphosphate (ATP) compound (p. 22) mixture (p. 26)
+(p. 25) covalent bond (p. 18) molecule (p. 19)
+alkaline (p. 24) electrolyte (p. 20) neutralized (p. 23)
+anion (p. 20) element (p. 16) pH (p. 24)
+aqueous solution (p. 27) energy (p. 25) polar molecule (p. 19)
+atom (p. 16) enzyme (p. 23) precipitate (p. 27)
+atomic mass (p. 17) hydrogen bond (p. 18) radioactivity (p. 17)
+atomic number (p. 17) ions (p. 20) solute (p. 26)
+base (p. 23) ionic bond (p. 18) solvent (p. 26)
+catalysts (p. 23) ionization (p. 21) solutions (p. 26)
+c at ion (p. 20) isotope (p. 17) suspensions (p. 27)
+Why a chapter on chemistry? Because our bodies are that holds it. A gas, or gaseous matter (e.g., the air we
+made of different chemicals. The food we eat, the breathe) has neither shape nor volume.
+water we drink, and the air we breathe are all chemi- Matter can undergo both physical and chemi-
+cal substances. We digest our food, move our bod- cal changes. The logs in a fireplace illustrate the dif-
+ies, experience emotions, and think great thoughts ference between a physical and a chemical change
+because of chemical reactions. To understand the (Fig. 2.1). The logs can undergo a physical change
+body, we must understand some general chemical by being chopped into smaller chips of wood with a
+principles. hatchet. The wood chips are smaller than the log, but
+they are still wood. The matter (wood) has not es-
+sentially changed; only the physical appearance has
+MATTER, ELEMENTS, AND ATOMS
+changed. A chemical change occurs when the wood is
+burned. When burned, the wood ceases to be wood.
+MATTER
+The chemical composition of the ashes is essentially
+Chemistry is the study of matter. Matter is anything different from that of wood.
+that occupies space and has mass. Anything that you The body contains many examples of physical and
+see as you look around is matter. chemical changes. For example, digestion involves
+Matter exists in three states: solid, liquid, and gas. physical and chemical changes. Chewing breaks the
+Solid matter (e.g., skin, bones, and teeth) has a definite food into smaller pieces; this is a physical change.
+shape and volume. Liquid matter (e.g., blood, saliva, Potent chemicals digest or change the food into sim-
+and digestive juices) takes the shape of the container pler substances; this is a chemical change.
+15
+
+16 CHAPTER 2  Basic Chemistry
+|     | Table 2.1      Common Elements in the Human Body |     |     |
+| --- | ------------------------------------------------ | --- | --- |
+PERCENTAGE OF
+|     | ELEMENT    | SYMBOL | BODY WEIGHT |
+| --- | ---------- | ------ | ----------- |
+|     | Oxygen     | O      | 65.0        |
+|     | Carbon     | C      | 18.5        |
+|     | Hydrogen   | H      | 9.5         |
+|     | Nitrogen   | N      | 3.2         |
+|     | Calcium    | Ca     |             |
+|     | Phosphorus | P      |             |
+|     | Potassium  | K      |             |
+|     | Sulfur     | S      |             |
+|     | Sodium     | Na     |             |
+Fig. 2.1 Changes in Matter: Physical Change (Wood Chips) and
+|     | Chlorine | Cl  |     |
+| --- | -------- | --- | --- |
+Chemical Change (Ashes).
+|                                | Magnesium | Mg  |     |
+| ------------------------------ | --------- | --- | --- |
+|  Go Figure (Refer to Fig. 2.1) | Iron      | Fe  |     |
+Iodinea
+1. T/F __ Cutting a log causes a physical but not a chemical  I
+|  ch ange in the wood. | Chromiuma | Cr  |     |
+| --------------------- | --------- | --- | --- |
+
+|     | Cobalta | Co  |     |
+| --- | ------- | --- | --- |
+|     | Coppera | Cu  |     |
+ELEMENTS
+|                                                          | Fluorinea | F   |     |
+| -------------------------------------------------------- | --------- | --- | --- |
+| All matter, living or dead, is composed of elements. An  | Seleniuma |     |     |
+Se
+element is matter that is composed of atoms that have
+|     | Zinca | Zn  |     |
+| --- | ----- | --- | --- |
+the same number of positive charges in their nuclei.
+| Even a very small amount of an element, such as sodi- | aTrace elements. |     |     |
+| ----------------------------------------------------- | ---------------- | --- | --- |
+um, contains millions and millions of sodium atoms. The
+same name is used for both the element and the atom.  oxygen,  and  nitrogen—make  up  96%  of  the  body
+Although more than 100 elements exist, only approxi- weight. The trace elements are present in tiny amounts,
+mately 25 elements are required by living organisms. but despite the small amounts required, the trace el-
+ements are essential for life. (Not all of the trace ele-
+ments appear in Table 2.1.)
+ Do You Know...
+Each of the elements included in Table 2.1 is repre-
+Why Children Should Not Be Allowed to Play in Traffic and  sented by a symbol, and the first letter of the symbol is
+Chew on Old Paint? always capitalized. For example, the symbol O is for
+oxygen, N is for nitrogen, Na is for sodium, K is for po-
+Aside from the obvious safety issues, old paint and emissions
+tassium, and C is for carbon. These symbols are used
+from motor vehicles contain high amounts of lead. Exposure to
+high levels of lead causes lead poisoning, a serious condition  frequently, so you should memorize the symbols of the
+major elements.
+that damages the major organs, including the brain, liver, kid-
+ney, and bone marrow. The old name for chronic lead poison-
+| ing is plumbism, from the Latin word for lead (plumbum). The  | ATOMS |     |     |
+| ------------------------------------------------------------- | ----- | --- | --- |
+chemical symbol for lead is Pb. (By the way, a plumber is called
+a plumber because ancient water pipes were made of plum- ATOMIC STRUCTURE
+bum, or lead.) Why does plumbism have such a great history?  Elements are composed of atoms, the basic units of
+Lead was used to make pipes that carried water. It was also
+matter. An atom is the smallest unit of an element with
+used to make pottery, particularly drinking vessels. This practice
+|     | that  element’s  | chemical  characteristics. An  | atom  is  |
+| --- | ---------------- | ------------------------------ | --------- |
+killed many of the rich and famous—those wealthy enough to
+composed of three subatomic particles: protons, neu-
+afford leaded wine goblets. Because of the toxic nature of lead,
+trons, and electrons. The arrangement of the subatom-
+pipes and pottery in the United States are no longer made of
+ic particles resembles the sun and planets (Fig. 2.2A),
+lead, gasoline and paint are now lead free by law, and the dis-
+posal of acid lead batteries is regulated. Is the lead problem a  with the sun in the center and the planets constantly
+done deal? No! Children are still huffing lead fumes from car  moving around the sun in orbits, or circular paths. The
+emissions, inhaling lead dust in older homes, playing with toys  atom is composed of a nucleus (the sun) and shells, or
+laced with lead paint, wearing clothing impregnated with lead,  orbits, that surround the nucleus (see Fig. 2.2B).
+ an d more recently, drinking lead-laced water. Go figure! Where are the subatomic particles located? The pro-
+tons and the neutrons are located in the nucleus (see Fig.
+2.2C). Protons carry a positive (+) electrical charge; neu-
+trons carry no electrical charge. The electrons are locat-
+The most abundant elements found in the body are
+listed in Table 2.1. Four elements—carbon, hydrogen,  ed in the shells, or orbits, surrounding the nucleus like
+
+Basic Chemistry CHAPTER 2 17
+planets. Electrons carry a negative (−) electrical charge.
+In each atom, the number of protons (+) is equal to the
+number of electrons (−). The atom is therefore electri-
+cally neutral; it carries no net electrical charge.
+All protons are alike, all neutrons are alike, and all elec-
+trons are alike. So what makes one atom different from
+Earth another atom? The difference is primarily in the numbers
+Sun of protons and electrons in each atom. For example, hy-
+drogen is the simplest and smallest atom. It has one pro-
+ton and one electron. Helium has two protons and two
+electrons. Lithium has three protons and three electrons.
+Hydrogen, helium, and lithium are different atoms be-
+cause of the different numbers of protons and electrons.
+Re-Think
+A 1. H ow does the structure of an atom resemble the solar
+ATOM system (sun and planets)?
+2. I dentify the locations and electrical charges carried by
+the proton, electron, and neutron?
+OTHER CHARACTERISTICS OF ATOMS
+Two terms describe individual atoms. The atomic num-
+ber is the number of protons in the nucleus. Thus hydro-
+Inner
+gen has an atomic number of 1, helium has an atomic
+Nucleus shell
+number of 2, and lithium has an atomic number of 3.
+The atomic mass of an atom is determined by adding
+the numbers of protons and neutrons in the nucleus.
+2nd shell
+Thus the atomic mass of hydrogen is also 1 because the
+hydrogen nucleus contains one proton and no neutrons.
+3rd or The atomic mass of helium is 4 because the nucleus con-
+B outer shell tains two protons and two neutrons. (The atomic mass
+is approximately equivalent to the atomic weight.)
+An isotope (EYE-so-tohp) is a different form of
+the same atom. For example, hydrogen has different
+forms. Hydrogen has an atomic number of 1 and an
+atomic mass of 1; it has one proton and no neutrons
+in the nucleus. A second and less common form of hy-
+drogen is called heavy hydrogen. It has one proton and
+one neutron in its nucleus; thus its atomic number is 1,
+but its atomic mass is 2. Because its atomic number is
+1, it is still a hydrogen atom. However, the additional
+neutron in the nucleus makes it heavy and changes its
+atomic mass. Heavy hydrogen is an isotope of hydro-
+C
+gen. Remember! An isotope has the same atomic num-
+ber as an atom but a different atomic mass.
+Electron (–)
+Isotopes are often unstable and their nuclei break
+Proton (+)
+down, or decay, giving off energy. In doing so, the un-
+Neutron (o) stable nuclei become more stable. Unstable isotopes are
+called radioisotopes. The process of spontaneous break-
+Fig. 2.2 Structure of the Atom. (A) Subatomic particles arranged like
+the sun and the planets. (B) Nucleus and electron shells. (C) Protons down (decay) is called radioactivity. Radioisotopes
+and neutrons located in the nucleus and electrons encircling the damage tissues and are used clinically to destroy cells.
+nucleus in orbits. For example, radioactive iodine is used to destroy ex-
+Go Figure (Refer to Fig. 2.2) cess thyroid tissue. Other radioisotopes are used to
+destroy cancer cells. Radioisotopes can also be used
+1. W hich subatomic particle lives in the outer shell of an
+diagnostically. For example, radioactive iodine (131I)
+atom? (electron, proton, neutron)
+is normally taken up by the thyroid gland at a certain
+2. T he earth represents a(an) _______________(electron,
+rate. Alterations in the rate of 131I uptake can indicate
+proton, neutron, nucleus)
+thyroid dysfunction. Here is a radioactive blast from
+
+18 CHAPTER 2 Basic Chemistry
+the past! Bathing in radioactive water at radium spas orbiting in its shells. The electrons are positioned as
+was popular in the United States during the early 20th follows: two electrons in the inner shell, eight in the
+century. Accompanying this health craze was the in- second shell, and seven in the outer shell. The seven
+gestion of radioactive tonics, a practice that quickly electrons make the outer shell unstable. The chlorine
+died out as both the bathers and drinkers died from atom would like to add a single electron. The electrical
+radiation poisoning. attraction occurs between the outer shells of the sodi-
+um and chlorine atoms. The single electron in the outer
+Re-Think shell of the sodium (Na) atom is attracted to the seven
+1. W hat is the difference between the atomic number and electrons in the outer shell of the chlorine atom. Thus,
+atomic mass? the sodium atom and chlorine atom bond ionically to
+2 . W hat is an isotope? A radioisotope? form sodium chloride (NaCl), or table salt.
+COVALENT BONDS
+ELECTRON SHELLS
+Electrons surround the nucleus in orbits called energy A second type of chemical bond is the covalent (ko-
+levels or electron shells (see Fig. 2.2C). The number of VAYL-ent) bond. Covalent bonding occurs when two
+shells varies from one atom to the next. Some atoms, atoms share electrons in their outer shells. Covalent
+such as hydrogen, have only one shell; other atoms, bonding is like joining hands (see Fig. 2.3B). The for-
+such as sodium, have three shells. Each shell can hold mation of water from hydrogen and oxygen atoms il-
+a specific number of electrons. The inner shell closest lustrates one type of covalent bond. Oxygen has eight
+to the nucleus can hold only two electrons. The second electrons, two in the inner shell and only six in the out-
+and third shells can each hold eight electrons. er shell. An oxygen atom needs two electrons to com-
+The only electrons that are important for chemical plete the outer shell. Hydrogen has only one electron
+bonding are the electrons in the outermost shell. If it and requires one electron to complete its inner shell.
+is not filled with its proper number of electrons, the Water is formed when two hydrogen atoms, each
+outer shell becomes unstable. It then tries to give up with one electron, share those electrons with one oxy-
+electrons to empty the shell, acquire electrons to fill gen atom. By sharing the electrons of the oxygen, each of
+the shell, or share electrons so that each participat- the two hydrogen atoms has completed the inner shells
+ing atom acquires the proper number of electrons in (capacity is two electrons). By sharing the electrons of
+its outer shell. The outer shell’s tendency to become two hydrogen atoms, the outer shell of the oxygen is
+stable forms the basis of chemical bonding. completed, with eight electrons. Water is represented as
+H O (two hydrogen atoms and one oxygen atom).
+2
+Carbon atoms always form covalent bonds. A car-
+CHEMICAL BONDS
+bon atom has four electrons in the outer shell. Carbon,
+Atoms are attracted to each other because they want one of the major elements in the body, most commonly
+to achieve a stable outer electron shell. In other words, bonds with hydrogen, oxygen, nitrogen, and other car-
+they want to fill or empty the outer electron shell. The bon atoms. Covalent bonding of carbon with hydrogen,
+force of attraction between atoms is analogous to the oxygen, and nitrogen forms complex molecules such as
+magnetic pull of two magnets to each other. When you proteins and carbohydrates. Covalent bonds are strong
+try to separate the magnets, you can feel the pull. The and do not break apart in an aqueous (water) solution.
+electrical attraction between atoms is a chemical bond. Many proteins, such as hormones, are transported
+The three types of chemical bonds are ionic bonds, co- around the body by blood, which is mostly water. If
+valent bonds, and hydrogen bonds. the covalent bonds of the protein broke apart in wa-
+ter, the hormones would be unable to accomplish their
+tasks. So many chemical reactions in the body involve
+IONIC BONDS
+carbon that a separate branch of chemistry—organic
+An ionic (eye-ON-ik) bond is caused by a transfer of chemistry—studies only carbon-containing substanc-
+electrons between atoms. The interaction of the sodi- es. In contrast, inorganic chemistry studies non–car-
+um and chlorine atoms illustrates an ionic bond (Fig. bon-containing substances.
+2.3A). The sodium atom has 11 protons in the nucleus
+and 11 electrons in the shells. Two electrons are in the
+HYDROGEN BONDS
+inner shell, eight in the second shell, and only one in the
+outer shell. This single electron makes the outer shell A third type of bond is a hydrogen bond (see Fig. 2.3C).
+unstable. To become more stable, the sodium atom It differs from the ionic and covalent bonds in that the
+would like to donate the single electron. Donating an hydrogen bond is not caused by the transfer or sharing
+electron forms a bond between the two atoms. of electrons of the outer shells of atoms. A hydrogen
+Sodium often bonds with chlorine. The chlorine (Cl) bond is best illustrated by the weak attraction between
+atom has 17 protons in the nucleus and 17 electrons water molecules. Water is composed of hydrogen and
+
+|       |       | Basic Chemistry  | CHAPTER 2 | 19  |
+| ----- | ----- | ---------------- | --------- | --- |
+|       | +     |                  |           | –   |
+| 11 p+ | 17 p+ | 11 p+            | 17 p+     |     |
+| 12 n0 | 18 n0 | 12 n0            | 18 n0     |     |
+Sodium atom (Na) Chlorine atom (Cl) Sodium ion (Na) Chloride ion (Cl)
+A
+Sodium chloride (NaCl)
+1 p+
+1 p+
+| 8 p+ |     | 8 p+ |     |     |
+| ---- | --- | ---- | --- | --- |
+| 8 n0 |     | 8 n0 |     |     |
+1 p+
+1 p+
+Oxygen atom (O)
+|     | Hydrogen atom (H) | Water molecule (H | O)  |     |
+| --- | ----------------- | ----------------- | --- | --- |
+| B   |                   |                   | 2   |     |
+–
+|     |     | +   | + – |     |
+| --- | --- | --- | --- | --- |
+C Attraction between water molecules
+Fig. 2.3 Chemical Bonds. (A) Ionic bond. (B) Covalent bond. (C) Hydrogen bond.
+POLARITY
+ Go Figure (Refer to Fig. 2.3)
+ 1. W  hich panel(s) illustrate(s) the sharing of 2 electrons by  Water engages in hydrogen bonding because it is a
+oxygen?_____ (A, B, C, or both A and B) polar molecule. What makes water a polar molecule?
+ 2. W  hich panel(s) illustrate(s) the intermolecular attraction
+Because of the uneven sharing of electrons within
+(bonding) between 2 water molecules? (A, B, C, or both
+a water molecule, there is a slight positive charge
+    A and C)
+around the hydrogen end of the water and a slight
+negative charge around the oxygen end. Note how
+oxygen. The weak positive charge around the hydro- lopsided the water molecule appears in Fig. 2.3C;
+gen of one water molecule is attracted to the weak neg-
+more importantly, the charges are lopsided. A polar
+ative charge of the oxygen in a second water molecule.  molecule is defined as a molecule that has a lopsid-
+Because the bond occurs between two molecules, it is
+ed charge—a positive end and a negative end. The
+called an intermolecular bond.  lopsided  charge  means  that  the  positive  end
+
+20 CHAPTER 2 Basic Chemistry
+(hydrogen) of one water molecule is attracted to the Table 2.2 Common Ions
+negative end (oxygen) of a second water molecule.
+NAME SYMBOL FUNCTION
+Cations
+Re-Think Sodium Na+ Fluid balance (chief extracellular
+cation), nerve and muscle
+1. E xplain the role of the outer electron shell in ionic and
+function
+covalent bonding.
+2 . E xplain why water is described as a polar molecule. Calcium Ca2+ Component of bones and
+teeth, blood clotting, and
+muscle contraction
+Iron Fe2+ Component of hemoglobin
+IONS
+(oxygen transport)
+Hydrogen H+ Important in acid-base balance.
+CATIONS, ANIONS, AND ELECTROLYTES
+Its concentration determines
+Several other terms are related to the activity of the the pH of a solution.
+electrons in the outer shells of the atoms. If the nega- Potassium K+ Nerve and muscle function;
+tively charged electrons are lost from or gained by the chief intracellular cation
+outer shell of an atom, the electrical charge of the atom Ammonium NH + Important in acid–base
+4
+changes. In other words, the electrical charge of the regulation
+atom changes from a neutral charge (i.e., no charge) Anions
+to a positive (+) charge or negative (−) charge. Atoms
+Chloride Cl− Chief extracellular anion
+that carry an electrical charge are called ions. If the
+Bicarbonate HCO− Important in acid-base
+ion is positively charged (+), it is a cation (CAT-eye- 3
+regulation
+on). If the ion is negatively charged (−), it is an anion
+Phosphate PO3− Component of bones and
+(AN-eye-on). 4
+teeth; component of ATP
+An electrolyte (eh-LECK-tro-LITE) is a substance that
+(energy)
+forms ions when it is dissolved in water. Electrolytes, as
+the name implies, are capable of conducting an electri- ATP, Adenosine triphosphate.
+cal current. For example, the electrocardiogram (ECG)
+and the electroencephalogram (EEG) record electrical
+events in the heart and brain. Sodium is said to carry a net charge of +1. The sodium
+ion, represented as Na+, is therefore a cation.
+The chlorine atom has 17 protons (positive charge)
+ION FORMATION
+and 17 electrons (negative charge). If an electron is
+Ions are formed when electrons in the outer shell are lost gained, the chlorine then contains 17 (+) charges and
+or gained. For example, the sodium atom has 11 protons 18 (−) charges. Chlorine is said to carry a net charge
+(positive charge) and 11 electrons (negative charge). If of −1 and is considered an anion. The chlorine anion
+a single electron is donated, the sodium is left with 11 is called chloride and is represented as Cl−. Some at-
+positive (+) charges and only 10 negative (−) charges. oms may give up more than one electron and have a
+Na+
+Cl–
+Na+ Na+
+Cl–
+NaCl Cl–
+Cl–
+H O
+2
+Na+
+Fig. 2.4 Ionization—dissociation of NaCl → Na+ + Cl− in water.
+
+Basic Chemistry CHAPTER 2 21
+Do You Know...
+Go Figure (Refer to Fig. 2.4)
+What the Patient’s “Lytes” Are?
+1. T/F __When placed in water NaCl dissociates into
+sodium and chloride ions. This is medical jargon for electrolytes. One of the most
+important clinical tools is the assessment of the patient’s
+electrolytes. The assessment is performed on a sample of
+stronger positive charge. For example, calcium gives
+the patient’s blood. Actually, the “lytes” are really ions such as
+up two electrons. It is represented as Ca2+. Table 2.2
+Na+ (sodium), K+ (potassium), Cl− (chloride), Mg2+ (magne-
+presents other important ions. Note that combinations sium), and HCO− (bicarbonate). The terms electrolytes and
+3
+of atoms, such as bicarbonate (HCO 3 −), can also carry io ns are used interchangeably in the clinical setting.
+an electrical charge and are therefore ions.
+Re-Think
+IONIZATION
+1. U sing table salt (NaCl) as an example, explain the
+When an electrolyte splits, or breaks apart in solu-
+difference between an electrolyte, ion, cation, and anion.
+tion, the electrolyte is said to dissociate (Fig. 2.4). For
+2. D efine ionization using table salt as an example. What
+example, NaCl (table salt) is an electrolyte. In the sol- ions are produced?
+id state, it appears as tiny white granules. However,
+when dissolved in water, the NaCl dissociates. What
+is happening? MOLECULES AND COMPOUNDS
+NaCl → Na+ + Cl−
+MOLECULES
+salt sodium ion chloride ion
+(cation) (anion)
+When two or more atoms bond, they form a molecule.
+When the salt is placed in water, the ionic bonds
+Two identical atoms may bond. For example, one atom of
+holding the sodium and chlorine together weaken.
+oxygen may bond with another atom of oxygen to form
+The solid NaCl then splits into Na+ (sodium ion) and
+a molecule of oxygen, which is designated O. The same
+Cl− (chloride ion). In other words, the NaCl dissoci- 2
+bonding is true for nitrogen (N) and hydrogen (H) (Fig.
+ates. Because the products of this dissociation are ions, 2 2
+2.5). A molecule can also be formed when atoms of differ-
+this dissociation process is referred to as ionization
+ent elements combine. For example, when two atoms of
+(EYE-on-eye-zay-shin). Only electrolytes ionize.
+A Oxygen Oxygen Oxygen molecule (O )
+2
+B Hydrogen Hydrogen Hydrogen molecule (H 2)
+Hydrogen
+Oxygen
+C Water molecule and compound (H O)
+2
+Fig. 2.5 Molecules and Compounds. (A) Oxygen (O ). (B) Hydrogen (H ). (C) Water (H O).
+2 2 2
+
+22 CHAPTER 2 Basic Chemistry
+hydrogen combine with one atom of oxygen, a molecule of delicate brain and spinal cord. Similarly, amniotic
+water (HO) is formed. fluid surrounds and cushions the developing infant
+2
+in the mother’s womb.
+Go Figure (Refer to Fig. 2.5)
+Re-Think
+1. T /F __Sharing of electrons can only occur between
+identical atoms. 1. P hysiologically, why is water so important?
+2. T /F __ One oxygen atom cannot interact with a second 2 . W hy do so many substances dissolve in water?
+oxygen atom.
+OXYGEN
+Oxygen (O ), a molecule composed of two oxygen atoms,
+COMPOUNDS 2
+exists in nature as a gas. The air we breathe contains 21%
+A substance that contains molecules formed by two or oxygen. Oxygen is essential for life; without a continuous
+more different atoms is called a compound. For exam- supply, we would quickly die. The oxygen we inhale is
+ple, if two atoms of hydrogen combine with one atom used by cells to liberate the energy from the food we eat.
+of oxygen, water is formed. Water is considered both a This energy powers the body; like an engine, if the body
+molecule and a compound. has no energy, it stops running. The importance of oxy-
+gen accounts for the urgency associated with cardiopul-
+SOME IMPORTANT COMPOUNDS AND MOLECULES monary resuscitation (CPR). If the heart stops beating, the
+delivery of oxygen to the tissue ceases, and the brain dies.
+WATER
+Water is the most abundant compound in the body. CARBON DIOXIDE
+It constitutes approximately two-thirds of an adult’s Carbon dioxide (CO ) is a compound that consists of
+2
+body weight and even more of a child’s body weight. one carbon atom and two oxygen atoms—hence the
+Water is essential for life. Although we can last for name carbon dioxide (di- means “two”). CO is a waste
+2
+many weeks without food, we can last only a few days product, so it must be eliminated from the body. It is
+without water. What makes water so special? made when food is chemically broken down for energy.
+• Water as the universal solvent. Water is called the uni-
+versal solvent because most substances dissolve in Sum It Up!
+water. Its use as a solvent is one of the most impor-
+Chemistry is the study of matter. Matter is composed of ele-
+tant characteristics of water. The ability to dissolve
+ments such as hydrogen, oxygen, carbon, and nitrogen. Each
+substances is largely because of the polar structure of element is composed of millions of the same atoms. Atoms are
+water (positive charge on one end, negative charge on composed of subatomic particles called protons, neutrons,
+the other end). For example, the plasma protein albu- and electrons. Two characteristics of atoms are the atomic
+min carries a negative (−) charge. It is attracted to the number (number of protons) and the atomic mass (number of
+positive (+) end of the water molecule. The attraction protons and neutrons). Chemical bonds are formed through
+of the electrical charges allows albumin to dissolve in the interaction of one atom with another. The three chemical
+bonds are ionic, covalent, and hydrogen bonds. The transfer
+water. Many nutrients, waste products, and hormones
+of electrons is responsible for the formation of ions (cations
+dissolve in water for transport throughout the body.
+and anions). Cations are positively charged ions, whereas an-
+• Water as temperature regulator. Water has the ability
+ions are negatively charged ions. Molecules and compounds
+to absorb large amounts of heat without the tem-
+are formed when atoms interact in a particular fashion. Water
+perature of the water itself increasing dramatically.
+(H O), oxygen (O ), and carbon dioxide (CO ) are examples
+2 2 2
+This ability means that heat can be removed from of important molecules and compounds. Water is the most
+heat-producing tissue, such as exercising muscle, abundant compound in the body and has numerous charac-
+while the body maintains a normal temperature. In te ristics that make it essential to life.
+addition, when water evaporates from the skin sur-
+face, it carries a considerable amount of heat with
+it. Therefore, water plays an important role in the CHEMICAL REACTIONS
+body’s temperature regulation.
+A chemical reaction is a process whereby the atoms of
+• Water as an ideal lubricant. Water is a major component
+molecules or compounds interact to form new chemi-
+of mucus and other lubricating fluids. Lubricating
+cal combinations. For example, glucose interacts with
+fluids decrease friction as two structures slide past
+oxygen to form carbon dioxide, water, and energy. This
+each other, thereby minimizing wear and tear.
+chemical interaction is characterized by the breaking
+• Water in chemical reactions. Water plays a crucial role in
+of the chemical bonds of glucose and oxygen and the
+many chemical reactions. For example, water is neces-
+making of new bonds as carbon dioxide and water are
+sary to break down carbohydrates during digestion.
+formed. The reaction is represented as follows:
+• Water as a protective device. Water may also be used
+to protect an important structure. For example, the
+C H O + O → CO + H O + energy
+6 12 6 2 2 2
+cerebrospinal fluid surrounds and cushions the
+glucose oxygen carbon dioxide water
+
+Basic Chemistry CHAPTER 2 23
+The rates of chemical reactions (how fast they occur)
+NaOH → Na+ + OH−
+are important. Chemical substances called catalysts
+(KAT-ah-lists) speed up the rate of a chemical reaction. OH− is a hydrogen ion eliminator. In other words,
+When proteins perform the role of catalysts, they are the OH− soaks up a hydrogen ion. The addition of a
+called enzymes (EN-zymes). Most chemical reactions base makes a solution less acidic. Like acids, bases are
+require a catalyst. classified as being weak or strong. Like a strong acid, a
+strong base can cause a serious burn.
+ACIDS AND BASES
+NEUTRALIZATION OF ACIDS AND BASES
+A normally functioning body requires a balance be-
+tween substances classified as acids and bases. The acid- When an acid is mixed with a base, as in the following
+base balance is important because the chemical reac- example, the H+ of the acid combines with the OH− of
+tions in the body occur only when these substances the base to form water. In addition, the Na+ and the Cl−
+are in balance. Imbalances of acids and bases are com- combine to form a salt, NaCl. The reaction is important
+mon and cause life-threatening clinical problems. An because the H+ is converted to water. In other words,
+understanding of the chemistry of acids and bases is the acid has been neutralized or eliminated. It is no lon-
+crucial to understanding acid-base balance. ger an acid. This chemical reaction is represented as
+follows:
+ACIDS
+HCl + NaOH → H O + NaCl
+2
+We all recognize the sour taste of an acid. Grapefruit
+acid base water salt
+juice, lemon juice, and vinegar are acids. In addition
+to a sour taste, very strong acids, such as hydrochloric
+Re-Think
+acid (HCl), can cause severe burns. For example, acid
+1. W hat makes an acid an acid?
+splashed in your eye can damage the eye tissue to the
+2. W hat makes a base a base?
+point of blindness. An acid is an electrolyte that dis-
+3. D escribe how an acid like HCl is neutralized by a base
+sociates into a hydrogen ion (H+) and an anion. Its dis-
+such as NaOH?
+sociation is represented as follows:
+HCl → H+ + Cl−
+hydrochloric acid hydrogen ion chloride ion Do You Know...
+In this reaction, HCl dissociates into H+ and the Why Antacids Are Used?
+chloride ion (Cl−). For our purposes, the most impor-
+tant component is the H+. The amount of H+ in a solu-
+tion determines its acidity.
+A strong acid dissociates (breaks apart) completely
+into H+ and an anion. HCl, found within the stomach,
+is a strong acid; it yields many hydrogen ions. A weak
+acid does not dissociate completely. Vinegar, or acetic Antacid
+acid, is a weak acid. Vinegar dissociates slightly into H+ (hydrogen ion)
+H+. Most of the vinegar remains in its undissociated
+form, and its dissociation is represented as follows:
+vinegar H++acetate−
+The heavy arrow pointing to the left indicates that
+the vinegar remains as vinegar, forming very little H+.
+Because the number of hydrogen ions (H+) determines
+the acidity of a solution, vinegar is classified as a weak
+acid. This weakness is the reason that vinegar does not
+burn your hand. HCl is so strong that it can actually
+burn a hole through your hand.
+Patients with ulcers often have excess stomach acid. The
+stomach acid (HCl) can be neutralized with a drug that con-
+BASES
+tains a base. Because these drugs oppose acids, they are
+A base has a bitter taste and is slippery like soap. Bases called antacids. One of the most commonly used antacids
+are substances that combine with H+. Bases often con- contains aluminum hydroxide. The hydroxyl ion (OH−) of the
+drug combines with the H+ of the stomach acid, thereby neu-
+tain the hydroxyl ion (OH−), such as sodium hydrox-
+tralizing or buffering the acid. Other newer and more effective
+ide (NaOH). NaOH dissociates into sodium ion (Na+)
+d rugs reduce the secretion of acid into the stomach.
+and the hydroxyl ion (OH−) as follows:
+
+24 CHAPTER 2 Basic Chemistry
+pH A pH measuring more than 7 indicates fewer H+ ions
+Value than OH− ions. These substances are bases, and the solu-
+0 Hydrochloric acid tion is said to be basic, or alkaline (AL-kah-lin). The pH
+scale measures the degree of acidity or alkalinity. A pH
+of 0 is most acidic, whereas a pH of 14 is most alkaline.
+1
+Note the color change in Fig. 2.6 as the pH changes
+from blue (alkaline) to pink (acidic).
+2
+READING THE pH SCALE
+Stomach contents (1–4)
+Each pH unit represents a 10-fold change in H+ con-
+3
+centration. For example, a change in 1 pH unit (from
+7 to 6) represents a 10-fold increase in H+, whereas a
+4 change in 2 pH units (from 7 to 5) represents a 100-
+fold increase in H+ concentration. The important point
+5 is that very small changes in the pH reading indicate
+very large changes in the H+ concentration.
+6 Urine (5–8) pH OF BODY FLUIDS
+Note the pH of some of the body fluids (see Fig. 2.6).
+7 Pure H 2 O The stomach contents are very acidic, with a pH of 1 to
+Blood (7.35–7.45) 4. The pH of urine is normally acidic, with a pH range
+of 5 to 8, although a number of conditions, including
+8
+diet, can change urinary pH. The intestinal secretions
+Intestinal contents (8–10) are alkaline, with a pH range of 8 to 10.
+9 Blood pH is maintained within a narrow range of 7.35
+to 7.45, a slightly alkaline pH. Because the blood pH is
+normally slightly alkaline (called the alkaline reserve), a
+10
+blood pH of less than 7.35 is more acidic than normal, and
+the patient is said to be acidotic. If the patient’s blood pH is
+11
+higher than 7.45, the patient is said to be alkalotic. Because
+all of the body’s enzymes work best at a normal blood pH,
+12 both acidosis and alkalosis cause serious clinical problems
+and must be corrected. The need to maintain the body’s
+normal alkaline state is the reason for monitoring blood
+13
+pH closely during the course of a patient’s illness.
+The blood pH is regulated on a minute-by-minute
+14 Sodium hydroxide basis by three means: a buffer system, the lungs, and
+the kidneys. (These processes of regulation are de-
+scribed in Chapters 24 and 25.)
+Sum It Up!
+Chemical reactions are processes whereby one chemical
+substance is converted into a different chemical substance.
+The rate of a chemical reaction can be increased by a cata-
+lyst, or enzyme. A normally functioning body requires a bal-
+ance between acids and bases. Hydrogen ion concentration
+is measured by pH. As H+ increases, pH decreases; as H+
+decreases, pH increases. Normal blood pH is 7.35 to 7.45
+and is therefore slightly alkaline. When pH decreases to less
+than 7.35, the person is said to be acidotic; when pH increas-
+MEASUREMENT: THE pH SCALE
+es to greater than 7.45, the person is said to be alkalotic.
+Blood pH is regulated within normal limits by three mecha-
+One unit of measurement, pH, indicates how many H+
+ni sms: buffers, lungs, and kidneys.
+ions are in a solution. The pH scale ranges from 0 to 14
+(Fig. 2.6). At the midpoint of the scale, pH 7, the num-
+ber of H+ ions in pure water is equal to the number of
+Re-Think
+OH− ions. Therefore the solution is neutral. A pH that
+1. W hat does pH measure?
+measures less than 7 on the scale indicates that the so-
+2. W hy is it important to monitor the patient’s blood pH?
+lution has more H+ than OH−. The solution is then said
+3 . W hat blood pH is indicative of acidosis? Of alkalosis?
+to be acidic.
+cidica
+ylgnisaercnl
+Neutral
+cisab
+ylgnisaercnl
+Fig. 2.6 The pH Scale. The scale indicates the H+ concentration. Pink
+indicates the acidic range, and blue indicates the basic, or alkaline,
+range.
+Go Figure (Refer to Fig. 2.6)
+1. T /F __ Blood has a pH of 7.0; it is neither acidic nor
+alkaline.
+2. T /F __ The greater the [H+], the pinker is the pH scale.
+3. W hich of the following pH readings indicate that the
+patient is acidotic? _____ (7.35, 7.45, 7.40, or 7.2)
+
+Basic Chemistry CHAPTER 2 25
+Table 2.3 Forms of Energy
+FORM OF ENERGY DESCRIPTION EXAMPLE
+Mechanical Energy that causes movement Movement of legs in running, walking; contraction
+of heart muscle, causing movement of blood
+Chemical Energy stored in chemical bonds Fuel to do work, such as running
+Electrical Energy released from the movement of charged Electrical signal involved in transmission of
+particles information along nerves
+Radiant Energy that travels in waves Light stimulates the eyes for vision; ultraviolet
+radiation from the sun causes tanning
+Thermal Energy transferred because of a temperature Responsible for body temperature
+difference
+Nuclear Energy released during the decay of radioactive Not useful physiologically
+substances such as isotopes
+ENERGY ENERGY TRANSFER: THE ROLE OF ADENOSINE
+TRIPHOSPHATE
+Energy is the ability to perform work. The body de-
+pends on a continuous supply of energy. Even at rest, The energy used to power the body comes from the
+the body is continuously working and using up ener- food we eat (Fig. 2.7A). As the food is broken down, en-
+gy. For example, heart muscle is contracting and forc- ergy is released. However, this energy cannot be used
+ing blood throughout a large network of blood vessels. directly by the cells of the body. The energy must first
+The cells of the pancreas are continuously making en- be transferred to another substance, called adenosine
+zymes so that we can digest our food. Without energy, triphosphate (ATP). ATP is an energy transfer molecule.
+the body ceases to function. ATP is composed of three parts: a base, a sugar, and
+three phosphate groups (see Fig. 2.7B). Note the phos-
+phate groups of the ATP molecule; they have unique
+FORMS OF ENERGY
+chemical bonds. The squiggly lines connecting the
+There are six forms of energy, summarized in Table second and third phosphate groups indicate that these
+2.3. Mechanical energy is expressed as movement. bonds are high-energy bonds. When these bonds are
+For example, when the leg muscles contract, you are broken, a large amount of energy is released. More im-
+able to walk. Chemical energy is stored within the portantly, the energy released from ATP can be used
+chemical bonds holding the atoms together. When directly by the cell to perform its tasks.
+the chemical bonds are broken, chemical energy is The energy stored within the high-energy bonds is
+released. The released energy can then be used to similar to the energy stored in a loaded mousetrap (see
+perform other types of work, such as digesting food. Fig. 2.7C). Energy is stored in the trap when you set the
+This process is similar to running a car’s engine; the metal bar in its loaded position. When the trap is set off by
+energy released from the burning, or breakdown, of the mouse, the metal bar snaps back into its original posi-
+the gas is used to turn the engine, and the running tion, thereby releasing the stored energy. Similarly, when
+engine then moves your car. energy is needed by the body, ATP is split. The energy
+that was stored in ATP is released. In other words, the
+bond that holds the end phosphate group is broken, and
+CONVERSION OF ENERGY
+energy is released. With the release of energy, the split-
+Energy is easily converted from one form to another. ting of ATP also yields adenosine diphosphate (ADP)
+For example, when a log burns, the chemical energy and phosphate (P). This process can be shown as follows:
+stored in it is converted to heat (thermal energy) and
+ATP→ energy+ADP+P
+light (radiant energy). In a similar way, the chemical
+energy stored in the muscle is converted into mechani- ADP is almost identical to ATP, but the molecule
+cal energy when the muscle contracts and moves your now has one less phosphate group. ATP is replenished
+leg. when energy, obtained from burning food, reattaches
+The conversion of energy in the body is generally the end phosphate to ADP, as follows:
+accompanied by the release of heat. For example, when
+ADP+P+energy→ATP
+muscles contract during strenuous exercise, chemical
+energy is converted into both mechanical energy and
+Re-Think
+heat (thermal) energy. Consider how hot you get while
+exercising. (Body temperature is further described in 1. W hat is meant by the conversion of energy?
+Chapter 7.) 2 . E xplain why ATP is an energy transfer molecule.
+
+26 CHAPTER 2 Basic Chemistry
+A
+Structure of ATP:
+High-energy
+chemical bonds
+P P P
+Base
+Phosphate
+B Sugar
+Stored energy
+C
+Summary Outline
+Fig. 2.7 Energy. (A) Source of energy. (B) Storage of energy within the high-energy bonds of adenosine triphosphate
+(ATP). (C) Release of energy. Our bodies are made of different chemicals. To understand
+the body, you need to understand some general chemical
+Go Figure (Refer to Fig. 2.7) moved close to this sugar-iron mixture. The magnet principles.
+1. T /F __ The loaded mouse trap represents stored energy. pulls all the iron away from the sugar, thereby separat- I. Matter, Elements, and Atoms
+2. T he high-energy bonds refer to ______________ (milk, ing the two substances. Note that the two substances A. Matter
+cheese, ATP, or apple) have retained their original properties. The sugar is 1. Anything that occupies space and has mass
+still sugar, and the iron is still iron. 2. Exists in three states: solid, liquid, and gas
+3. Undergoes physical and chemical changes
+MIXTURES, SOLUTIONS, SUSPENSIONS,
+B. Elements
+AND PRECIPITATES SOLUTIONS
+1. Composed of atoms that have the same positive
+charge in their nuclei (same atomic number)
+You will encounter several other chemical terms in Solutions are mixtures. In a solution, the particles that
+2. Four elements (carbon, hydrogen, oxygen, and
+clinical situations. are mixed together remain evenly distributed. Salt
+nitrogen) make up 96% of body weight.
+water is an example of a solution. A solution has two
+C. Atoms
+parts, a solvent and a solute. The solute is the substance
+MIXTURES 1. Composed of three subatomic particles: neutrons,
+present in the smaller amount; it is the substance being protons, and electrons
+Mixtures are combinations of two or more substances dissolved. The salt in the salt water is the solute. The 2. Atomic number: number of protons
+that can be separated by ordinary physical means. solute can be solid, liquid, or gas. 3. Atomic mass: number of neutrons and protons
+When separated, the substances retain their original The solvent is the part of the solution present in the 4. Isotope: atom with the same atomic number but a
+properties. For example, imagine that you have a mix- greater amount; it does the dissolving and is usually different atomic mass
+ture of sugar and little bits of iron. A magnet is then liquid or gas. Water is the solvent in salt water. If water 5. Radioisotope: an unstable isotope
+
+Basic Chemistry CHAPTER 2 27
+is the solvent, the solution is referred to as an aque- when the salts are highly concentrated—hence the
+ous solution. If alcohol is the solvent, the solution is direction to “drink plenty of fluids” as a preventive
+referred to as a tincture. A solution is always clear, and measure. Similarly, cholesterol-laden bile forms pre-
+the solute does not settle to the bottom. cipitates called gallstones; dietary teaching regarding
+cholesterol intake is provided in hopes of decreasing
+gallstone formation. Finally, you will be mixing medi-
+SUSPENSIONS
+cations; some combinations of drugs form precipi-
+Suspensions are mixtures. In a suspension, the parti- tates that, if administered intravenously, act as emboli
+cles are relatively large and tend to settle to the bottom (such as moving blood clots) that could kill a patient.
+unless the mixture is shaken continuously. For exam- Clinically, precipitates are very important.
+ple, if sand and water are shaken together and then
+allowed to sit undisturbed, the sand gradually settles Sum It Up!
+to the bottom.
+Energy is the ability to do work. Without an adequate sup-
+In a colloidal suspension, the particles do not dis- ply of energy, the body cannot work, and it dies. Energy is
+solve, but they are so small that they remain suspended derived from food and transferred to high-energy bonds in
+within the liquid, even when not being shaken. A col- adenosine triphosphate (ATP). When needed, the energy
+loid (KOL-oyd) is a gel-like substance that resembles is released from ATP and used to power the body. Other
+egg whites. The body contains many colloidal suspen- chemical terms include mixtures, solutions, suspensions,
+sions. Blood plasma is a colloidal suspension because an d precipitates.
+the proteins remain suspended within the plasma.
+Other examples of colloidal suspensions include may-
+Re-Think
+onnaise and jelly.
+1. N ormal saline (0.9% NaCl) is a salt solution. Explain why
+it is a solution and not a colloidal suspension. What is the
+PRECIPITATES
+solute, and what is the solvent?
+A precipitation reaction is the formation of a solid in a 2. W hat is an aqueous solution?
+3 . W hat is meant by a precipitate?
+solution during a chemical reaction. The solid is called
+the precipitate. The formation of precipitates has sev-
+eral clinical consequences. For example, kidney stones
+are precipitates of salts in the urine and form especially
+Get Ready for Exams!
+Summary Outline II. Chemical Bonds
+A. Ionic bond: involves donation and acceptance of
+Our bodies are made of different chemicals. To understand
+electrons
+the body, you need to understand some general chemical
+B. Covalent bond: shares electrons of interacting atoms
+principles.
+C. Hydrogen bond: an example, intermolecular bonds
+I. Matter, Elements, and Atoms formed by polar molecules
+A. Matter
+III. Ions
+1. Anything that occupies space and has mass
+A. Ion: atom that carries an electrical charge
+2. Exists in three states: solid, liquid, and gas
+1. Cation: positively charged ion
+3. Undergoes physical and chemical changes
+2. Anion: negatively charged ion
+B. Elements
+B. Electrolyte: substance that forms ions (ionization)
+1. Composed of atoms that have the same positive
+when dissolved in water
+charge in their nuclei (same atomic number)
+IV. Molecules and Compounds
+2. Four elements (carbon, hydrogen, oxygen, and
+A. Molecule: substance formed by two or more atoms
+nitrogen) make up 96% of body weight.
+(e.g., O , H O)
+C. Atoms 2 2
+B. Compound: substance that forms when two or more
+1. Composed of three subatomic particles: neutrons,
+different atoms bond (e.g., H O)
+protons, and electrons 2
+C. Important molecules and compounds: include water,
+2. Atomic number: number of protons
+oxygen, and carbon dioxide
+3. Atomic mass: number of neutrons and protons
+4. Isotope: atom with the same atomic number but a V. Acids and Bases
+different atomic mass A. Acid: electrolyte that dissociates into hydrogen ion
+5. Radioisotope: an unstable isotope
+(H+)
+
+| 28 CHAPTER 2  | Basic Chemistry |     |     |
+| ------------- | --------------- | --- | --- |
+  B.  Base: a substance such as OH− that combines with  Matching: Ions and Electrolytes
+and eliminates H+ Directions: Match the following words with their descriptions.
+  C.  Neutralization reaction: acid and a base chemically
+|     |     |  a.  cation |  1.  ___  Classification of KCl |
+| --- | --- | ----------- | ------------------------------- |
+react to form a salt and water  b.  ions  2.  ___  Classification of K+ and Cl−
+  D.  pH scale: measures acidity and alkalinity. A pH of 7
+|     |     |  c.  electrolyte |  3.  ___  K+ is an ion classified as this |
+| --- | --- | ---------------- | ----------------------------------------- |
+is neutral. A pH less than 7 is acidic, and a pH higher
+|     |     |  d.  anion |  4.  ___  Cl− is an ion classified as this |
+| --- | --- | ---------- | ------------------------------------------ |
+than 7 is basic, or alkaline.
+|     |     |  e.  ionization |  5.  ___  Dissociation of KCl → K+ + Cl− |
+| --- | --- | --------------- | ---------------------------------------- |
+  E.   Normal pH of the blood: 7.35 to 7.45 (alkaline
+
+reserve). A person with a pH less than 7.35 is aci- Matching: Acids and Bases
+dotic, and a person with a pH higher than 7.45 is  Directions: Match the following words or symbols with their
+alkalotic.
+descriptions. Some words may be used more than once, but
+  F.   Regulation of blood pH: buffers, respiratory system,
+others may not be used at all.
+and kidneys
+|     |     |  a.  alkalosis |  1.  ___  Electrolyte that dissociates into H+  |
+| --- | --- | -------------- | ----------------------------------------------- |
+ VI.  Energy
+|     |     |  b.  pH | and an anion |
+| --- | --- | ------- | ------------ |
+  A.  Definition: ability to do work
+|     |     |  c.  H+ |  2.  ___  Ion that makes a solution acidic |
+| --- | --- | ------- | ------------------------------------------ |
+  B.  Forms of energy
+|     |     |  d.  base |  3.  ___  Measurement of hydrogen ion  |
+| --- | --- | --------- | -------------------------------------- |
+  1.   Six forms of energy: see Table 2.3
+|     |     |  e.  acid | concentration [H+] |
+| --- | --- | --------- | ------------------ |
+  2.   Most energy of metabolism is released as heat;
+|     |     |  f.  acidosis |  4.  ___  Condition characterized by pH lower  |
+| --- | --- | ------------- | ---------------------------------------------- |
+some energy is stored as ATP
+than 7.35
+  C.  Role of ATP
+ 5.  ___ Condition caused by excess H+
+  1.   ATP: energy transfer molecule
+
+|   2.   Energy stored in high-energy phosphate bonds |     | Multiple Choice |     |
+| --------------------------------------------------- | --- | --------------- | --- |
+ VII.  Mixtures, Solutions, Suspensions, and Precipitates
+ 1.  The ionization of salt (NaCl)
+  A.  Mixture: a blend of two or more substances that can
+  a.  is called a neutralization reaction.
+| be separated by ordinary physical means |     |   b.  lowers pH. |     |
+| --------------------------------------- | --- | ---------------- | --- |
+  B.  Solutions, suspensions, and colloidal suspensions:
+  c.  produces a cation (Na+) and an anion (Cl−).
+types of mixtures
+  d.  causes acidosis.
+  C.  Precipitate: solid formed during a chemical reaction
+ 2.  Which of the following is true of iodine and radioactive
+iodine?
+Review Your Knowledge
+  a.  Both have the same atomic numbers.
+  b.  Both have the same atomic mass.
+Matching: Atoms and Elements
+  c.  Neither have electrons in their orbitals.
+Directions: Match the following words or symbols with their
+  d.  Both create radiation hazards.
+descriptions below.
+ 3.  Which of the following is not true of Na+?
+  a.  It is called the sodium ion.
+|  a.  atom |  1.  ___  Composed of three particles:  |     |     |
+| --------- | --------------------------------------- | --- | --- |
+  b.  It has more protons than electrons.
+|  b.  K | protons, neutrons, and electrons |     |     |
+| ------ | -------------------------------- | --- | --- |
+ c.  matter  2.  ___  Symbol for potassium   c.  It is called a cation.
+  d.  It is measured by pH.
+|  d.  Na |  3.  ___  Symbol for sodium |     |     |
+| ------- | --------------------------- | --- | --- |
+ 4.  Which of the following is true of water?
+|  e.  ion |  4.  ___  Exists in three states: liquid, solid,  |                                 |     |
+| -------- | ------------------------------------------------- | ------------------------------- | --- |
+|          | and gas                                           |   a.  It is a molecule.         |     |
+|          |  5.  ___  Formed when sodium loses an             |   b.  It is an aqueous solvent. |     |
+|          | electron                                          |   c.  It is a compound.         |     |
+  d.  All of the above are true.
+
+Matching: Structure of the Atom
+ 5.  Which of the following best describes ATP?
+Directions: Match the following words with their descrip-   a.  It is a buffer, removing H+ from solution.
+tions. Some words may be used more than once, but others    b.  It is an energy transfer molecule.
+may not be used at all.   c.  It is a radioactive isotope of phosphate.
+ a.  atomic mass  1.  ___  Number of protons in the    d.  It ionizes to H+, thereby lowering pH.
+ 6.  Which of the following has donated an electron?
+|  b.  isotope | nucleus |     |     |
+| ------------ | ------- | --- | --- |
+  a.  H O
+|  c.  protons       |  2.  ___  Sum of number of protons and  |           | 2   |
+| ------------------ | --------------------------------------- | --------- | --- |
+|  d.  electrons     | neutrons                                |   b.  Cl− |     |
+|  e.  neutrons      |  3.  ___  Same atomic number but        |   c.  Na+ |     |
+|  f.  atomic number | different atomic mass                   |   d.  HCO | –   |
+3
+ 4.  ___  Number of these in each atom   7.  Which of the following is least descriptive of the nucleus
+|     | equal to number of protons | of the atom? |     |
+| --- | -------------------------- | ------------ | --- |
+ 5.  ___  Circulate in orbits around the    a.  Its contents determine the atomic number.
+|     | nucleus |   b.  Its contents determine the atomic mass. |     |
+| --- | ------- | --------------------------------------------- | --- |
+|     |         |   c.  It is the “home” of the electrons.      |     |
+  d.  It is the “home” of the protons.
+
+Basic Chemistry CHAPTER 2 29
+8. Which of the following is descriptive of the patient with 10. Which if the following illustrates polarity?
+a blood pH of 7.28? a. The ionization of NaCl
+a. The patient has a deficiency of H+. b. The lop-sided water molecule; one end has a (+)
+b. The pH is within normal limits. charge, the other end has a (−) charge
+c. The patient is acidotic. c. The neutralization of H+ by OH-
+d. The patient is dehydrated. d. The formation of a precipitate
+9. Two hydrogen atoms and one oxygen atom share elec-
+trons in their outer orbital. This is an example of
+a. ionic bonding
+b. intermolecular bonding
+c. ionization
+d. covalent bonding
+
+3
+Cells
+http://evolve.elsevier.com/Herlihy
+Objectives
+ 1.  Label a diagram of the main parts of a typical cell, and do  	 •	  Describe the active and passive movements of
+| the following: |     | substances across a cell membrane. |     |     |     |
+| -------------- | --- | ---------------------------------- | --- | --- | --- |
+	 •	  Explain the role of the nucleus. 	 •	  Define tonicity and compare isotonic, hypotonic, and
+	 •	  Describe the functions of the main organelles of the  hypertonic solutions.
+cell.  3.  Describe the phases of the cell cycle, including mitosis.
+	 •	  Identify the components of the cell membrane.  4.  Explain what is meant by cell differentiation.
+ 2.  Do the following regarding transport mechanisms:  5.  Explain the processes and consequences of uncontrolled
+and disorganized cell growth and apoptosis.
+Key Terms
+| active transport (p. 36) | equilibrium (p. 37) |     | osmosis (p. 38) |     |     |
+| ------------------------ | ------------------- | --- | --------------- | --- | --- |
+apoptosis (p. 45) exocytosis (p. 41) passive transport (p. 36)
+| cell (p. 30)       | facilitated diffusion (p. 38) |     | permeable (p. 31)    |     |     |
+| ------------------ | ----------------------------- | --- | -------------------- | --- | --- |
+| cell cycle (p. 42) | filtration (p. 40)            |     | phagocytosis (p. 41) |     |     |
+cell membrane (p. 31) Golgi apparatus (p. 34) pinocytosis (p. 41)
+| cytoplasm (p. 33) | lysosomes (p. 34) |     | ribosomes (p. 34) |     |     |
+| ----------------- | ----------------- | --- | ----------------- | --- | --- |
+differentiate (p. 44) mitochondria (p. 33) stem cells (p. 44)
+| diffusion (p. 36)                    | mitosis (p. 42)    |     | tonicity (p. 39) |     |     |
+| ------------------------------------ | ------------------ | --- | ---------------- | --- | --- |
+| endocytosis (p. 41)                  | nucleus (p. 32)    |     |                  |     |     |
+| e nd oplasmic reticulum (ER) (p. 34) | organelles (p. 33) |     |                  |     |     |
+What do this monk and a cell have in common? While  The cell is the structural and functional unit of all
+looking at a piece of cork under a microscope in the  living matter. Cells vary considerably in size, shape,
+1600s, Robert Hooke saw cube like structures that re- and function. A red blood cell (RBC), for example, is
+sembled the rooms, or cells, occupied by monks in a  tiny, whereas a single nerve cell may measure 4 feet
+monastery. Hooke thus called his structures “cells.”  in length (Fig. 3.1). The shapes and structures of the
+The study of cellular structure and function is called  cells are also very different. The RBC is shaped like
+cytology. a Frisbee and is able to bend. The shape allows it to
+squeeze through tiny blood vessels and deliver oxygen
+and other nutrients throughout the body. Some nerve
+cells are very long, and many resemble bushes or trees.
+Their shapes enable them to conduct electrical signals
+quickly over long distances. Cell structure and func-
+tion are closely related.
+ Go Figure (Refer to Fig. 3.1)
+Microscope
+ 1. T /F __ All cells must be small enough to fit through blood
+    vessels.
+TYPICAL CELL
+Cells
+|     |     | Despite  the  | differences,  | cells  have  | many  similari- |
+| --- | --- | ------------- | ------------- | ------------ | --------------- |
+ties. Fig. 3.2 is a typical cell with its many cellular
+30
+
+Cells CHAPTER 3 31
+Blood vessel Go Figure (Refer to Fig. 3.2)
+1. T /F __ All purple-colored structures are in the cytoplasm.
+2. T /F __ Mitochondria, endoplasmic reticulum, and
+ribosomes are within the nucleus.
+CELL MEMBRANE
+Red blood cells The cell is encased by a cell membrane, also called the
+plasma membrane. The cell membrane separates intracellu-
+lar (inside the cell) material from extracellular (outside the
+cell) material. In addition to physically holding the cell to-
+gether, the cell membrane performs other important func-
+tions. One of its chief functions is the selection of substanc-
+es allowed to enter or leave the cell. Because the membrane
+chooses the substances allowed to cross it, the membrane
+is said to be selectively permeable, or semipermeable.
+What makes up a cell membrane? The cell mem-
+brane is composed primarily of phospholipids and
+protein, as well as a small amount of carbohydrates
+Nerve cell
+(Fig. 3.3). The phospholipids are arranged in two lay-
+ers. The protein molecules in the membrane perform
+several important functions; they provide structural
+support for the membrane, act as binding sites for
+hormones, and poke holes, or pores, through the lipid
+membrane. These pores form channels through which
+water and dissolved substances flow.
+Go Figure (Refer to Fig. 3.3)
+1. W hich structure is described as a lipid bilayer?
+____________ (ribosome, cilia, centriole, cell membrane)
+2. P roteins that penetrate the cell membrane form
+__________________ through which water and small
+solute can flow. (ATP, pores, cilia, ribosomes)
+Substances move across the semipermeable mem-
+brane in two ways. They can dissolve in the lipid por-
+tion of the membrane, as do oxygen and carbon dioxide
+(lipid-soluble substances). Substances can also cross the
+membrane by flowing through the pores. Water and
+electrically charged substances such as sodium and
+chloride cannot penetrate the lipid membrane and must
+use the pores. These are called water-soluble substances.
+The size of the pores also helps select which substances
+cross the membrane. Substances larger than the pores
+cannot cross the membrane, whereas smaller substances
+such as sodium and chloride flow through easily. The
+solubility characteristics of the membrane also play an
+important role in pharmacology. Drugs are classified as
+lipid (fat) soluble or water soluble. Drug solubility de-
+termines its distribution throughout the body.
+Re-Think
+Fig. 3.1 Cells Come in All Shapes and Sizes.
+1. W hat is meant by a semipermeable membrane?
+components. Each specialized cell, such as a nerve cell,
+2. H ow does a fat-soluble substance cross the cell
+possesses some or all of the properties of the typical
+membrane? How does a water-soluble substance cross
+cell. Table 3.1 lists and summarizes the functions of the
+the cell membrane?
+cellular components.
+
+32 CHAPTER 3 Cells
+Microtubule
+Centrioles
+Cell membrane
+Free ribosome
+Mitochondrion
+Nucleus Cytoplasm
+Nuclear
+membrane
+Lysosome
+Nucleolus
+Rough
+endoplasmic
+reticulum
+Golgi (covered with
+apparatus fixed ribosomes)
+Smooth
+endoplasmic
+reticulum
+Cilia
+Fig. 3.2 A Typical Cell.
+The nucleus is filled with a fluid substance called
+INSIDE THE CELL
+nucleoplasm. Within the nucleoplasm are two other
+The inside of the cell is divided into two compart- structures: the nucleolus and chromatin. The nucleo-
+ments: the nucleus and the cytoplasm. The inside of lus, or little nucleus, synthesizes ribosomes that move
+the cell resembles the inside of a raw egg; the “yellow through nuclear pores into the cytoplasm, where they
+yolk” is the nucleus, and the “white” is the cytoplasm. play a role in protein synthesis.
+Chromatin is composed mainly of strands of DNA
+NUCLEUS (deoxyribonucleic acid), the carriers of the genetic code.
+The nucleus is the control center of the cell (see Fig. In nondividing cells, chromatin appears as a tangled
+3.2). In particular, the nucleus contains the genetic array of fine filaments. In dividing cells, however, chro-
+information and controls all protein synthesis. Most matin strands coil tightly, forming DNA-containing
+adult cells have one nucleus; only mature RBCs structures called chromosomes. The genetic code and
+have no nucleus. Surrounding the nucleus is a dou- protein synthesis are described more fully in Chapter 4.
+ble-layered nuclear membrane. The nuclear mem-
+brane contains large pores that allow the free move- Re-Think
+ment of certain substances between the nucleus and
+W hy is the nucleus called the control center of the cell?
+cytoplasm.
+
+Cells CHAPTER 3 33
+Table 3.1 Cell Structure and Function
+CELL STRUCTURE DESCRIPTION AND FUNCTION
+Cell Membrane Contains the cellular contents; selects what enters and leaves the cell
+Cilia Hairlike projections that move substances across surface of cell membrane
+Flagellum Single long hair for swimming movement of the sperm
+Microvilli Accordion-like folds in the membrane; increase transport of water and dissolved solute
+Nucleus Control center of the cell; stores genetic information
+Chromatin Threadlike structures in the nondividing cell that contain DNA; chromatin threads form
+chromosomes in a dividing cell
+Nucleolus Synthesizes RNA and ribosomes
+Nucleoplasm Gel in the nucleus
+Nuclear membrane Separates the nucleoplasm from the cytoplasm
+Cytoplasm Gel located inside the cell but outside the nucleus
+Cytosol Medium composed of water and dissolved solute; organelles suspended in the cytosol
+Organelles Tiny organs suspended in the cytosol
+Mitochondria Site of adenosine triphosphate production; “power plants” of the cell
+Endoplasmic reticulum (ER) Membranes that form channels for the flow of cellular substances such as proteins
+Rough ER Contains ribosomes where protein is synthesized
+Smooth ER Site of lipid and steroid synthesis; synthesis of glycogen in liver and skeletal muscle
+Golgi apparatus Finishes and packages protein for export
+Ribosomes Site of protein synthesis
+Free Ribosomes that float within the cytosol; make protein used within the cell
+Fixed Ribosomes fixed to the ER, making it appear rough; concerned with the synthesis of
+protein that is exported
+Lysosomes Intracellular house cleaning, phagocytosis, removal of damaged organelles
+Cytoskeleton Microfilaments and microtubules that provide for intracellular shape, support, and
+movement
+Centrioles Paired, short, rod-shaped microtubules that form spindles and help separate the
+chromosomes during mitosis
+Inclusion bodies Temporary insoluble material such as glycogen granules and pigments such as melanin
+CYTOPLASM example, is very active and therefore has many mito-
+Cytoplasmic Gel chondria per cell. Bone cells are less active metaboli-
+The cytoplasm, or the “gel in the cell,” is found inside cally and have fewer mitochondria.
+the cell but outside the nucleus (like the white of a raw The mitochondrial membrane has two layers (Fig.
+egg). The cytoplasm contains the cytosol and organ- 3.4); the outer layer is smooth, whereas the inner layer
+elles. The cytosol is the intracellular fluid and is com- has many folds, referred to as cristae. The enzymes asso-
+posed primarily of water, electrolytes, proteins, and ciated with adenosine triphosphate (ATP) production
+nutrients. The cytosol also contains inclusion bodies, are located along the cristae. Because the mitochondria
+insoluble materials such as glycogen granules, and produce most of the energy (ATP) in the body, they
+pigments such as melanin. The organelles, or “little or- are referred to as the “power plants” of the cell. (See
+gans,” are dispersed throughout the cytoplasm; each Chapter 2 for an explanation of ATP and Chapter 4 for
+organelle has a specific role. Locate the organelles in a description of ATP production.)
+Fig. 3.2 and Table 3.1.
+Go Figure (Refer to Fig. 3.4)
+CYTOPLASMIC ORGANELLES
+1. T he power plant represents the
+Mitochondria
+________________________. (nucleus, endoplasmic
+The mitochondria are tiny, slipper-shaped organelles. reticulum, ribosomes, mitochondria)
+The number of mitochondria per cell varies, depend- 2. T he enzymes necessary for ATP production are most
+ing on the metabolic activity of the cell (how hard the associated with or represented by the __________.
+cell works). The more metabolically active the cell, (electrical plug, outer mitochondrial membrane, cristae,
+the greater the number of mitochondria. The liver, for fuel barrel)
+
+34 CHAPTER 3 Cells
+Carbohydrate Extracellular space
+chain
+Glycoprotein
+Phospholipid:
+Phosphate
+Lipid
+chains
+Cytoskeleton
+Protein Intracellular space
+(that forms (cytoplasm)
+pores)
+Fig. 3.3 Structure of the Cell Membrane: Phospholipid Bilayer and Protein.
+Ribosomes Golgi Apparatus
+Ribosomes are cytoplasmic organelles involved in The Golgi apparatus is a series of flattened membra-
+protein synthesis. Some ribosomes are attached to the nous sacs (Fig. 3.5). Proteins synthesized along the
+endoplasmic reticulum and are called fixed ribosomes. RER are transported to the Golgi apparatus through
+Fixed ribosomes are largely concerned with the syn- channels formed by the ER. The Golgi apparatus puts
+thesis of exportable protein—that is, protein secreted the finishing touches on the protein. For example, a
+by the cell for use elsewhere in the body. Other ribo- glucose molecule may be attached to a protein within
+somes, called free ribosomes, float freely within the cyto- the Golgi apparatus. A segment of the Golgi membrane
+plasm and generally synthesize proteins that are used then wraps itself around the protein and pinches itself
+within the cell. off to form a secretory vesicle. In this way, the Golgi
+apparatus packages the protein. Note that many of the
+Endoplasmic Reticulum organelles, particularly the ribosomes, ER, and Golgi
+The endoplasmic reticulum (ER) is a network of mem- apparatus, are involved in protein synthesis. (Protein
+branes within the cytoplasm (see Fig. 3.2). These long, synthesis is described in Chapter 4.)
+folded membranes form channels through which sub-
+stances, especially newly synthesized protein, move. Go Figure (Refer to Fig. 3.5)
+The two types of ER include the type containing ribo-
+1. T /F __ The Golgi apparatus packages protein in a
+somes along its surface; it is called rough endoplasmic
+membrane that eventually fuses with the cell membrane.
+reticulum (RER) because of its rough, sandpaper-like
+2. T /F __ Protein is synthesized in the Golgi apparatus and
+appearance. The RER is primarily concerned with
+transported to the ribosomes for storage.
+protein synthesis. Protein synthesized along the RER
+is transported through the channels and delivered to
+the Golgi apparatus for further processing. The ER Lysosomes
+that does not contain ribosomes on its surface appears Lysosomes are membranous sacs containing powerful
+smooth; it is called smooth endoplasmic reticulum (SER). enzymes. Lysosomal enzymes break down intracellu-
+SER is primarily involved in the synthesis of lipids, ste- lar waste and debris, including damaged organelles,
+roids, glycerides, and glycogen in skeletal muscle and and thus help “clean house.” Lysosomal enzymes
+liver cells. perform several other functions. They kill ingested
+
+Cells CHAPTER 3 35
+Outer
+membrane Enzymes
+Cristae
+Inner
+membrane
+Mitochondrion
+Fig. 3.4 Mitochondria Are the “Power Plants” of the Cells. ATP, Adenosine triphosphate.
+Nucleus
+Rough endoplasmic
+reticulum
+Golgi apparatus
+Protein
+Inside the cell
+Secretory
+vesicle
+Outside the cell
+Cell membrane
+Fig. 3.5 The Golgi Apparatus: Packages the Protein for Export.
+bacteria. Lysosomes also break down the contractile Cytoskeleton
+proteins of inactive muscles, as occurs in retired ath- The cytoskeleton is composed of threadlike structures
+letes and chronically bedridden persons. called microfilaments and microtubules. The cytoskeleton
+
+36 CHAPTER 3 Cells
+helps maintain the shape of the cell and assists the cell is an example of a flagellum; the tail enables the sperm
+in various forms of cellular movement. Cellular move- to swim.
+ment is particularly evident in muscle cells, which con-
+tain large numbers of microfilaments. Microtubules Sum It Up!
+are the primary component of the cytoskeleton. In
+The cell is the structural and functional unit of all living mat-
+addition to making the cell strong and rigid, the mi-
+ter. Although cells differ considerably, they also share many
+crotubules anchor the position of the organelles within
+similarities. The “typical cell” illustrates these similarities. The
+the cytoplasm. Microtubules also play a key role in cell
+cell is surrounded by a cell membrane. The inside of the cell
+division; they form the spindle apparatus that helps is divided into the nucleus, the control center, and the cyto-
+distribute the chromosomes to opposite ends of the plasm, which contains the cytosol and many little organs,
+dividing cell. (Cell division is explained in Chapter 4.) or organelles, each of which has a special task to perform.
+Ta ble 3.1 lists the organelles and their functions.
+Centrioles
+Centrioles are paired, rod-shaped, and short micro-
+MOVEMENT ACROSS THE CELL
+tubular structures that form the spindle apparatus in
+MEMBRANE
+a dividing cell. Cells that have no centrioles are inca-
+pable of cell division; these include neurons, mature Cells are bathed in an extracellular fluid that is rich in
+RBCs, skeletal muscle cells, and cardiac muscle cells. nutrients such as oxygen, glucose, and amino acids.
+These nutrients are needed in the cell and must there-
+Re-Think fore be able to cross the cell membrane. The cell’s waste,
+which accumulates within the cell, must also be able to
+1. W hat is the primary function of the mitochondria?
+cross the cell membrane for eventual elimination.
+2. W hat is the difference between fixed and free
+A number of mechanisms assist in the movement of
+ribosomes?
+water and dissolved substances across the cell mem-
+3. W hat is the difference between the rough and smooth
+ER? brane. The transport mechanisms can be divided
+into two groups: passive transport and active trans-
+port mechanisms. Table 3.2 summarizes both types of
+ON THE CELL MEMBRANE transport.
+The passive transport mechanisms require no ad-
+MICROVILLI
+ditional input of energy in the form of ATP. Passive
+For cells that are particularly involved with the move- transport is something like the downward movement
+ment of large amounts of water and its dissolved sol- of a ball (Fig. 3.6A). The ball is at the top of the hill.
+utes, the membrane forms accordion-like folds called Once released, the ball rolls downhill. The ball does
+microvilli (sing., microvillus). The folding of the cell not need to be pushed; it moves passively, without any
+membrane increases surface area, thereby increasing input of energy. Passive transport mechanisms cause
+the amount of fluid absorbed. For example, some of water and dissolved substances to move without ad-
+the cells in the digestive tract have millions of foldings, ditional energy, like a ball rolling downhill.
+called microvilli, to absorb water and the end products Active transport mechanisms require an input of
+of digested food. energy in the form of ATP. Active transport is like the
+upward movement of a ball (see Fig. 3.6B). For the ball
+CILIA
+to move uphill, it must be pushed, therefore requiring
+Cilia are short, hairlike projections on the outer sur- an input of energy.
+face of the cell membrane. Cilia use wavelike motions
+to move substances across the surface of the cell. For Go Figure (Refer to Fig. 3.6)
+example, cilia are abundant on the cells that line the
+1. T /F __ The stationary figure represents “no ATP input” or
+respiratory passages. The cilia help move mucus and
+passive transport.
+trapped dust and dirt toward the throat, away from
+the lungs. Once in the throat, the mucus can be re-
+moved by coughing or swallowing. The cilia therefore
+PASSIVE TRANSPORT MECHANISMS
+help clear the respiratory passages. Cigarette smoking
+damages the cilia and thus deprives the smoker of this The passive mechanisms that move substances across
+benefit. the membrane include diffusion, facilitated diffusion,
+osmosis, and filtration.
+FLAGELLA
+DIFFUSION
+Flagella (meaning “whiplike”) are similar to cilia in
+that both are hairlike projections of the cell membrane. Diffusion is the most common transport mechanism.
+Flagella, however, are thicker, longer, and fewer in Diffusion is the movement of a substance from an area of
+number; they help move the cell. The tail of the sperm higher concentration to an area of lower concentration.
+
+Cells CHAPTER 3 37
+Table 3.2 Transport Mechanisms
+MECHANISM DESCRIPTION AND FUNCTION
+Passive
+Diffusion Movement of a substance from an area of high concentration to an area of low concentration
+Facilitated diffusion Helper molecule within the membrane assists movement of substances from area of high
+concentration to area of low concentration
+Osmosis Diffusion of water (solvent) from an area with more water to an area with less water; the water
+compartments are separated by a semipermeable membrane
+Filtration The pushing of water and dissolved substances from an area of high pressure to an area of
+low pressure; the water and dissolved substances are pushed
+Active
+Active transport pump Moves a substance uphill (from an area of low concentration to an area of high
+concentration); requires an input of energy (adenosine triphosphate)
+Endocytosis Taking in or ingestion of substances by the cell membrane
+Phagocytosis Engulfing of solid particles by the cell membrane (cellular eating)
+Pinocytosis Engulfing of liquid droplets (cellular drinking)
+Exocytsois Secretion of cellular products (e.g., protein, debris) out of the cell
+Passive (downhill) Active (uphill)
+A B
+Fig. 3.6 Transport Mechanisms. (A) Passive transport mechanism. The ball rolls downhill on its own. (B) Active
+transport mechanism. The ball must be pushed uphill using adenosine triphosphate (ATP).
+For example, a tablet of red dye is placed in a glass causes oxygen to move across the membrane of an al-
+of water (Fig. 3.7A). The tablet dissolves, and the dye veolus of the lung into the blood (see Fig. 3.7C). Oxygen
+moves from an area where it is most concentrated (glass diffuses from the alveolus because the concentration of
+1) to an area where it is less concentrated (glasses 2 and oxygen is higher within the alveolus than within the
+3). Diffusion continues until the dye is evenly distribut- blood. Conversely, carbon dioxide, a waste product
+ed throughout the glass. The point at which no further that accumulates within the blood, diffuses in the op-
+net diffusion occurs (glass 3) is called equilibrium. posite direction (carbon dioxide moves from the blood
+The scent of our pet skunk, Perfume, also illustrates into the alveolus). The lungs then exhale it, thereby
+diffusion (see Fig. 3.7B). Perfume’s scent does not eliminating waste from the body. Thus the process of
+take long to permeate the area! Diffusion is involved diffusion moves oxygen into the blood and carbon di-
+in many physiological events. For example, diffusion oxide out of the blood.
+
+38 CHAPTER 3 Cells
+1 2 3
+A B
+Alveoli
+Lungs
+Alveoli Blood Blood
+vessels
+C Oxygen Carbon dioxide
+Fig. 3.7 Diffusion. (A) Diffusion of a red dye. (B) Diffusion of Perfume’s “perfume.” (C) Diffusion of oxygen and carbon
+dioxide across the alveolar cell membrane in the lung.
+Go Figure (Refer to Fig. 3.7) Go Figure (Refer to Fig. 3.8)
+1. W hich of the following best describes the events 1. W hich of the following best describes facilitated
+in panels A, B, and C? __________ (malodorous, diffusion? _____________ (active transport, uphill
+ATP-requiring, occurs only in living systems, passive pumping, passive transport, ATP-requiring)
+transport) 2. W hich word best describes “helped”? ________________
+2. O xygen moves from the alveoli in the lungs into the (osmosis, facilitated, pump, ATP-requiring)
+blood by _____________. (active transport, ATP-driven
+transport, diffusion, being pumped)
+OSMOSIS
+Osmosis is a special case of diffusion. Osmosis is the dif-
+fusion of water through a selectively permeable mem-
+FACILITATED DIFFUSION
+brane. A selectively permeable—or semipermeable—
+Facilitated diffusion is a form of diffusion that is re- membrane allows the passage of some substances while
+sponsible for the transport of many substances (facili- restricting the passage of others. During osmosis, the
+tate means “to help”). As in diffusion, substances move water diffuses from an area with more water to one with
+from a higher concentration toward a lower concen- less. The dissolved substances, however, do not move.
+tration (Fig. 3.8). In facilitated diffusion, however, the Two different solutions in the glass illustrate os-
+substance is helped across the membrane by a mol- mosis. The glass is divided into two compartments
+ecule within the membrane. The helper molecule in- (A and B) by a semipermeable membrane (Fig. 3.9).
+creases the rate of diffusion. The transport of glucose Compartment A contains a dilute glucose solution,
+by facilitated diffusion is illustrated in Fig. 3.8 by a boy whereas compartment B contains a more concentrated
+carrying the glucose. Note that he is moving downhill, glucose solution. The membrane is permeable only to
+indicating that facilitated diffusion is a passive trans- water. The glucose cannot cross the membrane and is
+port process. therefore confined to its compartment.
+
+Cells CHAPTER 3 39
+Selectively permeable
+Cell
+membrane
+membrane
+Solute
+Side A: Side B: Side A Side B
+Dilute Concentrated
+Membrane solution solution
+Fig. 3.9 Osmosis. The effect of osmotically active particles on the
+movement of water.
+Glucose being
+“helped” downhill
+Do You Know...
+Why a Blood Clot May Continue to “Grow,” Even When the
+Bleeding Stops?
+The components of the blood clot are osmotically active par-
+ticles. Water therefore diffuses into the blood clot, causing it
+to enlarge. If the expanding blood clot is located within the
+brain, it presses on the brain tissue, causing a variety of life-
+th reatening neurological deficits.
+Fig. 3.8 Facilitated Diffusion.
+Go Figure (Refer to Fig. 3.9) TONICITY
+1. T /F __ Solute is diffusing from side B to A. Tonicity is the ability of the concentration of a solution to
+2 . T /F __ Water is diffusing from side A to B. affect the volume and pressure within a cell. Note what
+happens when a cell is placed in solutions of different con-
+During osmosis, the water moves from compart- centrations (Fig. 3.10). The following three terms are used
+ment A to compartment B (from the area where there to illustrate tonicity: isotonic, hypotonic, and hypertonic.
+is more water to the area with less). The following two
+effects occur: (1) the amount, or volume, of water in Go Figure (Refer to Fig. 3.10)
+compartment B becomes greater than the volume in
+1. T /F __ When a cell is placed in a hypertonic solution its
+compartment A; and (2) the concentrations of the so-
+volume does not change.
+lutions in both compartments change. The solution in
+2. W hich of the following solutions does not cause a
+compartment A becomes more concentrated, whereas
+change in cell volume? ______________ (isotonic,
+the solution in compartment B becomes more dilute. hypertonic, hypotonic, pure water)
+Because water moves toward the more concentrat-
+ed solution, it appears to be “pulled” in that direction.
+Sometimes osmosis is described as a “pulling” pres- Isotonic Solution
+sure. For example, Na+ is said to pull or hold water. An isotonic solution has the same concentration as in-
+More correctly stated, water diffuses into the more tracellular fluid (iso means “same”). Consider an RBC
+concentrated saline solution. placed in an isotonic solution. Because the solution is
+Because osmosis causes water to move into a com- isotonic, no net movement of water occurs; the cell nei-
+partment, it can cause swelling. For example, tissue ther gains nor loses water.
+injury causes leakage and accumulation of proteins
+within the tissue space. The confined proteins act os- Hypotonic Solution
+motically. Water diffuses toward the protein, causing If an RBC is placed in pure water (a solution containing
+the tissues to swell, a condition called edema. no solute), then water moves into the cell by osmosis
+(from where there is more water to where there is less
+Re-Think water). The pure water, being more dilute than the in-
+side of the cell, is said to be hypotonic. Hypotonic solu-
+What are the driving forces for diffusion, facilitated diffusion,
+tions cause RBCs to burst, or lyse, in a process referred
+an d osmosis?
+
+40 CHAPTER 3 Cells
+Cell Normal Concentrated
+membrane saline Water salt solution
+Isotonic Hypotonic Hypertonic
+Fig. 3.10 Tonicity: Isotonic, Hypotonic, and Hypertonic Solutions.
+to as hemolysis. Because of hemolysis, pure water is not difference in concentrations. With filtration, water and
+administered intravenously. dissolved substances cross the membrane in response
+to differences in pressures. In other words, pressure
+Hypertonic Solutions pushes substances across the membrane.
+If an RBC is placed within a very concentrated salt so- A syringe can illustrate filtration (Fig. 3.11). Syringe
+lution, water diffuses out of the RBC into the bathing 1 is filled with water. If a force is applied to the plunger,
+solution, causing the RBC to shrink, or crenate. The salt the water is pushed out through the needle. The water
+solution is referred to as a hypertonic solution. moves in response to a pressure difference, with great-
+Why is the tonicity of a solution important? If the er pressure at the plunger than at the tip of the needle.
+cell gains water, the RBC membrane bursts. If the RBC In the second syringe, tiny holes are made in the sides
+loses water, the cell shrinks. In both cases, RBC func- of the barrel. When force is applied to the plunger, wa-
+tion is impaired. Isotonic solutions do not cause cells ter squirts out the sides of the syringe and out the tip
+to swell or shrink. While the RBC was used to explain of the needle.
+tonicity, other cells respond in the same way. Clinically,
+isotonic solutions are frequently administered intra- Go Figure (Refer to Fig. 3.11)
+venously. Commonly used isotonic solutions include
+1. I n panel B the holes in the barrel of the syringe represent
+normal saline (0.9% NaCl), 5% D/W (5% dextrose or
+the ______________________. (heart, pores in the
+glucose in water, or D W), and Ringer solution. Under
+5 capillaries, effect of plasma protein, diseased blood
+special conditions, hypotonic or hypertonic solutions
+vessels)
+may be administered intravenously. 2. T he force applied to the plunger, as in panels A and B,
+represents the __________. (diffusion, osmosis, pumping
+Re-Think of the heart, the pores in the capillaries)
+3. T he pumping action of the heart causes
+1. W hy does the exposure of an RBC to a hypotonic
+_______________. (diffusion, facilitated diffusion, filtration,
+environment cause hemolysis?
+osmosis)
+2. W hat is the advantage of administering an isotonic IV
+solution?
+Where does filtration occur in the body? The move-
+ment of fluid across the capillary wall can be compared
+Do You Know... with the movement of water in the syringe with holes
+in its side (syringe 2). A capillary is a tiny vessel that
+How to Shrink a Swollen Brain?
+contains blood. The capillary wall is composed of a
+This can be done by administering a hypertonic solution thin layer of cells with many little pores. The pressure
+(e.g., mannitol) intravenously (into the blood). Because a
+in the capillary pushes water and dissolved substances
+hypertonic solution contains more solute than what is pres-
+out of the blood and through the pores in the capillary
+ent in the interstitial or tissue fluid of the brain, water leaves
+wall into the tissue spaces. This process is filtration; it is
+the brain tissue in response to the hyperosmolar blood. As
+movement caused by pushing. (Capillary filtration is
+the blood and excess water are carried away from the brain,
+b rain swelling (cerebral edema) decreases.
+further explained in Chapter 19.)
+ACTIVE TRANSPORT MECHANISMS
+FILTRATION
+With diffusion and osmosis, water and dissolved sub- The active transport mechanisms include active trans-
+stances move across the membrane in response to a port pumps, endocytosis, and exocytosis.
+
+Cells CHAPTER 3 41
+Syringe #1 white blood cells eat, or phagocytose, bacteria, there-
+by helping the body defend itself against infection.
+If the cell ingests a water droplet, the endocytosis is
+called pinocytosis (pin-oh-sye-TOH-sis), or “cellular
+drinking.”
+Force on
+H O
+plunger 2 EXOCYTOSIS
+A Whereas endocytosis brings substances into the cells,
+Syringe #2 exocytosis (EX-oh-sigh-toe-sis) moves substances out
+of the cells (see Fig. 3.12C). For example, the cells of the
+H O
+2
+pancreas make proteins for use outside the pancreas.
+The pancreatic cells synthesize the protein and wrap it
+in a membrane. This membrane-bound vesicle moves
+toward and fuses with the cell membrane. The protein
+Force on H 2 O H 2 O is then expelled from the vesicle into the surrounding
+plunger
+space.
+B
+Blood vessel Go Figure (Refer to Fig. 3.12)
+1. I n panel A the pump represents ___________________.
+(diffusion, active transport, osmosis, filtration)
+2. P inocytosis, the ingestion of water by the enveloping
+membrane, is called ________________. (filtration, active
+H2O HH22 OO
+transport pump, exocytosis, endocytosis)
+H2O
+H2O
+Force from
+Sum It Up!
+heart
+Water and dissolved substances must be able to move across
+cell membranes. This is achieved through passive and ac-
+Red blood
+tive transport mechanisms. Passive transport mechanisms
+C cells
+require no investment of energy (ATP) and include diffusion,
+Fig. 3.11 Filtration. (A) Water is forced through the needle. (B) Water facilitated diffusion, osmosis, and filtration. Concentrations
+(H O) is forced through the holes in the barrel of the syringe. (C) Water
+2 of solutions are expressed as tonicity: isotonic, hypotonic,
+is forced out of the capillary through holes, or pores.
+and hypertonic. The active transport mechanisms require an
+input of ATP and include the active transport pumps, endo-
+ACTIVE TRANSPORT PUMPS
+cy tosis (phagocytosis and pinocytosis), and exocytosis.
+Active transport refers to a transport mechanism that
+requires an input of energy (ATP) to achieve its goal.
+It is necessary to pump certain substances because the Re-Think
+amount of some substances in the cell is already so
+1. W hy does an active transport pump require an input of
+great that the only way to move additional substances
+energy?
+into the cell is to pump them in. For example, the cell 2. D ifferentiate between endocytosis and exocytosis.
+normally contains a large amount of potassium ions 3 . D ifferentiate between phagocytosis and pinocytosis.
+(K+). The only way to move additional K+ into the cell
+is to pump it in. To move the K+ from an area of low
+concentration to an area of high concentration (uphill),
+CELL DIVISION
+energy is invested (Fig. 3.12A).
+Cell division is necessary for the body’s growth, re-
+ENDOCYTOSIS pair, and reproduction. The frequency of cell division
+Endocytosis is a transport mechanism that involves varies considerably from one tissue to the next. Some
+the intake of food or liquid by the cell membrane (see cells reproduce very frequently, whereas other cells
+Fig. 3.12B). In endocytosis, the particle is too large reproduce very slowly or not at all. For example, the
+to move across the membrane by diffusion. Instead, cells that line the digestive tract are replaced every few
+the particle is surrounded by the cell membrane, days, and more than 2 million RBCs are replaced ev-
+which engulfs it and takes it into the cell. There are ery second. Certain nerve cells in the brain and spinal
+two forms of endocytosis. If the endocytosis involves cord, however, do not reproduce at all.
+a solid particle, it is called phagocytosis (fag-oh- Two types of cell division are mitosis and meiosis.
+sye-TOH-sis) (phago- means “eating”). For example, Meiosis occurs only in sex cells and will be discussed
+
+42 CHAPTER 3 Cells
+G
+0
+M
+PHASE (mitosis)
+M A
+A P ro p h a s e e ta p h a s e e s a h p a n e s a h p ol e T (S G yn 1 t P he H s A is S o E f
+substances needed
+for DNA)
+Endocytosis G 2 PHASE
+(Synthesis of
+substances needed
+Cell
+Outside the cell for mitosis) Interphase
+membrane
+S PHASE
+(Synthesis of DNA)
+Vesicle
+Cytoplasm Fig. 3.13 Cell Cycle: Interphase and Mitosis.
+B
+Mitosis is described in more detail in the next section
+(“Cell Cycle”).
+Do You Know...
+Exocytosis
+Some Good News About the Aging Older Brain?
+Cell Outside the cell Neurons in the brain do not undergo mitosis and therefore do
+membrane not replicate. Therefore we have always assumed that there
+are no “new” brain neurons. Recently, however, new neu-
+rons in the brain have been identified, even in older brains.
+The neurons arise from newly discovered stem cells located
+in the brain. Brain cell replacement in the aging brain does
+ha ppen!
+Cytoplasm
+Vesicle CELL CYCLE
+Exocytosis
+C The cell cycle is the sequence of events that the cell
+Fig. 3.12 Active Transport. (A) The active pumping of potassium goes through from one mitotic division to the next. The
+ions (K+) into the cell. (B) Endocytosis. (C) Exocytosis. ATP, Adenosine cell cycle is divided into two major phases: interphase
+triphosphate. and mitosis (Fig. 3.13).
+Go Figure (Refer to Fig. 3.13)
+in Chapter 26. Mitosis, which is involved in bodily
+1. W hich phase is not a part of the interphase?
+growth and repair, is the splitting of one mother cell
+________________ (G , M, S, G )
+1 2
+into two identical “daughter cells.” The key word is
+2. W hich word best describes prophase, metaphase,
+identical. In other words, an exact copy of genetic in- anaphase, telophase? ____________ (resting phase,
+formation, stored within the chromosomes, must be interphase, G , mitosis)
+0
+passed from the mother cell to the two daughter cells.
+
+Cells CHAPTER 3 43
+PROPHASE METAPHASE ANAPHASE
+TELOPHASE DAUGHTER CELLS
+Fig. 3.14 Stages of Mitosis.
+INTERPHASE • During prophase, the chromosomes coil so tightly
+During interphase, the cell carries on with its normal that they become visible under a light microscope.
+functions and gets ready for mitosis through growth Each chromosome pair is composed of two identical
+and DNA replication. Interphase is divided into three strands of DNA called chromatids; each chromatid is
+phases: first gap phase (G ), phase (S), and second gap attached at a point called the centromere. At the same
+1
+phase (G ). time, two pairs of centrioles move to opposite poles
+2
+• First gap phase (G )—During this phase, the cell of the nucleus. Late in prophase, the nuclear mem-
+1
+carries on its normal activities and begins to make brane disappears.
+the DNA and other substances necessary for cell • During metaphase, the chromatids are aligned in
+division. a narrow central zone; spindle fibers connect the
+• Phase S—During the S phase, the cell duplicates its chromatids and centrioles.
+chromosomes, thereby making enough DNA for • Anaphase begins when the centromere splits and
+two identical cells. the chromatids are pulled to opposite poles (end of
+• Second gap phase (G )—This phase is the final pre- anaphase).
+2
+paratory phase for cell division (mitosis); it includes • During telophase, each new cell reverts to the in-
+the synthesis of enzymes and other proteins needed terphase state; the nuclear membrane reforms, the
+for mitosis. At the end of G , the cell enters the mi- chromosomes uncoil, and the chromatin strands
+2
+totic (M) phase. reappear. Telophase and cytokinesis mark the end
+of mitosis. Cytokinesis (sye-toh-kin-EE-sis), which
+MITOSIS begins in late anaphase, is the pinching of the cell
+During the mitotic (M) phase, the cell divides into two membrane to split the cytoplasm into two distinct
+cells in such a way that the nuclei of both cells contain cells.
+identical genetic information. Mitosis consists of four Repeat! Mitosis is a type of cell division that pro-
+phases: prophase, metaphase, anaphase, and telophase duces two genetically identical daughter cells. How
+(Fig. 3.14). can you remember the stages of mitosis? Think of
+“Play Me A Tune”: prophase, metaphase, anaphase,
+telophase.
+Go Figure (Refer to Fig. 3.14)
+At the end of mitosis, the daughter cells have two
+1. C ytokinesis is most obvious in ____________ (anaphase,
+choices. They can enter G and repeat the cycle (and
+1
+telophase, prophase, metaphase)
+divide again) or they can enter another phase, called
+2. W hich word(s) best describe(s) the daughter cells?
+G zero (G ) (see Fig. 3.13). Cells in G “drop out” of the
+_________________ (identical, G , disappearance of the 0 0
+1 cell cycle and rest; they do not undergo mitosis. Cells
+nuclear membrane, cytokinesis)
+may re-enter the cell cycle after days, weeks, or years.
+The inability to stop cycling and enter G is character-
+0
+istic of cancer cells. Cancer cells constantly divide and
+
+44 CHAPTER 3 Cells
+Unspecialized cell
+Enzymes
+switched on
+Enzymes
+switched on
+Enzymes Enzymes
+switched on switched on
+Specialized cell
+(epithelial cell)
+Enzymes
+switched on
+Specialized cell
+(neuron)
+Specialized cell
+(red blood cell)
+Specialized cell
+(bone cell)
+Specialized cell
+(muscle cell)
+Fig. 3.15 Cell Differentiation.
+proliferate. Anticancer drugs are more active against enzymes are switched on and produce bone cells.
+cells that are cycling than against cells resting in G . Regardless of the mechanism, you started life as a
+0
+Thus tumors that contain many cycling cells respond single adorable cell and ended up as billions of spe-
+best to chemotherapy. cialized cells!
+Some anticancer drugs are classified according to
+the cell cycle phases that they affect and are called cell Go Figure (Refer to Fig. 3.15)
+cycle phase–specific. These drugs affect the cell when it
+1. W hich word describes this process: unspecialized
+is in a particular or specific phase. With the use of this
+(stem) cell to red blood cell? ____________ (dysplasia,
+terminology, the anticancer drug methotrexate is con-
+endocytosis, differentiation, apoptosis)
+sidered cell cycle S phase–specific. Other drugs are cell
+2. W hich cell is unspecialized and can differentiate into
+cycle M phase–specific and cell cycle G 2 phase–specif- many cells? _______________ (neuron, epithelial cell,
+ic. Some anticancer drugs can act at any phase of the stem cell, red blood cell)
+cell cycle and are called cell cycle phase–nonspecific. By
+knowing the cell cycle terminology, you can under- What does it mean when a tissue biopsy (surgical
+stand anticancer drugs better. removal of tissue for examination) shows many poorly
+differentiated cells? It means that the tissue cells have
+Re-Think failed to differentiate or specialize. In other words,
+the poorly differentiated cells of a liver tumor do not
+1. E xplain how interphase prepares the cell for mitosis.
+resemble normal liver cells. Failure to differentiate is
+2. W hat are the phases of mitosis, and what is the major
+accomplishment of each phase?
+characteristic of cancer cells.
+STEM CELLS
+CELL DIFFERENTIATION
+Stem cells are relatively undifferentiated or unspecial-
+Mitosis assures us that the division of one cell produc- ized cells whose only function is the production of ad-
+es two identical cells. How do we account for the dif- ditional unspecialized cells. Each time a stem cell di-
+ferences in cells such as muscle cells, RBCs, and bone vides, one of its daughter cells differentiates while the
+cells? In other words, how do cells differentiate or de- other daughter cell prepares for further stem cell divi-
+velop different characteristics? sion. The rate of stem cell division varies with the tissue
+An embryo begins life as a single cell, the fertil- type; the stem cells within the bone marrow and skin
+ized ovum. Through mitosis, the single cell divides are capable of dividing more than once a day, whereas
+many times into identical cells. Then, at some time the stem cells in adult cartilage may remain inactive
+during their development, the cells start to special- for years. Stem cell research is of particular interest
+ize, or differentiate (Fig. 3.15). One cell, for example, because of the possibility of replacing damaged tissue
+may switch on enzymes that produce RBCs. Other and growing new organs. How amazing it would be if
+
+Cells CHAPTER 3 45
+newly discovered stem cells could be used to repair a cancer. A positive Pap smear can indicate cancer in its
+damaged spinal cord or restore the dopamine-secret- early stages. Early detection is associated with a very
+ing cells in the brains of persons with Parkinson dis- high cure rate.
+ease. Another advance in stem cell research is the de- There is also a programmed sequence of events
+velopment of a new technique that coaxes adult cells to that leads to cell death called apoptosis, or cell sui-
+regress to an embryonic state. These undifferentiated cide. Apoptosis helps rid the body of old, unneces-
+cells are called induced pluripotent stem cells (iPS cells). sary, and unhealthy cells. Because the body replaces a
+The iPS cells can then be induced to specialize into the million cells per second, the elimination of some cells
+desired cell type, such as bone, muscle, or blood cells. by apoptosis is necessary. Apoptosis, however, can go
+A major hurdle in stem cell research has been the use of into overdrive, causing excessive cellular death and
+embryos as stem cell donors. This technique required disease.
+the destruction of the embryo, thereby creating an ethi- Sometimes cells are injured so severely that they
+cal dilemma for many. The development of iPS cells die, or necrose (from the Greek word necros, meaning
+eliminates this issue and hopefully will hasten stem “death”). For example, the cells may be deprived of
+cell research. oxygen for too long a period, be poisoned, be damaged
+by bacterial toxins, or suffer the damaging effects of
+Re-Think
+radiation.
+1. Explain why Fig. 3.15 illustrates cell differentiation.
+2. W hat is the relationship between stem cells and cellular Sum It Up!
+differentiation? What are iPS cells?
+The union of the sperm and egg forms a single cell that di-
+vides by mitosis into billions of identical cells. The cell cycle is
+the sequence of events that the cell goes through from one
+ORDER, DISORDER, AND DEATH
+mitotic division to the next. The cell cycle is divided into two
+Most cell growth is orderly. Cells normally reproduce phases: the interphase and the mitotic phase. Mitosis splits
+at the proper rate and align themselves in the correct a cell into two genetically identical cells. There are four stages
+positions. At times, however, cell growth becomes un- of mitosis: prophase, metaphase, anaphase, and telophase.
+The cells then specialize, or differentiate, into many different
+controlled and disorganized. Too many cells are pro-
+types of cells, all of which are needed to perform a wide vari-
+duced. This process is experienced by the patient as a
+ety of functions. Most cells grow in an orderly way. Cells can,
+lump or tumor (tumor means “swelling”).
+however, grow abnormally. The result is sometimes a tumor,
+Tumors may be classified as benign (noncancer-
+w hich may be benign or malignant (cancerous).
+ous) or malignant (cancerous). Cancer cells are ap-
+propriately named. Cancer means “crab”; cancer cells,
+like a crab, send out clawlike extensions that invade
+As You Age
+surrounding tissue. Cancer cells also detach from the
+1. A ll cells show changes as they age. The cells become
+original tumor (primary site) and spread throughout
+larger, and their capacity to divide and reproduce tends
+the body (secondary sites). Widespread invasion of the
+to decrease.
+body by cancer cells often causes death. The spreading
+2. N ormal cells have built-in mechanisms to repair minor
+of cancer cells is referred to as metastasis.
+damage; this ability to carry out repair declines in aging
+cells.
+3. W hen DNA is damaged, changes in membranes and
+enzymes occur in the cell. Changes in the transport
+of ions and nutrients occur at the cell membrane. The
+chromosomes in the nucleus undergo such changes as
+clumping, shrinkage, and fragmentation.
+4. C ertain genetic disorders, such as Down syndrome, are
+more common in children born to older women.
+5. O rganelles such as mitochondria and lysosomes are
+A Pap smear is a diagnostic procedure used to detect
+present in reduced numbers as a person ages. In
+cancer. A sample of cells (a smear) is obtained, usually
+addition, cells function less efficiently.
+from around the cervix. The smear is then examined
+under a microscope for changes that could indicate Note: The Medical Terminology and Disorders table appears in Chapter 4.
+
+46 CHAPTER 3 Cells
+Get Ready for Exams!
+Summary Outline B. Active transport mechanisms
+1. Active transport: requires an input of energy (ATP)
+The cell is the structural and functional unit of all living
+2. Active transport pumps: move substances from
+matter.
+an area of low concentration to an area of high
+I. A Typical Cell concentration
+A. Cell membrane (plasma membrane) 3. Endocytosis: moves substances into a cell; pino-
+1. Composition: phospholipid bilayer and protein cytosis: cellular “drinking”; phagocytosis: cellular
+2. Semipermeable: selection of nutrients and waste “eating”
+that cross the membrane 4. Exocytosis: moves substances out of a cell
+3. Structures on cell membrane: cilia, flagella,
+III. Cell Division
+microvilli
+A. Mitosis: produces two identical cells
+B. Structures inside the cell
+B. Meiosis: occurs only in sex cells
+1. Nucleus: control center of the cell; stores genetic
+IV. Cell Cycle
+information and contains chromatin and the
+A. Interphase (G , S, and G phases)
+nucleolus 1 2
+B. Mitosis (M phase)
+2. Cytoplasm: gel-like substance inside the cell
+1. The splitting of one mother cell into two identical
+membrane but outside the nucleus; cytosol and
+daughter cells
+organelles
+2. Four phases of mitosis: prophase, metaphase,
+3. Organelles: in the cytoplasm
+anaphase, and telophase
+4. Mitochondria: “power plants” of the cell
+3. A cell can exit from the cell cycle and enter G
+5. Ribosomes (free and fixed): involved in protein 0
+(resting).
+synthesis
+C. Cell cycle phase–specific and phase-nonspecific
+6. Endoplasmic reticulum (two types): rough endo-
+drugs
+plasmic reticulum (RER) and smooth endoplas-
+1. Some drugs aim at a specific phase of cell cycle.
+mic reticulum (SER)
+2. Some drugs are cell cycle phase–nonspecific.
+7. Golgi apparatus: packages and puts the finishing
+touches on newly synthesized protein V. Cell Differentiation: From Stem Cells to Specialized Cells
+8. Lysosomes: intracellular “housekeepers” VI. Order, Disorder, and Death
+9. Cytoskeleton: (microfilaments and microtubules)
+provides shape and support to the cell Review Your Knowledge
+10. Centrioles: play a role in cell reproduction
+II. Movement Across the Cell Membrane: Passive and Matching: Cell Structure
+Directions: Match the following words with their descrip-
+Active Mechanisms
+A. Passive transport mechanisms tions.
+1. Passive transport mechanisms: require no input of
+a. mitochondria 1. ___ Control center of the cell;
+energy (ATP)
+b. endoplasmic contains the DNA
+2. Diffusion: causes a substance to move from an
+reticulum 2. _ __ Short, hairlike projections on
+area of greater concentration to an area of lesser
+c. ribosomes the outer surface of the cell
+concentration
+d. cilia 3. ___ “Power plants” of the cell;
+3. Facilitated diffusion: same as diffusion but uses a
+e. lysosomes most ATP made here
+helper molecule to increase the rate of diffusion
+f. nucleus 4. ___ Classified as rough and
+4. Osmosis: a special case of diffusion using a semi-
+g. cytoplasm smooth
+permeable membrane; involves diffusion of water
+5. ___ Organelles attached to the
+from an area with more water to an area of less
+endoplasmic reticulum;
+water
+involved in protein synthesis
+5. Concentrations of a solution are expressed as
+6. ___ Digestive organelles that
+tonicity; solutions are isotonic, hypotonic, or
+engage in phagocytosis;
+hypertonic
+intracellular “house cleaning”
+6. Filtration: movement of water and dissolved sub-
+7. ___ “Gel in the cell” (outside the
+stances from an area of high pressure to an area
+nucleus)
+of low pressure
+
+Cells CHAPTER 3 47
+Matching: Transport and Tonicity 5. Which of the following is common to the RER, ribo-
+Directions: Match the following words with their descrip- somes, and Golgi apparatus?
+tions. Some words may be used more than once. a. ATP-producing organelles
+b. “House cleaning” by proteolytic enzymes
+a. hypotonic 1. ___ Pressure gradient is the c. Ammonia-producing organelles
+b. diffusion driving force for this type of d. Protein-producing organelles
+c. pinocytosis passive transport.
+6. Which of the following is an incorrect statement regard-
+d. isotonic 2. ___ Passive transport mechanism
+ing the cellular organelles?
+e. hypertonic whereby glucose is “helped”
+a. Most ATP is produced in the mitochondria.
+f. osmosis across the membrane by a
+b. Lysosomes contain potent enzymes that digest cel-
+g. filtration helper molecule within the
+lular waste and debris.
+h. facilitated membrane
+c. Most DNA is located within the Golgi apparatus.
+diffusion 3. ___ Protein-containing vesicle
+d. The RER is involved in protein synthesis.
+i. exocytosis within a cell fuses with the
+7. The words rough and smooth refer to the
+cell membrane and ejects the
+a. ribosomes.
+protein
+b. endoplasmic reticulum.
+4. ___ Called “cellular drinking”
+c. Golgi apparatus.
