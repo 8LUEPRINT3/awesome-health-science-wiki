@@ -98,7 +98,3 @@ This is a personal knowledge base. If you find errors or have suggestions, pleas
 ## License
 
 Content is derived from copyrighted textbooks for personal educational use. Please purchase the original textbooks to support the authors and publishers.
-
----
-
-*Built with [OpenClaw](https://github.com/openclaw/openclaw)*
