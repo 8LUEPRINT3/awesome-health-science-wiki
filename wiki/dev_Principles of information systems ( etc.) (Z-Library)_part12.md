@@ -1,0 +1,3006 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 12
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+Growth
+Generates substantial new revenue or profits for 
+the firm
+High cost; high risk of failure and potential 
+­business disruption
+Innovation
+Explores the use of technology (or a new 
+­technology) in a new way
+Risk can be managed by setting cost limits, estab-
+lishing an end date, and defining  
+criteria for success
+Enhancement
+Upgrades an existing system to provide new 
+capabilities that meet new business needs
+Risk that scope of upgrade may expand, making it 
+difficult to control cost and schedule
+Maintenance
+Implements changes to an existing system to enable 
+operation in a different ­technology ­environment 
+(e.g., underlying changes in ­hardware, operating 
+systems, or database ­management systems)
+Risk that major rework may be required to make 
+system work in a new technology environment; 
+potential for system performance degradation
+Mandatory
+Needed to meet requirements of a legal entity or 
+regulatory agency
+Risk that mandated completion date is missed; 
+may be difficult to define tangible benefits; costs 
+can skyrocket
+Ta b le 12.6  Project classification example
+Prioritizing IS Projects and Initiatives
+Typically, an organization identifies more IS-related projects and initiatives than 
+it has the people and resources to staff. An iterative process of setting priorities 
+and determining the resulting budget, staffing, and timing is needed to define 
+which projects will be initiated and when they will be executed. Many orga-
+nizations create an IS investment board of business unit executives to review 
+potential projects and evaluate them from several different perspectives:
+1.	 First and foremost, each viable project must relate to a specific organiza-
+tional goal. These relationships make it clear that executing each project 
+will help meet important organizational objectives (see Figure 12.5).
+FIGURE 12.5
+Projects must be related to 
+goals and objectives
+Objectives define goals lead that in 
+turn identify projects consistent with 
+those objectives and goals.
+Organizational
+objective
+Organizational
+goal
+Potential
+IT-related project
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 484
+
+part 4 • Planning, Implementing, and Managing Information Systems
+462
+2.	 Can the organization measure the business value of the initiative? Will there 
+be tangible benefits, or are the benefits intangible? Tangible benefits can 
+be measured directly and assigned a monetary value. For example, the 
+number of staff before and after the completion of an initiative can be 
+measured, and the monetary value is the decrease in staffing costs, such 
+as salary, benefits, and overhead. Intangible benefits cannot directly be 
+measured and cannot easily be quantified in monetary terms. For example, 
+an increase in customer satisfaction due to an initiative is important but is 
+difficult to measure and cannot easily be converted into a monetary value.
+3.	 What kinds of costs (hardware, software, personnel, consultants, etc.) are 
+associated with the project, and what is the likely total cost of the effort 
+over multiple years? Consider not just the initial development cost but 
+the total cost of ownership, including operating costs, support costs, and 
+maintenance fees.
+4.	 Preliminary costs and benefits are weighed to see if the project has an 
+attractive rate of return. Unfortunately, costs and benefits may not be well 
+understood at an early phase of the project, and many worthwhile projects 
+do not have benefits that are easy to quantify.
+5.	 Risk is another factor to consider. Managers must consider the likelihood 
+that the project will fail to deliver the expected benefits; the actual cost will 
+be significantly more than expected; the technology will become obsolete 
+before the project is completed; the technology is too “cutting edge” and 
+will not deliver what is promised; or the business situation will change so 
+that the proposed project is no longer necessary.
+6.	 Some projects enable other projects. For example, a new customer database 
+may be required before the order-processing application can be upgraded. 
+Therefore, some sequencing of projects must be considered.
+7.	 Is the organization capable of taking on this project? Does the IS organization 
+have the skills and expertise to execute the project successfully? Is the organi-
+zation willing and able to make the required changes to receive their full value?
+Virtual Printing
+ Communication and Problem Solving
+You are working as a business analyst at MAX Printing Systems (MPS), a company 
+that makes high-speed printers. MPS dominates the mature high-speed printing 
+industry, with approximately one-third of the total market. Because many com-
+panies are transitioning to paperless bills, however, this is not a growth industry. 
+Your company is still profitable, due to its large market share, but revenue is 
+stagnant.
+You have been working at MPS for a little more than a year and are looking 
+for opportunities to make a name for yourself. The vice president of sales, Dom 
+Caruso, joins a meeting where you are in attendance. Dom pulls you aside after the 
+meeting and tells you that he would like to roll out virtual reality software to his 
+salesforce. Dom is extremely influential, having one of the longest tenures at the 
+organization. You know that if you successfully led a project he was championing, 
+you would almost be guaranteed a promotion.
+Excitedly, you ask Dom how he envisions using the virtual reality software. He 
+replies, “I don’t know. But we have to get it!” and then walks out of the room. You 
+are left wondering what to do next.
+Review Questions
+1.	 What is the first thing you should do when you return to your desk?
+2.	 How would you go about determining the viability of this project?
+tangible benefit:  A benefit that can 
+be measured directly and assigned a 
+monetary value.
+intangible benefit:  A benefit 
+that cannot directly be measured 
+and cannot easily be quantified in 
+monetary terms.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 485
+
+chapter 12 • Strategic Planning and Project Management
+463
+Critical Thinking Questions
+1.	 Would you investigate this type of software further or just wait until Dom 
+speaks to an IS manager?
+2.	 Should your company use technology to innovate in this mature industry, or 
+would it be better to simply maintain the status quo because the company has 
+such a large market share?
+	 Innovation & Change in the Organization
+Your organization’s current products, services, and ways of accomplishing work 
+are doomed to obsolescence. Fail to change and your competition will take 
+away your customers and your profits. Positive change is a key ingredient for 
+any successful organization. This section will discuss important topics related 
+to change including innovation, reengineering, continuous improvement, out-
+sourcing, offshoring, and downsizing.
+Innovation
+Innovation is the application of new ideas to the products, processes, and activi-
+ties of a firm, leading to increased value. Innovation is the catalyst for the growth 
+and success of any organization. It can build and sustain profits, create new chal-
+lenges for the competition, and provide added value for customers. Innovation and 
+change are absolutely required in today’s highly competitive global environment; 
+without both, the organization is at risk of losing its competitiveness and becoming 
+obsolete. The following is a list of just a few of today’s most innovative products:
+• Tile is an innovative product that helps solve a problem we all 
+­encounter—occasionally misplacing everyday items and wasting time try-
+ing to find them. Tile is a smartphone app combined with small devices 
+(tiles) that consumers can stick on their keys, TV remote controls, purses, 
+and wallets. A proximity sensor plays a musical sound through the smart-
+phone app when you come within 100 feet of the tile, so you can walk 
+around to see if the missing item is hiding nearby.
+• Health care technology company iHealth has introduced several different sen-
+sors that can measure and report on a wide array of biometric data, including 
+steps taken, distance covered, and calories burned; sleep efficiency; blood 
+pressure; glucose level; and blood oxygen saturation level and pulse rate.
+• Ooma Butterfleye offers an economical home security product that 
+employs a megapixel camera smart enough to recognize you, members 
+of your family, and even your pets. If a stranger is caught inside your 
+home within view of the camera, Ooma Butterfleye uses your home 
+Wi-Fi system to alert you via an app.
+• NeuroMetrix created Quell, an FDA-approved device that stimulates the brain 
+to block pain receptors for patients with chronic conditions. The device is 
+worn around the calf and calibrated to the user’s body to ensure that it deliv-
+ers the exact amount of relief needed. Quell performs functions similar to 
+existing devices that must be surgically implanted at much higher cost.
+Various authors and researchers have identified different ways of classi-
+fying innovation. A simple classification developed by Clayton Christensen, 
+a leading researcher in this field, is to think of two types of innovation—­
+sustaining and disruptive.28
+Sustaining innovation results in enhancements to existing products, ser-
+vices, and ways of operating. Such innovations are important because they 
+enable an organization to continually increase profits, lower costs, and gain 
+market share. Several high-tech companies have become industry powerhouses 
+innovation:  The application of new 
+ideas to the products, processes, and 
+activities of a firm, leading to increased 
+value.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 486
+
+part 4 • Planning, Implementing, and Managing Information Systems
+464
+through the use of sustaining innovation. Apple disrupted the cellular phone 
+market in 2007 when releasing the first iPhone, but since then the company has 
+made nearly $383 billion in net income in large part by continually improving 
+upon the same technology.29 Another powerhouse, Microsoft, owes over half of 
+its earnings since 1985 to the company commitment to sustaining innovation 
+of its Windows operating system and Office products.30 And Intel’s source of 
+income comes from improving upon its x386 microprocessor chip, which was 
+introduced in 1985.31
+A disruptive innovation is one that initially provides a lower level of per-
+formance than the marketplace has grown to accept. Over time, however, the 
+disruptive innovation is improved to provide new performance characteristics, 
+becoming more attractive to users in a new market. As it continues to improve 
+and begins to provide a higher level of performance, it eventually displaces the 
+former product or way of doing things. The cell phone is a good example of a 
+disruptive innovation. The first commercial handheld cell phone was invented 
+in 1973. It weighed 2.5 pounds, had a battery life of less than 30 minutes, cost 
+more than $3000, and had extremely poor sound quality.32 Compare that with 
+today’s ubiquitous smart cell phones that have one-fifteenth the weight, one-
+fifth the cost, and over 40 times longer battery life33, 34; smartphones can not 
+only place calls but also serve as a camera, a video recorder, and a handheld 
+computer that can run applications and access the Internet.
+Reengineering and Continuous Improvement
+To stay competitive, organizations must occasionally make fundamental changes 
+in the way they do business. In other words, they must innovate and change 
+the activities, tasks, or processes they use to achieve their goals. 
+Reengineering, also called process redesign and business process 
+reengineering (BPR), involves the radical redesign of business processes, 
+organizational structures, information systems, and values of the organiza-
+tion to achieve a breakthrough in business results. See Figure 12.6. Successful 
+reengineering can reduce delivery time, increase product and service quality, 
+enhance customer satisfaction, and increase revenues and profitability.
+Michael Hammer, former professor of computer science at MIT, coined the 
+term “business process reengineering.” His message was simple. He implored 
+businesses not to automate what has always been done, but rather to eliminate 
+steps that do not add value and then to reimagine the process. This simple, yet 
+profound idea, has resulted in saving time and money for many companies.35
+reengineering (process 
+redesign/business process 
+reengineering [BPR]):  The 
+radical redesign of business 
+processes, organizational structures, 
+information systems, and values of the 
+organization to achieve a breakthrough 
+in business results.
+FIGURE 12.6
+Reengineering
+Reengineering involves the radical 
+redesign of business processes, 
+organizational structure, information 
+systems, and the values of an orga-
+nization to achieve a breakthrough 
+in business results.
+Reengineering—
+Business
+process redesign
+Changes to
+organizational
+structure
+Changes to
+organizational
+values
+Changes to
+information
+systems
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 487
+
+chapter 12 • Strategic Planning and Project Management
+465
+In the 1990s, Ford Motor Company decided that cost cutting was necessary 
+in its bloated accounts payable department. The accounts payable process was 
+quite complex and inefficient at Ford. With a workforce of 500 people in the 
+department, errors were unavoidable. In order to repair the process, management 
+initially set a goal of reducing the department headcount by 20 percent. When 
+discovered that their competitor, Mazda, was able to run their accounts payable 
+department with only five people, Ford’s management decided that a full redesign 
+process was needed. In the end, Ford was able to reduce the size of the depart-
+ment by 75 percent and also improved their vendor relationships in the process.36
+In contrast to reengineering, the idea of continuous improvement (often 
+referred to by the Japanese word “Kaizen”) is a form of innovation that involves 
+constantly seeking ways to improve business processes and add value to prod-
+ucts and services. This continual change will increase customer satisfaction and 
+loyalty and ensure long-term profitability. Manufacturing companies make con-
+tinual product changes and improvements. Service organizations regularly find 
+ways to provide faster and more effective assistance to customers. By doing 
+so, organizations increase customer loyalty, minimize the chance of customer 
+dissatisfaction, and diminish the opportunity for competitive inroads.
+Popular continuous improvement methods include Lean, Six Sigma, and Total 
+Quality Management. Toyota invented the Lean process, which involves taking a 
+customer-centric approach by looking to eliminate processes that don’t deliver 
+value to the customer, result in errors, or waste resources. Six Sigma, on the other 
+hand, takes a quality approach that focuses on identifying and rectifying the root 
+causes of problems or defects. Total Quality Management (TQM), developed by 
+W. Edward Deming, is the oldest of these methods, and it emphasizes the need 
+to involve all employees in improving quality by eliminating errors.37
+In 2010, Sky Deutschland, the leading pay-TV provider in Germany and 
+Austria, was in real financial trouble. Business was growing very slowly and 
+many current customers were leaving the cable-provider. Additionally, the fixed 
+costs were high, and the company frequently had insufficient stock of their 
+products. Simply put, the company was losing money. As a result, a new vice 
+president of logistics was hired to turn the company around. With a multiyear 
+Lean plan to focus on supply chain and continuous improvement, the company 
+started making a profit again in 2016. The new VP made several changes, set-
+ting the cable company to become solvent once again. As an example of such a 
+change, the new VP honed in on the insufficient stock issues. The base problem 
+was discovered to be a lack of forecasting in the customer service department. 
+By better forecasting the future needs of products, Sky Deutschland could 
+eliminate the problem of insufficient stock and repairing relationships with 
+suppliers. Sky Deutschland’s turnaround was a remarkable feat given the recent 
+changes in the industry and the television market.38
+Table 12.7 compares the strategies of business process reengineering and 
+continuous improvement.
+continuous improvement:  A 
+form of innovation that involves 
+constantly seeking ways to improve 
+business processes and add value to 
+products and services.
+Business Process Reengineering
+Continuous Improvement
+Strong action taken to solve serious problem
+Routine action taken to make minor improvements
+Top-down change driven by senior executives
+Bottom-up change driven by workers
+Broad in scope; cuts across departments
+Narrow in scope; focuses on tasks in a given area
+Goal is to achieve a major breakthrough
+Goal is continuous, gradual improvements
+Often led by resources from outside the company
+Usually led by workers close to the business
+Information systems are integral to the solution
+Information systems provide data to guide the improvement team
+Ta b le 12.7  Comparing business process reengineering with continuous improvement
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 488
+
+part 4 • Planning, Implementing, and Managing Information Systems
+466
+Organizational Culture and Change
+Culture is a set of major understandings and assumptions shared by a group, 
+such as within an ethnic group or a country. Organizational culture consists 
+of the major understandings and assumptions for an organization. The under-
+standings, which can include common beliefs, values, and approaches to deci-
+sion making, are often neither stated nor documented as goals or formal 
+policies. For example, salaried employees might be expected to check their 
+email and instant messages around the clock and be highly responsive to all 
+such messages.
+Mark Twain said, “It’s not the progress I mind, it’s the change I don’t like.” 
+Organizational change deals with how organizations successfully plan for, 
+implement, and handle change. Change can be caused by internal factors, such 
+as those initiated by employees at all levels, or by external factors, such as 
+those wrought by competitors, stockholders, federal and state laws, community 
+regulations, natural disasters, and general economic conditions.
+Implementing change, such as a new information system introduces con-
+flict, confusion, and disruption. People must stop doing things the way they are 
+accustomed to and begin doing them differently. Successful implementation of 
+change only happens when people accept the need for change and believe that 
+the change will improve their productivity and enable them to better meet their 
+customers’ needs. The so-called soft side of implementing change involves 
+work designed to help employees embrace a new information system and way 
+of working. This effort represents the biggest challenge to successful change 
+implementation, yet it is often overlooked or downplayed, resulting in project 
+failure. Indeed, both the Standish Group and Gartner, two highly respected 
+organizations that track project implementations globally, believe that a signifi-
+cant contributor to project failures is overlooking the need to address employee 
+adoption and resistance jointly.39
+A recent study of almost 4,000 project management professionals, senior 
+executives, and PMO (project management office) directors from around the 
+world found that worldwide, organizations lose $97 million for every $1 bil-
+lion spent on projects and programs due to failure.40 Often, failure is caused 
+by not managing the organizational change along with the processes and 
+technology.41
+The California Department of Consumer Affairs is made up of more than 40 
+entities (including multiple boards, bureaus, committees, and one commission) 
+that regulate and license professional and vocational occupations that serve the 
+people of California. Each year, the department processes over 350,000 appli-
+cations for professional licensure along with some 1.2 million license renewals. 
+The BreEZe project was initiated in 2009 to streamline the way the department 
+does its business and interacts with its license applicants and consumers.42 
+The resulting information system was intended to eliminate many paper-based 
+processes and speed up the entire licensing process. Unfortunately, the project 
+team failed to adequately involve the business users in the definition of the sys-
+tem requirements and instead made many erroneous decisions about how the 
+system should work. The initial cost estimate for the system was $28 million; 
+however, as of early 2015, project costs exceeded $37 million and less than half 
+the licensing and regulatory boards were using the system. At completion, the 
+project cost $96 million and the system was implemented at only half of the 
+planned regulatory agencies. Much of the delay and overspending could have 
+been avoided had the project team worked better with the business users to 
+understand their needs.43
+The dynamics of how change is implemented can be viewed in terms of a 
+change model. A change model represents change theories by identifying the 
+phases of change and the best way to implement them. A number of models 
+for dealing with the soft side of implementing change will now be introduced.
+culture:  A set of major 
+understandings and assumptions 
+shared by a group, such as within an 
+ethnic group or a country.
+organizational culture:  The 
+major understandings and 
+assumptions for a business, 
+corporation, or other organization.
+organizational change:  The 
+way in which for-profit and nonprofit 
+organizations plan for, implement, and 
+handle change.
+soft side of implementing 
+change:  The work designed to help 
+employees embrace a new information 
+system and way of working.
+change model:  A representation 
+of change theories that identifies the 
+phases of change and the best way to 
+implement them.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 489
+
+chapter 12 • Strategic Planning and Project Management
+467
+User Satisfaction and Technology Acceptance
+Reengineering and continuous improvement efforts (including implementa-
+tion of new information systems) must be adopted and used to achieve the 
+defined business objectives by targeted users. The technology acceptance 
+model (TAM) specifies the factors that can lead to better attitudes about the 
+use of a new information system, along with its higher acceptance and usage. 
+See Figure 12.7. In this model, “perceived usefulness” is defined as the degree 
+to which individuals believe that use of the system will improve their perfor-
+mance. The “perceived ease of use” is the degree to which individuals believe 
+that the system will be easy to learn and use. Both the perceived usefulness 
+and ease of use can be strongly influenced by the expressed opinions of others 
+who have used the system and the degree to which the organization supports 
+use of the system (e.g., providing incentives and offering training and coach-
+ing from key users). Perceived usefulness and ease of use in turn influence an 
+individual’s attitude toward the system, which affect their behavioral intention 
+to use the system.44
+technology acceptance model 
+(TAM):  A model that specifies the 
+factors that can lead to better attitudes 
+about an information system, along 
+with higher acceptance and usage of it.
+FIGURE 12.7
+Technology acceptance model
+Perceived usefulness (U) and perceived ease of use (E) strongly influence whether someone will use an informa-
+tion system. Management can improve that perception by demonstrating that others have used the system effec-
+tively and by providing user training and support.
+External
+variables
+Perceived
+usefulness (U)
+Attitude
+toward
+using (A)
+Behavioral
+intention to
+use (BI)
+Actual
+system use
+Perceived
+ease of use (E)
+As with any other technology, autonomous cars (or driverless cars) are 
+subject to the technology acceptance model. When the first horseless carriage 
+(automobile) was invented in 1897, the general population did not embrace this 
+technology. In fact, the magazine, A Horseless Age, published an article about 
+horseless carriages in 1897 stating, “There is a sense of incompleteness about 
+it. You seemed to be sitting on the end of a huge pushcart, propelled by an 
+invisible force and guided by a hidden hand. . . . Gradually I felt that I did not 
+need the protection of a horse in front of me.”45 As resistant as people were 
+back then, cars became commonplace and traveling more than 5–10 miles from 
+home became normal.
+Fast forward 1201 years as we find a resistance to yet another ­technology—
+the autonomous car. The benefits to autonomous vehicles are numerous; this 
+technology can reduce vehicular deaths due to human error and reduce traffic 
+and carbon emissions. Why isn’t the public rushing to adopt this new tech-
+nology? Issues regarding data collection (privacy), safety, and accident liability 
+are still concerning. Furthermore, the public does not yet “trust” the car to get 
+to the intended location safely. And some people enjoying the driving experi-
+ence, knowing that by driving themselves they will get where they want to go 
+without needing extra technology. In time, we will wonder why it took us so 
+long to embrace driverless transportation that can service every age and every 
+ability. As the perceived usefulness and ease of use increases, adoption of the 
+driverless technology will become inevitable.46
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 490
+
+part 4 • Planning, Implementing, and Managing Information Systems
+468
+Diffusion of Innovation Theory
+The diffusion of innovation theory was developed by E.M. Rogers to explain 
+how a new idea or product gains acceptance and diffuses (or spreads) through 
+a specific population or subset of an organization. A key point of this theory is 
+that adoption of any innovation does not happen all at once for all members 
+of the targeted population; rather, it is a drawn-out process, with some people 
+quicker to adopt the innovation than others. See Figure 12.8. Rogers defined five 
+categories of adopters, shown in Table 12.8, each with different attitudes toward 
+innovation. When promoting an innovation to a target population, it is import-
+ant to understand the characteristics of the target population that will help or 
+hinder adoption of the innovation and then to apply the appropriate strategy. 
+This theory can be useful in planning the rollout of a new information system.
+diffusion of information  theory:  
+A theory developed by E.M. Rogers 
+to explain how a new idea or product 
+gains acceptance and diffuses (or 
+spreads) through a specific population 
+or subset of an organization.
+FIGURE 12.8
+Innovation diffusion
+Adoption of any innovation does not happen all at once for all members of the targeted population; 
+rather, it is a drawn-out process, with some people quicker to adopt the innovation than others.
+Source: Everett Rogers, Diffusion of Innovations
+Innovators
+2.5%
+Early
+adopters
+13.5%
+Early majority
+34%
+Late majority
+34%
+Laggards
+16%
+Adopter Category
+Characteristics
+Strategy to Use
+Innovator
+Risk takers; always the first to try new  
+products and ideas
+­Simply provide them with access to the new 
+system and get out of their way
+Early adopter
+Opinion leaders whom others listen to and  
+follow; aware of the need for change
+Provide them assistance getting started
+Early majority
+Listen to and follow the opinion leaders
+Provide them with evidence of the system’s 
+effectiveness and success stories
+Late majority
+Skeptical of change and new ideas
+Provide them data on how many others have 
+tried this and have used it successfully
+Laggards
+Very conservative and highly skeptical of 
+change
+Have their peers demonstrate how this change 
+has helped them and bring pressure to bear 
+from other adopters
+Ta b le 12.8  Five categories of innovation adopters
+	 Project Management
+A project is a temporary endeavor undertaken to create a unique product, ser-
+vice, or result. Each project attempts to achieve specific business objectives and 
+is subject to certain constraints, such as total cost and completion date. Organiza-
+tions must always make clear connections among business objectives, goals, and 
+projects; also, projects must be consistent with business strategies. For example, 
+project:  A temporary endeavor 
+undertaken to create a unique product, 
+service, or result.
+© 2018 Cengage Learning
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 491
+
+chapter 12 • Strategic Planning and Project Management
+469
+an organization may have a business objective to improve customer service by 
+offering a consistently high level of service that exceeds customers’ expectations. 
+Initiating a project to reduce costs in the customer service area by eliminating all 
+but essential services would be inconsistent with this business objective.
+At any point in time, an organization may have dozens or even hundreds 
+of active projects, aimed at accomplishing a wide range of results. Projects are 
+different from operational activities, which are repetitive activities performed 
+over and over again. Projects are not repetitive; they come to a definite end 
+once the project objectives are met or the project is cancelled. Projects come in 
+all sizes and levels of complexity, as you can see from the following examples:
+• A senior executive led a project to integrate two organizations following 
+a corporate merger.
+• A consumer goods company executed a project to launch a new product.
+• An operations manager led a project to outsource part of a firm’s opera-
+tions to a contract manufacturer.
+• A hospital executed a project to load an app on physicians’ smartphones 
+that would enable them to access patient data.
+• A computer software manufacturer completed a project to improve the 
+scheduling of help desk technicians and reduce the time on hold for call-
+ers to its telephone support services.
+• A staff assistant led a project to plan the annual sales meeting.
+• A manager completed a project to enter her departmental budget into a 
+preformatted spreadsheet template.
+Unfortunately, IS-related projects are not always successful. The Standish 
+Group has been tracking the success rate of IS projects for over 20 years, and 
+although the success rate has improved over time due to improved methods, 
+training, and tools, roughly 14 percent47 of all IS projects fail outright, but 
+many more face major challenges such as lateness, budget overruns, and lack 
+of required features.48
+Researchers Hamel and Prahalad defined the term core competency to 
+mean something that a firm can do well and that provides customer benefits, is 
+hard for competitors to imitate, and can be leveraged widely to many products 
+and markets.49 Today, many organizations recognize project management as 
+one of their core competencies and see their ability to manage projects better 
+as a way to achieve an edge over competitors and deliver greater value to share-
+holders and customers. As a result, those organizations spend considerable 
+effort identifying potential project managers and then training and developing 
+them. For many managers, their ability to manage projects effectively is a key 
+to their success within an organization.
+Project Variables
+Five highly interrelated parameters define a project—scope, cost, time, quality, 
+and user expectations. If any one of these parameters changes for a project, 
+there must be a corresponding change in one or more of the other parameters. 
+A brief discussion of these parameters follows.
+Scope
+Project scope is a definition of which tasks are and which tasks are not 
+included in a project. Project scope is a key determinant of the other project 
+factors and must be carefully defined to ensure that a project meets its essential 
+objectives. In general, the larger the scope of the project, the more difficult it 
+is to meet cost, schedule, quality, and stakeholder expectations.
+In April 2016, the Canadian government rolled out a new payroll system 
+named Phoenix that was intended to modernize payroll processing for all 
+government employees. The system, which was originally budgeted to cost 
+core competency:  Something 
+that a firm can do well and that 
+provides customer benefits, is hard 
+for competitors to imitate, and can be 
+leveraged widely to many products and 
+markets.
+project scope:  A definition of which 
+tasks are and which tasks are not 
+included in a project.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 492
+
+part 4 • Planning, Implementing, and Managing Information Systems
+470
+C$155 million, was C$119 million over budget at the time it launched. Even 
+before the rollout was over, it was clear the system suffered from major flaws 
+and security weaknesses that resulted from poor decision making throughout 
+the project—including decisions made to change the project scope to try to 
+contain budget overruns. For instance, to save money during development, 
+senior executives involved in the project decided to scale back work on 100 of 
+the system’s 984 pay-processing functions; nevertheless, those functions were 
+reinstated—without testing—when the system was deployed. And incredibly, 
+not only was the system never put through end-to-end testing, it was also 
+based on a version of PeopleSoft, a human resource application suite, that 
+the project team knew was no longer going to be supported after 2018. As a 
+result of the system’s flaws, many civil servants went without paychecks or 
+were paid incorrectly by the new system over the course of many months. 
+Even the security of the system was in jeopardy, resulting in several breaches 
+of confidential employee information. The system is now expected to cost 
+the Canadian government C$1.2 billion through the end of 2019 and many 
+millions more before it can be replaced in 2025. Phoenix is a vivid example 
+of a project that had almost no project management oversight and terrible IT 
+decision making throughout.50
+Cost
+The cost of a project includes all the capital, expenses, and internal cross-
+charges associated with the project’s buildings, operation, maintenance, and 
+support. Capital is money spent to purchase assets that appear on the orga-
+nization’s balance sheet and are depreciated over the life of the asset. Capital 
+items typically have a useful life of at least several years. A building, office 
+equipment, computer hardware, and network equipment are examples of cap-
+ital assets. Computer software also can be classified as a capital item if it costs 
+more than $1000 per unit, has a useful life exceeding one year, and is not used 
+for research and development.
+Expense items are non-depreciable items that are consumed shortly after 
+they are purchased. Typical expenses associated with an IS-related project 
+include the use of outside labor or consultants, travel, and training. Software 
+that does not meet the criteria to be classified as a capital item is classified as 
+an expense item.
+Many organizations use a system of internal cross-charges to account for 
+the cost of employees assigned to a project. For example, the fully loaded cost 
+(salary, benefits, and overhead) of a manager might be set at $120,000 per year. 
+The sponsoring organization’s budget is cross-charged this amount for each 
+manager who works full time on the project. (The sponsoring business unit 
+is the business unit most affected by the project and the one whose budget will 
+cover the project costs.) So, if a manager works at a 75 percent level of effort 
+on a project for five months, the cross-charge is $120,000 3 0.75 3 5/12 5  
+$37,500. The rationale behind cross-charging is to enable sound economic 
+decisions about whether employees should be assigned to project work 
+or to operational activities. If employees are assigned to a project, cross-
+charging helps organizations determine which project makes the most eco-
+nomic sense.
+Organizations have different processes and mechanisms for budgeting and 
+controlling each of the three types of costs: capital, expense, and internal cross-
+charge. Money from the budget for one type of cost cannot be used to pay 
+for an item associated with another type of cost. Thus, a project with a large 
+amount of capital remaining in its budget cannot use the available dollars to 
+pay for an expense item even if the expense budget is overspent.
+Table 12.9 summarizes and classifies various types of common costs asso-
+ciated with an IS-related project.
+sponsoring business unit:  The 
+business unit most affected by the 
+project and the one whose budget will 
+cover the project costs.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 493
+
+chapter 12 • Strategic Planning and Project Management
+471
+Time
+The timing of a project is frequently a critical constraint. For example, in most 
+organizations, projects that involve finance and accounting must be scheduled 
+to avoid any conflict with operations associated with the closing of end-of-
+quarter books. Often, projects must be completed by a certain date to meet an 
+important business goal or a government mandate.
+Development Costs
+Capital
+Internal Cross-Charge
+Expense
+Employee-related expenses
+• 
+Employees’ effort
+X
+• 
+Travel-related expenses
+X
+• 
+Training-related expenses
+X
+Contractor and consultant charges
+X
+IS-related capital and expenses
+• 
+Software licenses (software purchases that qualify as a capital expense)
+X
+• 
+Software licenses (software that does not qualify as a capital expense)
+X
+• 
+Computing hardware devices
+X
+• 
+Network hardware devices
+X
+• 
+Data capture/data entry equipment
+X
+Total development costs
+X
+X
+X
+Ta b l e 12.9  Typical IS-related project costs
+Source: Twitter, Inc.
+Reasons for the failure of the Fyre Festival are numerous, but time was 
+definitely not on the founders’ side. Billy McFarland and rapper Ja Rule envi-
+sioned an upscale music festival that would bring together top musical artists, 
+famous models and celebrities, and thousands of attendees on a beautiful 
+private island in the Bahamas. The festival was positioned as a classy music 
+festival for millennials, featuring private villas, private airplanes, water sports, 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 494
+
+part 4 • Planning, Implementing, and Managing Information Systems
+472
+and upscale food and drink. However, the time constraints of this project 
+quickly overwhelmed the founders. The island originally chosen for the festival 
+could not accommodate 8,00051 attendees and had to be changed a few months 
+before the scheduled event. Top acts were not booked until two months out, 
+and housing, bathroom, and shower facilities were not fully constructed before 
+the guests arrived on the island. None of the musical acts ever made it to the 
+island, and after the first wave of guests spent their first night in tents with only 
+cheese sandwiches to eat, they returned to the airport to spend the next night 
+awaiting a flight home. Attendees lost thousands of dollars on a vacation that 
+never happened. The Fyre Festival is a prime example of a poorly managed 
+project with time constraints the founders were completely unable to meet. 
+Whether the entire thing was a scam or just a project that needed more time to 
+become a reality, founder Billy McFarland now resides in prison, found guilty 
+of fraud charges in connection with the festival.52, 53
+Quality
+The quality of a project can be defined as the degree to which the project 
+meets the needs of its users. The quality of a project that delivers an IS-related 
+system may be defined in terms of the system’s functionality, features, system 
+outputs, performance, reliability, and maintainability.
+Failure to meet users’ functionality and performance needs detracted from 
+the initial introduction of the iPhone 6. Apple sold an astounding 10 million of 
+the iPhone 6 and iPhone 6 Plus models in the first few days they were available. 
+Unfortunately, the new iPhones had both hardware and software problems 
+that caused the devices to fail to meet users’ functionality and performance 
+expectations. Apple’s new mobile operating system iOS 8 for the devices came 
+without promised apps that used a health and fitness feature called Health-
+Kit. In addition, it turned out that the iPhone 6 Plus was too pliable, with 
+some users complaining that the phone bent when sitting in their pockets for 
+extended periods. Then, when Apple released an iOS 8 update aimed at fixing 
+the HealthKit problem, some users complained the update had caused their 
+iPhones to lose the ability to make phone calls.54
+User Expectations
+As a project begins, stakeholders will form expectations—or will already 
+have expectations—about how the project will be conducted and how it will 
+affect them. For example, based on previous project experience, the end users 
+of a new IS system may expect that they will have no involvement with the 
+system until it is time for them to be trained. However, the project manager 
+may follow a more progressive development process that requires users to 
+help define system requirements, evaluate system options, try out system 
+prototypes, develop user documentation, and define and conduct the user 
+acceptance test.
+As another example, end users may expect to participate in weekly project 
+status meetings to hear progress reports firsthand. However, the project man-
+ager may not have considered involving them in the status meetings or may 
+not even be planning weekly meetings.
+Both examples illustrate the huge differences in expectations that can exist 
+between stakeholders and project members. It is critical to a project’s success 
+to identify expectations of key stakeholders and team members; any differences 
+must be resolved to avoid future problems and misunderstandings.
+The five project parameters—scope, cost, time, quality, and user expectations—
+are all closely interrelated, as shown in Figure 12.9. For example, if the time 
+allowed to complete the project is decreased, it may require an increase in project 
+costs, a reduction in project quality and scope, and a change of expectations among 
+the project stakeholders, as shown in Figure 12.10.
+quality:  The degree to which a 
+project meets the needs of its users.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 495
+
+chapter 12 • Strategic Planning and Project Management
+473
+What Is Project Management?
+Project management is the application of knowledge, skills, and techniques to 
+project activities to meet project requirements. Project managers must deliver a 
+solution that meets specific scope, cost, time, and quality goals while manag-
+ing the expectations of the project stakeholders—the people involved in the 
+project or those affected by its outcome.
+The essence of artistic activity is that it involves high levels of creativity and 
+freedom to do whatever the artist feels. Scientific activity, on the other hand, 
+involves following defined routines and exacting adherence to laws. Under 
+these definitions, part of project management can be considered an art, because 
+project managers must apply intuitive skills that vary from project to project 
+and even from team member to team member. The “art” of project management 
+also involves salesmanship and psychology in convincing others of the need 
+to change and that this project is right to do.
+Project management is also part science because it uses time-proven, 
+repeatable processes and techniques to achieve project goals. Thus, one 
+challenge to successful project management is recognizing when to act as 
+an artist and rely on one’s own instinct and when to act as a scientist and 
+apply fundamental project management principles and practices. The fol-
+lowing section covers the 10 areas associated with the science of project 
+management.
+Project Management Knowledge Areas
+According to the Project Management Institute (PMI), project managers must 
+coordinate 10 areas of expertise: scope, schedule, cost, quality, resource, com-
+munications, risk, procurement, integration, and stakeholder management as 
+shown in Figure 12.11.
+project management:  The 
+application of knowledge, skills, and 
+techniques to project activities to meet 
+project requirements.
+project stakeholders:  The people 
+involved in the project or those affected 
+by its outcome.
+FIGURE 12.9
+The five parameters that 
+define a project
+The five parameters that define a 
+project are all highly interrelated.
+Time
+Scope
+Cost
+Quality
+Expectations
+ Thorir Aron Stefansson/Shutterstock.com
+FIGURE 12.10
+Revised project definition
+A change in any one of the project 
+variables (cost, time, scope, quality, 
+or expectations) can impact the 
+other variables.
+Time
+Scope
+Cost
+Quality
+Expectations
+Aubrey_Popov/Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 496
+
+part 4 • Planning, Implementing, and Managing Information Systems
+474
+Scope Management
+Scope management includes defining the work that must be done as part 
+of the project and then controlling the work to stay within the agreed-upon 
+scope. Key activities include initiation, scope planning, scope definition, scope 
+verification, and scope change control.
+To avoid problems associated with a change in project scope, a formal 
+scope change process should be defined before the project begins. The project 
+manager and key business managers should decide whether they will allow 
+scope changes at any time during the project, only in the early stages of the 
+project, or not at all. The trade-off is that the more flexibility you allow for 
+scope changes, the more likely the project will meet users’ features and perfor-
+mance requirements. However, the project will be more difficult to complete 
+within changing time and budget constraints as it is harder to hit a moving 
+target.
+The change process should capture a clear definition of the change that is 
+being requested, who is requesting it, and why. If the project team has decided 
+not to allow any scope changes during the project, then each new requested 
+scope change is filed with other requested changes. Once the original project 
+is complete, the entire set of requested scope changes can be reviewed, and 
+the project team can decide which, if any, of the changes will be implemented 
+and when. Often, it is cheaper to initiate one project to implement numerous 
+related changes rather than start several independent projects. A follow-on 
+project can then be considered to implement the recommended changes. The 
+scope, cost, schedule, and benefits of the project must be determined to ensure 
+that it is well defined and worth doing.
+scope management:  A set of 
+activities that include defining the work 
+that must be done as part of a project 
+and then controlling the work to stay 
+within the agreed-upon scope.
+FIGURE 12.11
+The 10 project management 
+knowledge areas
+There are 10 areas associated with 
+the science of project management.
+Integration
+Scope
+Schedule
+Cost
+Quality
+Resource
+Communications
+Risk
+Procurement
+Stakeholders
+Project
+Management
+Knowledge
+Areas
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 497
+
+chapter 12 • Strategic Planning and Project Management
+475
+If the project team has decided to allow scope changes during the project, 
+then time and effort must be allowed to assess how the scope change will affect 
+the interrelated project variables of cost, schedule, quality, and expectations. 
+This impact on the project must be weighed against the benefits of imple-
+menting the scope change, and the team must decide whether to implement 
+the scope change. Of course, there may be alternatives for implementing a 
+particular scope change, and the pros and cons must be weighed for each. The 
+time required just to research scope changes can add considerable cost and 
+time to the original project. Each scope change should be formally approved 
+or rejected by the project manager and key stakeholders.
+Schedule Management
+Schedule management includes defining an achievable completion date that is 
+acceptable to the project stakeholders, developing a workable project schedule, 
+and ensuring the timely completion of the project. Successful schedule manage-
+ment requires identifying specific tasks that project team members and/or other 
+resources must complete; sequencing these tasks, taking into account any task 
+dependencies or hard deadlines; estimating the amount of resources required 
+to complete each task, including people, material, and equipment; estimating 
+the elapsed time to complete each task; analyzing all this data to create a proj-
+ect schedule; and controlling and managing changes to the project schedule.
+The bigger the project, the more likely that poor planning will lead to 
+significant problems. Well-managed projects use effective planning tools and 
+techniques, including schedules, milestones, and deadlines. A project schedule 
+identifies the project activities that must be completed, the expected start and 
+end dates, and what resources are assigned to each task. A project schedule is 
+needed to complete a project by a defined deadline, avoid rework, and ensure 
+that people know what to do and when to do it. A project milestone is a crit-
+ical date for completing a major part of the project, such as program design, 
+coding, testing, and release (for a programming project). The project deadline 
+is the date the entire project should be completed and operational—when the 
+organization can expect to begin to reap the benefits of the project.
+In a systems development project, each activity is assigned an earliest 
+start time and an earliest finish time. Each activity is also allocated slack time, 
+which is the amount of time an activity can be delayed without delaying the 
+entire project. The critical path of a project consists of the set of project activ-
+ities that, if delayed, would delay the entire project. These activities have zero 
+slack time. Any problems with critical path activities will cause problems for 
+the entire project. To ensure that critical path activities are completed on time, 
+project managers use certain approaches and tools such as Microsoft Project 
+to help compute these critical project attributes.
+A Gantt chart is a graphical tool used for planning, monitoring, and coor-
+dinating projects; it is essentially a grid drawn on a timescale that lists activities 
+and deadlines. Each time a task is completed, a marker such as a darkened line 
+is placed in the proper grid cell to indicate the completion of a task.
+The development of a work breakdown structure is a critical activity needed 
+for effective schedule management. A work breakdown structure (WBS)  
+is an outline of the work to be done to complete the project. You start by 
+breaking the project into various stages or groups of activities that need 
+to be performed. Then, you identify the tasks associated with each project 
+stage. A task typically requires a week or less to complete and produces 
+a specific deliverable—a tangible output such as a flowchart or end-user 
+training plan.
+After the activities are identified in the WBS, the tasks within each stage 
+are sequenced. All predecessor tasks are identified—these are tasks that must 
+be completed before a later task can begin. For example, the testing of a unit 
+of program code cannot begin until the program has been coded, compiled, 
+schedule management:  A set 
+of activities that includes defining an 
+achievable completion date that is 
+acceptable to the project stakeholders, 
+developing a workable project 
+schedule, and ensuring the timely 
+completion of the project.
+project schedule:  A plan that 
+identifies the project activities that 
+must be completed, the expected start 
+and end dates, and what resources are 
+assigned to each task.
+project milestone:  A critical 
+date for completing a major part of 
+the project, such as program design, 
+coding, testing, and release (for a 
+programming project).
+project deadline:  The date the 
+entire project should be completed and 
+operational—when the organization 
+can expect to begin to reap the 
+benefits of the project.
+slack time:  The amount of time 
+an activity can be delayed without 
+delaying the entire project.
+critical path:  All project activities 
+that, if delayed, would delay the entire 
+project.
+gantt chart:  A graphical tool 
+used for planning, monitoring, and 
+coordinating projects; it is essentially 
+a grid drawn on a timescale that lists 
+activities and deadlines.
+work breakdown structure 
+(WBS):  An outline of the work to be 
+done to complete the project.
+predecessor task:  A task that 
+must be completed before a later task 
+can begin.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 498
+
+part 4 • Planning, Implementing, and Managing Information Systems
+476
+and debugged. Next, you must determine how long each task will take. After 
+the predecessor tasks are identified, a network diagram can be created. A 
+network diagram displays the relationships among all the project’s tasks and 
+will help determine the length of the project. Figure 12.12 shows a sample 
+network diagram for building a tree house.
+network diagram:  A diagram 
+outlining the relationships among all of 
+the project’s tasks.
+FIGURE 12.12
+Sample network diagram
+Plan tree house
+Start: 6/1/20
+Finish: 6/2/20
+Res:
+ID: 1
+Dur: 2 days
+Buy lumber
+Start: 6/3/20
+Finish: 6/3/20
+Res:
+ID: 2
+Dur: 1 day
+Build tree house
+Start: 6/4/20
+Finish: 6/10/20
+Res:
+ID: 3
+Dur: 5 days
+Thus, building a WBS allows you to look at a project in great detail to get 
+a complete picture of all the work that must be performed. Developing a WBS 
+is another approach to defining the scope of a project—work not included in 
+the WBS is outside the scope of the project.
+Figure 12.13 shows a WBS for a project whose goal is to establish a wireless 
+network in a warehouse and install RFID scanning equipment on forklift trucks 
+for the tracking of inventory. The three phases of the project in Figure 12.13 are 
+“Define warehouse network,” “Configure forklift trucks,” and “Test warehouse 
+network.”
+FIGURE 12.13
+Sample work breakdown 
+structure (WBS)
+Warehouse Network
+Define Network
+Conduct survey
+Order RF equip
+Install RF equip
+Test RF equip
+Order RFID
+scanners
+Install RFID
+scanners
+Test RFID scanners
+Develop test plan
+Conduct test
+Configure Forklift Trucks
+Test Network
+Table 12.10 shows a list of tasks for the same RFID project.
+Task Name
+Duration
+Start
+Finish
+Predecessors
+0
+Implement warehouse network
+28 days
+Mon 6/3/19
+Wed 7/10/19
+1
+Define warehouse network
+25 days
+Mon 6/3/19
+Fri 7/5/19
+2
+Conduct survey
+3 days
+Mon 6/3/19
+Wed 6/5/19
+3
+Order RF equipment
+14 days
+Thu 6/6/19
+Tue 6/25/19
+2
+4
+Install RF equipment
+6 days
+Wed 6/26/19
+Wed 7/3/19
+3
+Ta b le 12.10  Task list
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 499
+
+chapter 12 • Strategic Planning and Project Management
+477
+5
+Test RF equipment
+2 days
+Thu 7/4/19
+Fri 7/5/19
+4
+6
+Configure forklift trucks
+19 days
+Mon 6/3/19
+Thu 6/27/19
+7
+Order RFID scanners for trucks
+12 days
+Mon 6/3/19
+Tue 6/18/19
+8
+Install RFIPD scanners on trucks
+5 days
+Wed 6/19/19
+Tue 6/25/19
+7
+9
+Test RFID scanners
+2 days
+Wed 6/26/19
+Thu 6/27/19
+8
+10
+Test warehouse network
+28 days
+Mon 6/3/19
+Wed 7/10/19
+11
+Develop test plan
+2 days
+Mon 6/3/19
+Tue 6/4/19
+12
+Conduct test
+3 days
+Mon 7/8/19
+Wed 7/10/19
+5,9,11
+Figure 12.14 shows the associated schedule in the form of a Gantt chart, 
+with each bar in the chart indicating the start and end dates of each major 
+activity (heavy black lines) and task (lighter lines).
+FIGURE 12.14
+Gantt chart
+A Gantt chart depicts the start and finish dates for project tasks.
+Cost Management
+Cost management includes developing and managing the project budget. This 
+area involves resource planning, cost estimating, cost budgeting, and cost con-
+trol. As previously discussed, a separate budget must be established for each 
+of the three types of costs—capital, expense, and internal cross-charge—and 
+money in one budget cannot be spent to pay for another type of cost.
+One approach to cost estimating uses the WBS to estimate all costs (capital, 
+expense, and cross-charge) associated with the completion of each task. This 
+approach can require a fair amount of detail work, such as determining the 
+hourly rate of each resource assigned to the task and multiplying by the hours 
+the resource will work on the task, estimating the cost per unit for supplies and 
+multiplying that by the number of units required, and so on. If possible, the peo-
+ple who will complete the tasks should be allowed to estimate the duration and 
+associated costs. This approach helps them to better understand the tasks they 
+are expected to complete, gives them some degree of control in defining how the 
+work will be done, and obtains their “buy-in” to the project schedule and budget. 
+You can develop a project duration based on the sequence in which the tasks 
+must be performed and the duration of each task. You can also sum the cost of 
+each task to develop an estimate of the total project budget. This entire process 
+of creating a WBS is outlined in Figure 12.15. The budget developed using this 
+approach for the warehouse network project is depicted in Table 12.11.
+cost management:  A set 
+of activities that includes the 
+development and management of the 
+project budget.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 500
+
+part 4 • Planning, Implementing, and Managing Information Systems
+478
+FIGURE 12.15
+Process to create a work breakdown structure (WBS)
+Define goal
+Divide project
+into stages
+Identify tasks
+in each stage
+Define deliverables
+for each task
+Sequence
+tasks
+Assign resources
+to tasks
+Estimate
+task duration
+Schedule
+Budget
+Ta b l e 12.11  Project budget
+Task
+Capital
+Expense
+Cross-
+Charges
+1
+Implement warehouse network
+2
+Define warehouse network
+3
+Conduct survey
+$2400
+4
+Order RF equipment
+$9000
+5
+Install RF equipment
+$7800
+6
+Test RF equipment
+$ 960
+7
+Configure forklift trucks
+8
+Order RFID scanners for trucks
+$12,500
+9
+Install RFID scanners on trucks
+$2400
+10
+Test RFID scanners
+$1200
+11
+Test warehouse network
+$ 960
+12
+Develop test plan
+13
+Conduct test
+$1440
+TOTAL Costs
+$21,500
+$10,200
+$6960
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 501
+
+chapter 12 • Strategic Planning and Project Management
+479
+Quality Management
+Quality management is a set of activities designed to ensure that a project 
+will meet the needs for which it was undertaken. This process involves quality 
+planning, quality assurance, and quality control. Quality planning involves 
+determining which quality standards are relevant to the project and determin-
+ing how they will be met. Quality assurance involves evaluating the progress 
+of the project on an ongoing basis to ensure that it meets the identified quality 
+standards. Quality control involves checking project results to ensure that they 
+meet identified quality standards.
+In many IS-related systems development projects, the source of the major-
+ity of defects uncovered in system testing can be traced back to an error in 
+specifying requirements. Thus, most organizations put a heavy emphasis on 
+accurately capturing and documenting system requirements and carefully man-
+aging changes in user requirements over the course of the project. A useful 
+checklist for assessing the validity of system requirements includes the follow-
+ing questions:55
+• Does the requirement describe something actually needed by the 
+customer?
+• Is the requirement correctly defined?
+• Is the requirement consistent with other requirements?
+• Is the requirement defined completely?
+• Is the requirement verifiable (testable)?
+• Is the requirement traceable back to a user need?
+Hewlett Packard’s Quality Center, Jama from Jama Software, and Inno-
+slate from SPEC Innovations are three examples of requirements management 
+software.
+Project Resource Management
+Project resource management is a set of activities designed to identify, 
+acquire, and manage resources for a project. Activities within this area 
+include estimating the amount and type of resources required for the proj-
+ect; acquiring equipment, materials, and staff; improving team communi-
+cation and competencies; tracking team performance; and resolving team 
+issues.56
+When planning for team resources, all members of a project team may 
+be assigned, or the project manager may have the luxury of selecting all 
+or some team members. Ideally, team members are selected based on their 
+skills in the technology needed for the project, their understanding of the 
+business area affected by the project, their expertise in a specific area of 
+the project, and their ability to work well on a team. Often, compromises 
+must be made. For example, the best available subject matter expert may 
+not work well with others, which becomes an additional challenge for the 
+project manager.
+Experienced project managers have learned that forming an effective 
+team to accomplish a difficult goal is a challenge in itself. It takes consid-
+erable effort and a willingness to change on the part of all team members 
+in order for a team to reach high levels of performance. A useful model to 
+describe how teams develop and evolve is the forming-storming-norming-­
+performing adjourning model, which was first proposed by Bruce Tuckman 
+(see Figure 12.16).57
+quality management:  A set of 
+activities designed to ensure that a 
+project will meet the needs for which it 
+was undertaken.
+quality planning:  The 
+determination of which quality 
+standards are relevant to the project 
+and determining how they will be met.
+quality assurance:  The evaluation 
+of the progress of the project on an 
+ongoing basis to ensure that it meets 
+the identified quality standards.
+quality control:  The checking of 
+project results to ensure that they meet 
+identified quality standards.
+project resource 
+management:  A set of activities 
+designed to identify, acquire, and 
+manage resources for a project.
+forming-storming-norming-
+performing adjourning model:  A 
+model that describes how teams 
+develop and evolve.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 502
+
+part 4 • Planning, Implementing, and Managing Information Systems
+480
+During the forming stage, the team meets to learn about the project, agrees 
+on basic goals, and begins to work on project tasks. Team members are on their 
+best behavior and try to be pleasant to one another while avoiding any conflict 
+or disagreement. Team members work independently of one another and focus 
+on their role or tasks without understanding what others are attempting to do. 
+In the formation stage, the team’s project manager tends to be highly directive 
+and tells members what needs to be done. If the team remains in this stage, it 
+is unlikely to perform well, and it will never develop breakthrough solutions 
+to problems or effectively solve a conflicting set of priorities and constraints.
+The team has moved into the storming stage when it recognizes that differ-
+ences of opinion exist among team members and allows these ideas to compete 
+for consideration. Team members will raise such important questions as “What 
+problems are we really supposed to solve?” “How can we work well together?” 
+“What sort of project leadership will we accept?” The team might argue and 
+struggle, so it can be an unpleasant time for everyone. An inexperienced project 
+manager, not recognizing what is happening, may give up, feeling that the team 
+will never work together effectively. The project manager and team members 
+must be tolerant of one another as they explore their differences. The project 
+manager may need to continue to be highly directive.
+If the team survives the storming stage, it may enter the norming stage. 
+During this stage, individual team members give up their preconceived judg-
+ments and opinions. Members who felt a need to take control of the team 
+give up this impulse. Team members adjust their behavior and begin to trust 
+one another. The team may decide to document a set of team rules or norms 
+to guide how they will work together. Teamwork actually begins. The project 
+manager can be less directive and can expect team members to take more 
+responsibility for decision making.
+Some teams advance beyond the norming stage into the performing stage. 
+At this point, the team is performing at a high level. Team members are com-
+petent, highly motivated, and knowledgeable about all aspects of the project. 
+They have become interdependent on one another and have developed an 
+effective decision-making process that does not require the project manager. 
+Dissent is expected, and the team has developed an effective process to ensure 
+that everyone’s ideas and opinions are heard. Work is done quickly and with 
+high quality. Problems that once seemed unsolvable now have “obvious” solu-
+tions. The team’s effectiveness is much more than the sum of the individual 
+members’ contributions. The project manager encourages participative decision 
+making, with the team members making most of the decisions.
+Adjourning, the final stage in the model, involves the dissolution of the 
+team. Ideally, this occurs when the project has been completed successfully and 
+all team members can move on to new projects or assignments with a positive 
+sense of accomplishment. From an organizational perspective, it is important 
+that team members be recognized and rewarded for their contributions.
+FIGURE 12.16
+Tuckman’s forming-storming- 
+norming-performing- 
+adjourning model
+Forming an effective team is a chal-
+lenge in itself.
+Storming
+Norming
+Performing
+Skill level
+Team development
+Enthusiasm
+Forming
+arka38/Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 503
+
+chapter 12 • Strategic Planning and Project Management
+481
+No matter what stage a team is operating in, it commonly will revert to 
+less-advanced stages in the model when confronted with major changes in 
+the work to be done, a change in project leadership, or substantial changes 
+in the team’s makeup. The project manager and business managers must 
+recognize and consider this important dynamic when contemplating project 
+changes.
+Another key aspect of project resource management is getting the project 
+team and the sponsoring business unit to take equal responsibility for making 
+the project a success. The project team members must realize that on their 
+own they cannot possibly make the project a success. They must ensure that 
+the business managers and end users become deeply involved in the proj-
+ect and take an active role. The project team must actively involve the end 
+users, provide information for them to make wise choices, and insist on their 
+participation in major decisions. The business unit must remain engaged in 
+the project, challenge recommendations, ask questions, and weigh options. It 
+cannot simply sit back and “let the project happen to them.” Key users need to 
+be identified as part of the project team with responsibility for developing and 
+reviewing deliverables. Indeed, some organizations require that the project 
+manager come from the sponsoring business unit. Other organizations assign 
+co-project managers to IS-related projects—one from the IS organization and 
+one from the business unit.
+In addition to the development team, each project should have a ­project 
+steering team—made up of senior managers representing the business and 
+IS organizations—to provide guidance and support to the project. The num-
+ber of members on the steering team should be limited (three to five) to 
+simplify the decision-making process and ease the effort to schedule a quo-
+rum of these busy executives. The project manager and select members of 
+the development team should meet with the steering team on an as-needed 
+basis, typically at the end of each project phase or every few months. The 
+three key members of the steering team include: (1) the project champion, 
+who is a well-respected manager with a passion to see the project succeed 
+and who removes barriers to the success of the project; (2) the project 
+sponsor, who is a senior manager from the business unit most affected by 
+the project and who ensures the project will indeed meet the needs of his 
+or her organization; and (3) the IS manager, who ensures proper IS staff-
+ing for the project and ensures the project uses approved technology and 
+vendors. These roles are further explained in Figure 12.17 and outlined in 
+Table 12.12.
+project champion:  A well-
+respected manager with a passion 
+to see a project succeed and who 
+removes barriers to the success of the 
+project.
+project sponsor:  A senior manager 
+from the business unit most affected by 
+a project and who ensures the project 
+will indeed meet the needs of his or 
+her organization.
+project steering team:  A group 
+of senior managers representing the 
+business and IS organizations that 
+provide guidance and support to a 
+project.
+FIGURE 12.17
+Project organization
+A project steering team is critical to 
+the success of any project.
+Subject
+matter
+experts
+Project
+team
+members
+Technical
+resources
+Project
+manager
+Project steering team
+Champion
+Sponsor
+IS manager
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 504
+
+part 4 • Planning, Implementing, and Managing Information Systems
+482
+Many projects also draw on key resources who are not assigned to the 
+project team but who provide valuable input and advice. A subject matter 
+expert is someone who provides knowledge and expertise in a particular 
+aspect important to the project. For example, an accounting system project 
+may seek advice from a member of the internal auditing group in defining the 
+mandatory control features of a new system. A technical resource is essen-
+tially a subject matter expert in an IS topic of value to the project. For example, 
+the accounting system project may seek advice from a database management 
+system guru (either inside or outside the company) to minimize the response 
+time for certain key business transactions.
+Communications Management
+Communications management involves the generation, collection, dissemi-
+nation, and storage of project information in a timely and effective manner. 
+It includes communications planning, information distribution, performance 
+reporting, and managing communications to meet the needs of project share-
+holders. The key stakeholders include the project steering team, the team 
+itself, end users, and others who may be affected by the project (potentially 
+customers or suppliers).
+In preparing a communications plan, the project manager should recog-
+nize that the various project stakeholders have different information needs. 
+A useful tool for identifying and documenting these needs is the stakeholder 
+analysis matrix, shown in Table 12.13. This matrix identifies the interests of 
+subject matter expert:  Someone 
+who provides knowledge and expertise 
+in a particular aspect important to the 
+project.
+technical resource:  A subject 
+matter expert in an IS topic of value to 
+the project.
+communications management:  
+The generation, collection, 
+dissemination, and storage of project 
+information in a timely and effective 
+manner.
+Project Champion
+Project Sponsor
+IS Manager
+Well-respected senior manager with a passion to see the 
+project succeed
+Senior manager of business unit 
+most affected by the project
+Well-respected IS 
+manager
+Assures that project goals and objectives are aligned 
+with organizational goals and objectives
+Ensures that the business unit’s 
+expectations and needs are clearly 
+communicated and understood
+Ensures the ­project 
+is staffed with 
+appropriate IS staff
+Convinces other senior managers of the project’s merits 
+in order to gain their approval to fund and staff it
+Ensures that the project solution is 
+truly workable and consistent with 
+business and end-user requirements
+Ensures technology 
+and vendors sug-
+gested for inclusion 
+in the project are 
+consistent with IS 
+strategy
+Acts as a vocal and visible champion for the project to 
+gain the support of others
+Works to overcome resistance to 
+change and prepare the organiza-
+tion to embrace the new system and 
+way of doing things
+Identifies and removes barriers to project success
+Identifies workers from the business 
+unit to be assigned on a full- or 
+part-time basis to project
+Resolves any issues outside the control of the project 
+manager
+Provides advice and counsel to the project team
+Keeps informed of major project activities and 
+developments
+Has final approval of all requests for changes in project 
+scope, budget, and schedule
+Signs off on approvals to proceed to each succeeding 
+project phase
+Ta b le 12.12  Responsibilities of the project steering team
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 505
+
+chapter 12 • Strategic Planning and Project Management
+483
+the stakeholders, their information needs, and important facts for managing 
+communications with the champion, sponsor, project team members, and key 
+end users associated with the project. The project manager should include his 
+or her manager in this analysis. Based on analysis of this data, the preferred 
+form and frequency of communication is identified for each stakeholder.
+Ta b le 12.13  Sample stakeholder analysis matrix
+Key Stakeholders
+Ray Boaz
+Klem Kiddlehopper
+John Smith
+Forklift Drivers
+Organization
+Project champion 
+and VP of supply 
+chain
+Project sponsor and 
+warehouse manager
+Experienced forklift 
+driver
+15 different drivers
+Useful facts
+• 
+Very persuasive
+• 
+Trusted by CEO
+• 
+Risk taker, very 
+aggressive
+• 
+Will push this 
+through, no mat-
+ter what
+• 
+Has driven fork-
+lift truck for five 
+years
+• 
+Well respected 
+by peers
+• 
+Not highly moti-
+vated to make 
+project a success
+Level of interest
+High
+High
+Medium
+Low
+Level of influence
+High
+Medium
+High
+Low
+Suggestions 
+on managing 
+relationship
+• 
+Demands 
+respect, some-
+what formal
+• 
+Speak in busi-
+ness terms, never 
+get technical; no 
+surprises!
+• 
+Poor listener, for-
+gets details
+• 
+Put it in writing
+• 
+Must keep John 
+enthusiastic 
+about project
+• 
+Don’t ignore
+• 
+Attend occa-
+sional shift 
+changeover 
+meeting
+Information needs
+• 
+ROI, budget, and 
+schedule
+• 
+Schedule and 
+potential opera-
+tional conflicts
+• 
+Schedule, espe-
+cially timing of 
+training
+• 
+Safety and pro-
+ductivity issues
+• 
+Schedule, espe-
+cially timing of 
+training
+• 
+Safety issues
+Information 
+medium, format, 
+and timing
+• 
+Biweekly face-to-
+face meeting
+• 
+Weekly 
+newsletter
+• 
+Biweekly face-to-
+face meeting
+• 
+Newsletter
+• 
+Catch-as-catch 
+can
+• 
+Brief updates at 
+weekly depart-
+ment meeting
+If the project team is unable to recruit either a project champion or spon-
+sor, the problem may be that management does not see clearly that the bene-
+fits of the project outweigh its costs, or that the project appears to run counter 
+to organizational goals and strategies. A potential project without either a 
+champion or a sponsor is highly unlikely to get the needed resources, and 
+for good reason. No project should be started without both a champion and 
+a sponsor.
+Risk Management
+“Things will go wrong, and at the worst possible time,” according to a vari-
+ation of Murphy’s Law, a popular adage. Project risk is an uncertain event 
+or condition that, if it occurs, has a positive or a negative effect on a project 
+objective. Known risks are risks that can be identified and analyzed. For 
+example, in creating a new IS-related system that includes the acquisition of 
+new computing and/or networking hardware, a known risk might be that the 
+hardware will take longer than expected to arrive at the installation site. If 
+the hardware is delayed by several weeks, it could have a negative effect on 
+the project completion date. Countermeasures can be defined to avoid some 
+project risk:  An uncertain event 
+or condition that, if it occurs, has 
+a positive or a negative effect on a 
+project objective.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 506
+
+part 4 • Planning, Implementing, and Managing Information Systems
+484
+known risks entirely, and contingency plans can be developed to address 
+unavoidable known risks if they occur. Of course, some risks simply cannot 
+be anticipated.
+A hallmark of experienced project managers is that they follow a deliberate 
+and systematic process of risk management to identify, analyze, and manage 
+project risks. Having identified potential risks, they can make plans to avoid 
+them entirely. When an unavoidable risk occurs and becomes an issue, the 
+project team has already defined an alternative course of action to minimize 
+the impact on the project. They waste no time executing the backup plan. 
+Unknown risks cannot be managed directly; however, an experienced project 
+manager will build some contingency into the project budget and schedule to 
+allow for their occurrence.
+While inexperienced project managers realize that things may go wrong, 
+they often fail to identify and address known risks and do not build in contin-
+gencies for unknown risks. Thus, they are often unsure of what to do, at least 
+temporarily, when a project setback occurs. In their haste to react to a risk, 
+they may not implement the best course of action.
+The project manager needs to lead a rigorous effort to identify all risks 
+associated with the project. The project team, business managers, and end users 
+should participate in the effort. These resources can include seasoned project 
+managers and members of the organization’s risk management department. 
+After each risk is identified and defined, as shown in Table 12.14, the group 
+should attempt to classify the risk by the probability that it will occur and 
+the impact on the project if the risk does occur. Both the probability and the 
+impact can be classified as high, medium, or low, as shown in the example in 
+Table 12.14.
+risk management:  A deliberate 
+and systematic process designed to 
+identify, analyze, and manage project 
+risks.
+Risk
+Example
+R1
+The required new servers arrive at the installation site more than two 
+weeks late.
+R2
+Business pressures make key end users unavailable to develop the 
+user acceptance test by the date it is needed.
+R3
+Business pressures make end users unavailable during the time scheduled 
+for training.
+R4
+One or more end-user computers have insufficient memory or CPU 
+capacity to run the new software efficiently (or at all).
+Rn
+. . . .
+Ta b l e 12.14  Identification of project risks
+Impact on Project
+Low
+Medium
+High
+Probability of risk occurring
+High
+R10
+R2, R3
+Medium
+R5, R6
+Rn
+R1
+Low
+R8, 
+R11
+R7, R9
+R4
+Dark 5 High risk/high impact; risk management plan is needed
+Lightest 5 Medium or high risk and impact; risk management plan recommended
+Lighter 5 Low or medium risk and impact; risk management plan not needed
+Ta b l e 12.15  Example of an assessment of project risks
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 507
+
+chapter 12 • Strategic Planning and Project Management
+485
+The project team then needs to consider which risks need to be addressed 
+with some sort of risk management plan. Generally, the team can ignore risks 
+with a low probability of occurrence and low potential impact. Risks with a 
+high probability of occurrence and a high potential impact need to have a risk 
+owner assigned. The risk owner is responsible for developing a risk manage-
+ment strategy and monitoring the project to determine if the risk is about to 
+occur or has occurred. One strategy is to take steps to avoid the risk altogether, 
+while another is to develop a backup plan. The risk management plan can be 
+documented as shown in Table 12.16.
+risk owner:  The individual 
+responsible for developing a risk 
+management strategy and monitoring 
+the project to determine if the risk is 
+about to occur or has occurred.
+Risk
+Description
+Risk Owner
+Risk Strategy
+Current Status
+R2
+Business pressures make 
+key end users unavail-
+able to develop the user 
+acceptance test by the 
+deadline.
+Jon Andersen, manager 
+of end users in the busi-
+ness area
+Try to avoid this prob-
+lem by starting devel-
+opment of the user 
+acceptance test three 
+weeks earlier than orig-
+inally planned. Monitor 
+progress carefully.
+Key users have been 
+identified and have 
+started developing the 
+test.
+R3
+Business pressures make 
+end users unavailable 
+during the time sched-
+uled for training.
+Jon Andersen, manager 
+of end users in the busi-
+ness area
+Try to avoid this prob-
+lem by hiring and 
+training four temporary 
+workers to fill in for end 
+users as they participate 
+in training.
+Three of four tempo-
+rary workers have been 
+hired. Their training is 
+scheduled to begin next 
+week.
+R1
+The required new serv-
+ers arrive at the installa-
+tion site more than two 
+weeks late.
+Alice Fields, team mem-
+ber responsible for hard-
+ware acquisition
+Set a firm delivery dead-
+line with the vendor, 
+with a substantial dollar 
+penalty for each day that 
+the equipment is late.
+The contract with the 
+penalty clause has been 
+signed by the vendor, 
+who agrees to provide a 
+shipment status update 
+each Tuesday and Friday.
+Ta b l e 12.16  Risk management plan
+One of the biggest risks associated with a project is that considerable 
+time, energy, and resources might be consumed with little value to show in 
+return. To avoid this potential risk, an organization must ensure that a strong 
+rationale exists for completing a project. The project must have a direct link 
+to an organizational strategy and goal, as shown in Figure 12.18. In this exam-
+ple, assume that an organization has been losing sales because of customer 
+dissatisfaction. It has set an objective of improving customer service, with 
+a goal of increasing the retention rate of existing customers. The organiza-
+tion has defined one of its key strategies as improving customer service to 
+world-class levels. A project that is consistent with this strategy and that can 
+deliver results to achieve this goal is clearly aligned with the organization’s 
+objectives.
+• Objective. Improve customer service.
+• Goal. Reduce customer turnover from 25 percent per year to 10 percent 
+by June 2020 by responding to 95 percent of customers’ inquiries within 
+90 seconds, with less than 5 percent callbacks about the same problem.
+• Strategy. Improve customer service to world-class levels.
+• Project. Implement a state-of-the-art customer call center with “24/7” 
+availability and a well-trained staff.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 508
+
+part 4 • Planning, Implementing, and Managing Information Systems
+486
+Risk management software—such as Risk Management from Intelex, Full 
+Monte from Barbecana, and RiskyProject from Intaver Institute—integrates 
+with project scheduling software and can reflect the potential impact of various 
+risks on the project schedule and cost. Use of such software can lead to more 
+realistic estimates for project milestones and budgets.
+Procurement Management
+Procurement management is a set of activities related to the acquisition of 
+goods and/or services for a project from sources outside the performing orga-
+nization. Procurement management is divided into the following processes:
+• Plan purchase and acquisition. This process determines what is needed 
+and when.
+• Plan contracting. This process documents requirements for products 
+and services and identifies potential providers.
+• Request seller responses. This process obtains bids, information, pro-
+posals, or quotations from potential providers.
+• Select seller. During this process, offers are reviewed, the preferred pro-
+vider is identified, and negotiations are started.
+• Contract administration. This process manages all aspects of the con-
+tract and the relationship between the buyer and the provider. The 
+process includes tracking and documenting the provider’s performance, 
+managing contract changes, and taking any necessary corrective actions.
+• Contract closure. This process completes and settles the terms of any 
+contracts, including resolving any open items.
+The make-or-buy decision is a key decision made during the plan purchase 
+and acquisition process. The make-or-buy decision involves comparing the 
+pros and cons of in-house production versus outsourcing of a given product 
+or service. In addition to cost, two key factors to consider in this decision are 
+(1) “Do we have a sufficient number of employees with the skills and experi-
+ence required to deliver the product or service at an acceptable level of quality 
+and within the required deadlines?” and (2) “Are we willing to invest the man-
+agement time, energy, and money required to identify, recruit, train, develop, 
+and manage people with the skills to do this kind of work?”
+procurement management:  A 
+set of activities related to the 
+acquisition of goods and/or services 
+for the project from sources outside the 
+performing organization.
+make-or-buy decision:  The 
+act of comparing the pros and 
+cons of in-house production versus 
+outsourcing of a given product or 
+service.
+FIGURE 12.18
+Projects must be well linked 
+to an organizational goal and 
+strategy
+Objective:
+Improve
+customer
+service
+Goal:
+Reduce customer
+turnover from
+25% to 10% by
+June 2020
+Strategy:
+Improve
+customer
+service to
+world-class levels
+Project:
+Implement
+state-of-the-art
+customer call
+center
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 509
+
+chapter 12 • Strategic Planning and Project Management
+487
+A contract is a legally binding agreement that defines the terms and con-
+ditions of the buyer–provider relationship, including who is authorized to do 
+what, who holds what responsibilities, costs and terms of payment, remedies 
+in case of breach of contract, and the process for revising the contract. Contract 
+types fall into three main categories:
+• Fixed-price contract. With this type of contract, the buyer and pro-
+vider agree to a total fixed price for a well-defined product or service. 
+For example, the purchase of a large number of laptop computers with 
+specified capabilities and features frequently involves a fixed-price 
+contract.
+• Cost-reimbursable contract. This type of contract requires the buyer 
+to pay the provider an amount that covers the provider’s actual costs 
+plus an additional amount or percentage for profit. Three common types 
+of cost-reimbursable contracts exist. In a cost-plus-fee or cost-plus-­
+percentage of cost contract, the provider is reimbursed for all allowable 
+costs and receives a percentage of the costs as a fee. In a cost-plus-
+fixed-fee contract, the provider is reimbursed for all allowable costs and 
+receives a fixed fee. In a cost-plus-incentive-fee contract, the provider 
+is reimbursed for all allowable costs. In addition, a predetermined fee 
+is paid if the provider achieves specified performance objectives—for 
+example, the provider’s hardware must be received, installed, and opera-
+tional by a specific date. In such contracts, buyers run the risk of paying 
+more for the work but are rewarded by having their objectives met or 
+exceeded. Providers run the risk of reduced profits if they fail to deliver, 
+but can be rewarded for superior performance.
+• Time and material contract. Under this type of contract, the buyer pays 
+the provider for both the time and materials required to complete the 
+contract. The contract includes an agreed-upon hourly rate and unit price 
+for the various materials to be used. The exact number of hours and 
+precise quantity of each material are not known, however. Thus, the true 
+value of the contract is not defined when the contract is approved. If not 
+managed carefully, time and material contracts actually can motivate sup-
+pliers to extend projects to maximize their fees.
+Poor procurement management can result in serious project problems and 
+even a project’s outright cancellation.
+Project Integration Management
+Project integration management is perhaps the most important knowledge 
+area because it requires the assimilation of all nine other project management 
+knowledge areas. Project integration management requires the coordination 
+of all appropriate people, resources, plans, knowledge, and efforts to com-
+plete a project successfully. According to the Project Management Institute 
+(PMI), project integration management comprises seven project management 
+processes:
+1.	 Developing the project charter that formally recognizes the existence of the 
+project, outlines the project objectives and how they will be met, lists key 
+assumptions, and identifies major roles and responsibilities.
+2.	 Developing the project management plan that describes the overall scope, 
+schedule, and budget for the project; this plan coordinates all subsequent 
+project planning efforts and is used in the execution and control of the 
+project.
+3.	 Directing and managing project execution by following the project man-
+agement plan.
+4.	 Managing project knowledge by using past projects and documenting new 
+knowledge acquired.
+fixed-price contract:  A contract 
+in which the buyer and provider agree 
+to a total fixed price for a well-defined 
+product or service.
+cost-reimbursable contract:  A 
+contract that requires the buyer to pay 
+the provider an amount that covers 
+the provider’s actual costs plus an 
+additional amount or percentage for 
+profit.
+time and material contract:  A 
+contract that requires the buyer to 
+pay the provider for both the time and 
+materials required to complete the 
+contract.
+project integration 
+management:  The coordination 
+of all appropriate people, resources, 
+plans, knowledge, and efforts to 
+complete a project successfully.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 510
+
+part 4 • Planning, Implementing, and Managing Information Systems
+488
+5.	 Monitoring and controlling the project work to meet the project’s per-
+formance objectives; this process requires regularly measuring effort and 
+expenditures against the project tasks, recognizing when significant devi-
+ations occur from the schedule or budget, and taking corrective action to 
+regain alignment with the plan.
+6.	 Performing integrated change control by managing changes over the course 
+of the project that can affect its scope, schedule, and/or cost.
+7.	 Closing the project successfully by gaining stakeholder and customer accep-
+tance of the final product, closing all budgets and purchase orders after 
+confirming that final disbursements have been made, and capturing knowl-
+edge from the project that may prove useful for future projects.
+As an example of a firm that excels in project integration management, 
+consider Atos, an international IS services company that employs over 110,000 
+workers in more than 73 countries,58 with 2018 annual revenue of €13 billion 
+($12.2 billion U.S. dollars).59 The firm successfully delivered the information 
+technology systems that enabled the smooth running of the Sochi 2014 Olym-
+pic Games in Russia. Atos had the primary responsibility for project integra-
+tion, consulting, systems integration, operations management, information 
+security, and software applications development for the games. Through its 
+experience with previous Olympics (Atos has been the worldwide IS partner 
+for the Olympic Games, both winter and summer, since Salt Lake City in 
+2002), Atos has developed an effective project management process. The firm 
+spent over four years configuring, testing, and retesting some 10,000 pieces 
+of equipment deployed to 30 different venues. Atos coordinated the work 
+of hundreds of subcontractors to deliver a reliable IS infrastructure and IS 
+services in support of one of the world’s widely viewed sporting events. The 
+Sochi project was coordinated so that custom software, thousands of work-
+stations and laptops, tens of thousands of phones, hundreds of servers, and 
+multiple operations centers and data centers all operated together effectively 
+and efficiently.60
+Stakeholder Management
+As the newest addition to the Project Management Body of Knowledge (PMBOK 
+Guide, 6th edition), stakeholder management has recently been recognized 
+as an essential component of a successful project. Stakeholder management 
+is a set of activities that involves identifying, engaging, communicating with 
+all the people, groups, or organizations who are or could be impacted by a 
+project. It is important to note that different people and groups have different 
+levels of engagement needs. For example, imagine that ABC Corporation is 
+building a new customer invoicing system. Once system development begins, 
+the company’s president wants to know high-level information, such as cost 
+and schedule overruns. The IT director will need to know resource and data 
+needs, as well as testing results. The employees who will use the new system 
+only need to know when the system will be implemented and when they will 
+be trained.
+Within stakeholder management, there are four processes:
+1.	 All stakeholders must be identified. This process is not a one-time endeavor; 
+rather, this list must be regularly reviewed and updated.
+2.	 The level of stakeholder engagement must be known and planned for. This 
+is based on each stakeholder’s need, expectations, and interest level in the 
+project.
+3.	 The level of engagement must be managed. The project manager must work 
+with the stakeholders to satisfy their desired levels of engagement.
+4.	 The levels of engagement must be monitored. Changes must be made to 
+satisfy the desired levels of engagement.61
+stakeholder management:  A set 
+of activities that involves identifying, 
+engaging, communicating with all the 
+people, groups, or organizations who 
+are or could be impacted by a project.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 511
+
+chapter 12 • Strategic Planning and Project Management
+489
+Several types of matrices can be used to manage the engagement and com-
+munications plans for stakeholders. In the stakeholder engagement assessment 
+matrix (shown in Table 12.17), each stakeholder is assessed in two different 
+ways: their current engagement level and their desired engagement level.
+Stakeholder
+Unaware
+Resistant
+Neutral
+Supportive
+Leading
+Mary Jones
+C
+D
+David Smith
+C
+D
+Andre Ruiz
+D C
+“C” denotes current level of engagement
+“D” denotes desired level of engagement
+The matrix is used to depict each stakeholder’s current engagement level with the project and 
+the engagement level that they desire.
+Ta b l e 12.17  Stakeholder engagement assessment matrix
+Comparatively, the stakeholder registry (shown in Table 12.18) contains 
+information regarding the stakeholder’s position, requirements, expectations, 
+influence level, and interest level.
+Name
+Title
+Department
+Requirements
+Influence
+(L/M/H)
+Interest
+(L/M/H)
+Mary Jones
+Accounts Payable 
+Clerk
+Accounting
+Needs to invoice 
+customers
+L
+H
+David Smith
+IT Manager
+IT
+Must integrate new 
+­system with database
+M
+H
+Andre Ruiz
+Accounts Payable 
+Manager
+Accounting
+Invoicing system must be 
+efficient
+H
+H
+Ta b le 12.18  Stakeholder registry
+Name/Group
+Contact 
+Information
+Type of 
+Information
+Delivery Method
+Delivery 
+Frequency
+Person
+Responsible
+Mary Jones
+mjones@abc.com
+Monthly status
+Email
+Monthly
+Project Manager
+David Smith
+dsmith@abc.com
+Status reports, 
+Monthly budget 
+report, Goals, 
+implementation 
+plans, Scope 
+changes
+Email
+Weekly status 
+reports, Monthly 
+reports, as needed
+Business Analyst, 
+Project Manager
+Andre Ruiz
+aruiz@abc.com, 
+Bldg 12
+Status reports, 
+Monthly bud-
+get report, 
+Requirements
+Email, Paper
+Weekly
+Project Manager
+Ta b le 12.19  Stakeholder communication plan
+Additionally, communications with stakeholders needs to be planned and 
+executed on a regular basis. Project managers also develop a stakeholder 
+communication plan (see Table 12.19) to manage the level of communication 
+required throughout the project.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 512
+
+part 4 • Planning, Implementing, and Managing Information Systems
+490
+Reluctant Project Sponsor
+ Behaviors in Organizations
+You are on the phone with the project sponsor of a $2 million project you are 
+managing. She informs you that she accepted the role reluctantly, and now, one 
+month into this eight-month project, she is considering withdrawing as project 
+sponsor. She does not see the need for this role and is extremely busy with her 
+other responsibilities.
+Review Questions
+1.	 What is the role of the project sponsor?
+2.	 What might be the impact on the project if you attempt to proceed without a 
+sponsor? Is it likely that some project tasks would need to be redone if a new 
+sponsor is appointed?
+Critical Thinking Questions
+1.	 If you are unable to persuade the sponsor to remain on the project, should you 
+enlist the help of the project champion? How might you do this in such a way 
+that you do not appear weak and ineffective and avoid creating hard feelings 
+with the current sponsor?
+2.	 After speaking to the project champion, you and she both agree that the current 
+sponsor should be replaced with someone new. What characteristics, traits, and 
+experiences would you look for in a new sponsor?
+Summary
+Principle:
+Organizations that are more advanced in their planning processes develop 
+multiple-year strategic plans.
+Strategic planning is a process that helps managers identify desired out-
+comes and formulate feasible plans to achieve their objectives using available 
+resources and capabilities.
+Goal-based strategic planning is divided into four phases: analyze situation, 
+set direction, define strategies, and deploy plan.
+The analyze situation phase involves looking internally to identify the 
+organization’s strengths and weaknesses and looking externally to determine 
+its opportunities and threats.
+An analysis of an organization’s internal assessment and study of its exter-
+nal environment are frequently summarized into a Strengths, Weaknesses, 
+Opportunities, Threats (SWOT) matrix.
+The set direction phase involves defining the mission, vision, values, objec-
+tives, and goals of the organization.
+SMART goals are specific, measurable, achievable, relevant, and time 
+constrained.
+The define strategies phase involves describing how an organization will 
+achieve its mission, vision, objectives, and goals.
+Deploy plan includes communicating the organization’s mission, vision, 
+values, objectives, goals, and strategies so that everyone can help define the 
+actions required to meet organizational goals.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 513
+
+chapter 12 • Strategic Planning and Project Management
+491
+Principle:
+Organizations must always make a clear connection among business objec-
+tives, goals, and projects. In addition, projects must be consistent with 
+business strategies.
+The strategic planning process for the IS organization and the factors that 
+influence it depend on how the organization is perceived by the rest of the 
+organization. An IS organization can be viewed as a cost center/service pro-
+vider, a business partner/business peer, or a game changer.
+IS strategic planning is influenced by the corporate and business unit stra-
+tegic plans as well as technology innovations and innovative thinking.
+The IS strategy will set direction for the technologies, vendors, competen-
+cies, people, systems, and projects.
+Principle:
+Positive change is a key ingredient for any successful organization.
+Innovation is the application of new ideas to the products, processes, and 
+activities of a firm, leading to increased value. Innovation is the catalyst for 
+the growth and success of any organization. Innovation may be classified as 
+sustaining or disruptive.
+Business process reengineering is a form of innovation that involves the 
+radical redesign of business processes, organizational structure, information 
+systems, and values of the organization to achieve a breakthrough in results. 
+Continuous improvement is a form of innovation that continually improves 
+business processes to add value to products and services.
+Principle:
+The organizational appetite for innovation drives the changes within the 
+firm’s selected projects and processes.
+A project is a temporary endeavor undertaken to create a unique product, 
+service, or result.
+Roughly 14 percent of all IS projects fail.
+Today, many organizations have recognized project management as one of 
+their core competencies.
+Five highly interrelated parameters define a project—scope, cost, time, qual-
+ity, and user expectations. If any one of these project parameters is changed, 
+there must be a corresponding change in one or more of the other parameters.
+Project scope is the definition of which work is and which work is not 
+included in a project.
+The cost of a project includes all the capital, expenses, and internal cross-
+charges associated with the project’s buildings, operation, maintenance, and 
+support.
+The timing of a project is frequently a critical constraint.
+Quality of a project can be defined as the degree to which the project 
+meets the needs of its users.
+Project management is the application of knowledge, skills, and tech-
+niques to project activities to meet project requirements. Project managers 
+must attempt to deliver a solution that meets specific scope, cost, schedule, and 
+quality goals while managing the expectations of the project stakeholders—the 
+people involved in the project or those affected by its outcome.
+According to the Project Management Institute (PMI), project managers 
+must coordinate 10 areas of expertise: scope, schedule, cost, quality, resources, 
+communications, risk, procurement, integration, and stakeholder management.
+Scope management includes defining the work that must be done as part of 
+the project and then controlling the work to stay within the agreed-upon scope.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 514
+
+part 4 • Planning, Implementing, and Managing Information Systems
+492
+A process is a set of logically related tasks performed to achieve a defined 
+outcome.
+Schedule management includes defining an achievable completion date 
+that is acceptable to the project stakeholders, developing a workable project 
+schedule, and ensuring the timely completion of the project.
+Cost management includes developing and managing the project budget.
+Quality management is a set of activities designed to ensure that the project 
+will meet the needs for which it was undertaken.
+Project resource management includes activities to identify, acquire, and 
+manage resources for a project.
+The forming-storming-norming-performing-adjourning model describes 
+how teams form, evolve, and dissolve.
+Each project should have a project steering team—made up of senior man-
+agers representing the business and IS organizations—to provide guidance and 
+support to the project. Three key members of the steering team are the project 
+champion, project sponsor, and IS manager.
+Communications management involves the generation, collection, dissem-
+ination, and storage of project information in a timely and effective manner.
+Risk management is a process that attempts to identify, analyze, and man-
+age project risks. Experienced project managers follow a deliberate and sys-
+tematic process of risk management to avoid risks or minimize their negative 
+impact on a project.
+Procurement management is a set of activities related to the acquisition of 
+goods and/or services for the project from sources outside the organization.
+Project integration management is a critical knowledge area of project 
+management that involves chartering, scoping, planning, executing, monitoring 
+and controlling, change control, and project closing.
+Stakeholder management is a set of activities that involves identifying, 
+engaging, communicating with all the people, groups, or organizations who 
+are or could be impacted by a project.
+Key Terms
+core value
+business process reengineering (BPR)
+goal
+goals-based strategic planning
+intangible benefit
+issues-based strategic planning
+Michael Porter’s Five Forces Model
+mission statement
+objective
+organic strategic planning
+strategic planning
+strategy
+Strengths, Weaknesses, Opportunities, Threats (SWOT) 
+matrix
+tangible benefit
+vision
+vision/mission statement
+change model
+communications management
+continuous improvement
+core competency
+cost management
+cost-reimbursable contract
+critical path
+culture
+diffusion of innovation theory
+fixed-price contract
+forming-storming-norming-performing-adjourning 
+model
+Gantt chart
+innovation
+make-or-buy decision
+network diagram
+organizational change
+organizational culture
+predecessor task
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 515
+
+chapter 12 • Strategic Planning and Project Management
+493
+procurement management
+project
+project champion
+project deadline
+project integration management
+project management
+project milestone
+project risk
+project schedule
+project scope
+project sponsor
+project stakeholder
+project steering team
+process redesign
+quality
+quality assurance
+quality control
+quality management
+quality planning
+process resource management
+reengineering
+risk management
+risk owner
+scope management
+slack time
+soft side of implementing change
+sponsoring business unit
+stakeholder management
+subject matter expert
+technical resource
+technology acceptance model (TAM)
+time and material contract
+schedule management
+work breakdown structure (WBS)
+Self-Assessment Test
+Organizations that are more advanced in their 
+planning processes develop multiple-year strategic 
+plans.
+1.	 Which phase of the goals-based strategic plan-
+ning involves an in-depth analysis of the com-
+pany and its competitors?
+a.	 Analyze situation
+b.	 Set direction
+c.	 Define strategies
+d.	 Deploy plan
+2.	 The _______________, _______________, and 
+_______________ must be established before 
+an organization can establish its goals and 
+objectives.
+a.	 Values, strategies, projects
+b.	 Mission, values, strategies
+c.	 Mission, vision, values
+d.	 Vision, strategies, projects
+3.	 The SWOT analysis is part of which phase in 
+goals-based strategic planning?
+a.	 Analyze situation
+b.	 Define strategies
+c.	 Set direction
+d.	 Deploy plan
+4.	 If an IS organization focuses on stopping IS 
+redundancies and saving money, it would be 
+considered a _______________.
+a.	 Cost center
+b.	 Business partner
+c.	 Game changer
+d.	 Disruptive innovation
+Organizations must always make a clear connection 
+among business objectives, goals, and projects. In 
+addition, projects must be consistent with business 
+strategies.
+5.	 Business value of a proposed project can be 
+which of the following?
+a.	 Tangible benefits
+b.	 Intangible benefits
+c.	 Unstructured benefits
+d.	 Both A and B
+6.	 Which type of project should result in an 
+increase of company revenue?
+a.	 Maintenance
+b.	 Breakthrough
+c.	 Mandatory
+d.	 Enhancement
+7.	 When identifying and selecting projects, an orga-
+nization does all of the following EXCEPT:
+a.	 Assess the risk of using new technologies
+b.	 Assess the skill level of the proposed users
+c.	 Consider other technological changes that 
+this new project will require
+d.	 Calculate the cost of the project and its 
+expected rate of return
+The organizational appetite for innovation drives 
+the changes within the firm’s selected projects and 
+processes.
+8.	 A _______________ is a temporary endeavor 
+undertaken to create a unique product, service, 
+or result.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 516
+
+part 4 • Planning, Implementing, and Managing Information Systems
+494
+Self-Assessment Test Answers
+1.	 a
+2.	 c
+3.	 a
+4.	 a
+5.	 d
+6.	 b
+7.	 b
+8.	 project
+9.	 d
+10.	 d
+11.	 b
+12.	 b
+9.	 The five highly interrelated parameters of a proj-
+ect are:
+a.	 scope, time, quality, stakeholders, and services
+b.	 time, user expectations, quality, Gantt chart, 
+and cost
+c.	 quality, cost, services, time, and stakeholders
+d.	 cost, time, quality, user expectations, and 
+scope
+10.	 According to the Project Management Insti-
+tute (PMI), project managers must coordinate 
+_______________ areas of expertise.
+a.	 three
+b.	 five
+c.	 seven
+d.	 ten
+11.	 The forming-storming-norming-performing-­
+adjourning model describes:
+a.	 the project phases
+b.	 how teams form, evolve, and dissolve
+c.	 how teams are selected
+d.	 management phases of a project
+12.	 The _______________ category of innovation 
+adoption is the first group to try new products 
+and ideas.
+a.	 early adopters
+b.	 innovators
+c.	 late majority
+d.	 laggards
+Review and Discussion Questions
+1.	 What organizational benefits are gained through 
+strategic planning?
+2.	 Uber’s mission statement is “We ignite oppor-
+tunity by setting the world in motion.” As Uber 
+expands into food delivery (UberEats), freight 
+(UberFreight), transporting medical patients 
+(UberHealth), and business rides (Uber for Busi-
+ness), is the mission statement still suitable for 
+all of these business lines? What would prompt 
+Uber to change the mission statement?. Explain 
+each item called out in Porter’s Five Forces 
+Model. How might an organization use this 
+model?
+3.	 Explain why the strategic planning pyramid is 
+shaped as a pyramid. Why are the items dis-
+played in this particular order?
+4.	 In a SWOT matrix, how do strengths compare to 
+opportunities? How do weaknesses compare to 
+threats?
+5.	 Explain why goals should be “SMART.” What are 
+the advantages of establishing SMART goals?
+6.	 When resulting in mostly intangible benefits, 
+how would you rank a project’s priority level 
+against other projects with quantifiable out-
+comes? How can technical innovations or other 
+innovations drive strategy? Give examples where 
+innovation changed the direction of a company.
+7.	 How do you think the theory of innovation dif-
+fusion can be applied to Elon Musk’s idea of 
+underground tunnels and car elevators?
+8.	 Define the term “project.”
+9.	 What is a core competency? Project scope? Proj-
+ect stakeholder?
+10.	 Identify the five highly interrelated parame-
+ters that define a project. If one parameter is 
+changed, how would the other four parameters 
+be affected?
+11.	 Identify and briefly describe the 10 areas 
+of expertise that a project manager must 
+coordinate.
+12.	 Explain the difference between a WBS and a 
+Gantt chart.
+13.	 Imagine that you are going to put on a play at 
+your college. Create a WBS diagram to outline all 
+the activities necessary to complete this project.
+14.	 What is the difference between quality planning, 
+quality assurance, and quality control?
+15.	 What is the difference between the stakeholder 
+engagement assessment matrix, the stakeholder 
+registry, and the stakeholder communication plan?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 517
+
+chapter 12 • Strategic Planning and Project Management
+495
+16.	 Think of a team of which you’ve been a part. 
+Can you explain why the team performed so 
+well (or poorly) using the forming-­storming-
+norming-performing-adjourning model?
+17.	 Identify some of the challenges of performing 
+project integration management on a project  
+in which team members are distributed  
+globally and cannot physically meet in one  
+location. How might these challenges be 
+overcome?
+18.	 What is the purpose of risk management? 
+­Outline the risks you faced on the first day  
+of college. Have any of these risks changed  
+since then?
+19.	 What is the difference between business process 
+reengineering and continuous improvement? 
+Which one of these would qualify as a project?
+20.	 Imagine that you are hiring a firm to complete a 
+large project using unproven technology. Which 
+form of contract would you prefer and why?
+Business-Driven Decision-Making Exercises
+1.	 Many free and open source project manage-
+ment software programs are available online, 
+such as Asana, BaseCamp, Bitrix24, GanttProj-
+ect, MeisterTask, Trello, and Zoho. Choose 
+one of these programs or use a spreadsheet 
+or another project management program with 
+which you are familiar. Create a Gantt chart 
+using the values from the table below. How 
+long will it take to complete a project consist-
+ing of these tasks? Identify the critical path for 
+this project.
+Task
+Duration
+Predecessor Task
+A
+5
+B
+3
+C
+4
+A, B
+D
+8
+D
+E
+5
+C
+F
+3
+D, E
+2.	 Think of a project that you have previously worked 
+on. Create a stakeholder registry for this project.
+Teamwork and Collaboration Activities
+1.	 Your team has just inherited $500,000. The 
+team has agreed to invest this money by pur-
+chasing an existing business. Choose a local 
+business and perform a SWOT analysis on this 
+business. Look at the business’ website and 
+compare it to its competitors. Identify reasons 
+to purchase or not purchase this business. Is a 
+Web presence necessary for this business? What 
+critical changes should be made to the current 
+website to meet the business’ and customers’ 
+needs?
+2.	 As a team, you are to analyze the IS department 
+at your school. One or two team members will 
+begin by interviewing the IS manager to find 
+out what IS projects are currently underway. 
+Concurrently, other team members will research 
+your school’s strategic plan, mission statement, 
+vision, and values. Armed with this information, 
+your team must decide if the IS department at 
+your school should be classified as a cost center, 
+business partner, or game changer? Why? Do the 
+current projects align with the school’s strategic 
+plan? Why or why not?
+3.	 Your team has been hired as consultants to 
+work with a large city to implement a program 
+to place hundreds of high-tech digital cameras 
+in strategic locations to aid in reducing crime 
+and speeding help to victims. The cameras 
+are state-of-the-art with infrared capability for 
+night vison, high resolution, and rapid zoom 
+in and out capability. Your city will be the first 
+in the United States to deploy them. The man-
+ufacturer is a relative newcomer to the digital 
+camera industry. The program has not yet been 
+fully funded, nor has it been announced to 
+the residents of the city. The city management 
+and top-level officers within the police depart-
+ment are fully behind the program; however, 
+lower level officers and cops on the street have 
+mixed support. Your team has been asked to 
+perform a risk assessment for this project. You 
+are to identify various risks that could occur; 
+assign them a high, medium, or low level or 
+risk, and assess the potential impact (high, 
+medium, or low) on the project if that risk 
+should occur.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 518
+
+part 4 • Planning, Implementing, and Managing Information Systems
+496
+Career Exercises
+1.	 Visit the Project Management Institute (PMI) web-
+site at www.pmi.org. Do research to learn more 
+about the value that employers place on project 
+management certification. What are the certifica-
+tions offered by PMI that you may be qualified to 
+take? Search job listings for project managers. Do 
+they require PMI or other certifications?
+2.	 Can you state the vision and mission of your 
+organization or college? Has it documented its 
+core values? Can you identify any key objectives 
+and strategies?
+3.	 Talk with your manager and others at work 
+about the need for good project management 
+in your organization. Do the people you spoke 
+with see project management as a core compe-
+tency? Do they feel that there is a shortage of 
+good project managers?
+Strategic Shift at Microsoft
+Microsoft, a company known well for its operating systems 
+and productivity software, is currently one of the world’s 
+most valuable companies, valued at around $1 trillion, as 
+of 2019. The value stems from a strategic shift by Micro-
+soft from their obsessive focus on the Windows operating 
+system to a focus on delivering cloud services and embrac-
+ing open source. This turnaround is not only affecting the 
+planning and strategy of Microsoft, but also caused a major 
+change in their employees and the company culture.
+There has been a tremendous growth in cloud services, 
+as more and more companies store their data in the cloud 
+rather than on-premise. Microsoft’s Azure cloud division has 
+grown rapidly and is strongly competing with Amazon’s cloud 
+services. Judson Althoff, EVP Worldwide Commercial Business 
+at Microsoft says, “It’s not about selling product anymore,” he 
+said. “It’s using cloud services to transform their business. This 
+new wave of compute – the intelligent cloud and the intelli-
+gent edge – will shape everything we do for decades to come. 
+This is your opportunity. This will create more opportunities 
+for the Microsoft ecosystem than we have seen in our history. 
+It’s not some science future story. It’s here and it’s now.”
+Interest in the cloud has not only changed the way com-
+panies save data, but it’s also changed the way the providers 
+make their money. The method that Microsoft accounts for 
+their sales has completely changed with the new strategy. 
+Before, money was earned by customers buying licenses for 
+the software operating systems. Now, money is only earned 
+with the time that the customer uses the cloud service.
+Since the market-focus has been turned to a completely 
+different model, the company culture has changed dramat-
+ically. 40,000 Employees had to be trained to understand 
+how their customers used the cloud, so they could encour-
+age more usage. Sales personnel no longer prepared sales 
+forecasts but concentrated more on retaining and obtaining 
+customers. In addition, salespeople were given different 
+incentives for sales, since the revenue generated is so dif-
+ferent with cloud services. Microsoft also used technology 
+to make meetings less frequent but more productive, enable 
+salespeople to spend more time with their customers and 
+change manager’s behavior through technology to spend 
+Case Study
+ Global
+more time with employees. Meeting technology allows par-
+ticipants to gauge how useful meetings are by measuring 
+how much the participants were on their smartphones. “The 
+shift has been successful so far because it has not just stra-
+tegic insight but change in focus across the workforce.”
+Microsoft is also working with regulators to ensure com-
+pliance. The design of Azure ensure that any data-protection 
+laws can be easily adhered to. Azure’s top officer, Brad Smith, 
+proposed policies, “such as a ‘Digital Geneva Convention’ to 
+protect people from cyber-attacks by nation-states. He is also 
+behind Microsoft’s comparatively cautious use of artificial 
+intelligence and calls for oversight of facial recognition. The 
+firm has been relatively untouched by the current backlash 
+against tech firms and is less vulnerable to new regulation.”
+In conclusion, the technology disruption that Microsoft 
+faced could have brought down the company, since they 
+were so focused on their operating system. But they were 
+able to not only make a strategic planning shift, but also 
+change the employees and their culture to greatly succeed.
+Critical Thinking Questions
+1.	 Trace the history of Microsoft’s financials. Use Excel to 
+graph its stock value to see when the turnaround dis-
+cussed in this case began to have an effect.
+2.	 Microsoft was able to make meetings less frequent but 
+more productive. Research the Internet for software that 
+enables productive meetings. Choose one that looks the 
+best and write a one-page paper on its features.
+Sources: Bartleby. 2019. “Send in the Clouds.” The Economist 
+7/4/2019 Accessed 8/8/2019 at https://www.economist.com/busi-
+ness/2019/07/04/send-in-the-clouds; Cox, Mark. 2019. “Microsoft Lays 
+out FY19 vision, strategy, and plans for execution at Inspire Kickoff” 
+Channelbuzz.ca. Accessed 8/8/2019 at https://channelbuzz.ca/2018/07/
+microsoft-lays-out-fy19-vision-strategy-and-plans-for-execution-at-in-
+spire-kickoff-26711/; Business-News. 2019. “How Microsoft survived 
+the creative destruction.” 7/1/2019 Business-News.club. Accessed 
+8/8/2019 at https://www.business-news.club/how-microsoft-sur-
+vived-the-creative-destruction/; The Economist. 2019. “What Microsoft’s 
+Revival can teach other Tech Companies” 7/25/2019. The Economist. 
+Accessed 8/8/2019 at https://www.economist.com/leaders/2019/07/25/
+what-microsofts-revival-can-teach-other-tech-companies
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 519
+
+chapter 12 • Strategic Planning and Project Management
+497
+15.	 “‘Unreasonable Ambition’ Puts Alstom on the Fast Track 
+for Growth,” OpEx Review, December 2012, Issue 5, 
+www.tbmcg.com/misc_assets/newsletter/opex_1212_
+cover_story.pdf.
+16.	 “About Johns Hopkins Medicine,” Johns Hopkins 
+Medicine, www.hopkinsmedicine.org/about/, accessed 
+April 14, 2019.
+17.	 “About Johns Hopkins Medicine,” Johns Hopkins 
+Medicine, https://www.hopkinsmedicine.org/about/
+mission.html, accessed July 8, 2019.
+18.	 “Johns Hopkins Medicine Strategic Plan,” Johns 
+Hopkins Medicine, https://www.hopkinsmedicine.org/
+strategic-plan/precision.html, accessed July 8, 2019.
+19.	 Beth Stackpole, “Winter 2018: State of the CIO: IT-Business 
+Alignment (Finally) Gets Real,” CIO, https://www.cio.com/
+article/3250845/digital-transformation/state-of-the-cio-
+2018-it-business-alignment-finally-gets-real.html.
+20.	 “Information Technology Centralization” Delaware 
+Department of Technology and Information, https://dti.
+delaware.gov/digital-innovation/itc/, accessed April 14, 
+2019.
+21.	 Beth Stackpole, “Winter 2018: State of the CIO: 
+IT-Business Alignment (Finally) Gets Real,” CIO, https://
+www.cio.com/article/3250845/digital-transformation/
+state-of-the-cio-2018-it-business-alignment-finally-gets-
+real.html.
+22.	 FDIC Information Technology Strategic Plan 2017–
+2020,” https://www.fdic.gov/about/strategic/itsp/fdic-
+information-technology-strategic-plan-2017-2020.pdf, 
+accessed January 21, 2019.
+23.	 Beth Stackpole, “Winter 2018: State of the CIO: 
+IT-Business Alignment (Finally) Gets Real,” CIO, 
+Winter 2018, https://www.cio.com/article/3250845/
+digital-transformation/state-of-the-cio-2018-it-business-
+alignment-finally-gets-real.html.
+24.	 Thornton May, “A Strategy for Strategy: Figuring 
+Out How to Figure Out What IT Should Do 
+Next,” Computerworld, September 2, 2014, www.
+computerworld.com/article/2600346/it-management/a-
+strategy-for-strategy-figuring-out-how-to-figure-out-
+what-it-should-do-next.html.
+25.	 Clint Boulton, “10 Digital Transformation Success 
+Stories,” CIO, July 12, 2018, https://www.cio.com/
+article/3149977/digital-transformation/digital-
+transformation-examples.html?nsdr=true#tk.cio_fsb.
+26.	 “Annual Report 2017,” Ebay, https://ebay.q4cdn.
+com/610426115/files/doc_financials/2017_eBay_
+AnnualReport.pdf, accessed January 21, 2019.
+27.	 Clint Boulton, “10 Digital Transformation Success 
+Stories,” CIO, July 12, 2018, https://www.cio.com/
+article/3149977/digital-transformation/digital-
+transformation-examples.html?nsdr=true#tk.cio_fsb.
+28.	 Clayton Christensen, “Disruptive Innovation,” Clayton 
+Christensen, www.claytonchristensen.com/key-concepts, 
+accessed April 14, 2019.
+29.	 “Apple Financial Statements 2005–2019,” 
+MacroTrends, https://www.macrotrends.net/stocks/
+charts/AAPL/apple/financial-statements, accessed 
+February 9, 2019.
+Sources for the opening vignette: “About Us,” E-Trade, 
+https://etradefinancialcorporation.gcs-web.com/static-
+files/9251abf1-63a6-4945-aaaf-f50d90258a50, accessed 
+March 13, 2019; “Company Overview,” E-Trade, https://
+etradefinancialcorporation.gcs-web.com/, accessed March 
+14, 2019; “Press Release: E-Trade Launches New Planning 
+Center That Helps Participants Integrate Their Stock Plan 
+Benefits into an Investment Plan”, E-Trade, Sept 21, 2018, 
+https://etradefinancialcorporation.gcs-web.com/news- 
+releases/news-release-details/etrade-launches-new- 
+planning-center-helps-participants-integrate.
+1.	 Leo Sun, “SWOT Analysis of Starbucks Corporation 
+(SBUX),” Motley Fool, June 19, 2015, www.fool.com/
+investing/general/2015/06/19/swot-analysis-of-
+starbucks-corporation-sbux.aspx.
+2.	 Jessica Lombardo, “Starbucks Coffee Company 
+SWOT Analysis & Recommendations” Panmore 
+Institute, accessed July 7, 2019, http://panmore.com/
+starbucks-coffee-swot-analysis
+3.	 Google.com, accessed July 7, 2019, https://www.google.
+com/about/philosophy.html
+4.	 Walmart. (March 28, 2019). Number of weekly customer 
+visits to Walmart stores worldwide from 2016 to 2018 
+(in millions of customer visits)* [Chart]. In Statista. 
+Retrieved July 08, 2019, from https://www.statista.com/
+statistics/818929/number-of-weekly-customer-visits-to-
+walmart-stores-worldwide/
+5.	 Walmart. (March 28, 2019). Total revenue of Walmart 
+worldwide from 2012 to 2019 (in billion U.S. 
+dollars) [Chart]. In Statista. Retrieved July 08, 2019, 
+from https://www.statista.com/statistics/555334/
+total-revenue-of-walmart-worldwide/.
+6.	 Walmart.com, accessed July 8, 2019, https://corporate.
+walmart.com/esgreport/about-this-report#our-business
+7.	 Walmart.com, accessed July 8, 2019, https://corporate.
+walmart.com/our-story/working-at-walmart#0000014f-
+d73a-d36d-adcf-df3b9d0a0000
+8.	 James Collins and Jerry Porras, Built to Last: Successful 
+Habits of Visionary Companies (New York: Harper 
+Collins Publishers, 1994, 1997), page 9.
+9.	 “FAQ”, The Boring Company, https://www.
+boringcompany.com/faq/, accessed February 3, 2019.
+10.	 Aarian Marshall, “Engineers Don’t Totally Dig Elon 
+Musk’s Tunneling Promises,”(5/22/18) Wired.com, 
+accessed July 8, 2019, https://www.wired.com/story/
+engineers-dont-totally-dig-musk-tunneling/
+11.	 George T. Doran, Arthur Miller, and J. Cunningham, 
+“There’s a S.M.A.R.T. Way to Write Management’s Goals 
+and Objectives,” Management Review, Volume 70, no. 
+11, pages 35–36, 1981.
+12.	 Karl Utermohlen, “Amazon Drone Delivery: Details 
+Finally Revealed!,” Investor Place (blog), January 19, 
+2016, http://investorplace.com/2016/01/amazon-drone-
+delivery-amzn-stock/#.VrJo0432b4g.
+13.	 “About Us,” Alstom Transport, www.alstom.com/
+microsites/transport/about-us, accessed February 3, 
+2016.
+14.	 “Our Trains,” Virgin Trains, www.virgintrains.co.uk/
+trains, accessed February 3, 2016.
+Notes
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 520
+
+part 4 • Planning, Implementing, and Managing Information Systems
+498
+30.	 Andrew Tonner, “How Microsoft Corporation Makes 
+Most of Its Money,” The Motley Fool, June 29, 2017, 
+https://www.fool.com/investing/2017/06/29/how-
+microsoft-corporation-makes-most-of-its-money.aspx
+31.	 Andrew Tonner, “How Intel Corporation Makes Most of 
+Its Money,” The Motley Fool. June 29, 2017, https://www.
+fool.com/investing/2017/06/29/how-intel-corporation-
+makes-most-of-its-money.aspx.
+32.	 Stephanie Buck, “Cell-ebration! 40 Years of Cellphone 
+History,” Mashable, April 3, 2013, http://mashable.
+com/2013/04/03/anniversary-of-cellphone.
+33.	 GSMArena, accessed July 9, 2019, https://www.
+gsmarena.com/apple_iphone_x-8858.php
+34.	 Stephen Slaybaugh, “The Best iPhone X Prices and 
+Deals on Amazon Prime Day 2019,” techradar, 
+accessed July 9, 2019, https://www.techradar.com/news/
+iphone-x-deals-and-price-in-usa
+35.	 Michael Hammer, “Reengineering Work: Don’t 

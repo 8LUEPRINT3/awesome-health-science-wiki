@@ -1,0 +1,68 @@
+site_name: Awesome Health Science Wiki
+site_description: A curated knowledge base built from health science textbooks.
+site_author: 8LUEPRINT3
+site_url: 'https://8LUEPRINT3.github.io/awesome-health-science-wiki/'
+docs_dir: 'docs'
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - def_list
+
+validation:
+  links:
+    unrecognized_links: warn
+
+nav:
+  - Home: README.md
+  - Human Body:
+    - Part 1: wiki/The Human Body_part1.md
+    - Part 2: wiki/The Human Body_part2.md
+    - Part 3: wiki/The Human Body_part3.md
+    - Part 4: wiki/The Human Body_part4.md
+    - Part 5: wiki/The Human Body_part5.md
+    - Part 6: wiki/The Human Body_part6.md
+    - Part 7: wiki/The Human Body_part7.md
+    - Part 8: wiki/The Human Body_part8.md
+    - Part 9: wiki/The Human Body_part9.md
+    - Part 10: wiki/The Human Body_part10.md
+    - Part 11: wiki/The Human Body_part11.md
+    - Part 12: wiki/The Human Body_part12.md
+    - Part 13: wiki/The Human Body_part13.md
+  - Sorrentino's Textbook:
+    - Part 1: wiki/Sorrentinos Canadian Textbook_part1.md
+    - Part 2: wiki/Sorrentinos Canadian Textbook_part2.md
+    - Part 3: wiki/Sorrentinos Canadian Textbook_part3.md
+    - Part 4: wiki/Sorrentinos Canadian Textbook_part4.md
+    - Part 5: wiki/Sorrentinos Canadian Textbook_part5.md
+    - Part 6: wiki/Sorrentinos Canadian Textbook_part6.md
+    - Part 7: wiki/Sorrentinos Canadian Textbook_part7.md
+    - Part 8: wiki/Sorrentinos Canadian Textbook_part8.md
+    - Part 9: wiki/Sorrentinos Canadian Textbook_part9.md
+    - Part 10: wiki/Sorrentinos Canadian Textbook_part10.md
+    - Part 11: wiki/Sorrentinos Canadian Textbook_part11.md
+    - Part 12-19: wiki/Sorrentinos Canadian Textbook_part12.md
+  - Palliative Care:
+    - Part 1: wiki/Palliative Textbook_part1.md
+    - Part 2: wiki/Palliative Textbook_part2.md
+    - Part 3: wiki/Palliative Textbook_part3.md
+    - Part 4: wiki/Palliative Textbook_part4.md

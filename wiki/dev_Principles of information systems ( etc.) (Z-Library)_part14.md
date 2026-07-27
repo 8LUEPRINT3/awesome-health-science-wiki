@@ -1,0 +1,3006 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 14
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+new or modified system under all kinds 
+of operating conditions.
+monitoring:  The process of 
+measuring system performance 
+by tracking the number of errors 
+encountered, the amount of memory 
+required, the amount of processing 
+or CPU time needed, and other 
+performance indicators.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 566
+
+part 4 • Planning, Implementing, and Managing Information Systems
+544
+systems such as those that control patient oxygen flow and air flow for labo-
+ratories and pharmacies. With a monitoring system that alerts them before a 
+problem occurs, Allscripts’s clients have the assurance that the critical systems 
+they need to deliver high-quality patient care will continue uninterrupted.34
+System review is the process of analyzing a system to make sure it is oper-
+ating as intended. System review often compares the performance and benefits 
+of the system as it was designed with the actual performance and benefits of 
+the system in operation.
+United Airlines launched its Volunteer Solicitation Program in 2017. This 
+software alerted passengers that flight was overbooked and would ask how 
+much compensation they would accept in exchange for accepting a later, or 
+earlier, flight. This information would then be available for use by the gate 
+agents if the need arose. In reviewing the system and the data generated, the 
+software team released a second version of the software in December 2018. 
+This version gave passengers more options up to 24 hours in advance of their 
+flight, so the compensation could be negotiated for a higher amount. The 
+software also had options available based on the airport, customer type, and 
+check-in channel (mobile, ticket counter, terminal). The system was built on 
+gamification, meaning the customers could bid on the options they were view-
+ing, and it gave them more control of their options. Jason Birnbaum, Vice Presi-
+dent of Operations and Employee Technology, advises IT leaders to be as close 
+to your team and customers as possible. When reviewing your software, he also 
+advises “One of the key tenets of this project, and many others, has been for 
+us to not iterate much in the conference room around white boards. . . . The 
+information we get in every single one of these iterations is fast feedback.”35
+Internal employees, external consultants, or both can perform a system 
+review. An organization’s billing application, for example, might be reviewed 
+for errors, inefficiencies, and opportunities to reduce operating costs. In addi-
+tion, the billing application might be reviewed if corporations merge, if one 
+or more new managers require different information or reports, or if federal 
+laws on bill collecting and privacy change. This is an event-driven approach 
+to system review.
+Maintenance
+System maintenance is a stage of system development that involves chang-
+ing and enhancing the system to make it more useful in achieving user and 
+organizational goals. Reasons for program maintenance include the following:
+• Poor system performance, such as slow response time for frequent 
+transactions
+• Changes in business processes
+• Changes in the needs of system stakeholders, users, and managers
+• Bugs or errors in the program
+• Technical and hardware problems
+• Corporate mergers and acquisitions
+• Changes in government regulations
+• Changes in the operating system or hardware on which the application runs
+Organizations can perform system maintenance in-house, or they can hire 
+outside companies to perform maintenance for them. Many companies that use 
+information systems from Oracle or SAP, for example, hire those companies 
+to maintain their systems. System maintenance is important for individuals, 
+groups, and organizations. Individuals looking to system-maintenance services, 
+for example, can use the Internet, computer vendors, and independent main-
+tenance companies, including Geek Squad (www.geeksquad.com) and PC Pin-
+point (www.pcpinpoint.com). Organizations often have personnel dedicated 
+to system maintenance. Software maintenance for purchased software can cost 
+20 percent or more of the purchase price annually.
+system review:  The process of 
+analyzing a system to make sure it is 
+operating as intended.
+system maintenance:  A stage 
+of systems development that involves 
+changing and enhancing the system to 
+make it more useful in achieving user 
+and organizational goals.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 567
+
+chapter 13 • System Acquisition and Development
+545
+The maintenance process can be especially difficult for older software. A 
+legacy system might have cost millions of dollars to develop, patch, and modify 
+over the years. The maintenance costs for legacy systems can become quite 
+expensive, and, at some point, it becomes more cost effective to switch to new 
+programs and applications than to repair and maintain the legacy system.
+Four generally accepted categories signify the amount of change involved 
+in maintenance. A slipstream upgrade is a minor system upgrade—typically 
+a code adjustment or minor bug fix. Many companies don’t announce to users 
+that a slipstream upgrade has been made; however, because a slipstream 
+upgrade usually requires recompiling all the code, it can create entirely new 
+bugs. This maintenance practice explains why the same computers sometimes 
+work differently with what is supposedly the same software. A patch is a 
+minor change to correct a problem or make a small enhancement. The fix 
+is usually patched into an existing program; that is, the programming code 
+representing the system enhancement is usually added to the existing code. 
+Many patches come from off-the-shelf software vendors. Although slipstream 
+upgrades and patches are minor changes, they can cause users and support 
+personnel big problems if the programs do not run as before. A new release is 
+a significant program change that often requires changes in the documentation 
+of the software. Finally, a new version is a major program change, typically 
+encompassing many new features. Figure 13.18 shows the relative amount 
+of change and effort required to test and implement these four categories of 
+system maintenance.
+slipstream upgrade:  A minor 
+system upgrade—typically a code 
+adjustment or minor bug fix; it usually 
+requires recompiling all the code, and 
+in so doing, it can create entirely new 
+bugs.
+patch:  A minor system change to 
+correct a problem or make a small 
+enhancement; it is usually an addition 
+to an existing program.
+release:  A significant program 
+change that often requires changes in 
+the documentation of the software.
+version:  A major program change, 
+typically encompassing many new 
+features.
+FIGURE 13.18
+System maintenance efforts
+This chart shows the relative 
+amount of change and effort 
+associated to test and implement 
+slipstream upgrades, patches, 
+releases, and versions.
+Patch
+Release
+Client effort to test and implement change
+Slipstream
+upgrade
+Amount of change to system
+Version
+Because of the amount of effort that can be spent on maintenance, many 
+organizations require a request for maintenance form to be completed and 
+approved before authorizing the modification of an information system. This 
+form is usually signed by a business manager who documents the need for the 
+change and identifies the priority of the change relative to other work that has 
+been requested. The IS group reviews the form and identifies the programs 
+that need to be changed, determines the programmer to assign to the project, 
+estimates the expected completion date, and develops a technical description 
+of the change. A cost/benefit analysis might be required if the change requires 
+substantial resources. The completed change request is then reviewed and pri-
+oritized relative to the other change requests that have been made.
+Disposal
+At some point, an existing information system may become obsolete, uneco-
+nomical to operate and/or maintain, or unrepairable. Information systems typ-
+ically evolve to this stage in the life cycle because the system can no longer be 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 568
+
+part 4 • Planning, Implementing, and Managing Information Systems
+546
+modified to keep up with changing user and business requirements, outdated 
+technology causes the system to run slowly or unreliably, or key vendors are 
+no longer able or willing to continue to provide necessary service or support.
+System disposal is a stage of system development that involves those activ-
+ities that ensure the orderly dissolution of the system, including disposing of all 
+equipment in an environmentally friendly manner, closing out contracts, and 
+safely migrating information from the system to another system or archiving it 
+in accordance with applicable records management policies. The steps involved 
+in system disposal are outlined and discussed in the following sections:
+1.	 Communicate intent
+2.	 Terminate contracts
+3.	 Make backups of data
+4.	 Delete sensitive data
+5.	 Dispose of hardware
+Communicate Intent
+A memo communicating the intent to terminate the information system should 
+be distributed to all key stakeholders, months in advance of the actual shut-
+down. This ensures that everyone is aware of the shutdown and allows time 
+for them to convert to the new system or process replacing the terminated 
+system. Microsoft has announced that extended support for Windows 7 will 
+end on January 14, 2020. Mainstream support for the operating system ended 
+in 2015. When the end of support for an operating system is announced, busi-
+nesses must begin to plan their strategy, as the end of support means there 
+will no longer be security updates. Despite the risks, an estimated 43 percent 
+of companies are still running the outdated operating system, with an astonish-
+ing 16 percent still running Windows XP and Windows Vista, which Microsoft 
+stopped supporting several years ago. Running outdated operating systems 
+leaves a company vulnerable to security threats. However, for a significant fee, 
+an organization can contract with Microsoft for additional extended support.36
+Terminate Contracts
+The various vendors who provide hardware, software, or services associated 
+with the information system must be notified well in advance to avoid any 
+penalty fees associated with abrupt termination of a contract.
+Make Backups of Data
+Prior to deleting files associated with the system, backup copies of data must 
+be made according to the organization’s records-management policies.
+Delete Sensitive Data
+Extreme care must be taken to remove customer, employee, financial, and 
+­company-sensitive data from all computer hardware and storage devices before 
+disposing of it. Otherwise, an organization’s discarded equipment could become 
+a treasure trove to competitors or identity thieves. When a file is deleted, the 
+bits and pieces of the file physically stay on a computer hard drive until they 
+are overwritten, and they can be retrieved with a data recovery program. To 
+remove data from a hard drive permanently, the hard drive needs to be wiped 
+clean. The program used should overwrite or wipe the hard drive several times. 
+An alternative is to remove the hard drive and physically destroy it.
+Dispose of Hardware
+After backing up and then removing data from drives, members of the project 
+team can dispose of obsolete or damaged computer hardware. Governments, 
+environmental agencies, and leading hardware manufacturers are attempting 
+system disposal:  A stage of 
+system development that involves 
+those activities that ensure the orderly 
+dissolution of the system, including 
+disposing of all equipment in an 
+environmentally friendly manner, 
+closing out contracts, and safely 
+migrating information from the system 
+to another system or archiving it in 
+accordance with applicable records 
+management policies.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 569
+
+chapter 13 • System Acquisition and Development
+547
+to reduce hazardous materials in electronic products; however, some hardware 
+components still contain materials that are toxic to the environment. Respon-
+sible disposal techniques should be used regardless of whether the hardware 
+is sold, given away, or discarded. Many computer hardware manufacturers, 
+including Dell and HP, have developed programs to assist their customers in 
+disposing of old equipment.
+User Acceptance Testing for New Accounting System
+ Teamwork
+You are a member of the finance and accounting organization of a midsized 
+sporting goods retailer. You are knowledgeable of all facets of your firm’s current 
+accounting systems and procedures and have been working in accounts receivable 
+for the past three years. The firm is implementing a new cloud-based accounting 
+system to handle general ledger, accounts payable, accounts receivable, and payroll 
+tasks. You have been selected to plan and lead the user acceptance testing for the 
+accounts receivable portion of the system. This will be a full-time activity for you 
+over the next two-to-three months, and during that time, other employees will fill 
+in to take care of most of your day-to-day responsibilities.
+Review Questions
+1.	 Outline the tasks that must be accomplished to successfully complete user 
+acceptance testing.
+2.	 Your normal work activities and responsibilities have not allowed you time to 
+become familiar with this project and the new system and its capabilities. What 
+actions would you take to get caught up quickly?
+Critical Thinking Questions
+1.	 How would you go about selecting and recruiting end users to participate in 
+the user acceptance testing? How would you determine how many end users 
+are needed for testing?
+2.	 What do you think might be the biggest barriers to completion of the user 
+acceptance testing in a timely manner?
+	 Agile Development
+Agile development is an iterative system development process that devel-
+ops a system in “sprint” increments lasting from two weeks to two months. 
+Unlike the Waterfall system development process, Agile development accepts 
+the fact that system requirements are evolving and cannot be fully understood 
+or defined at the start of the project. Agile development concentrates instead 
+on maximizing the team’s ability to deliver quickly and respond to emerging 
+requirements—hence the name Agile. In an Agile development project, the 
+team stops and reevaluates the system every two weeks to two months, giv-
+ing it ample opportunity to identify and implement new or changed system 
+requirements.37
+Scrum is an Agile development framework that uses a team-based approach 
+in order to keep the development effort focused and moving quickly. Scrum 
+emphasizes individuals and interactions over processes and tools, working soft-
+ware over comprehensive documentation, customer collaboration over contract 
+negotiation, and responding to change over following a plan.38
+Critical 
+Thinking 
+Exercise
+Agile development:  An iterative 
+system development process that 
+develops the system in “sprint” 
+increments lasting from two weeks to 
+two months.
+Scrum:  An Agile development 
+framework that emphasizes a team-
+based approach in order to keep 
+the development effort focused and 
+moving quickly.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 570
+
+part 4 • Planning, Implementing, and Managing Information Systems
+548
+A Scrum master is the person who coordinates all Scrum activities, and 
+a Scrum team consists of a dozen or fewer people who perform all systems 
+development activities from investigation to testing so there is less personnel 
+turnover than on the typical Waterfall system development project. The Scrum 
+master does not fill the role of a traditional project manager and has no people 
+management responsibilities. Instead, the primary responsibility of the Scrum 
+master is to anticipate and remove barriers to the project team producing its 
+deliverables and meeting the project schedule.39
+The product owner is a person who represents the project stakeholders 
+and is responsible for communicating and aligning project priorities between 
+the stakeholders and development team. The product owner holds the prod-
+uct vision; he or she is responsible for describing what should be built and 
+why—but not how.40
+Using the Scrum method, the product owner works with the stakeholders 
+and team to create a prioritized list of project requirements called a product 
+backlog. Next, a sprint planning session is held, during which the team selects 
+the highest priority requirements from the top of the product backlog to create 
+the sprint backlog; they then decide how to implement those requirements. The 
+team sets a certain amount of time—typically two to eight weeks—to complete 
+its work. During the sprint, each day at the same time, the team meets briefly 
+(15 minutes at most) to share information necessary for coordination. At this 
+meeting, team members describe what they completed the previous day and 
+identify any obstacles that stand in the way of them completing this day’s 
+activities. The sprint is complete when the team presents a working system that 
+incorporates the new requirements, and it can be used and evaluated. During 
+the sprint review meeting, the team shares what it learned from the current 
+sprint iteration so that knowledge can be applied in the next sprint iteration. 
+See Figure 13.19. Along the way, the Scrum master keeps the team focused on 
+its goals.41
+Scrum master:  The person who 
+coordinates all the Scrum activities of 
+a team.
+product owner:  A person who 
+represents the project stakeholders 
+and is responsible for communicating 
+and aligning project priorities between 
+the stakeholders and development 
+team.
+product backlog:  A prioritized 
+list of project requirements created 
+by the stakeholders and project team 
+members; from this list, the team 
+selects the highest priorities.
+FIGURE 13.19
+The Scrum Agile software development process
+The Scrum Agile approach develops a system in sprint increments lasting from two weeks to two months.
+Requirements
+refinement
+meeting
+Sprint
+planning
+session
+Prioritized list of
+system requirements
+(product backlog)
+Requirements
+to implement
+during this iteration
+(sprint backlog)
+2–8 week
+sprint
+Daily scrum
+meeting
+Sprint
+review
+meeting
+Working
+system of
+requirements
+implemented
+so far
+Agile development requires cooperation and frequent face-to-face meet-
+ings with all participants, including system developers and users, as they 
+modify, refine, and test the system’s capabilities and how it meets users’ 
+needs. Organizations are using Agile development to a greater extent today to 
+improve the results of system development, including global projects requir-
+ing IS resources distributed in many locations. Agile is often better suited for 
+developing smaller information systems than larger ones. During an Agile 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 571
+
+chapter 13 • System Acquisition and Development
+549
+Advantages
+Disadvantages
+For appropriate projects, this approach 
+puts an application into production 
+sooner than any other approach.
+It is an intense process that can burn 
+out system developers and other proj-
+ect participants.
+Documentation is produced as a 
+by-product of completing project 
+tasks.
+This approach requires system ana-
+lysts and users to be skilled in Agile 
+system development tools and Agile 
+techniques.
+Agile forces teamwork and lots 
+of interaction between users and 
+stakeholders.
+Agile requires a larger percentage of 
+stakeholders’ and users’ time than 
+other approaches.
+Ta b l e 13.11  Advantages and disadvantages of Agile development
+Extreme programming (XP) is a form of Agile software development 
+that promotes incremental development of a system using short development 
+cycles to improve productivity and to accommodate new customer require-
+ments. Other essentials of extreme programming include programming in pairs, 
+performing extensive code review, unit testing of all code, putting off the 
+programming of system features until they are actually needed, use of a flat 
+project management structure, simplicity and clarity in code, expecting changes 
+in system requirements as the project progresses and the desired solution is 
+better understood, and frequent communication with the customer and among 
+programmers. These qualities make extreme programming compatible with 
+Agile software development.43
+DevOps is the practice of blending of the tasks performed by the develop-
+ment staff (who are typically responsible for design, coding, and testing) and 
+the IT operations groups (who typically handle operational deployment tasks, 
+such as server provisioning and job scheduling) to enable faster and more reli-
+able software releases.44 This approach is key to successful Agile development 
+environments where organizations go live with new software releases every 
+two to four weeks. And in many organizations, DevOps is being used as part 
+of a continuous deployment strategy, in which releases are launched daily—
+and in some cases, multiple times a day. Many industry experts view DevOps 
+as an outgrowth of the Agile development movement, with an extension of 
+Agile development principles to include systems and operations rather than 
+just code.
+Under traditional software development approaches, the application devel-
+opment team gathers business requirements, writes code, and tests programs 
+in an isolated development environment. The code is then released to the 
+IT operations group to deploy in the real-world operational environment of 
+end users. This involves gluing together all the components of an application, 
+including databases, messaging infrastructure, external services, the passing 
+and receiving of data to and from other systems, and third-party dependencies.
+DevOps principles reshape all the move-into-production activities so that 
+they become automated, collaborative, continuous, incremental, iterative, and 
+self-service. Responsive teams adopt DevOps practices of self-service configu-
+ration, automated provisioning (using predefined procedures that are carried 
+out electronically without requiring human intervention), continuous build, 
+continuous integration, continuous delivery, automated release management, 
+and incremental testing, as shown in Figure 13.20.
+extreme programming (XP):  A 
+form of Agile software development 
+that promotes incremental 
+development of a system using 
+short development cycles to improve 
+productivity and to accommodate new 
+customer requirements.
+DevOps:  The practice of blending 
+the tasks performed by the 
+development and IT operations groups 
+to enable faster and more reliable 
+software releases.
+project, the level of participation of stakeholders and users is much higher 
+than in other approaches. Table 13.11 lists advantages and disadvantages of 
+Agile development.42
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 572
+
+part 4 • Planning, Implementing, and Managing Information Systems
+550
+Although DevOps can mean slightly different things depending on how 
+it is deployed at different companies, at its core, DevOps places a priority 
+on collaboration, with operations staff and development engineers participat-
+ing together, over the entire system’s lifecycle—from design and development 
+through testing and implementation.45
+Etsy is an online shopping site that sells everything from clothing to musi-
+cal instruments to vintage collectibles. Etsy connects buyers and sellers through 
+its Web site, which means the site needs to be up and running consistently. 
+When Etsy first began developing its systems, the IT staff used the Waterfall 
+method of development. The process was slow, however, and the updates 
+were causing too much downtime with the Web site. Etsy has now adopted a 
+DevOps framework, which allows it to deploy more than 50 updates per day, 
+with much less disruption on its site.46
+Table 13.12 compares the key features of the Agile and Waterfall system 
+development processes.
+FIGURE 13.20
+DevOps is part of a  
+continuous deployment  
+strategy in which releases 
+can be launched daily
+DevOps blends the tasks performed 
+by the development and operations 
+groups to enable faster and more 
+reliable software releases.
+Source: Chris Haddad, “Overcome  
+DevOps Adoption Barriers to Accelerate  
+Software Delivery,” Tech Well Insights,  
+May 8, 2015, www.techwell.com/techwell- 
+insights/2015/05/overcome-devops-­
+adoption-barriers-accelerate-software-
+delivery.
+Define
+acceptance
+criteria
+Define
+acceptance
+criteria
+Define
+acceptance
+criteria
+Plan
+Plan
+Automated
+testing
+Automated
+testing
+Build
+Build
+Release
+Release
+Deploy
+Deploy
+Continuous
+monitoring
+Continuous
+monitoring
+Operate
+Operate
+Characteristic
+Software Development Approach
+Agile
+Waterfall
+Description
+An iterative process that develops the sys-
+tem in sprint increments lasting 2–8 weeks; 
+each increment focuses on implementing 
+the highest priority requirements that can 
+be completed in the allotted time
+A sequential multistage process where work 
+on the next stage cannot begin until the 
+results of the previous stage are reviewed 
+and approved or modified as necessary
+Basic assumption
+System requirements cannot be fully 
+defined at start of project
+All critical system requirements must be 
+fully defined before any coding begins
+How requirements and 
+design are defined
+Users interacting with system analysts and 
+working software
+Users interacting with system analysts and 
+system documentation and/or models
+Associated processes
+Scrum
+Structured system analysis and design
+Ta b le 13.12  Comparison of approaches to system development
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 573
+
+chapter 13 • System Acquisition and Development
+551
+Firm’s First Agile Project
+ Written and Oral Communication
+You were hired into a new company that was impressed with your two years of 
+experience as a Scrum master on a variety of information systems projects. Your 
+new firm has a large in-house information system development staff that is trained 
+and experienced in the use of the Waterfall software development process. You 
+have been assigned responsibility as a Scrum master for a key project that will be 
+the firm’s first Agile project. You have also been asked to train the project manager, 
+team, and newly appointed product owner in the Agile process and their associated 
+roles and responsibilities.
+Review Questions
+1.	 As part of the team’s initial project kickoff meeting, you have been asked to 
+briefly summarize the differences between the Waterfall and Agile software 
+development process. What would you say?
+2.	 Following your discussion, one of the team members asks, “so why are we 
+changing to a new software development process? We are all comfortable with 
+the way we do things now.” What do you say?
+Critical Thinking Questions
+1.	 There is likely to be some confusion over the role of project manager, Scrum 
+master, and product owner. What can you do to avoid this potential problem?
+2.	 What other potential problems can you anticipate as the team moves forward 
+with its first Agile project? What can be done to avoid these potential issues?
+Summary
+Principle:
+Organizations can obtain software using one of three basic approaches: 
+subscribe, buy, or build.
+Buying off-the-shelf software is less risky and leads to quicker deployment; 
+however, maintenance and support costs may become expensive with this 
+approach, and the software may not be an exact match to the needs and work 
+processes of the organization.
+Building custom software can provide a better match to the current work 
+processes of the organization and provide a potential competitive advantage; 
+however, the cost can become extremely high, and it can take months or even 
+years to develop the software.
+Principle:
+When evaluating and purchasing off-the-shelf software, an organization 
+must consider the effort required to modify both the new software pack-
+age and the existing software so that they work well together.
+A preliminary evaluation of software packages and vendors begins 
+during system analysis when the two or three strongest contenders are 
+identified. The final evaluation begins with a detailed investigation of the 
+contenders’ proposals as well as discussions with two or three customers 
+of each vendor.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 574
+
+part 4 • Planning, Implementing, and Managing Information Systems
+552
+Principle:
+A system developed following the Waterfall approach moves from one 
+phase to the next, with a management review at the end of each phase.
+The set of activities involved in building information systems to meet users’ 
+needs is called system development.
+The Waterfall system development process cycle is a sequential, multistage 
+system development process in which work on the next stage cannot begin until 
+the results of the current stage are reviewed and approved or modified as neces-
+sary. It is referred to as a Waterfall process because progress is seen as flowing 
+steadily downwards (like a Waterfall) through the various phases of development.
+The phases of the Waterfall system development process can vary from one 
+company to the next, but many organizations use an approach with six phases: 
+investigation, analysis, design, construction, integration and testing, and imple-
+mentation. Once the system is built, organizations complete the additional steps 
+of operation and maintenance and disposition.
+At the end of each phase, a review is conducted to ensure that all tasks 
+and deliverables associated with that phase were produced and that they are 
+of good quality. In addition, at the end of each phase, the overall project scope, 
+costs, schedule, and benefits associated with the project are reviewed to ensure 
+that the project is on track and worth completing. As a result, the Waterfall 
+system development process allows for a high degree of management control.
+System investigation is the key initial phase in the development of a new 
+or modified business information system. The purpose of this phase is to gain 
+a clear understanding of the specifics of the problem to solve or the opportu-
+nity to address.
+Joint application development (JAD) is a structured meeting process that 
+can accelerate and improve the efficiency and effectiveness of not only the 
+investigation phase, but also the analysis and design phases of a system devel-
+opment project.
+Functional decomposition is a technique used primarily during the inves-
+tigation phase to define the business processes included within the scope of 
+the system.
+The technical, economic, legal, operational, and schedule feasibility are 
+assessed during the feasibility analysis.
+After a project has completed the investigation phase and been approved 
+for further study, the next step is system analysis, which answers the question, 
+“What must the information system do to solve the problem or capitalize on 
+the opportunity?”
+The overall emphasis of analysis is gathering data on the existing system, 
+determining the requirements for the new system, considering alternatives within 
+identified constraints, and investigating the feasibility of alternative solutions.
+Identifying, confirming, and prioritizing system requirements is perhaps 
+the single most critical step in the entire Waterfall system development pro-
+cess because failure to identify a requirement or an incorrect definition of a 
+requirement may not be discovered until much later in the project, causing 
+much rework, additional costs, and delay in the systems effort.
+A data-flow diagram (DFD) is a diagram used during both the analysis and 
+design phases to document the processes of the current system or to provide a model 
+of a proposed new system. A DFD shows not only the various processes within the 
+system but also where the data needed for each process comes from, where the 
+output of each process will be sent, and what data will be stored and where.
+The analysis team should make a preliminary assessment of the software 
+marketplace to determine whether existing packages can meet the organiza-
+tion’s needs. The primary tool for doing this is the request for information 
+(RFI), a document that outlines an organization’s hardware or software needs 
+and requests vendors to respond with information about if and how they can 
+meet those needs and the time and resources required.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 575
+
+chapter 13 • System Acquisition and Development
+553
+The purpose of system design phase is to answer the question, “How will 
+the information system solve this problem?” The primary result of the system 
+design phase is a technical design that details system outputs, inputs, con-
+trols, and user interfaces; specifies hardware, software, databases, telecommu-
+nications, personnel, and procedures; and shows how these components are 
+interrelated. In other words, system design creates a complete set of technical 
+specifications that can be used to construct the information system.
+During the design phase, designers must develop specific system security 
+and controls for all aspects of the information system, including hardware, 
+software, database systems, telecommunications, and Internet operations.
+System construction converts the system design into an operational system 
+by coding and testing software programs, creating and loading data into data-
+bases, and performing initial program testing.
+Several types of testing must be conducted before a new or modified 
+information system is ready to be put into production, including unit testing, 
+integration testing, system testing, volume testing, and user acceptance testing.
+System implementation includes the following activities: user preparation, 
+site preparation, installation, and cutover.
+System operation involves using the new or modified system under all 
+kinds of operating conditions. Getting the most out of a new or modified 
+­system during its operation is the most important aspect of system operations 
+for many organizations.
+System maintenance involves changing and enhancing the system to make 
+it more useful in achieving user and organizational goals. There are many rea-
+sons why system maintenance is required.
+System disposal involves those activities that ensure the orderly dissolu-
+tion of the system, including disposing of all equipment in an environmentally 
+friendly manner, closing out contracts, and safely migrating information from 
+the system to another system or archiving it in accordance with applicable 
+records management policies.
+Principle:
+Agile development is an iterative system development process that devel-
+ops a system in “sprint” increments lasting from two weeks to two months.
+Unlike the Waterfall system development process, Agile development 
+accepts the fact that system requirements are evolving and cannot be fully 
+understood or defined at the start of the project. Agile development concen-
+trates instead on maximizing the team’s ability to deliver quickly and respond 
+to emerging requirements—hence the name Agile.
+Scrum is an Agile development framework that uses a team-based approach 
+in order to keep the development effort focused and moving quickly. Scrum 
+emphasizes individuals and interactions over processes and tools, working soft-
+ware over comprehensive documentation, customer collaboration over contract 
+negotiation, and responding to change over following a plan.
+A Scrum master is the person who coordinates all Scrum activities, and a 
+Scrum team consists of a dozen or fewer people who perform all system devel-
+opment activities from investigation to testing.
+The product owner is a person who represents the project stakeholders and is 
+responsible for communicating and aligning project priorities between the stake-
+holders and development team. The product owner holds the product vision; he 
+or she is responsible for describing what should be built and why—but not how.
+Extreme programming (XP), another Agile software development approach, 
+promotes incremental development of a system using short development cycles 
+to improve productivity and to accommodate new customer requirements.
+DevOps is the practice of blending the tasks performed by the develop-
+ment and IT operations groups to enable faster and more reliable software 
+releases. This approach is key to successful Agile development.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 576
+
+part 4 • Planning, Implementing, and Managing Information Systems
+554
+Key Terms
+Agile development
+cold site
+cutover
+data-flow diagram (DFD)
+DevOps
+direct conversion
+disaster recovery plan
+economic feasibility
+extreme programming (XP)
+failover
+feasibility analysis
+functional decomposition
+hot site
+installation
+integration testing
+joint application development (JAD)
+legal feasibility
+mission-critical processes
+monitoring
+operational feasibility
+parallel start-up
+Pareto principle (80–20 rule)
+patch
+performance evaluation test
+perpetual license
+phase-in approach
+pilot start-up
+product backlog
+product owner
+release
+request for information (RFI)
+schedule feasibility
+Scrum
+Scrum master
+site preparation
+slipstream upgrade
+system analysis
+system construction
+system design
+system development
+system disposal
+system investigation
+system investigation report
+system maintenance
+system operation
+system review
+system testing
+technical documentation
+technical feasibility
+unit testing
+user acceptance document
+user acceptance testing (UAT)
+user documentation
+user preparation
+version
+volume testing
+Waterfall system development process
+Self-Assessment Test
+Organizations can obtain software using one of 
+three basic approaches: subscribe, buy, or build.
+1.	 _______________ software is less risky and leads 
+to quicker deployment; however, maintenance 
+and support costs may become expensive.
+a.	 Custom
+b.	 Enterprise
+c.	 Off-the-shelf
+d.	 Personal productivity
+2.	 _______________ software can provide a better 
+match to the current work processes of the orga-
+nization and may provide a potential competitive 
+advantage; however, software development can 
+be extremely costly, and it can take months or 
+even years to complete.
+a.	 Custom
+b.	 Enterprise
+c.	 Off-the-shelf
+d.	 Personal productivity
+3.	 Which of the following is not a reason to sub-
+scribe to on-demand software?
+a.	 The software does not need to be scalable.
+b.	 Specialized software is needed in a timely 
+fashion.
+c.	 The IT staff does not include developers.
+d.	 The company has limited storage capacity.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 577
+
+chapter 13 • System Acquisition and Development
+555
+When evaluating and purchasing off-the-shelf software, 
+an organization must consider the effort required to 
+modify both the new software package and the exist-
+ing software so that they work well together.
+4.	 A preliminary evaluation of software packages 
+and vendors begins during the _______________ 
+phase when the two or three strongest 
+­contenders are identified.
+a.	 system investigation
+b.	 system design
+c.	 system analysis
+d.	 feasibility analysis
+A system developed using the Waterfall approach 
+moves from one phase to the next, with a manage-
+ment review at the end of each phase.
+5.	 Many organizations use a Waterfall approach 
+with six phases, including investigation, analysis, 
+design, _______________, integration and testing, 
+and implementation.
+6.	 The Waterfall approach allows for a high degree 
+of management control, but it does not allow for 
+user interaction with the system until the inte-
+gration and testing phase, when the system is 
+nearly complete. True or False?
+7.	 The purpose of the system investigation phase is 
+to _______________.
+a.	 define what the information system must 
+do to solve the problem or capitalize on the 
+opportunity
+b.	 gain a clear understanding of the specifics of 
+the problem to solve or the opportunity to 
+address
+c.	 gather data on the existing system and deter-
+mine the requirements for the new system
+d.	 identify, confirm, and prioritize system 
+requirements
+8.	 _______________ is a diagram used to document 
+the processes of the current system or to provide 
+a model of a proposed new system.
+9.	 The overall emphasis of the _______________ 
+phase is on gathering data on the existing sys-
+tem, determining the requirements of the new 
+system, considering alternatives within identified 
+constraints, and investigating the feasibility of 
+alternative solutions.
+a.	 investigation
+b.	 analysis
+c.	 design
+d.	 construction
+10.	 The primary tool for assessing the software mar-
+ketplace to determine whether existing pack-
+ages can meet the organization’s needs is the 
+_______________.
+a.	 system investigation report
+b.	 request for quotation
+c.	 RFI
+d.	 system design report
+11.	 The _______________ phase converts the system 
+design into an operational system by coding and 
+testing software programs, creating and loading 
+data into databases, and performing initial pro-
+gram testing.
+a.	 system analysis
+b.	 system construction
+c.	 system implementation
+d.	 system testing and integration
+Agile development is an iterative system develop-
+ment process that develops a system in “sprint” 
+increments lasting from two weeks to two months.
+12.	 _______________ is an Agile development frame-
+work that uses a team-based approach in order 
+to keep the development effort focused and 
+moving quickly.
+13.	 In the Scrum framework, the _______________ is 
+a person who represents the project stakehold-
+ers and is responsible for communicating and 
+aligning project priorities between stakeholders 
+and the development team.
+a.	 project manager
+b.	 Scrum master
+c.	 product owner
+d.	 project sponsor
+14.	 _______________ is the practice of blending the 
+tasks performed by the development and IT 
+operations groups to enable faster and more reli-
+able software releases.
+a.	 Scrum
+b.	 Extreme programming
+c.	 JAD
+d.	 DevOps
+Self-Assessment Test Answers
+1.	 c
+2.	 a
+3.	 a
+4.	 c
+5.	 construction
+6.	 True
+7.	 b
+8.	 Data-flow diagram
+9.	 b
+10.	 c
+11.	 b
+12.	 Scrum
+13.	 c
+14.	 d
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 578
+
+part 4 • Planning, Implementing, and Managing Information Systems
+556
+Review and Discussion Questions
+1.	 What are primary characteristics of the 
+Waterfall system development process? What is 
+the rationale for using the term “Waterfall” to 
+describe it?
+2.	 Identify and state the purpose of each of the 
+six phases of the Waterfall system development 
+process.
+3.	 Identify and briefly describe at least three 
+advantages of SaaS and how these advantages 
+and help an organization as they grow.
+4.	 Provide two examples of opportunities or 
+problems that are likely to trigger the need for 
+an information system project.
+5.	 What are the four different kinds of feasibility 
+that must be assessed? Why is the feasibility of 
+a system reviewed during both the analysis and 
+design phases?
+6.	 Thoroughly discuss the pros and cons of buying 
+versus building software.
+7.	 Outline the steps necessary to conduct an effec-
+tive joint application development (JAD) session. 
+Who should participate in such a session? What 
+is the role of the JAD facilitator?
+8.	 Why is it important for business managers to 
+have a basic understanding of the system devel-
+opment process?
+9.	 Identify several areas for which system security 
+and control requirements need to be defined.
+10.	 Identify and briefly describe six system perfor-
+mance factors.
+11.	 How does DevOps support the Agile system 
+development process?
+12.	 What is extreme programming (XP)? What is its 
+goal?
+13.	 An organization has selected and is now imple-
+menting a software package. Identify three key 
+factors that will determine the cost and time 
+required for implementation.
+Business-Driven Decision-Making Exercises
+1.	 You are acquiring a new information system for 
+The Fitness Center, a company with three fitness 
+centers in your metropolitan area, with a total of 
+1200 members and 20 to 30 full and part-time 
+employees in each location. Through previous 
+research efforts, the director of marketing has 
+determined that your clientele is interested in a 
+state-of-the-art software system to track all their 
+fitness and health-related activities. Each piece of 
+equipment in the gym will be modified to allow 
+entry of the member’s ID number, recording the 
+date, time of day, weight used, and number of 
+reps or workout length. Members and fitness 
+consultants want to be able to log in to the sys-
+tem from any computer or mobile device and 
+see displays of various reports (calories burned, 
+muscle groups worked, blood pressure, distance 
+run, steps taken, etc.) for a user-specified time 
+period. Use word-processing software to identify 
+at least six high-priority requirements for such 
+a system. Use a spreadsheet or project manage-
+ment program to identify and schedule the tasks 
+that must be performed in order to choose the 
+best software package and implement it.
+2.	 The preliminary investigation of a software proj-
+ect has been completed. Two different project 
+teams have estimated the costs associated with 
+the development and maintenance of a new 
+system. One team based their estimates on the 
+assumption that the Waterfall system development 
+process would be used for the project; the other 
+team plans to follow the Agile approach. A third 
+option is to purchase off-the-shelf software that 
+provides nearly all the benefits of a ­custom-built 
+solution. Review the estimates below and choose 
+the best approach for the project: Waterfall devel-
+opment, Agile development, or off-the-shelf soft-
+ware implementation. Provide a solid rational for 
+your choice. Identify any assumptions you must 
+make in reaching your decision.
+Waterfall
+Agile
+Off-the-
+Shelf 
+Software
+Total effort months to 
+complete the system
+45
+38
+6
+Cost per effort month
+$10k
+$10k
+$10k
+Cost of software 
+package
+$350k
+Elapsed time until 
+a partial working 
+version is available 
+(months)
+Not 
+applicable
+2
+Not 
+applicable
+Elapsed time until all 
+currently envisioned 
+features are available 
+(months)
+8
+5
+3
+Annual savings gener-
+ated by the complete 
+system
+$180k
+$180k
+$160k
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 579
+
+chapter 13 • System Acquisition and Development
+557
+Career Exercises
+1.	 Perform research to learn what is required 
+to have a successful career as a software 
+­developer for smartphones. What sort of 
+­education and experience is needed?  
+What personal ­characteristics would be  
+helpful in such a career? How would one 
+get started in such a career, and what are 
+­starting salaries?
+2.	 Identify an information system frequently 
+employed by people in a career field you 
+are interested in. Discuss how you might be 
+involved as a user in the development or 
+acquisition of such a system for your future 
+company. Identify three things that you 
+could do as a project participant that would 
+greatly improve the likelihood of successful 
+project. Now, identify three things that you 
+could do (or fail to do) that could greatly 
+diminish the probability of success of such a 
+project.
+Case Study
+Intel Uses Agile and DevOps to Transform Its 
+­Business Operations
+To be a leader in technology, you have to be able to adapt 
+to change, and in today’s world, change comes quickly. 
+Intel, one of the world’s largest semiconductor compa-
+nies, has a supply chain that includes 19,000 suppliers, 
+2,000 customers, and facilities in 63 countries. Each year, 
+the company fulfills over a million orders and ships over 
+a billion units. To sustain this level of business and adapt 
+to a constantly changing market, Intel brought machine 
+learning into its operations by utilizing DevOps and Agile 
+practices.
+According to Aziz Safa, Intel’s chief data officer, 
+“Twenty years ago, we would not make a major change in 
+the enterprise for years. Whereas today you are seeing new 
+offerings come very fast.” According to Safa, developing 
+that agility in Intel’s operations required a shift in thinking 
+across the company.
+Starting in 2017, Intel jump-started that shift by train-
+ing 4,700 employees on the Agile methodology. After see-
+ing success with the Agile approach, the company trained 
+another 3,000 employees. According to the company’s 
+Case Studies
+ Global
+2018–2019 IT performance report, Intel’s “new scaling 
+framework has created a significant pull in the organiza-
+tion to fully commit to the Agile and DevOps transforma-
+tion.” The goal is to have a 60 percent testing automation 
+and a 50 percent reduction in time to delivery. To achieve 
+this goal, the DevOps team identified the applications that 
+interoperate and the areas that must operate efficiently to 
+reduce the time to delivery. Using the Agile framework, 
+they are working toward the goal of introducing new 
+systems and applications that will utilize the automated 
+testing process and increase the delivery time for its 
+customers.
+Now that the move to Agile and DevOps is under-
+way at Intel, the focus is shifting to better utilizing 
+the data from the systems to make applications oper-
+ate more efficiently across different platforms. Intel 
+is basing more of their success on cloud and automa-
+tion platforms. DevOps has paved the way for what is 
+being called the “Common Cloud Core” (C3) and the 
+ability to use PaaS (discussed earlier in the chapter) to 
+enhance the delivery of new systems and increase the 
+scalability of the current systems. Traditionally, systems 
+were designed to run for several years before updates 
+Teamwork and Collaboration Activities
+1.	 Your team has been hired to define the scope 
+and feasibility of project to create a database of 
+job openings and descriptions for the companies 
+visiting your campus each term. Students would 
+be able to log on to the system and request an 
+appointment with each company’s recruiter. 
+Recruiters would be granted access to each stu-
+dent’s summary transcript (courses taken, but 
+no grades shown) and resume. Describe the 
+tasks your team would perform to complete the 
+system investigation phase. Who else needs to 
+be involved in the system investigation? Develop 
+a data-flow diagram that defines the scope of 
+this system.
+2.	 Your team has been selected to monitor 
+the disposal of your school’s 10-year old 
+student-registration system. Develop a list 
+of the activities that need to be completed 
+to complete this task. Which activities are of 
+most concern?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 580
+
+part 4 • Planning, Implementing, and Managing Information Systems
+558
+were planned. Intel recognizes that it is “fundamental 
+to any organization that wants to innovate based on 
+technology: digital transformation and DevOps go hand 
+in hand.” A business must be able to move quickly in the 
+ever-changing technology world, and Intel is at the cen-
+ter of this market. Applications must move from the idea 
+state to production in a consistent manner, versus the 
+­traditional method that would take months of planning 
+and development. Feedback must be continuous from  
+users to developers to allow for continuous 
+improvements.
+By combining DevOps, PaaS, and C3, Intel has auto-
+mated many of its systems. This automation has allowed 
+for more efficient processing and a cost savings for both 
+company and customers. Intel has taken advantage of 
+release planning, which allows developers to release 
+smaller portions of the system on a more frequent basis. 
+Utilizing the cloud infrastructure, there is no downtime, 
+and end users can provide feedback on a manageable 
+scale. DevOps allows for continuous testing as the devel-
+opment cycle is shorter, and the feedback is faster and 
+on a targeted part of the system. With the tools avail-
+able through PaaS, there is continuous monitoring of 
+the system to keep applications running at optimum 
+levels. These tools provide developers with performance 
+data so they can improve on any areas that may be 
+under-performing. Intel has been successful in imple-
+menting Agile and DevOps. What will be next for this 
+technology giant?
+Critical Thinking Questions
+1.	 Intel has been a technology leader for decades. Why 
+do you think it took the company so long to make 
+major changes in the past? Why you think it has taken 
+them so long to make the move to an Agile develop-
+ment method for faster processes.
+2.	 Intel uses a combination of DevOps, C3, and PaaS 
+for development. Do you think PaaS is necessary for 
+DevOps to be successful? Why do you think Intel is 
+using PaaS along with DevOps in the Agile develop-
+ment process? What advantage, or disadvantage, do 
+you think PaaS could have for Intel in the future?
+3.	 What would be some of the criteria you would use 
+to measure the success of a shift to DevOps practices 
+within a company?
+Sources: Stephanie Condon, “Scaling Agile, Adopting AI: How Intel Is 
+Making IT a Strategic Part of the Business,” ZDNet, https://www 
+.zdnet.com/article/scaling-agile-adopting-ai-how-intel-is-making-it-a-­
+strategic-part-of-the-business/, April 17, 2019; “Intel IT: Harnessing AI 
+and Analytics to Drive Digital Transformation,” Intel, https://newsroom 
+.intel.com/news/intel-it-harnessing-ai-analytics-drive-digital-­
+transformation/#gs.80wfxd, accessed April 28, 2019; “Driving the Digital 
+Enterprise Transformation: 2018–2019 Intel IT Annual Performance 
+Report,” https://www.intel.com/content/www/us/en/it-management/intel-
+it-best-practices/intel-it-annual-performance-report-2018-19-paper.html, 
+accessed June 25, 2019; “Integrating Cloud Management Platforms, PaaS 
+and DevOps for Business Effectiveness,” Intel, https://www.intel.com/
+content/dam/www/public/us/en/documents/white-papers/hybrid-cloud-
+devops-white-paper-fv.pdf, accessed June 25, 2019.
+6.	 “IaaS, PaaS, SaaS (Explained and Compared),” Atos, 
+https://apprenda.com/library/paas/iaas-paas-saas-
+explained-compared/, accessed February 20, 2019.
+7.	 “Top Five Advantages of Software as a Service 
+(Saas),” IBM, https://www.ibm.com/blogs/cloud-
+computing/2013/09/18/top-five-advantages-of-software-
+as-a-service-saas/, accessed February 22, 2019.
+8.	 Maciej Duraj, “SaaS Business Models Analyzed,” 
+Forbes, January 3, 2019, https://www.forbes.com/
+sites/maciejduraj/2019/01/03/saas-business-models-
+analyzed/#6ef270822ab5, accessed February 16, 
+2019.
+9.	 “An Overview of SaaS,” Digital Guide, https://www.ionos 
+.com/digitalguide/server/know-how/an-overview-of-saas-
+software-as-a-service/, accessed February 22, 2019.
+10.	 “Guidance on HIPAA & Cloud Computing,” HHS.
+gov, https://www.hhs.gov/hipaa/for-professionals/
+special-topics/cloud-computing/index.html, accessed 
+February 23, 2019.
+11.	 Jessie Bur, “VA’s IT Leadership Problem Has Infected 
+Modernization Efforts,” Federal Times, April 3, 2019, 
+https://www.federaltimes.com/it-networks/2019/04/03/
+vas-it-leadership-problem-has-infected-modernization-
+efforts/.
+12.	 “Business Analyst Training | Onsite Business  
+Courses,” Pierson Requirements Group, https://www 
+.piersonrequirementsgroup.com, accessed April 27, 2019.
+Sources for the opening vignette: Jessica Mulholland, “3 
+Pieces of Advice for Making the Transition from Waterfall 
+to Agile,” Government Technology, May 26, 2017, http://
+www.govtech.com/people/3-Pieces-of-Advice-for-Making-the-­
+Transition-from-Waterfall-to-Agile.html; “Agile Government? 
+Not an Oxymoron in the State of Maine,” Pega, https://www 
+.pega.com/insights/resources/agile-government-not-­oxymoron-
+state-maine, accessed February 23, 2019; “About Agile: 
+­Project Management,” Maine.gov, https://www.maine.gov/oit/
+project_management/agile.html, accessed February 23, 2019.
+1.	 “Amazon Logistics,” Amazon, https://logistics.amazon 
+.com/, accessed April 19, 2019.
+2.	 Clint Boulton, “Dealer Tire Gains Traction with Data 
+Science,” CIO, April 8, 2019, https://www.cio.com/
+article/3387520/dealer-tire-gains-traction-with-data-
+science.html.
+3.	 Clint Boulton, “Sales Automation App Helps Suddath 
+Get Its Move On,” CIO, April 2, 2019, https://www 
+.cio.com/article/3384929/sales-automation-app-helps-
+suddath-get-its-move-on.html.
+4.	 “Get the Most from Office with Office 365,” Microsoft, 
+https://products.office.com/en-us/compare-all-microsoft-
+office-products-test?tab=2&tab=2, accessed February 17, 
+2019.
+5.	 “Creative Cloud Plans & Pricing,” Adobe, https://www 
+.adobe.com/creativecloud/plans.html?promoid= 
+CJ132JRD&mv=other, accessed February 17, 2019.
+Notes
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 581
+
+chapter 13 • System Acquisition and Development
+559
+13.	 Jasmine Lee, “AgTech Trends in 2019: Synthetic Biology, 
+Precision Agriculture, and Millennial Farmers,” AgTech 
+Trends in 2019, December 3, 2018, https://learn 
+.g2crowd.com/2019-agtech-trends.
+14.	 Robert N. Charette, “U.S. Coast Guard’s $67 Million EHR 
+Fiasco,” https://spectrum.ieee.org/riskfactor/computing/
+software/us-coast-guards-67-million-ehr-fiasco,  
+March 8, 2018.
+15.	 “Early Intervention System,” Sierra-Cedar, https://www 
+.sierra-cedar.com/wp-content/uploads/sites/12/2018/10/
+OVER-EIS.pdf, accessed April 27, 2019.
+16.	 “Interagency Guidelines Establishing Information 
+Security Standards,” Board of Governors of the Federal 
+Reserve System, www.federalreserve.gov/bankinforeg/
+interagencyguidelines.htm, accessed June 9, 2014.
+17.	 Brian Ward, “The Importance of Good Interface 
+Design,” heehaw.digital (blog), February 27, 
+2013, http://blog.heehaw.co.uk/2013/02/
+the-importance-of-good-interface-design.
+18.	 Ben Shneiderman, and Catherine Plaisant, Designing the 
+User Interface: Strategies for Effective Human-Computer 
+Interaction, Fifth edition, 2009, Pearson: New York.
+19.	 Joshua Porter, “Principles of User Interface Design,” 
+Bokardo (blog), http://bokardo.com/principles-of-user-
+interface-design/, accessed July 3, 2014.
+20.	 “RecoverPoint,” Dell EMC, www.emc.com/storage/
+recoverpoint/recoverpoint.htm, accessed April 8, 2019.
+21.	 “SteelEye LifeKeeper,” SteelEye Technology, Inc., www 
+.ha-cc.org/high_availability/components/application_
+availability/cluster/high_availability_cluster/steeleye_
+lifekeeper, accessed April 8, 2019.
+22.	 “Application Continuous Availability,” NeverFail, https://
+neverfail.com/solutions/continuous-application-
+availability, accessed April 8, 2019.
+23.	 “Wells Fargo Reports $5.9 Billion in Quarterly Net 
+Income; Diluted EPS of $1.20,” Wells Fargo, https://
+www08.wellsfargomedia.com/assets/pdf/about/investor-
+relations/earnings/first-quarter-2019-earnings.pdf, 
+accessed April 28, 2019.
+24.	 Will Hernandez, “Flaws in Testing May Be Real Source 
+of Wells Fargo’s Tech Failure,” American Banker, 
+February 8, 2019, https://www.americanbanker.com/
+news/flaws-in-testing-may-be-real-source-of-wells-
+fargos-tech-failure.
+25.	 “CodeSmith Generator,” CodeSmith, www 
+.codesmithtools.com/product/generator, accessed  
+April 8, 2019.
+26.	 “Datalab Achieves Full Maximization in Credit Card 
+Promotion and Advertising Campaigns,” Datalab, 
+https://www.genexus.com/en/company/success-stories/
+datalab, accessed April 27, 2019.
+27.	 “Dr.Explain Featured Reviews,” DREXPLAIN, www.
+drexplain.com/what-do-users-say, accessed April 8, 2019.
+28.	 “Surging Customer Demand Drives Cyxtera Data Center 
+Expansion in Five Markets,” Cyxtera, March 11, 2019, 
+https://www.cyxtera.com/news-events/press-releases/
+surging-customer-demand-drives-cyxtera-data-center-
+expansion-in-five-markets.
+29.	 “Investor Relations,” dormakaba Group, https://www 
+.dormakaba.com/en, accessed April 27, 2019.
+30.	 “Leading in Technology – dormakaba one of the Top 
+100 Global Technology Leaders, According to Thomson 
+Reuters,” dormakaba Group, https://www.dormakaba 
+.com/en/innovation/leading-in-technology---dormakaba-
+one-of-the-top-100-global-technology-leaders--according-
+to-thomson-reuters-642638, accessed April 27, 2019.
+31.	 “How Can Companies Digitize Their Security 
+Systems?,” SAP, https://www.sap.com/
+documents/2018/01/22ac670d-ea7c-0010-82c7-
+eda71af511fa.html, accessed April 27, 2019.
+32.	 “Certification due to single system,” dormakaba,  
+https://www.dormakaba.com/en/products/electronic-
+access-data/success-story, accessed June 25, 2019.
+33.	 “Accelerate Business Performance: Precise Application 
+Performance Platform,” Idera, https://www.idera 
+.com/application-performance-monitoring/relational-
+database-performance, accessed April 28, 2019.
+34.	 “Hospital | Honeywell,” Honeywell, https://www.
+honeywell.com/healthcare/hospital, accessed April 28, 
+2019.
+35.	 Olavrsud, Thor, “United goes digital to ease overbook-
+flight aggravation,” CIO, https://www.cio.com/
+article/3402696/united-goes-digital-to-ease-overbooked-
+flight-aggravation.html, accessed June 17, 2019.
+36.	 “43% of Businesses Are Still Running Windows 7, 
+Security Threats Remain,” Help Net Security,  
+https://www.helpnetsecurity.com/2019/01/15/still-
+running-windows-7/, accessed April 28, 2019.
+37.	 “What is Agile?,” Agile Methodology, http://
+agilemethodology.org, accessed April 8, 2019.
+38.	 “Core Scrum: What is Scrum?,” ScrumAlliance, www 
+.scrumalliance.org/scrum/media/ScrumAllianceMedia/
+Files%20and%20PDFs/Learn%20About%20Scrum/Core-
+Scrum.pdf, accessed April 8, 2019.
+39.	 “Learn About Scrum?,” Scrum Alliance, www 
+.scrumalliance.org/why-scrum, accessed April 8, 2019.
+40.	 “Core Scrum: What is Scrum?,” ScrumAlliance, www 
+.scrumalliance.org/scrum/media/ScrumAllianceMedia/
+Files%20and%20PDFs/Learn%20About%20Scrum/Core-
+Scrum.pdf, accessed April 26, 2016.
+41.	 “Scrum Methodology,” My PM Expert, http://
+scrummethodology.com/, accessed August 3, 2014. www 
+.my-project-management-expert.com/the-advantages-
+and-disadvantages-of-agile-software-development.html, 
+accessed August 3, 2014.
+42.	 Susan De Sousa, “The Advantages and Disadvantages 
+of Agile Development,” My PM Expert, www.
+my-project-management-expert.com/the-advantages-
+and-disadvantages-of-agile-software-development.html, 
+accessed April 28, 2019.
+43.	 “Extreme Programming,” Extreme Programming, www 
+.extremeprogramming.org/rules.html, accessed April 28, 
+2019.
+44.	 Ernest Mueller, “What is DevOps?,” the agile admin, 
+January 12, 2019, https://theagileadmin.com/
+what-is-devops/.
+45.	 Ibid.
+46.	 Christopher Null, “10 Companies Killing It at DevOps,”, 
+TechBeacon, https://techbeacon.com/devops/10-
+companies-killing-it-devops, accessed April 28, 2019.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 582
+
+560
+blade server A server that houses many 
+individual computer motherboards that 
+include one or more processors, computer 
+memory, computer storage, and computer 
+network connections.
+blog A Web site that people and businesses 
+use to share their observations, experiences, 
+and opinions on a wide range of topics.
+Bluetooth A wireless communications 
+specification that describes how cell 
+phones, computers, faxes, printers, and 
+other electronic devices can be intercon-
+nected over distances of 10 to 30 feet at a 
+rate of about 2 Mbps.
+botnet A large group of computers con-
+trolled from one or more remote locations 
+by hackers without the knowledge or con-
+sent of their owners.
+brain computer interface (BCI) Technol-
+ogy that interacts with a human’s neural 
+structure (brain) and translates the informa-
+tion (thoughts) into activity (actions).
+bring your own device (BYOD) A busi-
+ness policy that permits, and in some cases 
+encourages, employees to use their own 
+mobile devices (smartphones, tablets, or 
+laptops) to access company computing 
+resources and applications.
+bus A set of electronic circuits used to 
+route data and instructions to and from the 
+various components of a computer.
+bus network A network in which all net-
+work devices are connected to a common 
+backbone that serves as a shared communi-
+cations medium.
+business continuity plan A document that 
+includes an organization’s disaster recovery 
+plan, occupant emergency evacuation plan, 
+continuity of operations plan, and an inci-
+dent management plan.
+business intelligence (BI) A wide range of 
+applications, practices, and technologies for 
+the extraction, transformation, integration, 
+visualization, analysis, interpretation, and 
+presentation of data to support improved 
+decision making.
+business-to-consumer (B2C) e-commerce 
+A form of e-commerce in which customers 
+deal directly with an organization and avoid 
+intermediaries.
+business-to-business (B2B) e-commerce A 
+subset of e-commerce in which all the par-
+ticipants are organizations.
+information and rules for using the infor-
+mation), reasoning (using rules to reach 
+conclusions), and self-correction (using the 
+outcome from one scenario to improve its 
+performance on future scenarios).
+artificial neural network A computer sys-
+tem that can recognize and act on patterns 
+or trends that it detects in large sets of data; 
+developed to operate like the human brain.
+attack vector The technique used to 
+gain unauthorized access to a device or a 
+network. 
+attribute A characteristic of an entity.
+augmented reality (AR) Vision system soft-
+ware that takes computer-generated images 
+and superimposes them on a user’s view 
+of the world through the use of specialized 
+glasses or goggles.
+autonomic computing The ability of IT 
+systems to manage themselves and adapt 
+to changes in the computing environment, 
+business policies, and operating objectives.
+B
+backward chaining A strategy used by the 
+inference engine to determine how a deci-
+sion was made.
+backward compatibility The ability of 
+current mainframes to run software created 
+decades ago.
+batch processing system A form of data 
+processing whereby business transactions 
+are accumulated over a period of time and 
+are processed as a single unit or batch.
+best practices The most efficient and effec-
+tive ways to complete a business process.
+big data The term used to describe data 
+collections that are so enormous (terabytes 
+or more) and complex (from sensor data 
+to social media data) that traditional data 
+management software, hardware, and anal-
+ysis processes are incapable of dealing with 
+them.
+biometric authentication The process of 
+verifying your identity using your physio-
+logical measurements (fingerprint, shape of 
+your face, shape of your hand, vein pattern, 
+your iris, or retina) or behavioral measure-
+ments (voice recognition, gait, gesture, or 
+other unique behaviors).
+bioprinting The use of 3D printers to build 
+human parts and organs from actual human 
+cells.
+#
+5G (5th generation) The latest generation 
+of mobile communications, featuring high 
+data transfer speeds over high frequencies 
+with minimal latency and requiring low 
+energy.
+A
+acid properties Properties (atomicity, con-
+sistency, isolation, durability) that guarantee 
+relational database transactions are pro-
+cessed reliably and ensure the integrity of 
+data in the database.
+Agile development An iterative system 
+development process that develops the 
+­system in “sprint” increments lasting from 
+two weeks to two months.
+American Recovery and Reinvestment 
+Act Title xiii Includes strong privacy provi-
+sions for electronic health records (EHRs), 
+including banning the sale of health infor-
+mation, promoting the use of audit trails 
+and encryption, providing rights of access 
+for patients, and mandating that each indi-
+vidual whose health information has been 
+exposed be notified within 60 days after 
+discovery of a data breach.
+analytics The extensive use of data and 
+quantitative analysis to support fact-based 
+decision making within organizations.
+anonymous expression The expression of 
+opinions by people who do not reveal their 
+identity.
+antivirus software Should be installed on 
+each user’s personal computer to scan a 
+computer’s memory and disk drives regu-
+larly for viruses.
+application programming interfaces 
+(API) A set of programming instructions 
+and standards that enable one microservice 
+to access and use the services of another 
+microservice.
+application software Programs that help 
+users solve particular computing problems.
+artificial intelligence (AI) The ability to 
+mimic or duplicate the functions of the 
+human brain.
+artificial intelligence (AI) system The 
+people, procedures, hardware, software, 
+data, and knowledge needed to develop 
+computer systems and machines that can 
+simulate human intelligence processes, 
+including learning (the acquisition of 
+Glossary
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 583
+
+Glossary
+561
+cost-reimbursable contract A contract that 
+requires the buyer to pay the provider an 
+amount that covers the provider’s actual 
+costs plus an additional amount or percent-
+age for profit.
+critical path All project activities that, if 
+delayed, would delay the entire project.
+Cross-Industry Process for Data Min-
+ing (CRISP-DM) A six-phase structured 
+approach for the planning and execution of 
+a data mining project.
+cryptocurrency A digital currency, such as 
+Bitcoin, used for financial transactions.
+culture A set of major understandings and 
+assumptions shared by a group, such as 
+within an ethnic group or a country.
+customer relationship management 
+(CRM) system A system that helps a 
+company manage all aspects of customer 
+encounters, including marketing, sales, 
+distribution, accounting, and customer 
+service.
+cutover The process of switching from an 
+old information system to a replacement 
+system.
+cyberespionage The deployment of 
+­malware that secretly steals data in the 
+computer systems of organizations.
+cyberterrorism The intimidation of 
+­government or civilian population by 
+using information technology to disable 
+critical national infrastructure (e.g., energy, 
+transportation, financial, law enforcement, 
+emergency response) to achieve political, 
+religious, or ideological goals.
+D
+data Raw facts such as an employee  
+number or total hours worked in a  
+week.
+data breach The unintended release of sen-
+sitive data or the access of sensitive data by 
+unauthorized individuals.
+data center A climate-and-access-­controlled 
+building or a set of buildings that houses 
+the computer hardware that delivers 
+an organization’s data and information 
+services.
+data cleansing The process of detecting 
+and then correcting or deleting incomplete, 
+incorrect, inaccurate, or irrelevant records 
+that reside in a database.
+data collection Capturing and gathering all 
+data necessary to complete the processing 
+of transactions.
+data correction Reentering data that was 
+not typed or scanned properly.
+data definition language (DDL) A collec-
+tion of instructions and commands used to 
+define and describe data and relationships 
+in a specific database.
+data dictionary A detailed description of 
+the data stored in the database.
+science to identify, collect, examine, and 
+preserve data from computer systems, net-
+works, and storage devices in a manner that 
+preserves the integrity of the data gathered 
+so that it is admissible as evidence in a 
+court of law.
+computer graphics card A component of 
+a computer that takes binary data from the 
+CPU and translates it into an image you see 
+on your display device.
+computer network The communications 
+media, devices, and software connecting 
+two or more computer systems or devices.
+computer-aided design (CAD) The use of 
+software to assist in the creation, analysis, 
+and modification of the design of a compo-
+nent or product.
+computer-aided engineering (CAE) The use 
+of software to analyze the robustness and 
+performance of components and assemblies.
+computer-aided manufacturing (CAM) 
+The use of software to control machine 
+tools and related machinery in the manu-
+facture of components and products.
+concurrency control A method of dealing 
+with a situation in which two or more users 
+or applications need to access the same 
+record at the same time.
+consumer-to-consumer (C2C) e-commerce 
+A subset of e-commerce that involves elec-
+tronic transactions between consumers 
+using a third party to facilitate the process.
+content streaming A method for transfer-
+ring large media files over the Internet so 
+that the data stream of voice and pictures 
+plays more or less continuously as the file 
+is being downloaded.
+continuous improvement A form of inno-
+vation that involves constantly seeking 
+ways to improve business processes and 
+add value to products and services.
+conversion funnel A graphical representa-
+tion that summarizes the steps a consumer 
+takes in making the decision to buy your 
+product and become a customer.
+coprocessor The part of the computer that 
+speeds processing by executing specific 
+types of instructions while the CPU works 
+on another processing activity.
+core Receives instructions and performs 
+calculations, or actions, based on those 
+instructions.
+core competency Something that a firm 
+can do well and that provides customer 
+benefits, is hard for competitors to imitate, 
+and can be leveraged widely to many prod-
+ucts and markets.
+core value A widely accepted principle that 
+guides how people behave and make deci-
+sions in the organization.
+cost management A set of activities that 
+includes the development and management 
+of the project budget.
+byte (b) Eight bits that together represent a 
+single character of data.
+C
+cache memory A type of highspeed mem-
+ory that a processor can access more rap-
+idly than main memory.
+Cascading Style Sheet (CSS) A markup 
+language for defining the visual design of a 
+Web page or group of pages.
+certification A process for testing skills 
+and knowledge.
+certificate authority (CA) A trusted third-
+party organization or company that issues 
+digital certificates.
+change model A representation of change 
+theories that identifies the phases of change 
+and the best way to implement them.
+channel bandwidth The capacity of a com-
+munications channel to carry traffic, usu-
+ally measured in megabits bits per second 
+(Gbps).
+Children’s Online Privacy Protection 
+Act (COPPA) States that any Web site that 
+caters to children must offer comprehensive 
+privacy policies, notify parents or guard-
+ians about its data collection practices, and 
+receive parental consent before collecting 
+any personal information from children 
+under 13 years of age.
+CIA security triad Confidentiality, integrity, 
+and availability form the basis of the CIA 
+security triad.
+client/server architecture This is a net-
+working approach wherein many clients 
+(end-user computing devices) request 
+and receive services from servers (host 
+computers) on the network.
+clock speed A series of electronic pulses 
+produced at a predetermined rate that 
+affects machine cycle time.
+cloud computing A computing environ-
+ment where software and storage are 
+provided as an Internet service and are 
+accessed with a Web browser.
+cold site A computer environment that 
+includes rooms, electrical service, telecom-
+munications links, data storage devices, and 
+the like.
+communications management The gener-
+ation, collection, dissemination, and storage 
+of project information in a timely and effec-
+tive manner.
+communications medium Any material 
+substance that carries an electronic signal 
+to support communications between a 
+sending and a receiving device.
+compiler A special software program that 
+converts the programmer’s source code into 
+the machine-language instructions, which 
+consist of binary digits.
+computer forensics A discipline that 
+combines elements of law and computer 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 584
+
+Glossary
+562
+diffusion of information theory A theory 
+developed by E.M. Rogers to explain how 
+a new idea or product gains acceptance 
+and diffuses (or spreads) through a specific 
+population or subset of an organization.
+digital certificate An attachment to an 
+email message or data embedded in a Web 
+site that verifies the identity of a sender or 
+Web site.
+direct conversion A cutover strategy that 
+involves stopping the old system and start-
+ing the new system on a given date; also 
+called plunge or direct cutover.
+disaster recovery plan A documented 
+­process for recovering an organization’s busi-
+ness information system assets—­including 
+hardware, software, data, networks, and 
+facilities—in the event of a disaster such as a 
+flood, fire, or electrical outage.
+discrete manufacturing The production of 
+distinct items such as autos, airplanes, fur-
+niture, or toys that can be decomposed into 
+their basic components.
+distributed denial-of-service (DDoS) 
+attack A cyberattack in which a malicious 
+hacker takes over computers via the Inter-
+net and causes them to flood a target site 
+with demands for data and other small 
+tasks.
+document production Generating output 
+records, documents, and reports.
+domain The range of allowable values for a 
+data attribute.
+domain expert The person or group with 
+the expertise or knowledge the expert sys-
+tem is trying to capture (domain).
+domain name system A system that maps 
+the name people use to locate a website 
+to the IP address that a computer uses to 
+locate a Web site.
+E
+economic feasibility The process of deter-
+mining whether the project makes financial 
+sense and whether predicted benefits offset 
+the cost and time needed to obtain them.
+e-discovery (electronic discovery) The 
+process of identifying, collecting, and pro-
+ducing electronically stored information for 
+use in legal cases.
+e-government (electronic government) 
+The use of information and communica-
+tions technology to simplify the sharing of 
+information, speed formerly paper-based 
+processes, and improve the relationship 
+between citizens and government.
+electronic cash An amount of money that 
+is computerized, stored, and used as cash 
+for e-commerce transactions.
+electronic exchange An electronic forum 
+where manufacturers, suppliers, and com-
+petitors buy and sell goods, trade market 
+information, and run back-office operations.
+data warehouse A large database that 
+holds business information from many 
+sources in the enterprise, covering all 
+aspects of the company’s processes, prod-
+ucts, and customers.
+database A well-designed, organized, and 
+carefully managed collection of data.
+database administrator (DBA) A skilled 
+and trained IS professional who holds dis-
+cussions with business users to define their 
+data needs; applies database programming 
+languages to craft a set of databases to 
+meet those needs; tests and evaluates data-
+bases; implements changes to improve the 
+performance of databases; and assures that 
+data is secure from unauthorized access.
+database approach to data management 
+An approach to data management where 
+multiple information systems share a pool 
+of related data.
+database management system (DBMS) A 
+group of programs used to access and man-
+age a database as well as provide an inter-
+face between the database and its users and 
+other application programs.
+database as a service (DaaS) An arrange-
+ment where the database is stored on a ser-
+vice provider’s servers and accessed by the 
+service subscriber over a network, typically 
+the Internet, with the database administra-
+tion handled by the service provider.
+data-flow diagram (DFD) A diagram used 
+during both the analysis and design phases 
+to document the processes of the current 
+system or to provide a model of a proposed 
+new system.
+deep learning Allows programs to grow 
+and learn from examples provided users, 
+either typed or spoken.
+defamation The making of either an oral 
+or a written statement of alleged fact that is 
+false and that harms another person.
+Department of Homeland Security (DHS) 
+A large federal agency with more than 
+240,000 employees and a budget of almost 
+$65 billion whose goal is to provide for a 
+“safer, more secure America, which is resil-
+ient against terrorism and other potential 
+threats.”
+descriptive analysis A preliminary data 
+processing stage used to identify patterns in 
+the data and answer questions about who, 
+what, where, when, and to what extent.
+desktop computers A nonportable com-
+puter that fits on a desktop and can provide 
+sufficient computing power, memory, and 
+storage for most business computing tasks.
+development engine Engine that builds 
+the sets of rules and processes used by AI 
+systems.
+DevOps The practice of blending the 
+tasks performed by the development and 
+IT operations groups to enable faster and 
+more reliable software releases.
+data editing Checking data for validity and 
+completeness to detect any problems.
+data governance The core component 
+of data management; it defines the roles, 
+responsibilities, and processes for ensuring 
+that data can be trusted and used by the 
+entire organization, with people identified 
+and in place who are responsible for fixing 
+and preventing issues with data.
+data item The specific value of an 
+attribute.
+data lake A “store everything” approach to 
+big data that saves all the data in its raw 
+and unaltered form.
+data lifecycle management (DLM) A policy- 
+based approach to managing the flow of an 
+enterprise’s data, from its initial acquisition 
+or creation and storage to the time when it 
+becomes outdated and is deleted.
+data management An integrated set of 
+functions that defines the processes by 
+which data is obtained, certified fit for use, 
+stored, secured, and processed in such 
+a way as to ensure that the accessibility, 
+reliability, and timeliness of the data meet 
+the needs of the data users within an 
+organization.
+data manipulation language (DML) A 
+specific language, provided with a DBMS, 
+which allows users to access and modify 
+the data, to make queries, and to generate 
+reports.
+data mart A subset of a data warehouse 
+that is used by small and medium-sized 
+businesses and departments within large 
+companies to support decision making.
+data mining A BI analytics tool used to 
+explore large amounts of data for ­hidden 
+patterns to predict future trends and 
+­behaviors for use in decision making.
+data normalization The process of 
+­organizing the data in a relational database 
+to eliminate data redundancy (all data is 
+stored in only one place) and ensure data 
+dependencies make sense (only storing 
+related data in a table).
+data processing Performing calculations 
+and other data transformations related to 
+business transactions.
+data scientist An individual who combines 
+strong business acumen, a deep under-
+standing of analytics, and a healthy appre-
+ciation of the limitations of data, tools, and 
+techniques to deliver real improvements in 
+decision making.
+data steward An individual responsible for 
+the management of critical data elements, 
+including identifying and acquiring new 
+data sources; creating and maintaining con-
+sistent reference data and master data defi-
+nitions; and analyzing data for quality and 
+reconciling data issues.
+data storage Updating one or more data-
+bases with new transactions.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 585
+
+Glossary
+563
+fixed-price contract A contract in which 
+the buyer and provider agree to a total 
+fixed price for a well-defined product or 
+service.
+foreign key An attribute in one table that 
+refers to the primary key in another table.
+forming-storming-norming performing 
+adjourning model A model that describes 
+how teams develop and evolve.
+forward chaining A strategy used by the 
+inference engine to process data using a set 
+of known facts to make decisions.
+four tiers of data center classification A 
+system that enables organizations to quan-
+tify and qualify their ability to provide a 
+predictable level of performance.
+Fourth Amendment Protects us from ille-
+gal searches and seizures.
+functional decomposition A technique 
+that involves breaking down complex prob-
+lems or systems into smaller parts, making 
+them easier to manage and understand.
+G
+Gantt chart A graphical tool used for plan-
+ning, monitoring, and coordinating projects; 
+it is essentially a grid drawn on a timescale 
+that lists activities and deadlines.
+General Data Protection Regulation 
+(GDPR) A set of data privacy requirements 
+that apply across the European Union and 
+apply as well to organizations that market 
+to or process information of EU end users, 
+customers, or employees.
+genetic algorithm An approach to solving 
+problems based on the theory of evolution; 
+uses the concept of survival of the fittest to 
+find approximate solutions to optimization 
+and search problems.
+gigahertz (GHz) A unit of frequency that 
+is equal to one billion cycles per second; a 
+measure of clock speed.
+goal A specific result that must be achieved 
+to reach an objective.
+goals-based strategic planning A mul-
+tiphase strategic planning process that 
+involves analyzing an organization and its 
+environment, defining strategies, and exe-
+cuting initiatives to help an organization 
+meet its long-term goals and objectives.
+graphics processing unit (GPU) A power-
+ful processing chip that renders images on 
+the screen display.
+green computing Concerned with the 
+efficient and environmentally responsi-
+ble design, manufacture, operation, and 
+disposal of IT-related products, includ-
+ing all types of computing devices (from 
+smartphones to supercomputers), printers, 
+printer materials such as cartridges and 
+toner, and storage devices.
+grid computing The use of a collection 
+of computers, often owned by multiple 
+exploit An attack on an information system 
+that takes advantage of a particular system 
+vulnerability.
+Extensible Markup Language (XML) The 
+markup language designed to transport and 
+store data on the Web.
+Extract Transform Load (ETL) process A 
+data handling process that takes data from 
+a variety of sources, edits and transforms 
+it into the format used in the data ware-
+house, and then loads this data into the 
+warehouse.
+extranet A network built using Web tech-
+nologies that links selected resources of the 
+intranet of a company with its customers, 
+suppliers, or other business partners.
+extreme programming (XP) A form of 
+Agile software development that promotes 
+incremental development of a system using 
+short development cycles to improve pro-
+ductivity and to accommodate new cus-
+tomer requirements.
+F
+failover A backup technique that involves 
+automatically switching applications and 
+programs to a redundant or replicated 
+server, network, or database to prevent 
+interruption of service.
+Fair and Accurate Credit Transactions Act 
+Allows consumers to request and obtain 
+a free credit report once each year from 
+each of the three primary consumer credit 
+reporting companies (Equifax, Experian, 
+and TransUnion).
+Fair Credit Reporting Act Regulates the 
+operations of credit-reporting bureaus, 
+including how they collect, store, and use 
+credit information.
+fair information practices A term for a set 
+of guidelines that govern the collection and 
+use of personal data.
+fake news A false story that is presented 
+as being factually accurate and appears to 
+be news.
+Family Educational Rights and Privacy 
+Act (FERPA) Assigns certain rights to par-
+ents regarding their children’s educational 
+records.
+feasibility analysis An assessment of the 
+technical, economic, legal, operational, and 
+schedule feasibility of a project.
+file A collection of similar entities.
+firewall A system of software, hardware, 
+or a combination of both that stands guard 
+between an organization’s internal net-
+work and the Internet, and limits network 
+access based on the organization’s access 
+policy.
+First Amendment Protects Americans’ 
+rights to freedom of religion, freedom 
+of expression, and freedom to assemble 
+peaceably.
+Electronic Product Environmental 
+Assessment Tool (EPEAT) A system that 
+enables purchasers to evaluate, compare, 
+and select electronic products based on a 
+total of 51 environmental criteria.
+encryption The process of scrambling mes-
+sages or data in such a way that only autho-
+rized parties can read it.
+encryption key A value that is applied 
+(using an algorithm) to a set of unen-
+crypted text (plaintext) to produce 
+encrypted text that appears as a series of 
+seemingly random characters (ciphertext) 
+that is unreadable by those without the 
+encryption key needed to decipher it.
+end user license agreement (EULA) The 
+legal agreement between the software man-
+ufacturer and the user of the software that 
+stipulates the terms of usage.
+enterprise application Software used to 
+meet organization-wide business needs 
+and typically shares data with other 
+enterprise applications used within the 
+organization.
+enterprise data model A data model that 
+identifies the data entities and data attri-
+butes of greatest interest to the organization 
+along with their associated standard data 
+definitions, data length and format, domain 
+of valid values, and any business rules for 
+their use.
+enterprise information system An infor-
+mation system that an organization uses 
+to define structured interactions among 
+its own employees and/or with external 
+customers, suppliers, government agencies, 
+and other business partners.
+enterprise system A system central to the 
+organization that ensures information can 
+be shared with authorized users across all 
+business functions and at all levels of man-
+agement to support the running and man-
+aging of a business.
+entity A person, place, or thing for which 
+data is collected, stored, and maintained.
+entity-relationship (ER) diagram A data 
+model that uses basic graphical symbols to 
+show the organization of and relationships 
+between data.
+embedded system A computer system 
+(including some sort of processor) that is 
+implanted in and dedicated to the control 
+of another device.
+ethics The set of principles about what 
+is right and wrong that individuals use to 
+make choices to guide their decisions.
+expert systems The decision-making com-
+puter systems in AI, designed to be the 
+most advanced and most reliable in solving 
+complex problems.
+explanation facility Component of an 
+expert system that allows a user or decision 
+maker to understand how the expert system 
+arrived at certain conclusions or results.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 586
+
+Glossary
+564
+determine what is important and to react 
+quickly and correctly to a new situation; 
+to understand visual images, process and 
+manipulate symbols, and be creative and 
+imaginative; and to use heuristics.
+Internet backbone One of the Internet’s 
+high-speed, long-distance communications 
+links.
+Internet censorship The control or sup-
+pression of the publishing or accessing of 
+information on the Internet.
+Internet filter Software that can be used 
+to block access to certain websites that 
+contain material deemed inappropriate or 
+offensive.
+Internet service provider (ISP) Any orga-
+nization that provides Internet access to 
+people.
+interorganizational IS An information sys-
+tem that enables sharing of information and 
+conducting business electronically across 
+organizational boundaries.
+intranet An internal corporate network 
+built using Internet and World Wide Web 
+standards and products.
+intrusion detection system (IDS) Soft-
+ware and/or hardware that monitors system 
+and network resources and activities and 
+notifies network security personnel when 
+it detects network traffic that attempts to 
+circumvent the security measures of a net-
+worked computer environment.
+IP address A 64-bit number that identifies 
+a computer on the Internet.
+issues-based strategic planning A strate-
+gic planning process that begins by iden-
+tifying and analyzing key issues facing the 
+organization, setting strategies to address 
+those issues, and identifying projects and 
+initiatives that are consistent with those 
+strategies.
+J
+joining The combining of two or more 
+tables through common data attributes to 
+form a new table with only the unique data 
+attributes.
+joint application development (JAD) 
+A structured meeting process that can 
+accelerate and improve the efficiency and 
+effectiveness of the investigation, analysis, 
+and design phases of a system development 
+project.
+K
+kernel The heart of the operating system 
+that controls the most critical processes of 
+the OS.
+knowledge The awareness and 
+­understanding of a set of information and 
+the ways that information can be made 
+useful to support a specific task or reach a 
+decision.
+I
+identity theft The use of someone’s per-
+sonal identification information without his 
+or her permission, often to commit fraud or 
+other crimes.
+if-then statements A rule that suggests cer-
+tain conclusions.
+inference engine Part of the expert system 
+that seeks information and relationships 
+from the knowledge base and provides 
+answers, predictions, and suggestions, often 
+taking the place of the human experts.
+information A collection of data organized 
+and processed so that it has additional 
+value beyond the value of the individual 
+facts.
+information system A set of interrelated 
+components that work together to support 
+fundamental business operations, data 
+reporting and visualization, data analysis, 
+decision making, communications, and 
+coordination within an organization.
+infrastructure as a service (IaaS) An 
+information systems model in which an 
+organization outsources the equipment 
+used to support its data processing oper-
+ations, including servers, storage devices, 
+and networking components.
+in-memory database (IMDB) A database 
+management system that stores the entire 
+database in random access memory (RAM).
+innovation The application of new ideas to 
+the products, processes, and activities of a 
+firm, leading to increased value.
+input/output devices A computer compo-
+nent that provides data and instructions to 
+the computer and receives results from it.
+installation The process of physically plac-
+ing the computer equipment on the site 
+and making it operational.
+instant messaging The online, real-time 
+communication between two or more peo-
+ple who are connected via the Internet.
+intangible benefit A benefit that cannot 
+directly be measured and cannot easily be 
+quantified in monetary terms.
+integrated circuit (IC) A set of electronic 
+circuits on one small piece of semiconduc-
+tor material, normally silicon.
+integration testing Testing that involves 
+linking all the individual components 
+together and testing them as a group 
+to uncover any defects in the interfaces 
+between individual components.
+intelligent agent Programs and a knowl-
+edge base used to perform a specific task 
+for a person, a process, or another program; 
+also called an intelligent robot or bot.
+intelligent behavior The ability to learn 
+from experiences and apply knowledge 
+acquired from those experiences; to han-
+dle complex situations; to solve problems 
+when important information is missing; to 
+individuals or organizations, that work in 
+a coordinated manner to solve a common 
+problem.
+H
+Hadoop An open-source software frame-
+work including several software modules 
+that provide a means for storing and pro-
+cessing extremely large data sets.
+Hadoop Distributed File System (HDFS) 
+A system used for data storage that 
+divides the data into subsets and distrib-
+utes the subsets onto different servers for 
+processing.
+hard disk drive (HDD) A direct access 
+storage device used to store and retrieve 
+data from rapidly rotating disks coated with 
+magnetic material.
+hate speech Persistent or malicious harass-
+ment aimed at a specific person.
+hybrid cloud computing environment A 
+cloud computing environment is composed 
+of both private and public clouds integrated 
+through networking.
+Health Insurance Portability and 
+Accountability Act (HIPAA) (Public  
+Law 104–191) Requires health care  
+organizations to employ standardized  
+electronic transactions, codes, and 
+­identifiers to enable them to fully digitize 
+medical records, thus making it possible  
+to exchange medical data over the  
+Internet.
+heuristics A trial-and-error method of 
+problem solving used when an algorith-
+mic or mathematical approach is not 
+practical.
+high-quality software systems Systems 
+that are easy to learn and use because they 
+perform quickly and efficiently; they meet 
+their users’ needs; and they operate safely 
+and reliably so that system downtime is 
+kept to a minimum.
+hot site A duplicate, operational hardware 
+system that is ready for use (or immedi-
+ate access to one through a specialized 
+vendor).
+HTML tag A code that tells the Web 
+browser how to format text—as a heading, 
+as a list, or as body text—and whether 
+images, sound, and other elements should 
+be inserted.
+hyperlink Highlighted text or graphics 
+in a Web document that, when clicked, 
+opens a new Web page containing related 
+content.
+Hypertext Markup Language (HTML) The 
+standard page description language for Web 
+pages.
+hypervisor A virtual server program that 
+controls the host processor and resources, 
+allocates the necessary resources to each 
+virtual system, and ensures that they do not 
+disrupt each other.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 587
+
+Glossary
+565
+multicore processor A processor that has 
+two or more independent processing units, 
+called cores, that are capable of sequencing 
+and executing instructions.
+multiprocessing The simultaneous execu-
+tion of two or more instructions at the same 
+time.
+N
+natural language processing (NLP) The 
+part of machine language that allows 
+computers to understand, analyze, manip-
+ulate, and generate natural language for 
+processing.
+near field communication (NFC) A very 
+short-range wireless connectivity technology 
+that enables two devices placed within a 
+few inches of each other to exchange data.
+nettop computers A very small, inexpen-
+sive desktop computer typically used for 
+Internet access, email, accessing Web-based 
+applications, document processing, and 
+audio/video playback.
+network latency A measurement of how 
+long it takes for a unit of data to get to its 
+destination and back again.
+network-management software Software 
+that enables a manager on a networked 
+desktop to monitor the use of individual 
+computers and shared hardware (such as 
+printers), scan for viruses, and ensure com-
+pliance with software licenses.
+network operating system (NOS) Systems 
+software that controls the computer systems 
+and devices on a network and allows them 
+to communicate with each other.
+network topology The shape or structure 
+of a network, including the arrangement 
+of the communication links and hardware 
+devices on the network.
+next-generation firewall (NGFW) A 
+hardware- or software-based network 
+security system that can detect and block 
+sophisticated attacks by filtering network 
+traffic dependent on the packet contents.
+NoSQL database A way to store and retrieve 
+data that is modeled using some means 
+other than the simple two-dimensional tabu-
+lar relations used in relational databases.
+O
+objective A statement of a compelling busi-
+ness need that an organization must meet 
+to achieve its vision and mission.
+off-the-shelf software Software produced 
+by software vendors to address needs that 
+are common across businesses, organiza-
+tions, or individuals.
+omnichannel An integrated strategy for 
+engaging customers (and potential custom-
+ers) across multiple platforms and channels 
+of communication to provide a seamless 
+experience.
+make-or-buy decision The act of compar-
+ing the pros and cons of in-house produc-
+tion versus outsourcing of a given product 
+or service.
+MapReduce program A composite pro-
+gram that consists of a Map procedure 
+that performs filtering and sorting and a 
+Reduce method that performs a summary 
+operation.
+market segmentation The identification 
+of specific markets to target them with tai-
+lored advertising messages.
+massively parallel processing systems A 
+system that speeds processing by linking 
+hundreds or thousands of processors to 
+operate at the same time, or in parallel, 
+with each processor having its own bus, 
+memory, disks, copy of the operating sys-
+tem, and applications.
+memory A component of the computer 
+that provides the processor with a working 
+storage area to hold program instructions 
+and data.
+mesh network A network that uses multi-
+ple access points to link a series of devices 
+that speak to each other to form a network 
+connection across a large area.
+metropolitan area network (MAN) A 
+network that connects users and their com-
+puters in a geographical area that spans a 
+campus or city.
+Michael Porter’s Five Forces Model A 
+model that identifies the bargaining power 
+of suppliers and buyers, the threat of new 
+entrants and substitute products, and the 
+existing industry competitors, which deter-
+mine the level of competition and long-term 
+profitability of an industry.
+middleware Software that allows various 
+systems to communicate and exchange 
+data.
+mission statement A statement that con-
+cisely defines an organization’s fundamental 
+purpose for existing.
+mission-critical process A process that 
+plays a pivotal role in an organization’s con-
+tinued operations and goal attainment.
+mobile device management (MDM) soft-
+ware Software that manages and trouble-
+shoots mobile devices remotely, pushing 
+out applications, data, patches, and settings 
+while enforcing group policies for security.
+monitoring The process of measuring sys-
+tem performance by tracking the number 
+of errors encountered, the amount of mem-
+ory required, the amount of processing or 
+CPU time needed, and other performance 
+indicators.
+Monte Carlo simulation A simulation that 
+enables you to see a spectrum of thousands 
+of possible outcomes, considering not only 
+the many variables involved, but also the 
+range of potential values for each of those 
+variables.
+knowledge acquisition facility Part of the 
+expert system that provides a convenient 
+and efficient means of capturing and stor-
+ing all the components of the knowledge 
+base.
+knowledge base A component of an expert 
+system that stores all relevant information, 
+data, rules, cases and relationships used by 
+the expert system.
+knowledge engineer A person who has 
+training or experience in the design, devel-
+opment, implementation, and maintenance 
+of an expert system.
+knowledge user The person or group who 
+uses and benefits from the expert system.
+L
+laptop A personal computer designed for 
+use by mobile users, being small and light 
+enough to sit comfortably on a user’s lap.
+Leavitt’s Diamond A model that states an 
+organization’s information systems operate 
+within a context of people, technology 
+infrastructure, processes, and structure.
+legal feasibility The process of determin-
+ing whether laws or regulations may pre-
+vent or limit a system development project.
+linear programming A technique for find-
+ing the optimum value (largest or smallest, 
+depending on the problem) of a linear 
+expression (called the objective function) 
+that is calculated based on the value of a 
+set of decision variables that are subject to 
+a set of constraints.
+local area network (LAN) A network that 
+connects computer systems and devices 
+within a small area, such as an office, 
+home, or several floors in a building.
+Long Term Evolution (LTE) A standard for 
+wireless communications for mobile phones 
+based on packet switching.
+M
+machine learning The ability of a com-
+puter to learn without having a program-
+mer change the software for every scenario 
+it encounters.
+magnetic tape A type of sequential second-
+ary storage medium, now used primarily for 
+storing backups of critical organizational 
+data in the event of a disaster.
+main memory The component of a com-
+puter that provides the CPU with a working 
+storage area for program instructions and 
+data.
+managed security service provider 
+(MSSP) A company that monitors, manages, 
+and maintains computer and network secu-
+rity for other organizations.
+mainframe computer A large, powerful 
+computer often shared by hundreds of 
+concurrent users connected to the machine 
+over a network.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 588
+
+Glossary
+566
+procurement management A set of activi-
+ties related to the acquisition of goods and/
+or services for the project from sources out-
+side the performing organization.
+product backlog A prioritized list of 
+project requirements created by the 
+stakeholders and project team members; 
+from this list, the team selects the highest 
+priorities.
+product lifecycle management (PLM) An 
+enterprise business strategy that creates a 
+common repository of product information 
+and processes to support the collaborative 
+creation, management, dissemination, and 
+use of product and packaging definition 
+information.
+product lifecycle management (PLM) 
+software Software that provides a means 
+for managing the data and processes associ-
+ated with the various phases of the product 
+lifecycle, including sales and marketing, 
+research and development, concept devel-
+opment, product design, prototyping and 
+testing, process design, production and 
+assembly, delivery and product installation, 
+service and support, and product retirement 
+and replacement.
+product owner A person who represents 
+the project stakeholders and is responsible 
+for communicating and aligning project pri-
+orities between the stakeholders and devel-
+opment team.
+professional code of ethics A statement of 
+the principles and core values that that an 
+organization wishes to develop in its lead-
+ers and members.
+programming languages Sets of key-
+words, commands, symbols, and rules 
+for constructing statements by which 
+humans can communicate instructions to a 
+computer.
+project A temporary endeavor that creates 
+an actionable plan, allowing organizations 
+to achieve their goals and objectives—often 
+the creation of a unique product, service, 
+or result.
+project champion A well-respected man-
+ager with a passion to see a project succeed 
+and who removes barriers to the success of 
+the project.
+project deadline The date the entire proj-
+ect should be completed and operational—
+when the organization can expect to begin 
+to reap the benefits of the project. 
+project integration management The 
+coordination of all appropriate people, 
+resources, plans, knowledge, and efforts to 
+complete a project successfully.
+project management The application of 
+knowledge, skills, and techniques to project 
+activities to meet project requirements.
+project milestone A critical date for com-
+pleting a major part of the project, such as 
+program design, coding, testing, and release 
+(for a programming project).
+perpetual license A license provided for 
+one installation, with new software editions 
+requiring new licenses; usually purchased 
+by the bundle, called seats, and loaded on 
+individual computers.
+personal area network (PAN) A network 
+that supports the interconnection of infor-
+mation technology devices close to one 
+person.
+personal information system An informa-
+tion system that improves the productivity 
+of individual users in performing stand-
+alone tasks.
+personalization The process of tailoring 
+Web pages to specifically target individual 
+consumers.
+phase-in approach A cutover strategy that 
+involves slowly replacing components of 
+the old system with those of the new one; 
+this process is repeated for each applica-
+tion until the new system is running every 
+application and performing as expected; it 
+is also called a piecemeal approach.
+pilot start-up A cutover strategy that 
+involves running the complete new system 
+for one group of users rather than for all 
+users.
+platform as a service (PaaS) An informa-
+tion systems model in which users are pro-
+vided with a computing platform, typically 
+including operating system, programming 
+language execution environment, database 
+services, and Web server.
+podcast An audio broadcast you can listen 
+to over the Internet.
+portable computers A computer small 
+enough to carry easily.
+predecessor task A task that must be com-
+pleted before a later task can begin.
+predictive analytics A set of techniques 
+used to analyze current data to identify 
+future probabilities and trends, as well 
+make predictions about the future.
+primary key An attribute or set of attri-
+butes that uniquely identifies the record.
+private cloud computing environment A 
+single-tenant cloud.
+problem statement A clear, concise 
+description of the issue that needs to be 
+addressed.
+procedure A set of steps that need to be 
+followed to achieve a specific end result, 
+such as entering a customer order, paying 
+a supplier invoice, or requesting a current 
+inventory report.
+process A structured set of related activities 
+that takes input, adds value, and creates an 
+output for the customer of that process.
+process manufacturing The production of 
+products—such as soda, laundry detergent, 
+gasoline, and pharmaceutical drugs—that 
+are the result of a chemical process; these 
+products cannot be easily decomposed into 
+their basic components.
+online transaction processing (OLTP) A 
+form of data processing where each trans-
+action is processed immediately without 
+the delay of accumulating transactions into 
+a batch.
+open-source software Software that is dis-
+tributed, typically for free, with the source 
+code also available so that it can be studied, 
+changed, and improved by its users.
+operating system (OS) A set of computer 
+programs that controls the computer hard-
+ware and acts as an interface to application 
+software.
+operational feasibility The process of 
+determining how a system will be accepted 
+by people and how well it will meet various 
+system performance expectations.
+optical character recognition (OCR) 
+Technology that distinguishes printed or 
+handwritten text in a digital image, such 
+as a scanned document, that is converted 
+into a computer-generated document, such 
+as a PDF.
+organic strategic planning A strategic 
+planning process that defines the organiza-
+tion’s vision and values and then identifies 
+projects and initiatives to achieve the vision 
+while adhering to the values.
+organizational change The way in which 
+for-profit and nonprofit organizations plan 
+for, implement, and handle change.
+organizational culture The major under-
+standings and assumptions for a business, 
+corporation, or other organization.
+P
+Pareto principle An observation that for 
+many events, roughly 80 percent of the 
+effects come from 20 percent of the causes.
+parallel processing The simultaneous exe-
+cution of the same task on multiple proces-
+sors to obtain results faster.
+parallel start-up A cutover strategy that 
+involves running both the old and new 
+systems for a set period of time and closely 
+comparing the output of the new system 
+with the output of the old system; any 
+differences are reconciled. When users are 
+comfortable that the new system is working 
+correctly, the old system is eliminated.
+patch A minor system change to correct a 
+problem or make a small enhancement; it is 
+usually an addition to an existing program.
+perceptive system A system that approx-
+imates the way a person sees, hears, and 
+feels objects.
+performance evaluation test A comparison 
+of vendor options conducted in a comput-
+ing environment (e.g., computing hardware, 
+operating system software, database man-
+agement system) and with a workload (e.g., 
+number of concurrent users, database size, 
+and number of transactions) that matches 
+its intended operating conditions.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 589
+
+Glossary
+567
+robotics Technology using a combination 
+of mechanical engineering, computer sci-
+ence, and machine learning to create a 
+device that can perform tasks with a high 
+degree of precision.
+router A network device that directs data 
+packets to other networks until each packet 
+reaches its destination.
+rule A conditional statement that links con-
+ditions to actions or outcomes.
+S
+safety-critical system A system whose fail-
+ure may cause human injury or death.
+scalability The ability to increase the pro-
+cessing capability of a computer system 
+so that it can handle more users, more 
+data, or more transactions in a given 
+period.
+schedule feasibility The process of deter-
+mining whether the project can be com-
+pleted within a desired time frame.
+schedule management A set of activities 
+that includes defining an achievable com-
+pletion date that is acceptable to the project 
+stakeholders, developing a workable project 
+schedule, and ensuring the timely comple-
+tion of the project.
+scenario analysis A process for predicting 
+future values based on certain potential 
+events.
+schema A description that defines the log-
+ical and physical structure of the database 
+by identifying the tables, the attributes in 
+each table, and the relationships between 
+attributes and tables.
+scope management A set of activities that 
+include defining the work that must be 
+done as part of a project and then con-
+trolling the work to stay within the agreed-
+upon scope.
+Scrum An Agile development framework 
+that emphasizes a team-based approach 
+in order to keep the development effort 
+focused and moving quickly.
+Scrum master The person who coordinates 
+all the Scrum activities of a team.
+search engine A valuable tool that enables 
+you to find information on the Web by 
+specifying words that are key to a topic of 
+interest, known as keywords.
+search engine optimization (SEO) A 
+process for driving traffic to a Web site by 
+using techniques that improve the site’s 
+ranking in search results.
+secondary storage A device that stores 
+large amounts of data, instructions, and 
+information more permanently than 
+allowed with main memory.
+Section 230 of the CDA Provides immu-
+nity to an Internet service provider (ISP) 
+that publishes user-generated content, pro-
+vided its actions do not rise to the level of a 
+content provider.
+random access memory (RAM) A form of 
+memory in which instructions or data can 
+be temporarily stored.
+ransomware Malware that stops you from 
+using your computer or accessing your data 
+until you meet certain demands.
+read-only memory (rom) A nonvolatile 
+form of memory.
+reasonable assurance The recognition 
+that managers must use their judgment to 
+ensure that the cost of control does not 
+exceed the system’s benefits or the risks 
+involved.
+record A collection of attributes about a 
+specific entity.
+redundant array of independent/
+inexpensive disks (RAID) A method of 
+storing data that generates extra bits of 
+data from existing data, allowing the sys-
+tem to create a “reconstruction map” so 
+that if a hard drive fails, the system can 
+rebuild lost data.
+reengineering (process redesign/
+business process reengineering [BPR]) 
+The radical redesign of business processes, 
+organizational structures, information sys-
+tems, and values of the organization to 
+achieve a breakthrough in business results.
+regression analysis A method for deter-
+mining the relationship between a depen-
+dent variable and one or more independent 
+variables.
+reinforced learning Machine learning 
+using trial and error on an unlabeled data 
+set. Learning is gained through positive and 
+negative feedback.
+relational database model A simple but 
+highly useful way to organize data into 
+collections of two-dimensional tables called 
+relations.
+release A significant program change that 
+often requires changes in the documenta-
+tion of the software.
+request for information (RFI) A document 
+that outlines an organization’s hardware 
+or software needs and requests informa-
+tion from vendors about if and how they 
+can meet those needs and the time and 
+resources required.
+Right to Financial Privacy Act Protects the 
+records of financial institutions’ customers 
+from unauthorized scrutiny by the federal 
+government.
+risk assessment The process of assessing 
+security-related risks to an organization’s 
+computers and networks from both internal 
+and external threats.
+risk management A deliberate and system-
+atic process designed to identify, analyze, 
+and manage project risks.
+risk owner The individual responsible for 
+developing a risk management strategy and 
+monitoring the project to determine if the 
+risk is about to occur or has occurred.
+project resource management A set of 
+activities designed to identify, acquire, and 
+manage resources for a project.
+project risk An uncertain event or con-
+dition that, if it occurs, has a positive or a 
+negative effect on a project objective.
+project schedule A plan that identifies  
+the project activities that must be com-
+pleted, the expected start and end dates, 
+and what resources are assigned to each 
+task.
+project scope A definition of which tasks 
+are and which tasks are not included in a 
+project.
+project sponsor A senior manager from the 
+business unit most affected by a project and 
+who ensures the project will indeed meet 
+the needs of his or her organization.
+project stakeholders The people involved 
+in the project or those affected by its 
+outcome.
+project steering team A group of senior 
+managers representing the business and IS 
+organizations that provide guidance and 
+support to a project.
+projecting Manipulating data to eliminate 
+columns in a table. 
+proprietary software One-of-a-kind soft-
+ware designed for a specific application and 
+for an individual company, organization, or 
+person that uses it.
+public cloud computing environment A 
+computing environment in which a service 
+provider organization owns and manages 
+the infrastructure (including computing, 
+networking, storage devices, and support 
+personnel) with cloud user organizations 
+(called tenants) accessing slices of shared 
+resources via the Internet.
+Q
+quality The degree to which a project 
+meets the needs of its users.
+quality assurance The evaluation of the 
+progress of the project on an ongoing basis 
+to ensure that it meets the identified quality 
+standards.
+quality control The checking of project 
+results to ensure that they meet identified 
+quality standards.
+quality management A set of activities 
+designed to ensure that a project will meet 
+the needs for which it was undertaken.
+quality planning The determination of 
+which quality standards are relevant to the 
+project and determining how they will be 
+met.
+R
+radio frequency identification (RFID) A 
+technology that employs a microchip with 
+an antenna to broadcast its unique identi-
+fier and location to receivers.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 590
+
+Glossary
+568
+structure A definition of the relationships 
+among the members of an organization 
+including their roles, responsibilities, and 
+lines of authority necessary to complete 
+various activities.
+subject matter expert someone who pro-
+vides knowledge and expertise in a particu-
+lar aspect important to the project.
+supercomputers One of the most ­ 
+powerful computer systems with the  
+fastest ­processing speeds.
+supervised learning Machine learning 
+using a labeled data set and examples 
+to produce output that is compared to a 
+­predefined correct output.
+supply chain A key value chain whose 
+­primary processes include inbound 
+­logistics, operations, outbound logistics, 
+marketing and sales, and service.
+supply chain management (SCM) A sys-
+tem that includes planning, executing, and 
+controlling all activities involved in raw 
+material sourcing and procurement, the 
+conversion of raw materials to finished 
+products, and the warehousing and delivery 
+of finished products to customers.
+switch is a network device that keeps a 
+record of the MAC (Media Access Control) 
+address of all the devices connected to it 
+and uses this information to determine 
+to which port a frame of data should be 
+directed.
+system analysis The phase of system 
+development that focuses on gathering 
+data on the existing system, determining 
+the requirements for the new system, 
+­considering alternatives within identified 
+constraints, and investigating the feasibility 
+of alternative solutions.
+system construction The phase of ­system 
+development that converts the system 
+design into an operational system by 
+acquiring and installing hardware and 
+software, coding and testing software 
+programs, creating and loading data into 
+databases, and performing initial program 
+testing.
+system development The set of activities 
+involved in building information systems to 
+meet users’ needs.
+system design The stage of system 
+development that answers the question, 
+“How will the information system solve a 
+problem?”
+system disposal A stage of system 
+­development that involves those activi-
+ties that ensure the orderly dissolution 
+of the system, including disposing of all 
+equipment in an environmentally friendly 
+manner, closing out contracts, and safely 
+migrating information from the system to 

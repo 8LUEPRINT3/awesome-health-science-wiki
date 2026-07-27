@@ -1,0 +1,3006 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 10
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+source data automation:  
+Capturing data at its source and 
+recording it accurately in a timely 
+fashion, with minimal manual effort 
+and in an electronic or digital form so 
+that it can be directly entered into the 
+computer.
+FIGURE 10.6
+Point-of-sale transaction processing system
+A store’s inventory database and its database of purchases are both updated as part of the checkout process.
+MIS/DSS
+Management
+reports
+Point-of-sale
+transaction
+processing
+system
+Scanner
+Item
+database
+UPC
+Quantity
+Date
+Time
+Customer’s
+receipt
+Inventory
+database
+Purchases
+database
+MIS/DSS
+UPC and quantity
+Item, quantity
+date, time, price
+Management
+reports
+UPC
+Price,
+description
+MIS/DSS
+Management
+reports
+RFID
+A chip sending
+out radio waves
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 396
+
+part 3 • Business Information Systems
+374
+Many grocery stores combine point-of-sale scanners and coupon printers. 
+The systems are programmed so that each time a specific product—for example, 
+a box of cereal—crosses a checkout scanner, an appropriate coupon, perhaps 
+a milk coupon, is printed. Companies can pay to be promoted through the sys-
+tem, which is then programmed to print those companies’ coupons if the cus-
+tomer buys a competing brand. These TPSs help grocery stores increase profits 
+by improving their repeat sales and bringing in revenue from other businesses.
+Many mobile POS (point-of-sale) systems operate on tablets, smartphones, 
+or other touchscreen devices. Some mobile POS systems include marketing 
+tools that SMEs can use to thank first-time customers and send automated 
+emails to longtime customers who have not visited recently.
+Cloud-based POS systems provide a range of capabilities, including advanced 
+integration with digital loyalty programs, various accounting tools, and the abil-
+ity to generate gift cards and coupons. Popular POS systems include Square, 
+Shopify, and ShopKeep.11 The owners of The Creative Wedge, an artisan market 
+that sells cheese and charcuterie along with craft beer and local wine, imple-
+mented a truly mobile POS system that allows them to sell product out of their 
+store as well as at various local events, including farmer’s markets and festivals.12
+Data Editing
+An important step in processing transaction data is to check data for validity 
+and completeness to detect any problems, a task called data editing. For exam-
+ple, quantity and cost data must be numeric, and names must be alphabetic; 
+otherwise, the data is not valid. Often, the codes associated with an individual 
+transaction are edited against a database containing valid codes. If any code 
+entered (or scanned) is not present in the database, the transaction is rejected.
+Data Correction
+It is not enough simply to reject invalid data. The system should also provide 
+error messages that alert those responsible for editing the data. Error messages 
+must specify the problem so proper corrections can be made. A data correction 
+involves reentering data that was not typed or scanned properly. For example, 
+a scanned UPC code must match a code in a master table of valid UPCs. If the 
+code is misread or does not exist in the table, the checkout clerk is given an 
+instruction to rescan the item or type the information manually.
+Data Processing
+Another major activity of a TPS is data processing, performing calculations 
+and other data transformations related to business transactions. Data process-
+ing can include classifying data, sorting data into categories, performing cal-
+culations, summarizing results, and storing data in the organization’s database 
+for further processing. In a payroll TPS, for example, data processing includes 
+multiplying an employee’s hours worked by the hourly pay rate. Overtime 
+pay, federal and state tax withholdings, and deductions are also calculated. 
+In a doctor’s office, patient demographic data is entered and sent to various 
+databases for use by the physician, billing department, referrals department, 
+surgery scheduling, and so forth.
+Data Storage
+Data storage involves updating one or more databases with new transactions. 
+After the database is updated, the data can be further processed by other 
+systems so that it is available for management reporting and decision mak-
+ing. Thus, although transaction databases can be considered a by-product of 
+transaction processing, they can significantly affect nearly all other information 
+systems and decision-making processes within an organization. The speed at 
+which information is available depends on the processing system being used.
+data editing:  Checking data for 
+validity and completeness to detect 
+any problems.
+data correction:  Reentering 
+data that was not typed or scanned 
+properly.
+data processing:  Performing 
+calculations and other data 
+transformations related to business 
+transactions.
+data storage:  Updating one or 
+more databases with new transactions.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 397
+
+Chapter 10 • Enterprise Systems
+375
+Document Production
+Document production involves generating output records, documents, and 
+reports. These can be hard-copy paper reports or displays on computer screens 
+(sometimes referred to as soft copy). Printed paychecks, for example, are hard-
+copy documents produced by a payroll TPS, whereas an outstanding balance 
+report for invoices might be an electronic report displayed by an accounts 
+receivable TPS. Often, as shown earlier in Figure 10.6, results from one TPS 
+flow downstream to become input to other systems, which might use the 
+results of an inventory database update to create a stock exception report, a 
+type of management report showing items with inventory levels below the 
+specified reorder point.
+In addition to major documents such as checks and invoices, most TPSs 
+provide other useful management information, such as printed or on-screen 
+reports that help managers and employees perform various activities. A report 
+showing current inventory is one example; another might be a document list-
+ing items ordered from a supplier to help a receiving clerk check the order 
+for completeness when it arrives. A TPS can also produce reports required by 
+local, state, and federal agencies, such as statements of tax withholding and 
+quarterly income statements.
+TPS Needed to Support Small Business
+ Real-World Integration, Decision Making
+D5 Consulting is a small grant-writing business that was founded two years ago 
+by Dion Davenport. Since then, Dion has performed a wide range of activities, 
+including business development, grant writing, and invoicing. Because D5 began 
+as a home-based business, with only a few clients, Dion has been generating sim-
+ple invoices using Microsoft Word. He then uses a manual process to follow up on 
+invoices to ensure they are being paid in a timely manner.
+Over the last two years, however, D5 Consulting has grown significantly. The 
+company now works with more than 50 clients on a variety of jobs ranging from 
+small, simple projects to larger, more complex projects requiring multiple invoices. 
+As the company grew, Dion found himself spending as much time creating and 
+tracking down invoices as he did generating billable hours. As a result, he has 
+been putting in very long hours to keep up with the work. D5 also now has sev-
+eral contractors doing work for the firm. Each contractor submits submit monthly 
+invoices for their work, which means Dion has even more administrative tasks to 
+keep track of. In the last several months, Dion has been late paying a few of the 
+contractors because he has gotten behind processing their invoices or because 
+he did not realize that they had not submitted their invoices in a timely manner.
+Dion is frustrated with the inefficiencies in the business and fears that it will 
+either result in lower client satisfaction or him exiting the business due to the long 
+work hours.
+Review Questions
+1.	 What functions would a TPS need to perform in order to alleviate the issues 
+at D5 Consulting?
+2.	 How would these functions benefit D5 Consulting?
+Critical Thinking Questions
+What factors should Dion consider when selecting a TPS?
+1.	 What stakeholders should Dion consult with to determine the appropriate 
+needs for a TPS? Why should he consult with those stakeholders, and how will 
+that help alleviate his frustration?
+document production:  
+Generating output records, documents, 
+and reports.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 398
+
+part 3 • Business Information Systems
+376
+	 Enterprise Systems
+An enterprise system is central to individuals and organizations of all sizes 
+and ensures that information can be shared with authorized users across all 
+business functions and at all levels of management to support the running 
+and managing of a business. Enterprise systems employ a database of key 
+operational and planning data that can be shared by all, eliminating the prob-
+lems of missing information and inconsistent information caused by multiple 
+transaction processing systems that each support only one business function 
+or one department in an organization. Examples of enterprise systems include 
+enterprise resource planning systems that support supply chain processes, such 
+as order processing, inventory management, and purchasing, and customer 
+relationship management systems that support sales, marketing, and customer 
+service-related processes.
+Businesses rely on enterprise systems to perform many of their daily activ-
+ities in areas such as product supply, distribution, sales, marketing, human 
+resources, manufacturing, accounting, and taxation so that work can be per-
+formed quickly without waste or mistakes. Without such systems, recording 
+and processing business transactions would consume huge amounts of an 
+organization’s resources. This collection of processed transactions also forms 
+a storehouse of data invaluable to decision making. The ultimate goal of such 
+systems is to satisfy customers and provide significant benefits by reducing 
+costs and improving service.
+Enterprise Resource Planning
+Enterprise resource planning (ERP) is a set of integrated programs that man-
+age a company’s vital business operations for an entire organization—even a 
+complex, multisite, global organization. Recall that a business process is a set 
+of coordinated and related activities that takes one or more types of input and 
+creates an output of value to the customer of that process. The customer might 
+be a traditional external business customer who buys goods or services from 
+the firm. An example of such a process is capturing a sales order, which takes 
+customer input and generates an order. The customer in a business process 
+might also be an internal customer, such as an employee in another department 
+of the firm. For example, the shipment process generates the internal docu-
+ments workers need in the warehouse and shipping departments to pick, pack, 
+and ship orders. At the core of the ERP system is a database that is shared by 
+all users so that all business functions have access to current and consistent 
+data for operational decision making and planning, as shown in Figure 10.7.
+enterprise system:  A system 
+central to the organization that 
+ensures information can be shared 
+with authorized users across all 
+business functions and at all levels of 
+management to support the running 
+and managing of a business.
+FIGURE 10.7
+Enterprise resource planning system
+An ERP integrates business processes and the ERP database.
+Production and supply
+chain management
+Customer relationship
+management and sales ordering
+Financial and
+managerial accounting
+ERP
+database(s)
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 399
+
+Chapter 10 • Enterprise Systems
+377
+ERP systems evolved from materials requirement planning (MRP) systems 
+developed in the 1970s. These systems tied together the production planning, 
+inventory control, and purchasing business functions for manufacturing organi-
+zations. During the late 1980s and early 1990s, many organizations recognized 
+that their legacy TPSs lacked the integration needed to coordinate activities 
+and share valuable information across all the business functions of the firm. 
+As a result, costs were higher and customer service was poorer than desired. 
+Large organizations, specifically members of the Fortune 1000, were the first 
+to take on the challenge of implementing ERP. As they did, they uncovered 
+many advantages as well as some disadvantages, which are summarized in the 
+following sections.
+Advantages of ERP
+Increased global competition, new needs of executives for control over the 
+total cost and product flow through their enterprises, and ever-more-numerous 
+customer interactions drive the demand for enterprise-wide access to real-time 
+information. ERP offers integrated software from a single vendor to help meet 
+those needs. The primary benefits of implementing ERP include improved 
+access to quality data for operational decision making, elimination of costly, 
+inflexible legacy systems, improvement of work processes, and the opportu-
+nity to upgrade and standardize technology infrastructure. ERP vendors have 
+also developed specialized systems that provide effective solutions for specific 
+industries and market segments.
+Improved Access to Quality Data for Operational Decision Making
+ERP systems operate via an integrated database, using one set of data to sup-
+port all business functions. For example, the systems can support decisions on 
+optimal sourcing or cost accounting for the entire enterprise or business units. 
+With an ERP system, data is integrated from the start, eliminating the need to 
+gather data from multiple business functions and/or reconcile data from more 
+than one application. The result is an organization that looks seamless, not 
+only to the outside world but also to the decision makers who are deploying 
+resources within the organization. Data is integrated to facilitate operational 
+decision making and allows companies to provide better customer service and 
+support, strengthen customer and supplier relationships, and generate new 
+business opportunities. To ensure that an ERP system contributes to improved 
+decision making, the data used in an ERP system must be of high quality.
+Based in New York, Women’s World Banking is a global nonprofit focused 
+on providing low-income women access to the financial tools and resources 
+they need to build secure and prosperous lives. The organization works through 
+a network of 49 institutions in 31 countries to create new financial products 
+that must meet the needs of women in each of its markets while also being sus-
+tainable for its partner financial institutions.13 Women’s World Banking needs 
+access to detailed transaction information so it can maintain complete trans-
+parency into its balances by entity, donor, and grant—even down to the project 
+level. To accomplish this, the organization previously utilized two stand-alone 
+systems that often gave front and back office staff very different views of the 
+organization’s key performance metrics, resulting in time-consuming data entry 
+and reconciliation between the two systems. To streamline its operations, Wom-
+en’s World Banking implemented an ERP system that provides it with access to 
+the data it needs to apply for new funding grants, quickly and accurately report 
+on existing grants, and make decisions regarding investments in new business 
+development opportunities. Since its ERP roll-out, the organization has cut hun-
+dreds of hours of accounts payable and grant-reporting time annually, reduced 
+data entry by almost 15 hours per month, and gained greater visibility into its 
+spending across multiple entities, grants, donors, and projects.14
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 400
+
+part 3 • Business Information Systems
+378
+Although having greater access to operational data is beneficial to an orga-
+nization, being able to analyze it in unique and interesting ways to derive 
+insights can often be a challenge—particularly if the data exists in two separate 
+enterprise systems. Consider the example of Salesforce, a cloud-based customer 
+relationship management (CRM) application used by many Fortune 500 com-
+panies. Salesforce allows organizations to track the client experience in very 
+flexible and robust ways, and one of its more valuable features is a function 
+that allows client services staff, sales representatives, and even customers to 
+submit requests for new products or product enhancements. This customer 
+information in aggregate would be very useful to product management teams; 
+however, in many companies, product management employees are not given 
+licenses to use Salesforce, meaning they don’t have direct access to this infor-
+mation. In this scenario, product suggestions from customers are often only 
+shared anecdotally between product development staff and members of the 
+sales team—leading to a disconnect in what customers are asking for and what 
+the product team is building.15
+Organizations are solving the problem of disconnected enterprise systems 
+by using data visualization and (business intelligence) BI tools like Birst, Domo, 
+and Tableau to create dashboard experiences that integrate data from multiple 
+enterprise systems. Such a dashboard might show the top product requests from 
+employees and customers in parallel with the product roadmap for the year to 
+highlight any gaps that the product development team should be focusing on.16
+AI Generated Insights and the Human-Machine  
+Learning Partnership
+One of the benefits of artificial intelligence (AI) and machine learning is the 
+ability to identify unique patterns, correlations, and anomalies within a vast 
+amount of diverse data. However, AI still lacks outside context on the impor-
+tance of those patterns, including an understanding of how an organization 
+should act on that data. Organizations with an ERP and a centralized database 
+have an opportunity to leverage AI to identify patterns, allowing decision mak-
+ers to act on significant data trends that might have otherwise gone unnoticed. 
+Organizations that make effective use of machine learning in conjunction with 
+enterprise software ensure that decision makers no longer need to spend the 
+time to manually collect and prepare the data and developing an analysis to 
+find interesting insights.
+Google as standard practice is always trying to learn more about what cus-
+tomers are saying about its products and services, including its popular Google 
+Maps application. Google uses analytics techniques that automatically reveal 
+insights from online consumer conversations (social media, blogs, forums, etc.) 
+using machine learning to identify patterns in those conversations. From this 
+data, Google found that people used Google Maps not only to get from point A 
+to point B, but also to plan out running routes, track their distances, and high-
+light their fitness accomplishments by sharing screenshots of Google Maps on 
+social media. Based on the knowledge gained through the use of this analytics 
+data, Google made changes to the product functionality of Google Maps, mak-
+ing it easier for users to share on social media. The company also developed a 
+marketing strategy to take advantage of this new use of its product.
+Elimination of Costly, Inflexible Legacy Systems
+Adoption of an ERP system enables an organization to eliminate dozens or even 
+hundreds of separate systems and replace them with a single integrated set of 
+applications for the entire enterprise. In many cases, these systems are decades 
+old, the original developers are long gone, and the systems are poorly docu-
+mented. As a result, the systems are extremely difficult to fix when they break, 
+and adapting them to meet new business needs takes too long. They become an 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 401
+
+Chapter 10 • Enterprise Systems
+379
+anchor around the organization that keeps it from moving ahead and remaining 
+competitive. An ERP system helps match the capabilities of an organization’s 
+information systems to its business needs—even as these needs evolve.
+Steinwall Scientific is a Minnesota-based precision thermoplastic injection 
+molder specializing in manufacturing plastic parts using engineering-grade res-
+ins. The company has been in business for more than 45 years, and for much of 
+that time, most aspects of the company’s business were managed using an out-
+dated proprietary DOS operating system that had been originally programmed 
+by the company’s president as a simple inventory management program. In 
+addition to its internally developed system, Steinwall was also using a separate 
+IBM accounting software program. However, the company’s two main systems 
+were unable to communicate with each other, creating ongoing data-entry 
+errors and significant manufacturing bottlenecks as the company worked to 
+take on new clients. Ultimately, Steinwall made the choice to upgrade its system 
+to an integrated manufacturing ERP system. Over the course of six months, 
+Steinwall gradually moved all of its processing tasks, along with all of its data, 
+to the new system. Among the many benefits that Steinwall has experienced 
+after moving all of its business functions to its new ERP system are improved 
+inventory control accuracy; enhanced warehouse management; and procedural 
+and culture changes resulting in a greater efficiency across all its departments.17
+Improvement of Work Processes
+Competition requires companies to structure their business processes to be as 
+effective and customer oriented as possible. To further that goal, ERP vendors 
+do considerable research to define the best business processes. They gather 
+requirements of leading organizations within the same industry and combine 
+them with findings from research institutions and consultants. The individual 
+application modules included in the ERP system are then designed to support 
+these best practices, the most efficient and effective ways to complete a busi-
+ness process. Thus, implementation of an ERP system ensures work processes 
+will be based on industry best practices. For example, for managing customer 
+payments, the ERP system’s finance module can be configured to reflect the 
+most efficient practices of leading companies in an industry. This increased 
+efficiency ensures that everyday business operations follow the optimal chain 
+of activities, with all users supplied the information and tools they need to 
+complete each step.
+Prime Meats has been providing high-quality, aged steaks to steakhouses and 
+other restaurants around the country for more than 25 years. The Atlanta-based 
+company now also offers its USDA Prime and Choice quality steaks directly to 
+consumers through its e-commerce Web site. When Prime Meats first launched 
+its Web site, the company found success with its new business model, but it 
+also found challenges as its existing systems were unable to keep up with the 
+company’s growth. To overcome these challenges, Prime Meats implemented 
+an ERP system, SAP Business One, that offered the company flexible, fully inte-
+grated end-to-end business and accounting software along with prepackaged 
+industry best practice functionality for handling the specific pricing, packaging, 
+and delivery requirements of an online meat business.18
+Opportunity to Upgrade and Standardize Technology Infrastructure
+When implementing an ERP system, an organization has an opportunity to 
+upgrade the information technology (such as hardware, operating systems, and 
+databases) that it uses. While centralizing and formalizing these decisions, the 
+organization can eliminate the hodgepodge of multiple hardware platforms, 
+operating systems, and databases it is currently using—most likely from a 
+variety of vendors. Standardizing on fewer technologies and vendors reduces 
+ongoing maintenance and support costs as well as the training load for those 
+who must support the infrastructure.
+best practices:  The most efficient 
+and effective ways to complete a 
+business process.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 402
+
+part 3 • Business Information Systems
+380
+Whirlpool is the world’s leading manufacturer of home appliances, with 
+$21 billion in sales and over 92,000 employees who work at 65 different man-
+ufacturing and technology research centers.19 While the company has utilized 
+a collection of ERP systems across its global operations for years, the com-
+pany ultimately decided it need to undertake a complete overhaul of its ERP 
+entire infrastructure, with the goal of creating a new operational backbone 
+to support the company’s growth for the next decade. As Whirlpool imple-
+mented next-generation SAP ERP software, the company also updated its ERP 
+infrastructure to a hybrid cloud system hosted by IBM. As part of the project, 
+Whirlpool’s IT team spent time cleaning up duplicate and inaccurate data, a 
+result of years of cumulative and regionalized ERP system customizations.20
+Leading ERP Systems
+ERP systems are commonly used in manufacturing companies, colleges and 
+universities, professional service organizations, retailers, and healthcare orga-
+nizations. The business needs for each of these types of organizations varies 
+greatly. In addition, the needs of a large multinational organization are far dif-
+ferent from the needs of a small, local organization. Thus, no one ERP software 
+solution from a single vendor is “best” for all organizations. For example, MIE 
+Trak PRO, which is designed for manufacturers, allows companies to manage 
+the entire production cycle, with the ability to customize the elements. Plus & 
+Minus is an integrated ERP focusing on a single-file system, which would suit 
+a smaller organization.21 See Figure 10.8.
+Large organizations were the leaders in adopting ERP systems as only they 
+could afford the associated large hardware and software costs and dedicate 
+sufficient people resources to the implementation and support of these sys-
+tems. Many large company implementations occurred in the early 2000s and 
+involved installing the ERP software on the organizations’ large mainframe 
+computers. In many cases, this required upgrading the hardware at a cost of 
+millions of dollars.
+Smaller organizations moved to ERP systems about 10 years after larger 
+organizations did. The smaller firms simply could not afford the investment 
+required in hardware, software, and people to implement and support ERP. 
+However, ERP software vendors gradually created new ERP solutions with 
+FIGURE 10.8
+ERP software
+Mie Trak PRO ERP software focuses on manufacturing businesses.
+Source: YouTube, LLC
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 403
+
+Chapter 10 • Enterprise Systems
+381
+much lower start-up costs and faster, easier implementations. Some ERP ven-
+dors introduced cloud-based solutions, which further reduced the start-up costs 
+by eliminating the need to purchase expensive ERP software and make major 
+hardware upgrades. Instead, with a cloud-based solution, organizations can 
+subscribe to the software and run it on the cloud-based hardware. Plex, Net-
+Suite, and Sage Intacct are three of the many cloud-based ERP solutions that 
+enable users to access an ERP application using a Web browser and avoid 
+paying for and maintaining expensive hardware.
+As an alternative, many organizations elect to implement open-source ERP 
+systems from vendors such as Compiere.22 With open-source software, organi-
+zations can see and modify the source code to customize it to meet their needs. 
+Such systems are much less costly to acquire and are relatively easy to modify 
+to meet business needs.
+Organizations frequently need to customize the vendor’s ERP software to 
+integrate other business systems, to add data fields or change field sizes, or to 
+meet regulatory requirements. A wide range of software service organizations 
+can perform the system development and maintenance.
+Supply Chain Management (SCM)
+An organization can use an ERP system within a manufacturing organization to 
+support what is known as supply chain management (SCM), which includes 
+planning, executing, and controlling all activities involved in raw material 
+sourcing and procurement, conversion of raw materials to finished products, 
+and the warehousing and delivery of finished product to customers. The goal 
+of SCM is to decrease costs and improve customer service, while at the same 
+time reducing the overall investment in inventory in the supply chain.
+Another way to think about SCM is that it involves managing materials, 
+information, and finances as they move from supplier to manufacturer to 
+wholesaler to retailer to consumer. The materials flow includes the inbound 
+movement of raw materials from supplier to manufacturer as well as the 
+outbound movement of finished product from manufacturer to wholesaler, 
+retailer, and customer. The information flow involves capturing and transmit-
+ting orders and invoices among suppliers, manufacturers, wholesalers, retail-
+ers, and customers. The financial flow consists of payment transactions among 
+suppliers, manufacturers, wholesalers, retailers, customers, and their financial 
+institutions.
+Manufacturing ERP systems follow a systematic process for developing a 
+production plan that draws on the information available in the ERP system 
+database.
+The process starts with sales forecasting to develop an estimate of future 
+customer demand. This initial forecast is at a fairly high level, with estimates 
+made by product group rather than by each product item. The sales forecast 
+extends for months into the future; it might be developed using an ERP soft-
+ware module or produced by other means, using specialized software and tech-
+niques. Many organizations are moving to a collaborative process with major 
+customers to plan future inventory levels and production rather than relying 
+on an internally generated sales forecast.
+The sales and operations plan (S&OP) takes demand and current inven-
+tory levels into account and determines the specific product items that 
+need to be produced as well as when to meet the forecast future demand. 
+Production capacity and any seasonal variability in demand must also be 
+considered.
+Demand management refines the production plan by determining the 
+amount of weekly or daily production needed to meet the demand for indi-
+vidual products. The output of the demand management process is the master 
+production schedule, which is a production plan for all finished goods.
+supply chain management 
+(SCM):  A system that includes 
+planning, executing, and controlling 
+all activities involved in raw material 
+sourcing and procurement, the 
+conversion of raw materials to finished 
+products, and the warehousing 
+and delivery of finished products to 
+customers.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 404
+
+part 3 • Business Information Systems
+382
+Detailed scheduling uses the production plan defined by the demand 
+management process to develop a detailed production schedule that specifies 
+production scheduling details such as which item to produce first and when 
+production should be switched from one item to another. A key decision is 
+how long to make the production runs for each product. Longer production 
+runs reduce the number of machine setups required, thus reducing production 
+costs. Shorter production runs generate less finished product inventory and 
+reduce inventory holding costs.
+Materials requirement planning (MRP) determines the amount and timing 
+for placing raw material orders with suppliers. The types and amounts of raw 
+materials required to support the planned production schedule are determined 
+by the existing raw material inventory and the bill of materials (BOM), which 
+serves as a recipe of ingredients needed to make each item. The quantity of 
+raw materials to order also depends on the lead time and lot sizing. Lead time 
+is the amount of time it takes from the placement of a purchase order until 
+the raw materials arrive at the production facility. Lot size refers to the discrete 
+quantities that the supplier will ship, which can result in purchasing complex-
+ities if those amounts don’t line up with quantities that are economical for the 
+manufacturer to receive or store. For example, a supplier might ship a certain 
+raw material in units of 80,000-pound rail cars. The producer might need 
+95,000 pounds of the raw material. A decision must be made to order one or 
+two rail cars of the raw material.
+Purchasing uses the information from MRP to place purchase orders for 
+raw materials with qualified suppliers. Typically, purchase orders are released 
+so that raw materials arrive just in time to be used in production and to min-
+imize warehouse and storage costs. Often, producers will allow suppliers to 
+tap into data via an extranet that enables them to determine what raw mate-
+rials the producer needs, minimizing the effort and lead time to place and fill 
+purchase orders.
+Production uses the high-level production schedule to plan the details of 
+running and staffing the production operation. This more detailed schedule 
+takes into account employee, equipment, and raw material availability, along 
+with detailed customer demand data.
+Sales ordering is the set of activities that must be performed to capture a 
+customer sales order. Essential sales order steps include recording the items 
+to be purchased, setting the sales price, recording the order quantity, deter-
+mining the total cost of the order including delivery costs, and confirming the 
+customer’s available credit. If the item(s) the customer wants to order are out 
+of stock, the sales order process should communicate this fact and suggest 
+other items to substitute for the customer’s initial choice. Setting sales prices 
+can be quite complicated and can include quantity discounts, promotions, 
+and incentives. After the total cost of the order is determined, a company 
+must check the customer’s available credit to see if this order is within the 
+credit limit.
+ERP systems do not work directly with manufacturing machines on the 
+production floor, so they need a way to capture information about what was 
+produced. This data must be passed to the ERP accounting modules to keep an 
+accurate count of finished product inventory. Many companies have computers 
+on the production floor, which are used to track the number of cases of each 
+product item produced, typically by having a worker scan a barcode, QR code, 
+or similar standard identifier on the packing cases used to ship the material. 
+Other approaches for capturing production quantities include using RFID chips 
+and manually entering the data.
+Separately, production quality data can be added based on the results of 
+quality tests run on a sample of the product for each batch of product pro-
+duced. Typically, this data includes the batch identification number, which 
+identifies the production run and the results of various product quality tests.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 405
+
+Chapter 10 • Enterprise Systems
+383
+Accurate predictions are crucial for the planning required to profitably 
+manage the complex operations of a manufacturing plant. One heavy machin-
+ery manufacturer, however, recently found that its product demand forecasting 
+had an accuracy variance of plus or minus 20 percent—well outside the accept-
+able control limits set by the company. Evalueserve, a provider of research, ana-
+lytics, and data management services, worked with the manufacturing company 
+to develop algorithms that analyzed key sales and macroeconomic variables 
+to identify the primary drivers for production and demand for the company’s 
+products. The variables evaluated included current and historical sales, GDP 
+per capita, housing starts, construction indices, warranty claims, and dealer 
+density—among others. Using this new data model, the manufacturer was able 
+to bring the forecasting variance down to plus or minus four percent, resulting 
+in a more efficient supply chain with fewer lost sales opportunities along with 
+lower overall inventory levels.23
+Customer Relationship Management
+A customer relationship management (CRM) system helps a company man-
+age all aspects of customer encounters, including marketing, sales, distribution, 
+accounting, and customer service. See Figure 10.9. Think of a CRM system as 
+an address book with a historical record of all the organization’s interactions 
+with each customer. The goal of CRM is to understand and anticipate the needs 
+of current and potential customers to increase customer retention and loyalty 
+while optimizing the way that products and services are sold. CRM is used 
+primarily by people in the sales, marketing, distribution, accounting, and ser-
+vice organizations to capture and view data about customers and to improve 
+communications. Businesses implementing CRM systems often report benefits 
+such as improved customer satisfaction, increased customer retention, reduced 
+operating costs, and the ability to meet customer demand.
+customer relationship 
+management (CRM) system:  A 
+system that helps a company manage 
+all aspects of customer encounters, 
+including marketing, sales, distribution, 
+accounting, and customer service.
+FIGURE 10.9
+Customer relationship 
+­management system
+A CRM system provides a central 
+repository of customer data used by 
+the organization.
+Social
+media
+Customer
+data
+Means of communication
+Users and providers of customer data
+Text
+messages
+Email
+Distribution
+Accounting
+Marketing
+Customer
+service
+Sales
+Customers
+In-person
+contacts
+Phone
+calls
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 406
+
+part 3 • Business Information Systems
+384
+CRM software automates and integrates the functions of sales, marketing, 
+and service in an organization. The objective is to capture data about every 
+contact a company has with a customer through every channel and to store it 
+in the CRM system so that the company can truly understand customer actions. 
+CRM software helps an organization build a database about its customers that 
+describes relationships in sufficient detail so that management, salespeople, 
+customer service providers, and even customers can access information to 
+match customer needs with product plans and offerings, remind them of service 
+requirements, and report on the other products the customers have purchased.
+Small, medium, and large organizations in a wide variety of industries choose 
+to implement CRM for many reasons, depending on their needs. Expensify is a 
+financial services firm that provides online expense-management services for cus-
+tomers around the world. The company has grown quickly since it was founded 
+in San Francisco in 2008, and it recently opened a London office to support its 
+expansion into the European market. As a start-up, Expensify’s initial attempts at 
+CRM were built around an Excel spreadsheet. Before long, the company shifted to 
+Google Apps’ CRM tools, but soon found those could not handle its increasing vol-
+ume of customer data. Eventually, the company implemented a customizable CRM 
+system, Apollo, that provides all the tools Expensify’s sales and customers service 
+teams require—without the need to manage and coordinate workflows in other 
+systems. Expensify’s top priorities for the CRM system included automated and 
+customizable lead-prioritization tools, the ability to track all sales communication 
+within one system, and the ability to generate in-depth reports to identify areas 
+of opportunity within a geographic region as well as for individual salespeople.24
+The key features of a CRM system include the following:
+• Contact management. The ability to track data on individual customers 
+and sales leads and then access that data from any part of the organization.
+• Sales management. The ability to organize data about customers and 
+sales leads and then to prioritize the potential sales opportunities and 
+identify appropriate next steps.
+• Customer support. The ability to support customer service representa-
+tives so that they can quickly, thoroughly, and appropriately address cus-
+tomer requests and resolve customer issues while collecting and storing 
+data about those interactions.
+• Marketing automation. The ability to capture and analyze all customer 
+interactions, generate appropriate responses, and gather data to create 
+and build effective and efficient marketing campaigns.
+• Analysis. The ability to analyze customer data to identify ways to 
+increase revenue and decrease costs, identify the firm’s “best customers,” 
+and determine how to retain and find more of them.
+• Social networking. The ability to create and join sites such as Facebook 
+and Instagram, where the company can make contacts with potential 
+customers.
+• Access by mobile devices. The ability to access Web-based customer 
+relationship management software by smartphones, tablets, and other 
+mobile devices.
+• Import contact data. The ability for users to import contact data from 
+various data service providers that can be downloaded for free directly 
+into the CRM application.
+The focus of CRM involves much more than installing new software. Mov-
+ing from a culture of simply selling products to placing the customer first is 
+essential to a successful CRM deployment. Before any software is loaded onto 
+a computer, a company must retrain employees. Who handles customer issues 
+and when must be clearly defined, and computer systems need to be integrated 
+so that all pertinent information is available immediately, whether a customer 
+calls a sales representative or a customer service representative.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 407
+
+Chapter 10 • Enterprise Systems
+385
+Nu Skin Enterprises is a $2 billion direct sales organization that develops 
+and distributes nutritional supplements and personal care products through a 
+network of more than 73,000 independent sales distributors. The company’s call 
+center agents are the key point of contact between the company and its custom-
+ers and distributors; however, rapid turnover of call center staff and three dis-
+connected customer contact tools meant that many customers became quickly 
+frustrated during their interactions with the company. A solution to Nu Skin’s 
+customer service challenges came in the form of a CRM system from SAP, which 
+was integrated with the company’s existing SAP ERP system to provide agents 
+immediate access to customer sales histories. Nu Skin call center employees 
+now use social media and technology to recruit and manage customers. With a 
+recent move of the technology core to the cloud, Nu Skin Enterprises anticipates 
+an increase in speed and capacity, offering improved flexibility for customers.25
+Table 10.3 lists a few highly rated CRM systems.26
+Vendor/Product
+Select Customers
+Pricing Starts at
+Zoho CRM
+Amazon
+Netflix
+$12–$35 per user/month
+Apptivo CRM
+Idea Helix
+OnTrack Rewards
+$8–$20 per user/month
+HubSpot CRM
+Nectafy
+Stafford Global
+Basic—free
+Extras—additional $6-$100 per 
+user/month
+Freshsales CRM
+Ikohaha.com
+Offset Solar
+$12–$79 per user/month
+Insightly CRM
+Global Presence Alliance
+Discount
+$29–$99 per user/month
+Pipedrive CRM
+Eye Hospital Denmark
+Canine Protection 
+International
+$12–$49 per user/month
+Salesforce Sales 
+Cloud
+Dell
+Dr. Pepper Snapple
+$25 per user/month
+Ta b le 10.3  Highly rated CRM systems
+Due to the popularity of mobile devices, shoppers can easily compare prod-
+ucts and prices on their mobile phones and instantly tweet their experiences 
+with a brand to dozens of friends. Savvy retailers today use their CRM systems 
+to stay on top of what these customers are saying on social networks. BART, 
+the well-known San Francisco Bay area transit system, serves over 420,000 
+riders a day. Disruptions on BART, especially at rush hour, can ripple through 
+the entire community very quickly. Customer fares constitute the majority of 
+BART’s funding, so responding quickly to incidents and managing customer 
+expectations is critical not only to the community but to the financial stability 
+of the transit line. They implemented a customer engagement platform using 
+Salesforce’s CRM social module: Social Studio. By using the features of Social 
+Studio, they have been able to respond more quickly to issues and be more 
+transparent with their customers. BART also analyzes the social data collected 
+to support decisions in areas like parking and upgrades.
+Product Lifecycle Management (PLM)
+Product lifecycle management (PLM) is an enterprise business strategy that 
+creates a common repository of product information and processes to support 
+the collaborative creation, management, dissemination, and use of product and 
+packaging definition information.
+product lifecycle management 
+(PLM):  An enterprise business 
+strategy that creates a common 
+repository of product information and 
+processes to support the collaborative 
+creation, management, dissemination, 
+and use of product and packaging 
+definition information.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 408
+
+part 3 • Business Information Systems
+386
+Product lifecycle management (PLM) software provides a means for man-
+aging the data and processes associated with the various phases of the product 
+lifecycle, including sales and marketing, research and development, concept devel-
+opment, product design, prototyping and testing, manufacturing process design, 
+production and assembly, delivery and product installation, service and support, 
+and product retirement and replacement. See Figure 10.10. As products advance 
+through these stages, product data is generated and distributed to various groups 
+both within and outside the manufacturing firm. This data includes design and 
+process documents, bill of material definitions, product attributes, product for-
+mulations, and documents needed for FDA and environmental compliance. PLM 
+software provides support for the key functions of configuration management, 
+document management, engineering change management, release management, 
+and collaboration with suppliers and original equipment manufacturers (OEMs).
+product lifecycle management 
+(PLM) software:  Software that 
+provides a means for managing 
+the data and processes associated 
+with the various phases of the 
+product lifecycle, including sales and 
+marketing, research and development, 
+concept development, product design, 
+prototyping and testing, process 
+design, production and assembly, 
+delivery and product installation, 
+service and support, and product 
+retirement and replacement.
+FIGURE 10.10
+Scope of PLM software
+Using PLM software, organizations can manage the data and processes associated with the 
+various phases of the product lifecycle.
+Sales &
+marketing
+Research &
+development
+Concept
+development
+Product
+design
+Prototype &
+test
+Process
+design
+Production
+&
+assembly
+Product delivery &
+installation
+Service &
+support
+Retire &
+replace
+PLM software supports the
+product development lifecycle
+The scope of PLM software may include computer-aided design, computer- 
+aided engineering, and computer-aided manufacturing. Computer-aided 
+design (CAD) is the use of software to assist in the creation, analysis, and 
+modification of the design of a component or product. Its use can increase the 
+productivity of the designer, improve the quality of design, and create a data-
+base that describes the item. This data can be shared with others or used in the 
+machining of the part or in other manufacturing operations. ­Computer-aided 
+engineering (CAE) is the use of software to analyze the robustness and 
+performance of components and assemblies. CAE software supports the 
+computer-aided design 
+(CAD):  The use of software to 
+assist in the creation, analysis, 
+and modification of the design of a 
+component or product.
+computer-aided engineering 
+(CAE):  The use of software 
+to analyze the robustness and 
+performance of components and 
+assemblies.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 409
+
+Chapter 10 • Enterprise Systems
+387
+simulation, validation, and optimization of products and ­manufacturing tools. 
+CAE is extremely useful to design teams in evaluating and decision making. 
+­Computer-aided manufacturing (CAM) is the use of software to control 
+machine tools and related machinery in the manufacture of components and 
+products. The model generated in CAD and verified in CAE can be input into 
+CAM software, which then controls the machine tool. See Figure 10.11.
+computer-aided manufacturing 
+(CAM):  The use of software to control 
+machine tools and related machinery 
+in the manufacture of components and 
+products.
+FIGURE 10.11
+CAD, CAE, and CAM software
+In manufacturing, the model 
+­generated in CAD and verified 
+in CAE can be entered into CAM 
+software, which then controls the 
+machine tool.
+CAD
+CAE
+Create, analyze,
+modify design
+Simulate, validate
+optimize, design
+Use digital design to
+control machine tools
+PLM
+CAM
+Some organizations elect to implement a single, integrated PLM system that 
+encompasses all the phases of the product lifecycle with which it is most concerned. 
+Other organizations implement multiple, separate PLM software components from 
+different vendors over time. This piecemeal approach enables an organization to 
+choose the software that best meets it needs for a particular phase in the product 
+lifecycle. It also allows for incremental investment in the PLM strategy. However, it 
+may be difficult to link all the various components together in such a manner that 
+a single comprehensive database of product and process data is created.
+Use of an effective PLM system enables global organizations to work as a 
+single team to design, produce, support, and retire products, while capturing 
+best practices and lessons learned along the way.27 PLM powers innovation 
+and improves productivity by connecting people across global product devel-
+opment and manufacturing organizations with the product and process knowl-
+edge they need to succeed. See Figure 10.12.
+FIGURE 10.12
+PLM business strategy
+PLM powers innovation and 
+improves productivity.
+Mechanical
+engineers
+Chemical
+engineers
+Market
+research
+analyst
+Director of
+engineering
+Package
+designer
+Manufacturing
+Production
+planner
+Purchasing
+agent
+Product
+designer
+Sales
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 410
+
+part 3 • Business Information Systems
+388
+PLM software and its data are used by both internal and external users. 
+Internal users include engineering, operations and manufacturing, procure-
+ment and sourcing, manufacturing, marketing, quality assurance, customer 
+service, regulatory, and others. External users include the manufacturer’s 
+design partners, packaging suppliers, raw material suppliers, and contract 
+manufacturers. These users must collaborate to define, maintain, update, 
+and securely share product information throughout the lifecycle of the 
+product. Frequently, these external users are asked to sign nondisclosure 
+agreements to reduce the risk of proprietary information being shared with 
+competitors.
+Based in Fort Collins, Colorado, Water Pik develops and sells a variety of 
+personal and oral healthcare products under the Water Pik brand. The com-
+pany prides itself on innovation and since its founding in 1962, Water Pik has 
+acquired more than 500 patents. Over time, the company’s approach to man-
+aging its product information through traditional directory structures on file 
+systems was resulting in an increasing number of inefficiencies in Water Pik’s 
+development and manufacturing processes. To better manage its CAD product 
+data, Water Pik chose to implement ProductCenter PLM software. The com-
+pany now uses the software to manage product information—which is secured 
+through permissions—for three of its four main product lines. Water Pik also 
+uses the software to manage all of its business processes, which are automati-
+cally set to expire every two years, triggering a review and update process that 
+helps the company ensure that its procedures are current and compliant with 
+various industry standards.28
+Table 10.4 presents a list of some popular PLM software products.29
+Organization
+Primary PLM 
+Software Product
+Technology Model
+Select Customers
+Infor
+PLM Optiva
+On-premise solution
+Henkel, Sypris
+PTC
+Windchill
+SaaS solution
+Medco Equipment, 
+InterComm
+SAP
+PLM
+On-premise solution
+Porsche, 
+Anadarko 
+Petroleum
+Siemens
+Teamcenter PLM
+On-premise solution
+Procter & Gamble, 
+BAE Systems
+Ta bl e 10.4  Popular PLM software products
+PLM software is created for two broad categories of manufacturing: ­discrete 
+manufacturing and process manufacturing. Discrete manufacturing is the 
+production of distinct items such as autos, airplanes, furniture, or toys that can 
+be decomposed back into their basic components. Process manufacturing is 
+the production of products—such as soda, laundry detergent, gasoline, and 
+pharmaceutical drugs—that are the result of a chemical process; these prod-
+ucts cannot be easily decomposed back into their basic components. Within 
+these two broad categories, PLM software manufacturers specialize in specific 
+industries such as aircraft manufacturing, consumer goods manufacturing, or 
+drug manufacturing.
+Table 10.5 outlines the benefits a business can realize when using a PLM 
+system effectively.
+discrete manufacturing:  The 
+production of distinct items such as 
+autos, airplanes, furniture, or toys that 
+can be decomposed into their basic 
+components.
+process manufacturing:  The 
+production of products—such as 
+soda, laundry detergent, gasoline, and 
+pharmaceutical drugs—that are the 
+result of a chemical process; these 
+products cannot be easily decomposed 
+into their basic components.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 411
+
+Chapter 10 • Enterprise Systems
+389
+An example of benefits a business can receive comes from Electrolux, a 
+large manufacturer of commercial and consumer appliances, based in Sweden. 
+They have 58,000 employees spread across 46 production sites. Brands they 
+manufacture include AEG, Westinghouse, and Frigidaire. In a move towards fur-
+ther digitization of the product development lifecycle, Electrolux began review-
+ing PLM solutions in 2010. They chose Siemens PLM software, Teamcenter, and 
+began rollout in 2012. They added 3-D layout simulation modules starting with 
+a pilot in 2016, enabling them to create low cost simulations for various pro-
+duction scenarios and test for feasibility. This technology dramatically decreases 
+the costs and time required to develop and deploy process innovations. Since 
+then, they have been rolling out additional phases worldwide.30
+Through their efforts, Electrolux has saved over $2 million by fine-tuning 
+their production lines, and is succeeding in their goals to ‘create glob-
+ally uniform production facilities and assembly processes’ and ‘achieve 
+higher efficiency in the assembly process and material flow’. They have also 
+decreased errors and delays in production and in building new plants.31
+Software Product Planning and Development
+Much of the PLM software discussed in this chapter is used extensively in the 
+manufacturing industry; however, software companies also make use of PLM 
+software to streamline their product planning and development efforts. For 
+instance, enterprise solutions such as JIRA, Asana, and Aha! are three such tools 
+used by engineering and product teams to document and manage the tasks 
+necessary for building and delivering their products to market. They are used 
+to support both agile and waterfall software development methodologies. Agile 
+is a very iterative process of defining and managing the completion of product 
+requirements. The waterfall approach is a process that requires all the detail 
+and requirements up front prior to beginning the build.
+Nevertheless, the challenges and benefits are still consistent with that of 
+physical product development and manufacturing. The greatest value being 
+that systems like JIRA and Asana provide a robust way for engineers, product 
+managers, and the executive team to monitor the product roadmap and manage 
+associated development tasks.
+Overcoming Challenges in Implementing Enterprise Systems
+Implementing an enterprise system, particularly for a large organization, is 
+extremely challenging and requires tremendous amounts of resources, the best 
+IS and businesspeople, and plenty of management support. In spite of all this, 
+many enterprise system implementations fail, and problems with an enterprise 
+Benefit
+How Achieved
+Reduce time to market
+• 
+By connecting design, research and development, procurement, manufacturing, 
+and customer service seamlessly through a flexible collaboration environment
+• 
+By improving collaboration among the organization and its suppliers, contract 
+manufacturers, and OEMs
+Reduce costs
+• 
+By reducing prototyping costs through the use of software simulation
+• 
+By reducing scrap and rework through improved processes
+• 
+By reducing the number of product components through standardization
+Ensure regulatory compliance
+• 
+By providing a secure repository, tracking and audit trails, change and document 
+management controls, workflow and communications, and improved security
+Ta bl e 10.5  Benefits of a PLM system
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 412
+
+part 3 • Business Information Systems
+390
+system implementation can require expensive solutions. The following is a 
+sample of major enterprise system implementation project failures:
+• Failed technology implementation by SAPs R/3 ERP software caused 
+major problems for Hershey. The supply chain process caused Hershey 
+to miss delivering $100 million worth of Kisses for Halloween, causing 
+the stock to dip 8 percent.32
+• MillerCoors, a global beverage company, decided to replace the seven dif-
+ferent instances of their SAP ERP systems with one consolidating instance 
+in 2014, after years of industry consolidation. They hired an IT services 
+firm to roll out the new system. The implementation did not go smoothly. 
+The first phase resulted in 8 “critical” defects and 47 high-severity ones. 
+By early 2017, MillerCoors was suing the consulting company for $100 
+million. The consulting company counter-sued saying that MillerCoors was 
+to blame for the delay and problem with the project. They settled the case 
+at the end of 2018 after a long “negotiation process” in the court system.
+• Revlon, the famous cosmetics manufacturer, was in need of an enterprise- 
+wide system after the acquisition of Elizabeth Arden, Inc. They decided 
+on the SAP HANA option at the end of 2016. The disastrous rollout cost 
+Revlon millions of dollars in lost sales, which they blamed on the lack of 
+effective implementation controls. The situation eventually led to a steep 
+decline in stock value and a suit brought on by Revlon’s own stockholders.
+Twenty-one percent of ERP implementations worldwide evaluated by 
+­Panorama, an ERP consulting firm, were judged to be failures. Table 10.6 lists 
+and describes the most significant challenges to successful implementation of 
+an enterprise system.33
+Challenge
+Description
+Cost and disruption of upgrades
+Most companies have other systems that must be integrated with the enterprise 
+system, such as financial analysis programs, e-commerce operations, and other 
+applications that communicate with suppliers, customers, distributors, and other 
+business partners. Integration of multiple systems adds time and complexity to an 
+ERP implementation.
+Cost and long implementation 
+lead time
+The average ERP implementation cost in the millions with an average project 
+­duration of over a year.
+Difficulty in managing change
+Companies often must radically change how they operate to conform to the 
+­enterprise work processes. These changes can be so drastic to longtime ­employees 
+that they depart rather than adapt to the change, leaving the firm short of 
+­experienced workers.
+Management of software 
+customization
+The base enterprise system may need to be modified to meet mandatory business 
+requirements. System customizations can become extremely expensive and further 
+delay implementation.
+User frustration with the new 
+system
+Effective use of an enterprise system requires changes in work processes and in 
+the details of how work gets done. Many users initially balk at these changes and 
+require extensive training and encouragement.
+Ta bl e 10.6  Challenges to successful enterprise system implementation
+The following list provides tips for avoiding many common causes for 
+failed enterprise system implementations:
+• Assign a full-time executive to manage the project.
+• Appoint an experienced, independent resource to provide project 
+­oversight and to verify and validate system performance.
+• Allow sufficient time to transition from the old way of doing things to 
+the new system and new processes.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 413
+
+Chapter 10 • Enterprise Systems
+391
+• Allocate sufficient time and money for training staff; many project man-
+agers recommend budgeting 30–60 days per employee for training.
+• Define metrics to assess project progress and to identify project-related risks.
+• Keep the scope of the project well defined and contained to essential 
+business processes.
+• Be wary of modifying the enterprise system software to conform to your 
+firm’s business practices.
+• Focus on documenting existing workflows before implementing and 
+working directly with key stakeholders, so they understand and buy into 
+the changes that will ultimately be implemented.
+• Keep in mind that the best systems require little change to existing workflow 
+as it relates to user input/effort while eliminating the biggest pain points.
+Hosted Software Model for Enterprise Software
+Many business application software vendors have migrated much of their offer-
+ings to a hosted software model. The goal is to help customers acquire, use, 
+and benefit from new technology while avoiding much of the associated com-
+plexity and high start-up costs. Applicor, Intacct, NetSuite, SAP, and Workday 
+are among the software vendors who offer hosted versions of their ERP or CRM 
+software at a cost of $50 to $200 per month per user. There are three types 
+of hosted software: on premises, cloud-based, and hybrid, which combines 
+on-premises and cloud-based applications.34
+This pay-as-you-go approach is appealing because organizations can exper-
+iment with powerful software capabilities without making a major financial 
+investment. Organizations can then dispose of the software without large 
+investments if the software fails to provide value or otherwise misses expecta-
+tions. Also, using the hosted software model means the business firm does not 
+need to employ a full-time IT person to maintain key business applications. The 
+business firm can expect additional savings from reduced hardware costs and 
+costs associated with maintaining an appropriate computer environment (such 
+as air conditioning, power, and an uninterruptible power supply).
+Table 10.7 lists the advantages and disadvantages of hosted software.
+Advantages
+Disadvantages
+Decreased total cost of ownership
+Potential availability and reliability issues
+Faster system start-up
+Potential data security issues
+Lower implementation risk
+Potential problems integrating the hosted 
+products of different vendors
+Management of systems outsourced 
+to experts
+Savings anticipated from outsourcing may 
+be offset by increased effort to manage 
+vendor
+Ta b le 10.7  Advantages and disadvantages of hosted software model
+LoneStar Heart is a California company that researches and develops 
+restorative therapies and technologies for patients with advanced heart fail-
+ure. In its early years as a start-up company, LoneStar relied on a paper-based 
+approach to document control that resulted in researchers spending extensive 
+time searching and managing product documentation—taking them away from 
+their critical design and development work. To gain efficiencies in its develop-
+ment processes and free up time for its research and development team, Lon-
+eStar eventually decided to implement a cloud-based PLM that would support 
+employees in the company’s facilities as well as those who work remotely. 
+The PLM system from Omnify Software offered LoneStar a secure, yet easily 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 414
+
+part 3 • Business Information Systems
+392
+accessible centralized product information database and the tools it required 
+to maintain compliant with the extensive set of FDA regulations governing its 
+work. By using a cloud-based PLM, LoneStar efficiencies in product develop-
+ment processes resulted in an estimated $80,000 in savings.35
+Implementing CRM
+ Systems and Processes, Application
+SalesTeam is a mid-sized company that specializes in providing outsourced sales 
+resources to companies within the life sciences industry that are in need of 
+­additional sales staff to assist with major promotions or to cover gaps resulting 
+from turnover. SalesTeam was founded three years ago and has grown quickly 
+since then.
+SalesTeam’s outsourced salespeople prospect, cultivate, and close new business 
+for clients just as they would if they worked directly for the client. Each month, 
+the salesperson is required to submit documentation to SalesTeam’s director of 
+outsourcing regarding the number of calls that they made, the number of meetings 
+they had with potential clients, and the status of their sales prospects.. SalesTeam 
+then compile the information in Excel spreadsheets to pass on to the client. These 
+reports allow SalesTeam’s management and the client to determine how sales are 
+progressing and ensure that the salesperson is achieving their goals.
+However, some clients have complained that they cannot easily upload the 
+information into their systems, or that the information in the spreadsheets is incom-
+plete. As a result, clients are missing sales opportunities. The leadership at Sales-
+Team has determined that they need a more sophisticated and automated way 
+to track and report on their employees’ activities to enhance the quality of their 
+communication with clients and to improve the results of their sales team.
+Review Questions
+1.	 How should SalesTeam determine the requirements of a CRM system for its 
+business?
+2.	 What additional activities will SalesTeam salespeople likely be able to perform 
+with a CRM application that they could not perform before?
+Critical Thinking Questions
+1.	 You have been tasked with gathering the requirements for the new system to 
+ensure that the new CRM software will help SalesTeam achieve the stated objec-
+tives. Which stakeholders would you meet with to determine the requirements? 
+Why would you meet with these stakeholders?
+2.	 The cost of a CRM application can vary significantly depending upon the size of 
+the company and the desired features. What would you include in the financial 
+analysis of a CRM?
+Summary
+Principle:
+An organization must have information systems that support routine, 
+­day-to-day activities and that help a company add value to its products 
+and services.
+Transaction processing systems (TPSs) are at the heart of most informa-
+tion systems in businesses today. A TPS is an organized collection of people, 
+procedures, software, databases, and devices used to capture fundamental data 
+about events that affect the organization (transactions) and that use that data 
+to update the official records of the organization.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 415
+
+Chapter 10 • Enterprise Systems
+393
+The methods of TPSs include batch and online processing. Batch process-
+ing involves the collection of transactions into batches, which are entered into 
+the system at regular intervals as a group. Online transaction processing (OLTP) 
+allows transactions to be processed as they occur.
+Organizations expect TPSs to accomplish a number of specific objectives, 
+including processing data generated by and about transactions, maintaining 
+a high degree of accuracy and information integrity, compiling accurate and 
+timely reports and documents, increasing labor efficiency, helping provide 
+increased and enhanced service, and building and maintaining customer loy-
+alty. In some situations, an effective TPS can help an organization gain a com-
+petitive advantage.
+Order processing systems capture and process customer order data—from 
+the receipt of the order through creation of a customer invoice.
+Accounting systems track the flow of data related to all the cash flows that 
+affect the organization.
+Purchasing systems support the inventory control, purchase order process-
+ing, receiving, and accounts payable business functions.
+Organizations today, including SMEs, typically implement an integrated 
+set of TPSs from a single or limited number of software vendors to meet their 
+transaction processing needs.
+All TPSs perform the following basic activities: data collection, which 
+involves the capture of source data to complete a set of transactions; data edit-
+ing, which checks for data validity and completeness; data correction, which 
+involves providing feedback regarding a potential problem and enabling users 
+to change the data; data processing, which is the performance of calculations, 
+sorting, categorizing, summarizing, and storing data for further processing; data 
+storage, which involves placing transaction data into one or more databases; 
+and document production, which involves outputting electronic or hard-copy 
+records and reports.
+Principle:
+An organization that implements an enterprise system is creating a highly 
+integrated set of systems, which can lead to many business benefits.
+Enterprise resource planning (ERP) software supports the efficient oper-
+ation of business processes by integrating activities throughout a business, 
+including sales, marketing, manufacturing, logistics, accounting, and staffing.
+Implementing an ERP system can provide many advantages, including 
+allowing access to data for operational decision making; eliminating costly 
+and inflexible legacy systems; providing improved work processes; creating 
+the opportunity to upgrade technology infrastructure; and creating access to 
+data for generating insights through the use of analytics, artificial intelligence 
+(AI), and machine learning.
+Some of the disadvantages associated with ERP systems are that they are 
+time consuming, difficult, and expensive to implement; they can also be diffi-
+cult to integrate with other systems.
+No one ERP software solution is “best” for all organizations. MIE TRAC PRO 
+and Plus & Minus are examples of different ERP suppliers.
+Although the scope of ERP implementation can vary, most manufactur-
+ing organizations use ERP to support the supply chain management (SCM) 
+activities of planning, executing, and controlling all activities involved in raw 
+material sourcing and procurement, conversion of raw materials to finished 
+products, and the warehousing and delivery of finished product to customers.
+The production and supply chain management process starts with sales 
+forecasting to develop an estimate of future customer demand. This initial 
+forecast is at a fairly high level, with estimates made by product group rather 
+than by individual product item. The sales and operations plan (S&OP) takes 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 416
+
+part 3 • Business Information Systems
+394
+demand and current inventory levels into account and determines the specific 
+product items that need to be produced as well as when to meet the forecast 
+future demand. Demand management refines the production plan by determin-
+ing the amount of weekly or daily production needed to meet the demand for 
+individual products. Detailed scheduling uses the production plan defined by 
+the demand management process to develop a detailed production schedule 
+that specifies details such as which item to produce first and when production 
+should be switched from one item to another. Materials requirement planning 
+determines the amount and timing for placing raw material orders with sup-
+pliers. Purchasing uses the information from materials requirement planning 
+to place purchase orders for raw materials and transmit them to qualified sup-
+pliers. Production uses the detailed schedule to plan the logistics of running 
+and staffing the production operation. Sales ordering is the set of activities 
+that must be performed to capture a customer sales order. The individual 
+application modules included in the ERP system are designed to support best 
+practices, the most efficient and effective ways to complete a business process.
+Organizations are implementing customer relationship management (CRM) 
+systems to manage all aspects of customer encounters, including marketing, 
+sales, distribution, accounting, and customer service. The goal of CRM is to 
+understand and anticipate the needs of current and potential customers to 
+increase customer retention and loyalty while optimizing the way products 
+and services are sold.
+Manufacturing organizations are implementing product lifecycle manage-
+ment (PLM) software to manage the data and processes associated with the vari-
+ous phases of the product lifecycle, including sales and marketing, research and 
+development, concept development, product design, prototyping and testing, 
+manufacturing process design, production and assembly, delivery and prod-
+uct installation, service and support, and product retirement and replacement. 
+These systems are used by both internal and external users to enable them to 
+collaborate and capture best practices and lessons learned along the way.
+The most significant challenges to the successful implementation of an 
+enterprise system include the cost and disruption of upgrades, the cost and 
+long implementation lead time, the difficulty in managing change, the man-
+agement of software customization, and user frustration with the new system.
+Business application software vendors are experimenting with the hosted 
+software model to see if the approach meets customer needs and is likely 
+to generate significant revenue. There are three types of hosted software: 
+on-premises, cloud-based, and hybrid, which combines on-premises and cloud-
+based applications. This approach is especially appealing to SMEs due to the 
+low initial cost, which makes it possible to experiment with powerful software 
+capabilities.
+Principle:
+An organization must have access to data across all of its corporate func-
+tions and enterprise systems to help drive decision making.
+There have been many types of enterprises systems discussed in this chap-
+ter including, but not limited to, customer relationship management tools like 
+Salesforce to transaction processing systems, PLMs, social analytics tools, and 
+more.
+The key takeaway is that all these systems include valuable data that could 
+be valuable not only to their own corporate function but to others as well, and 
+by creating centralized repositories, the organization increases its potential for 
+better operational effectiveness and efficiency. Tools like Birst and Domo are 
+two leading solutions for accomplishing this.
+Machine learning and AI are playing an important role in making sense of 
+all this data and in bringing insights to decision makers to act on automatically.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 417
+
+Chapter 10 • Enterprise Systems
+395
+Key Terms
+batch processing system
+best practices
+computer-aided design (CAD)
+computer-aided engineering (CAE)
+computer-aided manufacturing (CAM)
+customer relationship management (CRM) system
+data collection
+data correction
+data editing
+data processing
+data storage
+discrete manufacturing
+document production
+enterprise system
+online transaction processing (OLTP)
+process manufacturing
+product lifecycle management (PLM)
+product lifecycle management (PLM) software
+source data automation
+streaming
+supply chain management (SCM)
+transaction processing cycle
+Self-Assessment Test
+An organization must have information systems that 
+support routine, day-to-day activities and that help 
+a company add value to its products and services.
+1.	 Transaction processing systems (TPS) cap-
+ture and process the fundamental data about 
+events that affect the organization called 
+_______________ that are used to update the offi-
+cial records of the organization.
+2.	 The essential characteristic of a(n) 
+_______________ transaction processing system 
+is that it processes transactions as they occur.
+3.	 Which of the following is not one of the basic 
+components of a TPS?
+a.	 Databases
+b.	 Networks
+c.	 Procedures
+d.	 Analytical models
+4.	 _______________ involves providing feedback 
+regarding a potential data problem and enables 
+users to change the data.
+a.	 Data collection
+b.	 Data correction
+c.	 Data editing
+d.	 Data processing
+5.	 The specific business needs and goals of the 
+organization define the method of transaction 
+processing best suited for the various application 
+of the company. True or False?
+6.	 Which of the following is not an objective of an 
+organization’s batch transaction processing system?
+a.	 Capture, process, and update databases of 
+business data required to support routine 
+business activities
+b.	 Ensure that data is processed immediately 
+upon occurrence of a business transaction
+c.	 Avoid processing fraudulent transactions
+d.	 Produce timely user responses and reports
+7.	 Business data goes through a cycle that includes 
+data collection, data _______________, data cor-
+rection, data processing, data storage, and docu-
+mentation production.
+8.	 Unfortunately, there are few choices for software 
+packages that provide integrated transaction 
+processing system solutions for small- and 
+medium-sized enterprises. True or False?
+9.	 Capturing and gathering all the data necessary to 
+complete the processing of transactions is called 
+_______________.
+An organization that implements an enterprise 
+­system is creating a highly integrated set of systems, 
+which can lead to many business benefits.
+10.	 Small organizations were slow to adopt ERP 
+systems because of the relative complexity and 
+cost of implementing these systems. True or 
+False?
+11.	 The individual application modules included 
+in an ERP system are designed to support 
+_______________, the most efficient and effective 
+ways to complete a business process.
+12.	 _______________ software helps a company man-
+age all aspects of customer encounters, including 
+marketing, sales, distribution, accounting, and 
+customer service.
+13.	 The hosted software model for enterprise soft-
+ware helps customers acquire, use, and benefit 
+from new technology while avoiding much of 
+the associated complexity and high start-up 
+costs. True or False?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 418
+
+part 3 • Business Information Systems
+396
+14.	 _______________ is software used to analyze the 
+robustness and performance of components and 
+assemblies.
+a.	 PLM
+b.	 CAD
+c.	 CAE
+d.	 CAM
+15.	 Many multinational companies roll out standard 
+IS applications for all to use. However, standard 
+applications often don’t account for all the differ-
+ences among business partners and employees 
+operating in other parts of the world. Which of 
+the following is a frequent modification required 
+for standard software?
+a.	 Software might need to be designed with 
+local language interfaces to ensure the suc-
+cessful implementation of a new IS.
+b.	 Customization might be needed to handle 
+date fields correctly.
+c.	 Users might also have to implement manual 
+processes and overrides to enable systems to 
+function correctly.
+d.	 All of the above
+An organization must have access to data across all 
+of its corporate functions and enterprise systems to 
+help drive decision making.
+16.	 At the core of the ERP system is a 
+_______________ that is shared by all users so 
+that all business functions have access to current 
+and consistent data for operational decision 
+making and planning.
+a.	 database
+b.	 project plan
+c.	 report
+d.	 project chain
+17.	 A company implementing a new PLM 
+­system should do which of the following 
+to maximize  its chances for a successful 
+implementation?
+a.	 Appoint a full-time manager to the project.
+b.	 Budget enough time and money to train staff.
+c.	 Keep the scope of the project well defined.
+d.	 All of the above
+18.	 Machine learning used in enterprise software 
+is valuable to decision makers because it saves 
+them time while also providing valuable busi-
+ness insights. True or False?
+19.	 One of the problems with machine learning is 
+that it is not able to identify unique patterns. 
+True or False?
+20.	 A cloud-based solution is _______________ 
+than purchasing ERP software and upgrading 
+hardware.
+a.	 more expensive
+b.	 less expensive
+c.	 no more expensive
+d.	 no less expensive
+Self-Assessment Test Answers
+1.	 transactions
+2.	 online
+3.	 d
+4.	 b
+5.	 True
+6.	 b
+7.	 editing
+8.	 False
+9.	 data collection
+10.	 True
+11.	 best practices
+12.	 Customer relationship management (CRM)
+13.	 True
+14.	 c
+15.	 d
+16.	 a
+17.	 d
+18.	 True
+19.	 False
+20.	 b
+Review and Discussion Questions
+1.	 Provide a data processing example for which 
+the use of a batch processing system to handle 
+transactions is appropriate. Provide an example 
+for which the use of online transaction process-
+ing is appropriate.
+2.	 Define supply chain management (SCM).
+3.	 Identify and briefly describe at least four key 
+business capabilities provided by the use of a 
+CRM system.
+4.	 What is source data automation? What benefits 
+can it be expected to deliver?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 419
+
+Chapter 10 • Enterprise Systems
+397
+5.	 Identify and briefly discuss five challenges to 
+the successful implementation of an enterprise 
+system. Provide several tips to overcome these 
+challenges.
+6.	 Why were SMEs slow to adopt ERP software? 
+What changed to make ERP software more 
+attractive for SMEs?
+7.	 Many organizations are moving to a collabora-
+tive process with their major suppliers to get 
+their input on designing and planning future 
+product modification or new products. Explain 
+how a PLM system might enhance such a pro-
+cess. What issues and concerns might a manu-
+facturer have in terms of sharing product data 
+with suppliers?
+8.	 Explain why an enterprise solution for software 
+development like JIRA is important for road-
+map planning and managing engineering tasks.
+Business-Driven Decision-Making Exercises
+1.	 Assume that you are the owner of a small bicycle 
+sales and repair shop serving hundreds of custom-
+ers in your area. Identify the kinds of customer 
+information you would like your firm’s CRM sys-
+tem to capture. How might this information be 
+used to provide better service or increase revenue? 
+Identify where or how you might capture this data.
+2.	 Imagine that you are a member of the 
+­engineering organization for an aircraft parts 
+manufacturer. The firm is considering the 
+implementation of a PLM system. Make a 
+­convincing argument for selecting a system 
+whose scope includes CAD, CAE, and CAM 
+software.
+Teamwork and Collaboration Activities
+1.	 With your team members, meet with several 
+business managers at a firm that has imple-
+mented an enterprise system. Interview them 
+to document the scope, cost, and schedule for 
+the overall project. Find out why the organi-
+zation decided it was time to implement the 
+enterprise system. Make a list of what the 
+business managers see as the primary benefits 
+of the implementation. What were the biggest 
+hurdles they had to overcome? Are there any 
+remaining issues that must be resolved before 
+the project can be deemed a success? What 
+are they? With the benefit of 20–20 hindsight, 
+is there anything they would have done dif-
+ferently that could made the project go more 
+smoothly?
+2.	 As a team, do research online to identify three 
+candidate PLM software packages. Based on 
+information presented on each company’s Web 
+site, score each alternative using a set of criteria 
+your team agrees upon. Which candidate PLM 
+software does your team select?
+Career Exercises
+1.	 Initially thought to be cost-effective for only 
+very large companies, enterprise systems are 
+now being implemented in SME’s to reduce 
+costs, improve service, and increase sales rev-
+enue. A firm’s finance and accounting person-
+nel play a dual role in the implementation of 
+such a system: (1) they must ensure a good 
+payback on the investment in information sys-
+tems and (2) they must also ensure that the 
+system meets the needs of the finance and 
+accounting organization. Identify three or four 
+tasks that the finance and accounting people 
+need to perform to ensure that these two 
+goals are met.
+2.	 Enterprise system software vendors need busi-
+ness systems analysts who understand both 
+information systems and business processes. 
+Make a list of six or more specific qualifications 
+needed to be a strong business systems analyst 
+who supports the implementation and conver-
+sion to an enterprise system within an SME. Are 
+there additional/different qualifications needed 
+for someone who is doing similar work but for a 
+large multinational organization?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 420
+
+part 3 • Business Information Systems
+398
+Wester Digital Implements New ERP System
+Western Digital, a developer of storage devices and solu-
+tions, has grown dramatically since it was established in 
+1970. Based in San Jose, California, they employ more than 
+61,000 with locations around the world. Much of their 
+growth has occurred through mergers and acquisitions. 
+Managing operations and generating timely information in 
+a multi-billion dollar, global organization can be difficult, 
+but what happens when you combine three such compa-
+nies? How can systems be integrated and processes refined, 
+so that the business can stay competitive? Steve Phillpott, 
+CIO of Western Digital, explains that each of the three orga-
+nizations had their own ERP. Some tough decisions would 
+need to be made to integrate all three companies. Because 
+each company had been using their own ERP, when they 
+merged, these systems were no longer enterprise-level. 
+Data was isolated, processes were disjointed, and efforts 
+were duplicated. The team could choose one of the three 
+ERPs, and the other two-thirds of the company’s employees 
+would need to change over to the selected system, or they 
+could start from scratch and implement a new ERP across 
+all divisions of the new, larger Western Digital. They chose 
+to start from scratch and implement a new ERP and related 
+processes across all three companies. The first phase was 
+rolled out in 2017, and the implementation is currently 
+ongoing.
+The decision to choose a new ERP was a great 
+opportunity to update technologies and transform pro-
+cesses at Western Digital. They took this opportunity to 
+redesign processes and build applications that were more 
+likely to scale as they grew to be a $20+ billion company. 
+Communication and collaboration are essential to inte-
+gration efforts, so the team focused on setting up those 
+standards and integrated tools first. These new tools and 
+processes not only helped the ERP project succeed, but 
+they removed barriers to communication across all areas 
+and locations of Western Digital, putting them in a bet-
+ter position for possible mergers or acquisitions in the 
+future.
+Change management plays a huge role in implementing 
+Western Digital ERP. As the processes and technologies are 
+integrated, the people that use the systems must adjust. By 
+ensuring that users are ready when the system integration 
+is complete, Western Digital is able to attain much larger 
+benefit from the system, more quickly. Phillpott stresses 
+the importance of these underlying structures of commu-
+nications and change management to the successful imple-
+mentation and use of an ERP and the resulting competitive 
+advantages.
+ERP implementations usually have long timelines, espe-
+cially in such large organizations. Phillpott says that they are 
+“two years into a four-year (plus or minus) journey.” They 
+are phasing the implementation as outlined below:
+Case Study
+ SYSTEMS AND PROCESSES, APPLICATION
+Phase
+Status
+Focus
+1
+Went live in 
+July 2017
+Financial consolidation
+Statutory reporting
+Operational expenditure planning
+2
+Went live in 
+June 2018
+Capital expenditures planning
+Indirect Procurement
+3
+In process
+Order orchestration
+Global trade management
+4
+Planned
+Direct procurement
+Financial capabilities for logistics, 
+inventory
+Phillpott and his team realized that they could not wait 
+until the ERP was fully implemented to receive the benefits 
+of the reports the system would eventually produce. So, 
+to derive the most benefit as soon as possible, they imple-
+mented an interim reporting capability. They reviewed the 
+business objectives and decided on the reporting priorities 
+to deploy a predictive analytics platform early in the process. 
+According to Phillpott, this platform “supports manufacturing 
+and operation capabilities, trying to look at how we improve 
+yields and the performance of our manufacturing opera-
+tions.” He also states that not only do these interim reports 
+help improve performance, but they act as a testing ground 
+or prototype for the reporting system that will be rolled out 
+in later phases. As the ERP matures, they will implement 
+various technologies for data analysis, from less to more 
+complex, starting with predesigned reports and a dashboard, 
+moving on to custom reports, predictive analytics, and busi-
+ness intelligence powered by artificial intelligence. They will 
+be able to answer such questions as the following:
+• How can we improve our time to market?
+• How do accelerate innovation in manufacturing?
+• How can we reduce the costs in our product develop-
+ment lifecycle?
+Using their analysis and incorporating integrated cloud tech-
+nologies, they have been able to reduce the time it takes to 
+conduct manufacturing simulations from 30 days down to 
+nine hours or less.
+Critical Thinking Questions
+1.	 Many of the benefits of an ERP can be realized 
+through the implementation and change process. How 
+can updating and integrating processes and activities, 
+as part of an ERP implementation, provide benefits to 
+the organization? Provide specific examples.
+2.	 What steps did Western Digital take to realize the ben-
+efits of integration as it occurred rather than waiting 
+until the system was completely integrated? How do 
+you think this might have been different if they chose 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 421
+
+Chapter 10 • Enterprise Systems
+399
+one of the original three ERPs and had the other two 
+companies convert to it?
+3.	 We tend to think of implementation as a single pro-
+cess, done all at once, with a clear starting and ending 
+point, and with benefits realized at the end of the 
+project. However, it is rarely that simple. How does a 
+phased approach and the use of interim solutions or 
+prototypes, like those used by Western Digital, help 
+ensure a successful implementation? How might this 
+strategy help the ERP provide more benefit after it is 
+fully implemented?
+Sources: “Western Digital’s CIO Modernizes Technology in the face of  
+Two Major Acquisitions,” https://www.forbes.com/sites/peterhigh/2018/01/29/
+western-digitals-cios-modernizes-technology-in-the-face-of-two-major- 
+acquisitions/#740b1b16753c, accessed on November 17, 2019; “Inside 
+Western Digital’s Massive Cloud ERP Migration,” https://www.cio.com/
+article/3322902/inside-western-digitals-massive-cloud-erp-migration.html, 
+accessed on November 17, 2019.
+9.	 “Echo Valley Irrigation Finds Success in the Field 
+Sage 300 Construction and Real Estate and Sage 
+Construction Anywhere Keep This Contractor on 
+Course,” Sage, https://www.sage.com/na/~/media/site/
+Sage%20300%20Construction%20and%20Real%20
+Estate/documents/pdf-customer-success-stories/
+sage_echo_valley_ca_final_033015, accessed June 5, 
+2019, https://www.sage.com/en-us/products/sage-300/, 
+accessed June 24, 2019.
+10.	 Mark Balkenende, M,ark. The Big Data Debate: Batch 
+Versus Stream Processing., 2018., https://thenewstack.
+io/the-big-data-debate-batch-processing-vs-streaming-
+processing/. Accessed, accessed June 24, 2019.
+11.	 “Best POS systems of 2020: Point-of-sale solutions for 
+retail, restaurants, and more,” Techradar.pro, =https://
+www.techradar.com/best/best-pos-systems, accessed  
+May 1, 2020.
+12.	 “Creative Wedge Slices Up Ways to Improve Inventory,” 
+NCS Small Business, https://www.ncr.com/company/
+blogs/small-business, Blog 10/9/2014, accessed  
+March 5, 2015.
+13.	 “About Us,” Women’s World Banking, www.womens 
+worldbanking.org/about-us, accessed June 5, 2019.
+14.	 “Women’s World Banking,” Intacct, http://online.intacct 
+.com/rs/intacct/images/cs_womensworldbanking.pdf, 
+accessed October 23, 2019.
+15.	 “Connect to Your Customers in a Whole New Way with 
+the World’s #1 CRM Platform,” Salesforce, https://www 
+.salesforce.com/, accessed June 5, 2019.
+16.	 “Compare Domo vs Tableau vs Birst,” Crozdesk, https://
+crozdesk.com/compare/domo-vs-tableau-vs-birst, 
+accessed June 5, 2019.
+17.	 “Steinwall Scientific, Inc.,” IQMS Manufacturing 
+ERP, www.iqms.com/files/case-studies/Steinwall%20
+Scientific_ERP_success.pdf, accessed June 5, 2019.
+18.	 Trites, David, “How Prime Meats Cuts Through 
+Business Complexity,” SAP Community Network 
+(blog), July 28, 2015, http://scn.sap.com/
+community/business-trends/blog/2015/07/28/
+how-prime-meats-cuts-through-business-complexity.
+19.	 “Our Company,” Whirlpool, www.whirlpoolcorp.com/
+our-company, accessed June 5, 2019.
+Sources for opening vignette: “Speaking a common 
+­language: driving interoperability using SNOMED CT,” 
+https://www.cerner.com/gb/en/blog/speaking-a-common-­
+language-driving-interoperability-using-snomed-ct, accessed 
+November 17, 2019; “Single LIMS go live for Barts Health 
+NHS Trust,” http://www.clinisys.co.uk/gb/en/news-events/
+news/2013/single-lims-go-live-for-barts-health-nhs-trust/, 
+accessed November 16, 2019; “TechnologyAdvice Guide to 
+Enterprise Medical Software,” https://technologyadvice.com/
+enterprise-medical-software/, accessed on November 14, 
+2019.
+1.	 “Customer Service Software,” Capterra, https://www 
+.capterra.com/customer-service-software/, accessed  
+June 24, 2019.
+2.	 “Corporate Overview,” ADP, https://www.adp.com/-/
+media/Corporate%20Overview/ADP-Corporate-Overview 
+.ashx?la=en&hash=87E6902ABB44AEE1A0EC11054374 
+BFE94F4657EF, accessed June 24, 2019.
+3.	 “How We Do It,” ResortCom, https://corporate.
+resortcom.com/timeshare-management-software-
+resortconnect/, accessed June 5, 2019.
+4.	 “Form 10-K: Paypal Holdings, Inc.,” Paypal Holdings, Inc., 
+December 31, 2018, https://investor.paypal-corp.com/
+static-files/0679dfac-93e0-4768-b280-58eae8917612.
+5.	 “Magi-Based Eligibility Verification Plan,” Medicaid, 
+https://www.medicaid.gov/medicaid/program-
+information/eligibility-verification-policies/downloads/
+wisconsin-updated-verification-plan-template.pdf, 
+accessed June 5, 2019.
+6.	 “HIPAA Version 5010 Companion Guides and NCPDP 
+Version D.0 Payer Sheet,” ForwardHealth, https://www 
+.forwardhealth.wi.gov/wiportal/Subsystem/Account/
+StaticHTML.aspx?srcUrl=CompanionDocuments.htm, 
+accessed June 24, 2019.
+7.	 “Lukas Nursery Chooses Epicor Eagle N Series to 
+Refresh 100-Year-Old Business,” Epicor, January 20, 
+2016, www.epicor.com/Press-Room/News-Releases/Lukas-
+Nursery-Chooses-Epicor-Eagle-N-Series-to-Refresh-100-
+Year-Old-Business.aspx.
+8.	 “Sage 300 Construction and Real Estate,” Sage, https://
+www.sage.com/en-us/products/sage-300-construction-
+and-real-estate/, accessed June 5, 2019.
+Notes
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 422
+
+part 3 • Business Information Systems
+400
+20.	 Boulton, Clint, “Whirlpool CIO Tackles ERP Overhaul 
+and IoT-Powered Appliances,” CIO, February 20, 2016, 
+www.cio.com/article/3039093/internet-of-things/
+whirlpool-cio-tackles-erp-overhaul-and-iot-powered-
+appliances.html.
+21.	 “ERP Software,” Software Advice, https://www.
+softwareadvice.com/erp/, accessed June 5, 2019.
+22.	 Compiere, http://www.compiere.com/, accessed June 5, 
+2019.
+23.	 “Case Study,” Evalueserve, http://offers.evalueserve.com/
+hubfs/Evalueserve/Campaigns/CaPS/Case-Studies/ 
+CaPS16-Product-Demand-Forecasting.pdf?hsCta 
+Tracking=f5c2ccb0-03ac-415f-9285-86254a99 
+ba25%7Cc2f61e24-6b30-41b6-8894-99b89cf74e3c, 
+accessed June 6, 2019.
+24.	 “Expensify: Base Helps Expensify Engage with 
+Customers,” Base, https://getbase.com/customers/
+expensify, accessed June 5, 2019.
+25.	 “Annual Report 2018,” Nu Skin Enterprises, http://
+ir.nuskin.com/phoenix.zhtml?c=103888&p=irol-irhome, 
+accessed June 6, 2019.
+26.	 “The Best CRM Software for 2019,” PC, https://www.
+pcmag.com/roundup/253275/the-best-crm-software, 
+accessed June 6, 2019.
+27.	 “What is PLM Software?” Siemens, https://www.plm 
+.automation.siemens.com/global/en/, accessed  
+June 6, 2019.
+28.	 “Water Pik Improves Its Flow with ProductCenter 
+PLM,” Essig Research, https://www.essig.com/
+productcenter-product-lifecycle-management/
+productcenter-customer-success/water-pik-improves-its-
+flow-with-productcenter-plm/, accessed October 22, 2019.
+29.	 “Product Lifecycle Management (PLM) Software,” 
+Finances Online, https://product-lifecycle-management.
+financesonline.com/, accessed June 6, 2019.
+30.	 “Electrolux implements worldwide 3D factory and 
+material flow planning,” Siemens Industry Software, 
+https://www.plm.automation.siemens.com/global/
+en/our-story/customers/electrolux/57807/, accessed 
+November 19, 2019.
+31.	 Dudek, Katie, “Electrolux Implements Digital 
+Manufacturing Worldwide,” Siemens Industry Software, 
+https://blogs.sw.siemens.com/teamcenter/Electrolux-
+implements-digital-manufacturing-worldwide/,  
+accessed November 19, 2019.
+32.	 Koch, Christopher, “Supply Chain: Hershey’s Bittersweet 
+Lesson,” CIO https://www.cio.com/article/2440386/
+supply-chain---hershey-s-bittersweet-lesson.html, 
+accessed June 6, 2019.
+33.	 Fruhlinger, Josh and Thomas Wailgum, “15 Famous ERP 
+Disasters, Dustups and Disappointments,” CIO, https://
+www.cio.com/article/2429865/enterprise-resource-
+planning-10-famous-erp-disasters-dustups-and-
+disappointments.html, accessed June 6, 2019.
+34.	 Watanabe, Richard, “ERP Selection: Types of ERP 
+Software Hosting Models,” Datacor Blog, February 22, 
+2018 https://www.datacor.com/the-datacor-blog/
+erp-selection-types-of-erp-software-hosting-models.
+35.	 Omnify Software Case Study, “LoneStar Heart: 
+Efficiencies in Product Development Processes 
+Result in Estimated $80,000 in Savings” https://
+omnifysoft.com/customers/success/download/Omnify-
+LoneStarHeart-PLM-Success-Story.pdf, accessed 
+June 6, 2019.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 423
+
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 424
+
+Willyam Bradberry/Shutterstock.com
+Chapter 
+11
+Artificial Intelligence 
+(AI) and Automation
+Principles
+Learning Objectives
+• Organizations are developing 
+new technology using artificial 
+intelligence and expert systems. 
+• Briefly explain the nature of artificial intelligence.
+• Identify six components of expert systems and explain how they 
+are used.
+• As companies become more 
+automated through the use of 
+artificial intelligence, and expert 
+systems, organizations must 
+strategically plan for a potential 
+impact on future employment.
+• Discuss how advancements in augmented reality are improving 
+computer vision capabilities.
+• Briefly explain how an artificial neural network works.
+• Describe two strategies used to train artificial neural networks.
+• Discuss the potential impact of artificial intelligence and automa-
+tion on future employment.
+• Organizations are relying on 
+machines to learn from pro-
+cesses to gain better outcomes.
+• Define the term machine learning.
+• Identify four types of machine learning training.
+• Define the term natural language processing.
+• Discuss how the brain computer interface is being advanced 
+through research.
+• Robots are becoming more 
+interactive in business, with new 
+applications being introduced at 
+a rapid pace.
+• Briefly explain what comprises a robotic system.
+• Describe three types of robots, including the environment in 
+which they operate and the purpose they serve.
+• Identify two industry applications of robotics.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 425
+
+IS in Action
+In 2017, IBM committed $240 million over ten years to establish a machine learning, cog-
+nitive computing, and deep learning research laboratory in collaboration with the Massa-
+chusetts Institute of Technology (MIT). The lab’s top research priorities include healthcare 
+diagnostics and clinical decision support, along with the use of artificial intelligence (AI) 
+to improve cybersecurity and the impacts of integrating data analytics tools into society.
+According to the dean of MIT’s School of Engineering, Anantha Chandrakasan, “AI is 
+everywhere . . . there are some particular targets we have in mind, including being able to 
+detect cancer (e.g., by using AI with imaging in radiology to automatically detect breast 
+cancer) well before we do now.” The new lab is a natural extension of IBM’s Watson Health 
+initiative, which has focused on oncology and had positive results in the field during its 
+early pilot phase. This type of system is called an expert system. The MIT lab is working on 
+additional AI initiatives, along with oncology. According to an article released by Xconomy, 
+the lab is seeing early progress with AI. David Cox was hired to direct the lab and stated 
+that “some of the bets we’re making are starting to pay off.”
+In the years since IBM Watson Health was established, however, there have been 
+reports from hospitals and physicians, including some of IBM’s partners and internal 
+medical specialists, that Watson did not add value in a clinical setting and—even worse—
+sometimes recommended the wrong cancer treatments. Although IBM Watson Health has 
+lost some clients and medical advisers because of the disappointing results, Laura Craft, 
+a vice president of research for Gartner’s Healthcare Strategy business, has argued that 
+Watson’s technology is not the problem, it simply hasn’t had enough time or quality data 
+input to become the personalized medicine engine that IBM promoted it to be. Another 
+problem, according to Cynthia Burghard of Healthcare IT Transformation Strategies, is 
+that when training Watson, IBM used data related to simple cancers, even though more 
+complex cancers would be treated differently. In addition, smaller hospitals may not have 
+the same access to treatment options as larger urban facilities, meaning recommendations 
+need to be tailored to specific regions and medical centers.
+In 2019, IBM Watson Health announced a new ten-year $50 million investment in 
+AI partnerships with Vanderbilt University Medical Center in Nashville and Brigham and 
+Women’s Hospital in Boston. These partnerships will use AI to improve the usability of 
+Electronic Health Records (EHR) systems, support and increase patient safety, and help 
+foster health equity. “By putting the full force of our clinical and research team together 
+with two of the world’s leading academic medical centers, we will dramatically acceler-
+ate the development of real-work AI solutions that improve workflow efficiencies and 
+outcomes” says Kuy Rhee, vice president and chief health officer of IBM Watson Health.
+On average, physicians spend two hours working in EHR systems for every hour of 
+patient care. This can quickly cause a physician to “burn out” or make mistakes. A lot of 
+these tasks can become repetitive and tedious. According to Mark Lambrecht with SAS, 
+a data analytics company, there is more data than can be analyzed by physicians and AI 
+can help reduce the time needed on the computer. “They do this by capturing the data 
+automatically, making sense of it, providing content, and making sure the data is put in the 
+right field.” One example of this is in radiology. Before AI, there were books of images and 
+radiologists had to look to find a match to the scan. Now, with AI, the system can make 
+the match for the radiologist much faster and reduce the time needed behind the desk.
+David Bates, chief of general internal medicine at Brigham and Women’s Hospital 
+and professor of medicine at Harvard Medical School, knows how urgent the need is to 
+use existing data to improve both patient and physician experience: “We all know that 
+the future of health belongs to AI, but today health around the globe is siloed and not 
+actionable . . . Through AI, we have an opportunity to do better.”
+Healthcare Using AI to Improve Patient Care
+ Analytical Thinking
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 426
+
+	 Overview of Artificial Intelligence
+At a Dartmouth College conference in 1956, John McCarthy proposed the use 
+of the term artificial intelligence (AI) to describe computers with the ability 
+to mimic or duplicate the functions of the human brain. A paper was presented 
+at the conference proposing a study of AI based on the conjecture that “every 
+aspect of learning or any other feature of intelligence can in principle be so 
+precisely described that a machine can be made to simulate it.”1
+Many AI pioneers attended this first conference; a few predicted that com-
+puters would be as “smart” as people by the 1960s. The prediction has not yet 
+been realized, but many applications of AI can be seen today, and research 
+continues.
+To gain an understanding of AI requires first understanding the history 
+of AI. Computers, as we know them today, had a very humble beginning 
+in the 1600s when Blaise Pascal, known for his skills as a mathematician, 
+invented the Pascaline, a mechanical calculating machine that worked as a 
+tax calculator.2 Thus began the process of using calculations to improve busi-
+ness functions. In 1837, Charles Babbage and Ada Lovelace designed the first 
+programmable engines: the Difference Engine, which was designed as a cal-
+culator, and the Analytical, which led to the more modern-day computers that 
+were programmed using punch cards.3 These inventions paved the way for 
+the modern era of AI.
+artificial intelligence (AI):  The 
+ability to mimic or duplicate the 
+functions of the human brain.
+Why Learn About Artificial Intelligence  
+(AI) and Automation?
+Artificial intelligence (AI) has been in development for more than sixty years. During this time, advances 
+in AI technology have affected our daily lives—both at home and in business. What is artificial intelli-
+gence, and how does a computer become intelligent? What types of careers are available, and what do 
+you need to be successful in an AI field? We need to understand how automation will affect each industry 
+and how to prepare for it. Will jobs be lost due to automation, or will new jobs be created? As we look to 
+the future, it is important for organizations and managers to understand artificial intelligence and automa-
+tion and their applications, including how these fields will continue to develop.
+404
+part 3 • Business Information Systems
+Kevin Johnson, MD, MS, chair of biomedical informatics at Vanderbilt, uses machine 
+learning to deliver precision medicine and improve public health. Vanderbilt is using AI 
+in many projects, such as streamlining workflows, personalizing care, and reducing care 
+disparities. They are also working with GE Healthcare on a five-year project researching 
+immunotherapy for cancer patients.
+The use of artificial intelligence and machine learning is growing rapidly in the health-
+care field as evidenced by the work of MIT, Brigham and Women’s Hospital, and Vanderbilt 
+University Medical Center. As more research is conducted and the data grows, so too will 
+the knowledge base for artificial intelligence. Who knows how far this will take us. Where 
+do you see healthcare going in the next ten years?
+As you read about artificial intelligence and automation,  
+consider the following:
+• What forms of artificial intelligence are organizations using today, and how are 
+they being used?
+• What are the potential impacts on society as a whole as artificial intelligence and 
+machine learning continue to develop?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 427
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+405
+As shown in Figure 11.1, AI developed quickly through the decades since 
+the 1640s from 1642 to 2018.4 In 1943, Warren McCulloch and Walter Pitts 
+established the parallel between the brain and computers, marking the foun-
+dation of neural networks. This will be discussed later in the chapter.
+FIGURE 11.1
+Timeline of artificial intelligence
+Historical time of artificial intelligence development.
+Source: “History of Artificial Intelligence,” https://qbi.uq.edu.au/brain/intelligent-machines/history-artificial-intelligence, Queensland Brain Institute.
+First mechanical
+calculating machine
+built by Blaise
+Paschal, French
+inventor and
+mathematician.
+First design for a
+programmable
+machine created by
+Charles Babbage
+and Ada Lovelace.
+Basis for neural networks
+established by Warren
+McCulloch and Walter
+Pitts, drawing similarities
+between the brain and
+computing machines.
+The term “Artificial
+intelligence” came
+out of an academic
+conference on the
+topic.
+Expert systems
+developed by Edward
+Feigenbaum to emulate
+decision making of
+human experts.
+1642
+1837
+1943
+1950
+1955
+1965
+1980s
+The Turing test–
+a way to test a
+machine’s
+intelligence–
+introduced by
+Alan Turing.
+ELIZA, the
+natural language
+program
+handling
+dialogue on any
+topic, is created.
+Roomba, an autonomous
+vacuum cleaner,
+launched by iRobot.
+IBM’s Watson beats
+winners of US game
+show Jeopardy!
+Artificial
+Intelligence
+courses taught
+at most
+colleges and
+universities.
+1997
+2002
+2009
+2011
+2011–2014
+2014
+2016
+2018
+Deep Blue, a
+computer
+program, defeats
+world chess
+champion Garry
+Kasparov.
+First self-driving car for
+urban driving conditions
+built by Google.
+Personal assistants
+like Siri, Google Now,
+and Cortona use
+speech recognition to
+answer questions and
+perform tasks.
+Generative
+Adversarial
+Networks
+(GAN)
+developed by
+Ian Goodfellow.
+AlphaGo
+beats
+professional
+Go player
+Lee Sedol.
+In 1950, Alan Turing, a mathematician who later became known as the 
+father of modern computer science, developed a way to test a machine’s intel-
+ligence. His thought was that if the machine could trick a person into thinking 
+it was human, then the machine was intelligent. Turing’s initial conclusion was 
+that there was not enough memory and storage available, at the time, and also 
+human’s ability to experience emotions and originality in their work. However, 
+he also believed his initial proposal would be realized within fifty years.5 The 
+Turing Test has not been realized, meaning that there has been no officially 
+confirmed case of a computer being mistaken for a human, but other expert 
+systems may offer a different solution. Expert systems are discussed later in 
+this chapter.
+The 1960s brought several robotic innovations, including Unimate, the first 
+industrial robot, which in 1961 was put to use in General Motor (GM) factories, 
+replacing humans on some parts of GM’s assembly lines. In 1964, a chatbot 
+called ELIZA that could hold conversations with humans was developed by 
+Joseph Weizenbaum at MIT.6 In 1966, Shakey the Robot (shown in Figure 11.2) 
+was created. Shakey could perform tasks that involved rearranging simple 
+objects and planning routes. Shakey was shown to have the ability to “perceive 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 428
+
+part 3 • Business Information Systems
+406
+and reason about its surroundings,” and in 1970, Life magazine referred to it 
+as the “first electronic person.”7
+Over the next twenty years, the development of AI seemed to stall. Research 
+continued, but there was much work to be done. There had to be a distinc-
+tion between AI and machine learning. Researchers had determined that AI 
+operated on a set of rules, and machine learning used data to determine the 
+next step in the process. In order to make it work, they had to learn how to 
+program the rules to make the AI work properly. The difference with machine 
+learning is that the machine is learning while it is being used. Once this was 
+understood, the work with AI could resume with a new focus on the program-
+ming of artificial intelligence.
+In the late 1990s, IBM challenged world chess champion Gary Kasparov 
+to an epic man-versus-machine battle against its supercomputer dubbed Deep 
+Blue. In May 1997, Deep Blue claimed victory after an extended six game 
+match—claiming two wins, one loss, and three draws. Deep Blue became the 
+inspiration for Watson.8
+Over the next ten years, many robotic toys and household appliances were 
+released on the market—each making use of more advanced AI technology 
+than the last. AiBO, a robotic dog first released in 1999, has a personality that 
+continues to develop as a child plays with it. AI-assisted appliances such as the 
+Roomba, which can vacuum a home without damaging furniture and walls by 
+learning how to navigate around these items, became more common starting 
+in the early 2000s.9
+FIGURE 11.2
+Shakey the Robot
+Shakey the Robot is known as the 
+“first electronic person.”
+Source: By Marshall Astor from San Pedro, 
+United States—Cropped (by uploader, 
+User: Sanchom) version of Shakey-Robot, 
+CC BY-SA 2.0, https://commons.wikimedia.
+org/w/index.php?curid=3627201
+Ralph Crane/The LIFE Picture Collection/Getty Images
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 429
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+407
+The next big advancement in AI came in 2011 when IBM’s Watson defeated 
+two prior Jeopardy champions. To prepare for the game, IBM programmers had 
+to give Watson the ability to do natural language processing so that it would 
+understand the nature of each question and be able to formulate a reply in the 
+form of a question.10 Natural language is discussed later in the chapter.
+The last decade has seen rapid growth in the use of AI applications in 
+business settings and in the daily lives of consumers. Applications such as Siri, 
+Cortana, and Alexa provide assistance with everything from the weather to 
+directions to shopping. With these applications, users can simply ask a question 
+to get an answer based on their location and preferences. AI continues to move 
+forward, and in this chapter, we will look at how these developments are likely 
+to impact information technology, our careers, and our daily lives.
+Artificial Intelligence in Perspective
+Computers were originally designed to perform simple mathematical opera-
+tions, using fixed programmed rules and eventually operating at millions of 
+computations per second. When it comes to performing mathematical opera-
+tions quickly and accurately, computers beat humans hands down. However, 
+computers still have trouble recognizing patterns, adapting to new situa-
+tions, and drawing conclusions when not provided complete information—all 
+activities that humans can perform quite well. Artificial intelligence systems 
+tackle these sorts of problems. Artificial intelligence (AI) systems include 
+the people, procedures, hardware, software, data, and knowledge needed to 
+develop computer systems and machines that can simulate human intelligence 
+processes, including learning (the acquisition of information and rules for 
+using the information), reasoning (using rules to reach conclusions), and self-­
+correction (using the outcome from one scenario to improve its performance 
+on future scenarios).
+AI is a complex and interdisciplinary field that involves several specialties, 
+including biology, computer science, linguistics, mathematics, neuroscience, 
+philosophy, and psychology. The study of AI systems causes one to ponder 
+philosophical issues such as the nature of the human mind and the ethics of 
+creating objects gifted with human-like intelligence. Today, AI systems are 
+used in many industries and applications. Researchers, scientists, and experts 
+on how human beings think are often involved in developing these systems.
+Nature of Intelligence
+From its earliest stages, the emphasis of much AI research has been on develop-
+ing machines with the ability to “learn” from experiences and apply knowledge 
+acquired from those experiences; to handle complex situations; to solve prob-
+lems when important information is missing; to determine what is important 
+and to react quickly and correctly to a new situation; to understand visual 
+images, process and manipulate symbols, and be creative and imaginative; and 
+to use heuristics—all of which together is considered intelligent behavior.
+As described above, the Turing Test was developed to determine if a com-
+puter could convince humans that they were conversing with another human 
+rather than a computer. Since 1951, there has been no declared winner of this 
+award. Some have questioned if the Google Duplex, an AI device that speaks 
+for a user with the help of Google Assistant, may have beat the Turing Test due 
+to the successful completion of a phone call to schedule a hair salon appoint-
+ment. In a competition, completed before a live audience, Google Duplex was 
+given the information to ask for an appointment and accept the time given. 
+Some would say yes, as the salon receptionist did not know she was talking 
+with a computer and conducted business as usual. Some would say no, as the 
+call was made in front of an audience and an appointment is more of a scripted 
+type of call.11
+artificial intelligence (ai) 
+system:  The people, procedures, 
+hardware, software, data, and 
+knowledge needed to develop 
+computer systems and machines 
+that can simulate human intelligence 
+processes, including learning (the 
+acquisition of information and rules 
+for using the information), reasoning 
+(using rules to reach conclusions), 
+and self-correction (using the outcome 
+from one scenario to improve its 
+performance on future scenarios).
+intelligent behavior:  The ability 
+to learn from experiences and apply 
+knowledge acquired from those 
+experiences; to handle complex 
+situations; to solve problems when 
+important information is missing; to 
+determine what is important and to 
+react quickly and correctly to a new 
+situation; to understand visual images, 
+process and manipulate symbols, and 
+be creative and imaginative; and to use 
+heuristics.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 430
+
+part 3 • Business Information Systems
+408
+Starting in 1991, Hugh Loebner and the Cambridge Centre for Behavioural 
+Studies began hosting a Turing Test contest—one of many contests in existence 
+today that allows businesses and individuals to compete and showcase their 
+chatbots to determine if they can pass the Turing Test. In 2014, the Society 
+for the Study of Artificial Intelligence and Simulation of Behaviour (AISB), the 
+world’s first AI society, took over running the contest, which is a blind com-
+petition, meaning that both humans and computers are behind curtains while 
+judges converse with them via computer chat. Both humans and computers are 
+trying to convince the panel of judges that they are human. No computer has 
+been successful; however, all humans who have taken part in the contest have 
+successfully convinced the judges they were human—though some by a very 
+slim margin. As of 2019, this is no longer a formal contest; instead, the prize 
+will be awarded by a combine jury and public vote.12
+Some of the specific characteristics of intelligent behavior include the abil-
+ity to do the following:
+• Learn from experience and apply the knowledge acquired from 
+experience. Learning from past situations and events is a key compo-
+nent of intelligent behavior and is a natural ability of humans, who learn 
+by trial and error. This ability, however, must be carefully programmed 
+into a computer system. Today, researchers are developing systems 
+that can “learn” from experience. The 20 Questions (20Q) Website, 
+www.20q.net (see Figure 11.3), is an example of a system that learns.13 
+The Web site is an AI game that learns as people play.
+FIGURE 11.3
+The 20Q Website
+20Q is a game where users play the 
+popular game 20 Questions against 
+an ai foe.
+Source: www.20q.net
+• Handle complex situations. In a business setting, top-level managers 
+and executives must handle a complex market, challenging competitors, 
+intricate government regulations, and a demanding workforce. Even 
+human experts make mistakes in dealing with these matters. Very careful 
+planning and elaborate computer programming are necessary to develop 
+systems that can handle complex situations.
+• Solve problems when important information is missing. An integral 
+part of decision making is dealing with uncertainty. Often, decisions 
+must be made with little or inaccurate information because obtaining 
+complete information is too costly or impossible. Today, AI systems can 
+make important calculations, comparisons, and decisions even when 
+information is missing. However, it must be noted that the decisions 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 431
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+409
+made by an AI system are only as good as the data. A decision will be 
+based only on the information available to the system. If vital data is 
+missing, it will have an impact on the quality of the decision. This is 
+much like how humans make decisions: We process the information 
+we have available and make the best possible decision. As more data 
+becomes available, the outcome may change.
+• Determine what is important. Knowing what is truly important is the 
+mark of a good decision maker. Humans can reprogram their thought 
+process and overlook extraneous data to determine what is important. 
+Developing programs and approaches to allow computer systems and 
+machines to identify important information is not a simple task. Algo-
+rithms are programmed to “weed out” the bad data and identify the good 
+data. If the algorithms are not programmed correctly, the computer will 
+not know to overlook incorrect data.
+• React quickly and correctly to a new situation. A small child, for 
+example, can look over an edge and know not to venture too close. The 
+child reacts quickly and correctly to a new situation. On the other hand, 
+without complex programming, computers do not have this ability.
+• Understand visual images. Interpreting visual images can be extremely 
+difficult, even for sophisticated computers. Moving through a room of 
+chairs, tables, and other objects can be trivial for people but extremely 
+complex for machines, robots, and computers. Such machines require an 
+extension of understanding visual images, called a perceptive system. 
+Having a perceptive system allows a machine to approximate the way a 
+person sees, hears, and feels objects.
+• Process and manipulate symbols. People see, manipulate, and process 
+symbols every day. Visual images provide a constant stream of informa-
+tion to our brains. By contrast, computers cannot intuitively handle sym-
+bolic processing and reasoning. Although computers excel at numerical 
+calculations, they must have extensive programming to dealing with sym-
+bols and three-dimensional objects. Recent developments in computer-­
+vision and machine-vision hardware and software, however, allow some 
+computers to process and manipulate certain symbols. Machine-vision 
+uses cameras to view an image, and computer-vision uses programmed 
+algorithms to interpret the images.
+• Be creative and imaginative. Throughout history, some people have 
+turned difficult situations into advantages by being creative and imagina-
+tive. For instance, when defective mints with holes in the middle arrived 
+at a candy factory, an enterprising entrepreneur decided to market these 
+new mints as LifeSavers instead of returning them to the manufacturer. 
+Ice cream cones were invented at the St. Louis World’s Fair when an 
+imaginative store owner decided to wrap ice cream with a waffle from 
+his grill for portability. Developing new products and services from an 
+existing (perhaps negative) situation is a human characteristic. While 
+software has been developed to enable a computer to write short stories, 
+few computers can be imaginative or creative in this way.
+• Use heuristics. For some decisions, people use heuristics, a trial-and-­
+error method of problem solving. Some computer systems obtain good 
+solutions to complex problems (e.g., scheduling the flight crews for a 
+large airline) based on heuristics rather than trying to search for an opti-
+mal solution, which might be technically difficult or too time consuming.
+Expert Systems
+Expert systems were the precursor of the modern AI systems.14 Expert systems 
+are the decision-making computer systems in AI (see Figure 11.4), and they 
+are designed to be the most advanced and most reliable in solving complex 
+perceptive system:  A system that 
+approximates the way a person sees, 
+hears, and feels objects.
+heuristics:  A trial-and-error method 
+of problem solving used when an 
+algorithmic or mathematical approach 
+is not practical.
+expert systems:  The decision-
+making computer systems in AI, 
+designed to be the most advanced 
+and most reliable in solving complex 
+problems.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 432
+
+part 3 • Business Information Systems
+410
+problems, and they work in a specific domain. These systems must be pro-
+grammed for their issues, as this decision making uses both facts and heuristics 
+to solve the level of problems that would take the highest level of human intel-
+ligence and expertise to solve. We are seeing many advances in expert systems 
+in the medical field today, as discussed in the opening case.
+Characteristics of Expert Systems
+Expert systems must be able to perform whenever they are needed, and the 
+results must be accurate. The programming of such systems is highly complex 
+and can be compared to the intelligence level of the experts, who rely on the 
+results. When working on a complex project, the department, or lab, will take 
+on certain characteristics, such as executing a highly developed plan with 
+the speed and accuracy to make critical decisions when necessary. A good 
+example of this is preparing an operating room for a patient. When preparing 
+for a major surgical procedure, the medical staff has a process they follow to 
+ensure that the patient is prepared for surgery and all equipment is properly 
+sterilized and ready for use. The surgical team has to be highly effective and 
+reliable so the doctors can focus on the patient. When the patient arrives in the 
+operating room, the room has to be ready, and the tone of the room changes, 
+as the patient must be treated professionally and should see and hear only 
+certain information. If the procedure changes, either before or during the 
+surgery, the team must be able to process that information quickly and make 
+the critical decisions necessary to ensure the patient receives the best medical 
+care. All expert systems have the following characteristics: highly effective, 
+understandable, reliable, able to process data quickly, and capable of critical 
+decision making. These characteristics are described in more detail in the fol-
+lowing sections, but note that an expert system may also require additional 
+characteristics depending the application or domain the system is programmed 
+for, such as the medical or financial industries.
+Highly Effective
+For a system to be considered “expert,” it must be capable of handling complex 
+algorithms with large data sets in a reasonable amount of time. If a human 
+expert is able to process the data faster than the program, with accurate results, 
+then the program will be considered obsolete and will no longer be useful. The 
+system must be efficient and easy to use to remain an expert system.
+FIGURE 11.4
+Expert systems
+Expert systems analyze com-
+plex problems to deliver reliable 
+solutions.
+Research
+Trust
+Advise
+Team
+Knowledge
+Consulting
+Expert
+Hilch/Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 433
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+411
+Understandable
+For information to be useful, it must be accurate and understandable. For instance, 
+if you take a quiz in a class, and the only feedback you receive from your instruc-
+tor is “Some answers are correct, and some answers are incorrect,” not only will 
+you not know what grade you received on the quiz, you will also not know what 
+areas to focus on when studying for the final exam. You need clear and precise 
+results, such as “You answered questions 5 and 7 incorrectly, the correct answers 
+are B and D, and your grade on the quiz is 93. In the same way, an expert system 
+must give an understandable report for it to be of use. In this chapter’s opening 
+case, we saw that improvements are being made on ways to help physicians 
+reduce time working at their desks by interpreting results from the EHR systems. 
+These results must be understandable, or the patient’s health will suffer.
+Reliable
+Not only does the results from an expert system have to be understandable, it 
+also has to be reliable. In the healthcare industry, accurate and reliable results 
+can be the difference between life and death. Airlines use expert systems in 
+scheduling their daily routes and managing some of the world’s largest airports. 
+If these systems do not have reliable information, planes may not arrive at the 
+correct airport, or they may all arrive at the same time.
+Able to Process Data Quickly
+Expert systems must be able to process large data sets quickly and efficiently. 
+Expert systems often work with data sets that are measured in terabytes, peta-
+bytes, or even exabytes. This data may come from multiple sources and require 
+the expert system to process nonstandard data types, such as images, videos, 
+or recordings. The expert system must be able to perform this type of highly 
+complex processing rapidly to remain useful to the organization.
+Capable of Critical Decision Making
+Some expert systems are used to aid critical decision making. Such a system 
+may be used, for instance, to ensure the right person is hired for a dangerous or 
+stressful job, such as one in which the person has responsibility for the safety 
+of many other people. In the airline industry, the Aviation Expert System is 
+used to perform psychological assessments to ensure that pilots are capable of 
+handling the stress of knowing they are responsible for getting everyone on 
+board the planes they are flying safely to their destination. The GAPATS system 
+is another expert system used in the aviation industry. It was developed in the 
+late 1990s and is still in use today as a flight simulator designed to help train 
+pilots for any situation they may encounter in the air.15 The simulator is built on 
+an AI platform that simulates different scenarios, some of which were based on 
+actual plane crashes caused by the failure of existing computer models, requir-
+ing new algorithms to be built into the system. Today, expert systems handle 
+most routine tasks involved in the flying commercial airlines; these simulations 
+are used to train pilots on how to handle emergencies if they should occur.
+Capabilities of Expert Systems
+Organizations use expert systems to work more efficiently, save money, make 
+better decisions, and out-perform their competitors. The capabilities of expert 
+systems include aiding in decision making, such as in the area of human 
+resources. Companies that make use of expert systems in hiring may embed 
+questions in online job applications that are used by an expert system to decide 
+whether to accept or reject the application for further consideration based on 
+the job requirements. One company that develops AI recruiting software has 
+developed an algorithm for candidate sourcing that it claims can reduce hiring 
+time from 34 days to just 9 days.16
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 434
+
+part 3 • Business Information Systems
+412
+Data analysis, interpreting input, and justifying conclusions are other func-
+tions that may be performed by expert systems. Earlier in the chapter we 
+looked at how AI is being used in the medical industry. AI is also being used in 
+the financial industry to predict market trends, make determinations regarding 
+loan applications, and even predict election outcomes. These same systems also 
+offer alternative options to problems to keep business running efficiently and 
+promote customer relationships.
+Components of Expert Systems
+An expert system is made up of a collection of integrated and related compo-
+nents, including a knowledge base, a development engine, an inference engine, 
+an explanation facility, a knowledge base acquisition facility, and a user inter-
+face. A diagram of a typical expert system is shown in Figure 11.5.
+FIGURE 11.5
+Components of an expert 
+system
+An expert system includes a knowl-
+edge base, a development engine, 
+an inference engine, an explanation 
+facility, a knowledge base acquisi-
+tion facility, and a user interface.
+Expert
+System
+User
+Interface
+Knowledge
+Base
+Acquisition
+Facility
+Explanation
+Facility
+Knowledge
+Base
+Development
+Engine
+Inference
+Engine
+As shown in the figure, the user interacts with the user interface, which 
+interacts with the inference engine. The inference engine interacts with the 
+other expert system components to provide expertise. This figure also shows 
+the inference engine coordinating the flow of knowledge to other components 
+of the expert system.
+Knowledge Base
+The knowledge base stores all relevant information, data, rules, cases, and 
+relationships that the expert system uses. The information captured is the 
+knowledge that experts use to make complex decisions. If the information 
+gathered is not complete, then the decisions will not be accurate. As shown 
+in Figure 11.6, a knowledge base is a natural extension of a database and an 
+information and decision-support system. A knowledge base must be devel-
+oped for each unique expert system application. Rules and cases are frequently 
+used to create a knowledge base.
+knowledge base:  A component 
+of an expert system that stores all 
+relevant information, data, rules, cases 
+and relationships used by the expert 
+system. 
+FIGURE 11.6
+Relationships between data, 
+information, and knowledge
+A knowledge base stores all rele-
+vant information, data, rules, cases, 
+and relationships that an expert 
+system uses.
+Database
+raw
+facts
+Information and decision support
+information
+Knowledge base
+patterns and
+relationships
+Increasing understanding
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 435
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+413
+A rule is a conditional statement that links conditions to actions or out-
+comes. In many instances, these rules are stored as IF-THEN statements, 
+which are rules that suggest certain conclusions. The FICO Blaze Advisor sys-
+tem is a rules-based platform that allows business users to develop and test 
+rule-based decision applications. The platform is used by clients to build expert 
+systems for benefits eligibility determination, insurance underwriting, regula-
+tory compliance monitoring, and personal and commercial lending—among 
+other uses.17
+A case-based system can also be used to develop a solution to a current 
+problem or situation. In such a system, each case typically contains a descrip-
+tion of the problem, plus a solution and/or the outcome. The case-based solu-
+tion process involves (1) finding cases stored in the knowledge base that are 
+similar to the problem or situation at hand, (2) reusing the case in an attempt 
+to solve the problem at hand, (3) revising the proposed solution if necessary, 
+and (4) retaining the new solution as part of a new case. A washing machine 
+repairman who fixes a washer by recalling another washer that presented sim-
+ilar symptoms is using case-based reasoning, so is the lawyer who advocates 
+a particular outcome in a trial based on legal precedents.
+Development Engine
+AI runs on rules and processes, and those sets of rules and processes are 
+created by the development engine component of the expert system. These 
+rules and processes are usually built using one of two approaches. The first 
+approach is to use a processor as a shell to work on specific problems by add-
+ing the necessary knowledge base. These shells can produce an expert system 
+faster than using a traditional programming language to reprogram a system 
+for each new question.18
+The second approach involves using traditional programming language 
+to develop the expert system. This approach requires using a human’s expert 
+knowledge and developing a plan for the system. Then programming and 
+testing must take place, which may take days, weeks, or months based on the 
+complexity of the system. Some of the major programming languages used in 
+AI are Python, Java, and C++.
+Inference Engine
+The main purpose of an inference engine is to seek information and rela-
+tionships from the knowledge base and to provide answers, predictions, and 
+suggestions. Inference engines are considered one of the most important com-
+ponents of an expert system, as these predictions and suggestions often take the 
+place of human experts. In other words, the inference engine is the component 
+that delivers the expert advice. Consider the expert system that forecasts future 
+sales for a product. One approach is to start with a fact such as “The demand for 
+the product last month was 20,000 units.” The expert system searches for rules 
+that contain a reference to product demand. For example, “IF product demand 
+is over 15,000 units, THEN check the demand for competing products.” The 
+programming in the expert system would use information on the demand for 
+competitive products. Next, after searching additional rules, the expert system 
+might use information on personal income or national inflation rates. This pro-
+cess continues until the expert system can reach a conclusion using the data 
+supplied by the user and the rules that apply in the knowledge base.
+Inference engines process a massive amount of data. The engine applies 
+rules to the facts and adds new knowledge to the knowledge base, if it is 
+required. If there is a conflict, multiple rules may have to be applied. As such, 
+the engine must use one of two strategies (forward chaining or backward 
+chaining) to process data and provide an answer, prediction, or suggestion.
+Forward chaining follows a set of known facts to make decisions. For 
+each fact, there is a set number of outcomes. The knowledge base is consulted, 
+rule:  A conditional statement 
+that links conditions to actions or 
+outcomes.
+if-then statement:  A rule that 
+suggests certain conclusions.
+development engine:  Engine that 
+builds the sets of rules and processes 
+used by AI systems.
+inference engine:  Part of the 
+expert system that seeks information 
+and relationships from the knowledge 
+base and provides answers, 
+predictions, and suggestions, often 
+taking the place of the human experts.
+Forward chaining:  A strategy used 
+by the inference engine to process 
+data using a set of known facts to 
+make decisions.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 436
+
+part 3 • Business Information Systems
+414
+and the next decision is made. The process continues until a conclusion is 
+reached. This can be a long process, depending on how complex the problem 
+is and how many possible outcomes there are for each question. For each 
+decision, the knowledge base is consulted, and the data must be processed. 
+This is the slowest of the two strategies.
+Backward chaining looks at what has already happened and works back-
+ward to find out how the decision was made. The same facts, decisions, and 
+outcomes are in the knowledge base, but the process is in reverse order. This 
+makes the processing much faster, as the conclusion is known, and the number 
+of iterations is reduced. The forward chain looks into what happens next, but 
+the backward chain determines why something happened.19 Backward chain-
+ing is used to prove a conclusion. This information can be used to design new 
+systems and faster response times for future decisions.
+Explanation Facility
+Another important part of an expert system is the explanation facility, which 
+allows a user or decision maker to understand how the expert system arrived 
+at certain conclusions or results. A medical expert system, for example, might 
+reach the conclusion that a patient has a defective heart valve given certain 
+symptoms and the results of tests conducted on the patient. The explanation 
+facility allows a doctor to find out the logic or rationale of the diagnosis made 
+by the expert system. The expert system, using the explanation facility, can 
+indicate all the facts and rules that were used in reaching the conclusion, which 
+the doctors can look at to determine whether the expert system is processing 
+the data and information correctly and logically.
+Knowledge Acquisition Facility
+A challenging aspect of developing a useful expert system is the creation and 
+updating of the knowledge base. In the past, when more traditional program-
+ming languages were used, developing a knowledge base was tedious and time 
+consuming. Each fact, relationship, and rule had to be programmed—usually 
+by an experienced programmer.
+Today, specialized software allows users and decision makers to create 
+and modify their own knowledge bases through the knowledge acquisition 
+facility, using user-friendly menus. The purpose of the knowledge acquisition 
+­facility is to provide a convenient and efficient means of capturing and storing 
+all components of the knowledge base. The knowledge acquisition facility acts 
+as an interface between experts and the knowledge base.
+User Interface
+The main purpose of the user interface is to make an expert system easier for 
+users and decision makers to develop and use. At one time, skilled computer 
+personnel created and operated most expert systems; today, simplified user 
+interfaces permit decision makers to develop and use their own expert systems. 
+A user interface is made up of two parts: input and output. The input allows 
+for the user to input the commands, scan images, and give verbal instructions to 
+the program. The output allows for the system to ask for additional input from 
+the user, show errors, and provide solutions and decisions for the given task.
+Participants in Developing and Using Expert Systems
+Typically, several people are involved in developing and using an expert sys-
+tem. The domain expert is the person or group with the expertise or knowl-
+edge the expert system is trying to capture (domain). In most cases, the domain 
+expert is a group of human experts. A knowledge engineer is a person who 
+has training or experience in the design, development, implementation, and 
+maintenance of an expert system, including training or experience with expert 
+system shells. Knowledge engineers can help transfer the knowledge from the 
+backward chaining:  A strategy 
+used by the inference engine to 
+determine how a decision was made.
+explanation facility:  Component 
+of an expert system that allows a user 
+or decision maker to understand how 
+the expert system arrived at certain 
+conclusions or results.
+knowledge acquisition 
+facility:  Part of the expert system 
+that provides a convenient and efficient 
+means of capturing and storing all the 
+components of the knowledge base.
+domain expert:  The person or 
+group with the expertise or knowledge 
+the expert system is trying to capture 
+(domain). 
+knowledge engineer:  A person 
+who has training or experience in the 
+design, development, implementation, 
+and maintenance of an expert system.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 437
+
+Chapter 11 • Artificial Intelligence (AI) and Automation
+415
+expert system to the knowledge user. The knowledge user is the person or 
+group who uses and benefits from the expert system. Knowledge users do not 
+need any previous training in computers or expert systems.
+Vision Systems
+Another area of AI involves vision systems, which include hardware and 
+software that permit computers to capture, store, and process visual images. 
+A rise in Industrial Internet of Things (IIoT) has resulted in a new generation 
+of vision systems, which allow machines to communicate with each other and 
+process information in a fast-paced automated environment. IIoT is used more 
+in industrial settings and applications, with a focus on machine learning, big 
+data, and communication. Manufacturing has long involved automated pro-
+cesses, and the automotive industry relies on 3D vision applications for deter-
+mining the direction robots should move. Camera placement is crucial for the 
+3D applications to provide the most accurate information, and the use of these 
+camera and recorded images assist in quality control and the end of production 
+control. Robots, discussed later in the chapter, are used in manufacturing, and 
+vision systems, with the use of captured images, are able to determine what 
+is moving in and around the manufacturing lines. This includes both products 
+and persons. When humans, such as inspectors, are moving around the pro-
+duction lines, the robot will stop if it determines a collision with the human 
+is unavoidable. Otherwise, the robot will not stop, and the plant continues to 
+work efficiently.20
+Augmented reality (AR) is a type of vision system that is being used 
+widely in the medical field. Augmented reality is different from virtual reality, 
+which has been used in business and in homes for many years. Virtual reality 
+allows for the user to take tours or “walk through” different scenes without 
+leaving their chair. For example, if you wanted to walk around the Statue of 
+Liberty, a virtual reality app would allow you to sit on your sofa and take a 
+tour. Augmented reality would place the Statue of Liberty in your living room 
+and you could walk around it by using your mobile device app.
+AR takes a computer-generated image and superimposes it on a user’s view 
+of the real world through the use of specialized glasses or goggles, as shown 
+in Figure 11.7. Most surgeons rely on 2D images in the surgical suite. The sur-
+geons rely on their memory and skill to pull the individual images together into 
+one image when operating. AR uses AI algorithms along with 3D anatomical 
+algorithms to create images that can be seen with the use of special goggles. 
+These images can then be overlaid onto the patient, and multiple surgical 
+knowledge user:  The person or 
+group who uses and benefits from the 
+expert system.
+vision system:  The hardware and 
+software that permit computers to 
+capture, store, and manipulate visual 
+images. 
+augmented reality (AR):  Vision 
+system software that takes computer-
+generated images and superimposes 
+them on a user’s view of the world 
+through the use of specialized glasses 
+or goggles.
+FIGURE 11.7
+Surgeons use augmented 
+reality goggles in surgery
+AR goggles allow surgeons to 
+superimpose images onto the real 
+world by using specialized goggles 
+during surgery to provide better 
+visualization.
+Gorodenkoff/Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 438
+
+part 3 • Business Information Systems
+416
+personnel can see the same overlay by wearing AR goggles, which provide 
+more than just images. Chart information and real-time information, such as the 
+patient’s heart rate, can be fed directly into the display so doctors do not have 
+to divert their attention to monitors or charts during the procedures. AR has 
+also proven to be a great tool for training physicians by providing skills-based 
+labs in a virtual environment.21
+Other AI Applications
+Other AI applications include genetic algorithms, which was inspired by 
+evolutionary biology. Genetic algorithm makes use of selection, mutation, and 
+recombination to solve problems, much like the “survival of the fittest” concept 
+of evolution.22 The genetic algorithm uses a fitness function that quantitatively 
+evaluates a set of initial candidate solutions. The highest-scoring candidate 
+solutions are allowed to “reproduce,” with random changes introduced to cre-
+ate new candidate solutions. These digital offspring are subjected to a second 
+round of fitness evaluation. Again, the most promising candidate solutions 
+are selected and used to create a new generation with random changes. The 
+process repeats for hundreds or even thousands of rounds. The expectation 
+is that the average fitness of the population will increase each round and that 
+eventually very good solutions to the problem will be discovered.
+Genetic algorithms have been used to solve large, complex scheduling 
+problems, such as scheduling airline crews to meet flight requirements while 

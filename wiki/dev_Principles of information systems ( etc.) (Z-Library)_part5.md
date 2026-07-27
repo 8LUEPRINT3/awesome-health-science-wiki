@@ -1,0 +1,3006 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 5
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+program that converts the 
+programmer’s source code into the 
+machine-language instructions, which 
+consist of binary digits.
+Language
+Application 
+Software
+System 
+Software
+Embedded 
+Systems
+Websites
+Data 
+Analysis
+Games
+Assembly
+X
+C
+X
+X
+X
+X
+X
+X
+C ++
+X
+X
+X
+X
+CSS
+X
+HTML
+X
+Java
+X
+X
+X
+X
+X
+Java Script
+X
+Perl
+X
+PHP
+X
+Python
+X
+X
+X
+R
+X
+SAS
+X
+SQL
+X
+Tab le 4.12  Popular programming languages and what they are used to build
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 179
+
+Chapter 4 • Hardware and Software
+157
+Software Licenses
+When people purchase software, they do not own the software, but rather 
+they are licensed to use the software on a computer. The End User License 
+Agreement (EULA) is the legal agreement between the software manufacturer 
+and the user of the software that stipulates the terms of usage. The EULA is 
+displayed with the installation dialog and requires the user to “Accept” the 
+terms of the EULA to complete installation. The EULA is written to protect the 
+software manufacturer and generally disclaims all liabilities for loss of data 
+and errors in calculation when the software is running. Software users are 
+also prohibited from copying the software or giving it to others. Licenses that 
+accommodate multiple users are usually provided at a discounted price. There 
+are three primary types of end user licenses:
+• A single-user license allows the program to be installed and used on one 
+CPU that is not accessed by other users over a network. The software can 
+be used only on a single computer, and other users cannot access or run 
+the software while connected to your computer.
+• Individual/multiuser licenses are volume licenses that allow the licensee 
+to install the software on a certain number of computers. The licensee 
+must satisfy a minimum purchase requirement to receive a reduced price. 
+When purchasing the licenses, the licensee usually receives one copy of 
+the media and documentation, with the option of purchasing more.
+• Network/multiuser licenses require that you have a single copy of the 
+software residing on a file server. With per server licensing, a specified 
+number of client access licenses (CALs) are associated with a particular 
+server. The number of devices that can legally access that server simul-
+taneously is limited to the number of CALs purchased for that particular 
+server.
+Bitmanagement Software, a German software manufacturer, accused the 
+U.S. Navy of copying some 558,000 copies of its 3D modelling software BS 
+Contract without purchasing the necessary software licenses. The firm filed suit 
+in the U.S. Court of Federal Claims seeking damages of $596 million or about 
+$1,067 per copy.48
+Open-Source Software
+Open-source software is software that is distributed, typically for free, with 
+the source code also available so that it can be studied, changed, and improved 
+by its users. Over time, open-source software evolves in response to the com-
+bined contributions of its users. The Code For America (CFA) organization, for 
+example, used open-source software to develop a map-based app for the city of 
+Boston that allows individuals, small businesses, and community organizations 
+to volunteer to shovel out specific hydrants that might be completely covered 
+with snow in the winter. After creating the app for Boston, CFA made its efforts 
+available for free to other cities and municipalities. Table 4.13 provides exam-
+ples of popular open-source software applications.
+Open-source software is not completely devoid of restrictions. Much of 
+the popular free software in use today is protected by the GNU General Public 
+License (GPL). The GPL grants you the right to do the following:
+• Run the program for any purpose
+• Study how the program works and adapt it to your needs
+• Redistribute copies so you can help others
+• Improve the program and release improvements to the public
+Why would an organization run its business using software that’s free? Can 
+something that’s given away over the Internet be stable, reliable, or sufficiently 
+supported to place at the core of a company’s day-to-day operations? The 
+end user license agreement 
+(eula):  The legal agreement 
+between the software manufacturer 
+and the user of the software that 
+stipulates the terms of usage.
+open-source software:  Software 
+that is distributed, typically for free, 
+with the source code also available so 
+that it can be studied, changed, and 
+improved by its users.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 180
+
+part 2 • Technology Infrastructure
+158
+answer is surprising—many believe that open-source software is often more 
+reliable and secure than commercial software. How can this be? First, because 
+a program’s source code is readily available, users can fix any problems they 
+discover. A fix is often available within hours of a problem’s discovery. Second, 
+because the source code for a program is accessible to thousands of people, 
+the chances of a bug being discovered and fixed before it does any damage 
+are much greater than with traditional software packages.
+However, using open-source software does have some disadvantages. 
+Although open-source systems can be obtained for next to nothing, the up-front 
+costs are only a small piece of the total cost of ownership that accrues over 
+the years that the system is in place. Some claim that open-source systems 
+contain many hidden costs, particularly in terms for user support and debug-
+ging. Licensed software comes with guarantees and support services, whereas 
+open-source software does not. Still, many businesses appreciate the additional 
+freedom that open-source software provides. The question of software support 
+is typically the biggest stumbling block to the acceptance of open-source soft-
+ware at the corporate level. Getting support for traditional software packages 
+is easy—you call a company’s toll-free support number or access its Web site. 
+But how do you get help if an open-source package doesn’t work as expected? 
+Because the open-source community lives on the Internet, you look there for 
+help. Through the use of Internet discussion areas, you can communicate with 
+others who use the same software, and you might even reach someone who 
+helped develop it. Ideally, users of popular open-source packages can get 
+correct answers to their technical questions within a few hours of asking for 
+help on the appropriate Internet forum. Another approach is to contact one 
+of the many companies emerging to support and service such software—for 
+example, Red Hat for Linux and Sendmail, Inc., for Sendmail. These companies 
+offer high-quality, for-pay technical assistance.
+Burton Snowboards was founded in 1977 by Jake Burton, who sold his first 
+snowboards out of his Vermont barn. As part of an upgrade of the company’s 
+existing SAP and Oracle applications, Burton decided to migrate its operating 
+platform to SUSE Linux Enterprise Server, an open-source solution. SUSE, which 
+is certified by both SAP and Oracle, offered the company a highly dependable 
+and flexible platform for its business-critical systems. With SUSE, Burton is able 
+to quickly make its own updates to adapt to changing business needs, but it 
+also has access to ongoing support, including technical information and expert 
+Software
+Category
+Apache HTTP Server
+Web server
+Apache OpenOffice
+Application software
+Drupal
+Web publishing
+Firefox
+Web browser
+Gimp
+Photo editing
+Grisbi
+Personal accounting
+Linux
+Operating system
+MySQL
+Database software
+ProjectLibre Open Project
+Project management
+Tab l e 4.13  Examples of open-source software
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 181
+
+Chapter 4 • Hardware and Software
+159
+advice available through the SUSE Web site—all with the lower software cost 
+that an open-source solution offers.49
+Software Upgrades
+Software companies revise their programs periodically. Software upgrades, 
+which are an important source of increased revenue for software manufactur-
+ers, vary widely in the benefits that they provide, and what some people call a 
+benefit, others might call a drawback. Deciding whether to upgrade to a new 
+version of software can be a challenge for corporations and people with a large 
+investment in software. Some organizations choose not to immediately down-
+load the most current software version or upgrade unless it includes significant 
+improvements or capabilities. Most organizations have limited IS resources and 
+must balance effort spent on software upgrades and effort spent on new proj-
+ects expected to yield new business benefits. Often, software upgrade projects 
+are assigned lower priority.
+Developing a software upgrade strategy is important for many businesses. 
+American Express, for example, has standardized its software upgrade process 
+around the world to make installing updated software faster and more efficient. 
+The standardized process also helps the company make sure that updated 
+software is more stable, with fewer errors and problems.
+Architectural Firms Looks at Software as a Service
+ Finance
+You are a financial analyst for a mid-size architectural firm with some 100 
+employees located in three cities across the United States The firm consistently 
+earns over $30 million in annual revenue by providing engineering and design 
+services that cover a variety of structures and systems, from building brand new 
+facilities to renovating and rehabilitating those that already exist. It specializes in 
+providing exceptional design services for HVAC, electrical, piping, fire protection, 
+and lighting systems.
+The firm currently has a perpetual license for state-of-the-art computer-aided 
+design and drafting software for its 50 architects and engineers at a cost of $6,000 
+for each copy. The software is periodically in need of software patches to fix bugs 
+and/or security issues. These are provided at no additional cost. However, there is a 
+$400/year charge per user for technical support. Patches are centrally managed and 
+applied each quarter to all copies by a member of the firm’s IT staff. This typically 
+requires that an IT support person spend about 1 hour with each user and their 
+computer. The software manufacturer provides a major new release every three 
+years at an upgrade cost of $4,000.
+You have been asked to evaluate the advisability of moving to a software as a 
+service solution and paying a monthly fee $300 per user that includes all technical 
+support, software support, and upgrades to new releases.
+Review Questions
+1.	 What are the costs over a six-year period associated with the current arrange-
+ment? What would be the costs with the software as a service solution?
+2.	 What advantages are associated with the software as a service approach?
+Critical Thinking Questions
+1.	 What potential problems are associated with the software as a service approach?
+2.	 Would you recommend that the firm move from the current arrangement to a 
+software as a service approach? Why or why not?
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 182
+
+part 2 • Technology Infrastructure
+160
+Summary
+Principle:
+The computer hardware industry is rapidly changing and highly compet-
+itive, creating an environment ripe for technological breakthroughs.
+Computer hardware should be selected to meet specific user and business 
+requirements. These requirements can evolve and change over time.
+Computer system hardware components include devices that perform 
+input, processing, data storage, and output. These include the processor, mem-
+ory, buses, and input/output devices that all cooperate to execute program 
+instructions following a fetch, decode, execute, and store process.
+A multicore processor is one that combines two or more independent pro-
+cessors into a single computer so that the independent processors can share 
+the workload.
+Computer system processing speed is affected by clock speed, which is 
+measured in gigahertz (GHz). As the clock speed of the CPU increases, more 
+heat is generated, which can corrupt the data and instructions the computer is 
+trying to process. Bigger heat sinks, fans, and other components are required 
+to eliminate the excess heat. Chip designers and manufacturers are exploring 
+various means to avoid heat problems in their new designs.
+An integrated circuit—such as a processor or memory chip—is a set of 
+electronic circuits on one small chip of semiconductor material. A fab or 
+foundry is a factory where integrated circuits are manufactured. Fabless man-
+ufacturers outsource their manufacturing to foundry companies who fabricate 
+the design.
+Multiprocessing involves the simultaneous execution of two or more 
+instructions at the same time.
+Parallel processing is the simultaneous execution of the same task on mul-
+tiple processors to obtain results more quickly. Massively parallel processing 
+involves linking many processors to work together to solve complex problems.
+Grid computing is the use of a collection of computers, often owned by 
+multiple individuals or organizations that work in a coordinated manner to 
+solve a common problem.
+Principle:
+Computer hardware must be carefully selected to meet the evolving needs 
+of the organization and its supporting information systems.
+Computer systems are generally divided into three classes: single-user por-
+table computers, nonportable single-user systems, and multiuser systems.
+Single-user portable computer systems include smartphones, laptops, note-
+books, and tablets.
+Nonportable single-user systems include thin client, desktop, nettop, and 
+workstation computers. Some thin clients are designed to be highly portable.
+Multiuser systems include servers, blade servers, mainframes, and 
+supercomputers.
+Scalability is the ability to increase the processing capability of a computer so 
+that it can handle more users, more data, or more transactions in a given period.
+Principle:
+The computer hardware industry and users are implementing green com-
+puting designs and products.
+A server farm houses a large number of servers in the same room, where 
+access to the machines can be controlled and authorized support personnel 
+can more easily manage and maintain the servers.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 183
+
+Chapter 4 • Hardware and Software
+161
+A data center is a climate-and-access-controlled building or a set of build-
+ings that houses the computer hardware that delivers an organization’s data 
+and information services. The rapid growth in data centers is stimulated by the 
+increased demand for additional computing and data storage capacity and by 
+the trend toward consolidating from many data centers down to a few.
+Organizations and technology vendors are trying several strategies to lower 
+the ongoing cost of data center operations.
+The ability to absorb the impact of a disaster and quickly restore services 
+is a critical concern when it comes to planning for new data centers. As a 
+result, organizations may distribute their data centers over a wide geograph-
+ical area.
+The Uptime Institute has defined four tiers of data center classification to 
+enable organizations to quantify and qualify their ability to provide a predict-
+able level of performance. The classifications are based on expected annual 
+downtime, fault tolerance, and power outage protection.
+Green computing is concerned with the efficient and environmentally 
+responsible design, manufacture, operation, and disposal of IT-related products.
+Many business organizations recognize that going green can reduce costs 
+and is in their best interests in terms of public relations, safety of employees, 
+and the community at large.
+Three specific goals of green computing are to reduce the use of hazard-
+ous material, lower power-related costs, and enable the safe disposal and/or 
+recycling of IT products.
+The Electronic Product Environmental Assessment Tool can be used by 
+purchasers of electronic products to evaluate, compare, and select products 
+based on a set of environmental criteria.
+Principle:
+Software is valuable in helping individuals, workgroups, and entire enter-
+prises achieve their goals.
+Software can be divided into two types: system software and application 
+software.
+System software includes the operating system, utility programs, and mid-
+dleware that coordinate the activities and functions of the hardware and other 
+programs throughout the computer system.
+Application software consists of programs that help users solve computer 
+problems.
+The operating system is a set of programs that controls a computer’s hard-
+ware and acts as an interface with application software. It performs several 
+functions.
+An application programming interface is a set of programming instructions 
+and standards that enable one software program to access and use the services 
+of another software program.
+There are many different operating systems designed to work in the per-
+sonal, workgroup, and enterprise sphere of influence.
+Server virtualization is an approach to improving hardware utilization by 
+logically dividing the resources of a single server to create virtual servers. Each 
+virtual server acts as its own dedicated machine.
+Server virtualization can provide savings in four areas: lower capital costs 
+for hardware, decreased energy costs to power the servers and cool the data 
+center, decrease the number of software licenses that must be purchased, and 
+lessen the number or personnel required to operate and support the servers.
+Utility programs perform a variety of tasks typically related to system main-
+tenance or problem correction.
+Middleware is software that provides messaging services that allow differ-
+ent applications to communicate and exchange data.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 184
+
+part 2 • Technology Infrastructure
+162
+Service-oriented architecture is a software design approach based on the 
+use of discrete pieces of software to provide specific functions as services to 
+other applications.
+Principle:
+Organizations typically use off-the-shelf application software to meet com-
+mon business needs and proprietary application software to meet unique 
+business needs and provide a competitive advantage.
+The initial cost of off-the-shelf software is lower, it is more likely to meet 
+the basic business needs, and the software is likely to be of high quality.
+Proprietary software can take a long time to develop, in-house staff may 
+be hard-pressed to provide the necessary level of support, and there is greater 
+risk it will fail to work as needed.
+Software as a service (SaaS) is a software distribution model under which a 
+third-party provider hosts applications and makes them available to subscribers 
+over the Internet. This approach has the following advantages: SaaS application 
+are available from any device, anywhere, anytime; the SaaS provider manages 
+all upgrades and new releases; the costs associated with upgrades and new 
+releases are lower than the traditional software licensing model; the SaaS pro-
+vider manages services levels and availability.
+There are many programming languages. They are used to build applica-
+tion software, system software, embedded systems, Web sites, and games. They 
+are also used to perform data analysis.
+There are three types of End-User License Agreements—single-user license, 
+individual/multiuser license, and network/multiuser license.
+Open-source software is software that is distributed, typically for free, with 
+the source code also available so that it can be studied, changed, and improved 
+by its users.
+Because an open-source program’s source code is available, users can fix 
+any problems they discover. Open-source software does not come with guar-
+antees and support services.
+Software upgrades are an important source of increased revenue for soft-
+ware manufacturers. Organizations must balance effort spent on software 
+upgrades and effort spent on new projects expected to yield new business 
+benefits.
+Key Terms
+application programming interfaces (API)
+application software
+backward compatibility
+bioprinting
+blade server
+bus
+byte (B)
+cache memory
+clock speed
+compiler
+computer graphics card
+coprocessor
+core
+data center
+desktop computer
+Electronic Product Environmental Assessment Tool 
+(EPEAT)
+embedded system
+End User License Agreement (EULA)
+enterprise application
+four tiers of data center classification
+gigahertz (GHz)
+graphics processing unit (GPU)
+green computing
+grid computing
+hard disk drive (HDD)
+hypervisor
+input/output devices
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 185
+
+Chapter 4 • Hardware and Software
+163
+integrated circuit (IC)
+kernel
+laptop
+magnetic tape
+main memory
+mainframe computer
+massively parallel processing system
+memory
+middleware
+multicore processor
+multiprocessing
+nettop computers
+off-the-shelf software
+open-source software
+operating system (OS)
+parallel processing
+programming languages
+portable computers
+proprietary software
+Radio Frequency Identification (RFID)
+random access memory (RAM)
+read-only memory (ROM)
+redundant array of independent/inexpensive disks 
+(RAID)
+scalability
+secondary storage
+semiconductor fabrication plant
+server
+server farm
+service-oriented architecture (SOA)
+server virtualization
+software as a service (SaaS)
+software suite
+solid state storage device (SSD)
+system software
+supercomputers
+tablet
+thin client
+utility program
+virtual tape
+workgroup application software
+workstation
+Self-Assessment Test
+The computer hardware industry is rapidly chang-
+ing and highly competitive, creating an environment 
+ripe for technological breakthroughs.
+1.	 The primary hardware component of a computer 
+responsible for routing data and instructions to 
+and from the various components of a computer 
+is the _______________.
+2.	 _______________ provide data and instructions 
+to the computer and receive results from it.
+3.	 A key difference between grid computing, mul-
+tiprocessing, and parallel processing is that 
+_______________.
+a.	 parallel processing is only employed with 
+supercomputers
+b.	 grid computing is only employed with 
+supercomputers
+c.	 multiprocessing only applies to server 
+computers
+d.	 grid computing relies on a community of 
+computers acting together
+Computer hardware must be carefully selected to 
+meet the evolving needs of the organization and its 
+supporting information systems.
+4.	 A _______________ is a class of computer used 
+by people on the move to run personal pro-
+ductivity software, access the Internet, read and 
+prepare email and instant messages, play games, 
+listen to music, access corporate applications 
+and databases, and enter data at the point of 
+contact.
+a.	 single-user nonportable computer
+b.	 single-user portable computer
+c.	 multiple-user computer
+d.	 notebook computer
+5.	 _______________ are three subclasses of comput-
+ers associated with the multiple-user computer.
+a.	 Smartphone, laptop, notebook, and tablet
+b.	 Thin client, desktop, nettop, and workstation
+c.	 Server, mainframe, and supercomputer
+d.	 Notebook, server, and nettop
+The computer hardware industry and users are 
+implementing green computing designs and 
+products.
+6.	 The class of computer used to support work-
+groups from a small department of two or three 
+workers to large organizations with tens of thou-
+sands of employees and millions of customers is 
+the _______________.
+7.	 A data center designed to have an expected 
+annual downtime of less than 30 minutes and 
+able to handle a power outage of up to four days 
+is a tier _______________ data center.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 186
+
+part 2 • Technology Infrastructure
+164
+a.	 1
+b.	 2
+c.	 3
+d.	 4
+8.	 _______________ is not a specific goal of green 
+computing.
+a.	 Reducing the use of hazardous material
+b.	 Lowering power-related costs
+c.	 Combating global climate change
+d.	 Enabling the safe disposal and/or recycling of 
+IT products
+Software is valuable in helping individuals, work-
+groups, and entire enterprises achieve their goals.
+9.	 The two basic types of software are application 
+software and _______________ software.
+10.	 The operating system plays no role in con-
+trolling access to system resources to provide 
+a high level of security against unauthorized 
+access to the users’ data and programs as well 
+as record who is using the system and for how 
+long. True or False?
+11.	 Which of the following is not associated with the 
+implementation of server virtualization?
+a.	 Lower capital costs for hardware
+b.	 Decreased energy costs to power the servers 
+and cool the data center
+c.	 Increase in the number of software licenses 
+that must be purchased
+d.	 Fewer personnel required to operate and sup-
+port the servers.
+12.	 _______________ is a software design approach 
+based on the use of discrete pieces of software 
+(modules) to provide specific functions (such 
+as displaying a customer’s bill statement) as ser-
+vices to other applications.
+a.	 Server virtualization
+b.	 Multiprocessing
+c.	 Grid computing
+d.	 Service-oriented architecture
+13.	 _______________ is a class of software used to 
+meet organization-wide business needs and typ-
+ically shares data with other enterprise applica-
+tions used within the organization.
+Organizations typically use off-the-shelf applica-
+tion software to meet common business needs and 
+proprietary application software to meet unique 
+business needs and provide a competitive advantage.
+14.	 When comparing off-the-shelf software to pro-
+prietary software, which of the following state-
+ments is not true:
+a.	 Off-the-shelf software might not match cur-
+rent work processes and data standards.
+b.	 The initial cost of the off-the-shelf software is 
+likely greater.
+c.	 Off-the-shelf software may include features 
+that the organization or user does not require 
+and never uses.
+d.	 Off-the-shelf software may lack important 
+features thus requiring future modification or 
+customization.
+15.	 Which of the following is not a true statement 
+about the software as a service model.
+a.	 SaaS applications are available from any com-
+puter or any device—anytime, anywhere.
+b.	 There are no software patches for customers 
+to download or install.
+c.	 The cost associated with upgrades and new 
+releases are lower than the traditional model.
+d.	 The SaaS subscriber must manage service lev-
+els and availability, so there may be a need to 
+add hardware, software, or communications 
+capacity as the number of users increases.
+16.	 Spreadsheet, word processor, and graph-
+ics presentation software are used in the 
+_______________ sphere of influence.
+17.	 Programming languages are commonly used 
+to perform data analysis and build application 
+­software, system software, embedded systems, 
+Web sites, and _______________.
+18.	 The three primary types of end user license 
+agreements are individual/multiuser, network/
+multiuser, and _______________.
+19.	 _______________ is a form of software that is 
+­distributed, typically for free, with the source 
+code studied, changed, and improved solely by 
+the original developers.
+a.	 Software as a Service
+b.	 Licensed software
+c.	 A software suite
+d.	 Open-source software
+Self-Assessment Test Answers
+1.	 bus
+2.	 input/out put devices
+3.	 d
+4.	 b
+5.	 c
+6.	 Multiple-user computer
+7.	 d
+8.	 c
+9.	 system
+10.	 false
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 187
+
+Chapter 4 • Hardware and Software
+165
+11.	 c
+12.	 d
+13.	 enterprise
+14.	 b
+15.	 d
+16.	 single-user
+17.	 games
+18.	 single-user
+19.	 d
+Review and Discussion Questions
+1.	 What fundamental hardware component pro-
+vides the processor with a working storage area 
+to hold program instructions and data?
+2.	 What is the role of the processor of a computer?
+3.	 Explain the difference between multiprocessing, 
+parallel processing, and grid computing.
+4.	 The single-user portable class of computers 
+includes which commonly used four subclasses 
+of computers?
+5.	 Which class of computer includes servers, main-
+frames, and supercomputers?
+6.	 What subclass of computer is a low-cost, cen-
+trally managed computer with no internal or 
+external attached drives for data storage?
+7.	 Identify three features that distinguish tier 1, 2, 
+3, and 4 data centers.
+8.	 State three primary goals of the “green comput-
+ing” program.
+9.	 Name two basic kinds of software and identify 
+their associated subclasses.
+10.	 Identify at least four functions performed by the 
+operating system.
+11.	 State three cost savings benefits associated with 
+server virtualization.
+12.	 Describe how the service-oriented architec-
+ture approach is used to build software and 
+microservices.
+13.	 Identify three advantages of off-the-shelf soft-
+ware versus proprietary software.
+14.	 State four key advantages of the software as a 
+service model.
+15.	 Give an example of how application software is 
+used in the workgroup sphere of influence.
+16.	 What are programming languages used for other 
+than to build application software, systems soft-
+ware, embedded systems, and Web sites?
+17.	 Identify the three primary types of end user 
+license agreements.
+18.	 In comparison to licensed software, how is 
+open-source software used and supported?
+Business-Driven Decision-Making Exercises
+1.	 You are a new buyer in the Purchasing orga-
+nization of a large multinational firm with 
+operations in North America, Europe, and Asia. 
+One of your responsibilities includes work-
+ing with the information systems organization 
+to acquire the best value single-user portable 
+computers for the firm. The firm is on a three-
+year replacement cycle for these devices and 
+each year acquires roughly 7,000 portables and 
+associated accessories at a cost of about $10 
+million. As you review the previous year’s pur-
+chasing recommendation, you notice that the 
+choice of hardware vendors was based solely 
+on getting the most powerful computers at the 
+lowest possible price. There was no consid-
+eration of the environmental impact of these 
+devices, their energy efficiency, and the level of 
+hardware maintenance effort required to keep 
+them running. Should you attempt to introduce 
+these factors into the purchasing decision? You 
+are concerned that the others involved in the 
+selection of laptop vendors may ignore your 
+suggestions and view you as a newcomer criti-
+cal of previous practices. Should you drop this 
+line of thought? If not, what is the best way 
+to proceed to ensure these factors are given 
+consideration?
+2.	 Your organization is considering using soft-
+ware from a software manufacturer that offers 
+three different licensing options: (1) a perpetual 
+license at a cost of $3,750 with an upgrade to 
+the next release fee of $2,500; (2) a monthly 
+subscription license at a cost of $175 per month; 
+and (3) an annual subscription license at a cost 
+of $1,500 per year. Technical support and all 
+access to all new releases of the software are 
+included with the subscription licenses but cost 
+an additional $35 per month with the perpet-
+ual license option. The software manufacturer 
+intends to make a major upgrade within the 
+next year or two. Your organization will need 20 
+copies of the software and intends to use this 
+software for at least the next five years. Which 
+licensing option is best for your organization?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 188
+
+part 2 • Technology Infrastructure
+166
+Teamwork and Collaboration Activities
+1.	 You and the members of your team have been 
+assigned to evaluate the economic feasibility of 
+upgrading your organization’s server farm from 
+a collection of various models of stand-alone 
+computers to a smaller number of virtualized 
+servers. The current set of 500 servers are all 
+3–7 years old. The plan is to auction off the 
+old servers and replace them with new, more 
+powerful, and more energy efficient servers. 
+Because of virtualization, fewer servers will be 
+needed, less floor space will be required, the 
+cost to operate the fewer, more efficient serv-
+ers will be reduced, and the cost to cool the 
+data center will be reduced. What basic facts 
+must your team gather to be able to do a cost 
+comparison (initial cost of all hardware and 
+software licenses, ongoing operating costs to 
+run the servers and cool the data center) of 
+continuing to run the server farm as is versus 
+upgrading to new, virtualized servers? Develop 
+a spreadsheet that would enable you to do this 
+comparison.
+2.	 With the other members of your team, identify 
+three humanitarian causes or scientific programs 
+that could benefit from grid computing. For 
+each cause or program, identify a specific goal 
+to be accomplished through grid computing. 
+What advantages might favor the use of public 
+involved grid computing versus the use of a pri-
+vately funded supercomputer?
+Career Exercises
+1.	 You are a member of your company’s finance 
+function and have been assigned to work with 
+a multi-functional team to assess the reliability 
+of your organization’s large data center. What 
+other business functions should be represented 
+on this team? Develop a basic set of 4 or 5 ques-
+tions that you would ask to determine if the 
+organization needs to upgrade from its current 
+tier 2 data center to a tier 3 or 4 data center. 
+Who are the key people (by title and business 
+function) who need to answer these questions? 
+Should anyone outside the team be interviewed? 
+If so, whom (again, by title and business 
+function)?
+2.	 “Spreadsheets, even after careful development, 
+contain errors in 1 percent or more of all for-
+mula cells,” according to Ray Panko, a professor 
+of IT management at the University of Hawaii 
+and an authority on bad spreadsheet practices. 
+This means that in large spreadsheets there 
+could be dozens of undetected errors. Imagine 
+that you are a member of your organization’s 
+Internal Audit function. You wish to make man-
+agement more aware of this potential problem 
+and to implement measures that should be taken 
+to ensure the accuracy of spreadsheets that 
+are used to make key business decisions. How 
+would you begin to address this problem?
+Case Study
+ Decision Making
+Facebook Building Efficient, Reliable
+Data Centers
+Facebook is a social networking Web site and service where 
+users can post comments, share photographs and links to 
+news or other interesting content on the Web, play games, 
+chat live, and even stream live video. As of June 2017, Face-
+book had 2 billion monthly active users and this number is 
+increasing at a rate of 17 percent per year. Two of its other 
+apps, Facebook Messenger and WhatsApp, have over  
+1.2 billion active users.
+All these users require lots and lots of computing 
+capacity to meet their data processing needs and huge 
+amounts of data storage to hold all their data, photos, 
+and videos. For example, just to load a user’s home 
+page can require pulling data from hundreds of servers, 
+processing tens of thousands of individual pieces of data, 
+and delivering the selected data in less than one second. 
+With more people going live and sharing video, Facebook 
+must continually add new data centers to keep up with 
+the demand. Facebook spent $2.5 billion on data cen-
+ters, servers, network infrastructure, and office buildings 
+in 2015.
+Facebook already has existing data centers in Prineville, 
+Oregon; Forest City, North Carolina, Lulea, Sweden; and 
+Altoona, Iowa. Additional data centers are being built or 
+planned for Fort Worth, Texas; Clonee, Ireland; Los Lunas, 
+New Mexico; Papillon, Nebraska; New Albany, Ohio; Ash-
+burn, Virginia, and Odense, Denmark. These data centers 
+are large football field-sized buildings each housing tens 
+of thousands of servers all networked together and to the 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 189
+
+Chapter 4 • Hardware and Software
+167
+outside world. Building and outfitting each data center is a 
+major project typically lasting 12 months or more and cost-
+ing over $500 million.
+A small group of Facebook engineers spent two years 
+designing and building Facebook’s first data center in 
+Prineville including software, servers, racks, power sup-
+plies, and cooling. When completed, the data center was 38 
+percent more energy efficient to build and 24 percent less 
+expensive to run than the data centers Facebook rented 
+from other organizations.
+Facebook uses servers powered by chips from both 
+Intel and AMD with custom designed motherboards and 
+chassis. It has also investigated energy efficient ARM-­
+powered servers. Facebook hardware engineers remove 
+everything from the servers that is not necessary for exam-
+ple no bezels, no paints, no extra expansion slots, no mount-
+ing screws. The servers are mounted into a rack which holds 
+90 servers in three columns. Cabling and power supplies are 
+moved to the front of the servers so Facebook technicians 
+can work on the equipment from the cold aisle, rather than 
+the enclosed, 100 degree plus hot backside of the server. 
+The servers are outfitted with custom power supplies that 
+enable them to take power directly from the source eliminat-
+ing the need for step-down units as power passes through 
+the UPS systems and power distribution units. In the event 
+of a power outage, the batteries keep the servers running 
+until the building’s backup generators can kick on.
+In April 2011, Facebook, together with Intel, Rack-
+space, Goldman Sachs, and Andy Bechtolsheim (billionaire 
+co-founder of both Artista Networks and Sun Microsystems), 
+launched the Open Compute Project Foundation. The Foun-
+dation is targeted at redesigning hardware to support the 
+increasing demands of users for more efficient, flexible, and 
+scalable hardware and data centers. This is made possible 
+by the sharing of details of its energy efficient data cen-
+ter design, as well as custom designs for servers, network 
+switches, power supplies, and UPS units. This approach 
+marks a radical departure from industry practice which typ-
+ically regards such information as intellectual property to 
+be tightly protected. The Open Compute servers represent a 
+significant improvement in energy efficiency and a substan-
+tial reduction in server cost.
+Critical Thinking Questions
+1.	 Identify three good reasons why a Tier 2 data center 
+would not meet Facebook’s needs.
+2.	 Your organization has decided to outsource its data 
+center operations. You are responsible for perform-
+ing an initial assessment of service organizations that 
+wish to compete for this business. Develop a set of 
+six questions you can use to determine if an organiza-
+tion’s data center is a 1, 2, 3, or 4 data center.
+3.	 Based on business needs, should the data center at 
+your place of work (or university) be designed and 
+operating as a tier 1, 2, 3, or 4 data center? Explain 
+why.
+Sources: “The Facebook Data Center FAQ,” Data Center AQS, Septem-
+ber 27, 2010, http:www.datacenterknowledge.com/data-center-faqs/face-
+book-data-center-faq, Julia Horowitz, “Facebook is Building a New $750 
+Million Data Center in Ohio,” CNN Money, August 15, 2017, http://money.
+cnn.com/2017/08/15/technology/facebook-ohio-data-center/index.html; 
+Julia Horowitz, “Facebook Invests $1 billion in Virginia,” CNN Money, 
+October 5, 2017, http://money.cnn.com/2017/10/05/technology/face-
+book-data-center-virginia/index.html;Josh Constine, “Facebook Now 
+Has 2 Billion Monthly Users. . . and Responsibility,” Tech Crunch, June 
+27, 2017, https://techcrunch.com/2017/06/27/facebook-2-billion-users.
+Notes
+Sources for opening vignette: “Pixar Our Story,” https://
+www.pixar.com/our-story-1#our-story, accessed April 20, 
+2018; Dave Roos, “How Computer Animation Works,” 
+HowStuffWorks, https://entertainment.howstuffworks.com/
+computer-animation5.htm, accessed September 23, 2018.; 
+“The Science Behind Pixar,” http://sciencebehindpixar.org/
+pipeline/rendering, accessed April 10, 2018; Ryan Salazar, 
+“Pixar Talks Render Farms with Ryan Salazar,” Broadcast 
+Beat Magazine, http://www.broadcastbeat.com/pixar-talks-
+render-farms-ryan-salazar, accessed April 10, 2018; “Pixar 
+Animation Studios,” https://www.crunchbase.com/organiza-
+tion/pixar#section-overview, accessed April 11, 2018.
+1.	 Jessica Conditt, “Intel Finally Plans to Finish its 
+Fab 42 Factory in Arizona,” engadget, February 
+8, 2017, https://www.engadget.com/2017/02/08/
+intel-arizona-factory-7-billion-3000-jobs-fab-42.
+2.	 “World Community Grid,” IBM, https://www.worldcom-
+munitygrid.org/discover.action, accessed August 2, 
+2017.
+3.	 Patrizio, Andy, “All about DDR4, the Next-Gen Memory 
+Coming Soon for PCs and Mobile Devices,” PC World, 
+June 24, 2014, www.pcworld.com/article/2365823/
+next-gen-memory-is-coming-fast-here-s-what-you-need-
+to-know-about-ddr4.html.
+4.	 Malle, Jean-Pierre, “Big Data: Farewell to Cartesian 
+Thinking?” Paris Tech Review, March 15, 2013, paris-
+techreview.com/2013/03/15/big-data-cartesian-thinking.
+5.	 Mims, Christopher, “And the Longest Running Digital 
+Storage Medium Is…,” MIT Technology Review, July 
+13, 2011, www.technologyreview.com/view/424669/
+and-the-longest-running-digital-storage-medium-is.
+6.	 “High-End Computing Capability: Archival Storage Sys-
+tem,” NASA, www.nas.nasa.gov/hecc/resources/storage_
+systems.html, accessed December 11, 2015. 
+7.	 Andrzejewski, Alexa, “OpenTable for iOS 9: The 
+Shortest Path between You + Dining,” OpenTable, 
+December 25, 2015, http://blog.opentable.com/2015/
+opentable-for-ios-9-the-shortest-path-between-you-dining.
+8.	 Saker, Anne, “Printing a 3D Heart to Save a 
+Heart,” Cincinnati.com, February 21, 2015, 
+www.cincinnati.com/story/news/2015/02/21/
+printing-heart-save-heart/23825279.
+9.	 “3D Printing in the Automotive Industry,” FunTech, Jan-
+uary 7, 2015, https://www.zdnet.com/article/ford-taps-
+in-to-3d-printer-technology-for-our-future-vehicles/. 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 190
+
+part 2 • Technology Infrastructure
+168
+10.	 Benvin, Rich, “Biotech Startup Uses 3D Bioprinting to 
+Create Custom Breast Implants and Grafts,” Bioprint-
+ing World, July 27, 2015, http://bioprintingworld.com/
+biotech-startup-uses-3d-bioprinting-to-create-custom-
+breast-implants-and-grafts.
+11.	 Benvin, Rich, “3D Organ Bioprinting—Who 
+Wants to Live Forever?,” Bioprinting World, 
+March 24, 2015, http://bioprintingworld.
+com/3d-organ-bioprinting-who-wants-to-live-forever. 
+12.	 “Starkey Mortgage,” HP Success Stories, https://www8 
+.hp.com/au/en/thin-clients/financial.html, accessed 
+August 19, 2017. 
+13.	 “Area Sq Creating Innovative Workspaces with Dell Pre-
+cision Workstations,” Dell Customer Stories, http://www 
+.dell.com/uk/business/p/workstations, accessed August 
+27, 2017.
+14.	 Stephen Melendez, “Why We’re Still Work-
+ing With Mainframes in 2017,” It Still Works, 
+August 1, 2017, http://itstillworks.com/13399693/
+why-were-still-working-with-mainframes-in-2017.
+15.	 Ryan Browne, “IBM Unveils New Mainframe Capable 
+of Running More than 12 Billion Encrypted Transac-
+tions a Day,” CNBC, July 17, 2017, https://www.cnbc.
+com/2017/07/17/ibm-unveils-new-mainframe-capable-
+of-running-more-than-12-billion-encrypted-transac-
+tions-a-day.html.
+16.	 Tristan Greene, “IBM’s Quantum Computer Conducts 
+Record Breaking Chemistry Simulation,” The Next 
+Web, September 14, 2017, https://thenextweb.com/
+insider/2017/09/14/1076900/#.tnw_NybswZZK
+17.	 Russ Juskalian, “Practical Quantum Computers, MIT 
+Technology Review, https://www.technologyreview.
+com/s/603495/10-breakthrough-technologies-2017-prac-
+tical-quantum-computers, accessed September 15, 2017.
+18.	 “Renewable Energy,” Google Data Centers, https://www.
+google.com/about/datacenters/renewable/index.html, 
+accessed August 22, 2017.
+19.	 “Efficiency: How We Do It,” Google Data Centers, 
+https://www.google.com/about/datacenters/efficiency/
+internal, accessed August 22, 2017.
+20.	 “Google Data Center Locations,” https://www.google.
+com/about/datacenters/inside/locations/index.html, 
+accessed August 22, 2017.
+21.	 “Data Center Standards (Tiers I – IV), Colcation Amer-
+ica, https://www.colocationamerica.com/data-center/
+tier-standards-overview.htm, accessed October 11, 2017.
+22.	 Kimberly Button, “20 Staggering E-Waste Facts,” 
+Earth911, February 24, 2016, http://earth911.com/
+eco-tech/20-e-waste-facts/.
+23.	 “About EPEAT,” EPEAT, www.epeat.net/about-epeat, 
+accessed August 18, 2017.
+24.	 “EPEAT Purchasers,” EPEAT, www.epeat.net/partici-
+pants/purchasers, accessed August 18, 2017.
+25.	 “Lenovo Think Green Products—Materials,” Lenovo, 
+https://www.lenovo.com/us/en/social_responsibility/
+materials/, accessed August 18, 2017.
+26.	 “Gartner Says Global IT Spending to Reach $3.7 Tril-
+lion in 2018,” January 16, 2018, Gartner Press Release, 
+https://www.gartner.com/newsroom/id/3845563.
+27.	 Jordan Novet, “Elon Musk’s brain implant start-up 
+reportedly planned to test on animals,” CNBC, 
+March 28, 2018, https://www.cnbc.com/2018/03/28/
+elon-musk-brain-start-up-neuralink-applied-for-animal-
+tests-report.html.
+28.	 Catalin Cimpanu, “Gmail Drops Support for Windows 
+XP and Vista Users on Chrome, Bleeping Computer, 
+February 2, 2017, https://www.bleepingcomputer.com/
+news/software/gmail-drops-support-for-windows-xp-
+and-vista-users-on-chrome/.
+29.	 Whittaker, Zack, “A 23-Year-Old Windows 3.1 System 
+Failure Crashed Paris Airport,” ZD Net, November 16, 
+2015, www.zdnet.com/article/a-23-year-old-windows-3-
+1-system-failure-crashed-paris-airport.
+30.	 Bellis, Mary, “Putting Microsoft on the Map,” About.
+com, http://inventors.about.com/od/computersoftware/a/
+Putting-Microsoft-On-The-Map.htm, accessed November 
+17, 2015.
+31.	 Ryan Daws, “OneShell Will Join OneCore in Unit-
+ing Windows Devices,” Developer, January 18, 2017, 
+https://www.developer-tech.com/news/2017/jan/18/
+oneshell-will-join-onecore-uniting-windows-devices.
+32.	 Karen Haslam, “macOS High Sierra: latest update, 
+problems, fixes, features” Macworld, June 4, 2018 
+https://www.macworld.co.uk/news/mac-software/
+macos-high-sierra-latest-3647580/.
+33.	 “Paddy Power Betfair Delivers Online Bets Fast and 
+Reliably,” Redhat Customer Success Stories, https://
+www.redhat.com/en/success-stories/paddy-power-betfair, 
+accessed September 9, 2017.
+34.	 James Vincent, “99.6 Percent of New Smartphones 
+Run Android or iOS,” The Verge, February 16, 2017, 
+https://www.theverge.com/2017/2/16/14634656/
+android-ios-market-share-blackberry-2016.
+35.	 “Number of Android Applications,” AppBrain, Sep-
+tember 17, 2017, https://www.appbrain.com/stats/
+number-of-android-apps.
+36.	 Sam Costello, “How Many Apps Are in the App Store?,” 
+Livewire, May 7, 2017, https://www.lifewire.com/
+how-many-apps-in-app-store-2000252.
+37.	 “Mobile/Tablet Operating System Market Share,” 
+Netmarketshare, August 2017, https://www.net-
+marketshare.com/operating-system-market-share.
+aspx?qprid=8&qpcustomd=1.
+38.	 “CIBIL Boost Customer Experience by Doubling IT 
+Performance,” Hewlett-Packard Enterprise, http://cdn.
+cnetcontent.com/b6/8e/b68e66a4-a687-4c46-ae92-
+05900f3da3f4.pdf, accessed October 30, 2017.
+39.	 Peter Tsai, “Server Virtualization and OS 
+Trends,” Spiceworks, August 30, 2016, https://
+community.spiceworks.com/networking/
+articles/2462-server-virtualization-and-os-trends.
+40.	 “PKO Bank Polski S.A. Delivers Reliable, Secure and 
+Convenient Banking for the Digital Era,” https://www 
+.vmware.com/content/dam/digitalmarketing/vmware/
+en/pdf/customers/vmware-pko-bp-bank-case-study-­
+english.pdf,accessed October 28, 2017.
+41.	 “Liebherr works with Microsoft to Create Smart-
+BoxDevice,” The Fabric of Things, April 10, 2017, 
+http://www.thefabricofthings.com/2017/04/10/
+liebherr-smartboxdevice.
+42.	 “Success Story: Brookdale Senior Living,” Mobil 
+Village, http://www.mobilevillage.com/success-story-
+american-airlines-brookdale, accessed September 19, 
+2017.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 191
+
+Chapter 4 • Hardware and Software
+169
+43.	 Matthew Finnegan, “Cloud and Microservices Help 
+Expedia Innovate Quickly,” Computerworld UK, 
+March 22, 2016, https://www.computerworlduk.com/
+cloud-computing/expedia-ditches-huge-code-mono-
+liths-for-cloud-microservices-3637066.
+44.	 “Amazon’s Patent on One-Click Payments to Expire,” 
+Business Insider, January 5, 2017, http://www 
+.businessinsider.com/amazons-patent-on-one-click- 
+payments-to-expire-2017-1.
+45.	 “Whirlpool Corporation Moves to Google Apps to Build 
+Its “Winning Workplace,” https://gsuite.google.com/ 
+customers/whirlpool, accessed November 2, 2017.
+46.	 “Number of Apps Available in Leading App Stores as 
+of 1st Quarter 2018, Statista, https://www.statista.com/
+statistics/276623/number-of-apps-available-in-leading-
+app-stores, accessed August 20, 2018.
+47.	 “Android Studio,” Android, http://developer.android.
+com/sdk/index.html, accessed November 28, 2015.
+48.	 Shaun Nichols, “How’s This for Irony? US Navy Hit 
+with $600m Software Piracy Claim,” The Register, July 
+20, 2016, https://www.theregister.co.uk/2016/07/20/
+navy_software_pirates/.
+49.	 “Customer Success: The Burton Corporation,” https://
+www.suse.com/c/?s=customer+success+burton, accessed 
+January 11, 2016.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 192
+
+Rawpixel.com/Shutterstock.com
+Principles
+Learning Objectives
+A well-designed and 
+well-­managed data-
+base is an extremely 
+valuable tool in 
+­supporting decision 
+making.
+• Distinguish data from information and knowledge.
+• Identify six benefits gained through use of high-quality data.
+• Define the components of the data hierarchy including attribute, entity, record, 
+file, and database.
+• Define the term database management system.
+• Identify six functions performed by a database management system.
+• Define the roles of the database schema, data definition language, and data 
+manipulation language.
+• Define the term data cleansing.
+• Identify seven key questions that must be answered when designing a database.
+• Identify six fundamental characteristics of the relational database model.
+• State the purpose of data normalization.
+• Identify two key benefits of enforcing the ACID properties on SQL databases.
+• Identify two advantages associated with database as a service (DaaS).
+A strong data 
+­management ­program 
+is needed to ensure 
+high-quality data.
+• Distinguish between data management and data governance.
+• Identify three factors driving the need for data management.
+• Identify four key responsibilities of the data governance team.
+• Define the role of a database administrator.
+Database Systems and Data 
+Management
+Chapter 
+5
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 193
+
+IS in Action
+One of the largest scientific collaborations in history, the Human Genome Project was ded-
+icated to reading the complete genetic code, or genome, of a human being. The 100,000 
+Genomes Project is building on the discoveries of the Human Genome Project to develop 
+lifesaving treatments for patients with conditions ranging from common cancers to rare 
+diseases. Genomics England, which is owned by the United Kingdom’s Department of 
+Health and Social Care, runs the 100,000 Genomes Project as part of the country’s National 
+Health Service (NHS).
+A genome consists of DNA, which scientists read letter-by-letter in a process known as 
+sequencing. The first genome sequencing took 13 years and about £2 billion ($2.6 billion), 
+but with advances in the technology, a human genome can now be sequenced in a few 
+days for less than $1,300. The goal of the 100,000 Genomes Project is to bring the benefits 
+of genomic data analysis into mainstream healthcare services.
+To achieve this goal, project organizers need access to high-quality data stored in a 
+secure database, which is a well-designed, organized, and carefully managed collection of 
+data. In addition to technical genomic data, the 100,000 Genomes Project stores personal 
+and confidential details about patients with cancer and rare diseases. The collected data 
+for the project includes the age, medical conditions, diagnosis, symptoms, and treatment 
+outcomes of each patient so that researchers can associate health details with genetic 
+information. Connecting the details in a database allows healthcare professionals to make 
+better decisions. For example, if a project participant had a poor outcome that researchers 
+were able to link to a specific genetic characteristic, physicians might decide to prescribe 
+more powerful treatments for future patients with similar genes.
+Because researchers in the 100,000 Genomes Project handle sensitive health informa-
+tion, they face special requirements for storing the data. A typical database is a file con-
+taining data about an entity (a person, place, or thing) and its attributes (characteristics of 
+the entity). Patient number, name, address, phone number, and date of birth are examples 
+of patient attributes. In a database, at least one of the attributes, such as a patient number, 
+uniquely identifies each entity. To protect the privacy of project participants, however, 
+researchers must remove identifying personal details, such as name and date of birth. They 
+assign each participant a unique code that allows them to track the data while keeping it 
+private and secure.
+In addition to privacy, researchers on the project are concerned with maintaining the 
+quality of the data. The project receives digital data–including electronic health records, 
+test results, and medical notes–from many different hospitals and clinics. To avoid errors, 
+such as incomplete information and transmission corruption, the data is subjected to data 
+cleansing, a process of detecting and then correcting or deleting incomplete, incorrect, 
+inaccurate, or irrelevant records in a database.
+Acquiring and storing patient data presents one set of challenges; collecting, ana-
+lyzing, and managing the volume of genomic data presents another. As of July 2018, the 
+100,000 Genomes Project had worked with 70,000 patients and family members in the 
+United Kingdom to collect 21 petabytes of data (or 21 quadrillion bytes of data). To assess 
+a patient’s risk for cancer, for example, researchers first sequence the patient’s genome, 
+which produces about 200 GB of raw data. Next, scientists analyze the genome to deter-
+mine how it differs from a reference genome, a standard approximation of a person’s 
+DNA. The faster and more accurately the scientists can process the complex queries that 
+analyze the genomic data, the faster they can determine how to treat patients and help 
+them avoid life-threatening diseases.
+Genomics England Finds Scientific Insights 
+Through Database as a Service 
+ Information Technology
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 194
+
+The 100,000 Genomes Project sequences an average of 1,000 genomes per week, or 
+10 terabytes of data per day, an enormous volume for a database. To manage this amount 
+of complex and sensitive data, Genomics England turned to MongoDB, a company head-
+quartered in New York that offers database as a service (DaaS), an arrangement in which 
+a database is stored on a service provider’s servers and accessed by the service subscriber 
+over the Internet. Using a computing platform that includes MongoDB as its DaaS, Genom-
+ics England was able to cut its hardware and software expenditures and hand off the 
+database administration and maintenance tasks to MongoDB, all while reducing processing 
+time from hours to milliseconds.
+Using a DaaS means that 1,500 NHS healthcare professionals and 2,500 researchers 
+and trainees around the world can access the genomic data from anywhere and at any 
+time. “Managing clinical and genomic data at this scale and complexity has presented 
+interesting challenges,” says August Rendon, director of bioinformatics at Genomics 
+England. “That’s why adopting MongoDB has been vital to getting the 100,000 Genomes 
+Project off the ground. It has provided us with great flexibility to store and analyze these 
+complex data sets together. This will ultimately help us to realize the benefits of the 
+project–delivering better diagnostic approaches for patients and new discoveries for the 
+research community.”
+DaaS offers flexibility, lower hardware and software expenditures, and lower operat-
+ing costs than a traditional database–important considerations for a government agency. 
+Another significant advantage of using a DaaS such as MongoDB is that it provides greater 
+security than a local solution. A DaaS provider hosts data in a secure environment, encrypts 
+and backs up the data, and allows users to access it only through multifactor authenti-
+cation. MongoDB ensures the highest levels of protection for the sensitive data that the 
+100,000 Genomes Project collects.
+Even after the 100,000 Genomes Project ends, researchers in academic institutions 
+and biotechnology organizations will continue working with the genomic data to develop 
+new treatments, diagnostics, devices, and medicines for patients worldwide. Those patients 
+will benefit from the 100,000 Genome Project’s initial efforts to store high-quality data in 
+a database connecting patient and genomic information.
+As you read further about database systems and management, consider 
+the following:
+• What major competitive advantages can organizations gain from the effective use 
+of database as a service (DaaS)?
+• What challenges do organizations, particularly those in healthcare fields, face when 
+collecting and managing data from clients or customers?
+Why Learn about Database Systems and Data 
+Management?
+The world around us is constantly changing and evolving. This creates new challenges and opportunities 
+for innovation for organizations around the world. Database systems make it possible to capture data 
+about these changes, store it, update it, and make this data available for analysis and decision making. 
+The data can be used to recognize these new challenges and opportunities. It can also be used to track 
+progress toward meeting key organizational goals and identifying when a change in tactics or strategy is 
+needed.
+McDonald’s implemented a database system to capture and report consumer data to measure their 
+satisfaction from the national level down to individual restaurants. The data is analyzed to spot trends 
+and identify opportunities as well as potential problem areas. Major oil company Exxon has multiple 
+172
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 195
+
+173
+	 Database Fundamentals
+Without data and the ability to process it, an organization cannot successfully 
+complete its business activities. It cannot pay employees, send out bills, order 
+new inventory, or produce information to assist managers in decision making. 
+Recall that data consists of raw facts, such as employee numbers and sales 
+figures. For data to be transformed into useful information, it must first be 
+organized in a meaningful way.
+A database is a well-designed, organized, and carefully managed col-
+lection of data. Like other components of an information system, a database 
+should help an organization achieve its goals. A database can contribute to 
+organizational success by providing managers and decision makers with 
+timely, accurate, and relevant information built on data. Organizations 
+routinely capture and store data about customers, orders, products, and 
+employees in databases. These databases help companies analyze infor-
+mation to reduce costs, increase profits, add new customers, track past 
+business activities, improve customer service, and identify new market 
+opportunities.
+Starbucks collects data from roughly 100 million transactions each week 
+from customer purchases at its 29,000 stores worldwide. This data is collected 
+and stored in a database where it is used to support many business decisions—
+how much inventory to stock at each store, how many workers to schedule 
+based on expected demand, where to open new stores to minimize cannibal-
+ization of sales at nearby stores, and which discounts and rewards to send 
+customers to stimulate demand.1
+Databases are becoming ever more important to organizations as they deal 
+with rapidly increasing amounts of information. Indeed, most organizations 
+have multiple databases (e.g. customer database, product database, employee 
+database).
+database:  A well-designed, 
+organized, and carefully managed 
+collection of data.
+­billion-dollar projects going at one time to develop a new oilfield or construct a new deep-sea drilling 
+rig. It employs database technology to keep track of the status of these critical projects. The Harris Poll 
+surveys gather data about voters and customers. The results are stored in a database so they can be ana-
+lyzed by a set of standard demographics including gender, age, region, income, and education. The U.S. 
+Food and Drug Administration implemented a database that contains information on adverse event and 
+medication error reports submitted to the FDA. The database is a useful tool for the FDA to identify new 
+safety concerns that might be related to a marketed product.
+In addition to these specific applications, almost every organization employs numerous database 
+applications. The accounting function of an organization uses several databases to track purchases, 
+record sales, generate invoices, and make payments. The human resources function uses a database 
+to manage employee records and provide required data to government agencies. The manufacturing 
+­function uses multiple databases to track production, inventory, and distribution. The sales organization 
+uses databases to capture information about product sales, promotions, and customers to measure the 
+effectiveness of it marketing strategies and to plan new strategies.
+Before these databases can be built, they must be carefully designed to ensure that they will meet 
+the needs of the organization. A team of IS and non-IS employees work together to define the processes 
+by which the data is obtained, certified fit for use, stored, secured, and processed. The goal is to ensure 
+that the accessibility, reliability, and timeliness of the data meets the needs of the data users within the 
+­organization. Whether you will be involved in the design of a database application, capture and provide 
+data to the database, or use the database for analysis and decision making, you need to understand 
+­database systems and data management.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 196
+
+174
+Data
+Represented By
+Alphanumeric data
+Numbers, letters, and other characters
+Audio data
+Sounds, noises, or tones
+Image data
+Graphic images and pictures
+Video data
+Moving images or pictures
+Ta b l e 5.1  Types of data
+Another way to appreciate the difference between data and information 
+is to think of data as the individual items in a grocery list—crackers, bread, 
+soup, cereal, coffee, dishwashing soap, and so on. The grocery list becomes 
+much more valuable if the items in the list are arranged in order by the aisle 
+in which they are found in the store—bread and cereal in aisle 1, crackers and 
+soup in aisle 2, and so on. Data and information work the same way. Rules 
+and relationships can be set up to organize data so it becomes useful, valuable 
+information.
+The value of the information created depends on the relationships defined 
+among existing data. For instance, you could add specific identifiers to the 
+items in the list to ensure that the shopper brings home the correct item—
+whole wheat bread and Kashi cereal in aisle 1, saltine crackers and chicken 
+noodle soup in aisle 2, and so on. By doing so, you create a more useful 
+grocery list.
+Turning data into information is a process or a set of logically related tasks 
+performed to achieve a defined outcome. The process of defining relationships 
+among data to create useful information requires knowledge, which is the 
+awareness and understanding of a set of information and the ways in which 
+that information can be made useful to support a specific task or reach a deci-
+sion. In other words, information is essentially data made more useful through 
+the application of knowledge. For instance, there are many brands and varieties 
+of most items on a typical grocery list. To shop effectively, the grocery shopper 
+must have an understanding of the needs and desires of those being shopped 
+for so that he knows to purchase one can of Campbell’s (not the store brand!) 
+low-sodium chicken noodle soup for the family member who is diabetic along 
+with two cans of Campbell’s regular chicken noodle soup for everyone else.
+knowledge:  The awareness and 
+understanding of a set of information 
+and the ways that information can be 
+made useful to support a specific task 
+or reach a decision.
+Data, Information, and Knowledge
+Data consists of raw facts, such as an employee number, total hours worked 
+in a week, an inventory part number, or the number of units produced on a 
+production line. As shown in Table 5.1, several types of data can represent 
+these facts. Information is a collection of data organized and processed 
+so that it has additional value beyond the value of the individual facts. 
+For example, a sales manager may want individual sales data summarized 
+so it shows the total sales for the month, sales by salesperson, or sales by 
+product line. ­Providing information to customers can also help companies 
+increase revenues and profits. For example, social shopping Web site Kaboo-
+dle brings shoppers and sellers together electronically so they can share 
+information and make recommendations while shopping online. The free 
+exchange of information stimulates sales and helps ensure shoppers find 
+better values.
+data:  Raw facts such as an employee 
+number or total hours worked in a week.
+information:  A collection of data 
+organized and processed so that it has 
+additional value beyond the value of 
+the individual facts.
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 197
+
+175
+In some cases, people organize or process data in a simple three-step pro-
+cess of collect data, organize data, and analyze data.
+The Value of Information
+The value of information is directly linked to how it helps decision makers 
+achieve their organization’s goals. Valuable information can help people per-
+form tasks more efficiently and effectively. Many businesses assume that reports 
+are based on correct, quality information, but, unfortunately, that is not always 
+true. For example, Experian (a global information services firm that provides 
+credit services, marketing services, decision analytics, and consumer services) 
+estimates that on average, 22 percent of an organization’s customer contact data 
+is wrong.2 Companies can easily waste over $100 per inaccurate customer con-
+tact data record on things like direct-mail marketing sent to wrong addresses 
+and the inability to properly track leads. For an organization with 100,000 
+customers and a 22 percent error rate, that projects to a loss of $2.2 million. 
+A more recent study reveals that 84 percent of CEO’s are concerned about the 
+quality of the data they are basing their decisions on.3
+Benefits Gained Through Use of High-Quality Data
+Fundamental to the quality of a decision is the quality of the data used to reach 
+that decision. Any organization that stresses the use of advanced information 
+systems and sophisticated data analysis before data quality is doomed to make 
+many wrong decisions. Table 5.2 lists the characteristics that determine the 
+quality of data. The importance of each of these characteristics varies depend-
+ing on the situation and the kind of decision you are trying to make. For 
+example, with market intelligence data, some inaccuracy and incompleteness 
+is acceptable, but timeliness is essential. Market intelligence data may alert 
+you that a competitor is about to make a major price cut. The exact details and 
+timing of the price cut may not be as important as being warned far enough 
+in advance to enable your organization to plan how to react. On the other 
+hand, accuracy and completeness are critical for data used in accounting for 
+the management of company assets, such as cash, inventory, and equipment.
+High-quality data represents a precious asset of any organization. Not only 
+will high-quality data improve decision making, increase customer satisfaction, 
+increase sales, improve innovation, improve productivity, but it will also ensure 
+that you are fully complying with regulatory requirements that may apply to 
+your organization.
+Improve Decision Making
+Data drives all the major decisions in the world today from attending to cus-
+tomer needs to developing strategies for gaining competitive advantage. Without 
+high-quality data, any decision we make is based on inference and conjecture 
+with little evidence to support good decision making. With high-quality data, 
+the guesswork and risk taking in decision making are removed. The better the 
+data quality, the more confidence users have in the decisions they make, the 
+lower the risk of a poor decision, and the more likely the decision will achieve 
+the desired results.
+Increase Customer Satisfaction
+Today customers expect a personalized shopping experience and the better the 
+quality of your data, the easier it is to deliver the personalized approach your 
+customers require. On the other hand, customer satisfaction with your store, Web 
+site, or product will certainly be lower if the data quality is poor. Every customer 
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 198
+
+176
+wants to pay a fair, correct price for the product they want without experiencing 
+issues that bad data could cause. Customers become quite upset when there are 
+billing errors in their statements even if the amount is relatively small. Customer 
+ill will is created whether the billing errors were intentional or not.
+Increase Sales
+High-quality data can increase sales by enabling more accurate consumer tar-
+geting and communications. This is especially important in an omnichannel 
+environment where an organization is using the same business strategy across 
+all marketing channels including Internet, brick-and-mortar stores, television, 
+radio, and direct mail. It is essential that a database of high-quality data about 
+customers, products, prices, promotions, and so on be available across all 
+channels.
+High-quality data can also increase sales by enabling salespeople to make 
+successful up-sell and cross-sell suggestions. Cross-selling involves inviting 
+customers to purchase an item related to what they are primarily interested 
+in. Up-selling involves encouraging customers to buy a comparable, but 
+­higher-end product. Salesperson suggestions for a cross-sell or upsell that’s 
+Characteristic
+Definition
+Accessible
+Information should be easily accessible by authorized users so 
+they can obtain it in the right format and at the right time to 
+meet their needs.
+Accurate
+Accurate information is error free. In some cases, inaccurate 
+information is generated because inaccurate data is fed into the 
+transformation process from data to information. This is com-
+monly called garbage in, garbage out.
+Complete
+Complete information contains all the important facts. For 
+example, an investment report that does not include all import-
+ant costs is not complete.
+Economical
+Information should also be relatively economical to produce. 
+Decision makers must always balance the value of information 
+with the cost of producing it.
+Relevant
+Relevant information is important to the decision maker. 
+­Information showing that lumber prices might drop is probably 
+not relevant to a computer chip manufacturer.
+Reliable
+Reliable information can be trusted by users. In many cases, the 
+reliability of the information depends on the reliability of the 
+data-collection method. In other instances, reliability depends 
+on the source of the information. A rumor from an unknown 
+source that oil prices might go up may not be reliable.
+Secure
+Information should be secure from access by unauthorized 
+users.
+Timely
+Timely information is delivered when it is needed. Knowing 
+last week’s weather conditions will not help when trying to 
+decide what coat to wear today.
+Verifiable
+Information should be verifiable. This means that you can 
+check it to make sure it is correct, perhaps by checking many 
+sources for the same information.
+Ta b l e 5.2  Nine characteristics of quality information
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 199
+
+177
+completely out of left field will not only frustrate customers—they could 
+endanger their relationship with your company. Salespeople need high-qual-
+ity data about the customer and all their interactions with your organization 
+to ensure that their suggestions are consistent with the customer’s needs and 
+circumstances.
+Improve Innovation
+High-quality data on the operations of the business is the primary ingredient 
+of any process improvement effort. Such efforts are often aimed at improving 
+worker efficiency, product and/or service quality, or the customer experience. 
+Successful innovation improves the business outlook and attracts new business 
+while enhancing the ability to retain existing clients and customers. Organiza-
+tions that can use their data assets to drive critical business innovations will 
+gain a distinct advantage in the years to come.
+Raise Productivity
+Good quality data enables employees to be more productive. Instead of spend-
+ing time researching the reasons for and correcting data errors, they can focus 
+on their core mission. Should bad data slip through and update the information 
+in a database, it may result in actions that require considerable effort to correct 
+(e.g. incorrect bills sent to customers, inaccurate inventory counts resulting in 
+unnecessary purchase orders, etc.).
+Ensure Compliance
+There are several governmental and industry regulations such as General Data 
+Protection Regulation (GDPR), Health Insurance Portability and Accountability 
+Act (HIPAA), and Payment Card Industry-Data Security Standard (PCI-DSS). 
+These regulations and many others place specific requirements on how cer-
+tain types of data are managed, protected, and reported. If the data is not 
+accurate, there can be severe consequences, including significant fines and 
+more. In the case of a hospital or medical practice, medical coding and bill-
+ing mistakes may trigger audits and investigations. Such mistakes may even 
+lead to charges of fraud, forever damaging the reputation of the hospital or 
+medical practice.
+The Data Hierarchy
+An entity is a person, place, or thing (object) for which data is collected, 
+stored, and maintained. Examples of entities include employees, products, and 
+customers. Most organizations organize and store data as collections of entities 
+or a file.
+An attribute is a characteristic of an entity. For example, employee num-
+ber, last name, first name, hire date, and department number are attributes for 
+an employee. The inventory number, description, number of units on hand, 
+and location of the inventory item in the warehouse are attributes for items in 
+inventory. Customer number, name, address, phone number, credit rating, and 
+contact person are attributes for customers. Attributes are usually selected to 
+reflect the relevant characteristics of entities such as employees or customers. 
+Each attribute can be constrained to a range of allowable values called its 
+domain. For instance, the domain for an attribute such as type of employee 
+could be limited to the three characters F (full-time), P (part-time), or C (con-
+tractor). If someone tried to enter a “1” in the type of employee field, the data 
+would not be accepted. The domain for pay rate would not include nega-
+tive numbers. In this way, defining a domain can increase data accuracy. The 
+entity:  A person, place, or thing for 
+which data is collected, stored, and 
+maintained.
+file:  A collection of similar entities.
+domain:  The range of allowable 
+values for a data attribute.
+attribute:  A characteristic of an 
+entity.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 200
+
+178
+specific value of an attribute, called a data item, can be found in the record 
+describing an entity. The data hierarchy of attribute, entity, file, and database 
+is shown in Figure 5.1. Table 5.3 shows a simple database with the Employee 
+ID as the primary key for each entity in the database.
+data item:  The specific value of an 
+attribute.
+FIGURE 5.1
+The data hierarchy
+Database
+File
+Entity
+Attribute
+Employee ID
+Last Name
+First Name
+Middle Name
+Hire Date
+Current Dept
+Etc.
+041287
+Baker
+James
+Francis
+09/30/2010
+215
+051345
+Andersen
+James
+Scott
+01/23/2011
+314
+062345
+Brown
+Alison
+Sarah
+03/25/2011
+222
+062437
+Sanders
+Joanne
+Amelia
+03/23/2012
+215
+Ta b le 5.3  Keys and attributes
+The key field is the employee id which uniquely identifies each employee. The attributes include employee first name, last name, and 
+middle name, hire date, current department, etc.
+Many organizations create databases of attributes and enter data items to 
+store data needed to run their day-to-day operations. For instance, database 
+technology is an important weapon in the fight against crime and terrorism, as 
+discussed in the following examples:
+• The Offshore Leaks Database contains the data about some 680,000 
+secretive offshore companies, trusts, and funds created in 200 countries 
+around the world. Although creating offshore accounts is legal in most 
+countries, offshore accounts are also established to enable individuals 
+and organizations to evade paying the taxes they would otherwise owe. 
+The database has been used by law enforcement and tax officials to 
+identify potential tax evaders.4
+• The National Integrated Ballistic Information Network (NIBIN) is man-
+aged by the Bureau of Firearms, Tobacco, Firearms, and Explosives. 
+A key element of the network is a database of digital images of spent 
+bullets and cartridge cases that were retrieved from crime scenes or test 
+fired from weapons found at a crime scene or on a suspect.5
+• The Global Terrorism Database (GTD) is a database including data 
+on over 140,000 terrorist events that occurred around the world. For 
+each terrorist event, information is available regarding the date and 
+location of the event, the weapons used, the nature of the target, the 
+number of casualties, and, when identifiable, the group or individual 
+responsible.6
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 201
+
+179
+• Pawnshops are required by law to report their acquisitions to law 
+enforcement by providing a description of each item pawned or sold 
+along with any identifying numbers, such as a serial number. Leads 
+Online is a nationwide online database system that can be used to 
+­fulfill this reporting responsibility and enable law enforcement officers 
+to track merchandise that is sold or pawned in shops throughout the 
+nation.7
+A collection of attributes about a specific entity is a record. A primary 
+key is an attribute or set of attributes that uniquely identifies the record. No 
+other record can have the same primary key. For an employee record, such as 
+the ones shown in Table 5.3, the employee ID is an example of a primary key. 
+The primary key is used to distinguish records so that they can be accessed, 
+organized, and manipulated. Primary keys ensure that each record in a file is 
+unique. For example, eBay assigns an “Item number” as its primary key for 
+items to make sure that bids are associated with the correct item. See Figure 5.2.
+record:  A collection of attributes 
+about a specific entity.
+primary key:  An attribute or set of 
+attributes that uniquely identifies the 
+record.
+FIGURE 5.2
+Primary key
+eBay assigns an item number as a primary key to keep track of each item in its database.
+www.ebay.com
+A foreign key is an attribute in one table that refers to the primary key 
+in another table. It serves as a cross-reference enabling the data in the two 
+tables to be related. For example, imagine a relational database that includes a 
+customer table and an order table. A relationship can be created between the 
+tables by including the foreign key customer ID in the order table. Customer 
+ID is the primary key of the customer table. The customer ID in the order table 
+enables orders to be cross-referenced to customers.
+The Database Approach
+Today most organizations employ the database approach to data ­management, 
+where multiple information systems share a pool of related data. A data-
+base offers the ability to share data and information resources. Federal law 
+enforcement databases, for example, often include the results of DNA tests 
+as an attribute for convicted criminals. The information can be shared with 
+law enforcement officials around the country. Often, distinct yet related data-
+bases are linked to provide enterprise-wide databases. For example, many 
+Walgreens stores include in-store medical clinics for customers. Walgreens uses 
+foreign key:  An attribute in one 
+table that refers to the primary key in 
+another table.
+database approach to data 
+management:  An approach to 
+data management where multiple 
+information systems share a pool of 
+related data.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 202
+
+180
+an electronic health records database that stores the information of all patients 
+across all its stores. The database provides information about customers’ inter-
+actions with the clinics and pharmacies.
+To use the database approach to data management, additional software—a 
+database management system (DBMS)—is required. A database management 
+system (DBMS) consists of a group of programs provided by the DBMS sup-
+plier that are used to access and manage a database as well as provide an 
+interface between the database and its users and other application programs. A 
+DBMS provides a single point of management and control over data resources, 
+which can be critical to maintaining the integrity and security of the data. An 
+organization’s databases, its DBMS, and the application programs that cre-
+ate and access the databases make up a database environment. Figure 5.3 
+­illustrates the database approach.
+database management system 
+(dbms):  A group of programs used 
+to access and manage a database as 
+well as provide an interface between 
+the database and its users and other 
+application programs.
+FIGURE 5.3
+Database approach to data management
+In a database approach to data management, multiple information systems share a pool of 
+related data.
+Database
+management
+system
+Payroll
+data
+Inventory
+data
+Invoicing
+data
+Other
+data
+Payroll
+program
+Reports
+Inventory
+control
+program
+Management
+inquiries
+Invoicing
+program
+Database
+Interface
+Application
+programs
+Reports
+Reports
+Reports
+Reports
+Users
+Database Activities
+Databases are used to provide a user view of the database, to add and modify 
+data, to store and retrieve data, to manipulate the data and generate reports, to 
+provide security management, and to provide database backup and recovery 
+services. Each of these activities is discussed in greater detail in the following 
+sections.
+Providing a User View
+Because the DBMS is responsible for providing access to a database, one of the 
+first steps in installing and using a large relational database involves “telling” 
+the DBMS the logical and physical structure of the data and the relationships 
+among the data for each user. This description is called a schema (as in a sche-
+matic diagram). In a relational database, the schema defines the tables, the 
+attributes in each table, and the relationships between attributes and tables. 
+Database management systems, such as Oracle or Access, typically use schemas 
+to define the tables and other database features associated with a person or 
+schema:  A description that defines 
+the logical and physical structure of the 
+database by identifying the tables, 
+the attributes in each table, and the 
+relationships between attributes and 
+tables.
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 203
+
+181
+user. The DBMS can reference a schema to find where to access the requested 
+data in relation to another piece of data. A database schema can be represented 
+in a visual diagram showing the database objects and their relationship with 
+one another, as shown in Figure 5.4.
+FIGURE 5.4
+Database schema 
+­represented in a visual 
+diagram
+Students
+Courses
+Grades
+student_id (key)
+last_name
+first_name
+middle_name
+Salutation
+date_of_birth
+address_line1
+course_no (key)
+section_no (key)
+title
+professor
+days
+times
+prereq
+course_no (key)
+section_no (key)
+student_id(key)
+semester
+year
+grade
+Creating and Modifying the Database
+The database schema can also be defined using a data definition language. 
+A data definition language (DDL) is a collection of instructions and com-
+mands used to define and describe data and relationships in a specific data-
+base. Table 5.4 shows a simplified example of a DDL used to define a single 
+database table.
+data definition language 
+(ddl):  A collection of instructions 
+and commands used to define and 
+describe data and relationships in a 
+specific database.
+CREATE TABLE students (
+student_id
+INTEGER (9)
+PRIMARY KEY
+last_name
+VARCHAR (40)
+not null
+first_name
+VARCHAR (20)
+not null
+middle_name
+VARCHAR (20)
+not null
+salutation
+VARCHAR (8)
+not null
+date_of_birth
+DATE
+not null
+gender
+INTEGER (1)
+not null
+address-line1
+VARCHAR (30)
+not null
+and so forth
+);
+Ta b l e 5.4  Database schema of the student table expressed in DDL
+Another important step in creating a database is to establish a data 
+­dictionary, a detailed description of the data stored in the database. Among 
+other details, the data dictionary contains the following information for each 
+data item:
+• Name of the data attribute
+• Aliases or other names that may be used to describe the item
+• Range of values that can be used (domain)
+• Type of data (such as alphanumeric or numeric)
+• Number of bytes of storage needed for the item
+A data dictionary is a valuable tool for maintaining an efficient database 
+that stores reliable information with no redundancy, and it simplifies the pro-
+cess of modifying the database when necessary. Data dictionaries also help 
+data dictionary:  A detailed 
+description of the data stored in the 
+database.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 204
+
+182
+computer and system programmers who require a detailed description of data 
+elements stored in a database to create the code to access the data.
+Adherence to the standards defined in the data dictionary also makes it 
+easy to share data among various organizations. For example, The National Syn-
+dromic Surveillance Program (NSSP) is designed to enable the early detection 
+of outbreaks resulting from biological terrorism or naturally occurring highly 
+contagious diseases. The system enables the Centers for Disease Control and 
+Prevention to track the number of people affected, the rate of spread, and the 
+rate of mortality. Hopefully, this early warning will enable health professionals 
+to mobilize a rapid response and thereby reduce the number of deaths. The 
+system’s success depends on the ability to rapidly collect, evaluate, share, and 
+store syndromic surveillance data. A data dictionary (current version NSSP v32 
+documented at https://www.cdc.gov/nssp/biosense/docs/NSSP-Data-Dictionary.
+xlsx) was created to ensure standardization and consistent definition of all key 
+elements captured by this system to ensure the easy sharing of high-quality data.8
+Storing and Retrieving Data
+One function of a DBMS is to be an interface between an application program 
+and the database. When an end user, application program, or other software 
+needs data from the database, it requests the data through the DBMS. Suppose 
+that to calculate the total price of a new car, a pricing program needs price data 
+on the engine option—for example, six cylinders instead of the standard four 
+cylinders. The application program requests this data from the DBMS. In doing 
+so, the application program follows a logical access path (LAP). Next, the DBMS, 
+working with various system programs, accesses a storage device, such as a 
+disk drive or solid-state storage device (SSD), where the data is stored. When 
+the DBMS goes to this storage device to retrieve the data, it follows a path to 
+the physical location—physical access path—where the price of this option is 
+stored. In the pricing example, the DBMS might go to a disk drive to retrieve 
+the price data for six-cylinder engines. This relationship is shown in Figure 5.5.
+FIGURE 5.5
+Logical and physical access 
+paths
+When an application requests data 
+from the dbms, it follows a logical 
+access path to the data. When the 
+dbms retrieves the data, it follows 
+the physical access path to the 
+data.
+DBMS
+Physical access
+path (PAP)
+Logical access
+path (LAP)
+Other
+software
+Application
+programs
+Management
+inquiries
+Data on
+storage device
+This same process is used if a user wants to get information from the 
+database. First, the user requests the data from the DBMS. For example, a user 
+might give a command, such as LIST ALL OPTIONS FOR WHICH PRICE IS 
+GREATER THAN $200. This is the logical access path. Then, the DBMS might 
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 205
+
+183
+go to the options price section of a disk to get the information for the user. 
+This is the physical access path.
+Two or more people or programs attempting to access the same record at 
+the same time can cause a problem. For example, an inventory control program 
+might attempt to reduce the inventory level for a product by 10 units because 
+10 units were just shipped to a customer. At the same time, a purchasing 
+program might attempt to increase the inventory level for the same product 
+by 200 units because inventory was just received. Without proper database 
+control, one of the inventory updates might be incorrect, resulting in an inac-
+curate inventory level for the product. Concurrency control can be used to 
+avoid this potential problem. One approach is to lock out all other application 
+programs from access to a record if the record is being updated or used by 
+another program.
+Manipulating Data and Generating Reports
+After a DBMS has been installed, employees, managers, and other authorized 
+users can use it to review reports and obtain important information. Using a 
+DBMS, a company can manage this requirement. Some databases use Query 
+by Example (QBE), which is a visual approach to developing database queries 
+or requests. With QBE, you can perform queries and other database tasks by 
+opening windows and clicking the data or features you want—similar to the 
+way you work with Windows and other GUI (graphical user interface) operat-
+ing systems and applications. See Figure 5.6.
+concurrency control:  A method 
+of dealing with a situation in which two 
+or more users or applications need to 
+access the same record at the same 
+time.
+FIGURE 5.6
+Query by example
+Some databases use query by example (qbe) to generate reports and information.
+Microsoft product screenshots used with permission from Microsoft Corporation
+In other cases, database commands can be used in a programming lan-
+guage. For example, commands written in the C++ programming language can 
+be used in simple programs that will access or manipulate certain pieces of 
+data in the database. Here’s another example of a DBMS query:
+SELECT * FROM EMPLOYEE WHERE JOB_CLASSIFICATION=“C2.”
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 206
+
+184
+The asterisk (*) tells the program to include all columns from the EMPLOYEE 
+table. In general, the commands that are used to manipulate the database are 
+part of the data manipulation language (DML). This specific language, pro-
+vided with the DBMS, allows managers and other database users to access and 
+modify the data, to make queries, and to generate reports. Again, the applica-
+tion programs go through schemas and the DBMS before getting to the data 
+stored on a device such as a disk.
+After a database has been set up and loaded with data, it can produce 
+desired reports, documents, and other outputs such as that shown in Table 5.5. 
+These outputs usually appear in screen displays or on hard copy printouts. The 
+output-control features of a database program allow a user to select the records 
+and fields that will appear in a report. Formatting controls and organization 
+options (such as report headings) help users customize reports and create 
+flexible, convenient, and powerful information-handling tools.
+data manipulation language 
+(dml):  A specific language, provided 
+with a DBMS, which allows users to 
+access and modify the data, to make 
+queries, and to generate reports.
+#
+Invoice #
+Order Date
+Company
+Salesperson
+Sales Amount
+1
+102345
+3/12/2020
+Acme Plumbing
+Davis
+$132,432
+2
+104256
+6/12/2020
+Joiner Appliances
+Kohl
+$122,567
+3
+100345
+5/4/2020
+Smith Bros
+Ruberg
+$120,432
+4
+104557
+7/3/2020
+City-Wide Appliances
+Brown
+$109,356
+5
+103678
+5/21/2020
+Joiner Appliances
+Kohl
+$100,452
+6
+104125
+6/7/2020
+Acme Plumbing
+Davis
+$100,234
+7
+104892
+8/2/2020
+Smith Bros
+Davis
+$ 97,179
+8
+103885
+6/22/2020
+City-Wide Appliances
+Brown
+$ 95,234
+9
+105894
+9/30/2020
+Joiner Appliances
+Kohl
+$ 92,341
+10
+102634
+4/1/2020
+Smith Bros
+Ruberg
+$ 90,007
+Ta b le 5.5  Sample report ten largest orders for 2020
+A DBMS can produce a wide variety of documents, reports, and other out-
+put that can help organizations make decisions and achieve their goals. Often, 
+organizations have standard reports that are run on a regular basis. The most 
+common reports select and organize data to present summary information 
+about some aspect of company operations. For example, accounting reports 
+often summarize financial data such as current and past due accounts. Many 
+companies base their routine operating decisions on regular status reports that 
+show the progress of specific orders toward completion and delivery.
+Security Management
+The DBMS security management function helps ensure that data are protected 
+against access by unauthorized users, physical damage, operating system fail-
+ure, and simultaneous updating of the same data by multiple users. An espe-
+cially powerful feature of the DBMS security function is the capability to define 
+and enforce user access privileges that control who can access what data and 
+what they can do with that data (e.g. read only, add/delete/change the data). 
+Good security practices recommend that users are granted the minimum priv-
+ileges to do their jobs. For example, an entry level payment clerk from the 
+accounts payable function should not be given the ability to modify the pay-
+ment amount or the payee to avoid potential fraud. However, this privilege may 
+be granted to the accounts payable supervisor. The DBMS security functions are 
+generally planned, implemented, and maintained by a database administrator 
+and/or other information security professional.
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 207
+
+185
+Backup and Recovery
+The DBMS also provides backup and recovery services. For example, if there is 
+a power outage, recovery management enables the database to be brought back 
+up safely and without loss of data following the outage. Backup management 
+refers to making backup copies of all or portions of the database. In the event 
+the database is lost, damaged, or destroyed, the backup copies can be used to 
+restore the database.
+Data Cleansing
+Data used in decision making must be accurate, complete, economical, flex-
+ible, reliable, relevant, simple, timely, verifiable, accessible, and secure. Data 
+cleansing is the process of detecting and then correcting or deleting incom-
+plete, incorrect, inaccurate, or irrelevant records that reside in a database. The 
+goal of data cleansing is to improve the quality of the data used in decision 
+making. The “bad data” may have been caused by user data-entry errors or by 
+data corruption during data transmission or storage. Data cleansing is different 
+from data validation, which involves the identification of “bad data” and its 
+rejection at the time of data entry.
+One data cleansing solution is to identify and correct data by cross-­checking 
+it against a validated data set. For example, street number, street name, city, 
+state, and zip code entries in an organization’s database may be cross-checked 
+against the United States Postal Zip Code database. Data cleansing may also 
+involve standardization of data, such as the conversion of various possible 
+abbreviations (St., St, st., st) to one standard name (Street).
+Data enhancement augments the data in a database by adding related 
+­information—such as using the zip code information for a given record to 
+append the county code or census tract code. The cost of performing data 
+cleansing can be quite high. It is prohibitively expensive to eliminate all “bad 
+data” to achieve 100 percent database accuracy.
+Database Design
+Because today’s organizations must keep track of and analyze so much data, it 
+is necessary to keep the data well organized so that it can be used effectively. 
+A database should be designed to store all data relevant to the business and 
+to provide quick access and easy modification. Moreover, it must reflect the 
+business processes of the organization. When designing a database, an organi-
+zation must carefully consider the following questions:
+• Content. What data should be collected and at what cost?
+• Access. What data should be provided to which users and when?
+• Logical structure. How should data be arranged so that it makes sense 
+to a given user?
+• Physical organization. Where should data be physically located?
+• Response time. How quickly must the data be updated and retrieved so 
+it can be viewed by the users?
+• Archiving. How long must this data be stored?
+• Security. How can this data be protected from unauthorized access?
+One of the tools use to design a database is the data model. Data mod-
+elling is commonly done either at the organizational level or at the level of 
+a specific business application. When done at the organizational level, this 
+procedure is called enterprise data modelling. Enterprise data modelling is an 
+approach that starts by investigating the general data and information needs 
+of the organization at the strategic level and then moves on to examine more 
+specific data and information needs for the functional areas and departments 
+within the organization.
+data cleansing:  The process 
+of detecting and then correcting 
+or deleting incomplete, incorrect, 
+inaccurate, or irrelevant records that 
+reside in a database.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 208
+
+186
+The enterprise data model identifies the data entities and data attributes 
+of greatest interest to the organization along with their associated standard data 
+definitions, data length and format, domain of valid values, and any business 
+rules for their use (e.g. if product type is 123, then days to ship must be greater 
+than 5). The enterprise data model as shown in Figure 5.7 is a valuable resource 
+with the following benefits:
+• Provides a roadmap of the organization’s current and future data that 
+serves as an initial starting point for the development of new applica-
+tions that will be able to integrate and exchange data.
+• Avoids costly and inefficient data redundancy where the same data 
+entities or data attributes are captured in more than one application or 
+stored in more than one database.
+• Identifies gaps in the data needed to support the organization so that 
+plans can be made to capture or acquire the needed data.
+• Provides a benchmark against which to evaluate the extent to which a 
+vendor’s software package meets the organization’s data needs.
+Occasionally, an organization will purchase an industry-standard enterprise 
+model for their industry from a vendor or industry group. For example, the 
+IBM Healthcare Provider Data Model is an enterprise data model that can be 
+adopted by a healthcare provider organization to organize and integrate clin-
+ical, research, operational, and financial data.9 At one time, the University of 
+North Carolina Health Care System had a smorgasbord of information system 
+hardware and software that made it difficult to integrate data from its existing 
+legacy systems. The organization used the IBM Healthcare Provider Data Model 
+to guide its efforts to simplify its information system environment and improve 
+the integration of its data. As a result, it was able to eliminate its dependency 
+on outdated technologies, build an environment that supports efficient data 
+management, and integrate data from its legacy systems to create a source of 
+data to support future data analysis requirements.10
+enterprise data model:  A data 
+model that identifies the data entities 
+and data attributes of greatest interest 
+to the organization along with their 
+associated standard data definitions, 
+data length and format, domain of valid 
+values, and any business rules for 
+their use.
+FIGURE 5.7
+Enterprise data model
+The enterprise data model provides 
+a roadmap for building database 
+and information systems.
+Supports
+Supports
+Systems and data
+Enables capture of business opportunities
+Increases business effectiveness
+Reduces costs 
+Enables simpler system interfaces
+Reduces data redundancy
+Ensures compatible data 
+The enterprise 
+Data model
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 209
+
+187
+The entity-relationship (ER) diagram is a data model used to analyze and 
+communicate data needs at the individual project or application level using 
+graphical symbols to identify data entities and their associated data attributes as 
+well as the relationships among the entities of interest. There are many notation 
+styles that can be used in drawing an ER diagram.
+ER diagrams ensure that the relationships among the data entities in a 
+database are correctly structured so that any application programs developed 
+are consistent with business operations and user needs. In addition, ER dia-
+grams can serve as reference documents after a database is in use. If changes 
+are made to the database, ER diagrams help design them. Figure 5.8 shows an 
+ER diagram for an order database for a specific organization. In this database 
+design, one salesperson serves many customers. This is an example of a one-to-
+many relationship, as indicated by the one-to-many symbol (the “crow’s-foot”) 
+shown in the figure. The ER diagram also shows that each customer can place 
+one-to-many orders, that each order includes one-to-many line items, and that 
+many line items can specify the same product (a many-to-one relationship). 
+This database can also have one-to-one relationships. For example, one order 
+generates one invoice.
+entity-relationship (er) 
+diagram:  A data model that uses 
+basic graphical symbols to show the 
+organization of and relationships 
+between data.
+FIGURE 5.8
+Entity-relationship (ER) 
+­diagram for a customer order 
+database
+Development of ER diagrams helps 
+ensure that the logical structure of 
+application programs is consistent 
+with the data relationships in the 
+database.
+Serves
+Salesperson
+Product
+Customer
+Orders
+Places
+Line
+items
+Includes
+Specifies
+Invoice
+Generates
+Cleansing the Customer Relationship Management Database
+ Decision Making
+Several sales and marketing managers are requesting a data cleansing operation on 
+the Customer Relationship Management (CRM) database. This is a critical database 
+for the organization that stores and manages prospect and customer data like contact 
+data and account activity including purchases, interactions with the organization, 
+and responses to previous marketing initiatives. It also captures and stores data 
+about sales leads and sales opportunities. Members of the sales and marketing 
+functions want the records of all customers who have not purchased any of your 
+products in the past six months to be purged from the database. Similarly, all leads 
+who have not responded to any marketing initiative in the past six months should be 
+purged. They also want all leads and customers with invalid email addresses deleted.
+Review Questions
+1.	 What else is involved in data cleansing besides purging records considered no 
+longer necessary?
+2.	 Which of the fundamental database design questions needs to be reviewed?
+Critical 
+Thinking 
+Exercise
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 210
+
+188
+Critical Thinking Questions
+1.	 Identify three or four data attributes that may need to be updated and/or cor-
+rected in the CRM database.
+2.	 Is it possible that the data cleansing requested could result in the loss of valu-
+able data? Explain your answer.
+	 Relational Databases
+The relational database model is a simple but highly useful way to organize 
+data into collections of two-dimensional tables called relations, as shown in 
+Figure 5.9. A relational database has six fundamental characteristics:
+1.	 Data is organized into collections of two-dimensional tables called relations.
+2.	 Each row in the table represents an entity and each column represents an 
+attribute of that entity.
+3.	 Each row in a table is uniquely identified by a primary key.
+4.	 The type of data a table column can contain can be specified as integer number, 
+decimal number, date, text, etc.
+5.	 The data in a table column can be constrained to be of a certain type (inte-
+ger, decimal number, data, character, etc.), a certain length, or to have a value 
+between two limits.
+6.	 Primary and foreign keys enable relationships between the tables to be defined.
+7.	 User queries are used to perform operations on the database like adding, 
+changing, or deleting data and selecting, projecting, and joining existing data 
+in existing tables.
+relational database model:  A 
+simple but highly useful way to 
+organize data into collections of two-
+dimensional tables called relations.
+FIGURE 5.9
+Relational database model
+In the relational model, data is 
+placed in two-dimensional tables, or 
+relations. As long as they share at 
+least one common attribute, these 
+relations can be linked to provide 
+output useful information. In this 
+example, all three tables include the 
+dept. number attribute.
+Data Table 1: Project Table
+Project
+155
+498
+226
+Description
+Payroll
+Widgets
+Sales manual
+Dept. number
+257
+632
+598
+Data Table 2: Department Table
+Dept. number
+257
+632
+598
+Dept. name
+Accounting
+Manufacturing
+Marketing
+Manager SSN
+005-10-6321
+549-77-1001
+098-40-1370
+Data Table 3: Manager Table
+SSN
+005-10-6321
+549-77-1001
+098-40-1370
+Last name
+Johns
+Buckley
+Fiske
+First name
+Francine
+Bill
+Steven
+Hire date
+10-07-2013
+02-17-1995
+01-05-2001
+Dept. number
+257
+632
+598
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 211
+
+189
+Manipulating Data in a Relational Database
+After entering data into a relational database, users can make inquiries and 
+analyze the data. Basic data manipulations include selecting, projecting, and 
+joining.
+Selecting involves eliminating rows according to certain criteria. Suppose 
+the department manager of a company wants to use a project table that contains 
+the project number, description, and department number for all projects a com-
+pany is performing. The department manager might want to find the department 
+number for Project 226, a sales manual project. Using selection, the manager can 
+eliminate all rows except the one for Project 226 and see that the department 
+number for the department completing the sales manual project is 598.
+Projecting involves eliminating columns in a table. For example, a depart-
+ment table might contain the department number, department name, and Social 
+Security number (SSN) of the manager in charge of the project. A sales manager 
+might want to create a new table that contains only the department number 
+and the Social Security number of the manager in charge of the sales manual 
+project. The sales manager can use projection to eliminate the department 
+name column and create a new table containing only the department number 
+and Social Security number.
+As long as the tables share at least one common data attribute, the tables in 
+a relational database can be linked to provide useful information and reports. 
+Joining is the combining of two or more tables through common data attri-
+butes to form a new table with only the unique data attributes. It is one of the 
+keys to the flexibility and power of relational databases. Suppose the president 
+of a company wants to find out the name of the manager of the sales manual 
+project as well as the length of time the manager has been with the company. 
+Assume that the company has Manager, Department, and Project tables, as 
+shown in Figure 5.10.
+selecting:  Manipulating data to 
+eliminate rows according to certain 
+criteria.
+projecting:  Manipulating data to 
+eliminate columns in a table.
+joining:  The combining of two or 
+more tables through common data 
+attributes to form a new table with only 
+the unique data attributes.
+FIGURE 5.10
+ER diagram
+This diagram shows the relationship 
+among the manager, department, 
+and project tables.
+Supervises
+Manager
+Department
+Project
+Performs
+Note the crow’s-foot by the Project table. This symbol indicates that a 
+department can have many projects. The manager would make the inquiry 
+to the database, perhaps via a laptop computer. The DBMS would start with 
+the project description and search the Project table to find out the project’s 
+department number. It would then use the department number to search the 
+Department table for the manager’s Social Security number. The department 
+number is also in the Department table and is the common element that links 
+the Project table to the Department table. The DBMS uses the manager’s Social 
+Security number to search the Manager table for the manager’s hire date. 
+The manager’s Social Security number is the common element between the 
+Department table and the Manager table. The final result is that the manager’s 
+name and hire date are presented to the president as a response to the inquiry. 
+Figure 5.11 shows the linking between the Project, Department, and Manager 
+tables needed to answer this inquiry.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 212
+
+190
+One of the primary advantages of a relational database is that it allows 
+tables to be linked, as shown in Figure 5.11. This linkage reduces data redun-
+dancy and allows data to be organized more logically. The ability to link to the 
+manager’s Social Security number stored once in the Manager table eliminates 
+the need to store it multiple times in the Project table.
+The relational database model is widely used. It is easier to control, more 
+flexible, and more intuitive than other approaches because it organizes data 
+in tables. As shown in Figure 5.12, a relational database management system, 
+such as Microsoft Access, can be used to store data in rows and columns. In 
+this figure, hyperlink tools available on the ribbon/toolbar can be used to 
+create, edit, and manipulate the database. The ability to link relational tables 
+also allows users to relate data in new ways without having to redefine com-
+plex relationships. Because of the advantages of the relational model, many 
+companies use it for large corporate databases, such as those for marketing 
+and accounting.
+FIGURE 5.11
+Linking data tables to answer an inquiry
+To find the name and hire date of the manager working on the sales manual 
+project, the president needs three tables: project, department, and manager. 
+The project description (sales manual) leads to the department number (598) 
+in the project table, which leads to the manager’s social security number 
+­(098-40-1370) in the department table, which leads to the manager’s last name 
+(fiske) and hire date (01-05-2001) in the manager table.
+Data Table 1: Project Table
+Project number
+155
+498
+226
+Description
+Payroll
+Widgets
+Sales manual
+Dept. number
+257
+632
+598
+Data Table 2: Department Table
+Dept. number
+257
+632
+598
+Dept. name
+Accounting
+Manufacturing
+Marketing
+Manager SSN
+005-10-6321
+549-77-1001
+098-40-1370
+Data Table 3: Manager Table
+SSN
+005-10-6321
+549-77-1001
+098-40-1370
+Last name
+Johns
+Buckley
+Fiske
+First name
+Francine
+Bill
+Steven
+Hire date
+10-07-2013
+02-17-1995
+01-05-2001
+Dept. number
+257
+632
+598
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 213
+
+191
+Databases based on the relational model include Oracle, IBM DB2, Micro-
+soft SQL Server, Microsoft Access, MySQL, Sybase, and others. The relational 
+database model has been an outstanding success and is dominant in the com-
+mercial world today, although many organizations are beginning to use new 
+nonrelational models to meet some of their business needs.
+Data normalization is the process of organizing the data in a relational 
+database to eliminate data redundancy (all data is stored in only one place) 
+and ensure data dependencies make sense (only storing related data in a table). 
+Data normalization is a rigorous multi-step process that ensures that relational 
+databases take up minimal storage space, resulting in improved database per-
+formance. This involves dividing a relational database into two or more tables 
+and defining relationships between the tables. Data normalization also isolates 
+data so that additions, deletions, and modifications of an attribute can be 
+made in just one table and then propagated through the rest of the database 
+via the defined relationships. This simplifies database maintenance as various 
+attributes change.
+SQL Databases
+SQL is a special-purpose programming language for accessing and manipulat-
+ing data stored in a relational database. SQL was originally defined by Donald 
+D. Chamberlin and Raymond Boyce of the IBM Research Center and described 
+in their paper “SEQUEL: A Structured English Query Language,” published in 
+1974. Their work was based on the relational database model described by 
+Edgar F. Codd in his ground-breaking paper from 1970, “A Relational Model of 
+Data for Large Shared Data Banks.” It presented a set of thirteen database man-
+agement system rules he considered as the prerequisites to consider a database 
+management system a relational database management system.
+SQL databases conform to ACID properties (atomicity, consistency, isola-
+tion, durability), which were defined by Jim Gray soon after Codd’s work was 
+published. These properties guarantee database transactions are processed reli-
+ably and ensure the integrity of data in the database. Basically, these principles 
+mean that data is broken down to atomic values—that is, values that have no 
+component parts—such as employee_ID, last_name, first_name, address_line_1, 
+data normalization:  The process 
+of organizing the data in a relational 
+database to eliminate data redundancy 
+(all data is stored in only one place) 
+and ensure data dependencies make 
+sense (only storing related data in a 
+table).
+sql:  A special-purpose programing 
+language for accessing and 
+manipulating data stored in a relational 
+database.
+acid properties:  Properties 
+(atomicity, consistency, isolation, 
+durability) that guarantee relational 
+database transactions are processed 
+reliably and ensure the integrity of data 
+in the database.
+FIGURE 5.12
+Building and modifying a relational database
+Relational databases provide many tools, tips, and shortcuts to simplify the process of creating and modify-
+ing a database.
+Microsoft product screenshots used with permission from Microsoft Corporation
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 214
+
+192
+address_line_2, and city. The data in these atomic values remains consistent 
+across the database. The data is isolated from other transactions until the cur-
+rent transaction is finished, and it is durable in the sense that the data should 
+never be lost.11
+SQL databases rely upon concurrency control by locking database records 
+to ensure that other transactions do not modify the database until the first 
+transaction succeeds or fails. As a result, 100 percent ACID-compliant SQL 
+databases can suffer from slow performance.
+In 1986, the American National Standards Institute (ANSI) adopted SQL as 
+the standard query language for relational databases. Since ANSI’s acceptance 
+of SQL, interest in making SQL an integral part of relational databases on both 
+mainframe and personal computers has increased. SQL has many built-in func-
+tions, such as average (AVG), the largest value (MAX), and the smallest value 
+(MIN). Table 5.6 contains examples of SQL commands.
+SQL Command
+Description
+SELECT ClientName, Debt 
+FROM Client WHERE Debt > 
+1000
+This query displays clients (ClientName) and the amount they owe the company 
+(Debt) from a database table called Client; the query would only display clients who 
+owe the company more than $1,000 (WHERE Debt > 1000).
+SELECT ClientName, 
+­ClientNum, OrderNum FROM 
+Client, Order WHERE Client.
+ClientNum=Order.ClientNum
+This command is an example of a join command that combines data from two tables: 
+the Client table and the Order table (FROM Client, Order). The command creates a 
+new table with the client name, client number, and order number (SELECT Client-
+Name, ClientNum, OrderNum). Both tables include the client number, which allows 
+them to be joined. This ability is indicated in the WHERE clause, which states that the 
+client number in the Client table is the same as (equal to) the client number in the 
+Order table (WHERE Client.ClientNum=Order.ClientNum).
+GRANT INSERT ON Client to 
+Guthrie
+This command is an example of a security command. It allows Bob Guthrie to insert 
+new values or rows into the Client table.
+Ta b le 5.6  Examples of SQL commands
+SQL allows programmers to learn one powerful query language and use it 
+on systems ranging from PCs to the largest mainframe computers. See Figure 
+5.13. Programmers and database users also find SQL valuable because SQL 
+statements can be embedded into many programming languages, such as the 
+widely used C++ and Java. Because SQL uses standardized and simplified pro-
+cedures for retrieving, storing, and manipulating data, many programmers find 
+it easy to understand and use—hence, its popularity.
+Popular Relational Database Management Systems
+Many popular database management systems address a wide range of indi-
+vidual, workgroup, and enterprise needs as shown in Table 5.7. The complete 
+DBMS market encompasses software used by people ranging from nontech-
+nical individuals to highly trained, professional programmers and runs on all 
+types of computers from tablets to supercomputers. The entire market gener-
+ates billions of dollars per year in revenue for companies such as IBM, Oracle, 
+and Microsoft.
+Selecting a DBMS begins by analyzing the information needs of the organi-
+zation. Important characteristics of databases include the size of the database, 
+the number of concurrent users, the performance demanded of the database, 
+the ability of the DBMS to be integrated with other systems, the features of the 
+DBMS, the vendor considerations, and the cost of the database management 
+system.
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 215
+
+193
+Zillow.com is an online real estate community where homeowners, buyers, 
+sellers, and real estate agents can see what homes are worth, what’s for sale, 
+and what local experts have to say about real estate and individual homes. 
+Zillow needed a reliable database that would enable it to quickly process and 
+manage massive amounts of data. Zillow chose MySQL Cluster, a special high 
+availability version of the open-source relational database MySQL.12
+With database as a service (DaaS), the database is stored on a service 
+provider’s servers and accessed by the service subscriber over the Internet, with 
+the database administration handled by the service provider. The big advantage 
+of DaaS is that it eliminates the installation, maintenance, and monitoring of 
+in-house databases thus reducing hardware, software, and staffing related costs. 
+In addition, the service provider can allocate more or less database storage 
+capacity based on an individual customer’s changing needs. Customers must 
+depend on the service provider to provide system backup capabilities and to 
+protect customer data from unauthorized access. More than a dozen companies 
+are now offering DaaS services including Amazon, Clustrix, Google, Heroku, 
+IBM, Microsoft, MongoDB, and Oracle. Amazon Relational Database Service 
+database as a service 
+(daas):  An arrangement where 
+the database is stored on a service 
+provider’s servers and accessed by 
+the service subscriber over a network, 
+typically the Internet, with the database 
+administration handled by the service 
+provider.
+FIGURE 5.13
+Structured Query Language (SQL)
+SQL has become an integral part of most relational databases, as shown by this example from microsoft 
+access 2016.
+Microsoft product screenshots used with permission from Microsoft Corporation
+Open-Source Relational DBMS
+Relational DBMS for Individuals 
+and Workgroups
+Relational DBMS for Workgroups 
+and Enterprise
+MySQL
+Microsoft Access
+Oracle
+PostgreSQL
+IBM Lotus Approach
+IBM DB2
+MariaDB
+Google Base
+Sybase Adaptive Server
+SQL Lite
+OpenOffice Base
+Teradata
+CouchDB
+Airtable
+Microsoft SQL Server
+MongoDB
+Knack
+Progress OpenEdge
+Ta b l e 5.7  Popular database management systems
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 216
+
+194
+(Amazon RDS) is a DaaS that enables organizations to set up and operate their 
+choice of a MySQL, Microsoft SQL, Oracle, or PostgreSQL relational database 
+in the cloud. The service automatically backs up the database and stores those 
+backups based on a user-defined retention period.
+Airbnb is an online marketplace that enables people to obtain short-term 
+lodging including vacation rentals, apartment rentals, homestays, hostel beds, 
+or hotel rooms in more than 65,000 cities and 191 countries.13 The company 
+employs Amazon Web Services (AWS) to enable it to support the rapid growth 
+in the number of its users without having to devote constant time and effort 
+to organize and configure its information systems infrastructure. This includes 
+the ability to process and analyze some 50 gigabytes of data daily and store 
+over 10 terabytes of user pictures.14
+Database to Support Film Festival
+ Decision Making
+You are a member of the Palm Springs Convention and Visitors bureau. The city 
+holds a film festival each spring that draws nearly 150,000 including film industry 
+celebrities and film makers. The festival provides a great opportunity for visitors to 
+get a preview of over 100 films over a two-week period. Participants can also elect 
+to attend special opening and closing night events.
+This year, there is a desire to capture data about the visitors and their partic-
+ipation in the festival as well as feedback captured on comment cards submitted 
+by viewers of each film. The data would be used for many purposes. A primary 
+goal is to decide which films and filmmakers are most popular so that the film 
+studios can prepare appropriate marketing campaigns. Another goal is to capture 
+visitors’ contact information, so they can be mailed a reminder to register for next 
+year’s festival several weeks in advance. The filmmakers would also like to use the 
+visitors’ contact information to send them a letter of appreciation for viewing their 
+film and incentives to encourage them to tell their friends about it. You have been 
+asked to lead an effort to develop a simple relational database to meet these needs.
+Review Questions
+1.	 What key questions need to be answered to begin the design of this database?
+2.	 The Convention and Visitor’s bureau employs the Microsoft Office 365 personal 
+productivity software. You are proficient with Excel and are thinking of creating 
+a series of Excel spreadsheets with the necessary data to meet these needs. Is 
+this the way to go? Why or why not?
+Critical Thinking Questions
+1.	 Identify three tables that are needed to capture the data required to support the 
+identified needs. Identify a primary key and at least 2 or 3 additional attributes 
+for each table.
+2.	 At what stage of this project should you get other stakeholders involved? Why 
+might this be necessary?
+	 Data Management
+Data management is an integrated set of functions that defines the processes 
+by which data is obtained, certified fit for use, stored, secured, and processed 
+in such a way as to ensure that the accessibility, reliability, and timeliness of 
+the data meet the needs of the data users within an organization. The Data 
+Critical 
+Thinking 
+Exercise
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 217
+
+195
+Management Association (DAMA) International is a nonprofit, vendor-indepen-
+dent, international association whose members promote the understanding, 
+development, and practice of managing data as an essential enterprise asset. 
+This organization has identified the major functions of data management, as 
+shown in Figure 5.14.
+data management:  An integrated 
+set of functions that defines the 
+processes by which data is obtained, 
+certified fit for use, stored, secured, 
+and processed in such a way as to 
+ensure that the accessibility, reliability, 
+and timeliness of the data meet the 
+needs of the data users within an 
+organization.
+FIGURE 5.14
+Data management
+The data management association 
+(dama) international has identified 
+basic functions associated with 
+data management.
+Source: “Body of Knowledge,” DMA 
+International, https://www.dama.org/
+content/body-knowledge. Copyright DMA 
+International.
+Data
+Governance
+Data
+Architecture
+Management
+Data
+Development
+Database
+Operations
+Management
+Data
+Security
+Management
+Reference &
+Master Data
+Management
+Data
+Warehousing
+& Business
+Intelligence
+Management
+Document &
+Content
+Management
+Meta Data
+Management
+Data
+Quality
+Management
+Data governance is the core component of data management; it defines 
+the roles, responsibilities, and processes for ensuring that data can be trusted 
+and used by the entire organization, with people identified and in place who 
+are responsible for fixing and preventing issues with data.
+The need for data management is driven by a variety of factors, including 
+the need to meet external regulations designed to manage risk associated with 
+the misstatement of financial data, the need to avoid the accidental release of 
+sensitive data, and the need to ensure that key business decisions are made 
+using high-quality data. Haphazard or incomplete business processes and con-
+trols simply will not meet these requirements. Rigorous management processes 
+are needed to govern data.
+Effective data governance requires business leadership and active partici-
+pation and is an effort best led by business managers and not the information 
+system organization. The data governance team should be a cross-functional 
+and multilevel team, consisting of executives, project managers, line-of-business 
+managers, and IS managers drawn from various areas of the business. The 
+use of a cross-functional team is recommended because data and information 
+systems are used by many different departments and no one individual has a 
+complete view of the organization’s data needs.
+The data governance team develops a policy that specifies who is account-
+able for various portions or aspects of the data, including its accuracy, acces-
+sibility, consistency, completeness, updating, and archiving. The team defines 
+processes for how the data is to be stored, archived, backed up, and protected 
+from cyberattacks, inadvertent destruction or disclosure, or theft. It develops 
+standards and procedures that define who is authorized to update, access, and 
+use the data. The team also puts in place a set of controls and audit procedures 
+data governance:  The core 
+component of data management; it 
+defines the roles, responsibilities, 
+and processes for ensuring that data 
+can be trusted and used by the entire 
+organization, with people identified and 
+in place who are responsible for fixing 
+and preventing issues with data.
+Chapter 5 • Database Systems and Data Management
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 218
+
+196
+to ensure ongoing compliance with organizational data policies and govern-
+ment regulations. Two key members of the data governance team are the data-
+base administrator and data stewards.
+A database administrator (DBA) is a skilled and trained IS professional 
+who holds discussions with business users to define their data needs; applies 
+database programming languages to craft a set of databases to meet those 
+needs; tests and evaluates databases; monitors their performance and imple-
+ments change to improve response time for user queries; and assures that data 
+is secure from unauthorized access. Database systems require a skilled database 
+administrator (DBA), who must have a clear understanding of the fundamental 
+business of the organization, be proficient in the use of selected database man-
+agement systems, and stay abreast of emerging technologies and new design 
+approaches. Typically, a DBA has a degree in computer science or management 
+information systems and some on-the-job training with a particular database 
+management system product or more extensive experience with a range of 
+database products. See Figure 5.15.
+database administrator 
+(dba):  A skilled and trained IS 
+professional who holds discussions 
+with business users to define their data 
+needs; applies database programming 
+languages to craft a set of databases 
+to meet those needs; tests and 
+evaluates databases; implements 
+changes to improve the performance 
+of databases; and assures that data is 
+secure from unauthorized access.
+FIGURE 5.15
+Database administrator
+The role of the database administra-
+tor (DBA) is to plan, design, create, 
+operate, secure, monitor, and main-
+tain databases.
+iStock.com/Clerkenwell_Images
+An important responsibility of a DBA is to protect the database from attack 
+or other forms of failure. DBAs use security software, preventive measures, and 
+redundant systems to keep data safe and accessible. Despite the best efforts of 
+DBAs, database security breaches are all too common. For example, 143 million 
+American consumers had their sensitive personal information (name, address, 
+birth date, social security number) exposed in a 2017 data breach at Equifax, 
+one of the nation’s three leading credit bureaus.15
+The data steward is typically a non-IS employee who takes responsi-
+bility for the management of critical data entities or attributes. This includes 
+identifying and acquiring new data sources to obtain the desired data entity 
+or attribute; creating and maintaining consistent reference data and master 
+data definitions; analyzing data for quality, and reconciling data issues. Data 
+users consult with a data steward when they need to know what data to use 
+to answer a business question, or to confirm the accuracy, completeness, or 
+soundness of data within a business context. Data stewards advise and guide 
+users and help them get the most value out of the enterprise data warehouse.
+Data lifecycle management (DLM) is a policy-based approach to man-
+aging the flow of an enterprise’s data, from its initial acquisition or creation 
+and storage to the time when it becomes outdated and is deleted. See Figure 
+5.16. Several vendors offer software products to support DLM such as the IBM 
+Information Lifecycle Governance suite of software products.
+data steward:  An individual 
+responsible for the management 
+of critical data elements, including 
+identifying and acquiring new data 
+sources; creating and maintaining 
+consistent reference data and master 
+data definitions; and analyzing data for 
+quality and reconciling data issues.
+data lifecycle management 
+(dlm):  A policy-based approach to 
+managing the flow of an enterprise’s 
+data, from its initial acquisition or 
+creation and storage to the time when 
+it becomes outdated and is deleted.
+part 2 • Technology Infrastructure
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 219
+
+197
+FIGURE 5.16
+The data life cycle
+A policy-based approach to manag-
+ing the flow of an enterprise’s data, 
+from its initial acquisition or creation 
+and storage to the time when it 
+becomes outdated and is deleted.
+Data
+Lifecycle
+Archive
+or discard
+Define data
+needs
+Evaluate alternate
+sources
+Evaluate
+Acquire
+data
+Store data
+Publish data
+descriptions
+Access
+and use
+Initiating a Data Management Program
+ Decision Making
+You are a second-level manager in the Finance department of a mid-sized man-
+ufacturing firm that has implemented employee, customer, product, order, and 
+supplier databases. The databases all run on an Oracle database management 
+system installed on a server owned and managed by your firm’s small IT organiza-
+tion. Recently you have been receiving a number of complaints from users of the 
+database about extremely slow response time to their queries and report requests. 
+Management has asked you to prepare a set of proposed solutions.
+Review Questions
+1.	 What advantages might be gained from moving to a database as a service 
+environment?

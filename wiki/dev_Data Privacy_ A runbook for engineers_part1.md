@@ -1,0 +1,3006 @@
+---
+title: Data Privacy_ A runbook for engineers - Part 1
+source: Data Privacy_ A runbook for engineers.md
+category: development
+---
+
+---
+title: Data Privacy_ A runbook for engineers
+source: Data Privacy_ A runbook for engineers -- Nishant Bhajaria; Safari, an O'Reilly Media Company -- 1st edition, Erscheinungsort nicht ermittelbar, 2022 -- 9781617298998 -- c5293d4acb4ff0e1542add869a6caa3e --.pdf
+category: development
+---
+
+## Page 1
+
+
+## Page 2
+
+inside front cover
+The four key privacy expectations that companies face and their
+associated privacy solutions
+
+## Page 3
+
+
+## Page 4
+
+  
+ 
+ 
+Data Privacy
+A RUNBOOK FOR ENGINEERS
+ 
+Nishant Bhajaria
+ 
+FЉЌϿБЉЌϾ ϼГ NϿЃІ HЏЈЎ
+ 
+To comment go to liveBook
+ 
+ 
+Manning
+Shelter Island
+ 
+For more information on this and other Manning titles go to
+
+## Page 5
+
+www.manning.com
+ 
+
+## Page 6
+
+Copyright
+For online information and ordering of these  and other
+Manning books, please visit www.manning.com. The
+publisher offers discounts on these books when ordered in
+quantity.
+For more information, please contact
+ 
+Special Sales Department
+Manning Publications Co.
+20 Baldwin Road
+PO Box 761
+Shelter Island, NY 11964
+Email: orders@manning.com
+ 
+©2022 by Manning Publications Co. All rights
+reserved.
+ 
+No part of this publication may be reproduced, stored in a
+retrieval system, or transmitted, in any form or by means
+electronic, mechanical, photocopying, or otherwise, without
+prior written permission of the publisher.
+Many of the designations used by manufacturers and sellers
+to distinguish their products are claimed as trademarks.
+Where those designations appear in the book, and Manning
+
+## Page 7
+
+Publications was aware of a trademark claim, the
+designations have been printed in initial caps or all caps.
+♾ Recognizing the importance of preserving what has been
+written, it is Manning’s policy to have the books we publish
+printed on acid-free paper, and we exert our best efforts to
+that end. Recognizing also our responsibility to conserve the
+resources of our planet, Manning books are printed on
+paper that is at least 15 percent recycled and processed
+without the use of elemental chlorine.
+ 
+ 
+        
+    
+ 
+      
+ 
+        
+Manning Publications Co.
+ 
+ 
+        
+20 Baldwin Road Technical
+ 
+ 
+        
+PO Box 761
+ 
+ 
+        
+Shelter Island, NY 11964
+ 
+      
+ 
+
+## Page 8
+
+ 
+        
+Development editor:  
+ 
+      
+ 
+        
+Ian Hough
+ 
+      
+ 
+        
+Technical development editor:  
+ 
+      
+ 
+        
+Michael Jensen
+ 
+      
+ 
+        
+Review editor:  
+ 
+      
+ 
+        
+Aleksandar Dragosavljević
+ 
+      
+ 
+        
+Production editor:  
+ 
+      
+ 
+        
+Rachel Gibbs
+ 
+      
+ 
+        
+Copy editor:  
+ 
+      
+ 
+        
+Andy Carroll
+ 
+      
+ 
+        
+Proofreader:  
+ 
+      
+ 
+        
+Jason Everett
+ 
+      
+
+## Page 9
+
+ 
+        
+Technical proofreader:  
+ 
+      
+ 
+        
+Jon Riddle
+ 
+      
+ 
+        
+Typesetter:  
+ 
+      
+ 
+        
+Gordan Salinović
+ 
+      
+ 
+        
+Cover designer:  
+ 
+      
+ 
+        
+Marija Tudor
+ 
+      
+ 
+ISBN: 9781617298998
+
+## Page 10
+
+brief contents
+  
+Part 1. Privacy, Data, and Your Business
+  1 Privacy engineering: Why it’s needed, how to scale it
+  2 Understanding data and privacy
+Part 2. A proactive privacy program: Data
+governance
+  3 Data classification
+  4 Data inventory
+  5 Data sharing
+Part 3. Building tools and processes
+  6 The technical privacy review
+  7 Data deletion
+  8 Exporting user data: Data Subject Access Requests
+Part 4. Security, scaling, and staffing
+  9 Building a consent management platform
+10 Closing security vulnerabilities
+11 Scaling, hiring, and considering regulations
+
+## Page 11
+
+contents
+Front matter
+foreword
+preface
+acknowledgments
+about this book
+about the author
+about the cover illustration
+  
+Part 1. Privacy, Data, and Your Business
+  1 Privacy engineering: Why it’s needed, how to scale it
+  1.1  What is privacy?
+  1.2  How data flows into and within your company
+  1.3  Why privacy matters
+The fines are real
+Early-stage efficiency wins can cause late-stage privacy headaches
+Privacy investigations could be more than a speed bump
+Privacy process can unlock business opportunities: A real-life
+example
+  1.4  Privacy: A mental model
+  1.5  How privacy affects your business at a macro level
+Privacy and safety: The COVID edition
+Privacy and regulations: A cyclical process
+  1.6  Privacy tech and tooling: Your options and your choices
+
+## Page 12
+
+The “build vs. buy” question
+Third-party privacy tools: Do they really work and scale?
+The risks in buying third-party privacy tools
+  1.7  What this book will not do
+  1.8  How the role of engineers has changed, and how that
+has affected privacy
+  2 Understanding data and privacy
+  2.1  Privacy and what it entails
+Why privacy is hard
+Privacy engineering on the ground: What you have to accomplish
+Privacy, data systems, and policy enforcement
+  2.2  This could be your company
+  2.3  Data, your business growth strategy, and privacy
+  2.4  Examples: When privacy is violated
+Equifax
+The Office of Personnel Management (OPM) breach
+LabCorp and Quest Diagnostics
+  2.5  Privacy and the regulatory landscape
+How regulations impact your product and their users
+How your program should help prepare for changing privacy law
+  2.6  Privacy and the user
+Becoming an American, and privacy
+Today’s users and their privacy concerns
+  2.7  After building the tools comes the hard part: Building a
+program
+  2.8  As you build a program, build a privacy-first culture
+
+## Page 13
+
+Part 2. A proactive privacy program: Data
+governance
+  3 Data classification
+  3.1  Data classification and customer context
+  3.2  Why data classification is necessary
+Data classification as part of data governance
+Data classification: How it helps align priorities
+Industry benchmarking around data classification
+Unstructured data and governance
+Data classification as part of your maturity journey
+  3.3  How you can implement data classification to improve
+privacy
+Data classification and access options
+Data classification, access management, and privacy: Example 1
+Data classification, access management, and privacy: Example 2
+  3.4  How to classify data with a focus on privacy laws
+Data classification as an abstraction of privacy laws
+Data classification to resolve tension between interpretations of
+privacy laws
+  3.5  The data classification process
+Working with cross-functional stakeholders on your data
+classification
+Formalizing and refactoring your data classification
+The data classification process: A Microsoft template
+  3.6  Data classification: An example
+  4 Data inventory
+  4.1  Data inventory: What it is and why you need it
+  4.2  Machine-readable tags
+
+## Page 14
+
+What are data inventory tags?
+Data inventory tags: A specific example
+  4.3  Creating a baseline
+  4.4  The technical architecture
+Structured and unstructured data
+Data inventory architectural capabilities
+Data inventory workflow
+  4.5  Understanding the data
+The metadata definition process
+The metadata discovery process
+  4.6  When should you start the data inventory process?
+Why is the data inventory process so hard?
+Data inventory: Sooner is better than later
+  4.7  A data inventory is not a binary process
+Data inventory level 1
+Data inventory level 2
+Data inventory level 3
+  4.8  What does a successful data inventory process look like?
+Data inventory objective success metrics
+Data inventory subjective success metrics
+  5 Data sharing
+  5.1  Data sharing: Why companies need to share data
+Data sharing: Taxicab companies
+Data sharing: Online advertising
+Privacy in advertising
+  5.2  How to share data safely: Security as an ally of privacy
+Tracking President Trump
+Protecting data in motion
+Protecting data at rest
+
+## Page 15
+
+  5.3  Obfuscation techniques for privacy-safe data sharing
+Data sharing and US national security
+Data anonymization: The relationship between precision and
+retention
+Data anonymization: The relationship between precision and access
+Data anonymization: Mapping universal IDs to internal IDs
+  5.4  Sharing internal IDs with third parties
+Use case 1: Minimal session (no linking of user activity is needed)
+Use case 2: Single session per dataset (linking of the same user’s
+activity within a dataset)
+Use case 3: Session spanning datasets (linking across datasets)
+Recovering pseudonymized values
+  5.5  Measuring privacy impact
+K-anonymity
+L-diversity
+  5.6  Privacy harms: This is not a drill
+Facebook and Cambridge Analytica
+Sharing data and weaknesses
+Part 3. Building tools and processes
+  6 The technical privacy review
+  6.1  What are privacy reviews?
+The privacy impact assessment (PIA)
+The data protection impact assessment (DPIA)
+  6.2  Implementing the legal privacy review process
+  6.3  Making the case for a technical privacy review
+Timing and scope
+What the technical review covers that the legal review does not
+
+## Page 16
+
+  6.4  Integrating technical privacy reviews into the innovation
+pipeline
+Where does the technical privacy review belong?
+How to implement a technical privacy intake?
+  6.5  Scaling the technical privacy review process
+Data sharing
+Machine-learning models
+  6.6  Sample technical privacy reviews
+Messaging apps and engagement apps: Do they connect?
+Masks and contact tracing
+  7 Data deletion
+  7.1  Why must a company delete data?
+  7.2  What does a modern data collection architecture look
+like?
+Distributed architecture and microservices: How companies collect
+data
+How real-time data is stored and accessed
+Archival data storage
+Other data storage locations
+How data storage grows from collection to archival
+  7.3  How the data collection architecture works
+  7.4  Deleting account-level data: A starting point
+Account deletion: Building the tooling and process
+Scaling account deletion
+  7.5  Deleting account-level data: Automation and scaling for
+distributed services
+Registering services and data fields for deletion
+Scheduling data deletion
+  7.6  Sensitive data deletion
+
+## Page 17
+
+  7.7  Who should own data deletion?
+  8 Exporting user data: Data Subject Access Requests
+  8.1  What are DSARs?
+What rights do DSAR regulations give to users?
+An overview of the DSAR request fulfillment process
+  8.2  Setting up the DSAR process
+The key steps in creating a DSAR system
+Building a DSAR status dashboard
+  8.3  DSAR automation, data structures, and data flows
+DSAR components
+Cuboids: A subset of DSAR data
+DSAR templates
+Data sources for DSAR templates
+  8.4  Internal-facing screens and dashboards
+Part 4. Security, scaling, and staffing
+  9 Building a consent management platform
+  9.1  Why consent management is important
+Consent management and privacy-related regulation
+Consent management and tech industry changes
+Consent management and your business
+  9.2  A consent management platform
+  9.3  A data schema model for consent management
+The entity relationships that help structure a CMP
+Entity relationship schemas: A CMP database
+  9.4  Consent code: Objects
+API to check consent status
+API to retrieve disclosures
+API to update the consent status for a disclosure
+
+## Page 18
+
+API to process multiple disclosures
+API to register with the consents service
+Useful definitions for the consents service
+  9.5  Other useful capabilities in a CMP
+  9.6  Integrating consent management into product workflow
+10 Closing security vulnerabilities
+10.1  Protecting privacy by reducing the attack surface
+Managing the attack surface
+How testing can cause security and privacy risks
+An enterprise risk model for security and privacy
+10.2  Protecting privacy by managing perimeter access
+The Target breach
+MongoDB security weaknesses
+Authorization best practices
+Why continuous monitoring of accounts and credentials is important
+Remote work and privacy risk
+10.3  Protecting privacy by closing access-control gaps
+How an IDOR vulnerability works
+IDOR testing and mitigation
+11 Scaling, hiring, and considering regulations
+11.1  A maturity model for privacy engineering
+Identification
+Protection
+Detection
+Remediation
+11.2  The privacy engineering domain and skills
+11.3  Privacy and the regulatory climate
+  
+
+## Page 19
+
+index
+
+## Page 20
+
+front matter
+foreword
+I met Nishant while I was leading the product and
+engineering team at Netflix, where I had been since the
+beginning of the company. The team was about 500 strong,
+and while we had had early brushes with security
+challenges, we had not tackled privacy in a significant way
+until we faced blowback from the Netflix Prize, and then
+GDPR and CCPA in quick succession. We were building out
+the team, the philosophy, and the deliverables at the same
+time, and Nishant was a key part of that team—someone
+who spoke both engineering and privacy, who understood
+the pragmatics, the needs of the business, the limits on
+engineering effort, and the commitments we had made (and
+needed to make) to our customers and how to fulfill them.
+For the Netflix Prize, 2006–2009, we wanted to publish a
+large dataset of 100M ratings from 500k users (e.g. user N
+liked title T with 4 stars) and offer a $1M prize for the team
+who could best build a prediction engine to predict ratings
+on a test set held back from the competitors. Obviously we
+needed to anonymize the dataset, but James Bennett, who
+ran the prize effort for me, also took a sophisticated
+approach of randomizing a percentage of the ratings so they
+could not be matched to other public sources. However,
+Arvind Narayanan and Vitaly Shmatikov at the University of
+
+## Page 21
+
+Texas at Austin wrote a paper showing that statistical re-
+identification techniques could match ratings to IMDB and
+expose the identities of several individuals—a possibility we
+hadn’t sufficiently thought through. This was a wakeup call
+for me.
+Around this time, there were an escalating series of
+breaches at various other companies, disclosing personal
+information including names, addresses, SSNs, credit cards,
+etc. It was easy to view these as security problems, but in
+many cases, the breach was less a penetration of defenses,
+but was by or through an insider, or an accident. As we
+studied how to avoid being hit ourselves, it became clearer
+and clearer that while we needed to have strong security
+measures, it would also be necessary to design our IT
+systems to limit and segregate personal information so that
+accidents were unlikely, insiders had less chance (and more
+incentive) to avoid a leak, and hackers would have to work
+much harder to put the pieces together.
+Then came the GDPR regulation, as a harbinger of many
+new privacy regulations that are still rolling out as I write
+this in 2021. GDPR (and later CCPA) added the new
+consideration that individuals should have the right to know
+what data was collected, to be able to see that data, to fix it
+if incorrect, and to delete it if they wished. This further
+reinforced the need to design our systems with privacy in
+mind, to make all these things easier to accomplish.
+For Netflix, this meant segregating our personally
+identifying information in tokenized data stores, ensuring
+
+## Page 22
+
+that all references were indirect, and adding policies,
+controls, and auditing around access to those stores.
+Accomplishing this on a system running at scale, without
+impacting performance, was a significant challenge, and one
+in which Nishant was a key leader. It made me wish that we
+had planned more for this when starting out, and that we
+didn’t have to build it after the fact—and I started to think
+and communicate about principles of design for privacy with
+my team.
+This book takes that thinking further and deeper. It is
+written for professionals in technology companies facing the
+same challenges that we faced then, but in an ever more
+stringent and demanding environment when privacy
+matters more to individuals and thus regulators, when more
+data is stored and more breaches and disclosures happen
+all the time, when technology platforms are less monolithic
+and more bolted together from various partnerships and
+services, and public opinion about technology companies
+has turned increasingly negative on their use and abuse of
+private data.
+Your digital exhaust can be incredibly valuable, and can be
+used to pay for services and products which are offered for
+free (or to boost revenue for products sold for a fee). Free
+(or reduced cost) has always been an attractive model to
+consumers, but now people are becoming more savvy and
+demanding about what is done with their data, and
+companies are being more aggressive about deriving
+maximum value from that data to pay for ever richer and
+more interesting products.
+
+## Page 23
+
+But your private information linked to behavior is
+increasingly used in services or systems that are
+unavoidable: from government services, health, banking,
+travel infrastructure, to third party infrastructure like ratings
+agencies. These systems, being non-optional, have an even
+bigger responsibility to use your personal information safely,
+since you can’t “vote with your feet” and avoid companies
+that abuse your trust.
+This requires that companies think clearly about what they
+will do with the data, are clear and up-front about it with
+their users, and do it in a safe way that restores some of
+the lost trust.
+Executing on those requirements starts with the people:
+inculcating a privacy sensitivity, a state of mind, that makes
+privacy a first-order topic throughout an organization.
+Then it requires thoughtful product and service design,
+thinking about what is needed, and for how long, and what
+to do with it afterwards, and the ability to clearly
+communicate that with users.
+And then it requires technology design and implementation
+that makes it possible to comply with the promises made
+and the regulations that need to be followed, without
+becoming a burden on the organization preventing
+productivity, agility, and the ability to deliver value. The
+design needs to anticipate future privacy needs that will
+come in evolving public expectations and future privacy
+regulations that will inevitably arise as the public concerns
+develop.
+
+## Page 24
+
+This book will give you a better appreciation for what
+privacy is and why it matters; with frequent examples of
+breaches and leaks, it provokes you to think about what if
+that were my organization; how can I take steps to lower
+the risk?
+Nishant describes methodologies for classifying and talking
+about data with differing privacy sensitivities, where that
+data goes and what it is used for, and prompts you to ask
+the questions: Is it necessary for the purpose? Is it what I
+would want as a customer? Is it ethical? Is it compliant with
+our policies and with regulations? Then he considers sharing
+with other parts of the organization, and (increasingly
+important) with partners, suppliers, and vendors, and how
+to ask the right questions of those other organizations
+before you trust them with your users’ data.
+A big part of the book is about technical design to make it
+easy to keep private information private. Techniques include
+encryption, hashing, tokenization, and ways to segregate
+data to secure the private data. Another aspect is avoiding
+informal data collection (such as logging or debug streams)
+that inadvertently capture PII in an insecure way. This
+requires tooling to support collecting useful data without
+PII, and educational programs that ensure that engineers
+are mindful of the need to take care.
+So much of privacy depends upon what data is collected.
+Thus an important part of design for privacy is ensuring that
+there is justification for collecting and for keeping data, and
+making sure that it is not collected if not needed, or
+
+## Page 25
+
+removed when no longer necessary. Defining need matters
+too—there’s the data you find that you need in the future
+that you wish you had collected when you had the chance,
+and there is the data that you need yesterday that doesn’t
+really add much value, and probably wasn’t that important
+in the first place.
+The new privacy regulations introduce user rights to know,
+to view, to correct, and to delete their data; this can very
+quickly become an impossible task unless data collection is
+designed from the start with an ability to find everything
+about an individual, and an ability to selectively delete
+individual records without leaving inconsistencies in the
+data (such as audit trails for transactions that point to
+deleted customer records).
+Privacy is joined at the hip with security. Without strong
+identity/authentication and (appropriately fine grained)
+authorization, it becomes impossible to keep control of, or
+audit access to private information, and without good
+controls around unauthorized access, it becomes easier for
+an intruder to compromise privacy.
+The book closes with thoughts on scaling—that is, matching
+the resources and team focused on privacy to the size and
+maturity of the organization and the task it is facing. It is
+easy to undersize the effort and fail to achieve the goals; it
+is also easy to oversize the effort, waste resources, slow
+things down, and kill the value that the organization seeks
+to deliver. Finding the right effort level is a challenge!
+
+## Page 26
+
+I wish I had had this text in 2015 or 2016 at Netflix when
+we started working on GDPR readiness. It would have been
+helpful in 2008–2012 in a time of significant architectural
+evolution of our technology, when we could have
+implemented some of the ideas much more easily. I would
+have benefited from the text as far back as 2006 thinking
+about the Netflix Prize, or even before as we laid the
+foundations for Netflix in the late 1990s. And now, I find the
+text valuable as I work on AI in healthcare, where the
+opportunities for data-driven medicine are so huge but
+regulatory and public scrutiny are especially prominent, if
+dated and hard to interpret in the modern era of privacy in
+technology.
+I frequently encounter teams who have ignored or
+dismissed privacy as something for later, and this text is
+both a good antidote to that kind of thinking, and also a
+good primer on how to make progress getting where they
+need to be, in a balanced and cost-effective, value-
+enhancing way.
+Enjoy your read!
+NϿЃІ HЏЈЎ
+CЂЃϿЀ PЌЉϾЏϽЎ OЀЀЃϽϿЌ, NϿЎЀІЃВ 1999–2017
+preface
+There are known knowns. These are things we know that we know. There are
+known unknowns. That is to say, there are things that we know we don’t
+
+## Page 27
+
+know. But there are also unknown unknowns. There are things we don’t know
+we don’t know.
+—Donald Rumsfeld, Former United States Secretary of Defense
+The above quote by Donald Rumsfeld often came to mind
+during my early days as a security and privacy engineer.
+Seemingly trivial problems—locating data, verifying user
+acceptance, and deleting data—often revealed themselves
+as unimaginably more complicated than they should have
+been. The same instincts of data collection and
+dissemination that served me well in my previous
+incarnation as an engineer and product manager
+boomeranged on me in my role as a privacy leader.
+I remember looking for resources online and coming up
+empty. Most frustrating were the moments when those of us
+working on privacy were deemed by the business to be
+blockers. The lack of any data hygiene among engineering
+teams made it hard for me to offer clear and verifiable
+answers to attorneys representing us in court.
+The onset of privacy regulation and scrutiny has led to
+improvements at companies that use customer data. Even
+so, existing privacy laws are too segmented and often too
+confusing. Unsurprisingly, the ambiguity hurts businesses
+that lack the resources that the bigger companies have. The
+relationship between businesses and privacy regulators
+ranges from distrust to disgust, and the consumer is poorer
+for it.
+
+## Page 28
+
+My favorite example from my Netflix days: The Video
+Privacy Protection Act (VPPA) was passed by the United
+States Congress in 1988. It was the outcome of the
+contentious Supreme Court nomination of Judge Robert
+Bork. Judge Bork stated that “Americans enjoy only those
+privacy protections conferred by legislation.” In response,
+Michael Dolan, a freelance writer for the Washington City
+Paper talked a video store clerk into giving him Bork’s rental
+history.
+Congress passed the VPPA to regulate data around our
+viewing history decades before streaming platforms like
+Netflix and Amazon Prime existed. These platforms,
+nonetheless, are impacted by the VPPA’s stipulations. Newer
+privacy laws suffer from flaws, as well, in that they often do
+not account for the complexity of building technical privacy
+solutions.
+Also, engineering teams increasingly operate in silos with
+bespoke processes. That has made it increasingly difficult to
+execute privacy controls in a way that is scalable and
+measurable. Companies and governments have feasted on
+too much data for far too long, with too little restraint.
+In 2019, I decided to help other engineers and leaders who
+were trying to solve problems similar to the ones I had
+wrestled over the years. I started teaching courses on this
+topic on LinkedIn Learning, and those were well received.
+My insights and experience were soon sought after by
+startup founders, mature companies, venture capitalists,
+and members of the cybersecurity community at large.
+
+## Page 29
+
+I found that my esoteric skills—a mix of engineering, data
+protection, regulatory policy—enabled me to run massive
+and impactful privacy programs. If I could aggregate all my
+learnings, victories, and missteps as a reference for
+companies, they could start building privacy into their
+products from the beginning rather than bolting it on at the
+end.
+There is a need in the market, and in government, for a
+framework that combines business and policy context with
+hands-on technical skills. I decided to write a book to offer
+just that.
+Over the span of one year when data was spreading
+worldwide while most of us were locked in place at home, I
+wrote this book to increase the number of “known knowns”
+and decrease the number of “known unknowns” and
+“unknown unknowns.”
+acknowledgments
+This book would not have been possible were it not for the
+growing cybersecurity community, of which privacy and
+data protection are a key part. Engineers who constantly
+strive to protect customer data made for an inspiring target
+audience as well as north star. The many industry experts
+who have offered solutions and commentary are too
+numerous to list, but that does not diminish their
+contribution.
+
+## Page 30
+
+I want to thank the people at Manning who made this book
+possible: Publisher Marjan Bace, Editor Ian Hough,
+Acquisitions Editor Michael Stephens. Candace Gillhoolley
+and Beth Faris from marketing, and others on the editorial
+and production teams who worked behind the scenes. A
+heartfelt thanks also to Michael Jensen for technical reviews
+that made the book more focused on helping its core
+engineering constituency.
+Sincere gratitude is also in order to mentors and experts in
+industry who helped my career grow in this space and
+whose contributions have enriched this book: Anthony
+Dupre, Larry Drebes, Anne Bradley, Jason Chan, Benjamin
+Malley, Patrick Mueller, Neil Hunt, Naresh Gopalani, Russell
+Lewis, Charles Smith, Vikram Khare, Vinay Goel, John
+“Four” Flynn, Yong Qiao, Ruby Zefo, Derek Care, Uttara
+Sivaram, Michelle Dennedy, Melanie Ensign, Simon Hania,
+Mohammad Islam, Catherine Nelson, Peter Dickman, Kim
+Lucy, Bryan Casper, Ben Feinstein, Engin Bozdag, Calvin
+Seto, Matt Olsen, Ayana Miller, Ahmed Ibrahim, Avni Verma,
+Latha Maripuri, Nicolas Lidzborski, Zhengquin Luo, and
+others.
+To all the reviewers: Benjamin Lampert, Brian Liceaga, Des
+Horsley, Diego Casella, Doniyor Ulmasov, Floris Bouchot,
+Håvard Wall, Jean-François Beauchef, Jens Gheerardyn, Joe
+Ivans, John Tyler, Jon Riddle, Jonathan Bourbonnais, Marc
+Roulleau, Marcin Sęk, Matthew Todd, Maytham Fahmi,
+Michael Langdon, Nadia Noori, Osama Khan, Paul Love,
+Peter White, Pietro Alberto Rossi, Tim Wooldridge, and
+
+## Page 31
+
+Willem van Ketwich, your suggestions helped make this a
+better book.
+about this book
+This book is intended to serve two purposes. First, it is
+intended to be a stepping stone for engineers looking to
+solve privacy problems using tools, automation, and
+process. I have provided not just hands-on implementation
+techniques, but also the business context that is critical in
+fast-moving companies. Second, the book is supposed to
+help decision-makers in companies, governments, and
+media provide the right guidance to help businesses thrive
+as well as protect customer data.
+Who should read this book
+This book’s primary audience is engineers who work with
+data, especially in highly distributed architectures. They
+have to solve complex problems and have lacked the
+framework to embed privacy engineering into their system
+designs and implementations. This is the first book in the
+era of cloud computing and identity graphs to help
+engineers implement complex privacy goals like data
+governance, technical privacy reviews, data deletion,
+consent management, etc.
+This book will help engineers regardless of whether they
+choose to build these solutions in-house or onboard third-
+party solutions. Engineers can also use this book to find
+
+## Page 32
+
+overlaps between privacy and security risks, a key
+consideration given our present threats of ransomware,
+breaches, and email fraud.
+Executives would also benefit from reading this book. While
+some of the technical details would be out of scope, these
+readers will be able to partner with engineers more
+effectively after having read this book to solve privacy
+problems and make informed decisions.
+I also hope that members of the media, regulators, and
+attorneys use this to build a baseline of knowledge. This will
+enable them to offer commentary and analysis rooted in
+context and expertise.
+How this book is organized: A roadmap
+This book is organized in four parts and 11 chapters. The
+bookends, i.e. the first and fourth parts, offer contextual
+guidance and will help engineers develop a scalable privacy
+program. The second and third parts offer hands-on skills
+that focus on data governance and tooling respectively.
+Part 1 focuses on how privacy engineering fits as part of a
+company’s overall innovation ecosystem:
+Chapter 1 explains how privacy is impacted by the
+flow of data through the tech stack and storage,
+and how a company can develop programmatic
+controls accordingly.
+
+## Page 33
+
+Chapter 2 explains how data can create privacy
+risk because of breaches, misuse, and
+regulations.
+Part 2 focuses on data governance so as to enable
+engineers to manage better the data they collect and its
+attendant risk:
+Chapter 3 focuses on classifying data with cross-
+functional partners so as to align with privacy risk.
+Chapter 4 is a deep-dive on data inventory, which
+entails categorizing data using a mixture of
+manual and intelligence-powered classification.
+Chapter 5 offers techniques to anonymize
+datasets and measure privacy impact, using data
+sharing as a use-case.
+Part 3 will help engineers develop mission-critical privacy
+tooling aimed at improving privacy compliance as well as
+building customer trust:
+Chapter 6 will help engineers set up a technical
+privacy review and consulting process to front-
+load privacy guidance and reduce the strain on
+the privacy legal team.
+Chapter 7 will walk through a sample architecture
+for data deletion, a core requirement for data risk
+minimization as well as for several compliance
+regimes.
+
+## Page 34
+
+Chapter 8 will help readers design a data export
+capability so as to help fulfill “Data Subject Access
+Requests” or “DSARs.”
+Chapter 9 offers a sample design for a Consent
+Management Platform (CMP) so that businesses
+can meet this new requirement that is being
+enforced by regulators and corporations.
+Part 4 will help build on the earlier portions of the book and
+help engineers scale their privacy program:
+Chapter 10 aligns privacy risks to security risks,
+and offers best practices to mitigate those risks.
+Chapter 11 helps engineers plan maturity models
+for their privacy offering and their staffing models.
+If you are a hands-on engineer, parts 2 and 3 are more
+directly in line with your imminent needs. More senior
+engineers will benefit from a fuller reading of the book given
+their responsibilities often cover the full span of the
+organization. For executives, members of the media, and
+regulators, I’d recommend a deep dive in sections 1 and 4,
+while a more self-paced reading of the more technical
+middle sections could suffice.
+About the code
+This book contains examples of source code both in
+numbered listings and in line with normal text. In both
+cases, source code is formatted in a fixed-width font
+like this to separate it from ordinary text.
+
+## Page 35
+
+In many cases, the original source code has been
+reformatted; we’ve added line breaks and reworked
+indentation to accommodate the available page space in the
+book. In rare cases, even this was not enough, and listings
+include line-continuation markers (➥). Additionally,
+comments in the source code have often been removed
+from the listings when the code is described in the text.
+The code for the examples in this book is available for
+download from the Manning website at
+https://www.manning.com/books/data-privacy.
+liveBook discussion forum
+Purchase of Data Privacy includes free access to a private
+web forum run by Manning Publications where you can
+make comments about the book, ask technical questions,
+and receive help from the author and from other users. To
+access the forum, go to
+https://livebook.manning.com/#!/book/data-
+privacy/discussion. You can also learn more about
+Manning’s forums and the rules of conduct at
+https://livebook.manning.com/#!/discussion.
+Manning’s commitment to our readers is to provide a venue
+where a meaningful dialogue between individual readers
+and between readers and the author can take place. It is
+not a commitment to any specific amount of participation on
+the part of the author, whose contribution to the forum
+remains voluntary (and unpaid). We suggest you try asking
+the author some challenging questions lest his interest
+
+## Page 36
+
+stray! The forum and the archives of previous discussions
+will be accessible from the publisher’s website as long as
+the book is in print.
+about the author
+Nishant Bhajaria has a Bachelors and a Masters Degree in
+Computer Science. He has been part of the cybersecurity
+and privacy community since 2010 and has led teams of
+various sizes in these areas at Nike, Netflix, Google, and
+Uber, where he currently leads the privacy engineering
+organization and reports to the CISO. The organizations he
+has led have included engineers and architects, data
+analysts and privacy consultants, as well as product
+managers and incident response specialists.
+After having started his career building teams and
+programs, he has pivoted to building more strategic
+programs. These programs operate to enable privacy
+maturity, partnerships with core engineering and data
+platform teams, and tighter alignment with the legal and PR
+teams. His areas of impact range from helping the board of
+directors make data-driven decisions to coaching product
+management to operate with fairness and trust as a
+consideration.
+Nishant is also active on the cybersecurity circuit with
+published white papers on privacy and multiple speaking
+engagements for industry bodies. He advises startups on
+data protection strategy and teaches courses on LinkedIn
+
+## Page 37
+
+Learning on data privacy
+(https://www.linkedin.com/learning/instructors/nishant-
+bhajaria) as well as other areas that include career
+development and inclusivity in tech staffing. He also
+partnered with researchers at MIT to draft the first-ever
+privacy principles for COVID-19 contact tracing
+(https://law.mit.edu/pub/commentaryoncovid19contacttraci
+ngprivacyprinciples/release/1) in the early days of the
+pandemic.
+This eclectic set of contributions map back to his days in
+college, when he was the rare engineer who wrote editorials
+for the college paper, was part of the debate team, and
+worked for political science professors.
+Outside of work, there are several causes close to his heart
+and they center on wildlife. Helping to rescue dogs from kill-
+shelters, fighting back against wildlife smuggling, and
+protecting elephants from poaching and abuse serve as his
+moral purpose.
+about the cover illustration
+The figure on the cover of Data Privacy is captioned
+“Paysanne des Environs de Berne” or, a peasant from the
+area around Bern, Switzerland. The illustration is taken
+from a collection of dress costumes from various countries
+by Jacques Grasset de Saint-Sauveur (1757–1810), titled
+Costumes civils actuels de tous les peuples connus,
+originally published in France in 1788. Each illustration is
+
+## Page 38
+
+finely drawn and colored by hand and the rich variety of
+drawings in the collection reminds us vividly of how
+culturally apart the world’s regions, towns, villages, and
+neighborhoods were just 200 years ago. Isolated from each
+other, people spoke different dialects and languages. In the
+streets or in the countryside, it was easy to identify where
+they lived and what their trade or station in life was just by
+their dress.
+Dress codes have changed since then and the diversity by
+region, so rich at the time, has faded away. It is now hard
+to tell apart the inhabitants of different continents, let alone
+different towns or regions. Perhaps we have traded cultural
+diversity for a more varied personal life—certainly for a
+more varied and fast-paced technological life.
+At a time when it is hard to tell one computer book from
+another, Manning celebrates the inventiveness and initiative
+of the computer business with book covers based on the
+rich diversity of regional life of two centuries ago, brought
+back to life by pictures from collections such as this one.
+
+## Page 39
+
+Part 1. Privacy, data, and your business
+The target audience for this book is engineers, and this
+book will also be helpful to leaders in management, media
+and government as well. However, it is critical that all
+readers are able to place privacy and data protection in
+context. They need to understand how software engineering
+has changed in practice, and the corresponding change in
+business risk. This will help them avoid mistakes that prove
+to be hard to undo.
+Chapter 1 will serve as an advisor on data flow so that
+technical leaders can understand how their architecture and
+data work in conjunction. We will also look at the regulatory
+risks and dive deep into emerging privacy tech players. This
+context will help the reader approach their privacy
+challenges with a clear-eyed and informed lens.
+Chapter 2 will explore how various business stakeholders
+have varying interests in data processing. We will also
+examine high-profile privacy incidents, thereby giving the
+reader a sense of the vulnerabilities they need to watch for.
+Finally, there is context on how to monitor investments and
+build a program that can scale in line with the business.
+  
+
+## Page 40
+
+1 Privacy engineering: Why it’s needed,
+how to scale it
+This chapter covers
+What privacy means
+How privacy is impacted by the flow of data through your tech
+stack and storage
+Why privacy matters and how it affects your business
+Clarity on privacy tooling, especially the “build vs. buy” debate
+What this book does not do
+How the role of engineers has changed in recent years
+Over the last few years, privacy seems to have been front
+and center in the news. There is talk of new laws aimed at
+protecting customers from harm and reports of data
+breaches and fines being levied upon companies.
+People at all levels of business are finding this unsettling,
+and understandably so. Many company founders are
+engineers or technologists; they are finding it hard to assess
+risks related to products that depend on data collection.
+There are other mid-level engineers in companies who write
+code and build other automation. They make many smaller
+decisions, and their technical outcomes, when multiplied by
+scale, can create shareholder and investor risk. Such tech
+leaders are right to wonder, “what decisions am I making
+
+## Page 41
+
+that may have a privacy impact down the line, just as my
+strategy is about to bear fruit?”
+Anyone in a position that will directly or indirectly impact
+user privacy will benefit from being conversant around
+privacy as a concept and as a threat vector. Such people
+need clear hands-on skills for implementing privacy controls.
+These skills will help them embed privacy engineering and
+tooling into a company’s technical offerings, as well as
+create privacy controls that break through the silos that
+typically define tech companies.
+Too often, businesses fall into the trap of pitting innovation
+against privacy, where they build digital products on a
+foundation of user data, only to play catch up on privacy
+several cycles later. By this time, there has often been
+privacy and reputational harm. Privacy harm is an all-
+purpose term that captures the impact of data leakage,
+exfiltration, or improper access through which a user’s
+privacy is compromised. The loss of privacy protection
+implies that the user has been harmed; hence the use of this
+common term. These business leaders then have to find
+resources and bandwidth to staff a privacy program,
+prioritize its implementation, and alter the rhythm of
+business to adapt to privacy scrutiny.
+This book will help you avoid this false choice and allow
+readers—ranging from technical department leaders to
+hands-on technologists—to think and speak of privacy from
+a place of knowledge and vision, with an understanding of
+the big picture as well as brass tacks. After the tools,
+techniques, and lessons of this book sink in, leaders will be
+
+## Page 42
+
+able to adapt to a privacy-centric world. Beyond that, they
+will also find synergies in their operations to make their
+privacy posture a competitive differentiator.
+In this chapter, we’ll begin with the fundamentals: what
+“privacy” actually means, the privacy implications of data
+flow within a company, and why privacy matters. The latter
+part of the chapter will take a brief look at privacy tooling,
+discuss what this book does not do, and consider how the
+role of engineers has evolved in recent years—an evolution
+bringing with it implications for privacy. Let’s start simple;
+what is privacy?
+1.1 What is privacy?
+In order to understand privacy, it helps to first refer to
+security. Most companies and leaders have some sort of
+security apparatus and at least a superficial understanding of
+the concept.
+For readers of this book, many of whom may need to do
+double-duty as privacy and security specialists, this is an
+important insight. If you end up with a security issue, it
+probably includes something along one of these lines:
+An employee or equivalent insider accesses
+sensitive business or customer data when they
+should not have.
+
+## Page 43
+
+A business partner obtains business or customer
+data at a time or in a volume that affects the
+privacy of the customers or the competitive
+advantage of the business.
+Data that was collected for a benign, defensible
+purpose gets used for something more than that.
+For example, data collected for fraud detection by
+verifying that the user is real rather than a bot
+then gets used for marketing, because the access
+control systems were compromised.
+Each of these examples started with a security compromise
+that led to the user’s privacy being compromised, besides
+any other damage done to the business and its competitive
+advantage. Any time you have a security issue, there is a
+strong possibility that there will be a privacy harm as well.
+This is critical for leaders to understand, lest they take a
+siloed approach and think of these concepts as disconnected
+and unrelated. In subsequent chapters, the privacy
+techniques you’ll learn will aim at improving both privacy
+and security, thereby helping companies protect their
+competitive intellectual property, as well as their user data.
+IT security involves implementing a set of cybersecurity
+strategies aimed at preventing unauthorized access to
+organizational assets. These assets include computers,
+networks, and data. The integrity and confidentiality of
+sensitive information is maintained by validating the identity
+of users wishing to access the data and blocking those who
+do not have access rights. You can read more about this
+from security sources such as Cisco Systems. Cisco defines
+
+## Page 44
+
+IT Security as “a set of cybersecurity strategies that
+prevents unauthorized access to organizational assets such
+as computers, networks, and data. It maintains the integrity
+and confidentiality of sensitive information, blocking the
+access of sophisticated hackers.”1
+Note that the definition covers access to computers (or more
+broadly, anywhere data can live), networks (where data
+moves in transit from computer to computer), and the data
+itself. The goal here is to avoid the data being leaked,
+modified, or exfiltrated by external bad actors, popularly
+known as hackers. This definition also introduces the
+concept of sensitive information, which means different
+things when it comes to data that belongs to a human being
+versus data that belongs to a corporation.
+As a leader in the privacy space, I have always built privacy
+programs by adapting and repurposing security tools. This
+means that I would place an external bad actor (such as a
+hacker) on the same mental plane as an insider who may
+knowingly or unknowingly use data inappropriately. As a
+result, the goal is protecting the data by managing the
+collection, access, storage, and use of this data. In that
+sense, rather than recreating tools and processes for
+privacy, you can start by adapting the structures aimed at
+data security, and adjusting them to provide privacy
+capabilities.
+As an example, if you detect unauthorized access from an
+outsider, you might shut down that account temporarily to
+investigate whether the account holder is posing a risk or
+whether the account has been breached. You may also
+
+## Page 45
+
+suspend other accounts associated with the same email
+address, IP address, etc. With an internal user, you may be
+able to suspend access for just that account and that
+database, in the event that you find this was not a
+malevolent act but an incorrect use of access rights. What
+you have done is deployed security tools with an explicit goal
+of enhancing privacy and tracking the privacy impact of data
+access. This creates a sense of continuity and allows for the
+efficient use of existing tools and relationships rather than
+creating unneeded tools and processes that could be
+disruptive.
+Let’s consider the first of my favored definitions of privacy.
+According to The Privacy Engineer’s Manifesto, “Data privacy
+may be defined as the authorized, fair, and legitimate
+processing of personal information.”2 Privacy is closely
+related to security. Without security, there is no privacy,
+since any access that breaches security protections will be,
+by definition, unauthorized, unfair, and illegitimate. Where
+privacy goes a step beyond security is that security primarily
+guards against external bad actors, while privacy requires
+processes and systems to protect data from such misuse
+internally as well. In that sense, privacy starts once
+optimum security is in place. As a candidate who I recently
+interviewed told me, security is a necessary but insufficient
+condition for privacy.
+Implementing such a program requires a level of creativity,
+since your strategy will impact how your teams operate on
+an ongoing basis. Rather than try to stymie external threats,
+privacy controls will seek to influence how your teams
+
+## Page 46
+
+connect with users and use their data. This involves, for
+example, what data you are able to collect, how you affix
+risk to various types of data, and how you address these
+questions at scale while petabytes of data course through
+your systems.
+On to a second definition of privacy that I like, since it gives
+the user a sense of agency even when you use their data in
+their absence. According to the International Association of
+Privacy Professionals (IAPP), “Information privacy is the
+right to have some control over how your personal
+information is collected and used.”3 We will touch upon this
+in detail in subsequent chapters, but as privacy has moved
+front and center in the public imagination, it has empowered
+users to hold businesses accountable.
+However, many feel that there is a need for more
+accountability. It is likely that public pressure will raise the
+bar on the privacy protections that are required and the
+repercussions of failing to meet those requirements. The
+lessons this book will offer in building your program will help
+you meet this moment in a scalable fashion that will help
+your business in the long run.
+For the purpose of this book’s hands-on audience, here is a
+definition of privacy we will move forward with, integrating
+the concepts we have discussed: “Data privacy refers to the
+tooling and processes necessary to protect user data from
+being processed/ accessed in a way that is different from the
+user’s expectation.” This definition is important and a
+personal favorite since it puts the obligation for privacy
+
+## Page 47
+
+where, in my opinion, it belongs: on the companies that
+collect user data and benefit from it.
+And while this entire book will focus on the privacy tooling
+mentioned in the preceding definition, here is a small sample
+of the topics we will encounter along the way:
+Data classification—Defining privacy risks
+associated with different types of data.
+Data inventory—Tagging the data across the
+storage systems to reflect their classifications.
+Data deletion—Deleting data after a predetermined
+use is complete.
+Data obfuscation—Using various anonymization
+techniques to reduce the likelihood that the data
+could identify a user. As you will see in chapter 5,
+the key value privacy engineers can provide is to
+obfuscate data to preserve privacy while
+preserving the utility of data for legitimate uses,
+like using de-identified medical records for
+aggregated research.
+Now that you have a basic understanding of privacy, we’ll
+look at the challenges engineers and technical leaders will
+face when it comes to data and modern engineering. The
+next section of this chapter will discuss how technical
+systems and processes optimized for innovation create data
+sprawl. After all, we can’t effectively plan to manage our
+data in a privacy-centric manner unless we first understand
+how that data is ingested and moved throughout companies.
+
+## Page 48
+
+1.2 How data flows into and within your
+company
+Understanding how data flows through an organization is
+critical, since engineers in many companies are incentivized
+to focus on their tools and products, and are also allowed
+their own custom tech stacks, code repositories, and DevOps
+processes. As a result, they often do not understand the full
+flow of data and how it spreads in a company’s storage
+systems.
+Figure 1.1 illustrates how data enters a company via
+“producers,” which is to say that APIs and other services
+ingest data in a company. From the perspective of the rest of
+the company and downstream services, the data could enter
+the company from customers, third parties, data providers,
+governments, etc. Typically, this occurs via an API gateway
+that serves as a single point of initial collection. However,
+behind the API gateway there are a slew of microservices—a
+concept we will discuss in detail in subsequent chapters—
+that process and infer data, and I am, therefore, calling this
+layer of data collection “producers.”
+
+## Page 49
+
+Figure 1.1 Data flow in a company’s storage systems: ingestion,
+stores, and downloads
+From the initial “producers” layer, data flows to several
+layers:
+Operational databases like Cassandra, where data
+can be stored and accessed rapidly by other
+applications
+Real-time stores like Kafka, Pinot, and other
+distributed event-streaming platforms used by
+companies for high-performance data pipelines,
+streaming analytics, data integration, and other
+mission-critical applications
+Analytics stores like Hadoop, Vertica, and others,
+from which data analysts and data scientists run
+queries for business intelligence purposes
+
+## Page 50
+
+Cloud stores like Amazon Web Services (AWS),
+Google Cloud Platform (GCP), and others, where
+data can be stored and archived
+However, as the diagram shows, data also makes it into
+other systems that may be hard to manage and audit, such
+as employee laptops, productivity software like Google Docs
+and Microsoft Word, emails, and chat channels. Simply put,
+in a modern business, it is critical to realize that the instincts
+and best practices that have accelerated innovation—
+decentralized development, distributed and redundant data
+storage—make it harder to build at scale the privacy tools I
+referenced in the last section, be it data deletion, access
+control, risk mitigation, and the like.
+The spread of data also inevitably inflates the volume of
+data across the organization. Figure 1.2 shows that a high
+volume of data ingestion and distribution leads to a large
+number of data stores, tables, and files, and to maybe even
+upwards of an exabyte of data.
+
+## Page 51
+
+Figure 1.2 A company’s storage systems that house distributed data
+When technical leaders try to build privacy tooling and
+technical processes, they need to also ensure that their
+tooling applies to the massive volumes of data described
+previously. To do so, they will need a catalog or inventory of
+data so that they can deploy their tooling in a targeted
+fashion (chapter 4 will cover that topic). Technical leaders
+need to take this into consideration as they build privacy
+tools, seek buy-in for these tools, and budget to scale their
+efforts. Merely projecting privacy as an altruistic nice-to-
+have is a missed opportunity to deliver tangible benefits for
+your business. Simply put, privacy engineering is a lot
+cheaper if you build it in instead of trying to bolt it on, given
+the spread of data in your systems.
+In the next section, we’ll dive deeper into why privacy
+matters for your business. The arguments and examples we
+will examine will help connect the work of engineers to the
+legal angle of privacy and then to overall business growth.
+
+## Page 52
+
+This will help you make the case for better privacy within
+your own context.
+1.3 Why privacy matters
+I expect readers of this book will range from the doers to the
+dreamers. The doers include the technical program
+managers, engineers, data architects, cloud and DevOps
+specialists, and the leaders who wear many hats but have a
+singular goal: to maintain business operations continuity and
+predictability. The dreamers include the technically oriented
+startup founders, the technologist disrupters, and the
+venture capitalists who will fuel tomorrow’s ideas.
+Dreamers optimize for delivery and rapidity, while doers
+optimize for execution and consistency. All these goals could
+be thwarted if or when privacy issues stop companies in
+their tracks. However, as stated previously, too many
+leaders, fueled by achievements in other areas, believe
+themselves invulnerable and impervious to privacy risks.
+They also believe that governmental enforcement muscles
+have atrophied, owing to politicians’ reluctance to stymie the
+entrepreneurs who create untold amounts of wealth and
+work for the United States and other countries worldwide.
+That confidence may be unfounded.
+1.3.1 The fines are real
+The passage of legislation like the EU’s General Data
+Protection Regulation (GDPR)—which we will look at in
+
+## Page 53
+
+subsequent chapters—has allowed regulators to fine
+companies found to be wanting in privacy.
+Figure 1.3 shows one way in which privacy issues impact
+businesses. The financial penalties enforced by government
+authorities on companies are real and consequential. Large
+businesses with proven profit models may be able to endure
+the financial burden of such fines, but smaller companies
+may find them debilitating. Startups may find that resources
+dedicated to funding new initiatives and hiring key personnel
+may get diverted to these fines. Venture capitalists may find
+their investment and prestige attached to a stillborn venture
+that will struggle to take off amid a financial cloud.
+Figure 1.3 Highest penalties in privacy enforcement actions4
+
+## Page 54
+
+No business is outside of the risk of having their privacy
+compromised or beneath the attention of regulators.
+Penalties could fall upon the head of any business, and that
+is why these fines are important to consider. In some cases,
+the fines are revised downward—the British Airways fine
+shrank to $20 million,5 but it is unwise to depend on luck or
+clemency, especially if you are a company that lacks deep
+clout or roots.
+One of my industry mentors recently told me that Equifax
+should have been fined more aggressively after its famous
+2017 breach.6 The credit agency has the power to collect my
+intimate financial details without my consent and to drive
+decisions around my creditworthiness. Equifax then leaked
+so much of that data through processes that were so sloppy
+and inappropriate that even a junior privacy or security
+engineer could have identified them as risky. It is especially
+galling that consumers like you and I have to pay about
+$120 per year to lock down credit reports, not to mention
+the costs to businesses who have to absorb such costs as
+well.
+Why should engineers have to worry about fines? Isn’t their
+job to build stuff and fail fast, while the folks in legal and
+compliance manage the business risk? Besides the obvious
+answer—that no company has endless resources to pay fines
+—it is vital that engineers understand that their work now
+involves more than building features, driving engagement,
+and monetizing data. They need to understand the
+permissibility of their actions as well as the downstream
+impacts of present-day decisions.
+
+## Page 55
+
+The next subsection will discuss an example where well-
+meaning customer-driven decisions made early in the
+innovation process caused privacy headaches downstream.
+1.3.2 Early-stage efficiency wins can cause late-stage
+privacy headaches
+During the early stage of innovation, and even when
+companies try to drive product adoption, engineers make a
+number of decisions to appeal to venture capitalists (VCs) as
+well as business-to-business (B2B) and business-to-
+consumer (B2C) customers. That makes sense, because
+funding and early adoption are necessary, if insufficient,
+conditions to the sort of transformative change that
+engineering leaders seek. Let’s look at a scenario in which a
+lack of long-term strategy led to some serious issues for a
+company.
+GAMESBUSTER: A CASE STUDY
+There was a company—let’s call it Gamesbuster—that built
+video game apps for smart TVs. The goal was to engage the
+user as soon as the smart TV turned on. In order to achieve
+that goal, it was critical that the app be ready as soon as the
+TV turned on, because the user might otherwise move on to
+other apps.
+To guarantee that the app would launch with low degrees of
+latency upon the smart TV turning on, the engineers at
+Gamesbuster conceived of automation logic called “Boot to
+Suspend” mode. This was a persistent background mode
+
+## Page 56
+
+initiated on device boot that would communicate regularly
+with Gamesbuster servers to receive updates and keep the
+application in a “ready for use” state.
+In order for Boot to Suspend mode to perform its function, it
+was necessary for Gamesbuster servers to receive
+information from the devices, including IP addresses, which
+was automatically sent via standard internet communication
+protocols. It was critical to collect these IP addresses, the
+engineers reasoned, since location information inferred from
+the IP addresses would enable them to personalize the app
+for users.
+This feature was the brainchild of two engineers who wanted
+to make sure that the games they featured were not
+abandoned by their target audience while their much-desired
+features loaded: young folks who were not exactly known for
+their patience. These engineers did not comprehend the
+nature of the data that would change hands when the
+devices communicated with the Gamesbuster servers. This
+was a page out of the “fail fast and make things” handbook.
+As Boot to Suspend caught on, it went from being a strict
+engineering idea to a possible business growth opportunity.
+Sales teams saw an opportunity to ensure that partners who
+carried Gamesbuster apps were aware of this option and
+supported it. Based on their contract negotiations, partners
+that preloaded the Gamesbuster app on their devices were
+strongly encouraged to implement Boot to Suspend. In time,
+the number of devices supporting Boot to Suspend, the
+number of users, and, in turn, the amount of data streaming
+into Gamesbuster servers grew explosively. This meant
+
+## Page 57
+
+significant revenue upside for Gamesbuster’s engineering
+founders, as well as its innovative technical workforce.
+Investors noticed this success and poured more money into
+Gamesbuster’s coffers.
+Investors were not the only ones noticing, however.
+Regulators who were charged with protecting privacy rights
+of users were concerned that Gamesbuster was collecting
+location information from customers. The data may have
+been collected by the engineers without malicious intent, but
+it was collected by them while their app was running in the
+background (which is essentially what Boot to Suspend
+was); the data, therefore, was collected before the user
+signed in and accepted the privacy policies and other
+disclosures that typically allow companies to collect user
+data.
+The regulators demanded that Gamesbuster stop collecting
+IP addresses without consent, and if it absolutely needed to
+collect them, their engineers needed to store them in
+separate databases with very limited access and to
+automate deletion once the app launched and the data had
+been used for its intended personalization purposes.
+In order to ensure that they could detect exactly what data
+they were collecting, the engineers who pioneered Boot to
+Suspend created filters that would detect fields named “IP
+address.” However, a few months later, when the regulators
+audited the data warehouses in Gamesbuster’s systems,
+they found millions of IP addresses that were retained for
+months. This was in clear violation of the commitments
+Gamesbuster had made to the regulators.
+
+## Page 58
+
+How did this happen? There were two key reasons:
+The filters the engineers built would have detected
+values like IP addresses as long as they were in a
+structured data format, where each entity was
+defined as a key/value pair. As it turned out, an
+increasing number of partner devices that
+preloaded the Gamesbuster app transferred data
+to the servers in the form of JSON blobs. For the
+purposes of this example, a JSON blob is a single
+field with JSON-format text stored in it. Ergo, the
+database had no real knowledge of any of the keys
+in the blob or their values. This meant that the
+Gamesbuster filters could not detect the IP
+addresses; rather than storing them in special
+limited-access tables, the Gamesbuster systems
+allowed these IP addresses to mingle with other
+data and to be stored alongside other data that
+was permitted to be used freely.
+
+## Page 59
+
+When such IP addresses were successfully
+intercepted and were logged in the one permissible
+table, they were stored for 30 days’ use. However,
+the engineers granted access to this table to the
+security team for critical security purposes, such
+as preventing and researching DDOS attacks and
+other security-related incidents. However, it turned
+out that various automated scripts queried this
+table as a source, and IP data was then copied and
+stored in other tables for longer than 30 days. In
+other words, neither tight access controls nor
+retention periods were enforced as was promised
+to the regulators.
+The auditor investigation threatened the company’s business
+model, since a company under investigation for misuse of
+location data would struggle to find partners willing to host
+the app. This would lead to a slowdown in customer growth
+and engagement, which in turn would lead to a slowdown in
+ad revenue. As a result, the company had to take several
+remedial actions:
+
+## Page 60
+
+First, they had to delete IP addresses en masse,
+which meant that in some cases they had to be
+overcautious and even delete IP addresses that
+had been collected legitimately. It was impossible
+to be certain which IP addresses were collected in
+Boot to Suspend mode, and the lack of a data
+inventory hampered what could have been a more
+targeted deletion effort. In later chapters I’ll
+discuss how a front-loaded governance program
+could help.
+Second, this effort led to a disruption of new
+feature development, since the company could not
+rely on existing data and revenue streams until the
+investigation concluded. As a result, several
+product roadmaps were impacted, and ambitious
+engineers whose promotions depended on building
+new features left for newer companies with less
+regulatory scrutiny.
+Third, the company had to create a restrictive
+compliance regime that hurt the speed with which
+products could be deployed and built. The “move
+fast and make things” model was replaced by the
+“fill forms and check things” model.
+The lessons for engineers are clear: building new data-
+driven features without a privacy lens carries significant
+risks. It behooves engineers and technical leaders to build
+privacy tooling and processes as they develop core products
+and features. Later in this book, we will dive deep into a
+detailed engineering-focused privacy review process that will
+
+## Page 61
+
+help protect data privacy while empowering engineers to be
+ingenuous and productive as they innovate.
+Just as the fines can be financially crippling for companies,
+so can the investigations themselves. It is critical that
+engineers and technical leaders (founders and their funders)
+understand the potency of regulatory attack on their
+roadmaps. We’ll consider this in the following subsection.
+1.3.3 Privacy investigations could be more than a
+speed bump
+Regulations around privacy and security are relatively new,
+and knowledge among regulators about privacy technology
+can be fairly embryonic, given the novel concepts involved.
+Additionally, millions around the world are connecting to the
+internet for the first time, and companies are inferring
+information about users by combining data from different
+databases and identities that were out of their reach a
+decade ago. Just as the potential of techniques like artificial
+intelligence and machine learning grows by the day, so does
+the potential for abuse and investigations. It is hard to
+predict the impact such investigations and audits will have
+on qualitative innovation, but I want to offer an example of a
+far-reaching governmental investigation that stifled the
+plans of one of America’s most successful companies and
+altered the trajectory of technology.
+Antitrust laws ensure one company doesn’t control the
+market, deplete consumer choice, and inflate prices. In the
+late 1990s, the US Department of Justice accused Microsoft
+
+## Page 62
+
+Corporation of trying to create a monopoly that led to the
+collapse of rival Netscape by providing its browser software
+for free. Charges were brought against the company, which
+was sued by the Department of Justice in 1998. Until this
+investigation, Microsoft seemed unstoppable.
+That investigation disrupted Microsoft’s business model and
+its day-to-day operations. In a recent interview, founder and
+business icon Bill Gates stated that Windows could have
+been the world’s dominant mobile operating system had it
+not been for the antitrust case the US Department of Justice
+brought against Microsoft.7
+“There’s no doubt the antitrust lawsuit was bad for Microsoft,
+and we would have been more focused on creating the
+phone operating system, and so instead of using Android
+today, you would be using Windows Mobile if it hadn’t been
+for the antitrust case,” Gates said at the New York Times’
+DealBook conference in New York. Microsoft remains
+dominant with Windows on desktop PCs and in other
+categories like commercial productivity software, but it no
+longer works on Windows for phones. Alphabet’s Google
+currently has the most popular mobile operating system,
+with Apple’s iPhone in second place.
+“Oh, we were so close,” Gates said about the company’s
+miss in mobile operating systems. “I was just too distracted.
+I screwed that up because of the distraction.” He said the
+company was three months too late with a release Motorola
+would have used on a phone. “Now nobody here has ever
+heard of Windows Mobile.”8
+
+## Page 63
+
+As I write this book, the most far-reaching privacy laws are
+less than five years old, but Gates’s comments have a clear
+implication: major cases against today’s technology
+companies could have negative market implications. Lest
+you think Microsoft was an anomaly, consider this: antitrust
+laws grew from theoretical to directly impactful over many
+years. Privacy could follow a similar trajectory in today’s
+political climate.
+Let’s look as some other more recent fines and sanctions. In
+2017, before its troubles with Cambridge Analytica,
+Facebook faced multiple fines within a 24-hour window:
+WhatsApp was fined €3M by the Italian antitrust
+regulator for “inducing” WhatsApp users to share
+data with Facebook (that is, they had to share data
+or lose access to the app).
+The next day, the European Commission fined
+Facebook €110M in an antitrust action for
+providing inaccurate information about its ability to
+automatically correlate Facebook and WhatsApp
+user accounts. Facebook said in 2014 it couldn’t,
+but then in 2016 it suddenly could by leveraging
+common phone numbers.
+
+## Page 64
+
+That same day, France, Belgium, and the
+Netherlands each announced that Facebook had
+violated their respective data privacy laws in
+connection with Facebook’s 2014 global revision of
+its user agreements, through inappropriate data
+collection and use practices. France imposed a fine
+of €150K (the current maximum); Belgium and the
+Netherlands may impose fines. Spain and
+Germany announced investigations into the matter.
+It is helpful to understand some details about how these
+investigations blurred the lines between antitrust and
+privacy.
+€110M EUROPEAN COMMISSION FINE FOR
+WHATSAPP DATA MISREPRESENTATIONS
+During the antitrust regulator’s review of the $19B
+acquisition deal, Facebook claimed twice in 2014 that it
+could not “establish reliable automated matching” between
+Facebook and WhatsApp accounts. Then, in 2016, WhatsApp
+announced updates to its TOS and privacy policy, including
+linking WhatsApp to Facebook accounts via phone numbers.
+The Commission cried foul and imposed the large fine but
+agreed not to revisit the merger approval. The fine could
+have ranged up to 1% of global revenue (approximately
+$270M based on Facebook’s 2016 numbers).9
+
+## Page 65
+
+Key insight—EU antitrust regulators believe that
+consumer data use rights and promises are
+important in analyzing mergers and enforcing
+competition law. Also, the EU appears ready to
+impose large fines against US tech companies.
+Time will tell if the EU data-protection authorities
+leverage their ability to do so under GDPR (fines
+up to 4% of global revenue).
+
+## Page 66
+
+What engineers and technical leaders need to
+know—It is impossible to know for certain how
+engineers at Facebook had stored phone numbers
+in their databases, what corrective controls existed
+(if any) to prevent the linking of accounts based on
+phone numbers, and how those controls were
+overcome to then link those accounts.
+What is true, however, is that European authorities
+considered the commitment that the two databases
+would be kept separate to be ironclad. That turned out
+not to be the case. Engineers often find value in linking
+two sets of data about the same user because the
+combined dataset provides better visibility for
+personalization and monetization, or they may have
+simply been able to secure the combined dataset better
+based on a unique value like a phone number.
+Either way, an engineering decision to link two sets of
+data that in turn affected the privacy rights of those
+users was then viewed through the lens of a
+commitment made by Facebook during a
+merger/acquisition transaction. Technical founders and
+other such leaders must ask themselves, “What are the
+privacy implications of their data handling practices, and
+could they affect long-term strategic growth
+opportunities for their business?” How many such
+decisions are engineers making every single day with a
+very limited understanding of privacy that could then
+snowball into something larger down the line?” Having
+
+## Page 67
+
+verifiable data cataloging could help mitigate some of
+these harms, and you will see how in chapter 4.
+The key technical takeaway for engineers is that well-
+meaning decisions made with convenience in mind might
+run afoul of legal commitments and representations, so
+having solid data governance as well as tighter coupling
+between engineering and legal is critical.
+€3M WHATSAPP FINE FROM ITALIAN ANTITRUST
+REGULATOR
+At least one EU member state (Italy) decided to impose its
+own antitrust fine for the Facebook/WhatsApp account
+linking. The rationale in the decision focused on an
+important data protection concept: whether the WhatsApp
+users consented to their accounts being combined with their
+Facebook accounts. The regulator concluded that
+WhatsApp/Facebook placed “excessive emphasis” on the
+need to agree with the new TOS and privacy policy as part of
+an in-app upgrade.
+Key insight—Certain EU antitrust authorities
+appear willing to apply data protection and privacy
+principles when finding an anti-competitive harm
+has taken place.
+
+## Page 68
+
+What engineers and technical leaders need to
+know—In this specific case, whether users had
+consented to a specific use of their data was an
+area of focus for investigators and regulators. The
+regulators also seemed to wish that users were not
+pressured to consent to terms of use and instead
+provided informed consent.
+Engineers often believe in refactoring code to make it
+more efficient and scalable. They take a similar approach
+to disparate sets of data that describe the same users.
+The lesson for engineers and technical leaders is that
+while they may feel that a combined dataset could
+increase their understanding of the user, privacy-focused
+regulators wish to ensure that user rights are not
+violated. It is vital that engineers work closely with their
+legal counterparts to ensure users have consented to
+such data aggregation.
+FIVE EU DATA PROTECTION AUTHORITIES PURSUE
+FACEBOOK FOR 2014 POLICY CHANGES AND OTHER
+DATA ACTIVITIES
+The wheels of justice grind slowly. Although Facebook’s 2014
+changes to its privacy policy are long forgotten by most
+users, five EU data protection authorities (DPAs) took note
+and launched investigations. In May 2017, three of the DPAs
+announced their findings, while one other had previously
+announced a judgment (Hamburg, Germany) and the last
+(Spain) has an investigation pending.10 Here is a breakdown:
+
+## Page 69
+
+France—The DPA found these violations: (1) no
+legal basis to combine user information for online
+behavioral advertising purposes, (2) unlawful
+tracking via “datr” cookie, and (3) insufficient
+notice and consent for a Like button on third-party
+sites. They imposed a €150K fine.
+Belgium—The DPA concluded that Facebook
+violated and continued to violate Belgian data
+protection law through its use of cookies, social
+plug-ins, and pixels, such as by collecting
+excessive personal data, including from non-
+members. The DPA is seeking a court order to
+enforce the changes it seeks to impose on
+Facebook’s practices.
+Netherlands—Among the more relevant findings in
+this case are the DPA’s determinations (1) that it
+had authority over Facebook (rather than the Irish
+DPA), (2) that the Like button data collection and
+use practices are unlawful (a common theme
+among the DPAs) because they did not provide
+adequate notice around data collection, and (3)
+that Facebook’s privacy disclosures are too deeply
+layered to be sufficient (I’ve seen the Dutch DPA
+raise this concern before, in a separate 2015
+investigation). The DPA is assessing whether
+Facebook has changed its practices to comply with
+Dutch data protection law, and if not, it may seek
+fines.
+
+## Page 70
+
+Germany—The Hamburg DPA previously ordered
+Facebook to stop combining data from WhatsApp
+users without their prior consent and to delete the
+data that had previously been shared.
+So what do these country-specific outcomes teach us?
+Key insight—Even though Facebook vigorously
+argued that only the Irish DPA should have
+jurisdiction and only Irish data protection law
+should apply, all of the DPAs found that their local
+laws applied (the jurisdictional hook typically
+involved a local, in-country Facebook entity).
+
+## Page 71
+
+What engineers and technical leaders need to
+know—There is often a substantial lag between
+engineering decisions and the privacy law
+implications. In the case of the Belgium
+investigation, the authorities contended that
+Facebook had collected “excessive personal data.”
+Engineers have often followed an approach of
+collecting data with an eye toward the future, and
+retaining data for as long as possible with the
+belief that it may be of use at a later date.
+Authorities are now cracking down on data
+collection and retention unless there is a legitimate
+business purpose.
+In the case of the Netherlands investigation, the level of
+transparency and visibility provided to users came under
+scrutiny. In order to prevent such adverse actions, it is
+vital that engineers are deliberate and that they
+communicate with their legal counterparts as well as UX
+designers so that users can be informed correctly about
+data collection.
+Finally, in the Germany example, engineers had to delete
+data that they had previously collected and joined with
+other data. As you saw in the Gamesbuster example,
+these deletions can be prohibitively expensive and
+technically disruptive. Engineers should invest in deletion
+tooling so as to avoid inefficient and error-prone
+deletion, something we will dive into in subsequent
+chapters.
+
+## Page 72
+
+The lesson here is clear: decisions technical leaders make
+during early innovation, growth, and acquisition stages can
+lead to privacy harms, investigations, and fines downstream.
+This book is aimed at helping you solidify your technical
+privacy foundations so that the breezes of regulations do not
+send your monument crumbling down. Additionally,
+engineers can no longer just write code, collect data, and
+build features with scant regard for the regulatory
+implications of their actions. This book will help engineers
+build innovative systems with technical privacy controls in a
+manner that will accelerate their work without having to
+clean up after the fact.
+So far, we have seen the importance of privacy from a
+defensive standpoint, whereby things can go sideways for
+companies because of long-ago technical decisions.
+Companies can, however, make correct decisions at the front
+end to put in place solid privacy practices. This could help
+unlock business opportunities and set the stage for future
+success.
+1.3.4 Privacy process can unlock business
+opportunities: A real-life example
+In 2012, I was employed by a small startup that sought to
+innovate in the digital identity space. Our products included
+a global openID that would allow you to authenticate with
+multiple websites without a username and password, and it
+allowed for federated sessions across different web
+properties and backend data collection for easy customer
+research.
+
+## Page 73
+
+As with most startups, we were idea-heavy and process-
+light. Engineers eschewed top-down mandates to document
+code, review data collection, and ensure consistency
+between public disclosures and privacy practices. In time,
+however, in order to raise our Series B funding, it became
+critical to sell to customers who themselves were tightly
+regulated and were often located in jurisdictions that were
+privacy-sensitive, like the European Union.
+At the time, far-reaching privacy laws like the EU’s General
+Data Protection Regulation (GDPR) did not exist, so
+demonstrating our maturity as a privacy-conscious company
+was to prove difficult. The company’s senior vice president of
+engineering asked me to pursue an ISO 27001 certification:
+“ISO/IEC 27001 formally specifies an Information Security
+Management System (ISMS), a governance arrangement
+comprising a structured suite of activities with which to
+manage information risks (called ‘information security risks’
+in the standard).”11
+The ISMS would prove to our would-be customers that we
+had technical processes in place to manage data protection;
+this was critical, since our tools would enable our customers
+to handle data they collected from their customers. Without
+a solid technical framework in place, no major corporation
+would trust a small American startup with massive amounts
+of customer data. As a young engineer who sought to work
+on new technical skills as well as differentiate myself from
+my fellow engineers, I dove deep into the ISO standard.
+The ISO/IEC 27001 standard has two distinct purposes:
+
+## Page 74
+
+1. It lays out the design for an ISMS, describing the important parts at a fairly
+high level;
+2. It can (optionally) be used as the basis for formal compliance assessment by
+accredited certification auditors in order to certify an organization compliant.
+The following mandatory documentation is explicitly required for certification:
+1. ISMS scope (as per clause 4.3)
+2. Information security policy (clause 5.2)
+3. Information risk assessment process (clause 6.1.2)
+4. Information risk treatment process (clause 6.1.3)
+5. Information security objectives (clause 6.2)
+6. Evidence of the competence of the people working in information security
+(clause 7.2)
+7. Other ISMS-related documents deemed necessary by the organization (clause
+7.5.1b)
+8. Operational planning and control documents (clause 8.1)
+9. The results of the [information] risk assessments (clause 8.2)
+10. The decisions regarding [information] risk treatment (clause 8.3)
+11. Evidence of the monitoring and measurement of information security (clause
+9.1)
+12. The ISMS internal audit program and the results of audits conducted (clause
+9.2)
+13. Evidence of top management reviews of the ISMS (clause 9.3)
+14. Evidence of nonconformities identified and corrective actions arising (clause
+10.1)
+12
+As we started making progress on building these requisite
+tooling and processes, I noticed the following changes:
+
+## Page 75
+
+The mere fact that we were pursuing the
+certification created more interest among VCs
+willing to fund us and support us.
+Conservative and risk-averse companies in the
+United States and Europe started using our tools,
+since they now had confidence that we could
+handle their data securely.
+Engineers within the company came around to the
+fact that some of the tools and processes made
+their work more efficient and improved data
+quality, and they helped me shape some of my
+work; this, in turn, helped us create much-needed
+structure in a company that badly needed it.
+Over time, this certification made us a more mature
+company, built a solid customer base, and got us through a
+difficult recession. Personally, the effort I put in to
+understand massive backend systems, data pipelines, and
+technologies like Hadoop and Kafka made me a better
+engineer. That enabled me to land very senior technical
+leadership roles at companies like Netflix, Google, and Uber,
+teach courses on LinkedIn, and then author this book on
+technical privacy.
+The lesson for engineers is this: privacy is not just about
+avoiding fines and rework; when done right, it can
+differentiate your technical offering and boost your company
+as well as your career.
+You have so far seen how privacy can impact companies in
+terms of regulatory fines and inefficiencies born of short-
+
+## Page 76
+
+sighted technical decisions. You have also seen the
+salubrious effects of good privacy practices. How your
+performance in this space affects societal trust, safety, and
+relationships is critical for engineers to grasp. The following
+section will make all of this a little more concrete, as we
+consider how the workflow looks, first within a company not
+following good privacy practices, and then within a company
+that does follow good practices.
+1.4 Privacy: A mental model
+We have discussed why privacy matters, but to bring that
+home, let’s consider a scenario in which a company is not
+following good privacy practices. Then we’ll look at how
+things will change when good practices are followed. This
+section will give you a brief overview of some of the core
+tenets of privacy engineering, which I will expand upon as
+the book progresses.
+Figure 1.4 shows a company that orchestrates privacy the
+wrong way. The company developed an app that runs on
+smart TVs, and the moment the customer turns on the TV,
+data starts flowing from the TV to the company’s servers.
+Notice how data is ingested into the company. It is then
+shared, copied, multiplied, and stored across various
+systems, and it is not classified or inventoried until late in
+the workflow. By that point, it is possible that engineers and
+their tools will have used the data that causes privacy
+issues. The company is left with a real headache in
+organizing and dealing with this proliferated data. We will
+
+## Page 77
+
+discuss this further in chapter 4, but for now let’s consider
+the implications of collecting this much data, not knowing
+what portions of it cause privacy risks, and failing to protect
+it correctly. It is possible that many breaches, fines, and
+privacy abuses arise out of sloppy designs like this one!
+Figure 1.4 Privacy done wrong—data flows into a company and is not
+dealt with in a privacy sense until it has already proliferated
+throughout the company via sharing and copying. Privacy tools may
+not scale well for such a volume of data, and privacy violations
+become much more likely.
+In this book, my aim is to have you think about good privacy
+measures as a foundational component within your business.
+Data should go through privacy measures as soon as it
+enters the company, leading to much more effective data
+management, more control over who can access what, and a
+much lower likelihood of a privacy violation taking place.
+Figure 1.5 illustrates a company that is doing it right.
+Chapters 3–9 will equip you to view privacy the same way as
+this company does. You will learn to architect sound data
+
+## Page 78
+
+governance to help identify privacy risks at the point of
+ingestion, and you will learn to build the right tooling,
+automation, and processes to enforce privacy protections.
+This sequence—governance followed by tooling—is important
+and will help engineers improve privacy while also enriching
+data quality and productivity.
+Figure 1.5 Privacy done right—data flows into a company and is
+immediately tagged and cataloged. Data becomes much more
+manageable, and privacy measures work effectively. Privacy violation
+is much less likely to occur.
+Let’s zoom in a little on the company in figure 1.5 and see
+the processes in play throughout the privacy process. Figure
+1.6 demonstrates how tagging and cataloging is to work in
+this brave new world. We will discuss these techniques in a
+lot more detail later in this book, but this diagram shows
+how the values of individual data fields will change right
+after they enter our ecosystem. You can see that the fields
+are ingested with their core values, and then we append a
+tag that indicates their privacy risk. The box labeled “Data
+
+## Page 79
+
+Tagging Service” is a simplistic placeholder for an entire data
+inventory infrastructure that you will learn about in great
+detail.
+For now, the key takeaway is that this early-stage tagging
+will allow you to affix enforceable data handling policies
+(deletion, retention, etc.) to the data. This creates a privacy
+engineering architecture where privacy controls are baked in
+early, onto the data itself. The figure makes a simple point:
+there is no secret sauce to privacy—just timely identification
+and automated orchestration.
+
+## Page 80
+
+Figure 1.6 Tagging data at the ingestion stage and mapping it to
+privacy controls—this is privacy engineering in action!
+We have considered the privacy workflow at a high level,
+and I will expand upon these themes over the course of this
+book. For now, I hope that this has given you a clearer idea
+of the privacy process, and the implications of both
+managing it poorly and managing it well.
+
+## Page 81
+
+Having considered the concrete implications of privacy
+engineering, let’s continue and consider things in a slightly
+more abstract sense. The following section is aimed at
+engineers who feel like they have to choose between
+shipping a feature and earning trust.
+1.5 How privacy affects your business at a
+macro level
+Before you fall into the trap of making tactical adjustments
+for privacy and calling that a win, let’s look at how major
+shifts in the business climate or regulatory sentiment could
+also affect privacy implementation at your company. We will
+look at two examples that are quite recent. First we will
+consider the fact that, as in our offline lives, our online lives
+and the ways in which we do business rely upon trust and
+safety. Following that, we’ll consider the implications of
+privacy regulation upon the way your business should
+operate.
+1.5.1 Privacy and safety: The COVID edition
+In companies large and small, engineers and other technical
+leaders will ask questions like these:
+With finite resources and challenging roadmaps,
+why on earth are we dedicating so much time to
+privacy?
+
+## Page 82
+
+Everyone collects data, and we have seen
+companies be really bad at privacy and their stock
+price seems to soar. Why care about privacy?
+The answers may seem counterintuitive, but they are
+obvious once given some thought. Businesses operate based
+on predictability, and they prosper based on trust. When
+predictability is disrupted and trust is eroded, business
+viability tends to suffer.
+We can draw an interesting parallel with the coronavirus.
+The pandemic changed how we lived our lives. Bustling
+streets, teeming sports centers, overflowing conference
+halls, glowing wedding venues—all of them went silent.
+Human connectivity has historically been a symbol of
+comfort and aspiration. In the times of coronavirus, it
+became a threat vector, an ingestion point for contagion.
+Physical human mobility, and the commerce that stems from
+it, builds on a foundation of trust and safety. When those
+components disappear, our economic engines stop moving,
+atrophy, and start receding. In much the same way, the lives
+we live online are built on trust and safety.
+When I first moved to the United States in 2000 as a
+teenager, I’d call my parents using expensive phone cards.
+Besides the cost, the process was painful: a toll-free number
+followed by a long PIN, which was then followed by a
+potentially unreliable connection. Adding funds to the card
+and procuring a new one were not trivial either.
+
+## Page 83
+
+Two decades hence, reaching my parents in Mumbai has
+gotten easier and cheaper. WhatsApp, Skype, and Google
+Meet allow data-driven connectivity that is reliable, fast, and
+cheap. It is ubiquitous and personal. I can see them, send
+them information mid-chat, and connect that conversation to
+other media. That connectivity and intimacy occurs on the
+foundation of safety, as do all my other online activities:
+ordering groceries, getting food delivered, hailing a
+rideshare, booking tickets. Online commerce relies on trust
+and safety.
+If you are an engineer whose tools thrive on the exchange of
+goods, ideas, money, and information online, you benefit
+from this trust and, as such, are responsible for its safe
+upkeep. Just as the habits of a lifetime were paused by fear
+of a virus, online commerce is similarly vulnerable to a
+deficit of trust, and privacy is a component of this trust. If
+your customers feel like their data and their identity are not
+safe in your custody, their patronage will go elsewhere. That
+is why engineers need to care about privacy.
+Then there is the matter of your reputation and legal
+compliance. Newly passed laws offer regulators the tools to
+peek into your privacy practices like never before. The
+ensuing scrutiny is likely to shed light on past decisions that
+were made based on a very different set of data but that in
+the present circumstances make for suboptimal privacy
+outcomes.
+Privacy is no longer an altruistic endeavor that companies
+can optionally partake in; public awareness and concern with
+privacy is keener than it has ever been, and businesses are
+
+## Page 84
+
+under ever-increasing scrutiny with regard to how they
+handle and protect their customers’ data. Mistakes and bad
+decisions that companies make are more likely than ever to
+be brought to light. You should look at your privacy program
+as an investment that will enable you to protect your
+customers and that will promote your business as worthy of
+trust.
+Having said all of that, the following subsection will explain
+why companies that use customer data need to think about
+public sentiment, laws, regulations, investigations, and
+business growth as interconnected, much like trust and
+business growth are interconnected. Many hands-on leaders
+are so busy with the day-to-day that they fail to find time to
+make these connections, and they feel like they are always
+in catch-up reactive mode, and never have time to set
+vision.
+1.5.2 Privacy and regulations: A cyclical process
+It helps to understand how and why privacy is so important
+for business success. Figure 1.7 shows an obvious first step,
+in which a government passes privacy laws.
+Figure 1.7 In a general sense, a government produces privacy law and
+regulations.
+
+## Page 85
+
+However, figure 1.7 overlooks the fact that unlike tax law,
+where you have one law for the state where you live or
+where your company is incorporated and then one federal
+law, you could have several governments passing several
+privacy laws. To that end, figure 1.8 shows two influential
+jurisdictions with two privacy laws. For example, the EU
+passed the General Data Protection Regulation (GDPR) that
+has been in effect since May 2018, while California’s law, the
+California Consumer Privacy Act (CCPA), has been in effect
+since January 2020.
+Figure 1.8 Things become complicated when we have multiple
+governments and authorities introducing different laws and
+regulations.
+Once these laws are in effect, they are available to
+regulators and auditors. Regulators can launch investigations
+into companies and into practices of those companies that
+may even predate the passage of those laws.
+Simultaneously, companies could be subject to audits to
+prove compliance with these laws, and may need to
+demonstrate compliance before they can sign enterprise
+contracts or gain access to specific markets. Figure 1.9
+makes that point.
+
+## Page 86
+
+Figure 1.9 The chain of events brought about by multiple governments
+producing their own laws and regulations
+As figure 1.9 shows, you could have several governments
+passing several different privacy laws, and these laws in turn
+could spur concurrent audits, investigations, and consent
+decrees (where a government and company agree to a
+specific outcome of an investigation). For small companies,
+where a few key team members handle IT, security, and
+privacy all at once, this can represent a significant
+operational burden. It will almost certainly impact
+productivity and throughput. This book focuses on hands-on
+skills aimed at preventing such harms as much as possible
+and mitigating those that occur as expeditiously as possible.
+Embedding privacy into the data and design of products is
+critical, and this book will dive deep into these techniques.
+There is yet another layer to consider: Laws and regulations
+do not occur in a vacuum. When it comes to areas like
+security and privacy, they are often a response to events.
+Breaches, data leaks, inappropriate access to data, improper
+
+## Page 87
+
+identification or re-identification of users, and other misuses
+of personally identifying information have occurred with
+some regularity over the last few years. After repeated
+incidents of this type, media and privacy activists start
+paying close attention to companies that are considered bad
+actors in privacy. Such attention leads to critical press
+coverage, which then leads to public awareness.
+If you are a small company, this could result in loss of
+business and damaged relationships. For larger companies,
+this creates a reputational dark cloud that lingers even after
+the crisis passes. In either case, the hardening of public
+opinion and sustained press coverage leads to privacy laws.
+So, regardless of the size of your business, it is critical that
+you take steps early to address privacy gaps, lest they
+become chasms.
+As any savvy PR expert will tell you, the best form of
+damage control is to control the extent of damage you
+cause. As a technical leader who wears many hats, you have
+to ask yourself, “When would you rather optimize for sound
+privacy and data governance?” Is it in the early days of the
+enterprise when you are organizing the strategy, will it be in
+reaction to the first privacy issue, or will it be when you are
+in crisis mode after your growth spurt has been stymied by
+shoddy privacy practices?
+Today’s technologists have the benefit of starting a bit ahead
+of zero. The past few years have offered many privacy data
+points, ranging from mishaps at companies and
+governments to tools built by privacy-focused vendors.
+Given this plethora of resources, today’s leaders have the
+
+## Page 88
+
+opportunity to devise privacy strategies that will avoid the
+setbacks that have hurt companies.
+This book is aimed at helping you get your timing right in
+building privacy tooling. I often repeat a saying attributable
+to one of my mentors from my Netflix days: “The best time
+to do the smart thing is yesterday; the second best time is
+today.”
+We’ve talked at length about how privacy can affect your
+business. Let’s now introduce some of the options on offer
+that will help you to address privacy issues and go about
+automating privacy processes and tooling.
+1.6 Privacy tech and tooling: Your options
+and your choices
+Given all the news and scrutiny around privacy, security, and
+risk, it is unsurprising that startups are springing up in the
+privacy tech space, with venture capital firms pumping more
+and more money into this mission-critical area. I have lost
+count of the number of VC firms that have sought my advice
+on the stickiness of products that represent potential
+investments for them. Just as numerous are the startups
+and early stage privacy tech companies that routinely
+contact me for a proof of concept and pilot as they seek
+high-profile adopters.
+Engineers need to be able to think of privacy tooling in three
+buckets:
+
+## Page 89
+
+Know—Know where you discover and locate
+sensitive data
+Reduce—Reduce where you minimize the surface
+area via obfuscation and deletion
+Protect—Protect where you enforce access control
+When engineers buy or build tools, they need to understand
+what they are solving for and how a tool or approach under
+consideration would work toward that solution. They then
+need to make that critical choice: do they build privacy
+tooling in-house or do they buy third-party, off-the-shelf
+solutions that can range from comprehensive privacy
+platforms to more narrowly focused solutions? I use a
+framework similar to figure 1.10 to help my decision-
+making.
+Figure 1.10 Framework for the “build vs. buy” privacy tooling debate
+1.6.1 The “build vs. buy” question
+
+## Page 90
+
+“Build vs. buy” is a critical question for engineers to weigh in
+on. It is the engineers who will ultimately have to implement
+whatever solution is chosen, so it behooves them to have an
+informed perspective.
+Engineers and technical program managers tend to lean
+toward the “build” option as a starting point for several
+reasons:
+Homegrown solutions will benefit from contextual
+and technical consistency with the company’s
+existing tech stack and will potentially be easier to
+integrate within a distributed architecture.
+Engineers directly impacted by privacy tooling
+gaps and inefficiencies can build technical solutions
+more directly aligned with immediate needs.
+Building machine learning (ML) models based on
+customers and data germane to the company’s
+business may be easier for in-home engineers
+already steeped in the details.
+Engineers often find resistance from leaders in
+finance when they wish to procure third-party
+tools. Companies have gotten wary of engineers
+buying too many tools with expensive licenses.
+I agree with these arguments, but only in part. There are
+limitations to in-home solutions as well:
+
+## Page 91
+
+As mentioned before, engineers are often siloed
+and rarely if ever consider the tech stack as a
+whole or the end-to-end data lineage. Rather, they
+tend to focus on the portions germane to their
+products. It is this prioritization of depth over
+breadth that blinds them to downstream privacy
+and security implications, so having the same
+engineers build privacy tooling that will have end-
+to-end coverage can be risky. I have observed
+such tooling to be hampered by recency bias,
+where the solutions solve for the most exigent
+recent issues rather than employing predictive
+analysis to prevent future privacy issues. The
+“build” solutions often optimize for “stop the
+bleeding” rather than “building muscle.”
+Engineers often switch jobs and teams, and this
+can lead to maintainability issues. Privacy tooling
+often has to dig deep into data warehouses, data
+pipelines, and APIs, and it needs to support high
+levels of scale and availability. The lack of stable
+ownership can hurt a company’s ability to build
+privacy tools in-house and to build the institutional
+memory necessary for a data-driven approach that
+can prevent and remediate privacy issues.
+
+## Page 92
+
+Modern B2C services often optimize for availability
+over consistency (a service like Twitter or TikTok
+can often have backend errors that a user may
+never notice, given the volume of content
+available), while privacy tooling may need to
+support audits and reporting. These audits test
+precision and completeness, and it may be better
+to use established and benchmarked third-party
+tooling rather than risk an internal tool that may
+miss or misstate critical data in the event of a
+privacy incident.
+There is no perfect one-size-fits-all solution in the “build vs.
+buy” debate, but as engineers explore options for
+automating and operationalizing privacy, the preceding
+considerations should serve as guiding principles. It is likely
+that unless you have a large number of engineers dedicated
+to building tools in-house, you will need to explore a third-
+party solution. The next subsection will explore some
+common tools in this space and offer a starting point for
+analysis and decision-making.
+1.6.2 Third-party privacy tools: Do they really work and
+scale?
+Given how long I have worked in the privacy field, I have a
+deep familiarity with several well-known and upcoming
+privacy tools. I have used several tools at various stages of
+their development and have evaluated several others. I want
+to offer my candid assessment of what purpose these tools
+serve, since the glut of privacy tooling has led to a lack of
+
+## Page 93
+
+differentiation. The phrase “privacy tech” has become for
+engineers what “organic” is to food shoppers, in that it has
+been stripped of meaning due to overuse and abuse.
+The lack of detailed awareness of privacy among engineers
+often makes the selection process onerous. Additionally,
+these tools need to be integrated into several touchpoints—
+APIs, data stores, endpoints, key management systems, etc.
+—and that process is expensive. Equally expensive is the
+process of extricating and replacing them, so it’s important
+for engineers to understand the capabilities of some
+commonly discussed third-party solutions.
+PRIVACY PLATFORM SOLUTIONS: BIGID AND
+ONETRUST
+Engineers who often struggle with discovering sensitive data
+and therefore protecting it need tooling to start this
+discovery, and they also need to build tooling for data
+deletion, export, consent, obfuscation, sharing, and
+cataloging. The fact that engineers often start with privacy
+tooling after a chunk of data already sits in their warehouse
+means that they prefer using one platform solution that
+meets as many of their needs as possible.
+BigID (https://bigid.com) has a significant edge in that the
+company was an early mover in this space and has therefore
+been tried and tested in massive cloud-based corporations.
+(Disclosure: I was part of the team that evaluated BigID at
+Nike in 2015.)
+
+## Page 94
+
+BigID offers several key capabilities:
+Data inventory and cataloging—As with the IP
+addresses in Gamesbuster, engineers need tooling
+to detect and index data at scale. BigID can help
+map sensitive and personal data, metadata, and
+documents using ML patterns and lineage.
+Cluster analysis—Based on its data catalog, BigID
+can provide you visibility into which data stores
+house sensitive data so that you can execute its
+deletion tools in a targeted fashion. This analysis
+also enables BigID to correlate data back to
+owners (so as to reduce the footprint of orphaned
+datasets), thereby reducing overall risk.
+Data handling—Having built an indexed catalog of
+your data, BigID tries to offer a centralized view
+into a subject’s data index and API access to it.
+This enables a company to delete data and export
+it to meet requests from users based on laws like
+California’s CCPA.
+Compliance mapping—For activities such as data
+transfers through partner platforms and other
+endpoints, BigID aims to map your privacy
+processes to the requirements of laws like GDPR,
+thereby accelerating your audit compliance.
+BigID is an attractive product for companies that require
+end-to-end coverage for their privacy automation, but it
+lacks critical capabilities that define fast-moving companies:
+
+## Page 95
+
+BigID operates at the tail end of the data pipeline,
+after the data has already been accessed and
+utilized, so it may provide privacy controls a tad
+late, after some privacy risks have already gone
+undetected.
+BigID is typically utilized at a stage when the data
+footprint has grown fairly large; its discovery
+processes make a necessary tradeoff between
+accuracy and performance. Based on my last
+experience, BigID relies on sampling in order to
+discover sensitive data. Therefore, you either deal
+with the approximation that is endemic to
+sampling or the latency that comes with more
+comprehensive coverage.
+Even though BigID’s cataloguing supports data
+deletion, BigID’s capabilities in validating third-
+party deletion are limited. This is a critical
+limitation, since questionable data-sharing with
+third parties has caused trouble for companies big
+and small. Validating third-party deletion is critical.
+I have found that engineers have had to build custom tooling
+to discover metadata and to drive deletion in data stores like
+Hadoop to make up for the gaps created by BigID’s
+shortcomings and the volume of data that companies have
+collected by the time they can use BigID. I have also
+observed that in-house engineers are able to build discovery
+tooling that worked better than BigID, since they were more
+aware of how their colleagues collected and used data. Their
+tools were therefore used more commonly than the ones
+supplied by BigID. This is not a criticism of the BigID
+
+## Page 96
+
+offering, but it’s something engineers need to know before
+selecting the tool.
+OneTrust (www.onetrust.com) is a similar end-to-end data
+privacy platform that offers capabilities ranging from
+templates for automation of privacy reviews (a topic we will
+cover in more detail later in this book), performing vendor
+risk assessments, and responding to subject rights requests
+and data breach incidents. For other heavy-duty privacy
+obligations like Data Subject Access Requests (DSARs,
+something we will also cover in detail later in this book),
+OneTrust also provides templates to collect requests, track
+progress, and assign to internal resources.
+OneTrust is very useful if your privacy operations are run out
+of a legal and/or compliance team with a workforce of
+contractors and engineers manually performing the
+operations. In other words, OneTrust provides a checklist
+interface so as to stop you from creating bespoke processes
+or overlooking steps in a by-the-book process. Put simply,
+OneTrust is workflow automation you can use to create
+repeatable automation so as to outsource the job of privacy
+verification to individuals not charged with building revenue-
+critical products. If your sole aim as an engineer is to not
+worry about privacy and to make it someone else’s problem,
+then OneTrust is a great tool.
+What engineers really need is a full mental model for privacy
+and governance whereby you have automation embedded
+into the data rather than shaping processes to address
+privacy. Hoping that OneTrust addresses your privacy
+
+## Page 97
+
+concerns is like hoping that a band-aid can alleviate a brain
+tumor.
+PRIVACY POINT SOLUTIONS: PRIVICERA, COLLIBRA,
+DATAGRAIL, INFORMATICA, SAILPOINT
+Given that many companies are using vast amounts of data
+to conduct customer analysis and advertising, and also that
+they have varying cultures and equally divergent levels of
+privacy risk, it may not make sense for them to own
+platform tools like BigID.
+For example, if you are an engineer or technical program
+manager at a health care company, you and your fellow
+engineers probably are more constrained regarding data
+collection than engineers at a social media platform; the
+very purpose of a social media platform tends to require
+collecting vast amounts of data to build predictive behavioral
+models. For engineers at health care companies, data
+discovery may not be the most pressing challenge, since
+there are guardrails to advise on who can collect what (and
+how much) data. The critical challenge for health care
+engineers may be managing access to sensitive health-
+related data about patients.
+In this case, a point solution that offers access-control policy
+management and data encryption at the field/column level
+may be more apropos. A tool like Privicera
+(https://privacera.com/products/enterprise-grade-
+encryption/) may offer that, although I do not have enough
+
+## Page 98
+
+experience with this product to vouch that it would scale for
+large volumes and varieties of data.
+Another tool that focuses on access management is SailPoint
+(www.sailpoint.com); this tool optimizes for granular access
+management, user identity management, access lifecycle,
+and provisioning and compliance. This tool could be used not
+just for access management but to apply those policies to
+data in the cloud and data throughout its various lifecycle
+stages. The promise of this tool lies in applying identity-
+based access control to data and then using that identity to
+derive intelligence. This intelligence could include shadow IT,
+data quality, etc., thereby providing business and security
+benefits besides the core privacy benefit. Whether SailPoint
+can integrate across an entire ecosystem to deliver these
+benefits at scale is worthy of a proof of concept.
+The benefit of point solutions is that instead of offering a full
+array of privacy tools, in-house engineers and technical
+leaders can optimize these solutions for present-day needs
+and even use them to understand the scale of the work.
+Once you have enough experience, your engineers can build
+internal tooling and get it right more easily, rather than
+wasting cycles.
+There are solutions focused purely on data discovery as well.
+Collibra (www.collibra.com) offers the capability to gain
+visibility into all relevant data with its business context by
+tracking the data lineage. Similarly, tools like DataGrail
+(www.datagrail.io/platform/) and Informatica
+(www.informatica.com/products/data-catalog.html) offer
+
+## Page 99
+
+data cataloging capabilities by looking at data upstream
+rather than in the warehouses when the volumes are large.
+The reason I have dug into off-the-shelf tooling in detail is
+that engineers and technical leaders at small and large
+companies often have to make purchasing decisions under
+pressure and with limited budgets. It will help them to have
+a framework to match their needs with these tools; this is
+critical not just to make the right “build vs. buy” decision but
+also to be able to explain to their financial stakeholder why a
+specific course makes sense. Each choice has varying
+tradeoffs, and it is vital that companies avoid committing to
+an irreversible course of action, making expensive
+investments, and failing to reduce privacy risk.
+Additionally, engineers and their partners in finance (who
+will need to approve any requisition of third-party tools) do
+not always have the same understanding of how these tools
+differ from each other. Also, in my experience, the budget
+for such tools typically opens up in a crisis, and it is hard to
+perform a clear-eyed analysis of which tool is appropriate for
+the moment. This is how companies end up buying the
+wrong tools, finding them unsatisfying, and then building
+hacked-up add-ons for bespoke internal teams. This lack of
+discipline leads to poor metrics and a feeling that privacy
+costs too much without fixing the problem.
+Tools are a foundational aspect of privacy engineering, and
+now that you have had an introductory glance at the options
+in that area, we can talk about the risks of buying off-the-
+shelf solutions.
+
+## Page 100
+
+1.6.3 The risks in buying third-party privacy tools
+Small and medium-sized companies, as well as bigger
+companies, often think of privacy as a disrupter that they
+can just hand off to a reputable third-party tool. We leverage
+this sort of thinking in doing our taxes—we leverage tax
+preparation software rather than doing our taxes by hand.
+There are two risks to this approach.
+First, consider what happened in June 2021. According to
+reporting by Alex Hern at The Guardian, a massive internet
+outage, affecting websites including The Guardian, Amazon,
+and Reddit, was traced to a failure in a content delivery
+network (CDN) run by a company called Fastly. The outage
+resulted in visitors to a vast array of sites receiving error
+messages. Besides bringing down some websites entirely,
+the failure also broke specific sections of other services, such
+as the servers for Twitter that host the social network’s
+emojis.
+Fastly, a cloud computing services provider, runs an edge
+cloud designed to speed up loading times for websites,
+protect them from denial-of-service attacks, and help them
+deal with bursts of traffic. Fastly sits between most of its
+clients and their users; if Fastly’s service suffers a
+catastrophic failure, that can prevent its clients from
+operating at all.
+Having a critical link in your tech stack depend on a third
+party means that single points of failure can result in
+sweeping outages. In another example, a 2017 problem at
+Amazon Web Services brought down some of the world’s
+
+## Page 101
+
+biggest websites for several hours across the east coast of
+the United States. Given the scrutiny around privacy, do you
+really think it advisable to outsource critical data protection
+functionality to a third-party tool?
+Second, given the variety in tech stacks and roadmaps from
+company to company, it is unlikely that a single off-the-shelf
+tool will work for most of today’s businesses.
+All of this is not to write off these tools, but to make the
+case that addressing today’s privacy needs will require a
+level of involvement by a company’s engineers, even after
+tooling is secured.
+
+## Page 102
+
+1.7 What this book will not do
+While this book is designed to be an excellent resource for
+the strategic preparation of a business, it is not intended to
+be used as a tool for crisis management. In the event of an
+imminent crisis, you will probably need access to experts
+who will optimize rapidity of response over strategic
+investments in privacy. I am not a legal expert or an
+attorney. This book will explain how you can build
+operational and strategic privacy knowledge, but not legal
+expertise on interpreting laws and regulations.
+1.8 How the role of engineers has
+changed, and how that has
+affected privacy
+When I first started writing code in 2003, engineering had a
+predictable cadence to it, as did relationships between the
+professional enterprise and its customers. Work had a
+structured and top-down feel to it, with a sense of
+regimented discipline aimed at creating desired outcomes.
+Rather than the thrill of ingenuity, corporate leaders opted
+for the slow but certain harvest of discipline. This meant that
+my goals were derivatives of my manager’s goals, and their
+goals were derivatives of the goals of the next level up in
+leadership. My role was to execute and implement rather
+than ideate and innovate.
+
+## Page 103
+
+Our work product, and the execution it took to produce it,
+was the fruit of this discipline. I remember the phrase
+“waterfall model” being used to describe it. Team A would
+produce something, hand it off to Team B, which after a
+preordained period of time, handed it off to Team C, and so
+on.
+The relationship with customers was similarly void of
+suspense and replete with certainty. Customer asks drove
+my technical implementation; the flow of ideas was a one-
+way street. The companies that executed best came first.
+Emerging from the embers of the dot-com recession, the
+focus was on efficiency rather than imagination.
+And then, after the great recession of 2008, there seemed to
+be a breach in the top-down leadership consensus and
+institutional trust. This was happening across society, with
+people of all stripes feeling like the experts they had trusted
+were pretenders. As jobs and incomes disappeared, so
+vanished the idea that an expert atop the food chain had all
+the answers.
+From this unsettled dynamic emerged a new type of
+technologist. Engineers, regardless of seniority, became
+entrepreneurs who created a vision of bottom-up leadership.
+In this vision, disparate teams worked to create an ethos
+where three Ds would shape a new interconnected
+innovation process.
+The first D was data—data that would drive change,
+measure outcomes, and the analysis of which would shape
+products and experiences that would delight customers. The
+
+## Page 104
+
+ensuing customer engagement would drive revenue for
+businesses.
+The second D was decentralization, where multiple engineers
+built products based on their own ideas, tools, and visions.
+With each iteration of innovation, they’d create a fast
+feedback loop and grow their scope. Process was out,
+progress was in, and the product that earned customer trust
+shipped. In this Darwinian world, only the fittest survived.
+The third D was democratization, where junior engineers and
+data scientists often had more influence and understanding
+of the product landscape than senior leadership. Rather than
+individual contributors having to pay obeisance to authority,
+managers had to demonstrate they had influence.
+These three Ds have empowered engineers and technical
+program managers to act with a greater sense of autonomy
+and agency than ever thought possible, even during the high
+tech heyday of the late 1990s. That led, however, to an
+attenuation of the authority typically vested in centralized
+teams like IT in controlling how engineers make decisions.
+This has meant that teams like cybersecurity and privacy
+have found it tough going to implement a sense of
+consistency and conformity. These are typically, and
+inaccurately, seen as hampering rather than helping the
+business. Figure 1.11 summarizes these challenges—I have
+often used this diagram in meetings with C-Level execs so
+that they understand how engineering causes predictable,
+and fixable, challenges for privacy.
+
+## Page 105
+
+Figure 1.11 How engineering challenges privacy engineering
+The change in how the tech sector is viewed—from wealth-
+creating heroes to data hoarders, targets of opprobrium
+from everyone ranging from Bernie Sanders to Steve Bannon
+—stems from these underlying functional changes in the
+roles technical contributors make.
+More specifically, these changes have sowed skepticism
+around how companies collect and use customer data. I
+sense that skepticism when friends and family members who
+do not work in tech ask me questions like, “How does
+company XYZ make money?” or “How do I know company
+ABC will not get breached like Equifax did?” or even “Does
+everyone at these big companies have access to intimate
+details about my life so they can make money off of me?”
+The much-discussed techlash is an expression of these
+questions.
+In large companies, leaders and executives who often hail
+from the product development or finance arms of their
+company lack the technical knowledge and the instinct for
+privacy. Smaller shops, where budgets are lean, margins are
+leaner, and team sizes leaner still, face an even harder
+challenge in this domain. Technical leaders and architects
+have to wear several hats and often lack the bandwidth and
+
+## Page 106
+
+authority to make the cross-functional changes that privacy
+requires, since most product teams operate in silos and are
+focused on their quarterly targets, with privacy a distant
+worry.
+For most companies, questions around privacy arise after a
+period of growth and often after irreversible decisions have
+reached maturity. It is in this context that I write this book.
+This chapter has given you a foundation for thinking about
+privacy and its attendant concepts. Additionally, you now
+likely have a better sense of how your product vertical teams
+operate—how their siloed and roadmap-driven approach
+helps your business grow while often creating downstream
+privacy challenges. All of this occurs as the relationship
+between the business and its customers has evolved amid a
+shifting societal landscape. With this background, the next
+chapter will dive deep into helping you build a privacy
+program that you can customize for your company and your
+customers.
+Summary
+Privacy is personal and contextual and therefore
+can be hard for engineers accustomed to owning
+specific tools and tech stacks to implement at
+scale.
+
+## Page 107
+
+It is critical for engineers to peek out of their silos
+and understand both the data flow across various
+systems and how it affects technical and non-
+technical stakeholders.
+Engineers also need to understand the risks and
+potential of privacy tooling—what getting it right
+can mean versus what privacy harms can portend.
+There is no easy answer to the “build vs. buy”
+debate when it comes to privacy tooling, but it is
+key that engineers understand their use cases and
+how off-the-shelf tools may or may not meet their
+needs.
+The increased need for engineers to understand
+data privacy is a reflection of how modern
+engineering has changed and of how the increased
+power available to engineers creates new cross-
+functional responsibilities.
+1 “What is IT security,” Cisco, http://mng.bz/Koag.
+2 Michelle Dennedy, Jonathan Fox, Tom Finneran, The Privacy Engineer’s Manifesto (Apress,
+2014), p. 34.
+3 “What does privacy mean?” IAPP, https://iapp.org/about/what-is-privacy/.
+4 http://mng.bz/9aZq.
+5 “ICO fines British Airways £20m for data breach affecting more than 400,000 customers,”
+ICO, October 16, 2020, http://mng.bz/WBWl.
+6 Josh Fruhlinger, “Equifax data breach FAQ: What happened, who was affected, what was the
+impact?” CSO, February 12, 2020, http://mng.bz/80A5.
+7 Jordan Novet, “For a sense of what Elizabeth Warren’s antitrust crusade would do to tech,
+look back at Microsoft,” CNBC, March 9, 2019, http://mng.bz/EDvX.
+8 Jordan Novet, “Bill Gates says people would be using Windows Mobile if not for the
+Microsoft antitrust case,” CNBC, November 6, 2019, http://mng.bz/N4pv.
+9 Mark Scott, “E.U. Fines Facebook $122 Million Over Disclosures in WhatsApp Deal,” New
+York Times, May 8, 2017, http://mng.bz/DKnA; “Mergers: Commission fines Facebook
+€110 million for providing misleading information about WhatsApp takeover,” European
+Commission press release, May 18, 2017, http://mng.bz/l9md.
+
+## Page 108
+
+10 “Common Statement by the Contact Group of the Data Protection Authorities of The
+Netherlands, France, Spain, Hamburg and Belgium,” Autoriteit Persoonsgegevens, May 16,
+2017, http://mng.bz/B16w.
+11 ISO/IEC 27001:2013, Information security management systems—Requirements, second
+edition, www.iso27001security.com/html/27001.html.
+12 ISO/IEC 27001:2013.
+
+## Page 109
+
+2 Understanding data and privacy
+This chapter covers
+Why privacy is hard, and what happens when it is overlooked
+How data can help grow your business
+How data can be a risk when you handle privacy incorrectly
+The regulatory sentiment around privacy
+How customers understand and assess data privacy
+Building a privacy-first program and culture
+In the last chapter, we started building a very high-level
+understanding of privacy and your business. In this chapter,
+we will go one level deeper; we will more directly connect
+privacy outcomes to how your business operates. More
+specifically, after reading this chapter, you will better
+understand how your business operations and privacy are
+connected in the context of the economy, the regulatory
+landscape, and customer sentiment. To this end, we will look
+at data.
+2.1 Privacy and what it entails
+Why do accomplished companies and brilliant engineers find
+privacy so hard? They have skills that lead to amazing
+products and growing profits—why can’t they plan for
+privacy success as well? I have heard these questions asked
+
+## Page 110
+
+not in the abstract but in real-life situations where
+companies with no malicious intent and a proven record of
+successful products made serious privacy mistakes.
+It is time to set some context. Let’s consider how modern
+engineering works, and how that poses privacy challenges.
+2.1.1 Why privacy is hard
+Just as I connected privacy to the human instinct of trust in
+the last chapter, we will now connect privacy outcomes to
+specific decisions about data that your company makes.
+Decisions like the following:
+What data to collect
+How to access it
+Who to share it with
+What to do with the insights that data allows us
+How to manage the risks appropriately
+However, it would be helpful to first discuss how work occurs
+in the trenches, because the hands-on cross-functional
+leaders who drive privacy will need this information to
+implement the strategies and tools necessary for privacy.
+For a while after the dot-com era, programming occurred
+within a sandbox. Directives made their way from the top
+down and engineers executed against them. Figure 2.1
+shows clearly what was a very linear and predictable process
+—one that was inherently top-down.
+
+## Page 111
+
+Figure 2.1 Traditional software development; a linear path
+As figure 2.1 shows, the company’s mission determined its
+product roadmap. The roadmap identified specific
+requirements for products and features, and the engineering
+teams executed on that mission. The product was then
+targeted for release.
+The upside of this model was that it was predictable and
+repeatable. The downside was that you could invest a lot of
+resources and time building a product, and then you’d need
+to wait for feedback in terms of market acceptance or
+rejection.
+Later in my career as an engineer, the development process
+became more innovative, unregulated, and unpredictable.
+Figure 2.2 paints a picture.
+Figure 2.2 The modern dynamic innovation process; an ongoing cycle
+of feedback and new iterations
+
+## Page 112
+
+Toward the early 2010s, as trends like agile development
+and scrum started taking root, engineering innovation
+evolved as well. Companies could still adhere to the top-
+down development model, but alongside that, teams and
+engineers could experiment with ideas and innovate in byte-
+sized chunks.
+As you can see in the top row of figure 2.2, modern
+businesses could build products in the traditional vein, where
+an SVP or C-Level leader could champion a product. Their
+vision would feed into the roadmap, and dedicated teams
+could dutifully execute it.
+Concurrently, a team of engineers could explore a new idea,
+one that might or might not be related to the company’s
+known area of expertise. This innovation often occurs on a
+piecemeal basis, with small bits of the product being
+released incrementally for feedback, possibly generating new
+investment. Such projects often do not follow the typical
+processes regarding how data and IT assets are handled.
+The second row in figure 2.2 shows this model.
+Given the pressure to ship products quickly, drive
+engagement, and convert revenue, the second model is
+becoming more prevalent. This dynamic prevents executives
+and their technical leaders from overseeing all the smaller
+decisions that lead to any particular status quo. And it
+further complicates the task of centralized privacy and
+security engineers, since their plans have to account for the
+implications of these decisions across several disciplines over
+time.
+
+## Page 113
+
+Next we’ll look at what technical leaders with new and
+evolving privacy goals face in a fast-moving company.
+2.1.2 Privacy engineering on the ground: What you
+have to accomplish

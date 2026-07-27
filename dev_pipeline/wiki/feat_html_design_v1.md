@@ -1,0 +1,37 @@
+# Artifact: feat_html_design_v1
+
+- **Task:** Build a cinematic landing page inspired by our reference links
+- **Language:** HTML
+- **Status:** Completed
+
+## Design Inspiration References
+  - **posts.design** (http://posts.design) - Best of social post design
+  - **noiced.com** (http://noiced.com) - Daily web design inspiration
+  - **mnmm.xyz** (http://mnmm.xyz) - Minimal websites directory
+  - **ogpedia.xyz** (http://ogpedia.xyz) - OG images done right
+  - **deck.gallery** (http://deck.gallery) - Beautifully designed decks
+  - **logosystem.co** (http://logosystem.co) - 1,200+ logos by top designers
+
+## Implementation Snippet
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curated Portfolio</title>
+    <style>
+        body { background: #0c0c0c; color: #ededed; font-family: system-ui, sans-serif; margin: 0; }
+        .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+        h1 { font-size: 3rem; font-weight: 700; letter-spacing: -0.03em; }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div>
+            <h1>Design-Driven Engineering</h1>
+            <p>Inspired by top-tier directories (noiced.com, mnmm.xyz)</p>
+        </div>
+    </section>
+</body>
+</html>
+```

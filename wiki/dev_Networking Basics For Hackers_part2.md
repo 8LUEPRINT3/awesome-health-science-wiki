@@ -1,0 +1,2164 @@
+---
+title: Networking Basics For Hackers - Part 2
+source: Networking Basics For Hackers.md
+category: development
+---
+
+emails with some enhancements.
+.
+As the diagram above displays, the client Ana@maildomain-abc.com sends an email to the MTU 
+server via SMTP and retrieves email via either POP3 or IMAP. The same is true for the other 
+client, Lav@maildomain-xyz.com. Communication between the email servers or MTUs is 
+exclusively SMTP on port 25. POP3 uses port 110, and IMAP uses port 143.
+The Email Processing Model
+First, email is submitted by an email client or mail user agent (MUA), such as Microsoft 
+Outlook, Mozilla, etc., to the email server (mail server agent or MSA) using SMTP on port 587. 
+This email is then transferred to the MTU. Most often, these two agents (MUA and MTU) are 
+the same system managed by a single piece of software.
+The boundary MTA uses DNS to look up the MX record of the recipient's domain (see DNS). 
+This record includes the name of the target MTA. We can demonstrate this with the dig 
+command.
+
+## Page 146
+
+146 | P a g e
+The MTA selects the target host, connects to it, and sends the message.
+Once the server receives the incoming message, it hands it to a mail delivery agent (MDA) for 
+delivery to the local recipient. Once the message is delivered to the local mail server, the email is 
+stored for retrieval by an authenticated MUA. 
+Types of MTUs
+There are multiple mail transfer units used on various systems. In Linux, the major players are 
+sendmail, EXIM, and postfix. On Microsoft's operating system, the major player is Microsoft's 
+Exchange Server.
+Packet-Level Analysis with Wireshark
+When we capture packets going to an SMTP server, it looks something like that below.
+
+## Page 147
+
+147 | P a g e
+Note that in packets 1-3, an outside client is completing a TCP three-way handshake. In packet 4, 
+the SMTP server identifies itself as "mail01" and a Postfix server on Ubuntu and begins using 
+the SMTP protocol for communication. In packet 5, the client issues the EHLO command 
+initiating communication. In packet 8, the client identifies the email sender, and in packet 10, the 
+email receiver.
+Building an SMTP (EXIM4) Server in Linux
+Let's now set up an SMTP server in our Kali Linux. In this case, we'll install exim4, the most 
+widely used email server on Linux systems.
+We can download exim4 from the Kali repository.
+kali > sudo apt install exim4
+Next, we need to execute a configuration wizard that walks us through the configuration of the 
+exim4 server.
+
+## Page 148
+
+148 | P a g e
+kali > sudo dpkg-reconfigure exim4-config
+This starts a configuration wizard that queries us for information to configure the email server.
+The first question is about the type of mail server. If you want to set up your server to send and 
+receive email across the Internet, select the first choice.
+Next, you need to provide a domain name that you own. In my case, I used www.hackers-
+arise.com.
+Next, we need to provide the IP address for the server to listen.
+
+## Page 149
+
+149 | P a g e
+Here, we need to provide a list of recipient domains or local domains. The default is Kali, and I 
+left that in place.
+Next, we need to provide a list of recipient domains that this system will relay mail to. It is OK 
+to leave it blank.
+Next, we need to select the delivery method for local mail. We can choose between the mbox 
+format of /var/mail or the home directory.
+
+## Page 150
+
+150 | P a g e
+Next, we are queried regarding the DNS queries. If we want to minimize the DNS lookups, 
+select YES.
+Next, select the domains to relay mail for. You can leave it blank.
+Finally, we need to select whether to split the configuration file for the exim4. Unsplit is more 
+stable, while split makes it easier to make changes. I selected unsplit or NO.
+
+## Page 151
+
+151 | P a g e
+Now, we only need to start our exim4 server, and our email server is activated and ready to send 
+and receive email!
+Vulnerabilities in SMTP
+2021 was marked by a major vulnerability found in Microsoft Exchange Server, presumably by 
+Chinese hackers. These vulnerabilities enabled these hackers to access many large corporations 
+and institutions' email records. The impact of this hack was so large and serious that the FBI was 
+given authorization to patch Exchange Server systems throughout the US.
+You can see the vulnerabilities below.
+
+## Page 152
+
+152 | P a g e
+In addition, in 2020, exim email servers had two severe vulnerabilities that allowed unauthorized 
+access to email stored on these servers.
+Reconnaissance and Hacking SMTP
+Before attempting any exploit, the first step is to do proper reconnaissance. nmap is the tool of 
+choice for port scanning. Let's scan our SMTP service to see what ports and services are running.
+We can do a TCP scan on port 25 (the default SMTP port) with nmap and include the -A switch 
+to attempt to determine the service running on that port, such as;
+kali > nmap -sT -A 192.168.56.103 -p25 
+
+## Page 153
+
+153 | P a g e
+As you can see above, nmap found port 25 open and running exim 4.68.
+To determine any potential vulnerabilities on that SMTP server, we might use nmap scripts. To 
+run all the nmap scripts for SMTP, we can use the --script=smtp-* option where the wildcard 
+(*) means to run all the scripts in the smtp category.
+nmap --script=smtp-* 192.168.56.103 -p 25
+
+## Page 154
+
+154 | P a g e
+As you can see above, the smtp nmap scripts were able to enumerate multiple users (these users 
+can then be targeted with social engineering attacks) and find that the server is vulnerable to the 
+cve-2010-4344 and CVE-2010-4345 exploits.
+Next, let's see whether we can find these exploits in Metasploit. Fire up Metasploit by entering;
+kali > msfconsole
+
+## Page 155
+
+155 | P a g e
+Now, let's search for Exam exploits by using the search function.
+msf5 > search type: exploits exim
+As you can see in the screenshot above, Metasploit has multiple Exim exploits. Let's try the 
+exploit/unix/smtp/exim4_string_format exploit.
+First, let's load the exploit using the use command.
+msf5> use exploit/unix/smtp/exim4_string_format
+
+## Page 156
+
+156 | P a g e
+Before we progress further, let's learn more about this exploit by entering “info."
+kali > info
+As you can see above, this module exploits a heap buffer overflow. In addition, if it detects a 
+Perl interpreter, it will automatically escalate privileges from a regular user to root.
+Then, let's set the RHOSTS parameter with the target system's IP address. With the RHOSTS 
+now set, we next set the PAYLOAD. In this case, let's use cmd/unix/reverse_perl. This payload 
+will open a command shell on the target machine using Perl (most Unix-like systems have Perl 
+installed by default) that will call back to our attack system if successful.
+Lastly, we need only to set the LHOST and the LPORT. Let's set the LPORT 443 so that it uses 
+a commonly open port for HTTPS traffic. Often, by using this port, this exfiltration will go 
+unnoticed.
+The only step left is to run “exploit”
+msf5> exploit
+
+## Page 157
+
+157 | P a g e
+As you can see above, the exploit worked and gave us a command shell in session 1!
+Unlike when we exploit a Windows system, when we grab a command shell on Linux systems 
+we do NOT get a command prompt but rather an empty line. To test whether we are actually on 
+the Linux SMTP server, we can enter Linux commands and check for the response. In this case, 
+let's run a few common Linux commands such as id, whoami, pwd, uname -a.
+
+## Page 158
+
+158 | P a g e
+As you can see above, the system responding by informing us that user is uid=0 or root, the 
+present working directory (pwd) is /var/spool/exim4, and the uname is Linux mailserver01.
+Summary
+Email service or Simple Mail Transport Protocol (SMTP) is one of the most critical services in 
+our digital age. It is also one of the most highly targeted services as it contains confidential and 
+key information. It is critical that this service be properly configured to prevent unauthorized 
+access to this crucial data source.
+Exercises
+1. Build an SMTP server for your domain
+2. Conduct reconnaissance on your new SMTP server
+
+## Page 159
+
+159 | P a g e
+Chapter 11
+Simple Network Management Protocol 
+(SNMP)
+The Simple Network Management Protocol or SNMP is 
+among the least understood protocols, yet so vitally 
+important to the successful operation of your network. 
+If an attacker can breach the SNMP, they may be able 
+to unmask your encrypted VPN communication (see 
+
+## Page 160
+
+160 | P a g e
+NSA's ExtraBacon exploit here) as well as see and possibly control every device connected to 
+your network.
+As you know, the Simple Network Management Protocol uses UDP ports 161 and 162 to 
+manage network devices. Network devices use this protocol to communicate with each other and 
+can be used by administrators to manage the devices. As hackers, if we can access the SNMP 
+protocol, we can harvest a vast resource of information on the target's network and even disable 
+and change the settings on these devices. Imagine the havoc one could wreak by changing the 
+settings on routers and switches! 
+Background on SNMP
+The Simple Network Management Protocol (SNMP) is part of the Internet Protocol Suite that is 
+designed to manage computers and network devices. Cisco describes it as "an application layer 
+protocol that facilitates the exchange of information between network devices." Succinct and 
+correct, but it misses the management function that SNMP also provides.
+SNMP is a stateless, datagram-oriented protocol. It involves one or more administrative 
+computers called managers. These managers monitor and manage a group of computers. Each of 
+the managed computers has an agent installed that communicates with the manager. Please see 
+the diagram below for a schematic of how SNMP operates.
+The agent on the managed computers provides management data to the managing computer. The 
+manager can undertake management tasks, including modifying and applying new 
+configurations.
+The management data exposed by the agents on each of the managed machines are stored in a 
+hierarchical database called the Management Information Base or MIB. It is this information 
+within the MIB that we will be seeking here. This MIB contains a vast array of information on 
+every device on the network, including users, software installed, operating systems, open ports, 
+etc. All of this information can be invaluable in developing an exploitation strategy on the target.
+
+## Page 161
+
+161 | P a g e
+The SNMP protocol communicates on UDP port 161. The communication takes place with 
+protocol data units or PDU's. These PDU's are of seven (7) types. 
+
+GetRequest 
+
+SetRequest 
+
+GetNextRequest 
+
+GetBulkRequest 
+
+Response 
+
+Trap 
+
+InformRequest 
+SNMP Versions
+SNMP has three (3) versions. Version 1, or SNMPv1, has very poor security. The authentication 
+of clients is in cleartext and, by default, uses a "community string" that is set to "public." This 
+community string operates like a password, and it is valid for each and every node on the 
+network. The authentication of the manager is also a community string set to "private" by 
+default. With these community strings, the attacker can gather all the information from the MIB 
+(with the public community string) and even set the configuration on the devices (with the 
+private community string). Although it is widely known and understood that SNMPv1 is 
+insecure, it remains in wide use (I recently did a security assessment at a major NYC bank, and 
+they were still using SNMPv1). Even if the network administrator changes the community string 
+from the defaults, because communication is in cleartext, an attacker can sniff the authentication 
+strings off the wire.
+SNMPv2 improved upon SNMPv1 in terms of performance and security, but because it was not 
+backwardly compatible with SNMPv1, it was not widely adopted. SNMPv3 is significantly more 
+secure than either SNMPv1 or v2. SNMPv3 adds encryption, message integrity, and 
+authentication but is still not used on all networks.
+Wireshark Analysis of SNMPv1
+Below we can see a Wireshark capture of SNMPv1 communication over a LAN.
+
+## Page 162
+
+162 | P a g e
+Note the Get-Request, Get-Response, and Get-Next-Request in the upper windows and the 
+community string in the lower window.
+Abusing SNMP for Information Gathering
+Now that we have a bit of background on the SNMP protocol let's use or abuse it to gather 
+information on our target. Open Kali and go to Applications --> Kali Linux -->Information 
+Gathering --> SNMP Analysis -->snmpcheck, as in the screenshot below.
+
+## Page 163
+
+163 | P a g e
+When you do so, you will be greeted by the snmpcheck help screen like below.
+Snmpcheck is a Perl script that queries the SNMP MIB for information on the target IP. Its 
+syntax is fairly simple;
+kali > snmpcheck -t <target IP>
+Of course, some options are available such as the community string (it uses "public" by default) 
+and the SNMP version (it uses one by default, or 2 is the other option. Note it will not work on 
+the more secure SNMP v3) and a few others. We will be using it here against a 2003 Server on 
+our network to see what information SNMP can provide us about the target.
+As you can see in the screenshot below, we ran snmpcheck, and it began to gather information 
+from the MIB about the target and display it on our screen. Initially, it gives information about 
+the hardware and then the operating system and uptime (uptime can be very useful information 
+to determine whether a system has been patched).
+
+## Page 164
+
+164 | P a g e
+Next, it displays device information.
+
+## Page 165
+
+165 | P a g e
+Next, storage information.
+Then, user accounts (this can be useful later when trying to crack user passwords. It eliminates 
+the need to guess user account names).
+
+## Page 166
+
+166 | P a g e
+Finally, the software installed on the system. This can be particularly useful when we begin to 
+develop an exploitation strategy, as exploits are specific to applications and their version.
+Cracking SNMP community strings
+As you saw in the previous exercise, SNMP can provide us with a significant amount of 
+information about our target if we can access it. In the previous section, we assumed that the 
+admin had left the community string set to "public." What if the admin was a bit more cautious 
+and security-minded and had changed the community string? How can we find the community 
+string?
+There is an excellent tool built into Kali named onesixtyone (presumably named after the default 
+port that SNMP operates on). In essence, it is a SNMP community string cracker. Like most 
+"password" crackers, it relies upon a dictionary or wordlist to try against the service until it finds 
+a match.
+Let's open onesixtyone by going to Applications --> Kali Linux --> Information Gathering --
+>SNMP Analysis -->onesixtyone. It should open a help screen like below.
+
+## Page 167
+
+167 | P a g e
+The syntax of onesixtyone is pretty simple and straightforward.
+kali > onesixtyone [options] <host IP> <community string private or public>
+Like a dictionary-based password cracker, the dictionary you use with onesixtyone is critical. In 
+the case of onesixtyone, it has a built-in dictionary. It's small but contains many of the commonly 
+used strings with SNMP. If you are creating your own dictionary for SNMP cracking, this is a 
+good starting point, but you may want to expand it with variations of the domain name or 
+company name as network administrators don't usually put much effort into creating complex 
+strings for SNMP. For instance, if the company is Microsoft, you might try strings that a lazy 
+admin might use, such as microsoft-public, microsoft-private, microsoft-snmp, microsoft-
+network, etc. 
+Let's take a look at the dictionary file by typing;
+kali > cat /usr/share/doc/onesixtone/dict.txt
+
+## Page 168
+
+168 | P a g e
+As you can see, it includes a short list of widely used SMNP community strings.
+In this exercise, we will use this short and simple dictionary to see whether we can find that 
+community string on our network and then use it in snmpcheck to gather all the info on the 
+target.
+In our case, we will be using it on the same system as before, so our command will be;
+kali > onesixtyone 192.168.1.102 -c /usr/share/doc/onesixtyone/dict.txt
+
+## Page 169
+
+169 | P a g e
+As you can see in the screenshot above, it was able to find both the private community string 
+(still set to the default "private") and the public community string (still set to the default as 
+"public"). These community strings can then be used with snmpcheck to grab information from 
+the MIB about the target system.
+NSA Exploits SNMP to Unmask VPN Communications
+We know that the NSA has exploited SNMP to unmask VPN communications from documents 
+released by Edward Snowden. For a tutorial on this NSA ExtraBacon exploit, click here. 
+Although this vulnerability has been patched by Cisco, it is likely that the NSA still has another 
+exploit of SNMP to view encrypted communication.
+Summary
+SNMP can be a rich source of information on the target network if we can access it. snmpcheck 
+will pull the information from the MIB, and onesixtyone helps us crack the SNMP "passwords." 
+Both can be critical in exploiting SNMP for reconnaissance.
+
+## Page 170
+
+170 | P a g e
+Chapter 12
+HTTP
+Before embarking upon any study of web application hacking, you 
+need to be familiar with the technologies used by web apps. To 
+hack web applications, we need at least a cursory understanding of 
+the multitude of technologies being implemented into modern web 
+applications. To that end, I will try to provide you with the basics 
+of the key web technologies that may be exploited in taking control 
+of a web application.
+
+## Page 171
+
+171 | P a g e
+HTTP Protocol
+The HyperText Transfer Protocol, or HTTP, is the granddaddy of web technologies. It is the core 
+communication protocol of the web, and all web applications use it. It's a simple protocol 
+originally designed to retrieve static web pages. Over the years, it has been updated and extended 
+to offer support to complex applications that are common today.
+HTTP uses a message-based model where the client sends a request, and the server responds 
+with a response. It is connection-less but uses TCP as its transport mechanism. 
+HTTP Requests
+All HTTP messages contain the same basic elements;
+1. One or more headers
+2. Then a blank line
+3. An optional Message Body
+The first line of the HTTP requests has three elements, separated by spaces
+1. A verb (action word) indicating the HTTP method (see methods below). Among these, the 
+most common is GET. The GET method retrieves a resource from the web server
+2. The requested URL
+3. The HTTP version used
+HTTP Responses
+The typical HTTP response consists of three items;
+
+## Page 172
+
+172 | P a g e
+1. The HTTP version
+2. The numeric status code (see status codes below).
+3. The text describing the status response.
+HTTP Methods
+When we attack web applications, we are most commonly making a request to the web server. 
+This means that our methods will likely be either a POST or GET. There are subtle differences 
+between these two requests.
+The GET method is built to retrieve resources.
+The POST method is built to perform actions.
+Other Methods
+HEAD functions similarly to a GET request, but no message body is returned
+TRACE is used for diagnostic purposes
+OPTIONS asks the server to report HTTP methods are available
+
+## Page 173
+
+173 | P a g e
+PUT attempts to upload a resource to the server, which is contained in the body
+URL's
+The uniform resource locator (URL) is a unique ID for every web resource for which a resource 
+can be retrieved. This is the all-familiar URL that we use every day to access information on the 
+web.
+The basic syntax of the URL is:
+protocol://hostname[:port]/ [/path/] file [?param=value]
+The port number is optional and only necessary if the port is different from the default port used 
+by the protocol specified in the first field (http=80, https=443, ftp=21, etc.).
+HTTP Headers
+There are numerous types of HEADERS in HTTP. Some can be used for both requests and 
+responses, and others are specific to the message types.
+These are some of the common header types;
+General Headers
+* Connection - tells the other end whether the connection should closed after HTTP transmission
+* Content-Encoding - specifies the type of encoding
+* Content-Length - specifies the content length
+* Content-Type - specifies the content type
+* Transfer-Encoding - specifies the encoding on the message body
+Request Headers
+* Accept - specifies to the server what type of content it will accept
+* Accept-Encoding - specifies to the server what type of message encoding it will accept
+* Authorization - submits credentials
+* Cookie - submits cookies to the server
+* Host - specifies the host name
+
+## Page 174
+
+174 | P a g e
+* If-Modified-Since - specifies WHEN the browser last received the resource. If not modified, 
+the server instructs the client to use the cached copy
+* If-None-Match - specifies entity tag
+* Origin - specifies the domain where the request originated
+* Referrer - specifies the URL of the requestor
+* User-Agent - specifies the browser that generated the request
+Response Headers
+* Access-Control-Allow-Origin - specifies whether the resource can be retrieved via cross-
+domain
+* Cache-Control - passes caching directive to the browse
+* Etag - specifies an entity tag (notifies the server of the version in the cache)
+* Expires - specifies how long the contents of the message body are valid
+* Location - used in redirect responses (3xx)
+* Pragma - passes caching directives to the browser
+* Server - specifies the web server software
+* Set-Cookie - issues cookies
+* WWW-Authenticate - provides details of the type of authentication supported
+* X-Frame-Options - whether and how the response may be loaded within the browser frame
+Cookies
+Cookies are a critical part of HTTP. Cookies enable the server to send items of data to the client, 
+and the client stores this data and resubmits it to the server the next time a request is made to the 
+server.
+The server issues a cookie to the client using the SET-COOKIE response header.
+SetCookie: Tracking=wdr66gyU34pli89
+When the user makes a subsequent request to the server, the cookie is added to the header.
+
+## Page 175
+
+175 | P a g e
+Cookies are used to identify the user of the server and other key information about the server. 
+These cookies are usually a name/value pair and do not contain a space.
+Status Codes
+Every HTTP response must contain a status code indicating the result of the request. There are 
+five groups of status codes based on the first digit of the code
+* 1xx - Informational
+* 2xx - Success
+* 3xx - Redirect
+* 4xx - Error
+* 5xx - The server encountered an error
+The status codes you are most likely to encounter are;
+* 100 - Continue
+* 200 - OK
+* 201 - Created
+* 301 - Moved Permanently
+* 302 - Found
+
+## Page 176
+
+176 | P a g e
+* 304 - Not Modified
+* 400 - Bad Request
+* 401 - Unauthorized
+* 403 - Forbidden
+* 404 - Not Found
+* 405 - Method Not Allowed
+* 413 - Request Entity Too Large
+* 414 - Request URI Too Long
+* 500 - Internal Server Error
+* 503 - Service Unavailable
+To see a complete list of all the response codes, see the list below.
+
+## Page 177
+
+177 | P a g e
+HTTPS
+The HTTP protocol is transmitted in plain TCP, which means it is unencrypted and susceptible to 
+MitM attacks and other such attacks by an attacker positioned between the client and server. 
+HTTPS is essentially the same as HTTP but instead is tunneled using Secure Sockets Layer 
+(SSL). In this way, the confidentiality and integrity of the data are protected.
+HTTP Proxies
+An HTTP proxy is a server between the client's browser and the web server. When the client’s 
+browser is configured to use the HTTP proxy, all requests to the Internet must go first to the 
+proxy. The proxy then forwards the request and receives the response before forwarding it to the 
+
+## Page 178
+
+178 | P a g e
+client. In this way, the HTTP proxy can provide access control, caching, authentication, and 
+content filtering.
+HTTP Authentication
+The HTTP protocol has its own mechanisms for authenticating users. These include;
+Basic: sends user credentials as Base64-encoded string in the request header
+NTLM: challenge-response mechanism
+Digest: challenge-response and uses MD5 checksums of a nonce with user’s credentials
+Hacking Web App Authentication with BurpSuite
+Now that you have a basic understanding of web technologies, we can explore the myriad of 
+ways to hack web applications. As you know, web applications are those apps that run the 
+websites of everything from your next door neighbor's website, to the all-powerful financial 
+institutions that run the world. Each of these applications is vulnerable to attack, but not all in the 
+same way.
+
+## Page 179
+
+179 | P a g e
+Burp Suite, by Port Swigger, is a versatile and powerful tool for web app pentesting. Besides 
+web form authentication testing, it can also be used to test for session ID randomization, 
+injection attacks, fuzzing, and numerous other attacks. Here we will be focusing on web app 
+authentication, but you can find other uses of BurpSuite in Web App Hacking series on Hackers-
+Arise.
+Here we will be using the Damn Vulnerable Web Application (DVWA) on our Metasploitable 
+OS or the OWASP Broken Web App VM (https://sourceforge.net/projects/owaspbwa/). 
+Please note that password attacks will not work against all web forms. Often, the web application 
+will lock you out after a number of failed attempts. Also, this attack is dependent upon having a 
+good password list, as the application goes through every possible password looking for a match 
+(with the exception of brute force password cracking, which is very time- and resource-
+consuming). With that caveat having been said, password-cracking web forms is a good place to 
+start in hacking web authentication. 
+We will be using the free version of Burp Suite that is built into Kali. If you are not using Kali, 
+you can download it here. This free version has some limited capabilities that work well for 
+learning or in a lab, but for real-world hacking, you will probably want to buy the Pro version 
+($399). In addition, make certain that your system is equipped with the JDK 11 or later. 
+BurpSuite is a Java application and requires this version of the JDK to work properly.
+Fire Up Kali and DVWA
+Let's start by firing up Kali and starting DVWA on another system or VM. Next, start Burp 
+Suite. You will first be greeted by a screen like the one below. You can only create a 
+"Temporary Project" in the Community Edition. Click Next.
+
+## Page 180
+
+180 | P a g e
+Next, select "Use Burp Defaults" and Click "Start Burp."
+We then need to click on the Proxy tab...
+...and enable the Intercept. This is the way that BurpSuite is capable of intercepting traffic to 
+and from a server.
+
+## Page 181
+
+181 | P a g e
+Open a Web Browser
+Now open your browser and set it up to use your proxy. In Mozilla's Firefox, go to Preferences -
+>Network Connections. There you will find the window like that below. Set it up to proxy your 
+browser requests on 127.0.0.1 on port 8080.
+Make certain to click OK in order for the browser to save your new settings.
+Use your browser to navigate to the DVWA.
+Once your target system is up and running, let's open your browser and navigate to the IP 
+address of the Metasploitable system or the OWASP Broken Web Apps VM. On either system, 
+navigate to the Damn Vulnerable Web App (DVWA).
+When you get there, select DVWA, which will open a login screen like that below.
+
+## Page 182
+
+182 | P a g e
+Here I have entered my username, OTW, and my password, HackersArise. You do not need to 
+enter the correct credentials.
+Intercept the Login Request
+Before sending the login credentials, make certain that the Burp Suite Proxy intercept is turned 
+on and the proxy setting are set in your browser. Then, when you send the request, the proxy will 
+catch the request, as seen in the screenshot below.
+Notice that my username and password are in the last line of the login request.
+
+## Page 183
+
+183 | P a g e
+Send the Request to Burp Suite Intruder
+Next, we need to send this request to the Burp Suite Intruder. Right-click on this screen and 
+select "Send to Intruder," as seen below.
+This will open the BurpSuite Intruder. On the very first screen, Intruder will display the IP 
+address of the target. It has gathered this information from the intercepted request. If it is wrong, 
+change it here. Also, note that it assumes you are using port 80. Once again, if you're attempting 
+authentication on another port or service, change it here, but BurpSuite usually gets it right.
+Next, click on the "Positions" tab. It will highlight the fields that it believes it needs to use in 
+cracking this authentication form.
+
+## Page 184
+
+184 | P a g e
+Since we want to set the positions manually, click the "Clear" button to the far right.
+In this attempt, we will be trying to crack OTW's password. This assumes we know the user's 
+username and only need the password (to acquire usernames from WordPress sites, wpscan is 
+excellent for extracting usernames). 
+Here we will highlight the one field you want to attempt to crack, namely the password, and 
+click on the Add button to the right
+Set Attack Type
+Now, we need to set the attack type. There are four types of attacks in BurpSuite Intruder:
+1. Sniper
+
+## Page 185
+
+185 | P a g e
+A single set of payloads. It targets each payload and places each payload into each position.
+2. Cluster Bomb
+Multiple payload sets. There are different payload sets for each position.
+3. Pitch Fork
+Multiple payload sets. There are different payload sets for each position. It iterates through each 
+payload set simultaneously.
+4. Battering Ram
+A single set of payloads. It uses a single payload set and runs it through each position.
+For a more detailed explanation of the differences in these payloads, see the Burp Suite 
+documentation.
+The BurpSuite Intruder defaults to "Sniper," so let's leave it as Sniper for this attack. 
+Set the Payloads
+Now, we need to set the payload we designated. These are the fields that Intruder will be 
+attacking. Select Payload Set #1 and enter some common passwords that nearly every system 
+has, such as "admin," "guest," "systemadmin," "sys," "root," "password," etc.
+
+## Page 186
+
+186 | P a g e
+In addition, let's select the top10000_passwords.txt from Hackers-Arise (www.hackers-
+arise/password-lists). These are the 10,000 most common passwords from dark web dumps over 
+the last few years. It's always a good idea to use common passwords on your first attempt to 
+crack passwords in these forms.
+Next, we need to click on the "Start Attack" button in the upper right corner.
+
+## Page 187
+
+187 | P a g e
+This will start BurpSuite to attempt to login into your DVWA, iterating through each password 
+on your list. Note in the screenshot above that both the status (302) and the length (558) are 
+identical for each attempt. What we are looking for is an attempt where the status and length are 
+different than the others that would indicate a successful login.
+Cluster Bomb Technique
+In this technique, we will assume that both the username and the password are unknown to us. 
+We will need to use two payloads; one the username and one the password. We will Add both 
+the username field and the password field as payloads. We will also set the attack type to 
+"Cluster Bomb."
+With this type of attack, BurpSuite will try a variety of combinations of your list in both the 
+username and password fields. This is a more complex and time-consuming attack, but necessary 
+if you don't know the username.
+Next, let's click on the Payloads tab. Select Payload set 2, and from the Payload type pulldown 
+window, select Character Substitution.
+
+## Page 188
+
+188 | P a g e
+With Character Substitution selected, BurpSuite will "munge" your password list, replacing 
+typical letter/number substitutions (users are taught to change letters into numbers to prevent 
+dictionary attacks). As you can see below, the default character substitution is; a=4, b=8, e=3, 
+and so on. This is the typical substitution that users employ and should work in most cases, but 
+you can customize or add other letter substitutions here.
+Now, add your password list just like the previous attack by clicking on the Load button to the 
+left of the Items window. Note that instead of just 10,000 requests as in the previous attempt, 
+now our attempts have grown to over 2 billion! This is because each word will be attempted as a 
+username, and then each word will be attempted as a password. In addition, this method will 
+create additional passwords and usernames by using the character substitution we enabled above. 
+
+## Page 189
+
+189 | P a g e
+In the final step, click "Start Attack." Since we will be attempting 2 billion username and 
+password combinations, this will be a tedious and time-consuming task. Here is where the 
+unthrottled BurpSuite Pro proves its value!
+As you can see above, BurpSuite attempts each word in our list as a username and then tries 
+every word in our list as a password.
+
+## Page 190
+
+190 | P a g e
+Like in the attack above, we are looking for anomalies in the status and length fields. These will 
+often indicate a Successful Login.
+Reading the Results
+Here it's important to note a few things. First, the status column. Note that all the requests in the 
+screenshot are "302" or "found." Also, note that the length of the responses is all uniform (558).
+That uniform length message would be the uniform bad request response. When a response is of 
+a different length and a different code (200), it will warrant further investigation, as it is likely to 
+have the correct username and password. You can find these anomalies by clicking on the Status 
+header or the Length header and sorting the results by these two fields rather than manually 
+searching through all 2 billion responses.
+The BurpSuite is an excellent and versatile tool that every web app pentester/hacker should be 
+conversant in. Here, we used it to crack web app logins using the simple and quick sniper attack 
+against a known username and unknown password and then the more time-consuming cluster 
+bomb attack with character substitution against an unknown username and password 
+combination.
+Summary
+Web technologies are critical to understanding the vulnerabilities of web-based applications. 
+Tools such as the BurpProxy, enable us to “catch,” examine, and manipulate this traffic in order 
+to exploit these vulnerabilities.
+
+## Page 191
+
+191 | P a g e
+Chapter 13
+Automobile Networks
+Automobile hacking is one of the leading-edge areas of our 
+hacking discipline. As our automobiles have become smarter 
+and smarter, they include more and more electronics, making 
+them more and more vulnerable. As we are literally and 
+figuratively turning the corner into the era of the driverless or 
+
+## Page 192
+
+192 | P a g e
+autonomous car, hacking automobiles will become even more important and dangerous.
+In this series, we will examine the basics of automobile hacking and advance to more complex 
+hacking strategies. For an example of a rather simple automobile hacking, check out my article 
+on hacking the Mitsubishi Outlander.
+Before we can delve into automobile hacking, we need to first understand the basics. Kind of like 
+understanding TCP/IP before network hacking or modbus before SCADA hacking. Automobile 
+electronics use several different protocols to communicate between multiple micro-controllers, 
+sensors, gauges, actuators, etc. The most widely used of these protocols is the Controller Area 
+Network or CAN.
+The CAN Protocol
+CAN was first developed by Robert Bosch GmbH, the German industrial giant known for its 
+automotive electronics. It was first released at the Society of Automotive Engineers (SAE) 
+meeting in 1986. The CAN protocol has been standardized as ISO 11898-1 and ISO 11898-2. It 
+was designed for robust communication within the vehicle between microcontrollers and devices 
+without the need for a host computer.
+CAN operates as a broadcast type of network, similar to a broadcast packet in Ethernet or using a 
+hub in the old days of networking (1980 through the  90s). Every node on the network can "see" 
+every transmission. Unlike Ethernet or TCP/IP (but similar to Modbus in SCADA systems), you 
+can not send a message to a single node, but the CAN does provide for local filtering so that each 
+node only acts upon messages pertinent to its operation. You can think of this as "content 
+messaging," where the contents determine the target node. 
+CAN runs over two wires, CAN high and CAN low. Due to the "noise" inherent in automobile 
+systems, CAN uses differential signaling. This is where the protocol raises and lowers the 
+voltage on the two wires to communicate. In both high-speed and low-speed CAN, signaling 
+drives the high wire towards 5v and the low wire towards 0v when transmitting a zero (0) but 
+doesn't drive either wire when sending a one (1). 
+
+## Page 193
+
+193 | P a g e
+CAN Message Types
+CAN uses four (4) different types of messages;
+1. Data Frame
+2. Remote Frame
+3. Error Frame
+4. Overload Frame
+Data Frame
+This is the only frame actually used for data transmission. In most cases, the data source node 
+sends the data frame.
+It has two types, standard and extended. The standard has 11 identifier bits, and the extended has 
+29 bits. The CAN standard requires that the base data frame MUST be accepted and the extended 
+frame MUST be TOLERATED; in other words, it will not break the protocol or transmission.
+Remote Frame
+The remote frame is used when the data destination node requests the data from the source.
+Error Frame
+The error frame has two different fields, the first is given by the ERROR FLAGS and 
+contributed by the different stations, and the second is the ERROR DELIMITER, simply 
+indicating the end of the error message
+Overload Frame
+The overload frame has two fields. These are the Overload Flag and the Overload Delimiter. The 
+overload frame is triggered when either by the internal conditions of a receiver or the detection 
+of the dominant bit (0) during transmission.
+The On-Board Diagnostics (OBD)-II Connector
+Most vehicles now come with an ODB-II connector. If you have taken your car to a shop for 
+repair, it is this connector under the dashboard where the mechanic connects their computer to 
+get a read on the onboard computers. 
+
+## Page 194
+
+194 | P a g e
+The OBD-II has 16 pins and looks like the diagram below.
+As hackers/attackers, we can also connect to this OBD-II connector and send messages on the 
+CAN network to various devices.
+
+## Page 195
+
+195 | P a g e
+CAN Bus Packet Layout
+There are two types of CAN packets, standard and extended. The extended packets share the 
+same elements as the standard packet, but the extended packets have additional space to include 
+IDs.
+Standard Packets
+Every CAN packet has four critical sections. These are;
+Arbitration ID
+The arbitration ID is the ID of the device sending the packet.
+Identifier Extension
+This bit is always 0 for standard CAN
+Data Length Code (DLC)
+This indicates the size of the data, from 0 to 8 bytes
+Data
+This is the data in the message. As mentioned above, it can be up to 8 bytes.
+As mentioned above, all CAN packets are broadcast, so every device or controller can see every 
+packet. There is no way for any device to know which controller sent the packet (no return 
+address), so spoofing messages on a CAN network is trivial. This is one of the key weaknesses 
+of CAN.
+
+## Page 196
+
+196 | P a g e
+Extended CAN Packets
+Extended CAN packets are the same as standard CAN packets, but they are chained together to 
+create longer IDs. Extended CAN is backwardly compatible with standard CAN. This means that 
+if a sensor was not designed to accept extended CAN packets, this system wouldn't break.
+Security
+Due to CAN being a low-level protocol, it does not have any security features built in. It has NO 
+encryption or authentication by default. This can lead to man-in-the-middle (MitM) attacks (no 
+encryption) and spoofing attacks (no authentication). Manufacturers, in some cases, have 
+implemented authentication mechanisms on mission-critical systems, such as modifying software 
+and controlling brakes, but all manufacturers have not implemented them. Even in the cases 
+where passwords have been implemented, they are relatively easy to crack.
+CAN-Utils or SocketCAN
+Now that we laid out the basics of the most common protocol used in automobiles, the Controller 
+Area Network or CAN, we can now proceed to install the can-utils. can-utils is a Linux-specific 
+set of utilities that enables Linux to communicate with the CAN network on the vehicle. In this 
+way, we can sniff, spoof, and create our own CAN packets to pwn the vehicle!
+What are the can-utils?
+CAN is a message-based network protocol designed for vehicles. Originally created by Robert 
+Bosch GmbH, the same folks who developed the CAN protocol. In addition, SocketCAN is a set 
+of open-source CAN drivers and a networking stack contributed by Volkswagen Research to the 
+Linux kernel.
+Installing the can-utils
+
+## Page 197
+
+197 | P a g e
+If you are using the Kali or other Debian-based repositories, you can download and install can-
+utils with apt-get.
+kali > sudo apt install can-utils
+If you are not using the Kali repository or any repository without can-utils, you can always 
+download the can-utils from github.com using the git clone command.
+kali > git clone https://github.com/linux-can/can-utils
+The Basics of the can-utils
+The CAN utilities are tools to work with CAN communications within the vehicle from the 
+Linux operating system. These tools can be divided into several functional groups;
+1. Basic tools to display, record, generate and play can traffic
+2. CAN access via IP sockets
+3. CAN in-kernel gateway configuration
+4. Can Bus measurement
+5. ISO-TP tools
+6. Log file converters
+7. Serial line discipline (slc) configuration
+Initially, we will concern ourselves with just the basic tools and the log file converters.
+For a complete list of the tools in can-utils and their functionality, see the table below.
+ 
+
+## Page 198
+
+198 | P a g e
+1. Basic tools to display, record, generate and replay CAN traffic 
+
+candump : display, filter and log CAN data to files 
+
+canplayer : replay CAN logfiles 
+
+cansend : send a single frame 
+
+cangen : generate (random) CAN traffic 
+
+cansniffer : display CAN data content differences (just 11bit CAN IDs) 
+2. CAN access via IP sockets 
+
+canlogserver : log CAN frames from a remote/local host 
+
+bcmserver : interactive BCM configuration (remote/local) 
+
+socketcand : use RAW/BCM/ISO-TP sockets via TCP/IP sockets 
+3. CAN in-kernel gateway configuration 
+
+cangw : CAN gateway userpace tool for netlink configuration 
+4. CAN bus measurement and testing 
+
+canbusload : calculate and display the CAN busload 
+
+can-calc-bit-timing : userspace version of in-kernel bitrate calculation 
+
+canfdtest : Full-duplex test program (DUT and host part) 
+5. ISO-TP tools ISO15765-2:2016 for Linux 
+
+isotpsend : send a single ISO-TP PDU 
+
+isotprecv : receive ISO-TP PDU(s) 
+
+isotpsniffer : 'wiretap' ISO-TP PDU(s) 
+
+isotpdump : 'wiretap' and interpret CAN messages (CAN_RAW) 
+
+isotpserver : IP server for simple TCP/IP <-> ISO 15765-2 bridging (ASCII HEX) 
+
+isotpperf : ISO15765-2 protocol performance visualisation 
+
+isotptun : create a bi-directional IP tunnel on CAN via ISO-TP 
+6. Log file converters 
+
+asc2log : convert ASC logfile to compact CAN frame logfile 
+
+log2asc : convert compact CAN frame logfile to ASC logfile 
+
+log2long : convert compact CAN frame representation into user readable
+7. Serial Line Discipline configuration (for slcan driver) 
+
+slcan_attach : userspace tool for serial line CAN interface configuration 
+
+## Page 199
+
+199 | P a g e
+
+slcand : daemon for serial line CAN interface configuration 
+
+slcanpty : creates a pty for applications using the slcan ASCII protocol 
+ 
+Setting Up a Virtual CAN network
+In this section, we will be connecting to the CAN network in your vehicle with various hardware 
+devices. These are relatively inexpensive ($10-20), and I highly recommend you purchase one if 
+you want to master automobile hacking. If you can't or won't purchase one of these hardware 
+devices, you can always set up a virtual CAN network.
+To set up a virtual CAN network;
+first, load the vcan (virtual CAN) module;
+kali > modprobe vcan
+Then, set up your virtual interface;
+kali > ip link add dev can0 type vcan
+kali > ip link set up vcan0
+Once we have set up our virtual CAN connection (vcan0), we can test to see whether it is up by 
+using the ifconfig command, like we would with any other interface in Linux.
+kali > ifconfig vcan0
+Now, we are ready to begin work with CAN communications. We only need now to connect our 
+Linux operating system to the vehicle. There are numerous devices, means, and connection types 
+to do so. We will look at a few of these in my next article in this series, so keep coming back.
+Automobile hacking is the cutting edge of the hacking discipline!
+
+## Page 200
+
+200 | P a g e
+Automobile and other vehicle hacking could have dramatic effects on society as we know it. 
+Imagine a cyber war scenario where the opposing generals employ hackers to commandeer the 
+adversary's tanks, jeeps, and other vehicles. Or, a bit more mundane, imagine a world where 
+hackers can open, start and control your vehicle!
+CAN Simulation
+In previous sections, we have examined the basics of the CAN protocol and then the can-utils.
+In this section, we will set up a simulation environment where you can use some of this 
+knowledge to analyze and hack a simulated vehicle.
+This CAN-Bus simulator was developed by Craig Smith at Open Garages and the author of The 
+Car Hackers Handbook by No Starch Press.
+Install Dependencies
+The first step is to install the necessary dependencies into your Kali system.
+kali > apt-get install libsdl2-dev libsdl2-image-dev -y
+
+## Page 201
+
+201 | P a g e
+Install Can Utils
+The next step is to install the CAN utils. These are a set of Linux-native utilities developed by 
+Bosch of Germany. If you followed my second tutorial in the series, you have likely already 
+installed these utilities. If not, you can do so now by downloading and installing them from the 
+Kali repository.
+Download ICSim
+Craig Smith, author of The Car Hackers Handbook and founder of opengarages.org, has 
+developed a small CAN simulator we will download and install next. You can clone it from 
+github.com here.
+kali > git clone https://github.com/zombieCraig/ICSim
+Next, we navigate to the newly created directory, ICSim.
+kali > cd ICSim
+
+## Page 202
+
+202 | P a g e
+When we do a long listing on that directory, we can see numerous files. At this point, we need to 
+execute the setup_vcan.sh script. This is a simple BASH script that loads the new kernel 
+modules, can and vcan, using modprobe (for more on kernel modules, see my Linux Basics for 
+Hackers) and then creates a virtual CAN interface, vcan0.
+Now, we need to execute this script.
+kali > ./setup_vcan.sh
+To start the instrument panel of our simulated vehicle, we simply need to execute icsim followed 
+by the name of the virtual CAN interface, in this case, vcan0. 
+kali > ./icsim vcan0
+The instrument panel should appear on your desktop like below. It includes a speedometer, turn 
+signal and a virtual vehicle silhouette similar to modern vehicles that indicate open and closed 
+doors for the driver.
+
+## Page 203
+
+203 | P a g e
+To start the controller of this vehicle, enter the following;
+kali > ./controls vcan0
+This should open the controller on your desktop, as seen below.
+
+## Page 204
+
+204 | P a g e
+If you have a game controller connected to your Kali system, you can now use it to "drive" your 
+simulated car. If not, you can use the following keyboard combinations.
+Now that we have our simulator setup, in the next sections we will "drive" our simulated vehicle, 
+sniff and observe the CAN bus messages, and reverse engineer those CAN bus messages.
+
+## Page 205
+
+205 | P a g e
+Next, we will focus on the following can-utils;
+1. cansniffer
+2. candump
+3. canplayer
+4. cansend
+Start the cansniffer
+Let's begin by sniffing the CAN traffic using cansniffer. With this utility, you must specify the 
+interface (vcan0, in our case) and if you want to see the colorized output, use the -c option.
+kali > cansniffer -c vcan0
+As soon as you enter this command, you should begin to see the CAN network traffic displayed 
+in your terminal, similar to the screenshot below.
+
+## Page 206
+
+206 | P a g e
+For those Mr. Robot fans, you may have remembered seeing a similar terminal screen when 
+Darlene attempts to hack a car in Season 5.
+
+## Page 207
+
+207 | P a g e
+When we use the -c option, the values that are changing turn a red color to help us identify these 
+key values.
+Use cansniffer to Filter for Specific Traffic
+Rather than watch all the traffic go past our terminal, we can filter traffic similarly to the more 
+widely used sniffer, Wireshark.
+Let's look at the help screen in cansniffer to learn to do so.
+kali > cansniffer -h
+Then, if we only wanted to see traffic from ID=161, we could enter;
+kali > cansniffer -c vcan0 
+Once the sniffer has started, we can then enter;
+-000000
++161
+It's important to note that when you enter the above commands, they will not appear on the 
+screen. Once you have entered the ID number, the sniffer will begin to filter out all traffic but 
+those with the ID= 161
+
+## Page 208
+
+208 | P a g e
+As you can see in the screenshot above, cansniffer now displays just the data for ID=161
+Using candump to capture CAN traffic
+While the cansniffer is capable of sniffing traffic on the CAN network (similar to Wireshark), the 
+candump utility in can-utils is capable of capturing CAN traffic and storing it into a file for 
+analysis or replay at a later time.
+To do so, we can need only to use the -l option to log and the -c option to colorize the output.
+kali > candump -c -l vcan0
+If we want to log AND view the output, we can use the -s 0 option (silent mode 0). In addition, 
+if we want to output to be converted from hex to ASCII (human readable), we can add the -a 
+(ASCII) option. This starts candump in colorize mode, with ASCII output, storing the data into 
+a log file and simultaneously sending it to the terminal (stdout).
+kali > candump -c -l -s 0 -a vcan0
+
+## Page 209
+
+209 | P a g e
+Using canplayer
+We also have another key CAN network tool, canplayer. This tool enables us to "play" the output 
+from the candump. So, we could capture the data from the CAN network and then replay it on 
+the network. We only need to use the -I option followed by the name of the log file from 
+candump.
+kali >canplayer -I candump-xxxxxxxxxxx.log
+Using cansend to Send Custom Frames
+Finally, we have the cansend tool. This tool enables us to replay a specific frame or to send a 
+custom-crafted CAN frame. If we want to resend a single frame, we isolated above with ID=161, 
+we do so by entering the following;
+kali > cansend vcan0 161#000005500108000d
+
+## Page 210
+
+210 | P a g e
+Where:
+vcan0 is the interface
+161# is the frame ID
+000005500108000D is the data we want to send
+Now, when we hit enter, the custom CAN frame will be sent over the network. I hope it is 
+obvious that when we reverse engineer the network, this is the command we will use to initiate 
+the actions we desire on the CAN network, such as; accelerate, open the door, initiate the brakes, 
+etc.
+In the previous sections, we learned how to use the CAN utilities or can-utils to capture and send 
+CAN packets. Now, with those tools, we can begin to isolate and reverse engineer the CAN 
+packets to take control of the vehicle!
+Use the Controller to Accelerate the Car
+Now, with the instrument panel (like below) and the controller open, we can begin to send 
+packets on the network to open and close doors, turn on the turn signals and accelerate the 
+vehicle.
+Click anywhere on the Control Panel, as seen below.
+
+## Page 211
+
+211 | P a g e
+Now that the Control Panel is in focus, we can begin to use the game controller or keystrokes to 
+control our simulated vehicle.
+Let's try to speed up our car. Hold down the UP arrow key until the car accelerates to 100 mph 
+(160 kph), as seen below.
+Release the UP arrow, and the car's speed will return to idle again.
+
+## Page 212
+
+212 | P a g e
+To reverse engineer this process, we need to find the CAN packet signal accelerating the car to 
+100 mph. When we find that packet, we can duplicate it (reverse engineer) and send it on the 
+network to accelerate the car to 100mph without the driver doing anything! Like a ghost has 
+taken over his vehicle!
+Use the cansniffer to Find the Specific Packet and Values
+The next step is to open the cansniffer on our CAN network.
+kali > cansniffer -c vcan0
+Now, with the cansniffer running, once again press the UP arrow and accelerate the car to 100 
+mph. Watch the data pass and look for the packets that are changing rapidly (they will be in red). 
+These packets will likely be those changing the speed of the vehicle.
+As you can see below, we identified the packet with Arbitration ID 244 as a likely candidate for 
+the car acceleration. Let's focus on that ID.
+
+## Page 213
+
+213 | P a g e
+As we learned earlier, we can filter out all the other traffic but that ID. By using a mask and then 
+entering the ID we want to focus on, cansniffer will only display the traffic we want to focus on. 
+So, to filter for just this ID, enter;
+-000000
++244
+Remember, these entries will not appear on the screen. 
+When you do, cansniffer will filter out all the traffic, but that traffic is intended for Arbitration 
+ID 244, as seen below. 
+Now, accelerate the car to 100 mph again and watch the values change. When you reach the 
+maximum speed, you will likely see values similar to those seen in the screenshot above. Record 
+these values on paper.
+Reverse Engineer the Accelerate Packet
+We can now send a packet with that Arbitration ID and those values over the network by using 
+the cansend utility. Remember, the cansend utility requires the interface, followed by the 
+arbitration ID, followed by a #, and then the values, such as;
+kali > cansend vcan0 244#0000003812
+This packet will signal the car to accelerate to 100mph! 
+Although this is the right packet, you might not notice any change in the speedometer. That is 
+because the CAN network is simultaneously sending signals to also idle at 0mph. The car is 
+getting mixed signals. The car's normal control system is telling it to run at 0 mph, and you are 
+sending a single packet to accelerate to 100 mph.
+
+## Page 214
+
+214 | P a g e
+What if we could send a continuous stream of packets telling the car to accelerate to 100 mph 
+rather than just 1? We may be able to overwhelm the normal control system packets and get the 
+car to accelerate. 
+Let's try writing a simple script to send continuous packets telling the car to accelerate, such as;
+kali > while true; do cansend vcan0 244#0000003812; done
+Now hit ENTER and see what happens!
+
+## Page 215
+
+215 | P a g e
+The car should immediately begin to accelerate to 100 mph! You have taken control of the car!
+Key Fob Hacking
+As automobiles become increasingly complex and digital, the opportunities for hacking these 
+transportation vehicles increase exponentially. One of the many conveniences that these new cars 
+offer is proximity door locking/unlocking and engine starting. This feature was first introduced 
+in 1999 and is known as Passive Keyless Entry and Start (PKES). When the key fob holder is 
+near the vehicle, the door automatically unlocks, and the same is true for starting the car. Very 
+often, these cars start simply by pushing a button and only when the key fob is near. Without the 
+key fob, the thief is stymied. These electronic measures were designed for safety and 
+convenience, but since they are electronic, they can--of course--be hacked.
+
+## Page 216
+
+216 | P a g e
+These key fobs emit a low energy (LF) unique signal with the vehicle ID to the car that relays to 
+the vehicle the owner is near. What if we could amplify and relay that signal from the key fob 
+and fool the car that the owner is nearby? 
+That is exactly what this hack does!
+Signal Amplification Relay Attack (SARA)
+Numerous ways have been developed to hack the keyless entry system, but probably the simplest 
+method is known as SARA or Signal Amplification Relay Attack. In this hack, the attacker 
+simply relays the RF signal across a longer distance. Normally, the key fob signals when the 
+owner is in proximity to the vehicle and unlocks the car. In this hack, two transmitters are used. 
+One picks up the signal from the key fob, amplifies it, and then transmits it to another receiver 
+near the vehicle. The receiver then copies the relayed signal and transmits it in proximity to the 
+vehicle. The vehicle's controller unit detects the signal sensing the owner is nearby, and opens 
+the vehicle door.
+The beauty of this hack is that although the signals between the vehicle and the key fob are 
+encrypted, it is not necessary to decrypt the message; it is simply transmitted in its entirety. In 
+some ways, it’s similar to the pass-the-hash attack, where the attacker simply presents the 
+password hash without decrypting it. This attack works against most cars manufactured before 
+2014 and Honda cars up to 2021.
+The Relay Attack
+Let's take a look at this hack in a bit more detail.
+
+## Page 217
+
+217 | P a g e
+In this attack, the signal from the key fob is relayed to a location near the vehicle to trick the 
+keyless entry system that the key fob is near and open the door.
+Capture LF Signal from Vehicle
+This hack relays the Low Frequency (LF) signals from the vehicle over a Radio Frequency (RF) 
+link. Each RF link is composed of;
+1. an emitter
+2. a receiver
+Convert the LF to 2.5GHZ and Send it to the Receiver
+The emitter captures the Low Frequency (LF) signal from the vehicle and converts it to 2.5GHz. 
+This signal is then sent over the air (up to 100m) to the receiver, which converts it back to an LF 
+signal.
+Amplify the Signal and Send it to the LF (Low Frequency) Antenna
+The LF signal at the receiver is amplified and sent to a loop LF antenna which replicates the 
+signal originally sent by the vehicle. A loop LF antenna is then used to transmit the signal to 
+open the door and then start the engine.
+
+## Page 218
+
+218 | P a g e
+For more on Radio Hacking, check out  Chapter 14.
+Summary
+The can-utils and the ICSim are excellent training tools for understanding how the CAN protocol 
+works and reverse engineering the control signals and packets on the network. Although there 
+are many vectors for gaining access to the car such as GPS, cellular and wireless networks, once 
+inside the car's network we need to determine what signals control which functions. This tutorial, 
+I hope, provides you with some idea of how this process works.
+Exercises
+1. Download the can-utils
+2. Download the ICSim
+3. Create a virtual CAN network
+4. Replicate the steps of a CAN replay attack from this chapter
+
+## Page 219
+
+219 | P a g e
+Chapter 14
+SCADA/ICS Networks
+SCADA/ICS systems are differentiated from traditional 
+information IT systems in a number of key ways. Probably 
+the most important differentiation is the many communication 
+protocols. Unlike traditional IT systems with their 
+standardized TCP/IP protocols, SCADA/ICS systems are 
+marked by significant variations in their communication 
+protocols. 
+SCADA/ICS Manufacturers
+There are numerous SCADA/ICS protocols, sometimes different protocols, within the many 
+manufacturers of hardware. The major manufacturers of SCADA/ICS hardware include;
+
+## Page 220
+
+220 | P a g e
+Seimens
+Honeywell
+Toshiba
+Rockwell Automation/Allen-Bradley
+Mitsubishi
+GE
+Schneider Electric
+and many others. 
+Each of these companies makes varied products and uses various protocols, some of which are 
+proprietary. This is one of the many reasons that securing SCADA/ICS systems can be 
+challenging. At the same time, this industry has benefited from security through obscurity, as 
+many attackers are unfamiliar with these protocols.
+SCADA/ICS Communication Protocols
+Among these many manufacturers of PLC and SCADA/ICS systems, there are numerous 
+communication protocols. To pentest these systems, you need at least a rudimentary 
+understanding of these protocols.
+These are the most widely used protocols.
+Modbus
+DNP3
+ICCP
+Common Industrial Protocol (CIP)
+EtherNet/IP
+CompoNet
+ControlNet
+DeviceNet
+OLE for Process Control (OPC)
+
+## Page 221
+
+221 | P a g e
+PROFIBUS
+Foundation Fieldbus H1
+Each of these protocols operates slightly differently (in some cases, VERY differently), and we 
+will detail their inner workings in separate articles here on Hackers-Arise, but for now, let's focus 
+on the most widely used protocol, Modbus.
+Modbus
+Modbus Serial (RTU)
+Modbus RTU was first developed in 1979 by Modicon (now part of Schneider Electric) for 
+industrial automation systems and Modicom PLCs. It has become the industry standard if there is 
+one. Modbus is a widely-accepted, public-domain protocol. It is a simple and lightweight 
+protocol intended for serial communication. It has a data limit of 253 bytes.
+Modbus operates at Layer 7 of the OSI model. It is an efficient communication methodology 
+between interconnected devices using a "request/reply" model. Because it is simple and 
+lightweight, it requires little processing power.
+Modbus was first implemented on either RS-232C (point-to-point) or RS-485 (multi-drop) 
+physical topology. It can have up to 32 devices communicating over a serial link, with each 
+device having a unique ID.
+Modbus uses a Master/Slave (client/server) architecture where only one device can initiate 
+queries. The slaves/server supply the requested data to the master or perform the action requested 
+by the master. A slave is any peripheral device (I/O transducer, valve, network drive, or other 
+measuring devices) that processes information and sends its output to the master via the Modbus 
+protocol.
+Masters can address individual slaves or initiate a broadcast message to all slaves. Slaves return a 
+response to all queries addressed to them individually but do not respond to broadcast queries. 
+Slaves do NOT initiate messages; they can only respond to the master. A master's query will 
+consist of the slave address (slave ID or Unit ID), a function code, any required data, and an 
+error-checking field. 
+
+## Page 222
+
+222 | P a g e
+Modbus communicates by Function Codes. Function code can be used to perform a wide range 
+of commands.
+Please see the list of function codes below.
+Modbus Function Codes
+Function code 8 is the diagnostic function code. Within that Function code 8, we have 
+numerous sub-function codes. Note Function Code 8, sub-function code 04, Force Listen Only 
+Mode. This can be used to create a Denial of Service (DoS) condition on some Modbus-enabled 
+systems.
+Note the Diagnostic sub-function codes below.
+
+## Page 223
+
+223 | P a g e
+Diagnostic Sub-Function Codes
+Modbus TCP
+Modbus TCP is the Modbus protocol encapsulated for use over TCP/IP. It uses the same 
+request/response as Modbus RTU, the same function codes, and the same data limit of 253 bytes. 
+The error-checking field used in Modbus RTU is eliminated as the TCP/IP link layer uses its 
+checksum methods, eliminating the need for the Modbus RTU checksum. Modbus TCP utilizes 
+the reserved port 502 to communicate over TCP/IP.
+Modbus TCP adds a Modbus Application Protocol (mbap) to the Modbus RTU frame. It is 7 
+bytes long with 2 bytes for the header, 2 bytes for the protocol identifier, 2 bytes in length, and 1 
+byte for the address (Unit ID).
+
+## Page 224
+
+224 | P a g e
+Modbus Security
+Modbus has numerous security concerns.
+Lack of authentication - Modbus does not include any form of authentication. An attacker only 
+needs to create a packet with a valid address, function code, and any associated data.
+No encryption - all communication over Modbus is done in cleartext. An attacker can sniff the 
+communication between the master and slaves and discern the configuration and use.
+No Checksum - although Modbus RTU uses a message checksum, when Modbus is 
+implemented in TCP/IP, the checksum is generated in the transport layer, not the application 
+layer, enabling the attacker to spoof Modbus packets.
+No Broadcast Suppression - without broadcast suppression (all addresses receive all messages), 
+the attacker can create a DoS condition through a flood of messages.
+For a more thorough understanding of the Modbus protocol, check out my article on Modbus 
+simulation here.
+SCADA Security and Vulnerabilities
+SCADA/ICS security is probably the most important and overlooked field of cyber security. In 
+an era where cyber warfare is an everyday occurrence, and cyber terrorism is an ongoing threat, 
+these huge industrial facilities have large bullseyes on their backs. In some cases, taking down or 
+disrupting just one of these plants could cost billions of US dollars and many lives. That is why 
+everyone in our industry needs to become conversant in this field. For more background in 
+SCADA/ICS, check out my section on this increasingly important field of information security.
+PLCs, or programmable logic controllers, control nearly everything in the SCADA/ICS industry. 
+These PLCs control everything from petroleum refineries to manufacturing facilities, waste and 
+sewage plants, and the electric grid. Schneider Electric, based in Paris, France, is one of the 
+world's largest manufacturers of these devices and sells them to a variety of industries.
+
+## Page 225
+
+225 | P a g e
+Schneider Electric makes a PLC known as the TM221 that is widely used by small-to-medium-
+sized manufacturing facilities to automate their processes. These PLCs use multiple 
+communication protocols, including the ubiquitous modbus/tcp. To learn more about this 
+SCADA/ICS communication protocol, check out my article on modbus here and do the modbus 
+simulation here. Without this understanding of modbus, what follows here will seem opaque.
+It turns out that many of these PLCs are very easy to hack using multiple SCADA/ICS tools.
+Here, I want o show you how to hack these PLCs using the hacking/pentesting tool modbus-cli.
+Finding the TM221 with Shodan
+First, let's see if we can find any of these PLC's connected to the Internet by using Shodan. For 
+more on using Shodan to find SCADA/ICS facilities, check out my article here. 
+
+## Page 226
+
+226 | P a g e
+We can simply type "TM221" into the search bar of Shodan, and it will return all the IP 
+addresses that contain that string in their banners. As you can see below, there are quite a few. 
+Many of these are vulnerable systems.
+Install modbus-cli
+Now that we have located some potentially vulnerable sites using the Schneider Electric TM221 
+let's see if we can exploit them. Here we will be using a tool dedicated to exploiting the modbus 
+protocol called modbus-cli. Modbus-cli is a command line (cli) tool that enables us to read and 
+write modbus/tcp (not serial modbus). 
+This is a tool we used often to disrupt Russian industrial systems during the 
+Ukraine/Russia war.
+We can get this tool by entering the following;
+kali >gem install modbus-cli
+Now that we have downloaded modbus-cli, we can begin to recon and exploit the sites found by 
+using Shodan above.
+
+## Page 227
+
+227 | P a g e
+Once we have located a site using these PLC's, we can put modbus-cli into action. 
+modbus-cli Syntax
+This command line tool uses simple syntax. To learn a bit of its syntax, let's display its help 
+screen
+kali > modbus --help
+As you see, the basic syntax is as follows;
+kali > modbus [options] SUBCOMMAND [arguments]
+Address Terminology
+Let's start by reading the values from one of these Schneider Electric sites (I have obscured the 
+IP to protect the innocent and insecure). Before we do so, though, we need to discuss ways to 
+designate addresses on these Schneider Electric modbus devices.
+We have at least two ways to address these devices and their values, the Schneider Electric mode 
+and the modicon mode. As we can see in the table below, the Schneider Electric terminology 
+begins with %M before the address. We will begin by using this terminology and then progress 
+to the modicon terminology.
+
+## Page 228
+
+228 | P a g e
+So, if we want to read the first ten values beginning with address %MW100, we could simply 
+enter the following;
+kali> modbus read <IP> %MW100 10
+As you can see, modbus-cli was capable of pulling the values from the specified ten memory 
+registers.
+We can also use modicon terminology to do the same.
+kali > modbus read <IP> 400101 10
+If we want more info on the read subcommand, we can simply type --help after modbus and 
+then read, such as;
+
+## Page 229
+
+229 | P a g e
+kali > modbus read --help
+Reading the Coils
+Let's now try reading the values of the coils. These will be Boolean (ON/OFF) values. The coils 
+are either ON or OFF with values of 0 or 1. Since we are reading coil values, we use the modicon 
+address of 101 rather than the Schneider address and then read ten values.
+kali > modbus read <IP> 101 10
+As we can see below, coils 101, 103, and 105 are all ON (1). The others are all OFF (0)
+Writing New Values to the Coils
+
+## Page 230
+
+230 | P a g e
+Now, let’s see if we can change those values in the coils. Let's try to turn them all ON. We can 
+do this with the write subcommand. In this case, we will start with the Schneider address 
+terminology %MW100 and place 1's in each coil, turning them all ON.
+kali > modbus write <IP> %MW100 1 1 1 1 1 1 1 1 1 1 
+Now, when we go back to read those coils, we can see they have all been activated!
+kali > modbus read <IP> %MW100 10
+Reading the Values into an Output File
+Finally, we can read all the values into a text file. We may want to do this for later analysis or as 
+a backup. In this case, let's read 100 coil values into a file named scadaoutput.txt.
+kali > modbus read --output scadaoutput.txt <IP> %MW100 100
+
+## Page 231
+
+231 | P a g e
+Now, when we cat that file, we see that we have captured and saved all the values of 100 coils. 
+Note that the first ten are still all ON.
+Summary
+Modbus-cli is a powerful pentesting/hacking tool for the modbus/tcp protocol widely used in the 
+SCADA/ICS industry. For more tools for hacking/pentesting SCADA/ICS check out my catalog 
+of Metasploit SCADA/ICS tools here.
+SCADA/ICS security is THE cutting edge in cyber security!
+
+## Page 232
+
+232 | P a g e
+Chapter 15
+Radio Frequency Networks with SDR
+So many applications in our modern life use radio 
+frequency elements that it is hard to list them all. For 
+instance, consider the following list: 
+
+## Page 233
+
+233 | P a g e
+
+Automobile and vehicle access and monitoring
+
+Mouse and keyboards
+
+Cellphone Signals
+
+Remote control
+
+Telemetry
+
+Satellite transmissions
+
+Police and encrypted military communication
+
+Small-range wireless network
+
+Wireless meter reading
+
+Access control systems
+
+Drone control and monitoring
+
+Wireless home security systems
+
+Area paging
+
+Industrial data acquisition system
+
+Radio tags reading
+
+RF contactless smart cards
+
+Wireless data terminals
+
+Wireless fire protection systems
+
+Biological signal acquisition
+
+Hydrological and meteorological monitoring
+
+Robot remote control
+
+Wireless data transmissions
+
+Digital video/audio transmission
+
+Digital home automation, such as remote light/switch
+
+Industrial remote control, telemetry, and remote sensing
+
+Alarm systems and wireless transmission for various types of low-rate digital signal
+
+Remote control for various types of household appliances and electronics projects
+
+Many other applications fields related to RF wireless controlling
+
+Mobile web server for elderly people monitoring
+
+Room monitors
+
+Wireless Microphones
+The list could go on for pages. The number of applications is mind-boggling when you consider 
+it. In addition, the war in Ukraine has revealed how important these signals are in modern cyber 
+warfare.
+
+## Page 234
+
+234 | P a g e
+Many of these applications have little or no security. The cyber security professional need only 
+access the transmission to view the data. In cases where there is security, it is often easily 
+broken. In cases where the transmissions are relatively secure, transmissions can often be 
+captured and replayed. In addition, encrypted communication can often be decrypted by 
+capturing the transmission and deciphering the algorithm and passcode.
+
+## Page 235
+
+235 | P a g e
+This chapter starts with the basics of setting up an inexpensive radio receiver on our computers. 
+The advantage of using a software-defined radio is;
+1. Flexibility using multiple frequencies and signals
+2. Using the computer to capture an analog signal and convert it to a digital signal prepares 
+it for manipulation by digital tools such as decryption.
+As we progress through this series and the associated course, we will expand into multiple 
+frequencies and security protocols and their decryption. This will enable us to listen to and 
+manipulate secure transmissions.
+With the advent of inexpensive radio devices such as the RTL-SDR, HackRF, LimeSDR, and 
+bladeRF, the possibility of hacking radio frequency (RF) communication and control devices has 
+been blown wide open to anyone in the cybersecurity/infosec field. Although not commonly 
+included in penetration tests, radio hacks should be considered as they are presently one of the 
+most overlooked entry points to the network and systems.
+Basic Radio Terminology
+Amplitude
+-
+The strength of the radio signal
+Frequency
+- 
+the number of cycles per second of radio waves usually measured in hertz 
+(Hz)
+Sample Rate - 
+the rate at which data is taken digitally over time measured in hertz (Hz)
+Filter
+-
+cleans up received signals in order to limit unnecessary noise and 
+interference. Also used to clean up transmitted signals to cause less radio 
+interference
+Digital Signal Processing-
+Signals processed via analysis, modification, and synthesis by a 
+sequence of numbers that represent samples of a continuous variable in a domain such as time, 
+space, or frequency
+Radio Attack Methods
+Unlike traditional web-based attacks, attackers try to intervene in the radio channel and then 
+connect to the channel and exert control. Once that control is established, it can then be used to 
+penetrate deeper within the network or system. For instance, SCADA/ICS systems often use 
+radio communications to their remote terminal units (RTU) and other stations as physical wiring 
+is impractical over hundreds of acres or miles (km). The attacker may first intercept and control 
+the communication between remote terminals and then work back to the server or PLCs. In more 
+traditional security systems, the attacker can use the interception of cellphone traffic to 
+
+## Page 236
+
+236 | P a g e
+eavesdrop on conversations and break text-based 2FA. Intercepting pager traffic with 
+unencrypted emails can be used for phishing and other targeted attacks.
+Sniffing
+The simplest attack methodology, and often used first, is sniffing the traffic. This includes using 
+an SDR device capable of operating at the same frequency as the signal you are attacking. In this 
+way, the attacker can study and learn the principles of the radio system and identify key 
+instructions in the data stream. Of course, if the data is unencrypted, the attacker can also 
+eavesdrop on the traffic.
+Replay
+Many radio communications do not have a replay-proof mechanism (e.g., timestamps or 
+randomization). In such cases, the attacker can capture and copy the transmission and then replay 
+it to the target system. This may work on such systems as car doors, garage doors, household 
+switches, and others.
+Signal deception
+In some cases, the attacker can learn the critical packet structure, keys, and verification method 
+to control the target. This may include spoofing, where the attacker sends a fake but valid signal 
+to the target.
+Signal Hijacking and Denial of Service
+The attacker may block the target's network using a signal interference device or pulls the target 
+onto a fake network. In this way, they can carry out attacks by hijacking upstream and 
+downstream traffic. This might include blocking a 4G cellular network to force the target onto a 
+3G or 2G network where the traffic can be intercepted and eavesdropped. Hijacking can also 
+include such devices as a femtocell or Stingray.
+SDR for Hackers Hardware Comparison
+Before embarking upon the study of SDR for Hackers, it is a good idea to take a close look at the 
+options available for hardware in this field. Of course, you will need a computer with a USB 
+port, but there are numerous options available for the radio receiver/transceiver. Let's take a look 
+at the specs and advantages and disadvantages of each of the most common hardware options for 
+software-defined radio (SDR).
+USRP
+USRP is open-source hardware, firmware, and host code, making it an excellent choice for 
+developers. USRP has multiple models with varying interfaces and sizes. The USRP X series 
+uses a 10g Ethernet interface, the USRP N series uses iG Ethernet, the USRP B series uses USB 
+
+## Page 237
+
+237 | P a g e
+2.0 (old) interface and USB 3.0 (new), and the USRP E series has a built-in ARM processor and 
+does not need a host computer.
+The USRP B series is a favorite among developers as it uses USB 3.0 and the USRP B200mini is 
+the size of a business card.
+RTL-SDR
+The RTL-SDR is among the most popular among hobbyists. It is low-cost, very capable, and a 
+good place to start in SDR for Hackers without making a major investment (less than $40).
+It is based on the DVB-T dongle that uses the RTL2832U chip. This dongle was originally used 
+to watch TV on computers. The RTL-SDR supports many pieces of software based upon the 
+library librtlsdr.
+The RTL-SDR can be used to analyze signals and, in combination with the HDSDR software, 
+can be used for a multitude of purposes.
+The strength of the RTL-SDR is its low cost. The weakness of the RTL-SDR is that it is only a 
+receiver and cannot transmit signals, such as in replay attacks.
+
+## Page 238
+
+238 | P a g e
+HackRF
+HackRF is a great choice for beginners looking for inexpensive SDR hardware that can both 
+transmit and receive (transceiver). Many "SDR for Hackers" projects require transmitting, such 
+as replay attacks.
+HackRF is all open-source, including its schematic diagram, PCB diagram, driver code, and 
+single-chip firmware. HackRF supports frequencies from 1MHz- 6Ghz. HackRF is only capable 
+of transmitting and receiving at half-duplex, a major drawback for high-performance systems.
+BladeRF
+BladeRF is high-performance hardware for the SDR for Hackers. Unlike HackRF, it is full-
+duplex, making it ideal for high-performance applications such as OpenBTS (OpenBTS is an 
+open-source cellular base station). Its only drawback is its frequency range. The BladeRF is only 
+capable of sending and receiving radio frequencies to 3.8 GHz.
+
+## Page 239
+
+239 | P a g e
+LimeSDR
+LimeSDR is an open-source, apps-enabled SDR platform. It can receive and transmit UMTS, 
+LTE, GSM, LoRa, Bluetooth, Zigbee, RFID,  Digital Broadcasting, and more.
+One of the great strengths of LimeSDR is being apps enabled. LimeSDR is integrated into the 
+Snappy Ubuntu core, and anyone capable of downloading and using an app can use the 
+LimeSDR. This makes its capabilities available to a much wider audience. EE, the UK's largest 
+mobile operator, is distributing LimeSDR to educational institutions for training and 
+development. Apps available for the LimeSDR include;
+
+Radio astronomy
+
+RADAR
+
+2G to 4G cellular base station
+
+Media streaming
+
+IoT gateway
+
+HAM radio
+
+Wireless keyboard and mice emulation and detection
+
+Tire pressure monitoring systems
+
+Aviation transponders
+
+Utility meters
+
+Drone command and control
+
+Test and measurement
+
+## Page 240
+
+240 | P a g e
+Specification Comparison
+These five hardware platforms offer a wide range of capabilities and prices for a hacker looking 
+to get into SDR. We recommend RTL-SDR for those just starting out and on a limited budget. 
+For those looking to hack radio signals, you will likely need a transceiver, and the HackRF One 
+is an excellent platform at a reasonable price. Those needing high-performance and full duplex 
+will likely want to spend a little extra and buy the BladeRF or LimeSDR. For those looking for a 
+simple-to-use setup and application, LimeSDR might be your best choice.
+In recent years, the ability to receive and send radio signals from your computer has become a 
+reality! This has become to be known as Software Defined Radio (SDR). With this capability has 
+come the ability to capture, decode, replay, and hack these signals with all the power of your PC. 
+These signals range from the mundane such as AM/FM radio and TV broadcast signals to 
+aircraft signals to low orbit satellite signals to police radio to car unlocking, and many other RF 
+signals!
+
+## Page 241
+
+241 | P a g e
+In this series, we will attempt to provide you with the basics of SDR so that you can use this 
+knowledge in many of these different applications. Once you can receive and send radio signals 
+into your PC, you can use the power of this system to decode, transmit, replay and otherwise 
+"hack" these signals.
+The basic concept of the Software Defined Radio is that radio can be totally configured or 
+defined in software.
+What is SDR
+Software-Defined Radio (SDR) refers to the technology wherein software modules running on a 
+generic hardware platform consisting of DSPs and general-purpose microprocessors are used to 
+implement radio functions such as generation of the transmitted signal (modulation) at the 
+transmitter and tuning/detection of received radio signal (demodulation) at receiver
+The following diagram displays the basic elements of an SDR transceiver (send and receive).
+Setting Up our First SDR
+The first step to SDR hacking is to purchase the necessary hardware. There is a multitude of 
+different SDR hardware packages available, but the RTL-SDR package is effective and 
+inexpensive. You can purchase this hardware from Amazon for less than $35 here.
+
+## Page 242
+
+242 | P a g e
+This kit includes, most importantly, the RTL-SDR USB dongle as well as an antenna and the 
+necessary cabling. 
+In addition, Nooelec makes a similar system with some additional capabilities for a little more 
+(under $50.
+We will be using either of this hardware to start this journey into SDR Hacking. As we advance, 
+you may want to invest in more advanced hardware that has more features most important of 
+these is the capability to both send and receive signals. For now, these inexpensive systems will 
+get you started and suffice, and when you are ready to advance, you will likely need to invest 
+another $100-300 for this hardware.
+The Software
+Multiple software packages are now available for SDR and new Python features in version 3.7 
+(async and await specifically). These software packages are available in both Windows and 
+Linux platforms. Among the most popular are SDR# and HDSDR. Both are high-quality and free 
+software
+To start, we will be using HDSDR for Windows, available free here (unfortunately, this software 
+is not available for Mac or Linux but can be run from a wine).
+
+## Page 243
+
+243 | P a g e
+Software Installation
+To install HDSDR, you will need to follow the following steps.
+First, download the latest Zadig from http://zadig.akeo.ie/ 
+Start Zadig and press "Install Driver" to install the WinUSB drivers after selecting the right 
+device(s). The device name is often “Bulk-In, Interface (Interface 0)”.
+
+## Page 244
+
+244 | P a g e
+If there is only an empty list, the device is not correctly connected, or a driver is already 
+installed. Click Options and enable "List All Devices," then choose the RTL device and press 
+"Replace Driver." 
+Close Zadig. 
+If you don't already have HDSDR, download and install HDSDR now 
+http://hdsdr.de/download/HDSDR_install.exe, but don’t start it. 
+Download ExtIO_RTL2832.DLL from http://hdsdr.de/download/ExtIO/ExtIO_RTL2832.dll 
+Copy ExtIO_RTL2832.DLL into your HDSDR installation directory (default=C:\Program Files 
+(x86)\HDSDR) 
+
+## Page 245
+
+245 | P a g e
+(re)start HDSDR (select ExtIO_RTL2832.DLL and preferred output sound card if demanded) 
+You are ready to run HDSDR! 
+Setting Up Our first SDR
+Now that we have set up the HDSDR software and the RTL-SDR hardware to work together to 
+create our software-defined radio. Now that we have those elements functioning let's use our 
+radio initially for some simple, basic radio signal capture, such as your local FM radio station.
+Sampling
+
+## Page 246
+
+246 | P a g e
+The first step is to set up our sampling rate. Radio signals are continuous and analog. To use 
+them, we need to take discrete samples of this continuous process. In order words, we need to 
+capture pieces of the analog signal at a fixed time interval and feed that to our system. 
+As you can see in the diagram below, the continuous wave of audio is broken into a sample at a 
+fixed time interval.
+These samples can then be used to retrieve the original signal by sending them through a 
+reconstruction filter.
+Let's click on the bandwidth button in HDSDR, as seen below.
+
+## Page 247
+
+247 | P a g e
+This opens a window to set the sampling rate. We can set both the input sampling rate and the 
+output sampling rate. You can set the sampling rate at the level of your choice, but most audio 
+engineers believe that the human ear cannot distinguish differences in sampling rates above 
+48khz (48000). Since we will be sampling FM radio, a sampling rate above 48khz will not make 
+a distinguishable difference to the quality of the signal.
+
+## Page 248
+
+248 | P a g e
+Set the Tuner
+To listen to your local FM radio, click on the FM mode icon near the top of the panel.
+
+## Page 249
+
+249 | P a g e
+Now, go down to the Tune section (see above) and set the tuner to the frequency of your favorite 
+local radio station. You can also use the slider to adjust the frequency of your captured signal. 
+For the best reception, place the frequency slider in line with the peak here.
+Once you have done so, you should now be able to hear your radio through your speakers. To 
+adjust the volume, you can use the volume slider, as seen below.
+
+## Page 250
+
+250 | P a g e
+Congratulations! You have just built your first software-defined radio! Enjoy your local FM 
+radio station and experiment with the various buttons and sliders in HDSDR and watch what 
+happens.
+Software Defined Radio is the leading edge of cybersecurity research. Now that we have 
+completed our first software-defined radio look for future tutorials as we look to capture satellite 
+signals, aircraft signals, and so many more! As we develop our skills, we will advance to 
+transmitting, replaying, and decoding signals from a multitude of sources.
+Intercepting Aircraft Communication
+In this section, we will be using our software-defined radio to intercept aircraft communication. 
+Aircraft communication uses AM radio signals or amplitude modulation because they can extend 
+over long distances. Just like AM radio, you can listen to some AM radio signals over hundreds 
+of miles under the right conditions. As aircraft are sometimes many miles or kilometers from the 
+airport, AM signals are ideal for this type of communication.
+Note that this is aircraft communication and not aircraft geographic information. We will cover 
+that in another upcoming tutorial covering ADS-B information that includes both information 
+about the aircraft, and its geographic position.
+
+## Page 251
+
+251 | P a g e
+Analog Aircraft Communication
+The ITU assigns all frequencies in the radio spectrum. The ITU has assigned aircraft analog 
+voice dialogue in the High Frequency (HF) band between 3-30MHz and in the Very High 
+Frequency (VHF) band at 118-137 Mhz. High-Frequency communication is capable of 
+intercontinental communication as the signals bounce off the ionosphere.
+High-frequency (HF) signals are used for various communications, including amateur radio, 
+maritime mobile, military and governmental communication, shortwave broadcasting, and many 
+others.
+
+## Page 252
+
+252 | P a g e
+In this tutorial, we will be focusing on the latter range (VHF) as the audio quality is significantly 
+better. The High-Frequency band has much lower audio quality while having a more extended 
+range, whereas the VHF signals are only line-of-sight but have much higher audio quality.
+Open HDSDR Software
+The first step is to open HDSDR. Next, set the Mode to "AM" and Frequency Manager to "Air." 
+Check out the arrows in the screenshot below.
+To obtain the best audio quality, your sampling rate must be 2x the maximum frequency of the 
+human voice. The human voice ranges from 2hz to 20Khz, so your sampling rate should be set to 
+2x 20khz or greater.
+
+## Page 253
+
+253 | P a g e
+Find the Analog Communication Frequency of the Local Airport
+Next, search on Google for your local airport. When you open their website, you should find the 
+frequency of the aircraft and the control tower communication. The listing below is for the 
+Farmington, New Mexico, airport.
+Note that Farmington Ground communicates at 121.7 kHz, and Farmington Tower 
+communicates at 118.9. To listen to their communications, navigate to either of those frequencies 
+in the HDSDR by sliding the vertical bar to those frequencies. When you see a red spike, this 
+indicates activity at that frequency. Move the red vertical bar to that location to listen in.
+Sample Recording of Air Traffic Controller Intercept
+You should be able to hear similar conversations from your local airport as well. If you are near 
+a large international airport, you will likely hear a constant stream of communication from 
+controllers and pilots as they navigate their way to and around the airport.
+Software-defined radio is the leading edge of information security! While using a simple and 
+inexpensive receiver and antenna, we can intercept and listen to a variety of signals, including 
+encrypted communication (coming soon). In this tutorial, we were able to intercept 
+communication from our local airport and listen in as the air traffic controllers guided the pilots.
+Air Traffic Position and Speed Monitoring
+
+## Page 254
+
+254 | P a g e
+Nearly every vehicle in the world gives off a radio signal of one type or another. This applies to 
+cars, planes, ships, and nearly everything else. These radio signals can be used to track the 
+location of these vehicles with a simple device such as the RTL-SDR.
+Airplanes give off an ADS-B signal that can be used to track their location and altitude. Websites 
+such as Radarbox and others sell a simple ADS-B receiver to people all over the world, and then 
+it feeds data to their websites. You can do the same for your locality with a simple and versatile 
+RTL-SDR.
+According to the Federal Aviation Administration (FAA), the leading federal agency for aircraft 
+safety and administration, ADS-B is:
+ADS-B Out works by broadcasting information about an aircraft's GPS location, altitude, 
+ground speed, and other data to ground stations and other aircraft once per second. ADS-B Out 
+airspace and equipment requirements are contained in 14 CFR § 91.225, and the equipment 
+performance requirements are contained in §91.227. ADS-B In provides operators of properly 
+equipped aircraft with weather and traffic position information delivered directly to the cockpit.
+All of this data is ours! You only need the RTL-SDR and the free software to decode this signal.
+
+## Page 255
+
+255 | P a g e
+Software Downloads
+Make certain first that your RTL-SDR is connected to your system. Then you need to download 
+the software at the following link.
+kali>sudo git clone https://github.com/antirez/dump1090 
+Or you can do as I did and download DragonOS, a Linux operation system designed specifically 
+for SDR for Hackers. It is available here.
+https://sourceforge.net/projects/dragonos-focal/
+This operating system is great! It is designed specifically for SDR, with most of the great 
+applications and all their dependencies. I like this OS so much I will be using it for all my SDR 
+projects, tutorials, and courses.
+ Run dump1090
+Now with DragonOS or the dump1090 software installed on another Linux machine, navigate to 
+the dump1090 directory.
+kali > cd dump1090
+Now, simply enter the command;
+dragon> ./dump190
+
+## Page 256
+
+256 | P a g e
+As you can see above, your RTL-SDR receiver and dump1090 software are providing you with 
+all the ADS-B data available in your area, including GPS coordinates, altitude, and ground 
+speed.
+If we are looking for just the raw data without formatting, we can simply use the --raw switch.
+dragon> ./dump1090 --raw
+
+## Page 257
+
+257 | P a g e
+For a more interesting view of the data, we can use the --interactive switch like the one below. 
+Here dump1090 provides us with an interactive table of the flights in the area updated each 
+second.
+dragon> ./dump1090 --interactive
+Maybe the most graphically appealing view of the data sets is similar to radarbox, this data 
+overlaid on Google maps. In this way, we can actually watch the flights in real-time on a map of 
+our area.
+To watch the graphical data on a map, simply enter the following;
+./dump1090 --interactive --net
+Then open your browser and navigate to localhost:8080
+
+## Page 258
+
+258 | P a g e
+This should open an interactive map showing all the aircraft in your area (your map may appear 
+slightly different)
+Every airplane sends out an ADS-B signal that can be used to track the position and altitude of 
+the flight. With some free software such as 1090dump and an inexpensive receiver such as the 
+RTL-SDR, we can follow all the flights within our receiving range (this depends upon many 
+factors, including your antenna).
+This is just one more example of the power and importance of SDR for Hackers!
+Spoofing your Global Position (GPS) to Hide Your Location
+As you already know, it IS possible to spoof both your IP address and MAC address, but can you 
+spoof my global position (GPS)? The answer, of course, is YES! This is one of the beauties of 
+becoming conversant and skilled in Software Defined Radio (SDR).
+There are a number of reasons you may not want your global position known. As most of you 
+know, I have been active in assisting Ukraine to repel the brutal aggression of its neighbor and 
+former colonial master, Russia. I think it goes without saying that Russia is the aggressor and 
+needs to be reminded that invading and killing your neighbors is wrong. In this war, global 
+positions are critical to finding and destroying the opposing side. In addition, early in the war, we 
+used GPS to geo-locate the yachts of the Russian oligarchs and had them seized by NATO 
+nations. Soon after that, the remaining yachts began to spoof their global position to evade our 
+detection.
+
+## Page 259
+
+259 | P a g e
+What if the troops on the ground could send out a spoofed GPS signal to hide their location from 
+artillery and rockets? Most importantly, warships and aircraft send out a GPS signal that can be 
+tracked by missiles and other weapons. Wouldn't they gain stealth by sending out spoofed 
+positions? These are just a few  real-life examples of the value of spoofing a GPS signal.
+In this tutorial, we will demonstrate how to spoof your GPS position using SDR and the 
+inexpensive HackRF One.
+Install HackRF One
+The first step is to purchase and install a HackRF One. The less expensive SDR receivers such as 
+SDR-RTL are exclusively receivers and are incapable of transmitting signal.
+For more on setting up your HackRF One, see this article. (https://www.hackers-
+arise.com/post/software-defined-radio-sdr-for-hackers-setting-up-your-hackrf-one)
+
+## Page 260
+
+260 | P a g e
+Install GPS Spoof
+Next, create a directory named GPS_SPOOF...
+kali > mkdir GPS_SPOOF
+....and then navigate to the new directory.
+kali > cd GPS_SPOOF
+Then, download the gps spoof software from github.com 
+kali > sudo git clone https://github.com/osqzss/gps-sdr-sim.git
+
+## Page 261
+
+261 | P a g e
+Now, navigate to the new directory it created
+kali > cd gps-sdr-sim
+We need to compile the gpssim.c to a file named gps-sdr-sim, and in order to be able to use 
+motion files, we need to compile it with -DUSER_MOTION_SIZE=400 (this enables the GPS 
+spoof to appear to be moving rather than remaining static which would likely signal to a receiver 
+that it was false signal).
+kali> sudo gcc gpssim.c -lm -O3 -o gps-sdr-sim -DUSER_MOTION_SIZE=4000
+Where:
+
+## Page 262
+
+262 | P a g e
+gcc is the GNU C compiler
+gpssim.c is the C file that we need to compile
+-lm is a link to the math.c library
+-O3 optimizes the compilation to higher level
+-o places the output into a file named gps-sdr-sim
+Locate the Satellite
+The next step is to locate the GPS satellite. This is done through the use of the GPS broadcast 
+ephemeris file. The archive of the daily file can be downloaded here (you must register).
+https://cddis.nasa.gov/archive/gnss/data/daily/
+These files are then used to generate a simulated pseudo-range and Doppler for the satellites in 
+your range. This data is then used to create simulated range data to generate digitized I/Q 
+samples for the GPS signal. Make certain you download the most recent daily file.
+https://cddis.nasa.gov/archive/gnss/data/daily/2022/brdc/ 
+
+## Page 263
+
+263 | P a g e
+Next, select a location you want to spoof. In my case, I want to appear to be in Moscow, 
+specifically the Kremlin. You can go to Google maps to get the GPS coordinates.
+
+## Page 264
+
+264 | P a g e
+
+## Page 265
+
+265 | P a g e
+Now, to start your GPS spoof, simply enter the following command with the ephemeris file and 
+the GPS coordinates such as;
+kali > sudo ./gps-sdr-sim -b 8 -e brdc0010.22n -l 55.75911686948662, 37.616404140886715, 
+100
+
+## Page 266
+
+266 | P a g e
+This creates a simulation file named gpssim.bin
+Now, to send out a spoofed GPS signal that simulates my position in the Kremlin, I can simply 
+enter;
+kali > sudo hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
+
+## Page 267
+
+267 | P a g e
+Success! Now anyone tracking my GPS signal believes that I am in the Kremlin!
+Radio Frequency hacking is one of the most important and least appreciated cybersecurity fields. 
+There really are so many devices and systems that send and receive radio signals that are 
+vulnerable to exploitation. One of those ubiquitous radio signals is the global positioning system 
+or GPS. While it is a wonderful tool for finding our way around the world, it can also be used 
+maliciously to track our every step. By spoofing the GPS, we can hide our position and avoid 
+tracking by governments and other malicious actors.
+Exercises
+1. Install the HDSDR software
+2. Listen to your local airport air traffic control communication
+3. Use Your RTL-SDR to capture aircraft location and speed data with dump1090
+
+## Page 268
+
+268 | P a g e
+Appendix A
+Cyber Warrior Wisdom of 
+Master OTW
+Hacking is the new martial art of the 21st century. To become a master hacker, you 
+must think strategically and analytically. Master OTW offers some of his strategic 
+wisdom for novice hackers that every cyberwwwarrior should arm themselves with 
+before going to battle.
+ 
+ 
+1. 
+Fools talk. The wise listen.
+ 
+2. 
+Hacking is a process, not a technology or collection of tools.
+3. 
+Hacking is the ultimate martial art 
+ 
+4. 
+If a service is free, you are not the customer; you are the product.
+ 
+5. 
+Only the fool goes to battle without adequate reconnaissance of their enemy.
+ 
+6. 
+"Listen" closely and intently to your enemy; they will tell you everything you 
+need to know to defeat them.
+ 
+7. 
+If you believe in nothing, you can be led to believe anything.
+ 
+8. 
+Every adversary--no matter how strong and powerful--always has a weakness. 
+Find the weakness and exploit it.
+ 
+
+## Page 269
+
+269 | P a g e
+ 
+9. 
+A great offense might win the battle, but an impregnable defense wins the war.
+ 
+10. 
+Turn the power and strength of your opponent against them.
+ 
+11. 
+The battle often goes NOT to the strongest but to the most persistent.
+ 
+12. 
+There is ALWAYS opportunity in chaos.
+ 
+13. 
+Avoid your adversary's strengths and attack their weaknesses.
+ 
+14. 
+Never become predictable.
+ 
+15. 
+When faced with an adversary of overwhelming power and strength, do not 
+face them head-on. Strike only when you have the element of surprise.
+ 
+16. 
+Understanding human psychology, motivation, and behavior is one of the 
+hacker's most important tools.
+ 
+17. 
+A series of persistent, small wins will defeat your opponent.
+ 
+18. 
+Create confusion and dissension within the ranks of your opponent.
+ 
+19. 
+At times, it can be advantageous to retreat to lure your opponent into a 
+vulnerable and indefensible position.
+20. 
+People on social media are much  less than they appear
+21.
+ In cyber war, industrial facilities can be both a target and a weapon
+22.  
+To  remain safe and anonymous on  the Internet, you must have a thorough and 
+deep understanding of digital forensics
+
+## Page 270
+
+270 | P a g e
+22. 
+Humility makes you stronger; hubris makes you vulnerable
+23. 
+Unless you believe that civilization and culture reached their zenith during your 
+youth, then nostalgia for "the good old days" is just the foolishness of the 
+myopic and old.
+

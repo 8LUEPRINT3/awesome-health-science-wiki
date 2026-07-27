@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JOINTIQ — Arduino Wiring Diagram</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#e6edf3;font-family:'Segoe UI',system-ui,sans-serif;padding:20px}
+h1{text-align:center;font-size:20px;color:#58a6ff;letter-spacing:2px;margin-bottom:4px}
+h2{text-align:center;font-size:12px;color:#484f58;margin-bottom:24px}
+
+.page{display:flex;flex-direction:column;gap:20px;max-width:960px;margin:0 auto}
+
+/* DIAGRAM AREA */
+.diagram-wrap{background:#010409;border:1px solid #21262d;border-radius:10px;padding:20px;overflow-x:auto}
+svg{display:block;margin:0 auto}
+
+/* WIRING TABLE */
+.wire-section{background:#010409;border:1px solid #21262d;border-radius:10px;padding:20px}
+.wire-section h3{font-size:13px;color:#58a6ff;letter-spacing:2px;margin-bottom:14px;border-bottom:1px solid #21262d;padding-bottom:8px}
+table{width:100%;border-collapse:collapse}
+th{background:#161b22;color:#8b949e;font-size:11px;letter-spacing:1px;padding:8px 12px;text-align:left;border:1px solid #21262d}
+td{font-size:12px;padding:7px 12px;border:1px solid #21262d;vertical-align:middle}
+tr:nth-child(even) td{background:#0d1117}
+tr:nth-child(odd)  td{background:#161b22}
+td:first-child{font-weight:700;color:#e6edf3}
+td:nth-child(3){font-weight:700;color:#e3b341}
+
+/* NOTES */
+.notes{display:flex;flex-direction:column;gap:8px}
+.note{border-radius:6px;padding:10px 14px;font-size:12px;line-height:1.6;border-left:4px solid}
+.note.warn{background:#e3b34111;border-color:#e3b341;color:#e6edf3}
+.note.info{background:#58a6ff11;border-color:#58a6ff;color:#e6edf3}
+.note.ok  {background:#56d36411;border-color:#56d364;color:#e6edf3}
+.note strong{font-weight:700}
+
+/* DEMO steps */
+.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.demo-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:14px}
+.demo-card h4{font-size:12px;color:#58a6ff;margin-bottom:8px}
+.demo-step{display:flex;gap:8px;font-size:11px;margin:4px 0;color:#8b949e;align-items:flex-start}
+.demo-num{background:#21262d;color:#e6edf3;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;margin-top:1px}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div>
+  <h1>🤖 JOINTIQ — Arduino MEGA Wiring Diagram</h1>
+  <h2>Honda/OVIN Hackathon — Robot Failure Detector v2.0</h2>
+</div>
+
+<!-- SVG DIAGRAM -->
+<div class="diagram-wrap">
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#484f58"/>
+    </marker>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="900" height="620" fill="#010409" rx="8"/>
+
+  <!-- ══ ARDUINO MEGA ══ -->
+  <rect x="330" y="180" width="240" height="260" rx="8" fill="#1a3a1a" stroke="#56d364" stroke-width="2"/>
+  <text x="450" y="170" text-anchor="middle" fill="#56d364" font-size="13" font-weight="700" font-family="Segoe UI">ARDUINO MEGA 2560</text>
+  <text x="450" y="200" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">ZTA POLICY ENGINE</text>
+
+  <!-- Pin labels LEFT side of MEGA -->
+  <!-- Power pins -->
+  <rect x="320" y="215" width="10" height="8" rx="2" fill="#f85149"/>
+  <text x="318" y="222" text-anchor="end" fill="#f85149" font-size="10" font-family="Segoe UI">5V</text>
+  <rect x="320" y="228" width="10" height="8" rx="2" fill="#8b949e"/>
+  <text x="318" y="235" text-anchor="end" fill="#8b949e" font-size="10" font-family="Segoe UI">GND</text>
+  <rect x="320" y="241" width="10" height="8" rx="2" fill="#e3b341"/>
+  <text x="318" y="248" text-anchor="end" fill="#e3b341" font-size="10" font-family="Segoe UI">3.3V</text>
+
+  <!-- Analog pins -->
+  <rect x="320" y="260" width="10" height="8" rx="2" fill="#58a6ff"/>
+  <text x="318" y="267" text-anchor="end" fill="#58a6ff" font-size="10" font-family="Segoe UI">A0</text>
+  <rect x="320" y="273" width="10" height="8" rx="2" fill="#58a6ff"/>
+  <text x="318" y="280" text-anchor="end" fill="#58a6ff" font-size="10" font-family="Segoe UI">A1</text>
+
+  <!-- Digital pins LEFT -->
+  <rect x="320" y="293" width="10" height="8" rx="2" fill="#bc8cff"/>
+  <text x="318" y="300" text-anchor="end" fill="#bc8cff" font-size="10" font-family="Segoe UI">2</text>
+  <rect x="320" y="306" width="10" height="8" rx="2" fill="#39d353"/>
+  <text x="318" y="313" text-anchor="end" fill="#39d353" font-size="10" font-family="Segoe UI">3</text>
+  <rect x="320" y="319" width="10" height="8" rx="2" fill="#56d364"/>
+  <text x="318" y="326" text-anchor="end" fill="#56d364" font-size="10" font-family="Segoe UI">4</text>
+  <rect x="320" y="332" width="10" height="8" rx="2" fill="#f85149"/>
+  <text x="318" y="339" text-anchor="end" fill="#f85149" font-size="10" font-family="Segoe UI">5</text>
+  <rect x="320" y="345" width="10" height="8" rx="2" fill="#e3b341"/>
+  <text x="318" y="352" text-anchor="end" fill="#e3b341" font-size="10" font-family="Segoe UI">6</text>
+  <rect x="320" y="358" width="10" height="8" rx="2" fill="#ffa657"/>
+  <text x="318" y="365" text-anchor="end" fill="#ffa657" font-size="10" font-family="Segoe UI">7</text>
+  <rect x="320" y="371" width="10" height="8" rx="2" fill="#ffa657"/>
+  <text x="318" y="378" text-anchor="end" fill="#ffa657" font-size="10" font-family="Segoe UI">8</text>
+
+  <!-- I2C pins RIGHT -->
+  <rect x="570" y="293" width="10" height="8" rx="2" fill="#bc8cff"/>
+  <text x="582" y="300" fill="#bc8cff" font-size="10" font-family="Segoe UI">20 SDA</text>
+  <rect x="570" y="306" width="10" height="8" rx="2" fill="#bc8cff"/>
+  <text x="582" y="313" fill="#bc8cff" font-size="10" font-family="Segoe UI">21 SCL</text>
+
+  <!-- USB port -->
+  <rect x="415" y="420" width="70" height="20" rx="4" fill="#30363d" stroke="#484f58"/>
+  <text x="450" y="434" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Segoe UI">USB → Laptop</text>
+
+  <!-- MEGA internal label -->
+  <text x="450" y="395" text-anchor="middle" fill="#21262d" font-size="28" font-weight="900" font-family="Segoe UI">MEGA</text>
+
+  <!-- ══ POTENTIOMETER ══ -->
+  <rect x="40" y="60" width="140" height="80" rx="8" fill="#1a1a3a" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="110" y="82" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="700" font-family="Segoe UI">POTENTIOMETER</text>
+  <text x="110" y="96" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Motor Load Sensor</text>
+  <circle cx="80"  cy="118" r="5" fill="#f85149"/><text x="80"  y="130" text-anchor="middle" fill="#f85149" font-size="9" font-family="Segoe UI">Left→5V</text>
+  <circle cx="110" cy="118" r="5" fill="#58a6ff"/><text x="110" y="130" text-anchor="middle" fill="#58a6ff" font-size="9" font-family="Segoe UI">Mid→A0</text>
+  <circle cx="140" cy="118" r="5" fill="#8b949e"/><text x="140" y="130" text-anchor="middle" fill="#8b949e" font-size="9" font-family="Segoe UI">Right→GND</text>
+  <!-- Wires -->
+  <line x1="110" y1="118" x2="200" y2="200" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="200" y1="200" x2="320" y2="263" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="230" y="195" fill="#58a6ff" font-size="9" font-family="Segoe UI">A0</text>
+
+  <!-- ══ DHT11 TEMPERATURE ══ -->
+  <rect x="40" y="175" width="140" height="80" rx="8" fill="#3a1a1a" stroke="#f85149" stroke-width="1.5"/>
+  <text x="110" y="197" text-anchor="middle" fill="#f85149" font-size="12" font-weight="700" font-family="Segoe UI">DHT11 SENSOR</text>
+  <text x="110" y="211" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Motor Temperature</text>
+  <circle cx="80"  cy="233" r="5" fill="#f85149"/><text x="80"  y="248" text-anchor="middle" fill="#f85149" font-size="9" font-family="Segoe UI">VCC→5V</text>
+  <circle cx="110" cy="233" r="5" fill="#ffa657"/><text x="110" y="248" text-anchor="middle" fill="#ffa657" font-size="9" font-family="Segoe UI">DAT→7</text>
+  <circle cx="140" cy="233" r="5" fill="#8b949e"/><text x="140" y="248" text-anchor="middle" fill="#8b949e" font-size="9" font-family="Segoe UI">GND</text>
+  <!-- Wire -->
+  <line x1="110" y1="233" x2="200" y2="260" stroke="#ffa657" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="200" y1="260" x2="320" y2="361" stroke="#ffa657" stroke-width="1.5"/>
+  <text x="205" y="255" fill="#ffa657" font-size="9" font-family="Segoe UI">Pin 7</text>
+
+  <!-- ══ VIBRATION SENSOR ══ -->
+  <rect x="40" y="290" width="140" height="80" rx="8" fill="#2a1a3a" stroke="#bc8cff" stroke-width="1.5"/>
+  <text x="110" y="312" text-anchor="middle" fill="#bc8cff" font-size="12" font-weight="700" font-family="Segoe UI">VIBRATION</text>
+  <text x="110" y="326" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Gear/Bearing Wear</text>
+  <circle cx="80"  cy="348" r="5" fill="#e3b341"/><text x="80"  y="363" text-anchor="middle" fill="#e3b341" font-size="9" font-family="Segoe UI">VCC→3.3V</text>
+  <circle cx="110" cy="348" r="5" fill="#bc8cff"/><text x="110" y="363" text-anchor="middle" fill="#bc8cff" font-size="9" font-family="Segoe UI">DO→2</text>
+  <circle cx="140" cy="348" r="5" fill="#8b949e"/><text x="140" y="363" text-anchor="middle" fill="#8b949e" font-size="9" font-family="Segoe UI">GND</text>
+  <!-- Wire -->
+  <line x1="110" y1="348" x2="220" y2="330" stroke="#bc8cff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="220" y1="330" x2="320" y2="296" stroke="#bc8cff" stroke-width="1.5"/>
+  <text x="205" y="325" fill="#bc8cff" font-size="9" font-family="Segoe UI">Pin 2</text>
+
+  <!-- ══ IR SENSOR ══ -->
+  <rect x="40" y="400" width="140" height="80" rx="8" fill="#1a2a1a" stroke="#39d353" stroke-width="1.5"/>
+  <text x="110" y="422" text-anchor="middle" fill="#39d353" font-size="12" font-weight="700" font-family="Segoe UI">IR SENSOR</text>
+  <text x="110" y="436" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Stall Detection</text>
+  <circle cx="80"  cy="458" r="5" fill="#f85149"/><text x="80"  y="473" text-anchor="middle" fill="#f85149" font-size="9" font-family="Segoe UI">VCC→5V</text>
+  <circle cx="110" cy="458" r="5" fill="#39d353"/><text x="110" y="473" text-anchor="middle" fill="#39d353" font-size="9" font-family="Segoe UI">OUT→3</text>
+  <circle cx="140" cy="458" r="5" fill="#8b949e"/><text x="140" y="473" text-anchor="middle" fill="#8b949e" font-size="9" font-family="Segoe UI">GND</text>
+  <!-- Wire -->
+  <line x1="110" y1="458" x2="240" y2="400" stroke="#39d353" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="240" y1="400" x2="320" y2="309" stroke="#39d353" stroke-width="1.5"/>
+  <text x="225" y="395" fill="#39d353" font-size="9" font-family="Segoe UI">Pin 3</text>
+
+  <!-- ══ LEDs ══ -->
+  <rect x="690" y="60" width="170" height="110" rx="8" fill="#2a2a1a" stroke="#e3b341" stroke-width="1.5"/>
+  <text x="775" y="82" text-anchor="middle" fill="#e3b341" font-size="12" font-weight="700" font-family="Segoe UI">STATUS LEDs</text>
+  <text x="775" y="96" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">+ 220Ω resistor each</text>
+  <!-- Green LED -->
+  <circle cx="720" cy="116" r="8" fill="#56d364" opacity="0.8"/>
+  <text x="735" y="120" fill="#56d364" font-size="11" font-family="Segoe UI">GREEN → Pin 4</text>
+  <!-- Amber LED -->
+  <circle cx="720" cy="136" r="8" fill="#e3b341" opacity="0.8"/>
+  <text x="735" y="140" fill="#e3b341" font-size="11" font-family="Segoe UI">AMBER → Pin 6</text>
+  <!-- Red LED -->
+  <circle cx="720" cy="156" r="8" fill="#f85149" opacity="0.8"/>
+  <text x="735" y="160" fill="#f85149" font-size="11" font-family="Segoe UI">RED   → Pin 5</text>
+  <!-- Wires to MEGA -->
+  <line x1="690" y1="116" x2="620" y2="240" stroke="#56d364" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="620" y1="240" x2="570" y2="322" stroke="#56d364" stroke-width="1.5"/>
+  <line x1="690" y1="156" x2="600" y2="260" stroke="#f85149" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="600" y1="260" x2="570" y2="335" stroke="#f85149" stroke-width="1.5"/>
+
+  <!-- ══ BUZZER ══ -->
+  <rect x="690" y="195" width="170" height="70" rx="8" fill="#2a1a1a" stroke="#ffa657" stroke-width="1.5"/>
+  <text x="775" y="217" text-anchor="middle" fill="#ffa657" font-size="12" font-weight="700" font-family="Segoe UI">BUZZER</text>
+  <text x="775" y="231" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Fault Alarm</text>
+  <circle cx="730" cy="250" r="5" fill="#ffa657"/>
+  <text x="742" y="254" fill="#ffa657" font-size="11" font-family="Segoe UI">+ → Pin 8</text>
+  <circle cx="790" cy="250" r="5" fill="#8b949e"/>
+  <text x="800" y="254" fill="#8b949e" font-size="11" font-family="Segoe UI">− → GND</text>
+  <line x1="690" y1="250" x2="610" y2="290" stroke="#ffa657" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="610" y1="290" x2="570" y2="374" stroke="#ffa657" stroke-width="1.5"/>
+
+  <!-- ══ LCD 1602 I2C ══ -->
+  <rect x="690" y="295" width="170" height="100" rx="8" fill="#1a2a1a" stroke="#56d364" stroke-width="1.5"/>
+  <text x="775" y="317" text-anchor="middle" fill="#56d364" font-size="12" font-weight="700" font-family="Segoe UI">LCD 1602 I2C</text>
+  <text x="775" y="331" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">Fault Display</text>
+  <text x="700" y="350" fill="#f85149" font-size="10" font-family="Segoe UI">VCC → 5V</text>
+  <text x="700" y="364" fill="#8b949e" font-size="10" font-family="Segoe UI">GND → GND</text>
+  <text x="700" y="378" fill="#bc8cff" font-size="10" font-family="Segoe UI">SDA → Pin 20</text>
+  <text x="700" y="392" fill="#bc8cff" font-size="10" font-family="Segoe UI">SCL → Pin 21</text>
+  <line x1="690" y1="378" x2="640" y2="360" stroke="#bc8cff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="640" y1="360" x2="580" y2="296" stroke="#bc8cff" stroke-width="1.5"/>
+  <line x1="690" y1="392" x2="640" y2="370" stroke="#bc8cff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="640" y1="370" x2="580" y2="309" stroke="#bc8cff" stroke-width="1.5"/>
+
+  <!-- ══ LEGEND ══ -->
+  <rect x="330" y="490" width="240" height="110" rx="6" fill="#161b22" stroke="#21262d"/>
+  <text x="450" y="508" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI" letter-spacing="1">WIRE LEGEND</text>
+  <line x1="345" y1="520" x2="375" y2="520" stroke="#f85149" stroke-width="2"/><text x="380" y="524" fill="#f85149" font-size="10" font-family="Segoe UI">Power 5V</text>
+  <line x1="345" y1="533" x2="375" y2="533" stroke="#8b949e" stroke-width="2"/><text x="380" y="537" fill="#8b949e" font-size="10" font-family="Segoe UI">Ground</text>
+  <line x1="345" y1="546" x2="375" y2="546" stroke="#58a6ff" stroke-width="2"/><text x="380" y="550" fill="#58a6ff" font-size="10" font-family="Segoe UI">Analog Signal</text>
+  <line x1="430" y1="520" x2="460" y2="520" stroke="#56d364" stroke-width="2"/><text x="465" y="524" fill="#56d364" font-size="10" font-family="Segoe UI">Digital Signal</text>
+  <line x1="430" y1="533" x2="460" y2="533" stroke="#bc8cff" stroke-width="2"/><text x="465" y="537" fill="#bc8cff" font-size="10" font-family="Segoe UI">I2C / Vibration</text>
+  <line x1="430" y1="546" x2="460" y2="546" stroke="#ffa657" stroke-width="2"/><text x="465" y="550" fill="#ffa657" font-size="10" font-family="Segoe UI">DHT11 / Buzzer</text>
+  <text x="450" y="568" text-anchor="middle" fill="#e3b341" font-size="10" font-family="Segoe UI">⚠ Vibration sensor: 3.3V NOT 5V</text>
+  <text x="450" y="582" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">LEDs: always use 220Ω resistor in series</text>
+  <text x="450" y="596" text-anchor="middle" fill="#484f58" font-size="10" font-family="Segoe UI">LCD blank? Change 0x27 → 0x3F in code</text>
+
+</svg>
+</div>
+
+<!-- WIRING TABLE -->
+<div class="wire-section">
+  <h3>COMPLETE PIN REFERENCE</h3>
+  <table>
+    <tr><th>COMPONENT</th><th>COMPONENT PIN</th><th>ARDUINO PIN</th><th>WIRE COLOUR</th><th>PURPOSE</th></tr>
+    <tr><td rowspan="3">🔵 Potentiometer</td><td>Left outer</td><td>5V</td><td style="color:#f85149">■ Red</td><td>Power</td></tr>
+    <tr><td>Middle (wiper)</td><td>A0</td><td style="color:#58a6ff">■ Blue</td><td>Load signal — analog read</td></tr>
+    <tr><td>Right outer</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td rowspan="3">🔴 DHT11 Temp Sensor</td><td>Left pin (flat face out)</td><td>5V</td><td style="color:#f85149">■ Red</td><td>Power</td></tr>
+    <tr><td>Middle pin</td><td>Pin 7</td><td style="color:#ffa657">■ Orange</td><td>Temperature signal</td></tr>
+    <tr><td>Right pin</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td rowspan="3">🟣 Vibration Sensor</td><td>VCC</td><td style="color:#e3b341;font-weight:700">3.3V ⚠</td><td style="color:#f85149">■ Red</td><td>⚠ 3.3V only — NOT 5V</td></tr>
+    <tr><td>GND</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td>DO</td><td>Pin 2</td><td style="color:#bc8cff">■ Purple</td><td>Vibration pulse signal</td></tr>
+    <tr><td rowspan="3">🟢 IR Rotation Sensor</td><td>VCC</td><td>5V</td><td style="color:#f85149">■ Red</td><td>Power</td></tr>
+    <tr><td>GND</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td>OUT</td><td>Pin 3</td><td style="color:#39d353">■ Green</td><td>Rotation pulse — stall detect</td></tr>
+    <tr><td rowspan="3">💡 Status LEDs</td><td>Green LED anode (+)</td><td>Pin 4</td><td style="color:#56d364">■ Green</td><td>Healthy zone indicator</td></tr>
+    <tr><td>Amber/Yellow LED anode (+)</td><td>Pin 6</td><td style="color:#e3b341">■ Yellow</td><td>Warning zone indicator</td></tr>
+    <tr><td>Red LED anode (+)</td><td>Pin 5</td><td style="color:#f85149">■ Red</td><td>Fault zone indicator</td></tr>
+    <tr><td style="color:#484f58">All LED cathodes (−)</td><td>Short leg of each LED</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>220Ω resistor in series</td></tr>
+    <tr><td rowspan="2">🔔 Active Buzzer</td><td>+ (longer leg)</td><td>Pin 8</td><td style="color:#ffa657">■ Orange</td><td>Alarm signal</td></tr>
+    <tr><td>− (shorter leg)</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td rowspan="4">🖥 LCD 1602 I2C</td><td>VCC</td><td>5V</td><td style="color:#f85149">■ Red</td><td>Power</td></tr>
+    <tr><td>GND</td><td>GND</td><td style="color:#8b949e">■ Black</td><td>Ground</td></tr>
+    <tr><td>SDA</td><td>Pin 20</td><td style="color:#bc8cff">■ Purple</td><td>I2C data</td></tr>
+    <tr><td>SCL</td><td>Pin 21</td><td style="color:#bc8cff">■ Purple</td><td>I2C clock</td></tr>
+  </table>
+</div>
+
+<!-- NOTES -->
+<div class="wire-section">
+  <h3>IMPORTANT NOTES</h3>
+  <div class="notes">
+    <div class="note warn"><strong>⚠ Vibration Sensor — 3.3V ONLY.</strong> This sensor runs on 3.3V. Connecting to 5V will permanently damage it. Use the 3.3V pin on the MEGA, not the 5V rail.</div>
+    <div class="note warn"><strong>⚠ LEDs need resistors.</strong> Place a 220Ω resistor between each digital pin and the LED anode. No resistor = burned LED within seconds.</div>
+    <div class="note info"><strong>ℹ LCD blank after upload?</strong> The I2C address is either 0x27 or 0x3F depending on the module. If screen stays blank, change line 1 of setup() in the code from 0x27 to 0x3F.</div>
+    <div class="note info"><strong>ℹ DHT11 orientation.</strong> Flat face toward you. Left pin = 5V, middle = signal (Pin 7), right = GND. Reading updates every 2 seconds — this is normal for DHT11.</div>
+    <div class="note ok"><strong>✅ Startup sequence.</strong> Green LED turns on → LCD shows "ROBOT MONITOR / Learning..." → waits 10 seconds to learn baseline → LCD shows "READY" → monitoring begins. Open Serial Monitor at 9600 baud to see live data stream.</div>
+    <div class="note ok"><strong>✅ Power.</strong> Use the USB cable from the Elegoo kit plugged into your laptop. The MEGA powers all components from USB. No external power needed for this setup.</div>
+  </div>
+</div>
+
+<!-- DEMO STEPS -->
+<div class="wire-section">
+  <h3>HOW TO DEMO EACH FAILURE MODE</h3>
+  <div class="demo-grid">
+    <div class="demo-card">
+      <h4>⚙ Motor Overload</h4>
+      <div class="demo-step"><div class="demo-num">1</div>Let baseline lock (10 sec after startup)</div>
+      <div class="demo-step"><div class="demo-num">2</div>Slowly turn potentiometer clockwise</div>
+      <div class="demo-step"><div class="demo-num">3</div>Amber LED fires at 65% — warning</div>
+      <div class="demo-step"><div class="demo-num">4</div>Red LED + buzzer at 80% — fault</div>
+      <div class="demo-step"><div class="demo-num">5</div>LCD shows: FAULT: MOTOR:OVERLOAD</div>
+    </div>
+    <div class="demo-card">
+      <h4>🌡 Motor Overheat</h4>
+      <div class="demo-step"><div class="demo-num">1</div>Pinch the DHT11 between your fingers</div>
+      <div class="demo-step"><div class="demo-num">2</div>Body heat raises temperature reading</div>
+      <div class="demo-step"><div class="demo-num">3</div>Amber at 35°C — warning</div>
+      <div class="demo-step"><div class="demo-num">4</div>Red at 40°C — fault</div>
+      <div class="demo-step"><div class="demo-num">5</div>LCD shows: FAULT: MOTOR:OVERHEAT</div>
+    </div>
+    <div class="demo-card">
+      <h4>📉 Motor Stall</h4>
+      <div class="demo-step"><div class="demo-num">1</div>Turn pot to ~40% (moderate load)</div>
+      <div class="demo-step"><div class="demo-num">2</div>Cover the IR sensor with your finger</div>
+      <div class="demo-step"><div class="demo-num">3</div>No rotation pulse for 1.5 seconds</div>
+      <div class="demo-step"><div class="demo-num">4</div>System detects stall condition</div>
+      <div class="demo-step"><div class="demo-num">5</div>LCD shows: FAULT: MOTOR:STALL</div>
+    </div>
+    <div class="demo-card">
+      <h4>〰 Gear Vibration</h4>
+      <div class="demo-step"><div class="demo-num">1</div>Turn pot to ~50% (load above 40%)</div>
+      <div class="demo-step"><div class="demo-num">2</div>Tap vibration sensor rapidly 5+ times</div>
+      <div class="demo-step"><div class="demo-num">3</div>5 pulses within 2 seconds = fault</div>
+      <div class="demo-step"><div class="demo-num">4</div>LCD shows: FAULT: GEAR:VIBRATION</div>
+      <div class="demo-step"><div class="demo-num">5</div>Represents gear grinding under load</div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;font-size:11px;color:#30363d;padding:10px">
+  JOINTIQ — Honda/OVIN Hackathon 2026 — Arduino MEGA 2560
+</div>
+
+</div>
+</body>
+</html>

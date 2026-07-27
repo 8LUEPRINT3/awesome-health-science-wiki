@@ -1,0 +1,3006 @@
+---
+title: Data Privacy_ A runbook for engineers - Part 4
+source: Data Privacy_ A runbook for engineers.md
+category: development
+---
+
+allow for a more incremental and use-case based process as
+opposed to starting late and then trying to overdo it by
+opting for a level 3 inventory, as many organizations do.
+GAINING INSIGHTS ABOUT THE BUSINESS
+
+## Page 301
+
+Your data inventory will offer you insights into the
+relationship between the growth of data and your business.
+Too often, companies have what one expert called “data
+envy,” which is the belief that more data is a precondition to
+a deeper understanding of the business. On the flip side,
+news around privacy and security incidents could lead to an
+overcorrection in the opposite direction.
+A data inventory can provide a more data-driven and
+trajectory-focused template with key data points:
+As the company grows, how does the growth in
+the customer base and revenue correspond to the
+growth in data?
+How fast is sensitive data growing relative to data
+overall?
+You may also be able to reverse engineer the data sources
+and understand which teams are responsible for the growth
+in data size and risk.
+The numbers may point to solutions:
+If the goal is to reduce cost and risk, you may
+want to delete data more aggressively.
+If the goal is purely to manage risk, you may be
+able to decouple portions of the data in a way that
+does not pose a privacy risk, while still retaining
+the data itself.
+The information needed to drive these conversations can be
+derived from tables 4.4 and 4.5.
+
+## Page 302
+
+Remember, just because your business doubles in size, that
+does not mean your privacy team can double, so you need
+to ensure that your data and risk do not grow faster than
+your ability to manage them. Data governance,
+classification, and inventory go to the heart of scaling your
+business and spending your resources prudently.
+4.8 What does a successful data inventory
+process look like?
+A data inventory is like a medical treatment whose real
+effectiveness can only be assessed after the fact. Much like
+you can only assess the success of a kidney stone procedure
+after it is complete, you can only be certain about the
+effectiveness of your inventory when you try to, for
+example, delete at scale or identify what data was lost in a
+breach. In other words, success is proven based on an
+experience you’d rather not have to endure.
+There are, however, several objective and subjective criteria
+that you can use to assess the efficacy of your data
+inventory outcomes. We’ll look at them in the next two
+subsections.
+4.8.1 Data inventory objective success metrics
+Once you have a mature data inventory in place, you will be
+able to complete several key activities at scale and with
+increased accuracy.
+
+## Page 303
+
+You will likely build an infrastructure that has native
+connectivity and live integrations with AWS, Google Cloud,
+and Azure. This will help you dynamically categorize these
+cloud resources and leverage their native tagging
+infrastructures to speed mapping and duplication analysis.
+Rather than having to build crawlers and other tools, you will
+be able to use the capabilities these cloud providers sell and
+get more for the expenses you incur to store your data in
+the cloud.
+One company I advised recently built workflows to
+understand the makeup of their on-premises and cloud data
+stores and the intention behind data usage. These workflows
+helped parse the data to find patterns and then label
+information. The ensuing data inventory led to a central,
+secure platform instead of the previous use of email or
+spreadsheets.
+As I have mentioned, efforts toward privacy also help other
+business imperatives, especially if they need an improved
+understanding and quality of data. A data inventory enables
+you to automatically extract and map data lineage from
+various source systems and easily keep it up to date. This
+will help you track data as it flows through your systems and
+enforce privacy roles.
+You will also be able to view indirect relationships that
+influence the movement of data, such as conditional
+statements and joins. All of this can help you make
+adjustments to protect data privacy. For example, if you had
+allowed a third party to access your data for analysis
+purposes via an API, and then you realized that they were
+
+## Page 304
+
+accessing more data than permitted or using it for
+advertising or profiling, you could immediately constrain
+them by throttling and rate-limiting the API. This provides
+you with a single choke point for the data rather than
+requiring you to close multiple doors. This is a win for data
+privacy, as well as for your ability to protect business IP from
+leaking.
+The detailed technical lineage made possible by a data
+inventory will allow you to drill down into table, column, and
+query level lineage, view transformations, and navigate
+through your data pipelines. This will help you understand
+how different feature and industry changes have affected
+your data in terms of both business value and privacy
+implications.
+4.8.2 Data inventory subjective success metrics
+A data inventory also offers some subjective metrics to help
+assess its efficacy. While these metrics may not be as
+instantaneous as the objective ones, they are often more
+revealing, since they are observed once the organization as
+a whole pivots and enough anecdotes surface.
+Here are some anecdotal and cultural signs to look for, based
+on my years of experience in this domain:
+At what point do you have so much data that
+protecting it becomes prohibitively expensive?
+What do you do when your ability to delete data at
+scale is dwarfed by your data collection?
+
+## Page 305
+
+When is the inflection point where you stop
+discovering data that ingenious engineers have
+tucked away?
+What does privacy do to help data quality—is there
+common cause to be made with data science
+teams?
+The first two concern the consequences of having too much
+data. Once you have sound data governance, that should
+lead to more thoughtful data collection where you only
+collect what you know you need. Also, getting a sense of
+how much risk you are holding in your data should lead to
+timely deletion and anonymization. So if you see a reduction
+in the number of times you have to throw more money at
+security and storage to make up for your data collection,
+your data governance strategy may be starting to pay off.
+This could point to a cultural change, where the company
+has realized how much work it takes to categorize data.
+Engineers often realize how much data they were needlessly
+holding on to while taking on risk. A data inventory may help
+reverse these long-entrenched habits.
+The final two questions can speak for themselves. They point
+to not just better data handling practices but also an
+improved data privacy culture. When engineers and data
+scientists learn to abide by sound storage and collection
+practices, you should have fewer surprises. This could
+happen because they have realized how expensive the data
+inventory process is, and because they understand the risk
+so much better.
+
+## Page 306
+
+You may also see teams joining forces. The data science and
+privacy teams have a common interest in reducing their data
+footprint. The former cares about data quality, while the
+latter cares about risk and privacy. When you see these
+organic unions, you could be en route to a more mature and
+quantifiable privacy regime in your business.
+Summary
+A data inventory is a critical part of your data
+governance, and it is the complement to your data
+classification process.
+A data inventory helps you apply your
+classification to the data and, as such, enables
+privacy by design.
+A data inventory involves automation at the data
+and infrastructural level, a process that can be
+refined continually as you understand your data
+better.
+The sooner you start the data inventory process,
+the less data you will need to clean up and the
+more effective you can be at managing privacy risk
+and building trust.
+There are several levels of data inventories, each
+with varying goals.
+There are several tangible and intangible metrics
+to help you measure the effectiveness of your data
+inventory.
+
+## Page 307
+
+1 Rita Heimes, “Top 10 operational responses to the GDPR – Part 1: Data inventory and
+mapping,” IAPP, February 1, 2018, http://mng.bz/AxDx.
+2 Devin Pickell, “Structured vs. Unstructured Data – What’s the Difference?” G2, November
+16, 2018, https://learn.g2.com/structured-vs-unstructured-data.
+3 “What is unstructured data?” NetApp, http://mng.bz/ZzwA.
+4 Joseph Johnson, “Annual number of data breaches and exposed records in the United States
+from 2005 to 2020,” Statistica, March 3, 2021, http://mng.bz/REev.
+
+## Page 308
+
+5 Data sharing
+This chapter covers
+Why companies share data
+How data sharing can create privacy risks
+Techniques to mitigate privacy risks during data sharing
+Measuring privacy risks before and after applying privacy
+techniques
+We have so far worked to implement privacy engineering by
+focusing on data. In the preceding chapters, we have
+classified data based on risk and then tagged it using
+machine-readable tags. This process, both in its planning
+and execution, represents a significant investment. The
+reason for this effort is that data is used by humans and
+their algorithmic processes at scale to make decisions that
+impact the users whose data it is.
+The other key benefit of this data governance is that
+companies can share data with privacy protections tailored
+to the risk. In this chapter, we will first take a look at why
+companies may share data. We will look at a use case that
+speaks to a key part of online commerce—the online ads
+ecosystem.
+Then, we will look at a real-life scenario where data-sharing
+resulted in privacy risks. We will then explore techniques
+that will help reduce privacy risk when sharing data, and
+
+## Page 309
+
+we’ll explore the limitations of such privacy-preserving
+techniques. We will also explore how you can measure the
+privacy impact of sharing data and how such techniques can,
+in a numerically provable fashion, reduce privacy risk.
+We will close with another real-life scenario related to data-
+sharing, except this one will offer two benefits. It will dive
+much deeper into individual components of data sharing,
+and it will highlight how the online targeting of users can be
+enabled by data, while also being sensitive to a user’s data
+privacy.
+Data sharing and its privacy implications are key for
+engineering leaders and aspiring leaders to understand,
+since a company’s growth, user engagement, feature
+development and monetization, and compliance are all
+linked to its ability to move data from point A to point B.
+5.1 Data sharing: Why companies need to
+share data
+Before we discuss data sharing from a company’s
+perspective, let’s revisit the last time you called a business
+as a customer to get some service. Suppose you need to
+check your bank balance, and instead of going to a physical
+banking location or calling a customer support rep, you
+choose to check the account online. In order to access it,
+you will need information along the following lines:
+
+## Page 310
+
+Your bank account number (assuming you already
+have an account with the bank)
+An email address, which will serve as your online
+login
+Personally identifiable information, like your Social
+Security number, home address, etc.
+When you provide this information on the bank’s website,
+that information goes to the bank’s servers and enables you
+to access your account and view your balance. This simple
+transaction involves the following:
+Data sharing from the client (your computer or
+mobile device) to the server (the bank’s
+databases) of information that identifies you
+Data sharing from the server to the client of your
+balance
+This sharing of data creates privacy vulnerabilities both in
+terms of what happens to the data at rest (that is, when the
+data is stationary in a database), and what happens to the
+data in motion (when it moves over the wires between the
+client and server). These risks include erroneous and willful
+activity and will require compensating privacy controls. We
+will examine both these risks and mitigating privacy controls
+later in this chapter.
+If something as basic as checking your balance online
+involves the sharing of sensitive data, you can imagine how
+complex sharing can get when it comes to massive
+
+## Page 311
+
+companies whose entire business model depends on data.
+The next two subsections will look at two examples.
+5.1.1 Data sharing: Taxicab companies
+If you hail a car using a taxi or ridesharing app, it is
+possible, even likely, that the app is sharing some data with
+the city you are in. Such data sharing may also occur with
+cab companies or other transportation providers.
+City planners and regulators need access to data from
+transport providers to inform and enforce policy decisions.
+For example,
+Cities need to understand the impact of transport
+services on traffic, parking, emissions, and labor
+practices.
+Municipalities and police need data to collect per-
+vehicle fees, enforce parking rules for shared bikes
+or scooters, and respond to service or safety
+issues.
+There are some other valid data-sharing use cases in this
+context:
+
+## Page 312
+
+Municipalities may ask cab companies to share
+drop-off geolocations to help them analyze the
+impact on parking and traffic flow. This data helps
+city governments analyze where people travel to
+and the routes they take. In real time, such data
+enables an understanding of traffic patterns and
+accidents, and in aggregate, such data enables
+infrastructure planning and other investments.
+Companies may also share trip telemetry data so
+as to help authorities detect when vehicles enter
+prohibited areas. Municipalities may use this data
+to issue enforcement citations. For example, if a
+vehicle that is not a school bus enters a loading
+zone beside a school, telemetry data could enable
+the government to issue a citation with evidence.
+Cab companies may also share vehicle or driver
+license numbers, and this data could enable
+municipalities to verify that all vehicles are
+permitted to operate within a city.
+As you can see, there are perfectly legitimate functional
+reasons for companies to share data that they collect from
+users and customers, and these reasons don’t always
+involve revenue.
+I am using the example of taxi companies partly because I
+have worked for three companies that operate in the
+transportation and mobility space, but also because these
+companies’ data combines identity with geolocation: who
+you are and where you are. Therefore, any data sharing
+needs to occur with careful consideration:
+
+## Page 313
+
+Identify what data needs to be shared
+Determine the specific use case, so that the data
+use can be tracked and confined to that use case
+Protect the data at the transport layer (when it
+moves from the taxi company’s systems and the
+recipient’s)
+Ensure auditable access control even after the data
+leaves the taxi company’s systems
+Later in the chapter, you will learn that data sharing involves
+protecting the data at various levels, so understanding the
+risk vectors is critical. Focusing on a specific business will
+help us do that.
+In the next subsection, you will learn how data sharing is
+optimized for revenue generation in the ad ecosystem.
+5.1.2 Data sharing: Online advertising
+The most common—and the most complex—example of
+online data sharing is online advertising. A lot of us are
+accustomed to seeing ads online that seem to intuit what we
+last purchased or browsed; that is, ads that are behaviorally
+targeted at us. It is important for leaders to understand with
+some level of detail the key players in the online advertising
+ecosystem and how data flows among them. This
+understanding will help engineers make intelligent decisions
+around data sharing as well as ensure that a promising
+revenue stream does not lead to abusive privacy habits.
+
+## Page 314
+
+Just as was the case with the taxi example, I have chosen
+the example of advertising consciously. In this section, you
+will learn in some detail how the ads ecosystem works, and I
+will demystify some of the concepts. Later in this chapter, we
+will revisit advertising and look at privacy controls that make
+advertising-related data sharing much safer from a privacy
+perspective.
+Figure 5.1, derived from research conducted by the
+Electronic Frontier Foundation (EFF), shows what the online
+ads ecosystem looks like.1
+
+## Page 315
+
+Figure 5.1 The online advertising ecosystem2
+
+## Page 316
+
+To understand figure 5.1, we need to establish some
+definitions:
+Publisher—Refers to a website that a user may
+visit and that can display ads. For example, the
+New York Times website is a publisher.
+Supply-side platform (SSP)—Refers to an ad
+network that helps decide which specific advertiser
+can place an ad on a website so that a user may
+see it.
+Demand-side platform (DSP)—Refers to companies
+that work with SSPs to try to display ads to a user
+who visits a web page (publisher).
+For the purposes of this example, let’s assume you run a
+website that will display ads, so you are a publisher. We will
+walk through the data flow from the perspective of a user
+who is browsing the internet.
+1. The user visits www.website.com (see figure 5.1).
+Data flows from the user’s browser to the ad
+networks, also known as “supply-side platforms”
+(SSPs). The advertising process begins when the
+ad networks collect data from the user’s browser
+and device. This data inevitably ends up with the
+ad networks, which represent the supply side of
+this ecosystem. The reason behind this flow is that
+it helps facilitate the serving of a personalized ad
+to the user.
+
+## Page 317
+
+2. The SSP needs to personalize the user’s ad
+experience and does so by way of the cookie,
+which contains identifiable information. This is
+where data sharing has begun in earnest, even
+though the user may not explicitly be aware of it.
+This point is key for leaders to understand, since
+many engineers often assume that data sharing
+refers only to conscious deployment of data. In
+reality, a significant amount of data sharing is
+triggered by software that works in the
+background.
+3. The SSP needs to invite ads tailored to the user’s
+information, and to do so it generates a “bid
+request.” This bid request is akin to a call for
+proposed ads that are tailored to elicit user
+engagement based on the user’s past behavior. By
+way of this bid request, the SSP is stating to
+advertisers that there is a user with specific
+features (based on information contained in the
+cookie) on www.website.com, and who could be
+served an advertisement.
+4. The SSP sends this bid request to advertisers that
+have ads available to show, thereby rounding up
+the supply side of this data exchange. If there is a
+match and the web page is served an ad, the
+publisher earns revenue paid by the advertiser.
+Since multiple advertisers are competing to show
+the user an ad, the SSP conducts an auction, and
+the winner in that auction gets to display an ad for
+the user.
+
+## Page 318
+
+The ad that is served to the user, and whether an ad is
+served or not, depends on the contents of the bid request.
+The bid request enables potential advertisers to assess
+whether the user is worth serving an ad. A bid request
+contains several pieces of sensitive information, such as
+location, interests, and device data, and a unique ID that
+may universally identify a user (see figure 5.2).
+Figure 5.2 A sample bid request3
+
+## Page 319
+
+This information allows advertisers to decide whether the bid
+request, and the data it contains, is worth spending money
+on to show the user an ad. However, in keeping with the
+rising visibility around privacy, I like to remind people that
+the bid request is not an abstract entity. There is a real
+person behind that data, and that person deserves privacy
+and transparency as their data is shared.
+That brings us to the end of the process, where the ad is
+served to the user. The advertisers now have a binary
+choice: they can either place an ad or not. Simplistically
+speaking, an advertiser who could potentially show an ad
+would normally examine the user’s data and match that
+against the ad itself; in most cases, they will test the
+applicability of that ad and make a call, possibly using past
+metrics or an ML-based scoring system. They will then
+respond to the SSP with a bid if they wish to show an ad.
+The next step would involve the SSP picking the winning bid,
+which in most cases will be the bid offering the highest price,
+and display the ad.
+This flow is captured in a somewhat simplified fashion in
+figure 5.3.
+
+## Page 320
+
+Figure 5.3 How an ad is finally served to the user4
+There are privacy implications in this data-sharing activity.
+As the EFF indicates, the information in the bid request is
+shared before any money changes hands. Advertisers who
+don’t win the auction still receive the user’s personal
+information. Some companies may pretend to be interested
+in serving ads to a user but intentionally bid to lose in each
+auction with the goal of collecting as much data as possible
+as cheaply as possible.
+Targeted advertising is critical for online businesses, since it
+helps match user preferences and identities with ads.
+However, from a user standpoint, there are some privacy
+risks involved. For any user who could be targeted for an ad,
+there are probably data brokers and other entities who
+maintain a data store about that user. That data is made
+available to players in the advertising ecosystem, and it
+helps set up the bid request. Most of these actions occur
+
+## Page 321
+
+without direct approval by the user whose data it is. This
+lack of agency is the first privacy harm.
+The second harm involves the persistence and growth of this
+data about the user. Regardless of what (if any) ad is served
+to the user, the data that companies collect through the bid
+request remains with them, and it can be enriched with
+future data from other sources. This growth and
+dissemination of data makes it difficult to erase and extract
+that data. The user’s ability to protect their privacy is
+reduced because their data is now in too many places.
+5.1.3 Privacy in advertising
+You saw in the previous subsection some of the privacy risks
+inherent to online advertising, so I want to provide some
+suggestions on privacy controls that could help companies
+use behavioral data to provide meaningful ads.
+For many companies, their ability to target their users, or
+potential users, with ads depends on data. This data is a
+combination of behavioral data derived from user activity on
+the company’s website as well as information about similar
+users. In the latter case, the logic is very similar to how
+Netflix provides a “movies watched by viewers like you”
+section when you view their web page.
+Companies that serve ads typically build an identity graph,
+which is a list of identities associated with customers or
+users they wish to serve ads to. Consider this hypothetical
+user:
+
+## Page 322
+
+User A has a Google ID of AAA@gmail.com, and A
+uses this ID to sign in to the New York Times
+website.
+User A also uses another email address,
+AAAA@yahoo.com, to sign in to their Facebook
+account.
+User A has an account on an online streaming
+service website using AAA@email.com.
+Let’s assume the streaming service wants to target user A
+with ads about upcoming movies on the streaming service
+when they browse the web. As in this example, a user may
+have multiple email addresses that they use as logins, so the
+streaming service will maintain an identity graph that links
+all of A’s email addresses. This graph is important, because
+when the streaming service wants to serve ads to user A, it
+can use the graph to access all of A’s online identities and
+the behavioral data associated with those identities. That
+way, when user A lands on either the New York Times app or
+website or on the Facebook app or website, the streaming
+company can target user A with an ad. This process of
+collecting a user’s identities to build a graph and then
+targeting an ad involves copious amounts of data sharing.
+Let’s assume you are in charge of improving privacy
+protections for the streaming company. These are some
+actions you could take:
+
+## Page 323
+
+You could create a hashed version of the ID on
+your website and map it to the original ID. In the
+preceding example, that mapping would be
+AAA@gmail.com to hash(AAA@gmail.com).
+You could put the user into larger audience pools
+(such as users who search for thrillers, users who
+browse DVDs with Spencer Tracy, etc.) so that you
+can target ads that are not too specific while still
+being relevant. For example, if I am in my mid-30s
+and occasionally browse running shoes, being
+targeted with ads about shoes around new year’s
+(when people make resolutions around health)
+may be perfectly fine if I am part of a cohort of
+similar users who are targeted. If an ad campaign
+identifies me specifically, that is both creepy and
+potentially illegal. The targeting needs to be
+cohort-based, such as users interested in running
+shoes, rather than profile-based, such as a specific
+user who bought shoes six months ago and is due
+for new ones.
+In the identity graph, you could build an opt-out
+flag, so that when the user opts out of receiving
+ads while signed in using a specific ID, the user’s
+identity graph supplies that information as well, so
+that the user is not targeted with ads
+corresponding to data collected from that identity.
+Hashing identities
+
+## Page 324
+
+You can find plenty about hashing online, but for the purposes of this discussion,
+hashing allows you to create a version of the original content (an email address in
+this case) that goes only one way. That is, with the right algorithm, you could derive
+the hashed value from the original email, but you could not obtain the original email
+from the hashed value.
+For example, assume that you hash nishant@hotmail.com and end up with
+22344. From then on, each time you come across nishant@hotmail.com, you will
+be able to map it to 22344. This means you can create a mapping between the
+version of the user’s login that you use for their activities on your website and a
+more “privacy secure” hashed version, and you can use the latter for data transfers.
+As you can see, an ID like nishant@hotmail.com could be used to obtain other
+data about a user or even to contact them, whereas the transformed (hashed)
+version, 22344, offers more privacy protection.
+This approach enables you to create a wall between a user’s activity on your website
+and their more global identity to help serve ads.
+This list is not exhaustive, and the ads ecosystem is
+extremely complex. This example is vastly oversimplified
+and is just intended to demonstrate that you can both share
+data and build privacy controls into the sharing process.
+In the next section, we will look at several techniques for
+safely sharing data that serves purposes ranging from public
+safety to advertising. Since each data share can be highly
+contextual, my goal is to equip you with several different
+techniques that you can adapt to the situation at hand and
+the relevant privacy risks.
+5.2 How to share data safely: Security as
+an ally of privacy
+
+## Page 325
+
+We have so far discussed data as a key vector of business
+value as well as privacy risk. In order to protect data, you
+need to focus on the privacy harms that can be visited upon
+the data while it moves across your business network, while
+it moves to third parties, and while it is stored in your
+business system databases. Lest you think this is merely
+theoretical, let’s first look at an example of how data in
+motion can help track, and therefore violate the privacy of,
+the most protected individual in the world.
+5.2.1 Tracking President Trump
+The New York Times has done some pathbreaking work as
+part of its Privacy Project.5 Here we’ll focus on the
+implications of the apps on your device sharing your location
+data.
+The research conducted by the Times found that with apps
+on your phone sharing real-time location data, it is possible
+to track anyone. Yes, even the President of the United
+States. The Times, Privacy Project obtained a dataset with
+more than 50 billion location pings from the phones of more
+than 12 million people in the United States.6 According to
+the Times, this was a random sample from 2016 and 2017.
+Most online users understand that apps conduct some
+degree of online location tracking for personalization.
+However, it is often difficult to understand the big picture, so
+an example will be helpful.
+As part of the Privacy Project, the New York Times was able
+to use publicly available information to deanonymize and
+
+## Page 326
+
+then track the location and movements of President Trump.
+If you are interested in visually following the president’s
+movements that the Times tracked, that map is accessible at
+http://mng.bz/2joa.
+The Times was able to create a trail of the president’s
+movements because there was a cellphone in the proximity
+of the president, and that phone probably had an app that
+was broadcasting the phone’s location coordinates.
+On the map, the beginning of the trail represented the
+president’s location at the Mar-a-Lago club in Florida. From
+this point forward, the president’s location changes could be
+captured easily. The next stop was the president’s golf club,
+and this is where the power of location tracking comes to the
+fore. The president’s public schedule would typically list his
+meetings, and in this case, he was meeting with Prime
+Minister Abe of Japan. Combining the president’s location
+data with his public schedule enabled the Times to track not
+just the president, but Japan’s PM as well.
+The Times was then able to track the president when he was
+having lunch at the Trump International Golf Club and finally
+when he returned for a working dinner with Prime Minister
+Abe.
+As if this was not interesting enough (or unnerving,
+depending on your perspective), this tracking also enabled
+the Times to identify the device that was pinging location
+data. That device (more precisely an app on that device) had
+
+## Page 327
+
+also broadcast location data at a nearby Secret Service field
+office.
+This enabled the journalists to identify the device owner and
+map them to their place of work and residence with
+precision. That information, when combined with public
+information, helped identify the device’s owner’s family
+details.
+This experience of involuntarily broadcasting location data,
+identifying yourself and further revealing biographical
+information, is not unique to this individual. It can happen to
+anyone using a mobile device that transfers data back to a
+server. This is why you need to use security controls to
+protect data from privacy harms.
+The same security techniques that are used to protect your
+data from external hackers and bad actors can be used to
+prevent privacy harms from internal bad actors and
+maladroit employees. The rest of this section will focus on
+protecting your data while in transmission and at rest.
+5.2.2 Protecting data in motion
+As you have seen in previous chapters, more and more data
+that companies use and process tends to be unstructured.
+That presents a challenge in terms of being able to identify,
+detect, and protect data with privacy implications. It is
+therefore critical that you have clear privacy protections in
+place for data in motion (when data leaves your company’s
+systems and before it lands in the hands of the recipients).
+
+## Page 328
+
+This is where there is an interesting overlap between
+security and privacy. If someone were to intercept data while
+it was in motion between two systems, that security
+violation would almost inevitably lead to privacy harms. We
+will discuss how to reduce the impact of this privacy harm by
+applying obfuscation techniques to the data before you
+transport it, but you will also want to reduce the likelihood of
+this data being intercepted by applying specific controls to
+your data.
+You will want to come up with security strategies in
+partnership with your security team, but we’ll look at a
+foundational checklist to get started. The following list is a
+starting point, but security experts may be able to
+recommend more updated or applicable tools.
+For your most sensitive data being sent via electronic
+transmission, you should consider the following:
+The data must ideally be subject to end-to-end
+transit encryption at the service layer with mutual
+TLS where technically feasible. Where mutual TLS
+is not feasible, you must try to use regular
+SSL/TLS, since unencrypted HTTP could pose
+security risks.
+
+## Page 329
+
+Prevent distribution via email because email is
+inherently insecure; this is a more common risk
+vector than many leaders appreciate, since in
+companies that have several products and millions
+of customers, it is common among engineers to
+share user details over email and chat programs
+while they build features, and especially when they
+troubleshoot bugs. This creates multiple copies of
+the data, thereby increasing the attack surface,
+and makes it that much harder to audit and trace
+where these copies live and to create privacy
+access controls. Additionally, even engineers who
+know better often use email to send sensitive
+business data when in a rush, thinking they will do
+it “just this one time.” Over time, these instincts
+become habits. This is how phishing attempts
+succeed—external attackers can use emails as an
+entry point into company IT systems and exfiltrate
+data that is privacy-sensitive.
+
+## Page 330
+
+Track and customize privacy controls based on the
+two points of motion for data. For example, as it
+undergoes processing and analysis, data can move
+From your internal data center to another internal
+data center
+From your internal data center to an external data
+center
+From your internal data center to a public cloud
+instance you own
+From a public cloud instance you own to another
+public cloud instance you own
+You will want to apply encryption techniques customized
+to each of these transmission paths.
+The preceding checklist will need to be customized for your
+company, but you should use the following best practices:
+Classify the data before transmission, as we have
+discussed.
+Work with your security team to gauge the
+likelihood of interception when the data is in
+transit and when it is stored by a third party.
+Work with your legal team to understand any
+contractual or legal requirements stemming from
+the data transfer, especially if any of the data
+transfers are transnational in nature.
+Ensure that you have an understanding of how
+data replication will affect the transfers, since each
+copy of the data could add to your risk score.
+
+## Page 331
+
+Ensure that all product and engineering teams
+have a seat at the table, since they will have more
+awareness about data movements than privacy
+and security teams whose job it is to monitor them
+and to build controls to mitigate privacy harms.
+Remember, this list is a starting point. You should use the
+context from your data classification and inventory efforts to
+build a process that truly captures your risk cases and
+needs.
+5.2.3 Protecting data at rest
+Preventing privacy harms is critical when data is stored in
+the persistence layer—your databases. You will need to
+make sure that appropriate controls are in place before a
+user or an automated process can access stored data:
+Access controls and multi-factor authentication
+(MFA)
+Password-protected account or link
+Let’s explore these two requirements in detail, since
+managing access to data can help reduce unneeded access
+to it and thereby also reduce transmission privacy risks.
+ACCESS CONTROL AS A PRIVACY TOOL
+The following authentication and authorization tooling can
+help manage access to sensitive data:
+
+## Page 332
+
+Mandate the use of a unique employer-provisioned
+identifier (such as email address or user ID) and
+password to authenticate to all employer-related
+information resources, networks, and data. The
+same password may not be used for more than
+one account (for example, the identity and access
+management password must be different than the
+GitHub password, unless single sign on [SSO] is in
+place).
+Any production user account passwords, secrets,
+cryptographic keys, tokens, API keys, or other
+sensitive material must not be logged or stored in
+cleartext, source code, or any other unapproved
+tool, including but not limited to wikis, Google
+Docs, spreadsheets, analytics events, or local
+development workstations.
+
+## Page 333
+
+Passwords and authentication mechanisms must
+satisfy the following requirements, unless
+otherwise specified by regulatory, compliance, or
+legal requirements:
+Not contain the user’s account name
+Be a minimum of eight characters
+Contain characters from at least three of the
+following categories: uppercase letters of European
+languages (A through Z), lowercase letters of
+European languages (a through z), base 10 digits (0
+through 9), non-alphanumeric characters
+(!@#$%^&*()_+|~=\{}[]:";'<>?,./), or any
+Unicode character that is categorized as an
+alphabetic character but is not uppercase or
+lowercase.
+Passwords must not contain words similar to
+usernames, dictionary words, keyboard patterns, or
+character-to-number substitutions.
+Lock out users for at least 30 minutes after six failed
+login attempts.
+For the PCI environment or where multifactor
+authentication (MFA) is not enforced, passwords
+must be rotated at least every 90 days.
+Break glass access (e.g., admin, root) to production
+machines must require multifactor authentication
+and be limited to no more than 20 hours.
+Idle timeouts for information resources must be set
+to no more than 30 minutes and require users to re-
+authenticate to re-activate the idle session.
+
+## Page 334
+
+Passwords and secrets on managed information
+resources must not use vendor-supplied default
+values and must adhere to the aforementioned
+requirements.
+As previously stated, the democratized and highly siloed
+development process means that engineers are often free to
+collect and store data as they please. This data store is like a
+ticking time bomb, except that multiple copies of privacy-
+sensitive data means that you possibly have multiple time
+bombs. While it is prudent to not have such detonable
+devices, it is critical that you manage access to this data,
+lest someone inadvertently light a match. Access control
+helps you achieve that goal to a degree, and the preceding
+list represents a starting point that you will wish to add to,
+based on your exposure and risk.
+ENCRYPTION AS A PRIVACY TOOL
+Just as you can manage access to data using access control
+mechanisms, you can modify the data in a way that if
+someone were to access it, they could not do much damage.
+Encryption is one such tool, and while this privacy-focused
+book is not intended to build your expertise in encryption,
+this section will highlight how you can use encryption to
+prevent privacy harms.
+Let’s assume that the specific privacy threat you wish to
+negate is one where someone other than the intended
+recipient of sensitive data is able to decrypt and consume
+data in the clear. In order to execute upon this requirement,
+
+## Page 335
+
+you will need to ensure that any compromise of a service
+account with access privileges to read or write from the
+bucket (where “bucket” refers to the storage unit on the
+cloud computing system like Amazon Web Services) or of the
+service account (at a third party, like a public cloud provider)
+with read access to the bucket, alone should not
+compromise the data.
+To do so, you will want to ensure that the data is protected
+using client-side encryption; server-side encryption is
+insufficient, because the account at the server itself could be
+compromised. You will want to make sure the data is
+protected cryptographically before the data hits the server.
+NOTE Your security teams can provide more detail, but client-side encryption is the
+act of encrypting data before it is transmitted from a user device to a server.
+This is a limited example for a specific use case. The larger
+point is that in order to prevent privacy harms arising from
+data sharing, you need to think about how to manage access
+to the data and the comprehensibility of the data. These
+controls ensure that even as data ends up being
+transported, the privacy impact can be managed.
+The following list identifies some best practices for
+cryptography if you use it as a privacy device during data
+sharing. You will want to work with your security team and
+crypto experts to shape your specific strategy; this list is
+meant to be instructive rather than exhaustive:
+
+## Page 336
+
+Ensure that cryptography accounts not just for
+data but also for metadata. Metadata could often
+prove to be a goldmine of information for an
+attacker. Metadata can provide information about
+the data, its relationships to other data, and its
+dependencies with external data, and creative
+attackers could use data lineage or links to identify
+users. They may even be able to use raw
+computing power to connect various aspects of
+metadata to infer the data itself without ever
+exfiltrating the data. This would be a silent breach,
+where no customer data ever leaves your systems,
+but the impact could be the same.
+Do not cavalierly share data just because it is
+encrypted. Cryptography is not a catch-all solution
+for data sharing. Cryptography-intercepting
+proxies do exist and can be used to mine data.
+Share only the minimum information needed to
+get the job done. Cryptography makes the process
+of data sharing itself safer, but it has limitations.
+We will look at techniques shortly to make the data
+itself safer for sharing.
+To make sure you cover some potential
+cryptography weak points, keep the following in
+mind:
+Errors in architecture, policy, or coding can still
+reveal secrets.
+Partners may not be completely reliable (due to
+rogue employees or contractors, or network
+configuration errors—intentional or unintentional).
+
+## Page 337
+
+Ensure alignment with your business stakeholders,
+since encrypting and decrypting data takes time
+and will almost certainly affect throughput.
+Customers can also be fickle in that they often
+have the mutually incompatible expectations of
+complete security and negligible latency.
+Key management is “key” when it comes to
+encryption:
+Encryption keys must be rotated on a regular basis,
+since cryptographic algorithms are continually being
+analyzed and vulnerabilities can be found.
+Symmetric keys and private keys must be carefully
+protected.
+If there’s a public key, it needs to be distributed in a
+certificate to prevent interception attacks.
+As I have mentioned previously, you need to tailor
+your encryption to the state of the data:
+Data at rest ideally requires envelope encryption—a
+key hierarchy is established. Never encrypt all data
+in a database with the same key.
+Data in motion could require the use of HTTPS/TLS.
+Very sensitive data must still be encrypted, even
+over an encrypted connection. You may consider
+alternative ways to protect data, such as SFTP,
+IPSEC, etc.
+Next, we will look at making the data itself less potent,
+should our security-centric tools like cryptography fail during
+data sharing.
+
+## Page 338
+
+5.3 Obfuscation techniques for privacy-
+safe data sharing
+I used the example of data sharing by taxi or other mobility
+companies earlier to explain use cases where data may need
+to be shared so that these companies can operate with
+regulatory clearance. Having already looked at why such
+companies need to share data, it is now time to examine
+how such sharing of data could pose privacy risks.
+If you are designing an app, and data sharing is part of the
+offering, you need to watch for the following red flags in the
+app:
+Uniquely identifying individuals without sufficiently
+anonymizing the data
+Placing individuals at a certain places and times for
+tracking
+Lacking consent for and visibility into how data is
+shared and with whom
+Identifying others connected to a user who may
+not consent to data sharing, even if the user did
+If I were to evaluate a ridesharing app proposal that shared
+the following data, I would raise more than an eyebrow:
+Real-time tracking of a trip from start to finish
+
+## Page 339
+
+Precise trip start and stop coordinates (later in this
+chapter you will see how a fitness app identified
+military service members with imprecise location
+data)
+Lack of privacy guidelines on the part of the entity
+receiving this data
+There is no way to unshare data once it’s shared. And when
+it comes to taxi companies, who you are and where you are
+may be all someone needs to identify and reach you. When
+a taxi company shares location and other identifying data
+with a third party, it is impossible to know what a recipient
+of your data will do with it, or how carefully they can protect
+it.
+But this is not just about companies and how they may
+struggle with privacy and data sharing. Let’s look at an
+example where privacy fell by the wayside when it came to
+the United States military.
+5.3.1 Data sharing and US national security
+Strava, the fitness tracking app, uses satellites to record its
+users’ runs, bike rides, and other workouts.7 It also makes
+many of these routes available for public view on its Global
+Heatmap, which shows where people around the world go
+running and cycling.8
+This cool feature ended up creating headaches for Strava
+and the US military. US service members had been recording
+their runs around the compounds of their military bases.
+
+## Page 340
+
+That information made it onto the Strava Heatmap and
+unknowingly revealed their locations.
+Twitter users figured out that they could identify outlines and
+activity patterns on US military bases in places like Syria,
+Afghanistan, and Somalia. The biggest potential threat was
+not the base locations themselves, which are public, but
+what went on in and around the bases. The map showed
+activity patterns within and around the base, giving away
+supply and patrol routes, as well as the precise locations of
+facilities like mess halls and living quarters. Further, users
+could get location-specific data, allowing them to link map
+activity to specific profiles. The result was that you could find
+out which service members were in which locations at a
+given point in time.
+Strava responded, saying that all users have the ability to
+set activities to private so they’re not included in the
+Heatmap. While that explanation is technically correct, when
+it comes to security and privacy, the companies building the
+products will own the outcomes, not the users.
+As a former product manager, I understand what Strava was
+thinking when it built the Heatmap—it provides visibility into
+adoption and gives users a sense of belonging to a fitness-
+centric community. This, in turn, creates a positive
+motivation to run and then log your data. This was especially
+true in the early days of social media, when sharing was
+empowerment.
+However, your feature is only as privacy-safe as the most
+creative invader of data privacy. If a privacy expert with an
+
+## Page 341
+
+eye on the risks around data sharing had reviewed this app
+design, they may have raised questions like these:
+Who were these heatmaps visible to?
+What additional information can be inferred from
+them about Strava users?
+Could we alter the data to make it less identifiable
+when it comes to sensitive locations like military
+bases, refugee housing, etc.?
+Here are some other lessons from this incident:
+Data sharing is not just about sharing data
+between one company and another.
+Whenever data you have collected from someone
+else leaves your company, you are essentially
+sharing that information with outside entities.
+In the age of social media, the combination of
+publicly available information, data on the dark
+web obtained by way of breaches, and ML-based
+tools that combine data make identifying people
+easier than ever.
+For privacy, you need to think about data sharing any time
+data leaves your domain. This is true when you are a
+company collecting user data, and it is also true when you
+are just an individual broadcasting your data via your cell
+phone. This is not just about privacy, but also about safety.
+It is therefore vital that anyone creating an app that shares
+data also builds in privacy techniques to anonymize this data
+
+## Page 342
+
+and/or reduce access to it. Having set this context, let’s look
+at some techniques to anonymize data for privacy before
+sharing it.
+5.3.2 Data anonymization: The relationship between
+precision and retention
+When it comes to data collection, I have built architectures
+with this key principle: the more precisely identifiable the
+data, the lower the retention period should be. This is a core
+privacy principle in action that drives the data classification
+conversations in many companies: precision and retention
+should have an inverse correlation. The more precise the
+data—that is, the more likely it is to identify specific users—
+the lower its retention period needs to be. In much the same
+way, precision and access control bear an inverse
+correlation. The logic behind this theory is that the more
+precisely identifiable the data is, the more likely it is that
+privacy harms can emanate from it, thereby shorter
+retention periods and more limited access are key to limiting
+the privacy harms.
+This statement is equally relevant for data sharing. Figure
+5.4 shows how you can split your systems in terms of how
+precise the data is that they contain and how you’d adjust
+the retention periods accordingly.
+Whenever I or my teams evaluate vendors with whom we
+share data, we categorize our data either as operational or
+as archival. The former is needed for regular business
+processes and is therefore extremely precise, whereas the
+
+## Page 343
+
+latter is needed for more strategic research and therefore
+could be more aggregated.
+For example, once a customer whose data it is cancels their
+account, we’d delete data that personally identifies that
+customer within a year; we then would have the option to
+retain a portion of less precise identifying data for longer.
+We’d ensure that any vendor that receives personally
+identifying data from us compartmentalizes their data
+storage units into two tiers, much like in figure 5.4. The
+operational data domain has precise data and a lower
+retention period, and the archival data domain has
+aggregated and therefore imprecise data with a higher
+retention period.
+Figure 5.4 The more precise the data, the lower the retention period
+
+## Page 344
+
+To continue our previous example of a taxi company, let’s
+assume that the company shares data with a vendor that
+analyzes prices. This is what I’d recommend to a vendor
+before sharing customer data with them:
+Delete unique identifiers and precise times and
+geolocations after 90 days.
+Delete coarsened times and geolocations after 2
+years.
+Internal, indefinitely retained data should be at
+least 5-anonymous or ε (epsilon) = 1.6
+differentially private.
+Bulk shared data should be at least 100-
+anonymous or ε = 4.6 differentially private.
+As you can see in the first two points, it is possible to tailor
+retention periods based on the precision of the data. The
+third and fourth points involve concepts that we will discuss
+later in the chapter. In short, however, as you coarsen data
+to make it less identifying, it is possible to measure the
+privacy impact of those changes. This is where k-anonymity
+and l-diversity come in; they are data-driven objective
+concepts to help protect privacy.
+5.3.3 Data anonymization: The relationship between
+precision and access
+Just as there is an inverse relationship between data
+precision and its retention, there should be a similarly
+inverse relationship between precision and availability.
+
+## Page 345
+
+When you share data with a partner, you should insist that
+they anonymize data in memory, especially if you share
+granular data with them. Some techniques include
+Not persisting data used solely for aggregation
+Keeping individual-level data in memory; only
+saving processed data to disk
+This means that precise data is short-lived and less
+accessible, while more aggregated data is available to more
+people, since it is on disk, where you can also manage
+access more effectively.
+To prevent personal identification, you should remove or
+replace any identifiers that uniquely identify someone. You
+will want to do this before sharing the data or have the
+vendor do this as soon as they receive the data and
+complete mapping it at their end.
+There are two ways to dispose of personally identifiable data
+(like Social Security numbers, email addresses, etc.):
+Replace it with internal, uniquely generated values
+before sharing data.
+Replace it with values generated by a keyed
+pseudorandom function (such as HMAC-SHA256).
+We have discussed, in the context of taxi companies, the
+potency of data that identifies a customer as well as their
+location. Just as we can delete IDs that personally identify
+customers and replace them with internal IDs, there are
+techniques available to obfuscate location data:
+
+## Page 346
+
+Round times to the nearest 30-minute increment
+(for example, 12:25 p.m. would be rounded to
+12:30 p.m.)
+Convert GPS coordinates to street segment
+start/center/end.
+Truncate GPS coordinates to three decimal
+degrees; this is critical, since fewer decimal points
+in a GPS location makes the location less precise.
+To a reader who may not have dealt with the precision of
+location data, this may seem like a lot of work, especially
+considering the volume of data that apps generate and
+companies consume. It would be helpful to understand how
+this coarsening can alter the data and make it more privacy-
+safe.
+Let’s assume you have a table with two entries:
+Trip A: Started at 12:22 p.m., and ended at 1:09
+p.m.
+Trip B: Started at 12:24 p.m., and ended at 1:11
+p.m.
+A key example of privacy harm is being able to uniquely
+identify an individual and/or an activity. If you needed to
+share this data for data analysis purposes, it poses a privacy
+risk, since you may be able to identify who took each trip
+based on the start and end times, and other public data. The
+goal of coarsening data is to make any two unique activities
+more similar, so that the ability of an engineer or automated
+process to identify them as unique decreases.
+
+## Page 347
+
+If we were to round the time in the preceding example to
+the nearest half hour, the entries would look like this:
+Trip A: Started at 12:30 p.m., and ended at 1:00
+p.m.
+Trip B: Started at 12:30 p.m., and ended at 1:00
+p.m.
+These obfuscations make the trips less unique and therefore
+the individuals who took them less identifiable, without
+hurting the aggregate data analysis. Figure 5.5 makes the
+point more visually. The left column represents individual
+rows of data, with each row representing a specific ride
+based on the starting time. In this simple example, all the
+rides began at separate times, so no two rides have the
+same start time.
+
+## Page 348
+
+Figure 5.5 Aggregate data for privacy protection
+Let’s assume we wish to perform analysis on rides for
+customer service, pricing, etc. In this case, we may not care
+about individual rides but rather about a cohort of rides
+broken up by some distinguishing features. We could create
+cohorts based on the hour (2 p.m., 3 p.m. and 4 p.m.) if
+there is no need to know exactly what the start time of each
+ride is. That data is not necessary as long as we know what
+cohort the ride belonged to. Also, having specific start times
+
+## Page 349
+
+keeps open the risk that people taking those rides could be
+identified, especially with external data.
+Therefore, when it comes to our analysis use case, rather
+than using the left column with individual trips identified
+with their start times, we could use the right column with
+trips grouped based on the hour of their start time. The left
+column represents the operational version of the data, while
+the right column represents an archival account of the data.
+The former can be used when you need more granular
+information (for example, you may need to know the specific
+start time of a trip in case you need to look it up for
+customer support, refunds, etc.); otherwise the latter can be
+used.
+These examples may be a bit simplistic, but the key
+message here is to avoid blindly sharing data that
+individually identifies the folks whose data it is.
+If you thought access control was challenging within an
+organization, it is even more challenging when it comes to
+managing access granted to partners. When I evaluate data
+sharing protocols, I ask for access control to make sure that
+once a partner gets data, they manage who on their side can
+access it. Here is how I have accomplished this in practice: I
+ask that the partner ration the availability of their APIs to
+those who want to access the data.
+My teams have implemented tools to check if engineers and
+data scientists who have access to sensitive encrypted data
+still need it. We have routinely sampled the data and audited
+it to see when it was last decrypted. Often, we have found
+
+## Page 350
+
+that teams had requested keys but hardly or never used
+them to access data.
+In those cases, we swapped the keys to check if the
+engineers ever complained. Seventy-five percent of the
+time, we never heard back. What this means is that people
+often think they will need more data than they do, and even
+if they don’t use it, their ability to access it poses a privacy
+risk. You will want to use techniques like these internally and
+while sharing data as well.
+You may have noticed that in previous chapters and sections
+we have looked at access control using tools, but when it
+comes to data sharing we have taken a more holistic view.
+We have deployed policies and altered data so as to reduce
+how much data and how precise the data is that vendors and
+partners have access to. This distinction is critical.
+With internal stakeholders, you may feel more confident that
+your access controls plus audit checks can mitigate privacy
+harms. With external partners, it is possible that they may
+have access to other data that could uniquely identify a user
+and that their ability to audit who accesses the data and how
+they use it may be suboptimal. Therefore, rather than hang
+your hat purely on access control, you will want to coarsen
+the data so that even if someone were to gain access to it,
+and even if they combined it with other data, the privacy
+harm could be contained.
+5.3.4 Data anonymization: Mapping universal IDs to
+internal IDs
+
+## Page 351
+
+Data sharing often presents interesting dilemmas. You may
+have some use cases where you want to identify someone
+internally, but you want to share their data in a way that the
+external partner receiving their data cannot identify them.
+For those use cases, you may want to create a table that
+links their external identifiers (such as their passport
+number) to custom internal identifiers. If you do this, you
+will want to carefully manage access to this linking table, so
+as to prevent privacy issues. If you do not manage access to
+this table, it would be straightforward for internal and
+external actors to connect external data to internal data via
+this table.
+Let’s look at an example. Table 5.1 is an example of a taxi
+company that retains trip data mapped to the passport IDs
+of customers. I realize that cab companies do not normally
+collect passport numbers, but let’s assume they do for this
+example.
+Table 5.1 Trip data mapped to passport numbers
+
+## Page 352
+
+ 
+        
+Passport number
+ 
+      
+ 
+        
+Trip start
+ 
+      
+ 
+        
+Trip end
+ 
+      
+ 
+        
+5037678987
+ 
+      
+ 
+        
+1 p.m.
+ 
+      
+ 
+        
+2 p.m.
+ 
+      
+ 
+        
+3239892821
+ 
+      
+ 
+        
+2 p.m.
+ 
+      
+ 
+        
+4 p.m.
+ 
+      
+ 
+        
+2398753116
+ 
+      
+ 
+        
+12 p.m.
+ 
+      
+ 
+        
+4 p.m.
+ 
+      
+ 
+        
+3873736111
+ 
+      
+ 
+        
+11 a.m.
+ 
+      
+ 
+        
+11:30 a.m.
+ 
+      
+Let’s assume the cab company wishes to share this data with
+a vendor so that they can discern what times of the day
+demand is higher, so that they can adjust prices accordingly.
+It would be risky for the cab company to share passport
+
+## Page 353
+
+numbers with this vendor, so in order to reduce the privacy
+risk, we could first create an internal mapping table—
+something like table 5.2.
+Table 5.2 Passport numbers mapped to internal Ids
+ 
+        
+Passport number
+ 
+      
+ 
+        
+Internal ID
+ 
+      
+ 
+        
+5037678987
+ 
+      
+ 
+        
+ghsvfydvbdv
+ 
+      
+ 
+        
+3239892821
+ 
+      
+ 
+        
+hgavdchgdfe
+ 
+      
+ 
+        
+2398753116
+ 
+      
+ 
+        
+dhbchchvhge
+ 
+      
+ 
+        
+3873736111
+ 
+      
+ 
+        
+wdjhpdjdiehf
+ 
+      
+
+## Page 354
+
+In table 5.2, we have created internal identifiers that map to
+passport numbers. How this helps protect privacy becomes
+clear in table 5.3.
+Table 5.3 Shared data with internal IDs
+ 
+        
+ID
+ 
+      
+ 
+        
+Trip start
+ 
+      
+ 
+        
+Trip end
+ 
+      
+ 
+        
+ghsvfydvbdv
+ 
+      
+ 
+        
+1 p.m.
+ 
+      
+ 
+        
+2 p.m.
+ 
+      
+ 
+        
+hgavdchgdfe
+ 
+      
+ 
+        
+2 p.m.
+ 
+      
+ 
+        
+4 p.m.
+ 
+      
+ 
+        
+dhbchchvhge
+ 
+      
+ 
+        
+12 p.m.
+ 
+      
+ 
+        
+4 p.m.
+ 
+      
+ 
+        
+wdjhpdjdiehf
+ 
+      
+ 
+        
+11 a.m.
+ 
+      
+ 
+        
+11:30 a.m.
+ 
+      
+
+## Page 355
+
+If the cab company were to share the raw and personally
+identifying data (table 5.1 with passport numbers), that
+would pose a high degree of privacy risk. However, sharing
+the same data with internal IDs mapped to trip data (table
+5.3) rather than passport numbers enables the kind of
+analysis and planning that’s required without revealing
+exactly who took those trips. That way, the cab company can
+retain the data for marketing, retargeting, and discounts if
+necessary, without sharing that data with a vendor whose
+analysis does not require that data.
+This is especially critical for several reasons:
+Any time data is shared, you need to protect it
+using encryption or other means of access control
+while the data is in motion, so as to reduce the
+risk of infiltration.
+Once the data reaches the vendor, you are
+vulnerable to any security mishaps that happen at
+the vendor; reducing the identifiability of the users
+whose data it is can help manage privacy risk.
+Finally, any time you share data, you are in
+essence making a copy of the data; the more
+copies of personally identifiable data there are, the
+more resources you need to expend to protect
+them. As any seasoned privacy pro will tell you,
+the best data protection is to not have that data to
+begin with. Making unneeded copies of data is
+foolish, especially when mapping tables like the
+preceding ones enable you to do the analysis
+without sharing personally identifying data.
+
+## Page 356
+
+In too many companies, data is collected, processed, and
+shared without any understanding of the attendant privacy
+harms. My emphasis on classification, inventory, and
+obfuscation seeks to help manage the risk every step of the
+way. Building these protections into this data will help you
+avoid a situation where algorithms and automated processes
+that work faster than humans cause privacy harms that are
+hard to detect until it is too late. These techniques should be
+seen as a progression, where each set of ideas builds on the
+ones that come before.
+5.4 Sharing internal IDs with third parties
+We have discussed how sharing internal IDs can be safer
+(relatively) from a privacy standpoint than sharing identifiers
+that are universally applicable, like Social Security numbers.
+As with all things data, this sharing is not entirely risk-free
+either.
+External disclosure of users’ internal IDs could create
+identification risks, even if these IDs are not linked to data
+that personally identifies a user. As some of these identifiers
+are long-lived and never change over their lifetime, exposing
+them to external parties could enable tracking of the same
+users across multiple datasets (either to the same party or,
+worse, to multiple parties if these datasets are shared or
+leaked) over an extended period of time.
+As a general principle, internal identifiers should never be
+exposed in the dataset when sharing with external parties;
+
+## Page 357
+
+they need to be pseudonymized in such a way that the
+original ID cannot be reconstructed from the pseudonymized
+identifier, while maintaining the consistency between the
+values of the dataset. Further, if hashed internal identifiers
+are externally disclosed and are subsequently subject to a
+breach, the hashing prior to sharing might enable you to
+determine which vendor was involved in the breach.
+NOTE Pseudonymization is a de-identification technique in which identifying data is
+replaced with surrogates (also known as tokens) in a consistent manner. This
+contrasts with other de-identification techniques, such as redaction or
+generalization, in that the surrogates retain their referential properties within the
+de-identified dataset. Furthermore, depending on which transformation is used to
+produce the surrogates, these surrogates may be reversed back into their original
+sensitive values by an authorized user. Encryption and secure hashing are examples
+of pseudonymization.
+In short, do not share internal identifiers carelessly, just
+because they are less identifying of your customers than a
+Social Security number.
+There are several variations in terms of datasets that contain
+internal identifiers, so we’ll look at three distinct use cases
+to advise on how you can treat these identifiers in a sharing
+context.
+Following the principle of data minimization, which stipulates
+that you should only use as much data as necessary to
+accomplish a specified purpose, an internal identifier should
+only have a given pseudonymized value within the intended
+session. Depending on the intended session boundary, a
+user could have multiple sessions within a dataset or a
+session spanning multiple datasets.
+
+## Page 358
+
+5.4.1 Use case 1: Minimal session (no linking of user
+activity is needed)
+As a user of customer data, you’d use this approach if you
+are sharing the smallest data element within the dataset. For
+example, suppose you run an online retail website and you
+are sharing details with the delivery company to facilitate a
+transaction, like a single order. As there is no explicit
+intention to correlate sessions for each user within the
+dataset, an internal identifier should have different
+pseudonymized values in different sessions. Since the
+dataset you are sharing is very granular, you will need to
+obfuscate the identifiers accordingly.
+SUGGESTED PSEUDONYMIZATION TECHNIQUES
+You should use a cryptographically secure pseudorandom
+number generator (CSPRNG) to generate a 128-bit random
+number as the pseudonymized identifier. This number has
+the desired high-quality randomness and is length-
+compatible with the internal identifier (128-bit). This is the
+recommended technique. Note that I am assuming a 128-bit
+identifier for the sake of this example to keep it
+straightforward.
+When CSPRNG is unavailable, a generic pseudorandom
+number generator (PRNG) can be used instead. Even though
+it is not as robust as CSPRNG, it is still acceptable for the
+purpose. This use is only a last resort, and it should require
+additional review and approval.
+
+## Page 359
+
+5.4.2 Use case 2: Single session per dataset (linking of
+the same user’s activity within a dataset)
+Unlike case 1, where we were sharing a solitary activity, this
+use case involves sharing a session that could have multiple
+actions. For example, suppose you run an online retail
+website. The user used your platform to buy merchandise
+and then save something else on their wishlist. You then
+share these details with an analytics platform that helps
+advise you on improving your user interface to improve the
+customer shopping experience.
+In this case, each dataset is considered to be a single
+independent session. All data elements associated with the
+same internal identifier should have a deterministic and
+consistent pseudonymized value within the dataset. Typically
+this can be achieved by using a cryptographic or secure
+hashing function, or by utilizing a lookup table to maintain
+consistent pseudonymized internal identifier values within
+the dataset.
+SUGGESTED PSEUDONYMIZATION TECHNIQUES
+Apply the HMAC-SHA256 cryptographic function to the
+internal identifier with a unique, randomly generated 256-bit
+cryptographic key for the dataset. The 256-bit output hash
+value can then be used as the pseudonymized identifier. If it
+is desirable to maintain the 128-bit length as an internal
+identifier, the hash can be truncated to 128 bits. The HMAC
+key should only be used once and disposed of right after.
+
+## Page 360
+
+Alternatively, apply the SHA-256 secure hashing function to
+the internal identifier with a unique 256-bit randomly
+generated salt for the dataset. This method also produces a
+256-bit output hash value, and it can be truncated to 128
+bits if needed.
+Another option is to generate a random pseudonymized
+value for each internal identifier as in use case 1, but to
+store each internal identifier and its pseudonymized value in
+a lookup table to maintain consistency. This option should be
+considered when a cryptographic or hashing function is
+unavailable. The lookup table must be secured and disposed
+of after use. This option has additional cost, either in
+memory consumption or external service dependency.
+As different datasets are considered as separate sessions,
+the cryptographic key, salt, or mapping table should not be
+shared between datasets.
+5.4.3 Use case 3: Session spanning datasets (linking
+across datasets)
+To continue our example of the online retail store, let’s
+assume you wish to share multiple examples of purchases
+and abandonment (when users add products to carts but do
+not buy) with an analytics company so as to help predict
+revenue. In this case, obfuscating identifiers requires some
+consideration. When a pseudonymized identity needs to be
+consistently maintained across multiple datasets for the
+same external party, it is an extension of use case 2.
+
+## Page 361
+
+SUGGESTED PSEUDONYMIZATION TECHNIQUES
+The same cryptographic key (for HMAC-SHA256) or salt (for
+SHA-256) should be used when pseudonymizing these
+datasets. Proper care must be taken to ensure these keys or
+salts are properly protected internally, and each key or salt
+should be used only for one external party. HMAC-SHA256
+performs two rounds of hashing, so it has roughly double the
+computation cost compared to SHA256. It has the benefit of
+using standard cryptographic primitives, which take care of
+key length and do not require the concatenation of the
+internal identifier and salt.
+You should maintain one lookup table for each external
+party. Each lookup table contains a version of the ID linked
+to the internal dataset, so that in the event that the external
+party has a breach, you will know exactly which one was
+breached based on the internal ID that ends up getting
+exfiltrated. You can then notify the customers impacted by
+that specific breach rather than having to contact everyone.
+Also, the table must be encrypted according to best practices
+with minimally necessary access privileges.
+5.4.4 Recovering pseudonymized values
+In certain scenarios, the pseudonymized identifiers may
+need to be recovered internally after being shared with a
+third party. For example, a third party may return some of
+the data with their own metadata added. It would then be
+necessary to recover the original internal identifiers from the
+pseudonymized values. There are two possible ways to
+
+## Page 362
+
+achieve this: utilizing a mapping table to cross-reference
+between raw internal identifiers and their pseudonymized
+values, or using a two-way cryptographic function to encrypt
+internal identifiers to pseudonymized values and recovering
+them through decryption.
+MAPPING TABLE
+Using a generic two-way mapping table to store every
+generated pseudonymized identifier with its original internal
+identifier will enable convenient lookup at the cost of storage
+space and maintenance overhead. This technique is
+advantageous for large-scale data processing, such as data
+warehouse operations and analytics, because the internal
+identifier values can be recovered with a simple table join.
+The table must be encrypted according to best practices with
+minimally necessary access privileges.
+TWO-WAY CRYPTOGRAPHIC FUNCTION
+Instead of using a one-way hashing function, a proper two-
+way encryption/decryption function can be used to generate
+a pseudonymized identifier with similar properties.
+Specifically, instead of applying HMAC-SHA256 to internal
+identifiers to generate pseudonymized values, you can
+encrypt the internal identifiers using AES with a 256-bit key
+(in CBC mode with null IV). The original internal identifiers
+can then be recovered by simply decrypting the
+pseudonymized values with the same key. Unlike one-way
+hashing, the generated value should never be trimmed. If a
+shorter length is desired, a 128-bit key should be used
+
+## Page 363
+
+instead to produce 128-bit output value. This method incurs
+no additional storage overhead, but you will need to perform
+the decryption operation on every use.
+NOTE The use of a two-way encryption/decryption function is solely for the purpose
+of generating pseudonymized values, not for general data encryption. As such, some
+of the more robust modes of operation, such as AES-GCM are omitted because they
+either don’t add value (e.g., feedback mode gains no advantage as key length is
+greater than or equal to the internal identifier’s bit length), or they would
+significantly increase output length without obvious benefits (e.g., inclusion of
+nonce and authentication tag).
+5.5 Measuring privacy impact
+You have now seen several techniques to mitigate
+identifiability, and consequently the privacy harm, when data
+sharing. However, effort is not equivalent to impact, so it is
+vital that leaders use a data-driven process to ascertain the
+privacy impact of these obfuscation techniques. The use of
+privacy techniques will allow you to quantify this impact.
+There are two techniques that can help you measure this
+privacy impact: k-anonymity and l-diversity. You could use
+them concurrently or individually, depending on your privacy
+context.
+5.5.1 K-anonymity
+The most exhaustive work on k-anonymity I have read
+comes from Professor Latanya Sweeney9, but for this book,
+here is an intuitive explanation from Carnegie Mellon
+University10: In k-anonymity, attributes are suppressed until
+
+## Page 364
+
+each row is identical with at least k-1 other rows. At this
+point, the database is said to be k-anonymous. K-anonymity
+thus prevents definite database linkages. At worst, the data
+released narrows down an individual entry to a group of k
+individuals.
+K-anonymity is intuitive to implement, it’s used by Google in
+their ad API, and it provides a minimum guarantee that you
+are one among a minimum cohort rather than being
+uniquely identifiable.
+To see k-anonymity in action, let’s walk through an example
+so you can see how user identifiability fluctuates based on
+data precision. We will look at thousands of rides, where
+each ride has a pickup and a drop-off location. We will vary
+the number of decimal points in the location GPS coordinates
+so that we can provide varying degrees of precision. If the
+GPS location is very precise, it may describe a specific
+address, like someone’s home. If it is less precise, it may
+describe a block or a square mile, in which case a lot of
+different rides could be grouped together. This is similar to
+the earlier example where rounding off the pickup and drop-
+off times enabled us to group multiple rides and protect
+privacy more effectively.
+K-ANONYMITY WITH IMPRECISE DATA
+Table 5.4 shows how k-anonymity works when you have
+different precision levels of location data. In the table, the y-
+axis represents the number of decimal points in the location
+data, while the x-axis represents the k-anonymity value. To
+
+## Page 365
+
+understand what the k-anonymity value symbolizes, here is
+a primer: Let’s home in on the last row and the third
+column. When you have 5 decimal points in a GPS location,
+only 35.5% of location entries had 5 other trip values that
+were similar. This means that the other 64.5% of the entries
+had fewer than 5 values that were similar, rendering them
+identifiable. Removing one decimal point—allowing just 4
+decimals in the GPS—means that in this sample 93.2% of
+data sets had other similar data, thereby reducing the
+likelihood of identification as compared to using 5 decimal
+points. This means that the more precise the data, the lower
+the chance that there will be other data that is similar,
+making each unit that much more identifiable.
+Correspondingly, the higher the k-anonymity value, the
+more private the data.
+Table 5.4 K-anonymity with 0 decimal points
+
+## Page 366
+
+ 
+        
+K-anonymity value
+ 
+      
+ 
+        
+Deci
+mal 
+poin
+ts in 
+loca
+tion 
+data
+ 
+      
+ 
+        
+ 
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+10
+ 
+      
+ 
+        
+50
+ 
+      
+ 
+        
+100
+ 
+      
+ 
+        
+1,0
+00
+ 
+      
+ 
+        
+0
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+1
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.1
+%
+ 
+      
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+
+## Page 367
+
+3
+ 
+      
+99.9
+%
+ 
+      
+99.8
+%
+ 
+      
+99.5
+%
+ 
+      
+97.6
+%
+ 
+      
+95.3
+%
+ 
+      
+87.9
+%
+ 
+      
+ 
+        
+4
+ 
+      
+ 
+        
+97.4
+%
+ 
+      
+ 
+        
+93.2
+%
+ 
+      
+ 
+        
+89.3
+%
+ 
+      
+ 
+        
+73.1
+%
+ 
+      
+ 
+        
+59.3
+%
+ 
+      
+ 
+        
+17.3
+%
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+68.4
+%
+ 
+      
+ 
+        
+35.5
+%
+ 
+      
+ 
+        
+18.3
+%
+ 
+      
+ 
+        
+2.5
+%
+ 
+      
+ 
+        
+1.5
+%
+ 
+      
+ 
+        
+0.9
+%
+ 
+      
+Two trips that have the same value would have to have the
+same pickup and drop-off points.
+In the top row of table 5.4, based on GPS location data with
+0 decimal points, you will see that for all users (100%), you
+can find at least 1 other trip (giving you a k-anonymity of 2),
+4 other trips (giving you a k-anonymity of 5), all the way
+through 999 other trips (giving you a k-anonymity of 1,000)
+users with the same trip value. When you share GPS location
+data with 0 decimal points, you have rendered the users less
+identifiable, with high k-anonymity. The reason this happens
+is that a lot of different pickup and drop-off locations have
+been made equal because of GPS rounding, just as the
+11:21 pickup time and the 11:22 pickup time become 11:30
+with time rounding.
+
+## Page 368
+
+Here your k-anonymity objective is met, but you have
+sacrificed data quality.
+K-ANONYMITY WITH PRECISE DATA
+Table 5.5 shows how k-anonymity works when you have
+very precise location data. The more decimal points you
+have in the GPS coordinates, the more precise the location
+of the user and the more identifiable the user is.
+Table 5.5 K-anonymity with 4 and 5 decimal points
+
+## Page 369
+
+ 
+        
+K-anonymity value
+ 
+      
+ 
+        
+Deci
+mal 
+poin
+ts in 
+loca
+tion 
+data
+ 
+      
+ 
+        
+ 
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+10
+ 
+      
+ 
+        
+50
+ 
+      
+ 
+        
+100
+ 
+      
+ 
+        
+1,0
+00
+ 
+      
+ 
+        
+0
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+1
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.1
+%
+ 
+      
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+
+## Page 370
+
+3
+ 
+      
+99.9
+%
+ 
+      
+99.8
+%
+ 
+      
+99.5
+%
+ 
+      
+97.6
+%
+ 
+      
+95.3
+%
+ 
+      
+87.9
+%
+ 
+      
+ 
+        
+4
+ 
+      
+ 
+        
+97.4
+%
+ 
+      
+ 
+        
+93.2
+%
+ 
+      
+ 
+        
+89.3
+%
+ 
+      
+ 
+        
+73.1
+%
+ 
+      
+ 
+        
+59.3
+%
+ 
+      
+ 
+        
+17.3
+%
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+68.4
+%
+ 
+      
+ 
+        
+35.5
+%
+ 
+      
+ 
+        
+18.3
+%
+ 
+      
+ 
+        
+2.5
+%
+ 
+      
+ 
+        
+1.5
+%
+ 
+      
+ 
+        
+0.9
+%
+ 
+      
+Look at the bottom two rows in the table where you supply 4
+or 5 decimal points for the GPS location for pickups and
+drop-offs. In this case, the k-anonymity is lower because the
+number of users who meet a precise GPS location is lower.
+Therefore, as you go lower in the table, the percentage of
+the cohort that meets the corresponding k-anonymity
+threshold is lower, and it also decreases as you go from left
+to right. For example, when you display 5 decimal points,
+68.4% of users have a k-anonymity of 2, meaning that for
+68.4% of users, you can find one other user with the same
+trip values.
+If we shave off one decimal point and offer GPS locations
+with 4 decimal points, we see that for 97.4% of users, you
+
+## Page 371
+
+can find a similar ride, so they have a k-anonymity value of
+2. As before, the less precise the data, the more anonymity
+you can provide for users.
+On the far right, if we provide 5 decimal points and want to
+provide a k-anonymity of 1,000, meaning we can find 999
+other similar rides, we can only do so for 0.9% of riders, so
+there is very little anonymity, given the precision of the
+location data. The numbers improve somewhat if we remove
+one decimal and round to 4, but we can still provide a k-
+anonymity of 1,000 for just 17.4%, so about 1 in 6 rides.
+If we need a higher percentage of users to meet a particular
+k-anonymity value, we will need to provide fewer decimal
+points of location data.
+K-ANONYMITY WITH INDUSTRY BEST PRACTICE
+In the final view of this data, as shown in table 5.6, I will
+focus on a k-anonymity value of 5, since that is regarded as
+the industry best practice. In this case, you will have
+obfuscated the data such that for each record, there will be
+at least 4 others that are indistinguishable from it, thereby
+making that record more privacy-protected and less
+individually identifiable.
+Table 5.6 K-anonymity of 5
+
+## Page 372
+
+ 
+        
+K-anonymity value
+ 
+      
+ 
+        
+Deci
+mal 
+poin
+ts in 
+loca
+tion 
+data
+ 
+      
+ 
+        
+ 
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+10
+ 
+      
+ 
+        
+50
+ 
+      
+ 
+        
+100
+ 
+      
+ 
+        
+1,0
+00
+ 
+      
+ 
+        
+0
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+1
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+2
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+100
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.9
+%
+ 
+      
+ 
+        
+99.1
+%
+ 
+      
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+ 
+        
+
+## Page 373
+
+3
+ 
+      
+99.9
+%
+ 
+      
+99.8
+%
+ 
+      
+99.5
+%
+ 
+      
+97.6
+%
+ 
+      
+95.3
+%
+ 
+      
+87.9
+%
+ 
+      
+ 
+        
+4
+ 
+      
+ 
+        
+97.4
+%
+ 
+      
+ 
+        
+93.2
+%
+ 
+      
+ 
+        
+89.3
+%
+ 
+      
+ 
+        
+73.1
+%
+ 
+      
+ 
+        
+59.3
+%
+ 
+      
+ 
+        
+17.3
+%
+ 
+      
+ 
+        
+5
+ 
+      
+ 
+        
+68.4
+%
+ 
+      
+ 
+        
+35.5
+%
+ 
+      
+ 
+        
+18.3
+%
+ 
+      
+ 
+        
+2.5
+%
+ 
+      
+ 
+        
+1.5
+%
+ 
+      
+ 
+        
+0.9
+%
+ 
+      
+Take a look at the column for a k-anonymity value of 5,
+which suggests that for a specific trip there are 5 others just
+like it, thereby making an individual trip in that cohort less
+identifiable. As we work our way down this column, we can
+see what happens to k-anonymity as we add more decimal
+points to our location data. As we have already established,
+the more decimal points we add, the more precise our data,
+and the more identifiable the user whose GPS coordinates
+we are looking at. Thus, the number of users who have a k-
+anonymity of 5 will go down.
+When we have 0 decimal points (a coarser location), we can
+find 4 others with the same values for all users (i.e., 100%
+of users have k-anonymity of 5). The same holds true for 1
+
+## Page 374
+
+and 2 decimal points—you could have GPS coordinates with
+up to 2 decimal points and still have k-anonymity of 5.
+When you add a third decimal point, you hit an inflection
+point; this is the first time that not every user has a k-
+anonymity of 5. There are at least some users for whom
+there will not be at least 4 others with identical values.
+However, it turns out that even when we add a third decimal
+point while shooting for a k-anonymity of 5, we still include
+99.8% of users.
+So, if our goal is to have a k-anonymity of 5, we’d need to
+suppress only 0.2% of the data.
+5.5.2 L-diversity
+The industry best-practice of a k-anonymity of 5 provides a
+meaningful balance between privacy and usability. However,
+k-anonymity has its limitations, which is why there is yet
+another tool available to help you anonymize data before
+you share it: l-diversity. Let’s consider a use case that shows
+the limitations of k-anonymity and how l-diversity can help.
+Let’s assume you end up with a k-anonymity of 5, but there
+is at least one pickup point such that every trip from that
+pickup point goes to the same destination. In this instance,
+using external data, you may be able to learn where any
+passenger from that source is going. This is where l-diversity
+can help. L-diversity will help ensure that there is a diversity
+of potential sources or destinations. Thus, for every trip that
+is reported in a time window, a pickup must have at least l
+
+## Page 375
+
+different potential drop-offs, and every drop-off must have l
+potential pickups.
+There may be situations where k-anonymity may filter out
+too much data, and in these cases, l-diversity may be a
+much better tool. Figure 5.6 helps make that point. In the
+figure, the dots on the left represent ride pickups, and the
+ones on the right represent ride drop-offs. If you apply a k-
+anonymity value of 2, you will filter out all the rides, since
+no two rides have the same pickup and drop-off. If, on the
+other hand, you separate the pickups and drop-offs and
+apply an l-diversity of 2, you can retain the entire dataset
+while preserving privacy as well.
+Figure 5.6 L-diversity in action
+In this specific scenario, let’s assume you are trying to study
+the density of pickups. If a specific location is seeing an
+
+## Page 376
+
+uptick in pickups, you may want to send more cabs there to
+reduce wait times.
+In this case, it makes even more sense to disconnect the
+pickups and drop-offs, and not store them as one trip. You
+could even delete the drop-off portion of the data altogether.
+You will now be left with less data, which means lower
+storage costs; the data you do have is more germane to
+your use case, so you have better data quality; and by not
+having the entire trip stored, you have better privacy.
+L-diversity is a win-win-win across the board in this
+particular scenario. You could apply it while storing data
+internally and while sharing data externally.
+This is why I have shown you so many privacy techniques in
+the wider context of data quality and security. This is an art
+and a science, rather than a one-size-fits-all solution. I have
+used combinations of these techniques with varying degrees
+of data obfuscation and then iterated on them with different
+datasets. There were times when the privacy impact was
+easy to discern, while on other occasions we had to make a
+judgment call. The key takeaway is that you have tools to
+improve privacy protection and quantify impact. Use them
+before sharing data, and the future you will thank the
+present you.
+5.6 Privacy harms: This is not a drill
+I have spent a lot of time showing you how data can be used
+and shared online, and how you can manage the privacy risk
+
+## Page 377
+
+and measure the privacy impact. A lot of business leaders
+and venture capital investors I speak to seem very relaxed
+about the likelihood of being impacted by the privacy harms
+of data sharing. Their attitude suggests they think
+companies that get into trouble with data sharing end up
+there due to negligence. Then, when a small mistake lands
+them in regulatory and PR hot water, they overcorrect and
+end up stifling even legitimate uses of data. This swing from
+nonchalance to zealotry can be detrimental to the business.
+Here we’ll look at some other real-life examples of how data
+sharing causes privacy issues, so that you understand the
+risks and deploy the techniques from this chapter prudently
+rather than reluctantly.
+5.6.1 Facebook and Cambridge Analytica
+By now, almost everyone has heard of the Cambridge
+Analytica issue. Cambridge Analytica, a political data firm
+hired by President Trump’s 2016 election campaign, gained
+access to private information on more than 50 million
+Facebook users.11 Cambridge, in its telling, had tools with
+predictive capabilities that could influence user behavior. Its
+desire to obtain that data from Facebook would, in theory,
+enable Cambridge to improve their predictive tools and
+deploy them on the users themselves. This would make their
+targeted messages more effective and possibly affect voting
+patterns and election outcomes.
+The data included details on users’ identities, friends, other
+connections, and user behavior by way of posts they had
+
+## Page 378
+
+liked. Cambridge’s big idea was to identify personality traits
+based on a user’s Facebook activity, and then to target
+digital ads for that user based on their personality traits.
+How Cambridge got this data, rather than how the data was
+used, is a key focus for this chapter and book. Users were
+asked to take a personality survey and download an app.
+The app then scraped private information from their profiles
+and the profiles of their friends. This mode of data extraction
+was not inhibited or throttled by Facebook then, but
+Facebook has since discontinued this level of access. This
+extraction and analysis capability had been developed at
+Cambridge University’s Psychometrics Center. The center
+declined to work with Cambridge Analytica, but they found a
+willing partner in Aleksandr Kogan, a psychology professor in
+the university.
+Harnessing this ability to extract large volumes of data from
+users and their contacts, Dr. Kogan built his own app and, in
+June 2014, began harvesting data for Cambridge Analytica.
+He ultimately provided over 50 million raw profiles to the
+firm. The privacy harm here impacted the users and their
+contacts. Only about 270,000 users, those who participated
+in the survey, had consented to having their data collected,
+under the condition that their data would be used for
+research and without any understanding that their consent
+would be used to collect their friends’ data.
+There are several lessons to learn from that episode, but
+here are the ones that stand out for me:
+
+## Page 379
+
+Once data leaves your company, chances are you
+can exert very little control over what happens to
+it.

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:3456px;height:2304px;overflow:hidden}
+
+:root{
+  --bg:#f4f7fb;
+  --white:#ffffff;
+  --navy:#0d1b2a;
+  --navy2:#1a3552;
+  --navy3:#2a4a6b;
+  --cyan:#00b4d8;
+  --cyan2:#0077a8;
+  --cyan-light:#e0f7fc;
+  --cyan-mid:#b2ebf2;
+  --green:#00897b;
+  --green-light:#e0f2f1;
+  --grey:#5a728a;
+  --lgrey:#8fa8bf;
+  --border:#d0dce8;
+  --card:#ffffff;
+  --accent-bar:#00b4d8;
+}
+
+body{
+  background:var(--bg);
+  font-family:'Inter',sans-serif;
+  color:var(--navy);
+  position:relative;
+}
+
+/* ── subtle bg pattern ── */
+body::before{
+  content:'';position:absolute;inset:0;
+  background-image:linear-gradient(rgba(0,180,216,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(0,180,216,.04) 1px,transparent 1px);
+  background-size:60px 60px;
+  pointer-events:none;
+}
+
+/* ══════════════════════════════════
+   HEADER
+══════════════════════════════════ */
+.header{
+  position:relative;z-index:10;
+  width:100%;
+  background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 60%,#0f2a42 100%);
+  padding:38px 70px;
+  display:flex;align-items:center;gap:50px;
+  border-bottom:6px solid var(--cyan);
+}
+.logo-box{
+  flex-shrink:0;width:200px;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+}
+.logo-shield{
+  width:110px;height:110px;
+  background:rgba(0,180,216,.15);
+  border:2px solid rgba(0,180,216,.4);
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:50px;
+}
+.logo-name{
+  font-size:13px;font-weight:700;color:rgba(255,255,255,.8);
+  letter-spacing:.12em;text-align:center;line-height:1.4;
+}
+.header-main{flex:1;text-align:center}
+.header-eyebrow{
+  display:inline-block;
+  background:rgba(0,180,216,.2);border:1px solid rgba(0,180,216,.4);
+  color:var(--cyan);padding:5px 20px;border-radius:20px;
+  font-size:15px;font-weight:600;letter-spacing:.1em;margin-bottom:16px;
+}
+.header-title{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:78px;font-weight:900;
+  color:#ffffff;line-height:1.0;
+  letter-spacing:.02em;margin-bottom:12px;
+  text-transform:uppercase;
+}
+.header-title span{color:var(--cyan)}
+.header-sub{
+  font-size:22px;font-weight:400;
+  color:rgba(255,255,255,.75);
+  font-style:italic;margin-bottom:8px;
+}
+.header-team{font-size:18px;color:rgba(255,255,255,.6);font-weight:400}
+.rise-box{
+  flex-shrink:0;width:180px;
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+}
+.rise-circle{
+  width:110px;height:110px;border-radius:50%;
+  background:var(--cyan);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+}
+.rise-yr{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;color:var(--navy);line-height:1}
+.rise-label{font-size:9px;font-weight:800;color:var(--navy);letter-spacing:.12em;text-transform:uppercase}
+.rise-text{font-size:12px;font-weight:600;color:rgba(255,255,255,.7);letter-spacing:.1em;text-align:center;line-height:1.5}
+
+/* ══════════════════════════════════
+   3-COLUMN GRID
+══════════════════════════════════ */
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:0;
+  padding:28px 36px;
+  height:calc(2304px - 280px - 52px);
+  position:relative;z-index:5;
+}
+.col{
+  padding:0 14px;
+  display:flex;flex-direction:column;gap:18px;
+}
+.col:not(:last-child){
+  border-right:2px solid var(--border);
+}
+
+/* ══════════════════════════════════
+   SECTION CARDS
+══════════════════════════════════ */
+.sec{
+  background:var(--card);
+  border-radius:12px;
+  border:1px solid var(--border);
+  overflow:hidden;
+  box-shadow:0 2px 12px rgba(13,27,42,.06);
+  flex:1;
+}
+.sec-hdr{
+  background:var(--navy);
+  padding:14px 22px;
+  display:flex;align-items:center;gap:12px;
+  border-bottom:3px solid var(--cyan);
+}
+.sec-icon{font-size:22px}
+.sec-name{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:20px;font-weight:800;
+  color:#ffffff;letter-spacing:.08em;text-transform:uppercase;
+}
+.sec-body{padding:20px 22px;display:flex;flex-direction:column;gap:14px}
+
+/* ══════════════════════════════════
+   TYPOGRAPHY
+══════════════════════════════════ */
+.subhdr{
+  font-size:16px;font-weight:700;color:var(--navy);
+  padding-bottom:5px;border-bottom:2px solid var(--cyan);
+  margin-bottom:4px;display:flex;align-items:center;gap:7px;
+}
+.subhdr-icon{font-size:14px}
+p.body{font-size:14px;color:var(--grey);line-height:1.7}
+.lead{font-size:15px;color:var(--navy2);line-height:1.65;font-weight:500}
+
+/* ══════════════════════════════════
+   BULLETS
+══════════════════════════════════ */
+.bullets{display:flex;flex-direction:column;gap:7px}
+.bul{display:flex;gap:10px;align-items:flex-start}
+.bul-dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);flex-shrink:0;margin-top:6px}
+.bul-arrow{color:var(--cyan2);font-size:13px;flex-shrink:0;margin-top:1px;font-weight:700}
+.bul p{font-size:13.5px;color:var(--grey);line-height:1.55;margin:0}
+
+/* ══════════════════════════════════
+   OBJECTIVE ITEMS
+══════════════════════════════════ */
+.obj-list{display:flex;flex-direction:column;gap:9px}
+.obj-item{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--cyan-light);border-radius:8px;
+  padding:11px 14px;border-left:4px solid var(--cyan);
+}
+.obj-num{
+  width:28px;height:28px;border-radius:50%;
+  background:var(--cyan);color:#fff;
+  font-size:13px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.obj-text{font-size:14px;color:var(--navy2);line-height:1.5;font-weight:500}
+
+/* ══════════════════════════════════
+   FLOW DIAGRAM
+══════════════════════════════════ */
+.flow-wrap{background:var(--bg);border-radius:10px;padding:16px;border:1px solid var(--border)}
+.flow{display:flex;align-items:center;gap:0}
+.flow-node{
+  flex:1;background:var(--white);
+  border:2px solid var(--cyan);border-radius:10px;
+  padding:12px 8px;text-align:center;
+}
+.flow-node.green-node{border-color:var(--green)}
+.fn-icon{font-size:24px;display:block;margin-bottom:6px}
+.fn-label{font-size:12px;font-weight:800;color:var(--navy);letter-spacing:.04em;display:block;margin-bottom:3px;text-transform:uppercase}
+.fn-sub{font-size:10.5px;color:var(--lgrey);line-height:1.35}
+.flow-arr{
+  font-size:22px;color:var(--cyan);font-weight:900;
+  padding:0 6px;flex-shrink:0;
+}
+.feedback{
+  margin-top:8px;
+  display:flex;align-items:center;gap:8px;
+}
+.fb-line{flex:1;height:2px;background:var(--cyan-mid);border-radius:1px}
+.fb-label{
+  font-size:11.5px;color:var(--cyan2);
+  font-style:italic;font-weight:600;
+  padding:4px 10px;background:var(--cyan-light);
+  border-radius:20px;border:1px solid var(--cyan-mid);
+}
+
+/* ══════════════════════════════════
+   MODULE GRID
+══════════════════════════════════ */
+.mod-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mod{
+  background:var(--bg);border-radius:8px;
+  padding:9px 12px;border:1px solid var(--border);
+  border-left:3px solid var(--cyan);
+}
+.mod-name{font-size:12px;font-weight:700;color:var(--navy2);margin-bottom:3px}
+.mod-desc{font-size:11px;color:var(--lgrey);line-height:1.4}
+
+/* ══════════════════════════════════
+   METHODOLOGY CARDS
+══════════════════════════════════ */
+.meth-grid{display:flex;flex-direction:column;gap:8px}
+.meth{
+  display:flex;gap:12px;align-items:center;
+  background:var(--bg);border-radius:8px;
+  padding:10px 14px;border:1px solid var(--border);
+}
+.meth-icon{
+  width:38px;height:38px;border-radius:8px;
+  background:var(--cyan-light);border:1px solid var(--cyan-mid);
+  display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;
+}
+.meth-name{font-size:13px;font-weight:700;color:var(--navy2);margin-bottom:2px}
+.meth-desc{font-size:11.5px;color:var(--grey);line-height:1.4}
+
+/* ══════════════════════════════════
+   COMPARISON TABLE
+══════════════════════════════════ */
+.compare{border-radius:10px;overflow:hidden;border:1.5px solid var(--border)}
+.compare-head{display:grid;grid-template-columns:1fr 1fr}
+.compare-head div{padding:10px 16px;font-size:13px;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.ch-old{background:#fdecea;color:#c62828}
+.ch-new{background:var(--cyan-light);color:var(--cyan2)}
+.compare-row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--border)}
+.compare-row:nth-child(even) .cv-old,
+.compare-row:nth-child(even) .cv-new{background:#fafbfc}
+.cv-old{padding:9px 16px;font-size:12.5px;color:#888;display:flex;align-items:center;gap:7px;border-right:1px solid var(--border)}
+.cv-new{padding:9px 16px;font-size:12.5px;color:var(--cyan2);font-weight:600;display:flex;align-items:center;gap:7px}
+.x-ico{color:#ef5350;font-size:11px}
+.ck-ico{color:var(--green);font-size:11px}
+
+/* ══════════════════════════════════
+   METRIC CARDS
+══════════════════════════════════ */
+.metric-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.metric{
+  background:var(--bg);border-radius:9px;
+  padding:12px 10px;text-align:center;
+  border:1px solid var(--border);
+  border-top:3px solid var(--cyan);
+}
+.metric-ico{font-size:24px;margin-bottom:5px}
+.metric-lbl{font-size:12px;font-weight:700;color:var(--navy);line-height:1.3}
+
+/* SDG */
+.sdg-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sdg{
+  display:flex;gap:10px;align-items:center;
+  border-radius:9px;padding:10px 12px;border:1.5px solid;
+}
+.sdg-num{
+  width:42px;height:42px;border-radius:8px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#fff;flex-shrink:0;font-weight:900;
+}
+.sdg-num .sn{font-size:20px;line-height:1}
+.sdg-num .sl{font-size:7px;letter-spacing:.05em;font-weight:700;opacity:.85}
+.sdg-info strong{font-size:12px;color:var(--navy);display:block;margin-bottom:2px}
+.sdg-info span{font-size:11px;color:var(--grey)}
+
+/* MARKET */
+.market-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.market{
+  background:var(--bg);border-radius:9px;
+  padding:12px 10px;text-align:center;border:1px solid var(--border);
+}
+.market-ico{font-size:26px;margin-bottom:6px}
+.market-title{font-size:12px;font-weight:700;color:var(--navy);margin-bottom:3px}
+.market-desc{font-size:11px;color:var(--grey);line-height:1.4}
+
+/* STEPS */
+.steps{display:flex;flex-direction:column;gap:9px}
+.step{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--bg);border-radius:8px;
+  padding:11px 14px;border:1px solid var(--border);
+}
+.step-num{
+  width:28px;height:28px;border-radius:50%;
+  background:var(--cyan);color:#fff;
+  font-size:13px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.step-text{font-size:13.5px;color:var(--navy2);line-height:1.5;font-weight:500}
+
+/* REFS */
+.ref-list{display:flex;flex-direction:column;gap:5px}
+.ref{font-size:11px;color:var(--lgrey);font-style:italic;line-height:1.45;padding-left:14px;text-indent:-14px}
+
+/* HIGHLIGHT BOX */
+.hbox{
+  background:var(--cyan-light);border:1.5px solid var(--cyan-mid);
+  border-radius:8px;padding:12px 14px;
+  font-size:13px;color:var(--navy2);line-height:1.55;font-style:italic;
+}
+.warn-box{
+  background:#fffde7;border:1.5px solid #ffe082;
+  border-radius:8px;padding:10px 14px;
+  font-size:12px;color:#7a5c00;font-style:italic;
+}
+
+/* ══════════════════════════════════
+   FOOTER
+══════════════════════════════════ */
+.footer{
+  position:absolute;bottom:0;left:0;right:0;height:52px;
+  background:var(--navy);
+  border-top:4px solid var(--cyan);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 60px;z-index:10;
+}
+.footer-l{font-size:14px;color:rgba(255,255,255,.7)}
+.footer-c{font-size:11.5px;color:rgba(255,255,255,.4);font-style:italic}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo-box" style="gap:6px">
+    <img src="data:image/png;base64,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" style="width:110px;height:110px;border-radius:8px;border:2px solid rgba(0,180,216,.4)"/>
+    <div class="logo-name" style="font-size:10px;color:rgba(255,255,255,.6);letter-spacing:.04em;text-align:center;line-height:1.4">Scan to view<br/>live demo</div>
+  </div>
+  <div class="header-main">
+    <div class="header-eyebrow">Georgian College · RISE 2026 · Innovation Showcase</div>
+    <div class="header-title">INTELLIGENT <span>WORKFORCE</span><br/>OPTIMIZATION SYSTEM</div>
+    <div class="header-sub">A Data-Driven Framework for Optimizing Technical Workforce Allocation</div>
+    <div class="header-team">Femachi Ajoku &amp; Peter Egessa &nbsp;·&nbsp; Intelligent Systems · Workforce Development · Adaptive Learning</div>
+  </div>
+  <div class="rise-box">
+    <div class="rise-circle">
+      <div class="rise-yr">2026</div>
+      <div class="rise-label">RISE</div>
+    </div>
+    <div class="rise-text">INNOVATION<br/>SHOWCASE</div>
+  </div>
+</div>
+
+<!-- GRID -->
+<div class="grid">
+
+  <!-- ═══════ COL 1 ═══════ -->
+  <div class="col">
+
+    <!-- S1 PROBLEM -->
+    <div class="sec" style="flex:1.2">
+      <div class="sec-hdr">
+        <div class="sec-icon">⚠️</div>
+        <div class="sec-name">Section 1 — Problem Statement</div>
+      </div>
+      <div class="sec-body">
+        <p class="lead">Modern project environments rely on <strong style="color:#c62828">static assignment methods</strong> that fail to account for the depth, adaptability, and real-world capability of technical talent.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div>
+            <div class="subhdr"><span class="subhdr-icon">⚡</span>Key Issues</div>
+            <div class="bullets">
+              <div class="bul"><div class="bul-dot"></div><p>Skill matching is keyword-based, not competency-based</p></div>
+              <div class="bul"><div class="bul-dot"></div><p>Project allocation lacks dynamic adaptability</p></div>
+              <div class="bul"><div class="bul-dot"></div><p>Reduced productivity &amp; higher failure rates</p></div>
+              <div class="bul"><div class="bul-dot"></div><p>Underutilization of skilled individuals</p></div>
+            </div>
+          </div>
+          <div>
+            <div class="subhdr"><span class="subhdr-icon">🏭</span>Industry Context</div>
+            <div class="hbox">"Platforms like Jira and Asana primarily support <em>task tracking</em> — not intelligent talent allocation."</div>
+            <div style="margin-top:10px" class="bullets">
+              <div class="bul"><div class="bul-dot"></div><p>No competency scoring in existing tools</p></div>
+              <div class="bul"><div class="bul-dot"></div><p>Gap between HR systems &amp; project management</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- S3 SOLUTION -->
+    <div class="sec" style="flex:1.45">
+      <div class="sec-hdr" style="border-bottom-color:#00897b">
+        <div class="sec-icon">🧩</div>
+        <div class="sec-name">Section 3 — Proposed Solution</div>
+      </div>
+      <div class="sec-body">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div>
+            <div class="subhdr">Concept</div>
+            <p class="body">An intelligent allocation framework that analyzes technical capabilities and dynamically aligns individuals to projects.</p>
+          </div>
+          <div>
+            <div class="subhdr">Core Idea</div>
+            <p class="body">Instead of static assignment, the system continuously evaluates competency profiles and aligns them with evolving project needs.</p>
+          </div>
+        </div>
+
+        <div class="subhdr" style="margin-top:4px">System Architecture</div>
+        <div class="flow-wrap">
+          <div class="flow">
+            <div class="flow-node">
+              <span class="fn-icon">📥</span>
+              <span class="fn-label">Input Layer</span>
+              <span class="fn-sub">Skills &amp; project<br/>requirements</span>
+            </div>
+            <div class="flow-arr">→</div>
+            <div class="flow-node">
+              <span class="fn-icon">◉</span>
+              <span class="fn-label">Competency Eval</span>
+              <span class="fn-sub">Multi-factor<br/>scoring</span>
+            </div>
+            <div class="flow-arr">→</div>
+            <div class="flow-node">
+              <span class="fn-icon">⬡</span>
+              <span class="fn-label">Matching Engine</span>
+              <span class="fn-sub">Profile<br/>alignment</span>
+            </div>
+            <div class="flow-arr">→</div>
+            <div class="flow-node green-node">
+              <span class="fn-icon">📤</span>
+              <span class="fn-label">Assignment Output</span>
+              <span class="fn-sub">Optimized<br/>teams + paths</span>
+            </div>
+          </div>
+          <div class="feedback">
+            <div class="fb-line"></div>
+            <div class="fb-label">↺ Feedback Loop — performance data refines model parameters</div>
+            <div class="fb-line"></div>
+          </div>
+        </div>
+
+        <div class="subhdr">Module Descriptions</div>
+        <div class="mod-grid">
+          <div class="mod"><div class="mod-name">📥 Input Layer</div><div class="mod-desc">Captures user skills and project requirements</div></div>
+          <div class="mod"><div class="mod-name">◉ Competency Evaluation</div><div class="mod-desc">Processes multi-factor capability indicators</div></div>
+          <div class="mod"><div class="mod-name">⬡ Matching Engine</div><div class="mod-desc">Aligns individuals to tasks based on evaluated profiles</div></div>
+          <div class="mod"><div class="mod-name">↺ Feedback Loop</div><div class="mod-desc">Continuously improves alignment over time</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- S5 INNOVATION -->
+    <div class="sec" style="flex:.95">
+      <div class="sec-hdr" style="border-bottom-color:#f59e0b">
+        <div class="sec-icon">💡</div>
+        <div class="sec-name">Section 5 — Innovation</div>
+      </div>
+      <div class="sec-body">
+        <div class="compare">
+          <div class="compare-head">
+            <div class="ch-old">✗ Traditional Systems</div>
+            <div class="ch-new">✓ Proposed System</div>
+          </div>
+          <div class="compare-row">
+            <div class="cv-old"><span class="x-ico">✗</span>Static assignment</div>
+            <div class="cv-new"><span class="ck-ico">✓</span>Dynamic alignment</div>
+          </div>
+          <div class="compare-row">
+            <div class="cv-old"><span class="x-ico">✗</span>Keyword matching</div>
+            <div class="cv-new"><span class="ck-ico">✓</span>Competency-based evaluation</div>
+          </div>
+          <div class="compare-row">
+            <div class="cv-old"><span class="x-ico">✗</span>Manual decisions</div>
+            <div class="cv-new"><span class="ck-ico">✓</span>Data-driven framework</div>
+          </div>
+          <div class="compare-row">
+            <div class="cv-old"><span class="x-ico">✗</span>Limited adaptability</div>
+            <div class="cv-new"><span class="ck-ico">✓</span>Continuous optimization</div>
+          </div>
+        </div>
+        <div class="subhdr" style="margin-top:6px">Key Innovations</div>
+        <div class="bullets">
+          <div class="bul"><div class="bul-arrow">→</div><p>Intelligent interpretation of technical capability</p></div>
+          <div class="bul"><div class="bul-arrow">→</div><p>Dynamic responsiveness to project complexity</p></div>
+          <div class="bul"><div class="bul-arrow">→</div><p>Unified evaluation and assignment into one seamless system</p></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════ COL 2 ═══════ -->
+  <div class="col">
+
+    <!-- S2 OBJECTIVES -->
+    <div class="sec" style="flex:.78">
+      <div class="sec-hdr">
+        <div class="sec-icon">🎯</div>
+        <div class="sec-name">Section 2 — Objectives</div>
+      </div>
+      <div class="sec-body">
+        <p class="body" style="margin-bottom:4px">This project aims to:</p>
+        <div class="obj-list">
+          <div class="obj-item"><div class="obj-num">1</div><div class="obj-text">Develop a system that evaluates multi-dimensional technical competencies</div></div>
+          <div class="obj-item"><div class="obj-num">2</div><div class="obj-text">Enable adaptive matching between individuals and project requirements</div></div>
+          <div class="obj-item"><div class="obj-num">3</div><div class="obj-text">Improve efficiency, accuracy, and scalability in team formation</div></div>
+          <div class="obj-item"><div class="obj-num">4</div><div class="obj-text">Introduce a data-informed decision framework for project allocation</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- S4 METHODOLOGY -->
+    <div class="sec" style="flex:1.15">
+      <div class="sec-hdr">
+        <div class="sec-icon">🔧</div>
+        <div class="sec-name">Section 4 — Methodology</div>
+      </div>
+      <div class="sec-body">
+        <div class="subhdr">Approach</div>
+        <p class="body">The system applies a structured, multi-factor evaluation framework to assess alignment between individuals and project requirements.</p>
+        <div class="subhdr">Methodological Elements</div>
+        <div class="meth-grid">
+          <div class="meth"><div class="meth-icon">◉</div><div><div class="meth-name">Multi-Dimensional Assessment</div><div class="meth-desc">Structured scoring across 6+ technical skill dimensions</div></div></div>
+          <div class="meth"><div class="meth-icon">🔍</div><div><div class="meth-name">Pattern-Based Evaluation</div><div class="meth-desc">Evaluates skill relevance in real project context</div></div></div>
+          <div class="meth"><div class="meth-icon">🎯</div><div><div class="meth-name">Adaptive Matching</div><div class="meth-desc">Aligns individuals based on contextual project needs</div></div></div>
+          <div class="meth"><div class="meth-icon">↺</div><div><div class="meth-name">Iterative Refinement</div><div class="meth-desc">Feedback integration improves accuracy each cycle</div></div></div>
+        </div>
+        <div class="subhdr">Rigor &amp; Feasibility</div>
+        <div class="bullets">
+          <div class="bul"><div class="bul-arrow">✓</div><p style="color:var(--cyan2);font-weight:600">Scalable across teams and organizations</p></div>
+          <div class="bul"><div class="bul-arrow">✓</div><p style="color:var(--cyan2);font-weight:600">Compatible with existing project management ecosystems</p></div>
+          <div class="bul"><div class="bul-arrow">✓</div><p style="color:var(--cyan2);font-weight:600">Supports real-time decision-making environments</p></div>
+        </div>
+        <div class="warn-box">🔒 Certain technical components are proprietary and have been intentionally abstracted.</div>
+      </div>
+    </div>
+
+    <!-- S6 IMPACT -->
+    <div class="sec" style="flex:1.2">
+      <div class="sec-hdr" style="border-bottom-color:#00897b">
+        <div class="sec-icon">🌍</div>
+        <div class="sec-name">Section 6 — Real-World Impact</div>
+      </div>
+      <div class="sec-body">
+        <div class="subhdr">Expected Outcomes</div>
+        <div class="metric-row">
+          <div class="metric"><div class="metric-ico">📈</div><div class="metric-lbl">Improved Project<br/>Success Rates</div></div>
+          <div class="metric"><div class="metric-ico">⚡</div><div class="metric-lbl">Enhanced Workforce<br/>Utilization</div></div>
+          <div class="metric"><div class="metric-ico">⏱️</div><div class="metric-lbl">Reduced Team<br/>Formation Time</div></div>
+          <div class="metric"><div class="metric-ico">🚀</div><div class="metric-lbl">Increased Org.<br/>Efficiency</div></div>
+        </div>
+        <div class="subhdr">Scalability</div>
+        <div class="bullets">
+          <div class="bul"><div class="bul-dot"></div><p>Software engineering teams</p></div>
+          <div class="bul"><div class="bul-dot"></div><p>IT service environments</p></div>
+          <div class="bul"><div class="bul-dot"></div><p>Technical training platforms</p></div>
+        </div>
+        <div class="subhdr">Societal Relevance — UN Sustainable Development Goals</div>
+        <div class="sdg-row">
+          <div class="sdg" style="background:#fce4ec;border-color:#e91e63">
+            <div class="sdg-num" style="background:#a21b42"><div class="sn">8</div><div class="sl">SDG</div></div>
+            <div class="sdg-info"><strong>Decent Work &amp; Growth</strong><span>Productive employment &amp; inclusive economic growth</span></div>
+          </div>
+          <div class="sdg" style="background:#fff3e0;border-color:#ff9800">
+            <div class="sdg-num" style="background:#fd6b25"><div class="sn">9</div><div class="sl">SDG</div></div>
+            <div class="sdg-info"><strong>Industry &amp; Innovation</strong><span>AI-driven methodology transforming talent deployment</span></div>
+          </div>
+          <div class="sdg" style="background:#e8f5e9;border-color:#4caf50">
+            <div class="sdg-num" style="background:#2e7d32"><div class="sn">4</div><div class="sl">SDG</div></div>
+            <div class="sdg-info"><strong>Quality Education</strong><span>Adaptive learning accelerates skill development</span></div>
+          </div>
+          <div class="sdg" style="background:#fce4ec;border-color:#e91e63">
+            <div class="sdg-num" style="background:#dd1b68"><div class="sn">10</div><div class="sl">SDG</div></div>
+            <div class="sdg-info"><strong>Reduced Inequalities</strong><span>Merit-based matching removes bias</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════ COL 3 ═══════ -->
+  <div class="col">
+
+    <!-- S7 ENTREPRENEURIAL -->
+    <div class="sec" style="flex:1.3">
+      <div class="sec-hdr" style="border-bottom-color:#f59e0b">
+        <div class="sec-icon">🚀</div>
+        <div class="sec-name">Section 7 — Entrepreneurial Thinking</div>
+      </div>
+      <div class="sec-body">
+        <div class="subhdr">Problem-Solving Approach</div>
+        <div class="bullets">
+          <div class="bul"><div class="bul-arrow">→</div><p>Identifies inefficiencies in workforce allocation</p></div>
+          <div class="bul"><div class="bul-arrow">→</div><p>Applies structured analytical thinking to redesign assignment processes</p></div>
+          <div class="bul"><div class="bul-arrow">→</div><p>Bridges the gap between technical capability and project demand</p></div>
+        </div>
+        <div class="subhdr">Market Opportunity</div>
+        <div class="hbox" style="margin-bottom:10px">No existing tool unifies <strong>skill assessment + team formation + adaptive learning</strong> into one intelligence loop. This is a new product category.</div>
+        <div class="market-grid">
+          <div class="market">
+            <div class="market-ico">📈</div>
+            <div class="market-title">Growing Demand</div>
+            <div class="market-desc">Intelligent workforce systems expanding across industries</div>
+          </div>
+          <div class="market">
+            <div class="market-ico">🔌</div>
+            <div class="market-title">Enterprise Integration</div>
+            <div class="market-desc">Potential integration into Jira, Workday, SAP SuccessFactors</div>
+          </div>
+          <div class="market">
+            <div class="market-ico">☁️</div>
+            <div class="market-title">SaaS Deployment</div>
+            <div class="market-desc">Scalable subscription tiers by team size &amp; usage volume</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- S8 FUTURE WORK -->
+    <div class="sec" style="flex:.75">
+      <div class="sec-hdr">
+        <div class="sec-icon">🔬</div>
+        <div class="sec-name">Section 8 — Future Work</div>
+      </div>
+      <div class="sec-body">
+        <p class="body" style="margin-bottom:6px">Next Steps:</p>
+        <div class="steps">
+          <div class="step"><div class="step-num">1</div><div class="step-text">Refinement of proprietary evaluation models</div></div>
+          <div class="step"><div class="step-num">2</div><div class="step-text">Expansion of system capabilities through real-world testing</div></div>
+          <div class="step"><div class="step-num">3</div><div class="step-text">Integration with existing enterprise tools</div></div>
+          <div class="step"><div class="step-num">4</div><div class="step-text">Performance optimization using live datasets</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REFERENCES -->
+    <div class="sec" style="flex:.6">
+      <div class="sec-hdr" style="background:#374151;border-bottom-color:var(--lgrey)">
+        <div class="sec-icon">📚</div>
+        <div class="sec-name">References</div>
+      </div>
+      <div class="sec-body">
+        <div class="ref-list">
+          <div class="ref">1. McKinsey &amp; Co. (2023). AI in workforce optimization. mckinsey.com</div>
+          <div class="ref">2. Harvard Business Review (2021). Reskilling in the age of automation. hbr.org</div>
+          <div class="ref">3. Gartner (2023). Future of Work Trends Report. gartner.com</div>
+          <div class="ref">4. United Nations (2015). Sustainable Development Goals. un.org/sdgs</div>
+          <div class="ref">5. IEEE (2023). Adaptive learning systems in enterprise environments.</div>
+          <div class="ref">6. Teneo AI (2024). Intelligent workforce matching systems. teneo.ai</div>
+          <div class="ref">7. ResearchGate (2022). Competency-based talent management.</div>
+          <div class="ref">8. Fuel Innovation Orillia (2025). Bright Minds Challenge One.</div>
+          <div class="ref">9. Georgian College RISE (2026). Project submission guidelines.</div>
+          <div class="ref">10. Roboflow (n.d.). Computer vision capability tools. roboflow.com</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-l">Femachi Ajoku &amp; Peter Egessa &nbsp;·&nbsp; Georgian College &nbsp;·&nbsp; RISE 2026</div>
+  <div class="footer-c">Certain technical components are proprietary and have been intentionally abstracted.</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,3006 @@
+---
+title: Data Privacy_ A runbook for engineers - Part 2
+source: Data Privacy_ A runbook for engineers.md
+category: development
+---
+
+In this subsection, we will look at what privacy engineers
+face at modern companies and what they need to
+accomplish. Against the backdrop we just saw, I will explain
+why their role is challenging.
+Figure 2.3 shows how privacy engineering is an incarnation
+of the expectations that stem from regulations and industry
+best practices. The figure highlights four key privacy
+expectations that companies face:
+Data protection—Users and regulators expect you
+to protect customer data.
+Right to know—Companies are expected to provide
+copies of customer data upon request. We will be
+covering this in detail in chapter 8, which
+examines Data Subject Access Requests (DSARs).
+Right to be forgotten—This empowers users to
+seek erasure of their data. We will also look at this
+in detail in chapter 7.
+Judicial investigations—Companies need to
+manage what data they collect and retain for legal
+compliance reasons.
+These abstract requirements map to specific privacy
+engineering tasks and technical controls:
+
+## Page 114
+
+Data minimization, where you collect only what
+you need
+Authentication, which involves making sure you
+can validate the identities of employees and
+customers
+Authorization, which maps those seeking system
+or data access to a permission structure and policy
+Data inventory and categorization, which requires
+you to create a catalog of your data
+Audits, whereby you validate that privacy controls
+around deletion, retention, etc., are being enforced
+Unlike when engineers collect vast amounts of data and
+iterate in silos, the privacy engineering work in figure 2.3 is
+cross-functional and requires alignment.
+Figure 2.3 The four key privacy expectations that companies face and
+their associated privacy solutions
+
+## Page 115
+
+Privacy engineers, as they implement these privacy controls,
+will need to understand four key stakeholder perspectives
+they will encounter in their business, centering around data
+and its collection. Figure 2.4 identifies these perspectives.
+For example, the analytics teams optimize for maximal data
+collection to train their models and glean insights. These
+insights empower product managers and engineers to build
+products that drive engagement and revenue. Privacy
+engineers can expect significant levels of pushback from
+these stakeholders as they seek to reduce how much data is
+collected, reduce access to that data, and add steps to
+catalog the data and audit its usage.
+Figure 2.4 Lenses through which different stakeholders view data:
+analytics, security/privacy, IT systems, and cost efficiency
+Fast-moving high-growth companies often face privacy
+challenges ranging from audits to internal misuse to
+
+## Page 116
+
+breaches. That leads to difficult questions like “How did we
+get here?” and “Why did we not see this coming?” When
+teams conduct post-mortems, a lot of the answers to these
+questions come down to inconsistent decisions based on the
+contrasting perspectives highlighted in figure 2.4. It is
+important to be aware of these perspectives; privacy
+engineers should watch for them and factor them into data
+governance, privacy tooling, and reviews. This is especially
+the case with privacy; many companies do not think of
+privacy as an early investment. The habits and processes
+that lead to business success in tech do not necessarily
+encourage good privacy practices.
+The next subsection will lay out the ground that privacy
+engineers must cover to automate privacy controls.
+2.1.3 Privacy, data systems, and policy enforcement
+Even after getting buy-in from stakeholders across the
+company, privacy engineers will need to apply their tools
+across the various systems that exist across the business.
+Figure 2.5 shows what such a landscape might look like.
+
+## Page 117
+
+Figure 2.5 Privacy and the spread of data
+In the previous chapter, you saw how data can spread across
+the company after ingestion. Figure 2.5 shows an example
+of the sorts of systems where that data might live. These
+systems range from
+Offline analytics data stores like Hadoop and Hive
+Operational data that serves real-time transactions
+and lives in structured and unstructured data
+stores
+Cloud data stores like S3 and GCP
+For data in all these data stores, privacy engineers need to
+apply automation to enforce controls like retention and
+deletion. When a predefined retention period expires, one or
+more of the following outcomes could occur:
+Immediate deletion—Complete deletion of a user
+upon request or for any reason on demand
+
+## Page 118
+
+Inactive user deletion—Deletion of user data if the
+user has been inactive for a specified period of
+time
+Data masking—Disassociating content from the
+user, such as through partial anonymization, a
+topic we will cover later in this book
+Preservation—Preserving the data only for a
+specific use, such as encrypting the data to restrict
+access to the legal team after a retention period
+expires
+Archiving—Moving the data to an archival system
+for a defined period or future event
+Privacy engineers may also need to manage access to data,
+such as by using encryption. This work involves several key
+steps:
+Identifying the level of encryption necessary
+(application level, at-rest, in-transit). This will
+require alignment between security, storage, data
+platform, and analytics teams.
+Building key management systems (KMS) to
+manage decryption keys, so that access can be
+granted or revoked using automation at scale.
+Configuring storage, data, and workload systems
+to get keys from KMS for access to data. That way,
+privacy engineers can ensure that their technical
+controls are mapped not to individual engineers
+and their whims, but to the systems and the data.
+
+## Page 119
+
+Configuring business events and data lifecycle
+events to execute policies for encrypting and
+decrypting applicable data.
+Building immutable logging of access, including the
+actor, the target, and the data returned. You may
+need, for the purposes of security detection and
+audit response, logs that show who accessed what
+data, the corresponding decryption key, and what
+was done with or to the data upon access.
+Be it data deletion or encryption, these technical controls
+need to be integrated as policies into the company’s
+engineering workflow. This is critical, since enforcement at
+scale is only possible with automation and policy
+configuration. The following steps outline what such a
+workflow might look like:
+Setting up policies for applicable data set
+identification, after which data across the company
+can be identified based on its privacy risk.
+Extending the data platform tooling to hook into
+data lifecycle events, so that the policies can be
+enforced on data as it flows throughout the
+infrastructure.
+
+## Page 120
+
+Rolling out integrations with storage, data, and
+extract, transform, load (ETL) tooling to emit
+lifecycle events, so that policies end up getting
+triggered and enforced. This is critical, because as
+data changes state, policies applicable to it will
+need to adapt. For example, if you end up
+combining data collected from your customers with
+third-party data, you may increase the risk that
+specific customers might be re-identified and
+suffer privacy harm. This, in turn, may require the
+enforcement of a stricter privacy policy. The
+change to the data would need to emit a lifecycle
+event so that appropriate policy changes could be
+enforced.
+Triggering the execution of policies to archive,
+delete, and/or encrypt applicable data. This
+represents the final step in ensuring that data
+privacy tooling can apply to the data at the
+appropriate time.
+These steps will depend on the systems where the data lives
+being identified, the data being classified based on risk (so
+that more sensitive data is encrypted), and the data being
+tagged (so that policies around encryption can be enforced).
+We will be covering data classification and tagging in
+chapters 3 and 4 in detail.
+Given that most companies start their work with limited
+privacy context and seemingly unlimited data, the preceding
+steps often represent a challenge. This is why privacy is
+hard, and we often end up with a scenario where the
+
+## Page 121
+
+innovation and speed of development bears an inverse
+correlation to our ability to provide privacy and security to
+our customers. It is therefore imperative that privacy
+engineers automate as much of this as possible. This book
+will help you do just that.
+Even so, privacy engineers will benefit from use cases where
+other companies have struggled. A more structured
+approach as outlined above will help them get buy-in to
+build privacy tooling and drive adoption across the company.
+In order to understand how these high-level strategic
+directions map to operational decisions and details, let’s
+consider how data and related decisions could help and then
+hinder your company, its growth, and its relationship with its
+customers.
+2.2 This could be your company
+It is one thing for technical leaders to know how the
+development world has changed in the macro sense, and
+quite another for them to know what trends and patterns to
+watch for before they cause privacy issues. To illustrate this,
+we will simulate the innovation process that you may well
+have participated in over the last few years. You will see how
+growth in ideas and the accumulation of data can lead to
+privacy problems and affect company growth. Consider the
+following scenario.
+The whiteboard. The sticky notes. The user flow diagrams.
+The conceptual journeys. All the creative juices flowed to
+
+## Page 122
+
+make your platform attractive. This was a perfect mix of
+great design meeting user interest and scaling up with the
+power of the cloud. Supply met demand, thanks to
+ubiquitous internet access in markets that had never seen
+this combination of customers and products.
+A mere 18 months ago, you and your fellow engineers got
+together and created an engagement platform where like-
+minded individuals could get together and play video games.
+You would supply the initial video games, and they would
+attract a devout and animated following. Social media would
+allow your participants to share stories about their high
+scores, special tricks, and techniques.
+Three months later, the platform was ready. You had all the
+golden oldies of the video game collection: Super Mario,
+Double Dragon, and many others. Gamers from all over the
+world could log in using their social media credentials, invite
+their friends (who could then invite their friends), compete
+against them, share their scores online, and form teams that
+could compete against each other in a round-robin format.
+There would be concentric circles of social engagement, with
+people of all ages from all parts of the world playing their
+favorite video games from back in the day. Your platform
+would form the center of all those circles.
+The data about your users—what they liked, how many
+games they played, who they invited, and other insights into
+your online arcade—would become the fuel for marketing
+and even building new games. You could even sell the
+
+## Page 123
+
+platform to a major gaming company or a social media
+company.
+You were experiencing the check-mark growth model (shown
+in figure 2.6), where after an initial dip in growth and
+revenue, both were spiking. The dip was during the period
+when you were building the platform, onboarding your first
+games, and hardening your first data storage systems. Once
+the users came, the data followed, which then enabled you
+to onboard more games and attract more users. From an
+economic and aesthetic standpoint, things checked out OK.
+Figure 2.6 The check-mark growth model
+During this time, your team of engineers, data scientists,
+and product managers began to taste the power of data. The
+
+## Page 124
+
+machine learning models they built using the data collected
+from your customers gave them powerful insights, which
+enabled them to attract even more customers. Your
+prodigies wondered, why not collect as much data as
+possible, even beyond what was immediately necessary. You
+could always use that data later, and if not, you could always
+delete it.
+As it turned out, much like boxes that we never fully unpack
+when we move from one home to another, the unused data
+was never fully deleted. Newer engineers saw more
+experienced engineers collect data cavalierly and followed
+suit. Everyone could access whatever data they wanted,
+because the company’s bottom-up innovation culture
+encouraged a “forgiveness rather than permission”
+approach, and after all, the faster you got more games on
+the platform, the more choices your users had. This was a
+self-reinforcing virtuous circle.
+Over the next 15 months, your team started retaining more
+and more data, some of it very sensitive, in that it could
+identify users, where they lived, and how old they were. The
+comments feature, a crown jewel of the platform, could help
+infer details about your users, such as their body weight,
+sexual orientation, etc.
+And then one day there was a breach. Hackers stole data
+about a significant chunk of your users from an unguarded
+database that was supposed to never have been created,
+then was supposed to have been retired, and then was
+supposed to have been deleted. None of those things
+happened, and the hackers were grateful for it. Because
+
+## Page 125
+
+your team did not fix the roof while the sun was shining, it
+was now leaking data, and your company, your platform,
+and the trust of your users were all drowning.
+Your business model went from the check mark to the
+inverted V that you can see in figure 2.7. The breach led to
+an erosion of trust and an exodus of users who previously
+thronged your website to play your games. That reduction in
+engagement led to fewer entrepreneurs willing to license
+their games on your platform, and that in turn helped dry up
+user engagement. You still had a self-reinforcing circle, but
+it’s no longer a virtuous circle. It was a vicious circle.
+NOTE Privacy issues are often a lagging indicator of real problems at a company.
+During high-growth cycles, companies tend to make mistakes in terms of how they
+collect, access, and store data; these mistakes often make it harder to continue
+innovating and growing. The sooner a company’s privacy practices catch up with its
+ongoing innovation, the better.
+
+## Page 126
+
+Figure 2.7 How privacy problems cause growth to stop and fall
+This is not a hard scenario to imagine. In fact, given how
+common such a scenario is, it might be easy to dismiss it as
+something that happens to other people—people who are
+careless with data or who do not understand their users’
+need for privacy.
+However, it is imperative that the lessons from this scenario
+are well absorbed so that cross-functional technical leaders
+do not find you repeating someone else’s mistakes.
+Remember, in small companies, someone who wears many
+hats may have to step in and lead triage and rescue
+missions months—sometimes years—after privacy-adverse
+
+## Page 127
+
+decisions are made, and they may not have the time or
+requisite context to address them.
+The key takeaways for senior leaders are as follows:
+Data collection and analysis can lead to improved
+customer insight and innovation.
+This innovation can lead to faster product
+iterations and growing engagement.
+Often, in a decentralized and bottom-up culture,
+this trend can lead to sloppy privacy practices that
+often come to light much later.
+By the time a company discovers its privacy
+practices are suboptimal, it is possible that
+customers will have suffered privacy harm and
+that the company’s trust is broken.
+This could happen during a time of growth and
+could slow down that growth, or worse, at a time
+of slowing growth when the benefits of initial
+growth could be lost.
+It is vital, therefore, that leaders account for the
+long-term privacy impacts of decisions that may be
+working well in the short term.
+Data can be a powerful thing, providing many potential
+benefits both for businesses and customers alike. It’s worth
+taking the time to appreciate the power of data before we
+get into a discussion about controlling the way we use or
+access it.
+
+## Page 128
+
+2.3 Data, your business growth strategy,
+and privacy
+Data can help a business and solve real problems. This
+section will help establish that the scenarios and patterns we
+have seen thus far are predictors of real-world privacy
+harms.
+Data may not feature on the balance sheet in a quantifiable
+sense, but it provides the ability to unlock insights and
+patterns around the behaviors and expectations of
+customers and potential customers. This could help you
+grow your business and make investments in ways that are
+likelier to succeed.
+Platforms that track user mouse movements over time could
+be the first to notice symptoms of Parkinson’s disease.1
+Data-powered artificial intelligence can improve shopping
+and social networks, provide clean energy, and better
+manage food supply and transportation systems. Data can
+help companies manage revenue with the goals of increasing
+economic prosperity and reducing layoffs created by
+uncertainty.
+These capabilities require the collection of significant
+amounts of data over time, in order to study patterns and
+build models. Data that your tech tools collect in real time
+and in batches helps model human behavior, and those
+models set the tone for product designs and roadmaps. This
+is the heart of the work done by data scientists and analysts.
+
+## Page 129
+
+Privacy engineers need to understand how data collection
+can help your business, since they will need to understand
+why their colleagues in engineering, product management,
+and marketing tend to push back when it comes to privacy.
+Let’s look at a real-life example to help explain.
+Your online business could involve selling food, groceries, pet
+supplies, or services like ridesharing, hotels, etc. Regardless
+of the product, if you wish to grow your business, you need
+to
+Attract, and then retain, more customers
+Grow sales and revenue per customer
+Maximize profits using automation and scale
+Your online business growth strategy will be based on
+several data points,2 such as the following:
+Website traffic, which refers to the customer traffic
+your online presence generates.
+Traffic conversion rate, which refers to the portion
+of your traffic that converts to customers, sales,
+returns, etc.
+Email opt-in conversion rate, which refers to the
+percentage of users who opt in to get email
+promotions, which in turn could help drive website
+traffic.
+Customer acquisition cost, which refers to the
+marketing and other costs associated with
+attracting and retaining customers.
+Average order value, which is self-explanatory.
+
+## Page 130
+
+Customer lifetime value, which refers to how much
+revenue you will make per customer over time.
+This decision will influence how much you are
+willing to spend on customer acquisition costs.
+Percentage of returning customers, which is a key
+indicator of customer loyalty or “stickiness.”
+Abandonment rate, which refers to the percentage
+of customers who start shopping on your website
+but do not complete the sale.
+Each of these metrics serve as critical breadcrumbs for data
+scientists. The old way of building a product over months
+and quarters in an attempt to delight your customers has
+mostly fallen away; most companies collect large volumes of
+data, analyze them rapidly based on the preceding metrics,
+and improvise continually. This is where privacy is critical.
+How safe your customers feel, and how much they trust you
+with their data, is a key driver for most, if not all, of these
+metrics. For example, if customers trust your privacy and
+data protection practices, that may lead to increased
+customer patronage and high website traffic (or app traffic,
+if we are measuring mobile data). It is also possible that if
+customers and potential customers do not trust your privacy
+practices, they may not show up in big numbers, might not
+spend as much, might not recommend your business to their
+friends, and might not return to buy more. All of this may
+lead to you having to offer them more discounts, spend
+more on marketing, and even create new after-the-fact
+privacy programs that are often seen as face-saving efforts
+rather than conscience-driven endeavors. Our online
+
+## Page 131
+
+economy and individual online businesses, both of which
+make for a growing share of customer spending, depend on
+trust and privacy.
+As a leader, you will find engineers and data scientists
+claiming that “more data is better” and “we can always use
+it later.” An overly permissive regime regarding user data
+often yields to a careless set of practices for protecting that
+data. Examples of such sloppiness are legion.
+2.4 Examples: When privacy is violated
+When it comes to building a privacy program, leaders are
+often susceptible to the “it cannot happen here” syndrome,
+thinking that privacy incidents only “happen to the other
+side.” This is how, combined with the creative sloppiness
+often inherent in bottom-up organizations, companies are
+often stunned by privacy issues. In reality, these issues are
+the accumulation of several mistakes of omission and
+commission. The following examples will help make that
+point.
+These examples will also make clear another point we have
+discussed: when your security apparatus fails, privacy ends
+up buried in the rubble as well. When you fail to protect your
+data from a security standpoint, the users whose data it is
+will almost certainly find their privacy violated as well.
+2.4.1 Equifax
+
+## Page 132
+
+Equifax, one of the three largest consumer credit reporting
+agencies in the United States, announced in September
+2017 that its systems had been breached3 and the sensitive
+personal data of 148 million Americans had been
+compromised.
+The data exfiltrated included names, home addresses, phone
+numbers, dates of birth, Social Security numbers, and
+driver’s license numbers. The credit card numbers of
+approximately 209,000 consumers were also breached.4
+It is important to understand how this breached occurred5:
+The company was initially hacked via a consumer
+complaint web portal, with the attackers using a
+widely known vulnerability that should have been
+patched but, due to failures in Equifax’s internal
+processes, wasn’t.
+The attackers were able to move from the web
+portal to other servers because the systems
+weren’t adequately segmented from one another,
+and they were able to find usernames and
+passwords stored in plain text that then allowed
+them to access still further systems.
+The attackers pulled data out of the network in
+encrypted form, undetected for months because
+Equifax had crucially failed to renew an encryption
+certificate on one of their internal security tools.
+The breach cost Equifax $690 million in Q1 2019 to settle
+ongoing class action cases, as well as potential federal and
+
+## Page 133
+
+state regulatory fines.
+The ratings agency Moody’s slashed Equifax’s rating outlook,
+citing cybersecurity (and by implication, privacy issues) as a
+reason.6 A Moody’s spokesperson said the downgrade was
+significant because “it is the first time that cybersecurity has
+been a named factor in an outlook change.” Moody’s also
+stated that the cost of catching up would be a drag on
+Equifax’s profits.
+The lesson here is simple:
+If you think privacy and security programs are
+expensive, ignoring them is even more so.
+It is important to get the details right, in terms of
+how data is protected and accessed.
+Just as there is no way to unring a bell, there is no
+way to unbreach the loss of data, and the damage
+to privacy and trust could similarly be irreversible.
+It is bad enough that so much data that could personally
+identify people and their financial circumstances was
+exposed—this episode defines what privacy harm looks like.
+However, this breach also broadcast how much money these
+individuals made and what they owed to whom.
+The only way this could have been worse is if someone could
+use this information to identify individuals in debt who also
+happened to be in positions of power. We will now look at
+another breach, and at how the data from that breach, when
+combined with the Equifax breach, could have privacy
+consequences with national security implications.
+
+## Page 134
+
+NOTE Small and nimble companies may often balk at the amount of work involved
+in building out privacy, since it forces teams to lose some agency and to collaborate.
+However, the examples of privacy breaches in this chapter show that a lack of
+privacy is often more expensive than privacy itself, and as you will see later, privacy
+can be a competitive differentiator for a business.
+2.4.2 The Office of Personnel Management (OPM)
+breach
+In April of 2015, IT staffers within the United States Office of
+Personnel Management (OPM), the agency that manages the
+government’s civilian workforce, discovered that some of its
+personnel files had been hacked. Among the sensitive data
+that was exfiltrated were millions of SF-86 forms, which
+contain extremely personal information gathered in
+background checks for people seeking government security
+clearances, along with records of millions of people’s
+fingerprints.7 The OPM breach led to a Congressional
+investigation and the resignation of top OPM executives, and
+its full implications—for national security, and for the privacy
+of those whose records were stolen—may never be entirely
+clear.
+Researchers have been able to piece together a rough
+timeline of when the breaches began and how the attackers
+gradually executed their plan.8 The hack is thought to have
+begun in November of 2013, when the attackers first
+breached OPM networks. This attacker or group was dubbed
+X1 by the Congressional OPM data breach report. While X1
+wasn’t able to access any personnel records at that time,
+they did manage to exfiltrate manuals and IT system
+architecture information. The next month, in December of
+
+## Page 135
+
+2013, is when the attackers attempted to breach the
+systems of two contractors, USIS and KeyPoint, who
+conducted background checks on government employees
+and had access to OPM servers (though USIS may have
+actually been breached months earlier).
+In March of 2014, OPM officials realized they’d been hacked.
+However, they didn’t publicize the breach at that time, and,
+having determined that the attackers were confined to a part
+of the network that didn’t have any personnel data, OPM
+officials chose to allow the attackers to remain so they could
+monitor them and gain counterintelligence.
+On May 7, 2014, an attacker or group dubbed X2 by the
+Congressional OPM data breach report used credentials
+stolen from KeyPoint to establish another foothold in the
+OPM network and install malware there to create a
+backdoor.9 This backdoor could be used to gain illicit entry
+into the systems without proper authentication credentials.
+This breach went undetected, and OPM efforts to remove the
+attackers’ access or the backdoor failed. In July and August
+of 2014, these attackers exfiltrated the background
+investigation data from OPM’s systems.
+By October 2014, the attackers had moved through the OPM
+environment to breach a Department of the Interior server
+where personnel records were stored, and in December
+2014 another 4.2 million personnel records were exfiltrated.
+Fingerprint data was exfiltrated in late March of 2015.
+Finally, on April 15, 2015, security personnel noticed unusual
+activity within the OPM’s networks, which quickly led them to
+realize that attackers still had a foothold in their systems.
+
+## Page 136
+
+The lessons from this specific breach are as follows:
+The more sensitive your data collection and the
+higher the volume, the bigger the attack surface
+for anyone to exploit. This could be an external
+hacker or an internal bad actor. In either case, the
+privacy implications for your users and on the trust
+between the company and the users is severe.
+Just as decentralized development expedites
+innovation, the sprawl in data and systems allows
+privacy harms to occur in disconnected systems
+and data stores, and it may take a while before
+the combined impact is understood. A central
+privacy team is critical to focus on the big picture,
+as opposed to the engagement-driven siloed
+approach that often drives individual tech teams.
+This privacy harm occurred due to security and
+network vulnerabilities. As stated before, security
+is a necessary precondition for privacy, and in
+subsequent chapters I will discuss how security
+practices and personnel will form key pillars of
+your privacy program.
+The Equifax breach helped identify individuals and their
+financial circumstances. The OPM breach identified
+individuals and their power within government. An
+intersection of these two data stores would identify
+individuals in positions of authority in the US who may be in
+financial duress (see figure 2.8). In the wrong hands, this
+data could present an opportunity for blackmail or bribery,
+putting US national security in jeopardy.
+
+## Page 137
+
+Privacy and security risks are often aggregated; engineers
+often believe that data they collect is not worthy of privacy
+protections, since they do not intend to act unethically. This
+example shows that accumulated privacy risks often show
+up at a later date, after a series of security incidents.
+Figure 2.8 How the OPM and Equifax breaches hurt privacy and
+national security
+Privacy may be contextual and personal, but the implications
+of privacy harms are rarely just that.
+2.4.3 LabCorp and Quest Diagnostics
+LabCorp, a medical testing company, said 7.7 million
+customers had their personal and financial data exposed
+through a breach. Quest Diagnostics suffered a breach that
+affected 11.9 million patients. That breach allowed an
+“unauthorized user” to gain access to financial information,
+Social Security numbers, and medical data. The common
+link: the breach occurred at a third-party billing collections
+company that served both LabCorp and Quest.
+
+## Page 138
+
+There are key lessons for businesses from these breaches:
+Even if you, as a company, do everything right,
+you are still vulnerable if one of your partners is
+impacted by a data breach.10
+In the coming years, as we escape the pandemic
+and as our population ages, protecting health care
+data will become even more critical.
+LabCorp claimed that the hackers did not obtain
+“any lab results,” but it is almost impossible to
+prove that data related to health care was
+exfiltrated but somehow lab results were not.
+Getting breached is almost impossible to reverse,
+and its impact is almost impossible to mitigate.
+Finally, companies often over-index on protecting
+specific pieces of data but fail to afford the same
+level of consideration to others. This is how
+LabCorp may have allowed some data to be
+breached even as other data was safe. Leaders
+need to ensure that their company takes a holistic
+view rather than trying to score easy wins with
+privacy.
+As we will discuss in subsequent chapters, it is key that your
+privacy program have a clear, objective, and scalable criteria
+for vendor assessment, methods to verify their privacy best
+practices before your engagement begins, and techniques to
+audit their methods after data starts changing hands.
+These are just some of the relatively recent breaches that
+exposed the soft privacy and security underbelly of
+
+## Page 139
+
+companies and governments. Additionally, each privacy
+incident shows different mistakes and vulnerabilities, all
+outcomes of the broader culture that seems to have valued
+velocity over alignment and innovation over detail.
+As a result, a lot of recent regulation takes a more holistic
+view toward data protection. These laws combine privacy
+and security and are more comprehensive than any previous
+regime. The next section provides guidance on the broader
+landscape taking shape, with the caveat that the applicability
+of these laws to your business is for your legal department
+and outside counsel to assess.
+2.5 Privacy and the regulatory landscape
+Regulatory interest in privacy has grown in recent years.
+When I started my career in this space, most companies did
+not have to worry about multiple privacy laws or deal with
+empowered regulators. That has changed in recent years,
+and newly passed laws in various jurisdictions have created
+obligations for companies that collect data from their users.
+Since I am not an attorney, I will advise that you speak to
+your legal team or outside counsel on the applicability of
+these laws. That said, I will touch on how laws like the
+European Union’s General Data Protection Regulation (GDPR)
+have changed how companies interact with their customers.
+The GDPR gives customers more power and control over
+their data and makes companies responsible in a more
+
+## Page 140
+
+granular fashion for how they access, process, and retain
+customer data.
+I have a personal example of how the GDPR affected a
+business I patronized and the service it was able to offer me.
+2.5.1 How regulations impact your product and their
+users
+I used to work out at a gym where I could sign in using my
+badge at an electronic kiosk. Once I signed in, the cardio
+devices would display my name and my personalized
+workouts. All I had to do was click on my name; I did not
+have to worry about remembering my username and
+password.
+Post-GDPR, even after I had signed in on the kiosk, the
+treadmills could not display my name. I had to enter my
+username and password all over again. I was told this was
+for privacy reasons. A lot of my friends saw the same thing.
+I never found out why the connection between the treadmill
+and the kiosk was disconnected. It may have been that the
+legal teams felt there was a privacy concern, or the
+engineers who were cleaning up data for GDPR may have
+made that change for technical reasons, or a perhaps it was
+a combination of several reasons. Either way, such was the
+confusion and rush in the lead up to the GDPR that privacy
+was not always the focus in the changes that companies
+made and consumers experienced.
+
+## Page 141
+
+In any case, to avoid having to type their username and
+password, several gym users started using the guest mode.
+As a result, they could not use the personalized workouts
+they had created and that suited their weight-loss and
+muscle-development goals. They also could not, in guest
+mode, access their workout history. This was a critical metric
+for user satisfaction. This change in user behavior meant
+that the fitness company could not collect any data from the
+users either.
+Now place yourself in the shoes of the gym owner or the
+manufacturer of the cardio machines. You are providing a
+product that helps individuals get fitter. You also hope to
+drive engagement and continued participation by collecting
+data that then helps you better educate your customers on
+how they can better handle their physical fitness. And then a
+complex piece of privacy legislation creates a wall between
+you and your users. In this case, neither the gym nor the
+users indulged in bad privacy practices, but there was
+enough concern around privacy practices in general that the
+GDPR became a reality, and in turn had outcomes beyond
+holding bad privacy actors accountable.
+There are a few key lessons here:
+It is easy to point to examples of companies that
+do a bad job on privacy and get away with it.
+If companies collecting data won’t do a better job
+on privacy, someone, somewhere, will pass a law
+that will hurt everybody’s ability to connect with
+their customers.
+
+## Page 142
+
+Privacy laws are often aimed at ensuring
+companies do right by their users, and that there
+is a safer exchange of data. In the case of the
+gym, the implementation of a specific law led to
+confusion and a suboptimal experience all around.
+Bad privacy practices are a lose-lose situation for
+everyone. This includes those in the industry who
+often do no wrong but are impacted by laws and
+the lack of trust that emanate from privacy harms.
+From a non-legal perspective, the most effective privacy
+guidance I can give you is as follows: We are living in an age
+of institutional reaction. As awareness around privacy has
+increased, laws have sprung up in a rapid and somewhat
+disconnected fashion. It may take a while before there is
+alignment between determining which privacy protections
+are effective, getting them codified into law, converting them
+into enumerated instructions for implementation and
+verification, and then iterating them as customer needs
+evolve.
+This example makes the case for the proactive privacy-by-
+design strategy this book advocates. Senior leaders are
+often upset when unplanned product changes lead to
+unwanted outcomes. This book will ensure that you sweat
+the details so that your customers at a gym don’t have to be
+inconvenienced as they sweat it out.
+2.5.2 How your program should help prepare for
+changing privacy law
+
+## Page 143
+
+The following examples show how you can create processes
+and tools to protect data privacy and improve your
+regulatory compliance:
+Build an access control regime to protect data
+without creating unnecessary and
+counterproductive bureaucracy. Such a system will
+tie data access to legitimate needs and put
+controls in place to prevent abuse.
+Align data retention and deletion with legitimate
+business needs and privacy commitments, which is
+to say that your company will not retain data in a
+way that abuses customer trust and leaves that
+data vulnerable to breach or exfiltration.
+Share data with external entities in a way that
+protects privacy. You’d share data using protected
+tools like encryption as well as by aggregating
+and/or anonymizing it so that individual users are
+not identified.
+Subsequent chapters will discuss these concepts in much
+more detail.
+This book will help you build a privacy program that will help
+you build trust with your customer by using the legal
+landscape as a floor rather than a ceiling. You will be able to
+relate to your customer’s privacy needs because you value
+their trust, not because of regulatory pressure.
+Having examined privacy through the lens of your business
+and the law, it is now important to add the third leg of this
+
+## Page 144
+
+stool, and the most vital one: the next section will examine
+what privacy looks like to your customer.
+2.6 Privacy and the user
+It is often easy to lose sight of the fact that behind the
+petabytes, tables, and lakes of data, this is information
+about human beings. These human beings value their
+distinctiveness, their identity, and their privacy. Just as
+privacy and trust go hand in hand, privacy and respect go
+hand in glove. In order to explain this connection, a personal
+story from my own life is in order.
+2.6.1 Becoming an American, and privacy
+On May 6, 2013, I took my oath as a US citizen. It was a
+beautiful ceremony. After living in America for almost 13
+years, I was officially an American.
+But before that moving and momentous day, I had to go
+through a detailed process called naturalization. This process
+requires filling out multiple forms, providing tons of data
+about me, my family, and friends, giving my fingerprints,
+and being interviewed under oath where every possible
+question was on the table. During this process, I had to
+provide extremely personal information—financial,
+biographical, familial—and saying “no” was not an option.
+I did not have the power to question why so much
+information was necessary to assess my eligibility for
+citizenship. For example, my maternal grandmother was
+
+## Page 145
+
+born in a small village in India and died before my parents
+even met. The government wanted her birth certificate.
+Procuring this document was hard, since all those decades
+ago, the village where she was born did not even issue birth
+certificates.
+Throughout this process, I had no visibility into how all my
+information would be used, who would have access to it or
+for how long, who it would be shared with, and how it would
+be protected. More than seven years later, I still do not. It
+would have been helpful if the government had explained to
+me why they needed all that documentation, some of which
+had not even a tenuous relationship to my application. While
+I understand that the authorities have a responsibility to
+protect the homeland and cannot share too many details,
+the whole exercise felt like a data grab and a reinforcement
+of the power asymmetry ... the government had something I
+wanted, and I had nothing to push back with.
+I believe that privacy is about transparency and trust.
+Whether you are a business or a government, collecting data
+prudently, sharing it carefully, and protecting it always
+should be your key guiding principles. I have been leading
+privacy programs for a long time, and I bring to the table a
+sensibility that no user should feel as helpless as I did then.
+2.6.2 Today’s users and their privacy concerns
+For engineers and other technical managers who need to
+justify privacy efforts to their executive and finance
+leadership, this section connects your goals of business
+
+## Page 146
+
+success with your obligation to respect your customer.
+Building a privacy reputation and trust with your customers
+can help you achieve key business objectives such as
+Customer loyalty
+Business growth
+Brand differentiation
+Research from SalesForce shows how important it is to build
+this trust. This research provides insights into customer
+behavior that may seem counterintuitive at first11: customers
+value personalized experiences, which require you to collect
+data, but customers also want you to respect their privacy. If
+customers trust you, they are more likely to be loyal to you
+with their dollars and recommendations. Especially critical in
+the research is the call-out regarding sharing; customers
+ranging from baby boomers to millennials to Gen Zs are
+more likely to share positive feedback about you if they trust
+you.
+The research also indicates that customers’ ability and
+willingness to trust a business is related to how that
+business handles their privacy. The customer sentiment is
+clear. Customers want you to give them control, to be
+transparent, not to take their consent for granted, and to
+treat their data with respect.
+As you build your privacy muscle, you will notice that a lot of
+these expectations have been codified into laws. As with
+other social changes like marriage equality and pay equity,
+this is an example of laws catching up with social
+
+## Page 147
+
+expectations. This is why, when it comes to operationalizing
+technical privacy, I have placed customer trust as your first
+privacy-related responsibility, ahead of legal compliance.
+Senior leaders will understand by now that privacy is the
+thread that connects their success as business leaders, their
+ability to adhere to an expanding regulatory regime, and
+their ability to build an enduring relationship of trust with
+their customer base.
+A functional and iterative privacy program can efficiently
+lead to a virtuous circle that will help you succeed materially
+as well as reputationally, where privacy is not seen as a
+blocker but an enabler and a differentiator.
+All the challenges you have seen thus far help make a case
+for privacy tooling, and the subsequent chapters will discuss
+that. For now, let’s look at how your program might scale
+once the tooling is in place.
+2.7 After building the tools comes the
+hard part: Building a program
+Privacy can be very personal and visceral for individuals,
+while also being very contextual. That means it is often hard
+to plan for, measure, and define in a common vernacular.
+Even when there is good faith and attempts to align on both
+sides (companies and customers), it can be hard to create a
+strategy. This book will help create a solid understanding of
+this complex domain and provide a game plan that you can
+
+## Page 148
+
+improvise on based on your needs and organizational
+situation.
+Based on my experience, the journey of privacy tooling and
+investment has three inflection points:
+There is an immediate surge of ideas and
+resources when privacy needs arise. In figure 2.9,
+you can see the spike in privacy investment; this
+spike is the first inflection point.
+There is a shortage of resources once the privacy
+threat recedes. This is where privacy investment is
+redirected to feature development, and you can
+see the corresponding dip in figure 2.9. You may
+even end up with less privacy spending than you
+had at the beginning.
+Then you end up treading water, making a series
+of privacy decisions to keep the company from
+getting into regulatory hot water. Spending in
+privacy picks up, but even as it recovers, it will
+remain short of the peak. This is the third
+inflection point, where the company accepts this
+status quo as its de facto risk tolerance level.
+In such a scenario, the privacy program is front and center
+only when there is an imminent crisis. In a state of reactive
+panic, all hands are deployed to address privacy concerns.
+Many companies that have had to respond to laws like GDPR
+will have faced a moment like this. The GDPR required
+
+## Page 149
+
+companies to make several changes to their processes and
+tooling in early 2018.
+Figure 2.9 Privacy investments: surge, drop and recovery
+For many companies, this represented a significant change
+to their regular operations. Many companies had to hire
+more staff, which was challenging, since individuals with
+deep privacy backgrounds are relatively rare. Other teams
+across the board were also impacted by this work. While
+many companies did try in earnest to meet their GDPR
+commitments, there was no long-term strategy whereby
+GDPR would be a stepping stone toward privacy maturity.
+Too many leaders saw GDPR as a capstone, after which
+employees would move on to business as usual. What ended
+
+## Page 150
+
+up happening in too many instances was that employees
+kept getting pulled back to complete privacy work, leading to
+a sense of perpetual whiplash. In reality, leaders should
+have used, and can still use, GDPR as a foundation to build
+on. Subsequent chapters will provide you with hands-on
+skills for embedding privacy into the data and business
+processes that ensure privacy is a strategic accompaniment
+to your business endeavors rather than a fire drill that
+competes with revenue generation.
+Customers were similarly confused. Many of us remember
+getting emails from just about every business we interacted
+with concerning changes they were making for GDPR. Many
+friends I talked with did not know what the fuss was about,
+while others were concerned that they did not understand
+how their life would be impacted by this law.
+Given the sheer volume of work and reprioritization involved,
+it is hard to assess whether there was a greater alignment
+and trust between businesses and their customers. In
+subsequent chapters, we will look at how companies can
+better inform customers about privacy tools and decisions so
+that the work companies do for privacy is better understood.
+That in turn will help build trust and improve the company’s
+brand, and it may even have the effect of reducing some
+regulatory pressure as well. This preemptive education is
+critical, since companies should use regulation as a floor
+rather than a ceiling—companies should do the right thing
+because it is the right thing for their customers, rather than
+convey the impression that they were dragged kicking and
+screaming by regulations.
+
+## Page 151
+
+In the period since the GDPR was enacted, many businesses
+have faced similar challenges with other privacy-related
+challenges. Many privacy endeavors require the
+redeployment of resources, and other work is deprioritized.
+Once the crisis passes, the status quo often reasserts itself
+and privacy finds itself resource-constrained, and the
+company settles into a rhythm where privacy programs
+tread water, borrowing resources on a case-by-case basis.
+Rather than strategically investing in making the program
+flexible, this approach is akin to going grocery shopping
+every time you get hungry, taking just enough money to pay
+for the next meal.
+In the interest of long-term business success and building
+trust with your users, technical leaders should build a base
+of privacy knowledge that will help them manage and drive
+events rather than be driven by them. The good news is that
+other fields, like security, have gone through the same
+process of evolving maturity, so there is precedent on how
+privacy practices can improve.
+The key responsibility of technical leaders who wear many
+hats is to make the business successful. This book will help
+you merge privacy into that success strategy by achieving
+the following goals:
+Build a strong understanding of terms like privacy,
+security, and compliance.
+Understand how the engineering innovation
+process has changed, and how a tension exists
+between data-driven innovation and privacy.
+
+## Page 152
+
+Create a privacy governance program that will
+scale efficiently for a resource-constrained
+business.
+With this knowledge in your leadership toolkit, your privacy
+program’s consumption of resources will look less like the
+up-down-up sequence of figure 2.9 and closer to the graph
+in figure 2.10. Rather than lurching from spending a lot of
+resources to fend off a privacy crisis and then losing those
+resources once the crisis passes, you will build the expertise
+to operationalize and automate privacy at scale and yet
+retain the human intuition to do right by your users.
+As your program starts out, you will need to expend
+significant resources to make up for decisions made during a
+period or growth. Over time, however, you will be able to
+build a program that will benefit from synergies with
+security, data platform, and data science. These efficiencies
+will help manage costs and prevent swings that hurt
+organizational predictability.
+Figure 2.10 makes clear that, simplistically speaking, there
+is a negative correlation between experience and
+expenditure when it comes to privacy. This is true both for
+hands-on technical leaders and for your privacy program,
+which may include human investment and automation. The
+early stages of implementing privacy will be harder than
+when you build a product in your area of expertise, since the
+domain of privacy is not one that many multitasking
+technical leaders are deeply immersed in.
+
+## Page 153
+
+Figure 2.10 Privacy experience and time investment are inversely
+proportional.
+While figure 2.10 demonstrates a downward slope in
+resource expenditure over time, getting started in the task
+of privacy engineering is initially going to feel like a tough
+mountain to climb. This book will serve as a base camp and
+provide you with a map and a ramp to the summit, while
+also helping you build the muscle for a steep and often
+unpredictable climb. The goal is not for engineers and
+architects to become privacy experts per se, but to become
+conversant enough that they can receive expert advice and
+incorporate it into business decisions that will have far-
+reaching implications.
+2.8 As you build a program, build a
+privacy-first culture
+
+## Page 154
+
+At its core, this book has two main constituencies: technical
+leaders on one side, and engineers and cross-functional
+program managers on the other. In the real world, leaders
+may in fact travel back and forth between these groups. As
+such, this book has a broad audience and wide applicability.
+Technical leaders at large data-driven businesses may not
+write code, but they do need to understand the tradeoffs
+and long-term implications of technical decisions. They have
+to weigh their decisions, considering how they impact
+measurable revenue/ growth targets versus the more
+intangible trust/brand goals. These technical leaders—who in
+some cases may be executives—tend to operate at a high
+level with a strategic long-term vision. They fuse experience
+and instinct with data to make business decisions.
+For them, privacy represents a disruption and a risk in that it
+affects their ability to connect to their customers, market to
+them, and retain them. Privacy goes to the core of how they
+handle data, how they keep it safe, and how they interpret
+complex regulations. Without the conceptual and technical
+understanding of privacy risks and controls, they are like
+architects who build tall technical structures and
+unknowingly walk to the edge without technical guidance.
+This book will help such leaders do several things:
+
+## Page 155
+
+Create a culture of “teach, train, and trust,”
+whereby they can teach their engineers to handle
+data with care, train them to work with
+interoperability rather than in siloes to protect
+customer data, and drive a trust-seeking culture
+rather than one that only craves engagement and
+monetization.
+Understand the complexity behind implementing
+privacy tooling at scale, as well as the necessity
+for their technical teams to have the political cover
+and budget necessary to get the job done.
+Be able to whiteboard technical privacy solutions
+and make data-driven decisions so that their
+teams have clear guidance.
+These technical leaders are often founders or leaders
+charged with helping the company mature en route to an
+IPO or acquisition. It is vital that they build the hands-on
+skills to protect their investments and their users.
+Understanding privacy will be equally useful to engineers
+and cross-functional program managers at small, medium-
+sized, and even large organizations. Such shops may not
+have dedicated functions and hierarchies, and functions like
+privacy may lack ownership. This book will provide hands-on
+tools and ready-to-implement privacy techniques. These
+tools will allow engineers and other technical leaders to
+operate on a small budget, avoid unnecessary processes,
+and produce privacy outcomes that are typically thought
+possible only in large businesses. As such, this book will
+enable such a shop to maintain privacy maturity and avoid
+
+## Page 156
+
+falling behind, and to retain the option to invest further and
+turn privacy into a differentiator.
+A leader reading this book will understand the general
+landscape around customer data and security. These are not
+strict requirements, since coherent strategic understanding
+of their own business is something this book builds on.
+After reading this book, hands-on technical leaders will be
+able to complete the following tasks:
+Classify data based on privacy risk.
+Build a data catalog by embedding that
+classification into your data.
+Create privacy controls like data deletion, so that
+you can delete user data on demand or after the
+user cancels their account.
+Manage privacy risk by implementing Identity and
+Access Management (IAM) for your users.
+Run data minimization initiatives to reduce copies
+of sensitive data in your systems.
+Share data with privacy controls built in so that
+you can avoid harm to your users.
+Measure the privacy impact of techniques like data
+obfuscation, so you can qualify risk reduction as
+your privacy program matures.
+Conduct privacy reviews, ensuring that you can
+assess products and features with a
+legal/compliance lens as well as a technical lens.
+
+## Page 157
+
+Table 2.1 is a template for a typical privacy program for agile
+businesses in various life stages. It shows an abbreviated
+and somewhat simplistic privacy program, but it does
+indicate how a privacy program evolves. In its early stage,
+the program is very tactical and deals with damage control.
+There is also a substantial investment in understanding the
+space, since technical leaders in a company will need to pair
+their broad coverage of the business with more in-depth
+expertise of specific domain areas.
+Table 2.1 Stages of a privacy program
+
+## Page 158
+
+ 
+        
+Privacy program 
+stage
+ 
+      
+ 
+        
+Components
+ 
+      
+ 
+        
+Early stage
+ 
+      
+ 
+        
+ 
+          
+Incident response
+ 
+ 
+          
+Technical debt and discovery of data
+ 
+ 
+          
+Understand legal compliance risk
+ 
+        
+ 
+      
+ 
+        
+Planning stage
+ 
+      
+ 
+        
+ 
+          
+List the kinds of data being collected
+
+## Page 159
+
+ 
+ 
+          
+Classify data based on privacy risk
+ 
+ 
+          
+Get signoff with legal and engineering on data 
+classification
+ 
+        
+ 
+      
+ 
+        
+Execution 
+stage
+ 
+      
+ 
+        
+ 
+          
+Data cataloging
+ 
+ 
+          
+Privacy reviews (prerelease)
+ 
+ 
+          
+Manual data deletion
+ 
+        
+
+## Page 160
+
+ 
+      
+ 
+        
+Maturity stage
+ 
+      
+ 
+        
+ 
+          
+Classify and inventory new data
+ 
+ 
+          
+Automate deletion
+ 
+ 
+          
+Ability for exporting and sharing of data in a compliant 
+fashion
+ 
+ 
+          
+Ability to collect user consent
+ 
+ 
+          
+Minimize data collection by building common data 
+stores
+ 
+ 
+          
+Build access controls
+ 
+        
+
+## Page 161
+
+ 
+      
+ 
+        
+Audit-ready 
+stage
+ 
+      
+ 
+        
+ 
+          
+Map privacy controls to laws like GDPR and CCPA
+ 
+ 
+          
+Map privacy controls to contractual commitments
+ 
+        
+ 
+      
+As the program grows, the company will be able to build
+tools and processes to classify data, catalog it, and then
+protect it with privacy-preserving methods like deletion,
+access control, and minimization. These tools and others like
+them will form the core of subsequent chapters of this book.
+Summary
+The modern engineering processes that drive
+innovation also tend to make the enforcement of
+privacy controls more difficult.
+
+## Page 162
+
+When used correctly and prudently, data can
+empower and enable your business. If used
+incorrectly, data can hurt your relationship with
+your customers, possibly direct the ire of
+regulators, and hurt your business.
+Privacy is really about data, and how you handle
+data will help determine how much you can protect
+user data privacy and your business.
+There is a significant overlap between customer
+expectations and regulatory sentiment around
+privacy.
+The regulatory reach around privacy is increasing,
+so building a program that can protect your
+business and your users is critical.
+Your users are your customers, and when they use
+your services, they trust you to protect their
+interests. Ensuring their privacy is a demonstrable
+way to do just that.
+1 Roger McNamee, “A Brief History of How Your Privacy Was Stolen,” New York Times, June 3,
+2019, http://mng .bz/drRg.
+2 Si Quan Ong, “10 Crucial Ecommerce Metrics For Serious Entrepreneurs Only,”
+ReferralCandy, June 13, 2017, www.referralcandy.com/blog/ecommerce-metrics/.
+3 “Equifax Releases Details on Cybersecurity Incident, Announces Personnel Changes,”
+Equifax Press Release, September 15, 2017, http://mng.bz/r6Xx.
+4 “Equifax Data Breach,” Electronic Privacy Information Center (EPIC),
+https://epic.org/privacy/data-breach/equifax/.
+5 Josh Fruhlinger, “Equifax data breach FAQ: What happened, who was affected, what was the
+impact?” CSO, February 12, 2020, http://mng.bz/VBjN.
+6 Kate Fazzini, “Equifax just became the first company to have its outlook downgraded for a
+cyber attack,” CNBC, May 22, 2019, http://mng.bz/xXp7.
+7 Michael Adams, “Why the OPM Hack Is Far Worse Than You Imagine,” Lawfare, March 11,
+2016, http://mng.bz/AO5e; Josh Fruhlinger, “The OPM hack explained: Bad security
+practices meet China’s Captain America,” CSO, February 12, 2020, http://mng.bz/ZxNN.
+
+## Page 163
+
+8 Aliya Sternstein and Jack Moore, “Timeline: What We Know About the OPM Breach,”
+Nextgov, June 17, 2015, http://mng.bz/RqzR.
+9 Josh Fruhlinger, “Malware explained: How to prevent, detect and recover from it,” CSO, May
+17, 2019, http://mng.bz/20Oo.
+10 Rachel Siegel, “LabCorp discloses data breach affecting 7.7 million customers,”
+Washington Post, June 5, 2019, http://mng.bz/10eQ.
+11 “Research Brief: Trends in Customer Trust,” Salesforce, http://mng.bz/PXV8.
+
+## Page 164
+
+Part 2. A proactive privacy program: Data
+governance
+This part will help engineers think of privacy engineering
+not as a series of tools and point solutions but as a platform
+that leads to sound governance. Given the
+interconnectedness of the tech ecosystem, engineers will
+need to build privacy across the stack. This section will
+provide engineers with hands-on skills to embed privacy
+into the data.
+Chapter 3 focuses on classifying data with cross-functional
+partners so as to align with privacy risk. Without data
+classification, you can neither quantify risk nor begin to
+enforce automated controls. There are also examples on
+offer to help engineers build instinct and muscle memory for
+their jobs.
+Chapter 4 is a deep-dive on data inventory, so that
+engineers can affix data classification into the data that
+lives in their systems. We will architect a system that will
+inventory and index data using a mixture of manual and
+intelligence-powered categorization.
+Chapter 5 will enable engineers to share data with privacy
+protections built in. It will educate the reader with
+techniques to anonymize datasets and measure privacy
+
+## Page 165
+
+impact. That way, they can tailor data sharing to business
+risk appetite, regulatory commitments and customer trust.
+  
+
+## Page 166
+
+3 Data classification
+This chapter covers
+Data classification: what it means for your customers
+Why data classification is necessary
+How you can implement data classification
+How data classification can help satisfy your compliance
+challenges
+How data classification can work cross-functionally
+An end-to-end data classification process
+In the first two chapters, I introduced the basics of privacy
+and what it means for your business. We then built a mental
+model that connects privacy to trust and safety, so that
+rather than an altruistic abstraction, privacy becomes a
+critical business goal.
+Subsequently, we identified data as the building construct
+for privacy because of
+Its power to identify individuals
+Its abundance, thanks to ubiquitous internet
+connectivity, universally accepted IDs like Google,
+Facebook, and other device IDs
+Its ability to shape and influence behavior by way
+of machine learning and artificial intelligence
+
+## Page 167
+
+Its potential to create often irreversible harms if
+used inappropriately or exfiltrated
+Since protecting user privacy is critical for your company to
+maintain trust with users and maintain credibility with
+regulators, media, and privacy activists, it follows logically
+that your privacy-related efforts need to focus on data. To
+protect data from being used incorrectly in a way that hurts
+privacy, engineers need a holistic strategy on how best to
+understand data. The first part of that strategy is data
+classification.
+Before we get into data classification and its details, it is
+useful to understand how data classification can help
+improve the overall relationship between the source of the
+data (the users and customers) and the recipients of the
+data (the companies that use the data to innovate).
+3.1 Data classification and customer
+context
+It is impossible to discuss privacy meaningfully without
+considering the context of the techlash. Gradually but
+certainly over the last 15 years, the tech sector has gone
+from being the crown jewel of the economy to being the
+entitled relative who comes to the potluck empty handed
+and yet grabs seconds and thirds before everyone else has
+had firsts.
+
+## Page 168
+
+As I wrote on LinkedIn in 2015, unlike traditional sectors like
+agriculture, infrastructure, and healthcare, technology is
+inherently different in terms of the relationship between
+output and labor. In those sectors, you need a lot of workers
+to consistently convert plans into products. That is not the
+case with tech jobs, where one of the main appeals of
+technology is using automation to do more with less labor
+and fewer iterations.1
+For example, when Facebook acquired WhatsApp for $19B,
+WhatsApp employed just 55 employees.2 This purchase was
+great for WhatsApp employees, but it did not create any
+profit or income for anyone outside of those 55 people.3
+Similarly, when Yahoo bought Tumblr, about 40 employees
+made millions and about 178 employees made about
+$300K.4 There are similar examples all over the world.
+As far as the tech sector being a jobs engine is concerned,
+the reputation is not always the reality. As advertised,
+technology creates great wealth; that wealth, however, is
+distributed among a small slice of society. There is a bright
+green line between those who make millions and the
+remaining “minions.” Put simply, the tech sector can create
+wealth without creating a lot of work, and the average
+person may feel left out of the economic benefits of the tech
+boom as a result. As we saw with the recent WeWork fiasco,
+the founders exited the company with generous packages,
+while the rank and file employees received next to nothing.
+The ability of the tech sector to optimize everyday life using
+data is a source of this wealth. The titans of tech position
+themselves as disruptors of the status quo, but this
+
+## Page 169
+
+disruption also often causes societal and social displacement.
+The contextual and cultural gap between the service
+economy and rest of the economy that we have witnessed
+over the last five years stems in part from this phenomenon.
+That some players in the industry have collected more data
+than they may have needed, handled it more cavalierly than
+they should have, and shared the data in a fashion more
+profligate than was appropriate adds insult to injury.
+When users complain about “companies collecting too much
+data,” it is this larger asymmetry that is at work; they feel
+like companies collect their data, and the benefits of that
+data collection vest disproportionally with the company. The
+company can make the argument, often credibly, that this
+data collection helps build better products for users. The
+problem is that these features may provide negligible
+benefits for the users even as they become sources for more
+data for the company. The character of Leo McGarry from
+The West Wing TV show spoke for many when he expressed
+his disappointment with the modern tech sector, asking
+where the moon colonies he was promised were.
+Data classification is a critical step that aims to add
+discipline to the relationship between this sector and the
+users who ultimately are identified by this data. The process,
+and the outcome, will help companies evaluate their data
+collection from the point of view of the users whose data
+they collect. Data classification could help the company
+avoid possible privacy issues, demonstrate to outside
+stakeholders that the company does not see its users as
+commodities, and enable the company to handle the data
+
+## Page 170
+
+more carefully (or delete it more quickly) in line with what
+the classification says about the data. While classification
+may not address the larger question of economic wealth
+inequality, this process will provide data-driven companies a
+more human lens through which to look at the data and the
+users represented by it.
+In subsequent sections of this chapter, I will address in more
+detail the “why” and “how” of data classification, but senior
+engineers need to view this work as part of an overall
+investment in treating their users with respect and building
+trust.
+3.2 Why data classification is necessary
+At its core, data classification will answer the following
+questions for each type of data that is or might be collected
+or stored:
+What sort of data is this in terms of volume and
+definition?
+Why do we need to collect it?
+What does it tell us about our customers and our
+business?
+What would happen if this data were to be
+mishandled?
+When I have to make a business case for data classification
+for C-level leaders, I tell them that data classification and
+inventory offer critical benefits to companies, including
+
+## Page 171
+
+Insight into how a distributed and democratized
+engineering community uses data
+Continuous alignment between organizational data
+use and requirements under data protection law
+The ability to tailor data protection techniques and
+tools and inform engineering roadmaps
+Let’s add some context to this high-level summary.
+3.2.1 Data classification as part of data governance
+You have already seen that digital businesses face some key
+challenges:
+Massive growth of and dependence upon data
+collection
+A confusing and growing regulatory challenge in
+the US, the EU, and emerging markets
+To add to that, we now have yet another challenge: most
+companies have no process to manage their data collection
+and identify how much risk that data poses to security and
+privacy. The author of The Privacy Engineer’s Manifesto,
+Michelle Finneran Dennedy, recently stated that on the
+balance sheets of today’s consumer-driven companies, data
+is both an asset and a liability.
+In the absence of sound data governance, you cannot make
+informed decisions about what to keep and how to best
+protect it from external attack and internal misuse. Industry
+experts agree that data classification is step 1 in your
+
+## Page 172
+
+journey toward maturing as a company regarding data
+privacy.
+In Microsoft’s landmark white paper “Data classification for
+cloud readiness,” the company stated
+Data classification provides one of the most basic ways for organizations to
+determine and assign relative values to the data they possess. The process of
+data classification allows organizations to categorize their stored data by
+sensitivity and business impact in order to determine the risks associated
+with the data. After the process is completed, organizations can manage their
+data in ways that reflect its value to them instead of treating all data the
+same way. Data classification is a conscious, thoughtful approach that
+enables organizations to realize optimizations that might not be possible
+when all data is assigned the same value.
+5
+According to the white paper, it is critical that senior leaders
+be deeply familiar with data classification. This includes
+“consultants, security specialists, systems architects, and IT
+professionals who are responsible for planning application or
+infrastructure development and deployment for their
+organizations.”
+These roles include the following common job descriptions
+identified in the white paper:
+“Senior engineers, business analysts, and business
+decision makers (BDMs) who have critical business
+objectives and requirements that need IT support”
+“Architects and planners who are responsible for
+driving the architecture efforts for their
+organizations”
+
+## Page 173
+
+“Consultants and partner organizations who need
+knowledge transfer tools for their customers and
+partners”
+In previous chapters, we discussed how an increasingly
+decentralized and democratized organization, powered by a
+bottom-up innovation ethos, now can make decisions around
+vast volumes of data. Those decisions involve collecting,
+accessing, sharing, processing, modifying, and obfuscating
+data. It is next to impossible to make decisions about how to
+make these decisions without simultaneously understanding
+the level of privacy risk attached to the data.
+Put simply, data classification is about ranking data in tiers
+based on risk. To understand why this is important from a
+prioritization standpoint, let’s correlate the classification of
+data to the classification of human needs.
+3.2.2 Data classification: How it helps align priorities
+There is an inherent tension between finite engineering and
+data science resources on the one hand and prioritizing your
+efforts to protect data on the other. You cannot deploy all
+your resources to protect everything—all data is not equal.
+There is data that requires the most rigid protection under
+all circumstances, while other data can require less
+protection. This section will help engineers approach this
+prioritization process more systematically.
+UNDERSTANDING HOW YOU PRIORITIZE DATA
+PROTECTION
+
+## Page 174
+
+Figure 3.1 shows Maslow’s hierarchy of needs. At the very
+bottom, it shows how human beings first must provide for
+their basic needs like breathing, food, water, etc. These are
+physiological needs. Once those are accounted for, humans
+need health and employment, as well as physical and
+reliable security.
+Building on that, humans crave love and belonging, the
+reassurance provided by friends, family and community.
+Once safety around material and external connections is
+accounted for, humans seek confidence and self-esteem; this
+is where they build their own self-worth. At the apex,
+humans build on their need to live the life of their truest and
+highest potential.
+It is clear that the hierarchy diagram in figure 3.1 is also a
+prioritization diagram. At the very bottom, human beings
+prioritize their most existential needs. Once those needs are
+met, human beings work their way up the hierarchy to meet
+the next level of needs.
+
+## Page 175
+
+Figure 3.1 Maslow’s hierarchy of needs
+What does Maslow’s hierarchy of needs have to do with data
+privacy? Maslow’s hierarchy makes the point that our human
+needs are not met in one go, and as we meet one need, we
+feel more aware of a more advanced need. Similarly, a
+company with finite resources, thinly stretched technical
+leaders, and an urgent need to meet privacy requirements
+must prioritize. It makes no sense to throw all your
+resources toward protecting all data equally. This is critical,
+since companies often overcorrect; after ignoring privacy to
+their detriment, companies tend to overcompensate by
+investing wastefully in privacy tools.
+
+## Page 176
+
+Data classification is about ranking data to apply privacy
+protection to it, much like Maslow’s hierarchy ranks needs
+for fulfillment. Companies can then protect the most
+sensitive data first, and with lessons learned and tools
+created, they can then protect data that is of slightly lower
+sensitivity.
+It is instructive to look at figure 3.2 for a simplistic example
+of what a data classification structure might look like.
+Figure 3.2 Sample classifications of data
+NOTE Data classification is about understanding what data you have and what
+privacy risks it poses, and then dedicating resources to protecting data by
+prioritizing the data that poses the most consequential privacy risks.
+
+## Page 177
+
+An organization might collect large volumes of data. The
+level of risk attached to different types of data will vary
+significantly depending on what might happen were that
+data to
+Leak (i.e., get exfiltrated outside the company or
+accessed by unauthorized persons)
+Get combined with other data available elsewhere,
+internally or externally
+Be shared with another partner
+As such, the resources you dedicate to protect the data
+should depend on the risk to privacy. In your hierarchy of
+data, you would want to dedicate a significant chunk of your
+resources to data that is highly sensitive—labeled as
+Restricted in figure 3.2. It would stand to reason that such
+data might identify your customers and their behaviors, but
+it may also include business-critical data.
+The next level of data that you’d want to protect may not be
+as sensitive as what you have in the Restricted bucket. You
+will want to calibrate your strategy to protect this data
+accordingly.
+Using figure 3.2 as our reference, it is critical to understand
+that organizations cannot just declare data to be Confidential
+because they find the security and privacy protections
+required for the Restricted classification to be too onerous.
+Data that is classified as Restricted tends to meet at least a
+subset of the following criteria:
+
+## Page 178
+
+It uniquely identifies a specific individual. This is a
+subjective criterion; a name like “John Smith” does
+not uniquely identify someone unless accompanied
+by other data like a home address, but a name like
+“Nishant Bhajaria” offers a much higher level of
+identifiability.
+It is possible to join this data with other data that
+is easily available to identify a specific individual
+and their activities or preferences.
+Information about an individual made available in
+this data places them in a unique bucket. For
+example, suppose a company named 12080 Inc.
+manages an online pharmacy and stores a table
+containing data about people taking blood
+pressure medicines. In the table, the users are
+identified via random IDs so as to not name them.
+Such a table might be privacy-safe when it
+contains data for all of New York City, given the
+potentially high numbers of people. The same
+table, if it were to contain information about
+people living in Beatty, OR, might present a
+privacy risk since the town of Beatty has fewer
+people.
+Simply put, Restricted data tends to be individualized while
+Confidential data tends to be more aggregated. Because of
+the attendant privacy implications, Restricted data has
+tighter access controls and lower retention timelines,
+whereas Confidential data could have looser access
+requirements and longer timelines for retention.
+
+## Page 179
+
+DATA SEGMENTATION
+The previous subsection provided us a framework for
+classifying data based on risk. However, data classification
+exercises are not just about understanding the privacy
+sensitivity of the data itself; the classification exercises can
+help you reduce privacy risk by helping you modify the data
+itself.
+It is relatively straightforward to classify data by
+categorizing as Restricted any data fields that privacy and
+security engineers deem sensitive. However, companies
+often automate policy enforcement based on such
+classifications. For example, all data marked as Restricted
+may be encrypted at rest and in motion. In such situations,
+it may be possible to be more flexible and balance data
+privacy right alongside accessibility. Privacy engineers can
+segment data such that only data that is truly sensitive gets
+stringent privacy protections, while other data can be more
+freely accessed.
+Companies could segment data along the following lines:
+
+## Page 180
+
+Data about individuals—This data would describe
+specific people who could be personally identified
+and therefore harmed if their privacy is violated.
+This data could further be segmented as follows:
+Employee data
+Contractor data
+Customer data
+Unregistered user data
+Data about individuals would be subject to privacy
+protections, but a company may wish to offer varying
+levels of protection to different kinds of individuals. For
+example, registered users (or customers) may be
+entitled to stringent privacy protections. On the other
+hand, employees may be subject to tracking to mitigate
+insider risk and information theft.
+If all data belonging to individuals were classified the
+same way, you would end up with a “one size fits all”
+approach that would either overprotect or underprotect
+data.
+
+## Page 181
+
+Data about things—Companies also need to secure
+data that identifies objects like products, designs,
+places, etc. This data could be mission critical to
+the business and key to its profits and
+competitiveness. However, the data may not be
+subject to privacy-centric controls like deletion,
+obfuscation, etc.
+For example, for the US government, the location of a
+missile may be Restricted data and should not be
+accessible to all federal employees by default. However,
+the classification exercise must allow for that data to be
+identified, tagged, and protected differently than if it
+were customer data. You still need to protect business IP
+data, but in doing so you are protecting your business.
+In the case of customer data, you are being compliant
+with regulations and protecting customer trust.
+Even in this case, a caveat is in order. It is possible that
+data about things could be associated or joined with
+data that identifies individuals. Therefore, classifying this
+data granularly could help implement and track privacy
+protections down the road.
+
+## Page 182
+
+Data in aggregation—Data privacy risk is not
+immutable and static. As you aggregate data and
+obfuscate it, the privacy risk may discernibly
+decrease, as you will see in chapter 5.
+For example, a cohort of user records that doesn’t
+include specific user identifiers (like names) but includes
+the home address for each user may normally be
+marked as Restricted. However, you may be able to
+reduce privacy risk by aggregating users based on the
+ZIP code they live in, excising the home addresses from
+the data set. You could retain only those user records
+that are in a cohort of 100 or more per ZIP code. This
+may enable you to run experiments tailored to
+aggregated data sets without subjecting those data sets
+to the same rigorous privacy precautions that are better
+suited to data about individuals.
+You may also be able to aggregate data based on
+timelines, trends, etc. The key takeaway is this:
+transforming datasets from ones that describe
+individuals to ones that look at a collective could help
+classify them as having lower privacy restrictions.
+I added the preceding context around data segmentation
+because fast-moving companies without deep privacy
+expertise often are tempted by extremes. They are either
+overcautious and classify large volumes of data as Restricted
+or are overconfident in their sense of virtue and
+underestimate privacy risks. Looking at data more
+contextually enables a classification that is more accurate
+and enforceable.
+
+## Page 183
+
+Such an approach is also more reflective of how modern
+engineering works. Data, infrastructure, and microservices
+are tailored to fit their purposes. It is critical that privacy
+engineers classify data in a way that balances the needs of
+the business while placing data protection at the apex of
+their priorities.
+In order to help this concept sink in, a small exercise is in
+order.
+DATA PROTECTION EXERCISE: PRIORITIZATION AS A
+LENS
+Let’s assume you manage a company that analyzes the
+purchasing of medicine to advise a pharmacy so that they
+can plan for new orders. As such, you have access to the
+prescriptions that have been filled, with the names of
+patients, their birth dates, their genders, addresses, etc.
+Compiling these prescriptions over a period of time will give
+you a sense of what the demand looks like. Based on that
+demand forecast, you can plan for future orders from drug
+manufacturers so that you can make sure future
+prescriptions can be filled promptly.
+In your database, the information that personally identifies
+the patients and what medicines they take would fall in the
+Restricted category. Under most laws, this information is
+extremely sensitive, and even beyond the regulatory angle,
+people are extremely protective of information that deals
+with their health care. It stands to reason that data in this
+
+## Page 184
+
+bucket will be tied to strict access controls and constrained
+retention periods.
+However, in this use case, you have no reason to focus on
+individual users and their health or medical situations. You
+are more interested in the aggregate prescription
+information over time, so you can plan for the future. As
+such, you could modify your storage patterns. The two
+tables that follow explain how.
+Table 3.1 represents a database in which you have names of
+individuals listed with the medicines they ordered at a
+pharmacy. This information could uniquely identify
+individuals and hence would be classified as Restricted.
+Table 3.1 Individual prescription listing
+
+## Page 185
+
+ 
+        
+Name
+ 
+      
+ 
+        
+Medicine
+ 
+      
+ 
+        
+Date
+ 
+      
+ 
+        
+Josh Smith
+ 
+      
+ 
+        
+Ritalin
+ 
+      
+ 
+        
+12/1/2019
+ 
+      
+ 
+        
+Karen Jones
+ 
+      
+ 
+        
+Ritalin
+ 
+      
+ 
+        
+12/7/2019
+ 
+      
+ 
+        
+Oona Blair
+ 
+      
+ 
+        
+Losartan
+ 
+      
+ 
+        
+12/8/2019
+ 
+      
+ 
+        
+Vikram Khanna
+ 
+      
+ 
+        
+Ritalin
+ 
+      
+ 
+        
+12/15/2019
+ 
+      
+ 
+        
+Tony Brown
+ 
+      
+ 
+        
+Losartan
+ 
+      
+ 
+        
+12/18/2019
+ 
+      
+
+## Page 186
+
+ 
+        
+Theresa Johnson
+ 
+      
+ 
+        
+Losartan
+ 
+      
+ 
+        
+12/22/2019
+ 
+      
+For your purposes, you may want to retain this data for
+longer than normally allowed or to allow more people to
+access it. In table 3.2, you can see a database that has
+redacted the names of the patients and yet retained the data
+you really care about—how many times specific medicines
+were purchased in the pharmacy. You could make an
+informed argument that the absence of personally
+identifiable information in this table means that it could be
+classified as Confidential, which means you could retain it for
+longer, perhaps to compare December 2019 to December
+2018.
+Table 3.2 Aggregated prescription listing
+
+## Page 187
+
+ 
+        
+Medicine name
+ 
+      
+ 
+        
+Number of 
+prescriptions
+ 
+      
+ 
+        
+Date range
+ 
+      
+ 
+        
+Ritalin
+ 
+      
+ 
+        
+3
+ 
+      
+ 
+        
+12/1/2019–
+12/31/2019
+ 
+      
+ 
+        
+Losartan
+ 
+      
+ 
+        
+3
+ 
+      
+ 
+        
+12/1/2019–
+12/31/2019
+ 
+      
+Figure 3.3 shows how transitioning from table 3.1 to table
+3.2 is a win for privacy, cost savings, and security as well.
+This is an oversimplified example, but the takeaway is that
+data classification allows you to understand your use case
+better and to manage the data protection techniques more
+prudently.
+
+## Page 188
+
+Figure 3.3 Changing data for better privacy and lower costs
+The thinking and collaboration required in transforming a
+table with individual data into a table with more aggregated
+data will ensure you are more thoughtful and proactive
+about what you collect and how long you keep it. The
+potential savings in storage costs and the reduction in risk
+are benefits that will accrue over time, and you will be able
+to build a credible narrative that you are collecting data for
+legitimate business reasons without being careless about
+user privacy.
+Later in this chapter, we will look at a detailed example of
+how you’d want to classify data.
+3.2.3 Industry benchmarking around data
+classification
+As you have previously seen, data classification is the first
+step in an overall data governance program. Before we go
+
+## Page 189
+
+deeper into data classification, it is vital for engineers and
+aspiring engineers to understand that, even as privacy has
+been top of mind in the tech industry and other data-driven
+sectors, companies have a lot of catching up to do in the
+data governance space.
+In my professional travels, I hear a common theme. We do
+not know where to start with data governance. Gartner’s
+research (titled “Guidance for Addressing Risks with
+Unstructured Data”) bears that out.
+25% of respondents do not have a formal
+program.
+Nearly 38% have a program that could be
+described as “early stage.”
+Nearly 37% have a program that is functional on a
+regular basis.
+If you don’t have a fully functional program, you are hardly
+alone. But that will not make the challenge go away.
+This is especially a problem for unstructured data, which is a
+big portion of what companies store in their data
+warehouses for analysis.
+3.2.4 Unstructured data and governance
+Unstructured data is data that can’t be easily stored in a
+traditional column/row database or spreadsheet (such as a
+JSON blob). I once had an engineer tell me that they had no
+sensitive data in their Cassandra database, and then we
+discovered that in nested JSON objects there were IP
+
+## Page 190
+
+addresses that could be used to identify some users.
+Unstructured data, though it’s often overlooked, can be
+misused and thus should be governed with the same care as
+structured data (data stored in a traditional column/row
+database).
+By contrast, structured data is data that adheres to a
+predefined data model and is aimed at use cases that
+require straightforward analysis.6 Structured data normally
+conforms to a tabular format with a defined relationship
+between different rows and columns, such as a SQL
+database.
+According to Forbes, the unstructured data collected and
+stored by businesses is growing at 55–65% each year.7
+According to TechRepublic, 80% of the data companies
+process is unstructured.8
+Because of its nature, unstructured data is more difficult to
+analyze than structured data and it’s not easily searchable,
+which is why it wasn’t useful for organizations until recent
+years. Today, however, we have unstructured data analytics
+tools powered by artificial intelligence (AI) that were created
+specifically to access the insights available from unstructured
+data.
+Organizations need to understand the types of unstructured
+data they are accumulating and the best ways to process
+and store this data. This is especially true since unstructured
+data will make it harder to implement the requirements of
+several privacy laws.
+
+## Page 191
+
+The Gartner white paper also explains how companies that
+struggle with data governance face a particular challenge
+regarding unstructured data.
+For 75% of respondents, identifying locations
+where unstructured data was stored represented a
+business challenge.
+For 63% of respondents, removing unstructured
+data after the expiration of retention periods was
+challenging.
+For 37.5% of respondents, getting business
+leadership buy-in was a challenge.
+A lot of unstructured data ends up in logs or nested JSON
+blobs, where data is often buried. While it was easy to use
+tools like REGEX to detect sensitive data like IP addresses, if
+an IP address is buried deep in unstructured data, you may
+never detect it and therefore fail to delete it on time. While
+REGEX patterns can match unstructured data, the sheer
+volume of data being collected could lead to algorithms
+timing out before that data can be discovered and identified
+as sensitive personal data.
+Remember, all these challenges exist even as companies are
+collecting more and more unstructured data. Such
+companies could end up not capitalizing on the unstructured
+data they collect and storing more unstructured data than
+they really need, thereby running up data center costs and
+adding to their privacy and security risks.
+NOTE Unstructured data is an example of how techniques that improve innovation—
+high speed and availability—could pose privacy risks. The nature of data empowers
+
+## Page 192
+
+engineers and data scientists, but it makes life difficult for privacy engineers.
+So, besides privacy, it is vital that the company have a
+sound data governance strategy for unstructured data, since
+a lot of this data may contain insights that could help
+business competitiveness. The cross-functional process of
+data classification will shed light on the data your company
+has collected and stored across all its systems and on how
+that data is used.
+I’ll revisit this in chapter 4 and explain how the data science,
+business development, and privacy teams can work together
+to inventory the data, which is another key part of data
+governance.
+3.2.5 Data classification as part of your maturity
+journey
+I’d be remiss if I made the case for data classification
+without connecting it to your organizational maturity and the
+journey it takes to get there.
+WHAT IS ORGANIZATIONAL MATURITY?
+Engineers and other technical leaders expect to help improve
+the quality of organizational output and then scale their
+organizations to help deliver that output more efficiently i.e.
+help get to a higher maturity level.
+Organizational maturity is especially important for technical
+initiatives. This is where the model to measure and guide an
+organization to a higher level of maturity is useful.
+
+## Page 193
+
+According to TechTarget, “the Capability Maturity Model
+(CMM) is a methodology used to develop and refine an
+organization’s software development processes. The model
+describes a five-level evolutionary path of increasingly
+organized and systematically more mature processes.”
+According to the TechTarget article, “the CMM is similar to
+ISO 9001, one of the ISO 9000 series of standards specified
+by the International Organization for Standardization
+(ISO).... ISO 9001 specifically deals with software
+development and maintenance.” The two systems have
+differences as well: “ISO 9001 specifies a minimal
+acceptable quality level for software processes, while the
+CMM establishes a framework for continuous process
+improvement and is more explicit than the ISO standard in
+defining the means to be employed to that end.”9
+Without getting too deeply entrenched in the details, figure
+3.4 shows the various levels of evolving capability and
+maturity. As you can see, software development processes
+range from unpredictable and poorly controlled to mature
+enough to allow for improvement and refinement. During the
+ideation phase of software development, it is common to
+have very few controls on code quality, documentation,
+deployment cadences, etc. This helps developers release
+early versions quickly with room to iterate, and the progress
+helps fledgling companies raise money. As companies
+mature, however, it is vital to create processes that can help
+scale technical work and improve quality.
+
+## Page 194
+
+Figure 3.4 A Capability Maturity Model
+In the early days of product development, it also makes
+sense to gather data in order to harness your roadmap and
+guide your execution. Left unchecked, however, this
+approach can lead to accumulation of risk and the possible
+violation of customer trust. In that sense, data classification
+can help your organization mature in its ability to secure the
+appropriate data, build trust with your customers, and
+possibly gain favor with stakeholders in markets where
+organizational credibility gets a special premium. Good
+privacy is good policy.
+DATA CLASSIFICATION AND ORGANIZATIONAL
+MATURITY
+
+## Page 195
+
+In many cases, highly autonomous and decentralized
+engineering teams may blanche at the requirement that they
+label their data and handle it based on the risk that the
+classification implies. After having years of free rein to
+collect and access data, this step may reek of bureaucracy
+and process.
+Before you dismiss their concerns, understand that these
+engineers are held to tight deadlines and aggressive
+roadmaps that executives or aspiring executives have set
+up. The same business forces that drive data-powered
+innovation ask the same engineering teams to show rigor
+and prudence in data handling. The former ask creates an
+incentive for moving fast with data and being creative, while
+the latter serves to rein in that exact mandate.
+These contradictions often create tension between the teams
+that have to execute on regular deliverables, which is why
+classifying data early and cross-functionally is critical.
+Otherwise you will see endless churn, with the privacy team
+becoming the face of dysfunction.
+Engineers and other technical leaders need to assist privacy
+teams when they impress upon their company the following
+realities:
+
+## Page 196
+
+The concept of data classification is not a novel
+one. The highly regimented practice of coding
+documents as “sensitive” or “classified” has been
+commonplace in the military and in government
+for decades. This process was adapted by financial
+and commercial sectors as a way to protect
+valuable business data and prevent data
+exfiltration by outsiders as well as insiders.
+While governments and smaller companies can
+make do with high-level classification, companies
+that change their business lines often (such as
+entering new markets) and adapt to new use cases
+(such as supporting new user devices), may need
+granular and more flexible classifications. For
+example, a government can define “ID” as a tier to
+include anything that uniquely identifies an
+individual. This could include an email address as
+well as something like a Social Security number.
+However, a more data-driven company could
+create two classes like “Personally Identifying IDs”
+and “Government IDs,” in which case an email
+address would map to the former, while a Social
+Security number would map to the latter.
+
+## Page 197
+
+In order to prevent the data classification process
+from becoming siloed like many existing product
+and engineering teams, you’ll want to avoid
+creating classifications for different use cases, such
+as one set of classifications for data that needs
+encryption, and another for data that needs to be
+deleted, etc. You want your classification to drive
+outcomes, rather than have outcomes dictate the
+data classification. The examples in the next
+section will show, for example, how changes in
+data classification could impact how you manage
+access to the data.
+Finally, the bottom-up democratic decision-making
+process that enables product innovation does not
+often work with privacy initiatives like data
+classification. You will want a model where
+engineers and data scientists have a voice, since
+they will make tactical decisions related to data.
+However, you will want senior leadership to make
+the final call on classification and to own the risks
+attendant to it. Discussions and debate must yield
+to decisions.
+These lessons are important, since data classification is
+costly, as well as being the foundation of several future
+privacy decisions. The role of technical leaders who lead
+engineering and product teams is to provide their teams
+enough political cover and to incentivize them to be
+strategic. This will help ensure that engineers and product
+managers think beyond the next week or month, and
+
+## Page 198
+
+produce outcomes that help privacy, data quality, and
+security, as well as help the overall maturity of the company.
+In the next section, we will examine how data classification
+can be implemented through various lenses.
+3.3 How you can implement data
+classification to improve privacy
+As stated before, data classification helps rank your data
+based on business and privacy risks. As a practical matter,
+whether you have a usable and updated classification of your
+data has meaningful consequences ranging from your ability
+to protect data to matters as quotidian as how your
+employees access data.
+3.3.1 Data classification and access options
+When I started my career as an engineer at Intel, managing
+data access was a top priority for the company. I wrote code
+for the next-generation test chips, so I had access to device
+designs and formulas that were top secret. As such, I had to
+enter several different passwords and change them routinely
+to maintain my access to critical systems. I never
+complained, since I recognized the criticality of protecting
+the company’s research. However, if the same rigor were
+applied to accessing noncritical data, it would hinder
+productivity. Additionally, modern engineers are extremely
+ingenious and can find ways around systems they deem to
+be needlessly bureaucratic. Data classification is critical in
+
+## Page 199
+
+tailoring data access strategies to the risks inherent in the
+nature of the data itself.
+Privacy programs can take two approaches:
+Lockdown
+Tooling, training, and trust
+The lockdown model requires engineers and others to go
+through stringent controls to access data. While this may be
+practical in some companies, it can have unintended
+consequences. In a fast-paced environment, as the scale of
+data grows and as several distributed teams work together,
+this approach may slow down the business even if the data
+being accessed is not privacy-sensitive. For example, I have
+a friend who works in customer service. She tells me that
+callers often get annoyed when they have to verify their
+identity before getting access to their financial details.
+While strict access control is absolutely essential for financial
+and health data, you need to apply privacy protections that
+are proportionate to the sensitivity of the data. Records
+around purchasing history, when all traces of user identity
+have been wiped out and there is no way to link that data
+back to a human being, require a lot less protection than
+records where the purchasing history includes IDs that can
+be mapped to another table where IDs are stored alongside
+user names and emails.
+The tooling, training, and trust model is, as the name
+implies, a combination of three Ts:
+
+## Page 200
+
+Tools (encryption, multifactor authentication,
+deletion APIs, etc.)
+Training
+Building an overall culture of trust that will honor
+user privacy
+The right approach is often a combination of both
+approaches. You will want to lock down some data that is
+extremely sensitive and that, if leaked or improperly
+accessed, could hurt your customers and their trust in your
+business. For the remaining data, you will want protections
+mapped to risk and use cases. For an overall program to
+work at scale, you need to classify all the major types of
+data you collect as a business.
+There is a reason I am using access as a key vector to make
+a case for data classification. Companies can address the
+risk around sensitive data in three ways. First, they could
+clamp down on data collection. This is a strategic initiative
+and will take a focused and long-term investment, given the
+decentralized nature of data collection we have already
+discussed. While vital, this approach is unlikely to offer the
+centralized control that can meaningfully help privacy.
+Second, companies could delete data that is critical or past
+its sell-by date. Deletion is a very useful privacy fix, in that it
+is often irreversible and the closest you can get to the
+guaranteed reversal of having identified a user.
+However, deletion is not the catch-all solution many may
+wish it to be. It can be expensive, given that most
+
+## Page 201
+
+companies start building deletion tools after having collected
+a fair amount of data. Additionally, it is very difficult to
+meaningfully target data for deletion unless you can
+optimize for risk.
+Even powerful tools can suffer from timeouts and out of
+memory errors because the volume of data in your systems
+may be too large to discover, let alone delete. For engineers
+and other senior leaders, it would be problematic to declare
+that they have deleted data only to later find out that copies
+of the data still exist in some peripheral system that an
+engineer did not include in the system architecture.
+Furthermore, in some cases, regulatory requirements for
+taxes, legal holds, etc., may require you to retain some
+records. I have also seen data retention periods tied to
+enterprise contract requirements, depending on advice from
+counsel.
+Third, companies could manage access based on the privacy
+risk. This is a practical solution, since companies can classify
+data based on risk, label the data in the system using a
+process called data inventory, which we will discuss in the
+next chapter, and then apply access controls. This
+investment will also substantially help the deletion process.
+If executives want to minimize and mitigate the privacy risk
+that emerges from engaging with customers and collecting
+their data, classifying it is a must. To understand how data
+classification can help protect privacy, let’s look at an in-
+depth example.
+
+## Page 202
+
+3.3.2 Data classification, access management, and
+privacy: Example 1
+This example deals with an issue that most companies face:
+how to verify that users trying to access sensitive data are
+who they say they are. The tools to help solve this are
+authorization and authentication (also known as authn and
+authz).
+For data that is less sensitive, simply verifying user identity
+—that the user is an employee of your company, for example
+—may be sufficient. You can do this using authentication.
+Authorization is the next step after authorization. As
+companies build up sensitive data, they need to build an
+access management regime that is fine-grained. The
+decision to grant access to specific data or combinations of
+data may need to be made at scale; authorization refers to
+the orchestration of access management. This enforcement
+can occur for automated interactions between two or more
+services, as well as interactions between the user and a
+service. For example, an engineer who maintains a specific
+service may be authorized to deploy to a staging
+environment with synthetic data but not to production
+environments with real user data. Authorization is about
+setting access policies and enforcing them at scale.10
+Figure 3.5 explains how authentication provides privacy from
+an overall system standpoint, while authorization provides
+privacy on a layer-by-layer and system-by-system basis.
+
+## Page 203
+
+Figure 3.5 Authentication and authorization
+You can see why authentication and authorization are critical
+for privacy, since the more sensitive the data, the more
+you’d want to use more than just authentication. However,
+privacy engineers need to understand that data classification
+can help you deploy these tools more strategically.
+More and more companies are moving to a DevOps model,
+which has changed digital business in important ways.
+DevOps has come to describe companies that automate the
+deployment of code as well as aggressively develop
+capabilities and store data in cloud instances. More
+specifically, there is a push to move away from on-premises
+IT and toward a cloud-first future. This has made storing
+data easier, and as a result, companies collect more data.
+Further, in the DevOps model, the infrastructure is powered
+by code rather than purely by hardware. This shift enables
+operations teams to configure machines as code. These
+machines need access and privileges to do what they were
+programmed to do, and it is increasingly difficult for security
+teams to keep track of who or what has access, especially in
+
+## Page 204
+
+cases where machine access starts to exceed human access.
+You can see how data classification could help protect data
+in such a dynamic environment.
+With a data classification system in place, you can deploy a
+hybrid strategy that might look like the following:
+Implement role-based access controls (RBAC) for
+user-to-system and system-to-system permissions
+management.
+11
+Keep critical access keys out of code, off of hard
+drives, and out of code repositories such as GitHub
+and GitLab.
+Generate audit reports to demonstrate regulatory
+compliance around access and authorization.
+Manage SSH keys and/or secrets at scale across
+dynamic systems.
+Gain visibility into the total set of cloud systems in
+use and see who has access to them.
+These are all extremely critical points and appropriate for
+sensitive data, but not for all data and all systems.
+A prudent and practical approach would have you apply
+authorization to sensitive data, while other data (like
+meeting agendas, public earnings reports, user data that is
+de-identified) could get by with just authentication, where
+anyone whose identity you have verified can access them.
+3.3.3 Data classification, access management, and
+privacy: Example 2
+
+## Page 205
+
+As you may have picked up on, a sound data classification
+scheme enables you to protect data by managing access to
+it. In the previous example, we looked at one strategy that
+manages access to data by splitting access levels based on
+authentication and authorization. That approach makes
+decisions around access control at the system level; the
+system decides who can enter (authentication) and what
+they can access (authorization).
+You could alternatively use data classification to tie the
+access control decision to the data. For example, if data is
+classified at the highest level of sensitivity, you could
+mandate tight requirements for how it can be transported
+between systems or stored in systems owned by the
+company. For example, let’s assume that as we go from tier-
+1 to tier-n, the privacy sensitivity of the data decreases
+(tier-1 is the most privacy-sensitive data with arguably the
+most stringent data protection requirements). These
+requirements could look like the following:
+Access controls besides the traditional
+username/password combination (like multifactor
+authentication). In this case, the data may not
+need to be encrypted.
+Password-protected account/link and tier-1 data
+being encrypted in transit.
+End-to-end transit encryption at the service layer
+with mutual TLS where technically feasible. Where
+mutual TLS is not feasible, you can mandate that
+engineers must use regular SSL/TLS, since
+unencrypted HTTP is not permitted.
+
+## Page 206
+
+For data stored in the public cloud, tier-1 data
+must be encrypted using client-side encryption.
+The final requirement is for protecting data at rest in
+general; it’s not specific to data transmission with third
+parties. Whether or not highly sensitive data is shared with
+third parties, if that data is stored in public clouds for an
+extended period of time, it needs to be encrypted using
+client-side encryption.
+An example of a threat vector is as follows: an actor
+employed by your public cloud provider may obtain the
+credential of a service account that has access to an S3
+bucket and could use that service account credential to
+access your data in that bucket. Merely attempting to
+address privacy with server-side encryption doesn’t protect
+against this threat. While you may not be versed in the
+technical details here, the key takeaway is that you need to
+think about access management even when data leaves your
+systems, since the trust relationship with your users and
+their privacy depends on how your partners access the data
+you send them. Be sure to take a holistic view of privacy,
+beyond just protecting data while it’s in your system
+perimeter.
+These restrictions may slow down access to your data.
+Having in place a solid data classification scheme will help
+you understand how sensitive different components of your
+data are, who accesses them, and for what purposes. That
+way, you can deploy these techniques more selectively and
+in a more targeted fashion. The process of classifying the
+data will be an education in itself.
+
+## Page 207
+
+3.4 How to classify data with a focus on
+privacy laws
+So far, you have seen how data classification can help you
+deploy tools to better address privacy needs. Now we’ll
+examine how you can classify data in a way that helps
+eliminate some of the confusion from new privacy laws and
+prevents varying interpretations of these laws from affecting
+your ability to protect your data.
+3.4.1 Data classification as an abstraction of privacy
+laws
+As I’ve previously mentioned, I am not an attorney, so my
+interpretation of privacy laws is based on my interaction with
+legal experts and should not be construed as legal advice.
+You will want to consult with in-house and outside counsel to
+interpret the applicable laws and remedies.
+We have previously examined the rapidly evolving legal
+landscape around privacy and looked at why it is critical for
+engineers to build a baseline of knowledge around privacy.
+However, any time you have several laws emerging
+concurrently across the world, there can be unforeseen
+complications in how they apply to a company’s ability to
+handle user data and its obligations under the law.
+For the purposes of privacy, a key concept is personal data
+or Personally Identifiable Information (PII), but definitions
+vary and can be vague. Getting this definition right can be
+
+## Page 208
+
+challenging for anyone trying to manage user data. There is
+no universal approach to PII in the United States or in the
+jurisdictions overseas that have adopted comprehensive
+privacy regulation. NIST defines it as “information that can
+be used to distinguish or trace an individual’s identity.”12 This
+definition requires a case-by-case assessment of the specific
+risk that an individual can be identified.
+California’s CCPA defines “personal information” much more
+broadly. It includes
+IP addresses
+Commercial information like records of personal
+property, products considered, etc.
+Biometric information
+Internet browsing and search history
+Geolocation data
+Audio, electronic, visual, thermal, and olfactory
+information
+Since defining PII is a challenge for companies that have
+historically collected vast amounts of data, it is key that
+companies are purposeful about what data they collect and
+how they protect it. Thus, it is vital any company that wants
+to scale their privacy efforts create a data classification
+system that can map to the critical mass of privacy laws.
+The legal landscape around privacy is complex, but it also
+represents an opportunity. A company that can create a data
+classification that evolves from and scales with shifting
+privacy laws may not have to play catch up once the
+
+## Page 209
+
+authorities start enforcing the laws. In that sense,
+implementing data classification is akin to having your own
+version of tax preparation software, which is in essence an
+abstraction of tax laws that regular taxpayers may never
+comprehend.
+3.4.2 Data classification to resolve tension between
+interpretations of privacy laws
+Another challenge these privacy laws pose is for data
+security. Just as privacy laws often have confusing and
+conflicting guidelines, they often make what is already hard
+even harder: protecting customer data.
+On one hand, privacy begins only when adequate security is
+in place. Without security, you cannot have any meaningful
+privacy. On the other hand, sometimes the need for privacy
+can make security harder. We are starting to see this as
+privacy laws become more expansive.
+For example, the WHOIS system makes the identifying and
+contact information of end users publicly available, and
+WHOIS data has been an important tool for security and
+fraud prevention, and in tracking down bad actors on the
+internet. The broad scope of GDPR may have created
+problems in administering this vital tool.
+Data portability, as required by several privacy laws, has
+created privacy challenges of its own. Prominent individual
+rights granted to individuals in privacy proposals include the
+ability to access, correct, transfer, or delete information
+
+## Page 210
+
+about them. California’s CCPA requires that businesses make
+information available in a usable format so a consumer can
+transmit the data to another entity. And Europe’s GDPR
+introduces a right for individuals to have personal data
+erased. The right to erasure is also known as “the right to be
+forgotten.”
+Questions around these access and portability rights include
+how to securely transfer data to consumers. As privacy
+advocates like the Electronic Frontier Foundation have
+explained, “ported data can contain extremely sensitive
+information..., and companies need to be clear about the
+potential risks before users move their data to another
+service.”13 Risks include the theft or exposure of data that
+has been centralized for sharing, or transferring it to the
+wrong individual.
+In addition to previously discussed problems around data
+deletion, there are a few more complications to consider:
+Deleting data can also affect the quality and
+breadth of underlying data sets, on which
+innovation and security will increasingly depend.
+If individuals or groups of individuals remove data
+from data sets, it will almost certainly hurt the
+quality of the data sets or the reliability of the
+output.
+For example, the permanent deletion of records related to a
+particular user’s activities—even where those activities are
+non-identifying—could prevent the type of long-term
+analysis of behavior that is increasingly used to identify new
+
+## Page 211
+
+potential cybersecurity threats. This lack of historical data
+could create or perpetuate significant potential security
+vulnerabilities.
+Given the complexity inherent to data from its collection
+through to its deletion and the privacy implications of data
+being mishandled, it is vital that companies not wait for
+regulatory clarification to start their privacy programs.
+Forward-thinking companies will do well to classify their data
+at an early stage, using existing legal frameworks as the
+floor and customer trust as the ceiling they want to reach
+for.
+3.5 The data classification process
+Now that we have set the stage for why you need to classify
+data, let’s discuss what data classification looks like. In
+modern businesses, data classification is typically the
+outcome of detailed investigations and negotiations. The key
+players include
+Privacy legal
+Technical privacy
+Security
+Engineering
+Product management
+Data scientists
+Although privacy is widely seen as a legal area, it would be a
+huge mistake to only let the legal team drive this
+
+## Page 212
+
+classification process.
+The lawyers may take an overly defensive approach by
+applying the law without business context or may give
+engineers too much of a free hand, believing in their own
+ability to win in court. Either approach is suboptimal.
+I have implemented the data classification process at three
+companies, all having very different cultures, using the same
+three steps at all three. Let’s look at these steps.
+3.5.1 Working with cross-functional stakeholders on
+your data classification
+In step 1, I worked with privacy legal to get a sense of how
+they would classify data. Concurrently, I was working with
+engineering, product management, and data science to
+understand what data they needed for legitimate operational
+and analysis purposes.
+It is critical to understand why you want input from this
+diverse set of stakeholders as part of your data
+classification. A practical example will help shed some light.
+Let’s assume you are the privacy lead at a company that
+provides an app called “Directions” that helps drivers
+navigate their travel. A typical use case would involve
+starting at location A, entering the address for destination B,
+and the app would then provide you with directions to help
+you get from A to B. At the backend, you would have a
+database that might look like table 3.3.
+
+## Page 213
+
+Table 3.3 Backend database for Directions app
+
+## Page 214
+
+ 
+        
+Name
+ 
+      
+ 
+        
+Email
+ 
+      
+ 
+        
+Starting 
+address 
+(Lat/Lon)
+ 
+      
+ 
+        
+Ending 
+address(Lat/Lo
+n)
+ 
+      
+ 
+        
+Josh Smith
+ 
+      
+ 
+        
+jsmith@gmail.c
+om
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+Karen Jones
+ 
+      
+ 
+        
+kjones@live.co
+m
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+Oona Blair
+ 
+      
+ 
+        
+oblair@msn.co
+m
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+Vikram Khanna
+ 
+      
+ 
+        
+vik@yahoo.co
+m
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+
+## Page 215
+
+ 
+        
+Tony Brown
+ 
+      
+ 
+        
+tony@tonybrow
+n.co
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+Theresa 
+Johnson
+ 
+      
+ 
+        
+tjo@yahoo.com
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+ 
+        
+5 decimals
+ 
+      
+The legal team would argue that each row of this table
+would uniquely identify an individual and focus on two
+reasons:
+The email addresses for users of the app uniquely
+map to specific individuals. The email could be
+linked with other data about the users on the
+internet and create a detailed profile about the
+user. Given the potency of such data, this would
+greatly increase the impact of a breach or misuse.
+The addresses—both starting and ending—are very
+precise. With GPS locations, the more decimals
+you have in the address, the more precise the
+location.
+The legal team could come back with their assessment that
+each record (each row in the table) be called Restricted, with
+tight controls on who can access them, as well as requiring a
+short retention period.
+
+## Page 216
+
+The data science team might push back, since their ability to
+analyze trips, mine that data for advertising, update maps
+based on street usage, etc., depends heavily on collecting
+this data over time and observing what patterns emerge.
+They might argue that the database and the data contained
+therein be classified such that it can be retained for longer
+and with fewer restrictions.
+I have been in many meetings where the legal team feels
+like the engineers and data scientists are being overly
+careless with the sensitivity of data, while the engineers and
+analysts accuse the lawyers of being intransigent and
+divorced from how common data access is across the
