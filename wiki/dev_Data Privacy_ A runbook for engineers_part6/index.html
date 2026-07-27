@@ -1,0 +1,4981 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated knowledge base built from health science textbooks.">
+      
+      
+        <meta name="author" content="8LUEPRINT3">
+      
+      
+        <link rel="canonical" href="https://8LUEPRINT3.github.io/awesome-health-science-wiki/wiki/dev_Data%20Privacy_%20A%20runbook%20for%20engineers_part6/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Data Privacy_ A runbook for engineers - Part 6 - Awesome Health Science Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#page-492" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-header__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesome Health Science Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Privacy_ A runbook for engineers - Part 6
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-nav__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Awesome Health Science Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Human Body
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Human Body
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorrentino's Textbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sorrentino's Textbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12-19
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Palliative Care
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Palliative Care
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#page-492" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 492
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-493" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 493
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-494" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 494
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-495" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 495
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-496" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 496
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-497" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 497
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-498" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 498
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-499" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 499
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 500
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-501" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 501
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-502" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 502
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-503" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 503
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-504" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 504
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-505" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 505
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-506" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 506
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-507" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 507
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-508" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 508
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-509" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 509
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 510
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 511
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-512" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 512
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-513" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 513
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-514" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 514
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-515" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 515
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-516" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 516
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-517" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 517
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-518" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 518
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-519" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 519
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-520" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 520
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-521" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 521
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-522" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 522
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-523" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 523
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-524" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 524
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-525" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 525
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-526" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 526
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-527" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 527
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-528" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 528
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-529" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 529
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-530" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 530
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-531" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 531
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-532" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 532
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-533" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 533
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-534" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 534
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-535" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 535
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-536" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 536
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-537" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 537
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-538" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 538
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-539" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 539
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-540" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 540
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-541" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 541
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-542" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 542
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-543" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 543
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-544" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 544
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-545" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 545
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-546" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 546
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-547" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 547
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-548" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 548
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-549" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 549
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-550" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 550
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-551" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 551
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-552" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 552
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-553" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 553
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-554" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 554
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-555" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 555
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-556" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 556
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-557" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 557
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-558" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 558
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-559" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 559
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-560" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 560
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-561" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 561
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-562" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 562
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-563" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 563
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-564" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 564
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-565" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 565
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-566" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 566
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-567" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 567
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-568" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 568
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-569" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 569
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-570" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 570
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-571" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 571
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-572" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 572
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-573" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 573
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-574" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 574
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-575" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 575
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-576" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 576
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-577" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 577
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-578" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 578
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-579" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 579
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-580" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 580
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-581" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 581
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-582" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 582
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-583" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 583
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-584" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 584
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-585" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 585
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-586" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 586
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-587" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 587
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-588" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 588
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-589" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 589
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-590" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 590
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-591" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 591
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-592" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 592
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-593" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 593
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-594" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 594
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-595" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 595
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-596" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 596
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-597" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 597
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-598" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 598
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-599" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 599
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-600" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 600
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-601" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 601
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-602" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 602
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-603" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 603
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Data Privacy_ A runbook for engineers - Part 6</h1>
+
+<h2 id="page-492">Page 492</h2>
+<p>having data exfiltrated by security breaches. Table 7.1 lays
+out the various options and tradeoffs when it comes to
+allocating deletion responsibilities.
+Rather than identify a specific team, I recommend that a
+cross-functional Data Custodian team own the data
+warehouse deletion responsibility. The Data Custodian team
+may include a set of engineers from multiple teams, and a
+primary team that already owns Hadoop maintenance could
+build and maintain the Hadoop deletion service.
+Table 7.1 highlights three possible approaches to who could
+own deletion responsibilities and their attendant tradeoffs.
+Table 7.1 Deletion ownership options</p>
+<h2 id="page-493">Page 493</h2>
+<p>Deletion 
+execution 
+API owner &amp; 
+data 
+custodian</p>
+<p>Pros</p>
+<p>Cons</p>
+<p>Each 
+engineerin
+g team</p>
+<p>Responsibility lies with the 
+data producer and owner of 
+the data’s business use 
+case. This way you can 
+avoid erroneous deletions 
+that could occur if a 
+centralized team deletes 
+data without the requisite 
+context.</p>
+<p>Shared tools (such as the 
+Hadoop deletion libraries) 
+would need to be supported 
+in several languages, they 
+would require a lot of 
+documentation and 
+education, and they would 
+require continual 
+maintenance.</p>
+<p>Central 
+privacy 
+team</p>
+<p>A single team is 
+responsible for the 
+service’s implementation 
+and maintenance. The 
+Hadoop deletion library 
+would need to support 
+minimal clients.</p>
+<p>Privacy engineering teams 
+do not produce the majority 
+of the Hadoop data, and do 
+not maintain the health of 
+or any aspect of the Hadoop 
+system. Privacy 
+engineering’s role in data 
+deletion projects is ideally 
+that of scheduling deletion, </p>
+<h2 id="page-494">Page 494</h2>
+<p>not the executing deletion, 
+since only teams that 
+collect data know when 
+deletion can occur in a way 
+that does not disrupt 
+permissible and necessary 
+business activities.</p>
+<p>Hadoop 
+data 
+collector 
+and 
+custodian</p>
+<p>*Preferred
+*</p>
+<p>The custodian of Hadoop 
+data is responsible for the 
+service’s implementation 
+and maintenance, the 
+Hadoop deletion libraries 
+would need to support only 
+minimal clients, and the 
+Hadoop custodian would 
+ideally already be involved 
+in maintaining the health of 
+Hadoop, if not all of its 
+maintenance.</p>
+<p>The Hadoop data custodian 
+does not produce all of the 
+Hadoop data, so this model 
+leaves the responsibility of 
+data deletion in the hands 
+of the person who most 
+benefits from its collection.</p>
+<p>It remains to be defined exactly what the data custodian’s
+responsibilities are, but they would include
+Setting standards and reviewing with other
+Hadoop teams for adherence
+Reviewing code across data warehouse teams and
+setting up monitoring for timely deletion</p>
+<h2 id="page-495">Page 495</h2>
+<p>Setting filters for data detection before egress of
+data that should be deleted
+Using the custodian model would mean that companies
+wouldn’t need to depend on each service owner doing the
+right thing. It would instead ensure centralized supervision
+for warehouse data deletion.
+Note that the preceding approaches do not have any set
+formulas for applicability. Each company will work differently,
+and sometimes these models will have to evolve as deletion
+responsibilities evolve. The tradeoffs are critical, so it’s
+important to understand the downstream consequences of
+each choice and which fits best with the company and its
+privacy journey.
+Summary
+Data deletion is a key responsibility for a company
+and a vital component of its overall privacy and
+data governance strategy.
+To build a data deletion strategy, technical leaders
+and executives must understand a company’s data
+collection infrastructure.
+Deleting operational account-level data involves
+the design of services and workflows.
+Deleting backend warehouse data will require
+considerations of scale and implementation for
+how the data is altered to satisfy deletion criteria.</p>
+<h2 id="page-496">Page 496</h2>
+<p>Companies may need bespoke practices to delete
+sensitive data that poses a high degree of privacy
+risk.
+Data deletion responsibilities can be split between
+various stakeholders in a company, but it is
+important to consider the tradeoffs of different
+approaches.
+1 Article 17, “Right to erasure (‘right to be forgotten’),” GDPR, https://gdpr-info.eu/art-17-
+gdpr/.
+2 Article 8, “Conditions applicable to child’s consent in relation to information society
+services,” GDPR, https://gdpr-info.eu/art-8-gdpr/.
+3 See “What is a Data Lake,” Talend, www.talend.com/resources/what-is-data-lake/ and
+“What is a Data Warehouse and Why Does It Matter To Your Business?” Talend,
+www.talend.com/resources/what-is-data-warehouse/.</p>
+<h2 id="page-497">Page 497</h2>
+<p>8 Exporting user data: Data Subject
+Access Requests
+This chapter covers
+What Data Subject Access Requests (DSARs) are
+How DSARs fit into a company’s overall privacy commitments
+Shaping the DSAR fulfillment process
+Automating DSARs
+Customizing the data in DSARs
+How administrators can create DSARs
+In this chapter, we will discuss Data Subject Access Requests
+(DSARs). As privacy laws like GDPR and CCPA become more
+entrenched in the public consciousness, leaders at all kinds
+of companies are seeing DSARs land on their desk, and they
+need to respond to them. Unless they are able to do so
+accurately and expediently, they risk reputational harm and
+possible fines. This chapter will help such leaders in three
+ways.
+First, we will look at the DSAR workload and assess how
+companies are faring in the face of customer requests. This
+will help leaders and their executive supervisors make
+informed decisions around data governance, resourcing,
+training, and outreach. This part of the chapter is geared to
+a wide range of stakeholders.</p>
+<h2 id="page-498">Page 498</h2>
+<p>Second, we will look at backend data and how those
+responsible for storing and extracting data to support DSARs
+can make decisions about architecture. These decisions are
+critical in both manual and automated fulfillment of DSARs.
+This section is geared more toward engineers but it could
+also be instructive for attorneys, since they need to
+understand the tradeoffs involved in various approaches to
+fulfilling DSARs.
+Third, we will look at building an internal tool to manage the
+DSAR process, and we’ll map the screens to backend data
+decisions. Many companies fail to build such a tool, and that
+may lead to inefficiencies in how DSARs are created and how
+user communication is managed.
+As a whole, this chapter will provide you with best practices
+for designing your own DSAR platform, including both
+frontend and backend components, or enough understanding
+to purchase an external solution that meets your needs.
+The DSAR obligation requires a company to be able to
+collect, process, retain, and archive customer data in a
+fashion that makes it possible to furnish that data at the
+customer’s request. It is vital that the company be able to
+do so within a timeframe specified by law in the customer’s
+jurisdiction, as well as in a manner that lines up with public
+sentiment.
+This task would have been more straightforward several
+years ago, when companies had top-down structures that
+enabled them to regulate what was collected. In many
+companies, the data they collected then was more</p>
+<h2 id="page-499">Page 499</h2>
+<p>structured and defined, since storage was expensive and
+user experiences were not built to drive engagement and
+collect data. The data storage also occurred in a finite
+number of databases, tightly regulated by on-premises IT
+administrators
+The modern innovation ecosystem represents a contrast to
+the world even half a decade ago. Modern companies tend to
+be heavily focused on expediency, innovation, and
+disruption, while their ability to meet customer data
+transparency requirements prioritizes consistency,
+aggregation, and explanation. The forcing functions that
+drive growth and engagement run contrary to the ones that
+drive privacy scrutiny and regulatory audits.
+That is why this book has focused on data governance as a
+continuous effort, and this chapter will focus on creating a
+system and process to export user data. The sooner
+companies build in frontend and backend capabilities for
+DSARs the better, since locating data is easier once you have
+harnessed your data collection, cataloging, and export
+capabilities as one connected effort.
+But before we delve further into the topic, let’s start with the
+basics: what are DSARs?
+8.1 What are DSARs?
+Before explaining what DSARs are in detail, it will be helpful
+to understand their role in the overall privacy and
+governance landscape and to put DSARs into context in the</p>
+<h2 id="page-500">Page 500</h2>
+<p>narrative of this book. This context is useful, since DSARs
+are relatively new, and companies need to implement them
+correctly with a privacy focus.
+I have so far explained how you can build in privacy data
+protection and governance from the point of data collection.
+Understanding a distributed architecture (the disparate
+services that process data as well as the various data stores
+that exist to persist data) is critical for technical leaders and
+executives alike, so that they can understand why privacy is
+hard to build into their systems. That investment across the
+company’s tech stack is vital so that companies can
+meaningfully and scalably classify and catalog their data,
+share data with privacy controls, delete data, and conduct
+technical privacy reviews for new products and features.
+However, a company’s privacy obligations do not end with
+the governance of data within the walled gardens of its
+systems or in its data sharing with partners. Partly due to
+public sentiment, and partly due to legislation and
+regulation, there is also an expectation that companies will
+be able to provide a customer with a copy of the data those
+companies have collected about that customer. This is where
+DSARs come in.
+A Data Subject Access Request (DSAR) is the means by
+which individuals request that your enterprise disclose the
+personal data it holds on them and how you use or intend to
+use it. Submitting DSARs is one of the data subject rights
+granted to consumers under data privacy laws such as the
+California Consumer Privacy Act (CCPA) and the European
+General Data Protection Regulation (GDPR). These laws not</p>
+<h2 id="page-501">Page 501</h2>
+<p>only give consumers an awareness of their rights over their
+personal data but also provide the tools necessary to
+exercise them.1
+Just as the data deletion commitment is an outcome of the
+regulatory “right to be forgotten,” the DSAR commitment is
+the outcome of the regulatory push to create greater
+transparency for customers on what companies do with
+customer and user data.2 Figure 8.1 illustrates how DSAR
+requests are being shaped by the growth in privacy laws
+worldwide.
+Figure 8.1 How privacy laws are providing customers DSAR rights
+While technical leaders and executives at a company often
+do not need to understand the details behind the</p>
+<h2 id="page-502">Page 502</h2>
+<p>regulations, some understanding of the DSAR regulations is
+critical for the following reasons:
+The DSAR infrastructure is an extension of the
+work you should have done in data governance
+from the point of data collection. This
+infrastructure is not possible for a siloed team to
+create quickly.
+Several regulations tend to be fairly specific about
+what counts as a valid response to a DSAR
+request.
+The data you make available to customers in
+response to a DSAR request is now outside your
+company perimeter and in the public domain, and
+it’s therefore open to scrutiny. A dissatisfied
+customer or persistent regulator could pose a
+serious problem for a company if an initial DSAR
+request leads to a deeper inquest into a company’s
+broader privacy practices.
+Since I am not an attorney, and going over these regulations
+in detail is beyond the scope of this book, I highly
+recommend that technical leaders and architects seek
+counsel or do their own research. It is important to
+internalize these concepts so as to tailor the company’s
+system design and other business processes for DSARs.
+Besides the regulations themselves, it will help company
+leaders to understand the stakes involved with DSARs.
+DSARs give consumers control over their personal
+information collected and stored by organizations; the</p>
+<h2 id="page-503">Page 503</h2>
+<p>information customers can request may include details
+around the access control to customer data, the duration for
+which the data will be stored, the safeguards the
+organization provides for customer data, who the company
+shares personal data with, etc. With the CCPA, consumers
+can request DSARs twice a year. Such requests can be hard
+to fulfill if companies do not have automation in place, and
+this chapter will provide broad architectural designs so
+companies can create systems that are suited to their needs
+for DSARs.
+For businesses, timely and accurate fulfillment of DSARs
+could boost their trust relationship with key stakeholders
+while also ensuring compliance with regulations. However,
+the cost of fulfilling each DSAR could be nontrivial for some
+businesses, since DSARs require gathering data from
+multiple systems, putting all that data in one place, going
+through the data records, and compiling the findings in a
+single comprehensible report.
+For leaders who feel like DSARs can be deprioritized and put
+on the back burner, ask yourself what would happen if a
+customer or some other entity organized a mass movement
+to request DSARs and flood your company with DSAR
+requests? It is critical to invest in these capabilities.
+WARNING Executives and technical leaders need to consider the possibility that
+they could get DSAR requests not just from customers but also from others who wish
+to weaponize such rights to disrupt a company’s business. In either case, it helps to
+have sound data governance and automation in place to fulfill DSARs.</p>
+<h2 id="page-504">Page 504</h2>
+<p>Let’s now look at some specifics on the regulatory details
+behind DSARs and privacy laws that codify DSAR rights.
+8.1.1 What rights do DSAR regulations give to users?
+You will need to check with your company’s legal department
+or seek equivalent outside resources about the specifics of
+your DSAR requirements, but the following list outlines the
+broad categories of data that the DSAR response should
+contain:
+A copy of the user’s personal data
+The reason the data was collected
+Checks and balances the company has in place to
+prevent privacy and security issues with the data
+While it’s not comprehensive, the following checklist outlines
+the sort of details a DSAR response should contain3:
+A confirmation that the company is processing the
+user’s personal data (“processing” could mean
+“using,” but you will want to confirm this with your
+legal team).
+A record or file that contains the user’s personal
+data.
+An explanation of the lawful basis that the
+company has for processing the customer’s data.
+This information will require alignment between
+the company’s privacy, legal, engineering, and
+other teams that collect data.</p>
+<h2 id="page-505">Page 505</h2>
+<p>The period for which data will be stored. This
+requirement sets the tone for the new world,
+where companies can no longer collect and retain
+data for indefinite periods of time, but instead
+should tie collection and retention to specific time
+periods.
+Any details around data lineage—how this data
+was obtained, from what sources, etc.
+Any available details regarding how the customer’s
+data was used for automated decision-making and
+profiling.
+The names of any third parties and other partners
+the user’s information is shared with.
+Given the fast-changing regulatory landscape of privacy and
+security, it helps to compare the rights afforded by some
+common laws already in place. In figure 8.2 you can see
+that the GDPR and CCPA may have some differences ranging
+from subtle to significant.4</p>
+<h2 id="page-506">Page 506</h2>
+<p>Figure 8.2 Customer rights afforded by GDPR and CCPA
+As figure 8.2 shows, the CCPA could be seen as a more
+nuanced version of the GDPR with its deletion rights
+applicable only to data collected from the consumer, while
+the GDPR applies to all data. Whether it is data deletion,
+consent, or other aspects of privacy and data protection, all
+of these have an impact on what data and how data is
+exported for DSARs.
+In the next subsection, we will look in some detail at how a
+company must strategically prepare for DSARs.
+8.1.2 An overview of the DSAR request fulfillment
+process
+Companies that have grown and prospered due to a process-
+lite, documentation-sparse, and democratized development</p>
+<h2 id="page-507">Page 507</h2>
+<p>approach often struggle with the processes required to scale
+their DSAR obligations. A checklist can help such companies
+as well as more mature companies new to the privacy space.
+The following key steps cover the DSAR process5:</p>
+<h2 id="page-508">Page 508</h2>
+<p>Make a record of and validate the DSAR requests—
+It is critical for companies to maintain a record of
+the DSAR requests they receive, when those
+requests were received, and from whom.
+Accordingly, organizations must
+Make a documented record of the DSAR requests
+you receive.
+Make sure that the DSAR entries cannot be modified,
+so that they remain the source of truth.
+Authenticate the user so that you have confirmation
+about their identity before you put your team
+through the process of collecting customer data.
+Given the frequency of DSAR requests that many
+companies see, it may be worthwhile to authenticate
+via automation so that the process can scale.
+Customers have options in terms of how they can
+request a DSAR: email, telephone, or other channels,
+but companies must also a provide a DSAR form that
+has the following features:
+It must be embedded into the company website,
+which could help make it easier for a vast majority of
+customers to find.
+It must be personalized, especially for companies
+that serve multiple geographies where DSAR rights
+are established. This may mean the company needs
+to manage multiple forms for consumers from
+different regions.</p>
+<h2 id="page-509">Page 509</h2>
+<p>Pending signoff from your legal partners, there may
+need to be options that allow consumers to select
+from a series of predefined choices. These choices
+could serve as a template where the backend
+automation can extract different versions of the
+data. While it is prudent to give the customers
+choices via these templates, you would need to
+make sure each template is compliant with
+application regulations.
+It must offer a way to spell out the customer request
+explicitly. Customers may wish to simply request a
+copy of their data (which they could accomplish by
+way of a DSAR request) or wish to close their
+account entirely (which they could accomplish by
+asking the company to delete their personal
+information). It is vital that the company understand
+the nature of the request before making irreversible
+decisions around user data.
+Identify the user—DSAR requests could be
+weaponized by bad actors to take over someone
+else’s account, so you will need to collect enough
+user data to verify that the user requesting the
+DSAR is who they say they are. To do so, you will
+want to use industry-standard identity verification
+measures like multifactor authentication and
+others. These measures are critical to protect
+incoming requests, prevent fraud (like account-
+takeover scenarios or stealing someone’s financial
+data), and eliminate incoming bots.</p>
+<h2 id="page-510">Page 510</h2>
+<p>Collect, from internal databases and other data
+stores, the customer’s personal information
+necessary for the DSAR—For organizations to be
+able to respond to DSAR requests, they will need
+to discover and categorize the data they process
+and store. As mentioned in previous chapters, this
+data is often stored in multiple structured and
+unstructured databases, in-memory databases,
+and other locations within an organization, and
+some of this data may have been stored externally
+as well. Building a catalog of such data on an
+ongoing basis is critical for DSARs, and the data
+inventory techniques discussed in chapter 4 are a
+starting point for such a catalog.
+Map user identities for accurate data collection—It
+is possible that a user requesting a DSAR has used
+multiple identities on your website. For example,
+they may have used a Google ID as well as a
+Facebook ID. To collect all the data you need to
+furnish for a DSAR, you will want to build an
+identity graph that links all these identities and
+their data. The process of linking these identities
+cannot be done scalably on short notice, given the
+volumes and nature of data companies collect, so I
+recommend starting this work at an early stage,
+even before you get DSAR requests.</p>
+<h2 id="page-511">Page 511</h2>
+<p>Review and approve the information—After
+gathering the necessary information, companies
+(specifically, their legal and privacy teams) need to
+review the data and make sure it meets the DSAR
+requirements germane to the jurisdiction the
+company is located in without disclosing
+proprietary information or the personal data of any
+other user. Retaining this documentation is critical
+in the event that the DSAR is challenged for
+accuracy or completeness.
+Safely deliver the customer information—The
+completed DSAR must then be delivered to the
+consumer using appropriate security techniques.
+Companies may be liable for fines and penalties if
+data collected for DSARs is breached or exfiltrated.
+It is therefore vital that you classify your data
+based on risk and build in corresponding security
+protections during DSAR-related export, just as
+you should during retention and processing within
+your company.</p>
+<h2 id="page-512">Page 512</h2>
+<p>Consider DSAR exceptions—In addition to
+requesting access to their data, a customer
+request for a DSAR may also be accompanied by a
+request to delete their data. The DSAR rules
+provide for a range of exceptions and exemptions
+that businesses need to be aware of and validate
+the applicability of with their legal teams. This
+helps balance the individual’s desire for privacy
+and a business’s requirement to retain that data.
+The exceptions to erasure in the CCPA include
+a. Information required to complete a transaction.
+b. Security-related data that must be retained in
+order to detect fraud and prosecute the
+perpetrators.
+c. Personal information that may need to be retained
+to identify and fix program errors.
+d. CalECPA (California Electronic Communications
+Privacy Act) compliance. Businesses don’t need to
+delete certain information when state law
+enforcement has requested personal information.
+Companies may need to set up another copy of
+customer data, stored in a secure database that
+only select employees can access, so that while
+the data is not deleted, it is retained under strict
+access controls.
+e. Personal information collated for the purposes of
+research in the public interest.
+f. Legal compliance. Any personal information that a
+business has to keep to satisfy a legal obligation is</p>
+<h2 id="page-513">Page 513</h2>
+<p>not subject to consumer deletion requests.
+This checklist provides a high-level overview of how the
+DSAR process would work within a company. For a lot of
+companies, given the novelty of the privacy space and of
+DSARs within the privacy space, it will be very helpful to
+have a deployable and configurable workflow to help receive
+DSAR requests, track them, and execute them. The next
+subsection will help you build such a workflow.
+8.2 Setting up the DSAR process
+This section will present some key steps for building a DSAR
+workflow. Given the diversity in how companies interact with
+their users, how they collect data, and how they could
+extract data for DSARs, I can’t present a catch-all workflow,
+but what we discuss here will provide a start. Since the
+process of retrieving the data is fairly standard, and the
+systems where data is stored vary by company, this section
+will focus on the process of building a DSAR system in detail
+and then on the system itself at a more strategic level.
+8.2.1 The key steps in creating a DSAR system
+First, we will look at creating a workflow for the DSAR
+fulfillment process within a company. In the previous
+section, we looked at the workflow from an overall process
+standpoint; and in this subsection we will look at key steps
+in an administrator’s interaction with the DSAR system itself.</p>
+<h2 id="page-514">Page 514</h2>
+<ol>
+<li>Accessing the DSAR tooling—A company’s privacy
+teams could pull user data for DSARs using queries
+that would run against its databases. However, in
+order to scale the DSAR capability, it may make
+sense to build a user interface that provides
+stakeholders the ability to retrieve backend data
+for the DSAR.
+Given the nature of the data that a DSAR could retrieve,
+it is prudent to manage access for such a tool. Access
+management for the DSAR UI would include the
+following:
+Internal users responsible for compiling data for a
+DSAR should be able to access the DSAR tool by
+logging in with their work account information.
+These internal users would have to complete two-
+factor authentication in order to access the tool.
+It would be prudent to establish more stringent controls
+if your company operates in a highly regulated
+environment or contains data that would be considered
+very sensitive.</li>
+</ol>
+<h2 id="page-515">Page 515</h2>
+<ol>
+<li>Building access control for the DSAR tool—To
+prevent internal bad actors from abusing the DSAR
+system, special access controls may be needed:
+You could set up controls so that the DSAR request
+can only be accessed by a limited group of people in
+the “allow list” for that request.
+The controls could also be set up so that internal
+users are only authorized for a defined period of
+time, such as 30 days, so users would either need to
+access the DSAR and export the data to the user
+who requested it, or they would have to re-request
+that data.
+Additional security measures could be put into place,
+like rate-limiting the APIs that surface DSAR data
+and maintaining logs that indicate who accessed the
+DSAR data.</li>
+</ol>
+<h2 id="page-516">Page 516</h2>
+<ol>
+<li>Requesting the user data for the DSAR—The
+internal engineer that retrieves the data for the
+DSAR will need to provide internal IDs that identify
+the customer requesting the data in the company’s
+databases or a global identifier (email address,
+SSN, etc.) by
+Manually entering an identifier into the relevant field
+for a single user and manually entering a request to
+pull data for an individual user.
+Generating a DSAR for multiple users by making a
+“batch request”; you could implement this by
+enabling users to upload CSV/Google Sheets
+containing the identifiers (internal IDs, email
+addresses, etc.) for a group of users. This would
+help scale the effort rather than retrieving data for
+one user at a time.</li>
+</ol>
+<h2 id="page-517">Page 517</h2>
+<ol>
+<li>Set date ranges for DSARs—By the time
+companies start facing DSAR requests, they will
+probably have accumulated data going back
+several years. While many DSAR requests may
+require the company to furnish all the data they
+collected from a user, it may also make sense to
+build capabilities to retrieve data based on a
+predetermined time frame so that the systems can
+respond to custom requests and not overwhelm
+the backend databases.
+In such a scenario, the internal user creating the DSAR
+would be able to choose between two options:
+Standard DSAR with lifetime timeframe—The upside
+of this capability is that you can be reasonably
+certain that you have all the data for the user,
+assuming that you have tagged the data correctly.</li>
+</ol>
+<h2 id="page-518">Page 518</h2>
+<p>Grouped and timeboxed DSARs—In this
+implementation, you would come up with a DSAR
+where not every data field would cover the full
+duration of the user’s association with your
+company. You could create groups of data fields,
+where each group has an adjustable timeframe (30
+days, 3 months, 1 year, lifetime). For example, a
+customer for a retail website may want to get a copy
+of their entire shopping history, but only for specific
+products. Having filters set up for timelines or for
+specific products will help drive custom DSARs.
+Otherwise, you will need to run burdensome queries,
+retrieve more data than your customer has
+requested, and then filter out the specific data your
+customer requested. This is not just inefficient but
+will not scale well, given the number of competing
+queries that may run against the same databases
+(such as those from data scientists conducting data
+analysis) and the number of DSARs a company may
+have to service. This also becomes a problem as
+engineers grapple with legacy data as well as newly
+acquired data. Leaders at companies often fail to
+appreciate how the gradual trickle of accumulated
+data eventually leads to problems, so having the
+ability to extract a subset of data is smart
+engineering as well as a strategically savvy
+investment.</p>
+<h2 id="page-519">Page 519</h2>
+<ol>
+<li>Check for DSAR request frequency—You should
+also configure the DSAR tool or UI or tag the user
+(using the same techniques we used for the data
+inventory in chapter 4) if the user has requested a
+DSAR in the past 12 months. The goal behind this
+configuration or tagging is to help recognize the
+user as having requested and obtained a DSAR if
+the same user requests another DSAR. In such an
+event, you may want to flag this for the company’s
+legal team to determine whether certain users are
+attempting to overwhelm the system through
+weaponized (by frequently requesting, for
+example) DSARs.
+The preceding list is not exhaustive, but it is intended to
+guide system design and usage for all manner of companies.
+This may seem basic, but when DSARs come in amid a busy
+schedule and oversubscribed resources, it helps to have a
+predictable and repeatable process to satisfy customer
+expectations without having to divert internal resources to
+compensate for process inefficiencies.
+Next we’ll look at maturing your DSAR offering with a
+dashboard that will help inform and advise the personnel
+working on DSARs, executives, and legal or audit teams.
+8.2.2 Building a DSAR status dashboard
+Given the number of DSARs a company may have to handle
+over time, it may behoove leaders to build a standard status
+template for how they will measure and track the progress</li>
+</ol>
+<h2 id="page-520">Page 520</h2>
+<p>of DSAR requests. This would be helpful for tracking specific
+DSARs as well as to identify how many requests have just
+begun, how many are under review, and how many are
+about ready to be sent back to the customer who requested
+them.
+Table 8.1 provides such a template. This workflow will vary
+by company, but the intent of the template is to identify key
+milestones for tracking the progress of the DSAR requests.
+This template shows specific status values that can be
+attached to the tickets that track DSAR requests and the
+triggers that would lead to status changes. As the work
+proceeds to extract the data, the ticket status must be
+changed to reflect the state of the work. This is useful both
+for possible compliance reasons as well as to ensure that the
+same procedural rigor afforded to ongoing engineering
+development is made available to privacy projects.
+Table 8.1 DSAR status possibilities</p>
+<h2 id="page-521">Page 521</h2>
+<p>Status</p>
+<p>Trigger</p>
+<p>None</p>
+<p>DSAR ticket has been opened but has not been worked on yet.</p>
+<p>Verifie
+d</p>
+<p>Customer has been verified. This step is critical, since it limits 
+spammed requests from automated systems and confirms that 
+the right person did in fact make the request.</p>
+<p>Proces
+sing</p>
+<p>The request has been successfully submitted to the DSAR tool, 
+and the data export is being prepared. The ticket status will also 
+be changed to reflect the progress.</p>
+<p>Ready 
+for 
+legal 
+review</p>
+<p>Once the data export file is ready, the privacy team can upload 
+the file with customer data to a user-provided file-sharing system. 
+The “user” in this case is the person who requested the DSAR.</p>
+<h2 id="page-522">Page 522</h2>
+<p>Under 
+review</p>
+<p>Before the file containing the DSAR data is shipped to the 
+customer, the privacy team could assign the ticket to the legal 
+team for review.</p>
+<p>Legal 
+review 
+compl
+ete</p>
+<p>Legal reviewer completes the review and updates the ticket to 
+“legal review complete” status. The legal reviewer then re-
+assigns the ticket to the privacy team.</p>
+<p>Export
+ed to 
+data 
+subjec
+t</p>
+<p>The privacy team sends the export to the user and updates the 
+ticket status to “closed” with a note saying “exported to user.”</p>
+<p>In order to explain the more linear flow of the DSAR
+between different teams within the company, a diagram
+tends to be helpful for cross-functional leaders who need
+multiple teams to follow a set process. Figure 8.3 helps
+explain such a flow. While figure 8.3 does not precisely</p>
+<h2 id="page-523">Page 523</h2>
+<p>match the status values in table 8.1, the general idea about
+how the DSAR process proceeds is the same.
+Figure 8.3 DSAR status change workflow
+So far, you have seen a high-level flow of how DSAR service
+requests are handled once a user requests their data.
+However, the preceding workflows and processes assume the
+capability and backend logic to extract user data that you
+have previously tagged during the data inventory.
+Implementing this backend logic requires making choices to
+define templates for DSARs and schedule them. The next
+section will explore some of these hands-on skills so that
+technical leaders and leaders with other backgrounds who
+have privacy responsibilities can adapt those skills to suit
+their needs.</p>
+<h2 id="page-524">Page 524</h2>
+<p>8.3 DSAR automation, data structures,
+and data flows
+This section will provide architectural and data-design
+guidance on how to construct a system to furnish DSARs for
+users. These details will be most useful for privacy engineers
+who will create the data structures and scheduling
+algorithms. It will also be helpful for executives, legal teams,
+and regulatory leaders to understand some of these details
+so that they can get a sense of the complexity inherent in
+retrieving data. I am especially hopeful that teams in
+marketing, artificial intelligence, and other data analysis
+take an interest in this section, since they are the chief
+practitioners in data collection, and the work involved in
+extracting the data will hopefully give these stakeholders a
+renewed appreciation in being purposeful about the data
+they collect.
+We’ll first break up the DSAR logic into several components.
+8.3.1 DSAR components
+We will now design a basic DSAR automation capability that
+should serve as a reference for anyone seeking to automate
+their DSARs. Each company’s architecture will vary, so this
+example is purely for reference and not exact replication.
+Table 8.2 provides two key definitions we will need.
+Table 8.2 DSAR terminology</p>
+<h2 id="page-525">Page 525</h2>
+<p>Name</p>
+<p>Meaning</p>
+<p>DSAR 
+templa
+te</p>
+<p>For companies that have to run DSARs, it will help to create a 
+template that will then drive the queries to fetch the data. Ideally, 
+this template would cover as many use cases as possible. This 
+template will identify, for a user requesting a DSAR, a group of 
+related data tables. It will contain table names, column names for 
+each table, the time period covered by the tables, and a column 
+that lists the identifier for the user for whom the DSAR has been 
+created.</p>
+<p>DSAR 
+cuboid</p>
+<p>Instead of using a template, you could get a smaller dataset for 
+the user. This dataset will have three dimensions: the user, the 
+number of tables, and the time covered by those tables. Given the 
+reduced three-dimensional nature of this dataset, we will call this 
+dataset a cuboid. A cuboid will provide a subset of the data the 
+template would provide for the same DSAR request.</p>
+<p>With those definitions in place, let’s break up the
+functionality of the DSAR delivery system into individual
+modules. Each module will provide specific functionality for
+whoever at the company extracts the data for DSARs.</p>
+<h2 id="page-526">Page 526</h2>
+<p>Building these and then stitching them together will help
+automate the DSAR process.
+The composite DSAR automation service is comprised of five
+components:
+1. DSAR template module—This service will enable
+standard DSARs to be created and provided to
+users who request a copy of their data. This
+service will provide two key capabilities:
+List default DSAR templates—Companies may need
+to define a finite number of DSAR templates to
+support specific contexts and geographies. This
+module would need to list all such templates so as to
+enable an administrator to support the template that
+is most appropriate for a specific user request.
+Upsert DSAR template—UPSERT is a DBMS feature
+that allows a Data Manipulation Language (DML)
+statement’s author to atomically either insert a row,
+or if the row already exists, update the existing row
+instead, while safely giving little to no further
+thought to concurrency. This module should allow a
+DSAR administrator to modify DSAR templates to
+accommodate regulatory changes.</p>
+<h2 id="page-527">Page 527</h2>
+<ol>
+<li>DSAR batch request module—Having selected a
+template for a specific DSAR, the administrator
+now needs to execute the template. This module
+will handle the execution. The module would have
+the following key capabilities:
+Execute a DSAR for a single user.
+Execute batch DSAR requests, where each batch
+would include multiple DSARs.
+Resume executing a DSAR request, in the case of
+data or dependency issues that may take time to fix.
+This capability would enable the administrator to
+resume and build on top of previous failed runs,
+leveraging intermediate results and not having to
+start again from scratch.
+Get a DSAR request status, which would then be
+used to update tickets, which you saw earlier.</li>
+<li>Combine/harvester—This module will enable the
+DSAR administrator to combine and harvest data
+from HDFS, to group data by user and table, and
+to upload the data to a storage server for retention
+or transport to the user who requested the DSAR.
+The logic for designing this will be discussed
+shortly.</li>
+</ol>
+<h2 id="page-528">Page 528</h2>
+<ol>
+<li>Data pipeline—The combine/harvester module will
+retrieve the data, but you’ll also need a way to
+funnel the data back into HDFS so that it can be
+provided to the user who requested it. The data
+pipeline module fulfills that function. Given a table
+name, a set of selected table columns, a list of
+user identifiers, and time intervals, the pipeline
+would retrieve the data for the user and drop the
+result to HDFS. In a sense, the DSAR data that will
+be returned is three-dimensional (table/columns *
+user * time period).</li>
+<li>Audit trail—Companies getting and fulfilling DSAR
+requests must maintain audit trails for subsequent
+audits, to verify the correctness of the DSARs
+themselves, or to ensure that the DSARs were
+created and accessed legitimately. Therefore, you
+will need a service that will create metadata for
+every DSAR request. This service will also publish
+logs in Kafka that will be consumed by HIVE
+through Hadoop. In the event of an audit, this
+library (the combination of the audit trails and
+logs) will provide core SQL queries to help query
+the relevant tables and gather information.
+Having looked at the elements of an automated DSAR
+process, we will now proceed to practical implementations,
+starting with cuboids and moving on to templates.
+8.3.2 Cuboids: A subset of DSAR data</li>
+</ol>
+<h2 id="page-529">Page 529</h2>
+<p>As you can probably infer from the preceding components,
+automating the DSAR process can save resources and time,
+but DSARs are still fairly data-intensive and time consuming.
+Creating a template will help, but for many companies, it
+may be beneficial to start with a smaller dataset for three
+reasons:
+Many companies may have too many bespoke
+DSARs, and may end up investing resources in
+templates that end up not being used.
+It may also be beneficial to run DSARs that cover
+smaller datasets and to understand the data
+patterns before investing in the templates.
+Not all DSARs require the full dataset. For a host of
+reasons, it may make sense to request less than
+all available data for a user and their DSAR
+request.
+In these scenarios, rather than start at step 1 in the
+previous 5-step process, it may help to skip the template
+step and create smaller datasets for DSARs called cuboids.
+As defined earlier, a cuboid will provide, for a given user, a
+subset of available tables for a portion of time rather than
+covering all tables for the entire period of the user’s
+interaction with your platform.
+It may be helpful to look at a real-world scenario where a
+company may benefit from such a limited extraction of data,
+rather than running a full extraction. Let’s assume you run a
+retail website where customers can buy everything from
+groceries to pet supplies to furnishings. The website collects</p>
+<h2 id="page-530">Page 530</h2>
+<p>customer data in order to recommend products based on
+past shopping experiences. But then, as the business grows,
+you decide to acquire new data from third-party vendors to
+conduct behavior analysis. This data enrichment could help
+enable recommendations not just based on shopping history
+but on future behavior (for example, if someone buys
+weight-management dog food, the website could
+recommend other products for dogs who need to lose
+weight, like supplements, dental care for elderly dogs, etc.).
+You could buy data from websites based on research
+conducted by others who share similar characteristics to
+your customers.
+Now, let’s also assume that a customer has the following
+user journey:
+The customer adds grain-free food to their
+shopping cart, makes a purchase, and does no
+other research.
+Based on available data about the customer on
+your website, you can infer that the customer
+belongs to a specific age cohort.
+You also have information on the customer’s
+address, based on where more than 90% of the
+customer’s purchases are shipped.
+Your data analysis research shows that such
+customers (in that age group who order grain-free
+dog food and live in that specific ZIP code) also
+tend to be yoga aficionados and order yoga mats.
+This analysis featured data you purchased from a
+third-party data company.</p>
+<h2 id="page-531">Page 531</h2>
+<p>You make other recommendations to the user
+based on information they provide you with, by
+way of product reviews, complaints, etc.
+Now let’s assume that the customer sees a product
+recommendation for yoga mats on your website. The
+customer is surprised, since they have not browsed any
+yoga-related products on your website. The customer
+submits a DSAR in order to find out what data about them in
+your possession enabled you to serve them an ad about
+yoga mats.
+In this scenario, let’s also make the following assumptions:
+Data about the customer’s browsing history is
+stored in 50 tables in the Hive data warehouse.
+Data that you purchase about the customer from
+third-parties is stored in 30 completely different
+tables in the data warehouse.
+Data purchased from third parties covers a specific
+time span, and you can easily identify this data
+based on your transaction history with the third-
+party. All you would probably need to do is look at
+your transactions with this third party and filter
+out the transactions that fall outside this span.
+In this scenario, pending approval from your legal team, you
+may be able to satisfy the customer’s DSAR requirement by
+providing data only from the 30 tables that cover third-party
+data.</p>
+<h2 id="page-532">Page 532</h2>
+<p>Too often, companies build DSAR capabilities that by default
+cover the full sweep of their data collection, since they want
+to play it safe and too many engineers simply do not
+understand what data they have and how it applies to the
+specific DSAR request. The cuboid approach will enable your
+company to run several parallel DSARs that more closely
+meet customer needs, without covering the full span of your
+data for every DSAR and taxing your system in the process.
+Let’s examine how you can create the three-dimensional
+cuboid data that the DSAR would contain and publish it to
+HDFS using the data pipeline. Each DSAR will focus on
+A specific user
+For that user, a specific set of tables
+For that user and corresponding tables, a specific
+time interval
+Instead of running queries for the entire dataset for a
+specific user’s DSAR, you may want to run queries for
+smaller Cuboids.
+Let’s assume we want to retrieve a DSAR for 1,000 users
+(using the same template for all users), with 10 tables for
+each user and for a period of 1,000 days. To run the queries
+on a more fragmented basis, one configuration for our
+cuboid could be trying to get data for 100 users at a time,
+with 1 table per user, and for a coverage period of 100 days.
+Figure 8.4 shows how the cuboid approach can help you
+scale the DSAR automation process. In the figure, the three
+dimensions represent the three areas of DSAR coverage. In</p>
+<h2 id="page-533">Page 533</h2>
+<p>this specific example, each block in the cuboid represents a
+user for whom a DSAR request is being processed. Within
+each square, the vertical line represents the number of
+tables covered in the DSAR, and the horizontal line covers
+the time period covered by the DSAR.
+The various combinations of red blocks offer some
+perspective on the coverage tradeoffs involved in processing
+individual DSARs as part of a larger batch. For example, in
+the case of some users, you will cover more tables but a
+shorter time window, and for others you will cover fewer
+tables but a longer duration.
+Figure 8.4 Cuboid approach with DSARs
+Having seen how DSARs can be partitioned, we can now look
+at designing a template for DSARs.
+NOTE Companies will need to make some tradeoffs when they support DSARs.
+Going the template route will provide repetition and reproducibility, but it may tie</p>
+<h2 id="page-534">Page 534</h2>
+<p>your hands in terms of getting all the data for a user. The cuboid approach offers
+more flexibility and may allow more targeted discovery by selecting how much data,
+based on the number of tables and the time period, you will export for each user.
+8.3.3 DSAR templates
+DSAR templates serve two primary purposes. First, they
+allow an internal administrator to use the template to
+retrieve the full data (or a subset of data, using the cuboid
+capabilities), and second, they allow the DSAR data to be
+written into a template to be sent to the user.
+Table 8.3 provides an easy-to-use, hands-on template for
+creating DSARs.
+Table 8.3 DSAR template</p>
+<h2 id="page-535">Page 535</h2>
+<p>Primary Key: id; Partition key: Type</p>
+<p>Field</p>
+<p>Type</p>
+<p>Description</p>
+<p>id</p>
+<p>User ID</p>
+<p>This is a unique identifier for the user for 
+whom the DSAR is being created. This will 
+serve as the primary key.</p>
+<p>datasour
+ces</p>
+<p>Array of 
+tables</p>
+<p>A list of tables, columns, and time interval 
+period.</p>
+<p>created_
+by</p>
+<p>User ID</p>
+<p>This is a unique identifier for the requestor 
+who created the DSAR on behalf of the 
+user(s).</p>
+<h2 id="page-536">Page 536</h2>
+<p>created_
+at</p>
+<p>Date/time</p>
+<p>This captures the time when the requester 
+created the DSAR on behalf of the user(s). To 
+maintain consistency, it should be encoded 
+ISO-8601.</p>
+<p>updated_
+by</p>
+<p>User ID</p>
+<p>This is a unique identifier for the requestor 
+who has updated the DSAR on behalf of the 
+user(s). The value would be the same as for 
+created_by unless the record has been 
+updated.</p>
+<p>updated_
+at</p>
+<p>Date/time</p>
+<p>Time when the requestor updated the DSAR 
+on behalf of user(s). Encoded ISO-8601. The 
+value is the same as created_at unless 
+the record has been updated.</p>
+<p>is_activ
+e</p>
+<p>Boolean</p>
+<p>The default value of this field is false. The 
+value will be true while the UI tool is 
+processing the DSAR request. Once the 
+DSAR is exported, reviewed, and completed, 
+the field will be set back to false.</p>
+<h2 id="page-537">Page 537</h2>
+<p>Listing 8.1 shows a sample query that you could use to
+create a DSAR template. You would need to update the fields
+to match your data schema.
+Listing 8.1 Query for DSAR template
+CREATE TYPEDEF type_struct ( 
+    type int32; 
+); </p>
+<p>CREATE TABLE DSARtemplate 
+( 
+    id         userID; 
+    data_attribute_name STRING(100); 
+    category STRING(100); 
+    datasources STRING(1000); ** 
+    created_by         userID; 
+    created_at      DATETIME; 
+    updated_by        userID; 
+    updated_at      DATETIME; 
+    type        type_struct; 
+    is_active      BOOL; 
+) PRIMARY KEY ((type), userID);
+The query should ensure that every template has the same
+basic construct, and each template can be identified by the
+userID of the person who created it. You may need to
+improvise if a user needs to create multiple templates, but
+that can get prohibitively expensive—there may end up
+being no limit to the number of templates a company may
+need to support—so I will assume no more than one DSAR
+template is created per user.</p>
+<h2 id="page-538">Page 538</h2>
+<p>We will now look at the logic to define the source tables that
+will map to a given DSAR template.
+8.3.4 Data sources for DSAR templates
+In listing 8.1, you saw that each DSAR template identified
+specific tables to pull data from. For each table that a DSAR
+template supports, you will need to identify the fields the
+table will provide.
+Each DSAR request contains a list of tables along with
+column details, UUID column or index column, and time
+covered. As stated earlier, you may not pull all the data from
+a given table, since the cuboid approach allows you to
+provide a partial dataset. Table 8.4 provides an insight into
+how you could define data source tables for the DSAR
+template.
+Table 8.4 Providing data sources for DSAR templates</p>
+<h2 id="page-539">Page 539</h2>
+<p>Data source</p>
+<p>Field</p>
+<p>Type</p>
+<p>Description</p>
+<p>table_na
+me</p>
+<p>string</p>
+<p>Name of the table(s) included in the DSAR.</p>
+<p>lookback
+InDays</p>
+<p>integer</p>
+<p>Number of days you are looking back, from 
+the day the request is created, to query the 
+data. For example: A value of 365 indicates 
+you are querying 1 year old data for a 
+particular data source.</p>
+<p>columns</p>
+<p>array<st
+ring></p>
+<p>The list of columns to be exported from a 
+table or data source for a DSAR.</p>
+<h2 id="page-540">Page 540</h2>
+<p>userID</p>
+<p>string</p>
+<p>The userID column, primary key, or the user 
+columns used to identify the user in context.</p>
+<p>As you saw in table 8.3, the field that represents the data
+sources is one part of the DSAR template. How you store
+that value can be challenging, since the data source field has
+to specify the number of tables included in the DSAR as well
+as the columns on a per-table basis. These decisions will
+then
+Drive the queries that will extract data
+Affect the burden on the databases that will
+support those queries
+Determine the latency of the queries themselves
+As such, you will need to consider the storage mechanism of
+the data source field carefully. Let’s look at some options
+and their attendant tradeoffs. First, you could store all the
+data sources as one string in one field:
+This approach is easy to implement, since you can
+dump all the table and column names into one
+field.
+Each query for each DSAR (since you could use the
+same template for multiple customers) will require
+you to retrieve the list of tables stored in the
+single field.</p>
+<h2 id="page-541">Page 541</h2>
+<p>As a company onboards more new tables for
+DSARs, the length of each request increases, and
+this will greatly increase the time it takes for any
+future processing.
+The second approach, where we store data sources as a user
+defined field, allows us to create a more enumerated
+approach to the data sources that form a part of the DSAR
+template:
+Each data source is an array of several individual
+data sources.
+An individual data source is a user-defined struct
+containing details about the table to be exported,
+the time period for the DSAR, the columns of the
+table to be included, and any attendant metadata.
+The columns field would also be defined as an
+array of strings.
+Figure 8.5 illustrates how this could be structured. You could
+have a cascading set of arrays, and each query could
+optimize for the source tables and attendant columns per
+table in a way that makes sense.
+This is a better approach than the previous one, where all
+the tables and all their columns would show up as one field,
+and that would require either
+A significant level of parsing and experimentation
+to investigate where all the potential data for the
+DSAR lives</p>
+<h2 id="page-542">Page 542</h2>
+<p>or
+A significant delay in getting the DSAR values
+back, since all the table and column entries in the
+DataSource field will be queried against
+Figure 8.5 Defining data sources in enumerated formats
+Before we close out the design of the DSAR system, it is
+worth examining where and how this data will be stored. You
+may wish to design a custom database, but it is worth
+examining a more traditional data store like Hive and
+evaluating its upsides and downsides, with a view to the
+performance expectations of such a system.
+Hive may well be a suitable storage location for DSARs:
+It’s easy and fast to insert data into Hive via
+Spark, using thousands of executors.</p>
+<h2 id="page-543">Page 543</h2>
+<p>When you store DSAR data in Hive tables, the
+output can be stored immediately, thereby
+enabling deletion once the DSAR request is
+fulfilled, saving money and avoiding security risks
+that might result from copies of sensitive data
+being stored for too long. This is key for leaders to
+understand, since DSAR data by definition is a
+copy of data that already exists elsewhere in your
+system. Therefore, writing, accessing, and then
+deleting this data expediently is critical.
+Since storage is comparatively cheap in Hive, size
+will not be a large concern.
+It is also worth examining the downsides of Hive as a
+storage location for DSAR data:
+Inserts and updates can be slow. Hive does not
+natively support updates, so you will need to use
+other locations to do that. For each row to be
+upserted, the storage location will need to find out
+whether there is an existing row. You would need
+an internal index to help with such searches. As
+such, the effectiveness and performance of such
+searches needs to be considered, especially with
+data-heavy environments.
+Hive’s read capability is slow. Read performance
+may not be critical for DSARs, since the data is
+transferred back to the customer in bulk, but you
+will need to carefully choose partition and
+bucketing schemes to ensure such queries finish
+within an expected time limit.</p>
+<h2 id="page-544">Page 544</h2>
+<p>We’ve looked at the process flow and the architecture of
+DSAR systems, so let’s now focus on some user-facing
+designs and screens that correspond to the processes and
+backend designs we have been discussing.
+8.4 Internal-facing screens and
+dashboards
+Companies can come up with easy-to-use dashboards and
+screens that will help them track, execute, and design
+DSARs. This may sound like overkill, and companies may
+eschew such an approach as overly bureaucratic, but having
+such designs is critical to scaling the DSAR process and
+meeting future auditing needs.
+Additionally, it will help you logically connect the backend
+architecture and data decisions you saw in sections 8.2 and
+8.3 to a user journey. If you were to buy an off-the-shelf,
+third-party solution, this combination of backend and
+frontend alignment is what you’d be paying for, so
+understanding how the two parts work together is critical to
+making an informed decision whether to build versus buy a
+DSAR solution.
+The first design we will look at is a dashboard to track the
+progress of ongoing DSAR requests. Figure 8.6 provides
+DSAR administrators, privacy specialists, and legal teams
+with several bits of key information:</p>
+<h2 id="page-545">Page 545</h2>
+<p>It groups tranches of DSARs in one Request ID,
+which will enable the company to group all DSARs
+that correspond to a specific day or a specific
+lawsuit, etc.
+It indicates the date the specific group of DSARs
+was requested and when the DSARs are due.
+It provides a status for each group of DSARs.
+Program managers and internal risk specialists could build
+filters that sort the DSAR requests based on any of the
+aforementioned criteria and could provide executive
+leadership and auditors with a clear sense of the company’s
+performance and exposure when it comes to DSARs.</p>
+<h2 id="page-546">Page 546</h2>
+<p>Figure 8.6 DSAR status dashboard: for each list of DSARs, you will
+want a clear status so you know where the work stands and can
+communicate it to the user clearly.
+The next set of screens will focus on supplying the DSAR tool
+with the user(s) for whom data is to be extracted and
+exported. For the purpose of this example, let’s assume that
+our system lets employees do this in one of two ways:</p>
+<h2 id="page-547">Page 547</h2>
+<p>By entering email addresses (or internal
+identifiers) one at a time, for users who have
+requested DSARs
+By uploading a spreadsheet containing the email
+addresses (or internal identifiers) of several users
+all at once
+Figure 8.7 shows how you can construct these options on a
+single screen so your admin, whether in engineering or
+legal, can specify how to extract the data.
+Figure 8.7 Two options for pulling DSAR data</p>
+<h2 id="page-548">Page 548</h2>
+<p>Figure 8.8 shows what the path would look like for the case
+of specifying a single user manually.
+Figure 8.8 Option to add users to a DSAR request one at a time
+You could then design a screen for selecting and adding
+matches as they show up, once the user starts entering an
+email address, as shown in figure 8.9. The matching users
+start to show up as you enter the email address. This
+capability assumes that you have the data inventory done,
+which in turn allows the data to be easily referenceable.</p>
+<h2 id="page-549">Page 549</h2>
+<p>Figure 8.9 Adding users to a DSAR request one at a time—selection
+process.
+The DSAR process can be error-prone, especially for
+companies that have millions (or possibly billions) of
+customers who carry out multiple discrete transactions.
+Some errors stem from sloppiness, where data from the
+wrong user is extracted for export. It is vital that there be a
+verification process after users are selected but before the
+data is extracted, as shown in figure 8.10.</p>
+<h2 id="page-550">Page 550</h2>
+<p>Figure 8.10 A verification screen before DSAR data is extracted
+We can now examine the process for adding users for DSARs
+via a spreadsheet (rather than one at a time). Figure 8.11
+shows what that journey could look like. Note in figure 8.11
+that we need to allow for different interstitial pages based on
+browser type, to upload the spreadsheet of users for whom
+we need DSARs.</p>
+<h2 id="page-551">Page 551</h2>
+<p>Figure 8.11 Adding users to a DSAR via a spreadsheet
+In figure 8.12, you can see that you might end up in the
+same place as you did (in figure 8.11) when you added
+users one at a time. You could have an Add feature on the
+right—or an X feature to remove selections—to perform a
+final verification check before running expensive DSAR
+queries against your backend databases.</p>
+<h2 id="page-552">Page 552</h2>
+<p>Figure 8.12 Adding users to a DSAR request via spreadsheet—
+selection process.
+Once you have established the users for whom you are
+requesting DSARs, you can now select
+The tables from which you want user data to
+populate the DSARs
+The period of time for which you want DSAR data</p>
+<h2 id="page-553">Page 553</h2>
+<p>This is where the visual design aligns with our earlier cuboid
+approach, whereby you can get a subset of user data for
+DSARs rather than extracting all the available data, which
+may be unnecessary and therefore inefficient.
+Figure 8.13 shows how you could create a selection screen
+where the DSAR administrator can select what tables to
+include in the DSAR. Having selected the tables, you could
+now select a lookback period to specify how far back in time
+you want the system to extract data for the DSAR request. I
+have found that, left to their own devices, DSAR
+administrators tend to request all the data even when it’s
+not required. It is with that in mind that figure 8.13 includes
+a nudge, reminding the administrator that a standard DSAR,
+which includes all the tables and the entire time duration, is
+more expensive. This may prompt them to select an
+adjustable lookback period with a subset of tables.</p>
+<h2 id="page-554">Page 554</h2>
+<p>Figure 8.13 Selecting tables for a DSAR request
+Even so, a DSAR may require all the tables for the entire
+duration of time. Figure 8.14 shows what such a screen
+could look like.</p>
+<h2 id="page-555">Page 555</h2>
+<p>Figure 8.14 Creating a DSAR request for all tables and lifetime
+duration
+The good news for program managers, privacy leaders, and
+anyone else designing a DSAR solution is that customizing
+the lookback period is fairly easy as figure 8.15 shows.</p>
+<h2 id="page-556">Page 556</h2>
+<p>Figure 8.15 Creating a custom DSAR request for varying durations per
+table
+This provides you the ability to track and customize the
+DSAR creation process both at the backend and frontend.
+This chapter has provided the reader an understanding of
+DSARs as the next generation of privacy commitments.
+Having thus far focused on privacy governance internally,</p>
+<h2 id="page-557">Page 557</h2>
+<p>this chapter leaves readers with an understanding of how to
+build a process, automation, and presentation of a critical
+customer-facing privacy capability.
+Summary
+DSARs are a key requirement for companies, as
+privacy regulations empower customers to seek
+access to the data that companies have about
+them.
+DSARs can become very onerous if companies do
+not plan well, but with sound data governance,
+companies can optimize for accuracy and speed in
+DSAR request fulfillment.
+Companies can design templates to help ease the
+DSAR process, and they can provide subsets of
+data to help scale the process better.
+It is critical to build an internal UI to help teams
+manage DSAR creation, and also to ensure that
+the UI aligns with backend data design choices.
+A stable and reliable DSAR process is critical for
+companies to demonstrate regulatory compliance
+and to secure customer trust, because sometimes
+the DSAR is the only tangible evidence a user will
+see of a company’s sound privacy practices.
+1 Vivek Kokkengada, “6 Keys to Automating the DSAR Process Under CCPA,” Securiti blog,
+April 29, 2020, http://mng.bz/Bx52.
+2 “Everything you need to know about the ‘Right to be forgotten’,” General Data Protection
+Regulation (GDPR) Compliance Guidelines, GDPR, https://gdpr.eu/right-to-be-forgotten/.</p>
+<h2 id="page-558">Page 558</h2>
+<p>3 Eric Andrews, “DSARs: What You Need to Know,” Securiti blog, January 1, 2021,
+https://securiti.ai/blog/ dsar-rights-and-compliance/.
+4 This figure is based on one from Andrews, “DSARs: What You Need to Know.”
+5 Andrews, “DSARs: What You Need to Know.” Kokkengada, “6 Keys to Automating the DSAR
+Process Under CCPA.”</p>
+<h2 id="page-559">Page 559</h2>
+<p>Part 4. Security, scaling, and staffing
+Given the interconnectedness of privacy and security, it is
+critical that engineers address security gaps that could lead
+to privacy harm. It is also useful to have set milestones to
+help measure the maturity of a company’s privacy offering.
+Building on governance and tooling, this part will help
+create a professional and mature privacy engineering
+offering.
+Chapter 10 will take a technical deep dive into security
+incidents, their privacy impact, and how to remedy them.
+This chapter combines privacy and security into a data
+protection rubric, much like GDPR does.
+Chapter 11 helps engineers plan maturity models for their
+privacy program. As privacy engineering becomes a
+discipline along the lines of software development,
+enumerating core capabilities and their completeness is
+vital. This chapter will provide a framework that engineers
+are otherwise too oversubscribed to build for themselves.</p>
+<h2 id="page-560">Page 560</h2>
+<p>9 Building a consent management
+platform
+This chapter covers
+How collecting use consent became critical
+How a consent management platform (CMP) works
+A data model and schema for a consent platform
+Code structures for consent functionality
+Key capabilities that can optimize a CMP
+Integrating a CMP into the business workflow
+You have seen so far how engineers, technical program
+managers, and other leaders in lean and fast-paced
+businesses can address privacy needs for their business and
+its customers. These strategies include using security tools
+to protect privacy, classifying and cataloging data,
+obfuscating it, and deleting it.
+Besides protecting data, being transparent about how and
+why you collect data is becoming critical for privacy
+stakeholders and regulators. The former include customers,
+media, and activists, while the latter range from non-profits
+to governments. This sentiment led to the codification of
+Data Subject Access Requests (DSARs), which we examined
+in chapter 8. This chapter will dive deep into consent
+management, which is another privacy expectation that is</p>
+<h2 id="page-561">Page 561</h2>
+<p>becoming critical for any company that collects and handles
+customer data.
+The process of collecting user consent to manage customer
+data, connecting that consent to specific activities, and
+keeping that consent status updated are all becoming critical
+for businesses that collect customer data. Simultaneously,
+the nature of modern business and engineering makes these
+tasks more complicated. For simplicity, I will refer to all
+activities of this nature collectively as consent management
+and to the automation used to deal with consent
+management as a consent management platform (CMP).
+Consent management is a relatively new area for many
+businesses, as well as for the engineers who work for these
+businesses and build the tools that collect customer data. It
+is also a new area for the customers themselves. For years,
+the exchange of data and services (that is, customers
+providing data in exchange for online tools), seemed
+intuitive. That has changed with laws like the GDPR and
+CCPA and a more privacy-aware atmosphere.
+In order to ensure that businesses that depend on lawfully
+and transparently collecting and processing customer data
+have context, this chapter will first explain what consent
+management means for businesses from a regulatory
+standpoint. We will then dive deep into the implementation
+of a CMP. That will require looking into the backend database
+and relationships as well as some code examples, which
+when viewed comprehensively will help you understand how
+to design a platform that can manage user consent.</p>
+<h2 id="page-562">Page 562</h2>
+<p>We will also explore other considerations involved in building
+CMPs. There are two challenges in this area for many
+companies. First, small, upcoming, and even some large
+businesses may not have large privacy, design, and legal
+teams, but they still need to follow global regulations
+regarding consent. Second, they need to ensure that
+customers who use their services consent in higher
+numbers. Lack of consent hurts the company’s ability to use
+the data they collect. This is why consent management is
+one of the biggest challenges in the privacy and compliance
+space today. Privacy engineers need to ensure that they
+implement consent tools in a way that does not confuse
+customers, since that could lead to suboptimal customer
+retention outcomes.
+The first section of this chapter will provide some context as
+to why businesses need to collect consent.
+9.1 Why consent management is
+important
+Let’s begin by laying out the forcing functions behind
+consent management for businesses. As you will see shortly,
+there are regulatory and industry reasons behind consent
+management, and these forces make this requirement
+important for businesses to implement and plan for.
+Accordingly, we will look at the regulatory angle regarding
+consent and see how consent management has become
+important to business from a regulatory standpoint.
+However, in addition to being a regulatory or market-driven</p>
+<h2 id="page-563">Page 563</h2>
+<p>requirement, consent management could be a key driver for
+your business. In section 9.1.3, I will explain to engineers
+why that is.
+9.1.1 Consent management and privacy-related
+regulation
+In the text of the EU’s General Data Protection Regulation
+(GDPR), it states that “The GDPR requires a legal basis for
+data processing.” The following is their list of the legal
+bases1:
+1. Processing is necessary to satisfy a contract to
+which the data subject is a party.
+2. You need to process the data to comply with a
+legal obligation.
+3. You need to process the data to save somebody’s
+life.
+4. Processing is necessary to perform a task in the
+public interest or to carry out some official
+function.
+5. You have user consent.
+6. You have a legitimate interest to process
+someone’s personal data. This is the most flexible
+lawful basis, though the “fundamental rights and
+freedoms of the data subject” always override your
+interests, especially if it’s a child’s data.
+One easy way to avoid large GDPR fines is to always get
+permission from your users before using their personal</p>
+<h2 id="page-564">Page 564</h2>
+<p>data.2 Contrary to popular belief, the GDPR does not require
+businesses to obtain consent from people before using their
+personal information for business purposes. Rather, consent
+is one of the six legal bases outlined in Article 6 of the
+GDPR.3 Businesses must identify the legal basis for their
+data processing.
+NOTE I want to remind you that this book is not offering legal advice. You should
+refer to legal counsel to determine the applicability of consent to your business as
+well as the completeness of any solution you implement.
+The idea at work is that if the business collecting data has a
+legal basis (having user consent being one legal basis), the
+business is permitted to collect and handle the data.
+The GDPR’s definition of consent states that “Consent of the
+data subject means any freely given, specific, informed and
+unambiguous indication of the data subject’s wishes ....”
+(article 4(11)). While the definition has more detail,
+engineers and technical program managers must ensure that
+their consent collection mechanism and the ensuing consent
+is</p>
+<h2 id="page-565">Page 565</h2>
+<p>Freely given—Consent essentially means you have
+not coerced the data subject into agreeing to let
+you use their data. For one thing, that means you
+cannot require consent to data processing as a
+condition of using the service. They need to be
+able to say no. The one exception is if you need
+some piece of data from someone to provide them
+with your service. For example, you may need
+their credit card information to process a
+transaction or their mailing address to ship a
+product.
+Specific—When you collect user data, it should be
+clear what data processing activities you intend to
+carry out, granting the user an opportunity to
+consent to each activity. So if you want to collect a
+user’s email address for marketing purposes and
+their IP address for website analytics, you must
+explain each data use case separately, giving data
+subjects an opportunity to consent to each activity
+individually. This requirement implies a very
+granular set of entities in the consent
+infrastructure so you can track and maintain
+consent statuses accurately.</p>
+<h2 id="page-566">Page 566</h2>
+<p>Informed—The customer whose data you collect
+must know your identity, what data processing
+activities you intend to conduct, the purpose of the
+data processing, and that they can withdraw their
+consent at any time. It also means that the
+request for consent and the explanation of the
+data processing activities and their purposes must
+be described in plain language.
+Unambiguous—There should be no question about
+whether the data subject has consented.
+Unambiguous consent “could include ticking a box
+when visiting an internet website, choosing
+technical settings, etc.” (GDPR recital 32).
+Revocable—A user who has granted consent has
+the right to withdraw their consent at any time.
+Moreover, you must make it easy for them to do
+so. In general, it should be as easy for them to
+withdraw consent as it was for you to obtain
+consent.
+So far I have leaned heavily on the GDPR, since its seminal
+nature could heavily influence other regulations that relate
+to privacy and security. However, each regulation will have
+variations and customizations, so the alignment between
+your legal and engineering teams is critical.
+Regulations explicitly aimed at consent are not the only
+reason for sound consent management. Companies routinely
+get asked to delete customer data and provide customers
+with a copy of their data by way of DSARs. If you end up
+furnishing customer data via a DSAR and it turns out you</p>
+<h2 id="page-567">Page 567</h2>
+<p>collected data without consent, you may face unwelcome
+consequences.
+In previous chapters, we connected data classification and
+data inventory as part of a larger governance strategy, and
+deletion and obfuscation as part of a larger data protection
+strategy. Similarly, privacy engineers should make DSARs
+and consent management part of a larger transparency
+strategy. This will help ensure that the tooling is strategic
+and maintainable, as well as help secure the resources
+necessary from an often myopic and skeptical executive
+leadership who may be unwilling to fund this work until it is
+too late.
+Some of the push for consent management is coming from
+industry players, as you’ll see next.
+9.1.2 Consent management and tech industry changes
+Besides governments, some tech companies that provide
+platforms and gateways for data collection have also started
+requiring consent from users before companies collect their
+data. For example, Apple recently announced that in order to
+submit new apps and app updates, app developers need to
+provide information about some of their app’s data collection
+practices on their product page.4 And starting with iOS 14.5,
+iPadOS 14.5, and tvOS 14.5, app developers will be required
+to ask users for their permission to track them across apps
+and websites owned by other companies.
+This news is critical for several reasons:</p>
+<h2 id="page-568">Page 568</h2>
+<p>Apple’s App Store is a key gateway for app
+developers and businesses to reach customers.
+There is an entire ecosystem built around online
+advertising, personalization, and behavioral
+analytics that depends on tracking users online.
+Even non-pecuniary causes like fraud detection
+require data collection.
+As it stands right now, Apple enables iPhone owners to dig
+into their settings to disable this type of tracking. Now,
+instead of forcing users to be proactive about disabling it,
+Apple will demand that developers ask for permission first or
+risk suspension or removal from the App Store if they don’t
+comply or try to skirt the rules.
+Most of us, by now, are familiar with the online experience
+where we search and shop for a product but then do not buy
+it. We then go to a different website where an ad for the
+same product shows up. Even people who are not tech savvy
+understand that this connection between activity and
+advertising is not serendipity. This is the outcome of several
+automated actions.
+First, the original website (or app) collects Apple’s unique
+advertising ID (IDFA). The first app then associates the
+user’s activities to the IDFA and then sends the IDFA to
+future apps the user visits. One of these future apps has on-
+screen real estate where it will display ads in exchange for
+money from advertisers. The IDFA and associated user
+context enables these apps to serve ads to users that are
+personalized. The IDFA also helps the apps track the</p>
+<h2 id="page-569">Page 569</h2>
+<p>effectiveness of the ads by providing metrics on how long
+the ad stayed on the screen, whether the user clicked on it,
+etc. This way, the combination of an ID, user activity data
+connected to that ID, and the ability to share that ID
+collectively allow an ads-funded internet to operate.5
+The new requirement from Apple will require app owners
+(aka app developers) to seek explicit consent from users
+before their data is collected, attached to the IDFA, and
+shared with other entities. This means that everything from
+data collection to usage and tracking requires an app owner
+to have user consent. This is a new challenge for app
+owners, since they have been conducting these activities
+with the user’s implied consent—the user was opted in by
+default and had to opt out if they wanted to. That
+arrangement meant high participation rates for users and
+more performant ads for publishers and app owners. The
+new arrangement (where users are opted out and will need
+to opt in) opens the possibility of lower participation rates
+and lower revenues.
+If app developers were to run afoul of Apple’s definitions for
+tracking and proper bookkeeping, it is unclear what the
+penalties or remediations will be. For small businesses,
+getting kicked off the App Store and losing access to the
+customer base of iOS users would not be a financially
+desirable outcome.
+With that context in place, it will therefore help you to
+understand Apple’s requirements before we design a consent
+management backend. This will enable engineers to
+appreciate the granularity and complexity of consent.</p>
+<h2 id="page-570">Page 570</h2>
+<p>As I noted, starting with iOS 14.5, iPadOS 14.5, and tvOS
+14.5, app developers will need to receive the user’s
+permission through the AppTrackingTransparency framework
+to track them or access their device’s advertising identifier.
+Apple explains tracking in the App Store Developer
+documentation.
+Tracking refers to the act of linking user or device data collected from an app
+with user or device data collected from other companies’ apps, websites, or
+offline properties for targeted advertising or advertising measurement
+purposes. Tracking also refers to sharing user or device data with data
+brokers.
+Examples of tracking include, but are not limited to:
+Displaying targeted advertisements in an app based on user data collected
+from apps and websites owned by other companies.
+Sharing device location data or email lists with a data broker.
+Sharing a list of emails, advertising IDs, or other IDs with a third-party
+advertising network that uses that information to retarget those users in other
+developers’ apps or to find similar users.
+Placing a third-party SDK in your app that combines user data from your app
+with user data from other developers’ apps to target advertising or measure
+advertising efficiency, even if the app doesn’t use the SDK for these purposes.
+For example, using an analytics SDK that repurposes the data it collects from
+your app to enable targeted advertising in other developers’ apps.6
+9.1.3 Consent management and your business
+For far too many engineers, consent management has been
+relegated to a tiny—often pre-selected—check box. This
+approach could be described as the “opt out” mode, where a
+user is pre-consented and has to proactively opt out by
+unchecking the box. Before news around privacy became
+mainstream in the media, and before privacy laws started</p>
+<h2 id="page-571">Page 571</h2>
+<p>being enforced, this model continued unabated. However,
+that could be changing.
+First, many consumers may now notice a pre-checked box
+and uncheck it if they do not trust the company or are
+uncertain about the impact on their privacy. Second, the
+larger interconnected data ecosystem and governmental
+regulations may mean that pre-checking this box may not be
+an option. This means that your brand as a company in how
+you collect, handle, and protect data may determine the
+rates at which users choose to consent. To that end, all the
+technical tooling we have covered in this book so far is
+critical, but having a solid consent platform is vital as well.
+A well-architected backend is critical for consent
+management so that you can accurately track which
+disclosure maps to which region and whether a user has
+accepted it or not. Given that customers can now check what
+data you collect about them, by way of DSARs, it is critical
+that your consent management be accurate.
+Similarly, a confusing, overly wordy, or misleading frontend
+can lead to lower acceptance rates. In this scenario, you
+could have high utilization of services and high levels of
+engagement on your platform without the data to show for
+it. That will inhibit your ability to monetize your platform and
+add user-financed capabilities.
+For any engineers who may still be skeptical, the results
+from a survey that studied Apple’s aforementioned change
+could be helpful. According to a new analysis by Flurry
+Analytics, only 5% of US daily users with iOS 14.5 have</p>
+<h2 id="page-572">Page 572</h2>
+<p>opted in, as of late summer 2021.7 Flurry Analytics, owned
+by Verizon Media, is used in more than 1 million mobile apps
+across 2 billion devices. It’s collecting and updating data
+daily on the app, tracking opt-in rates, looking at the
+approximately millions of daily mobile active users who have
+the new operating system so far.
+Worldwide opt-in rates are a little higher, the study, reported
+by Mashable, said.8 It’s sitting at 13% as of the time of
+writing. Flurry has data on 5.3 million global iOS 14.5 users.
+Changes in the consent workflow will almost certainly have
+measurable downstream knock-on business effects.
+Companies can, however, address at least part of this
+challenge with a robust CMP. The next section will help you
+construct such a CMP and its critical components from the
+bottom up.
+9.2 A consent management platform
+A consent management platform (CMP) is an aggregation of
+capabilities that enables a website or app to
+Inform visitors about the types of data that will be
+collected from them
+Ask users for consent for specific processing
+purposes
+As stated earlier, CMPs encapsulate a lot of capabilities that
+have to do with allowing the user to manage their consent to
+handling that information at the backend. As such, they</p>
+<h2 id="page-573">Page 573</h2>
+<p>represent the culmination of privacy features that help you
+meet compliance requirements and privacy features that
+help build user trust. More specifically, from a feature
+standpoint, CMPs allow you to9
+Provide the user the opportunity to consent and
+then manage their data based on whether consent
+was offered.
+Offer a UI that lets the user consent (example:
+banners, pop-ups, etc.).
+Ensure that appropriate consent is in place before
+advertising tags can fire, so as to ensure that any
+serving of personalized ads is post-consent.10
+Link data collected to future DSARs. The data
+collected from users may need to be exported in a
+DSAR, so tying it together early on using a CMP is
+prudent in this climate.
+A CMP fulfills the following specific purposes for a business
+by way of user-facing capabilities:
+Provides consumer notices for collecting and
+processing personal data.
+Provides consumer options to exercise consent-
+related privacy preferences at granular levels.</p>
+<h2 id="page-574">Page 574</h2>
+<p>Captures consumer preferences in an IAB-
+compliant consent cookie to share with approved
+partners. This context is vital for companies that
+derive revenue from or participate in the online
+advertising ecosystem. The Interactive Advertising
+Bureau (IAB) is a global business organization for
+online advertisers and marketers. The IAB
+Transparency and Consent Framework (TCF)
+supports publishers, advertisers, and tech vendors
+in meeting the transparency and user consent
+requirements established by the GDPR. Your CMP
+will need to align with the requirements in the
+IAB’s framework.
+Enables a business to access the audit log that
+tracks user consent.
+A CMP has two critical components, a frontend and a
+backend. The frontend of your CMP will most directly impact
+your users and customers; that is where they can select
+what data collection and usage they wish to consent to. The
+design and user interface of such a CMP will depend upon
+your business as well as the data you wish to collect, but an
+example CMP UI is shown in figure 9.1.</p>
+<h2 id="page-575">Page 575</h2>
+<p>Figure 9.1 A CMP frontend
+The CMP frontend in figure 9.1 explains the various use
+cases for data collection, ranging from analytics to testing,
+conversion tracking, marketing, and feedback. In keeping</p>
+<h2 id="page-576">Page 576</h2>
+<p>with the guidance from the GDPR, these are all individual
+toggle options.
+From an engineering standpoint, building a CMP frontend
+may be relatively straightforward; however, when the
+permissions are tied to multiple locations, devices, and
+languages, it can make the backend data management very
+complex. This is why it is vital that engineers build a mental
+model for consent management, and then work on the
+backend code.
+As previously stated, the various forcing functions for
+consent—ranging from regulations to industry players to
+customers—require disciplined bookkeeping. The rest of this
+chapter will help engineers and technical program managers
+design such a backend.
+As you design a CMP backend, you’ll need to consider the
+data model and the endpoints code. We will first look at the
+relationships between different entities in the architecture,
+and then we’ll dive into some code to help define the
+endpoints as well as their public APIs, the request objects,
+and the response objects.
+The next section will define such entities and schemas.
+9.3 A data schema model for consent
+management</p>
+<h2 id="page-577">Page 577</h2>
+<p>For many companies, regardless of size, the idea of having
+to collect user consent and track it is novel. Building a
+system that maps consents based on versions and locations
+and then tracks acceptance rates involves a level of
+complexity that many companies simply are not prepared
+for. When such a business gets hit by an audit, a DSAR, or,
+worse, a lawsuit requiring them to prove that they had
+consent to collect and process user data, the company may
+struggle to handle it.
+This section will provide a data model for such a consent
+management backend. The model I will provide will be
+instructive and not prescriptive, since every company has
+different needs.
+In a real-life scenario, there could be many different types of
+disclosures. For example, a company could have several
+products or features, each of which would need to map to a
+disclosure separately. Global businesses will also have to
+account for their international presence and create
+disclosures for several different countries and locations.
+In short, to disambiguate as well as update and access
+consents at scale, you’ll need an entity relationship
+paradigm that establishes relationships so that disclosures
+and consents can be stored meaningfully in a database.
+Before I describe this paradigm, it will be helpful to lay out
+some core concepts. Note that the following are not legal
+definitions but concepts, to ensure that the code samples
+make sense:</p>
+<h2 id="page-578">Page 578</h2>
+<p>Disclosure—For the purpose of this chapter, a
+disclosure is any legal document that a company
+can put forward in a customer-facing interface.
+This document could be a Terms of Use, Privacy
+Policy, etc.
+Locale—We will define a locale as the physical
+location that a disclosure is mapped to. We will
+review the granularity for locations, since in some
+cases you could have a disclosure that is country-
+specific, while in other cases you could have
+disclosures germane to a state and city, besides
+having one for the country that the state and city
+are located in.
+With those concepts in place, let’s lay out a paradigm that
+you can adapt to meet your needs.
+9.3.1 The entity relationships that help structure a
+CMP
+Figure 9.2 illustrates relationships that will drive some of the
+code that you will soon see, as well as database storage
+models, so that the backend of the consents platform can
+operate smoothly.</p>
+<h2 id="page-579">Page 579</h2>
+<p>Figure 9.2 Relationships between different entities for storing consent
+details
+In figure 9.2, a specific feature (or product) sits at the top of
+the hierarchy. In a typical online experience, a user will use
+or access several products or features, and they may be
+required to provide an affirmative consent for those features
+or products before the company can use the user’s data.
+Therefore, the entire consent workflow begins with a
+feature.
+Second, for each feature, you will need a disclosure. In this
+simple diagram, a disclosure maps to a feature, but in a</p>
+<h2 id="page-580">Page 580</h2>
+<p>real-life scenario you would almost certainly have multiple
+disclosures per feature. For example, on a pharmacy
+website, for the shopping feature, you may have a disclosure
+for privacy as well as for data sharing.
+Third, each disclosure may have multiple versions, since
+disclosures are updated based on changes in laws and
+regulations. The relationship between disclosures and
+versions of disclosures is one to many.
+Similarly, for each version of a disclosure you’d need a copy
+for multiple locales (or countries). As such, the relationship
+between a disclosure version and locale copy is one to many.
+9.3.2 Entity relationship schemas: A CMP database
+Now that we have relationships between the different
+entities, it will be helpful to sketch out a database schema.
+Figure 9.3 provides a sense of how you could define these
+entities and relationships.</p>
+<h2 id="page-581">Page 581</h2>
+<p>Figure 9.3 A sample schema for consents
+We will be using the hierarchy described in figure 9.3 as our
+example as we look at the schema relationships.
+THE FEATURE TABLE</p>
+<h2 id="page-582">Page 582</h2>
+<p>We will now look at these tables one by one and get a sense
+of how they will be laid out in the database. First, we will
+look at the Feature table schema, shown in figure 9.4.
+Figure 9.4 Feature table schema
+TIP The example in this chapter is illustrative but open to permutations. In this
+example, you will see instances where capabilities and fields add significant value
+to the completeness. That said, a minimum viable product (MVP) may not require all
+the capabilities, especially since companies may need to ship a consents platform
+under duress. In those instances, engineers can use the following template and pick
+and choose the fields that make the most sense for their circumstances.
+At the top of the hierarchy, the Feature table will contain
+attributes that define a feature. Each feature will have a
+team that owns (or maintains) it, and the owning_team field
+will store that value.
+If you are in a smaller or budget-strapped company, or if
+time is limited, it may be helpful to think of an MVP without
+an owning_team. The upside of this field is that it will tie a
+feature to whoever owns it, so that you can audit the use of
+the data corresponding to that feature. This makes tasks like
+data deletion, encryption, etc. easier, and having this
+mapping between features and owners is something the
+future version of you will be glad the present version of you</p>
+<h2 id="page-583">Page 583</h2>
+<p>did. That said, if the goal is to collect consent for features to
+unlock markets or comply with regulations, this is a field
+that you could drop from the MVP version of your CMP.
+Given that team names are (typically) non-numeric, the
+owning_team value will be a string, as will feature_name,
+which would describe the name of the feature. However,
+each feature will also need fields that are not strings, in that
+they can be used to uniquely identify the feature and serve
+as a primary key. The schema for a feature also allows for a
+disclosure_uuid that would uniquely identify a disclosure.
+Additionally, in most scenarios, each feature will have
+multiple disclosures (privacy policies, terms of use,
+marketing disclosures, etc.). You should think of the
+disclosure_uuid as containing many values, so a real-life
+database representation of a feature could look like the
+fields shown in table 9.1.
+Table 9.1 Feature table sample values</p>
+<h2 id="page-584">Page 584</h2>
+<p>Feature ABCD</p>
+<p>feature_uuid ef42c910-981e-11eb-a8b3-0242ac130003</p>
+<p>disclosure_uuid 0b712ee2-981f-11eb-a8b3-0242ac130003 
+16de1fe2-981f-11eb-a8b3-0242ac130003 1f1f0644-981f-11eb-
+a8b3-0242ac130003</p>
+<p>owning_team "Marketing"</p>
+<p>feature_name "communication opt-in"</p>
+<p>This table shows a feature for the marketing team that
+would capture email addresses for users, so as to send them
+email offers. The feature has its own unique feature_</p>
+<h2 id="page-585">Page 585</h2>
+<p>uuid, but there may be multiple disclosures associated with
+this feature, so an array of disclosure_uuids are present.
+THE DISCLOSURE VERSION TABLE
+The second table we will focus on is Disclosure_ Version,
+shown in figure 9.5.
+Figure 9.5 Disclosure_Version table schema
+The Disclosure_Version table has the following key fields
+that should be part of an MVP consent offering:
+disclosure_version_uuid—The primary key.
+While you could, for example, have multiple
+privacy policy disclosures, you will only have one
+privacy policy v1. Therefore, this version UUID
+serves as a primary key.</p>
+<h2 id="page-586">Page 586</h2>
+<p>disclosure_uuid—Serves as the UUID for the
+disclosure. You could have the same
+disclosure_uuid for multiple versions. We will
+take a look at an example shortly to explain this
+point.
+The aforementioned fields are critical, since any disclosure
+needs to have a unique identifier for itself as well as for any
+versions. However, once you have a stable MVP, you may
+want to consider other fields like the following:
+business_purpose_names—Strings to store more
+descriptive information.
+mandatory_feature_update—Allows you to
+recognize whether or not a user has to accept that
+disclosure before they can get an updated version
+of a feature. For example, if an upgraded version
+of a video game were to contain more violence,
+you may want the user to accept a fresh liability
+waiver consent before they can access the updated
+version. In our example, this value is a Boolean to
+indicate whether or not acceptance of a disclosure
+should be made mandatory before the feature that
+the disclosure gates can be accessed.
+is_per_device—Another Boolean field that refers
+to whether this version of a disclosure should be
+mandated per device. This is critical, since
+different devices may have different versions or
+incarnations of the disclosure.</p>
+<h2 id="page-587">Page 587</h2>
+<p>territory_granularity—The geographic
+coverage for the disclosure version. For example,
+country, state, etc.
+updated_at—A timestamp that refers to the last
+time the disclosure version was updated.
+Table 9.2 provides an example of what a Disclosure_Version
+table entry could look like.
+Table 9.2 Disclosure_Version table sample values</p>
+<h2 id="page-588">Page 588</h2>
+<p>Disclosure_Version ABCD</p>
+<p>disclosure_version_uuid ef42u910-981e-11eb-a8b3-
+0242ac130003</p>
+<p>disclosure_uuid 0b712ee2-981f-11eb-a8b3-0242ac130003</p>
+<p>data_types "This disclosure covers "</p>
+<p>business_purpose_name "communication opt-in"</p>
+<p>mandatory_feature_update true</p>
+<h2 id="page-589">Page 589</h2>
+<p>is_per_device true</p>
+<p>Territory_granularity country</p>
+<p>updated_at 2020/09/09</p>
+<p>THE USER CONSENT TABLE
+The third table is the User_Consent table, which contains a
+history of the user’s consent. The schema for User_Consent
+is shown in figure 9.6.</p>
+<h2 id="page-590">Page 590</h2>
+<p>Figure 9.6 User_Consent table schema
+The User_Consent table would ideally have the following
+fields as part of an MVP:
+user_uuid—Serves as the primary key. Since this
+table will contain one record per user, identifying
+each record with a unique ID for the user is an
+obvious choice.
+disclosure_uuid—Contains the UUIDs of all
+disclosures the user has consented to or declined
+to consent to. You can interpret and implement
+this design in many ways, but here I am imagining
+a one-to-many mapping of users to disclosures,
+since one user will encounter several disclosures in
+web experiences and apps.</p>
+<h2 id="page-591">Page 591</h2>
+<p>locale_copy_uuid—Contains IDs for the locale-
+specific copies of a specific disclosure. As with the
+disclosure_uuid, there will be a mapping
+between a disclosure_uuid and a
+locale_copy_uuid. In other words, there could
+be multiple locale-specific UUIDs per disclosure
+UUID. You would also have an internal mapping
+where each user has many disclosures, and each
+disclosure has multiple locale-specific copies.
+Creating this data mapping will have ramifications
+in terms of your ability to store disclosure
+consents, update them, and provide evidence of
+consent functionality during audits. It is, therefore,
+critical that these schemas be built with care.
+For a CMP to provide its core functionality, it is vital that you
+can map the user_uuid to the corresponding disclosure and
+its locale copy, so the preceding fields are strongly
+recommended in an MVP. As you build out the system, I
+recommend adding the following fields as well:
+device_id—This would be an ID associated with
+the device so as to uniquely identify it, and it
+would be mapped to locale_copy_uuid, since the
+device would not be accepting a disclosure, but the
+locale-specific version of the disclosure.</p>
+<h2 id="page-592">Page 592</h2>
+<p>compliance—This would be a binary true/false
+value or 1/0 to indicate whether or not the user
+accepted the locale-specific disclosure. You may
+have a situation where a user accepts a locale-
+specific disclosure with their iPhone but not with
+their Android device, so you could have multiple
+rows with device_id and compliance mappings.
+ip_address—This would record the IP address
+from which the consent was granted by the user,
+so that if you get audited, you can specify where
+the user was when they consented.
+time.Time—This would store the time to ensure
+you have, along with the location, the time when
+the user accepted the disclosure.
+As someone who has been through my fair share of audits, I
+can tell you that the more granular your consents, the
+stronger your case that you have indeed captured an
+informed user consent. I will let you work out a schema for
+this table depending on your implementation details.
+THE LOCALE COPY TABLE
+The next table is Locale_Copy, which will hold information
+about a locale-specific disclosure (see figure 9.7).</p>
+<h2 id="page-593">Page 593</h2>
+<p>Figure 9.7 Locale_Copy table schema
+The Locale_Copy table has a relatively straightforward
+schema, and it would have an MVP with the following fields:
+locale_copy_uuid—The UUID for the locale-
+specific copy of a specific disclosure. This is a
+critical ID that will map back to the User_Consent
+table, since a user may consent to a specific
+document—a locale-specific copy of a disclosure.
+disclosure_version_uuid—An ID for the version
+of the disclosure. This allows additional granularity
+to the disclosure, since for each locale-specific
+disclosure, you could have a series of versions.</p>
+<h2 id="page-594">Page 594</h2>
+<p>locale_uuid—The UUID for each locale. This may
+not be the most critical mapping, but it will ensure
+that you have an accurate alignment between a
+specific disclosure and the locales it covers, as well
+as for locales and all the disclosures that
+correspond to those locales. For example, the
+privacy policy for the EU could cover all the
+countries in the European Union, while the United
+States would have several disclosures for several
+different states.
+While not critical for the MVP, it may be vital for a company
+to provide an audit trail of a disclosure’s updates. If that
+information is not constantly and consistently updated,
+crawling through logs during troubleshooting can be time-
+consuming. To avoid that, a field like updated_at would
+contain a timestamp indicating the last time a specific
+schema was updated.
+THE LOCALE TERRITORY TABLE
+The final table whose schema we will look at is
+LocaleTerritory, shown in figure 9.8.
+Figure 9.8 LocaleTerritory table schema</p>
+<h2 id="page-595">Page 595</h2>
+<p>The LocaleTerritory table has three fields that explain the
+granularity of the location so that a locale-specific disclosure
+can be mapped to it. The locale itself has a UUID, which
+serves as the primary key of the record. It maps to the same
+key in the Locale_Copy table.
+The other two fields are optional in the MVP but could
+subsequently be introduced to provide additional detail
+about the location itself. Engineers implementing this
+solution could configure territoryID to be a numeric ID
+rather than a string to reduce errors, and could likewise set
+up codes for territoryGranularity to delineate the area
+the disclosure covers. If the two fields are made optional, it
+may make sense to add a name field, so that individual
+entries are better understood.
+Part of the reason I have laid out this schema in such
+granular detail is personal experience. I once advised a
+company that retained my services after they served an
+incorrect disclosure to a customer. There was no
+malfeasance, just sloppy engineering, where the privacy
+policy for France in French was incorrectly mapped to users
+in Canada who had set French as their default language on
+iPhones. The user who got the incorrect policy flagged it to a
+local privacy authority, and that led to a major investigation
+into their privacy and data management practices. That
+investigation was extremely disruptive, delayed their
+engineering roadmaps, and created an odor of distrust in the
+court of public opinion. In short, when it comes to consent,
+as with all things privacy, getting the details right is critical.</p>
+<h2 id="page-596">Page 596</h2>
+<p>Having looked at the data schemas and a comprehensive
+relationship model, we will next define some of the code,
+including public APIs as well as the attendant
+request/response objects.
+9.4 Consent code: Objects
+In this section, we will look at some Thrift code that will help
+define the key consent management capabilities we have
+just talked about. This section will show how you can map
+key data structures as well as request and response objects
+to the functionalities that you will need in order to obtain
+and maintain user consents. Note that while I identified
+fields that were critical for the MVP in the previous section,
+the code that follows is for a fuller system. You can
+customize it to your liking and needs.
+NOTE If you are interested in learning more about Thrift and the code you will see in
+this chapter, see the Thrift tutorial: http://mng.bz/M2W8. The code that follows
+should be intuitive to many engineers, but the tutorial could help accelerate
+learning, so I recommend a quick review of the tutorial if you’re not acquainted with
+Thrift.
+Let’s consider a scenario in which we receive up to three
+calls (request/response interactions within seconds during
+the same visit) from a user who connects to our service.
+Each call will ask a specific question, and the response to
+that call will drive the next set of actions. Corresponding to
+the calls, there will be three endpoints that will provide the
+appropriate responses. In our scenario, let’s assume a user
+connects to a retail website (or app), and based on how an</p>
+<h2 id="page-597">Page 597</h2>
+<p>interoperable internet works, data collection will start the
+moment the user consents. In that sense, the flow would
+look as follows:
+1. Has the user already consented to the current set
+of applicable disclosures for the user’s current
+locale?
+2. Call 1:
+If yes, let the user proceed and collect the
+appropriate data.
+3. Call 2:
+If not, surface the current, language- and locale-
+appropriate version(s) of the disclosures the user will
+need to consent to.
+4. Call 3:
+Update the consent status for the user for the
+corresponding current version(s) of the disclosures.
+With that context in place, let’s define the endpoints and
+public APIs. The next subsection will dive into the API to get
+the user’s compliance status.
+9.4.1 API to check consent status
+The first API we will define will help you check if, for a
+specific disclosure, the user has a positive acceptance. This
+API may seem trivial—and from an engineering standpoint,
+it is easier to implement than others we will look at—but
+engineers and technical leaders should understand its
+importance to the business.</p>
+<h2 id="page-598">Page 598</h2>
+<p>From a privacy standpoint, you will want to collect consent
+before you allow the user to access a feature or before you
+start collecting data. However, your business stakeholders
+will want to make sure that your privacy checks do not
+unnecessarily slow down the user flow. From the business
+standpoint, privacy checks should be expedient, since users
+get distracted easily, internet connections drop, etc.
+Therefore, you may need to balance privacy’s role in
+securing user trust against its dependence upon the
+business for its existence. Remember, if your business fails
+because the customer bails, even the best privacy program
+will become surplus to requirements.
+The following API should be seen as a critical part of the
+user consent workflow.
+/*<em> getCompliance returns a user's compliance status 
+</em>/ 
+Compliance getCompliance( 
+1: GetComplianceStatusRequest getComplianceStatusRequest 
+) throws ( 
+1: ValidationError validationError, 
+2: InternalServerError internalServerError 
+3: NotFoundError notFoundError 
+)
+The preceding API will help fetch the most updated consent
+status. However, as you have seen in the data model, the
+mapping between the user and consent for a specific
+disclosure can be complex. The corresponding objects must
+account for these nuances.
+The request object for this API could be defined as follows:</p>
+<h2 id="page-599">Page 599</h2>
+<p>struct GetComplianceStatusRequest { </p>
+<p>1: optional UUID userUuid,              // Requiredness enforced by<br />
+   ➥ service 
+   2: optional UUID disclosureVersionUuid, // Either disclosureVersionUuid 
+or<br />
+   ➥ featureUuid is required 
+   3: optional string territoryId,         // Requiredness enforced by<br />
+   ➥ service 
+   5: optional string deviceId,            // Requiredness enforced by<br />
+   ➥ service 
+   6: optional string language,            // Requiredness enforced by 
+service,<br />
+   ➥ IETF language code 
+   7: optional UUID featureUuid,           // Either disclosureVersionUuid 
+or<br />
+   ➥ featureUuid is required 
+}
+In the preceding request object, note that it requires the
+following:
+A unique identifier for the user (userUUID)—This
+would be an internal identifier rather than an
+external identifier like an email address or
+government identifier.
+A unique identifier for that specific version of the
+disclosure—The preceding code sample requires
+either a unique identifier for the disclosure or for
+the corresponding feature. I am assuming that a
+feature will have just one corresponding disclosure
+version, assuming all other fields are supplied, but
+you may make a different decision when you
+implement your service.</p>
+<h2 id="page-600">Page 600</h2>
+<p>A unique identifier for the territory—Disclosures
+are location-specific, so the need for a
+territoryID may seem obvious. However, there
+is an additional nuance at play here:
+The user may try to access a feature from a location
+where the feature should not be available (for
+example, music videos licensed for a specific country
+may not be permissible to stream in a different
+country), so checking for consent against that
+feature based on location before the feature can be
+accessed is a way to ensure that the feature-location
+fidelity can be maintained. That way, if a user from
+territoryID X tries to consent to a feature meant
+for territoryID Z, you can block access while
+retaining the option to store a “Yes” consent, should
+the feature become available for territoryID X.
+Note that I am assuming that asking for, and
+therefore updating, the compliance acceptance is a
+precondition for accessing a specific feature. This
+could be a way to manage traffic to a feature or to
+ensure that compliance status never lags feature
+access in the case of sensitivity around age, location,
+etc. To ease the friction, you could make the call to
+this endpoint in the background, rather than making
+the user accept the disclosure each time. The “By
+clicking this box, you accept the terms...” approach
+that companies often use to secure consent is the
+visual representation of such design decisions.</p>
+<h2 id="page-601">Page 601</h2>
+<p>A deviceID field—This may be critical for
+companies that need to map consents to a specific
+device, based on the needs of the jurisdiction.
+A language code—The user may access a feature
+in a specific language, or you may need to present
+a disclosure in a specific language based on the
+user’s location.
+The following code will define the response object:
+struct Compliance { </p>
+<p>1: optional bool compliant            // Whether the user is compliant 
+}
+The response object contains just one field—a Boolean
+response to whether the user accepted the disclosure or not.
+I will not be providing code for this Boolean response, since
+it is straightforward to comprehend.
+9.4.2 API to retrieve disclosures
+Next we’ll look at the API for procuring an updated locale-
+specific disclosure in the event that the user’s consent status
+comes back negative. In that case, the user would need to
+consent to said disclosure.
+The following code shows the public API for the endpoint
+that supplies the copy for a specific disclosure.
+/*<em> getLocaleCopy fetches copy, retrievable by LocaleCopyUUID,<br />
+➥ DisclosureVersionUUID, or FeatureUUID </em>/ </p>
+<p>LocaleCopy getLocaleCopy( </p>
+<h2 id="page-602">Page 602</h2>
+<p>1: GetLocaleCopyRequest getLocaleCopyRequest 
+ ) throws ( 
+   1: ValidationError validationError, 
+   2: InternalServerError internalServerError 
+   3: NotFoundError notFoundError 
+ )
+As with the previous API call to check the compliance status,
+this API call will correspond to request and response objects.
+The code also allows for common errors, but otherwise the
+logic should be straightforward.
+The request object for this API could be defined as follows:
+struct GetLocaleCopyRequest { </p>
+<p>1: optional UUID localeCopyUuid,        // Either localeCopyUuid,<br />
+   ➥ disclosureVersionUuid or featureUuid is required </p>
+<p>2: optional UUID disclosureVersionUuid, // Either localeCopyUuid,<br />
+   ➥ disclosureVersionUuid or featureUuid is required </p>
+<p>3: optional string territoryId,         // Required unless the<br />
+   ➥ disclosureVersion territoryGranularity is GLOBAL </p>
+<p>4: optional string language = "en"            // Requiredness enforced 
+by<br />
+   ➥ service, IETF language code,  </p>
+<p>5: optional UUID featureUuid,           // Either localeCopyUuid,<br />
+   ➥ disclosureVersionUuid or featureUuid is required 
+}
+This request to get the text for a specific disclosure requires
+information very similar to what was required in the previous
+request object. Just as the mapping in the data model
+affects how you check the consent status for a specific</p>
+<h2 id="page-603">Page 603</h2>
+<p>locale, it will affect how you locate the disclosure for a
+specific user:
+In the request object, you could map the copy of a
+specific disclosure to one of three fields:
+localeCopyUuid, disclosureVersionUuid, or
+featureUuid. This means you could retrieve a
+disclosure based on a specific version, a specific
+locale, a feature, or some combination of all three.
+I will leave those implementation choices to your
+judgment.
+The logic behind requiring the user’s territory and</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "navigation.sections", "navigation.expand", "navigation.tracking", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

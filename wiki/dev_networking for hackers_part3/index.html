@@ -1,0 +1,1499 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated knowledge base built from health science textbooks.">
+      
+      
+        <meta name="author" content="8LUEPRINT3">
+      
+      
+        <link rel="canonical" href="https://8LUEPRINT3.github.io/awesome-health-science-wiki/wiki/dev_networking%20for%20hackers_part3/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>networking for hackers - Part 3 - Awesome Health Science Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-header__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesome Health Science Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              networking for hackers - Part 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-nav__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Awesome Health Science Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Human Body
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Human Body
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorrentino's Textbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sorrentino's Textbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12-19
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Palliative Care
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Palliative Care
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>networking for hackers - Part 3</h1>
+
+<p>This operating system is great! It is designed specifically for SDR, with most of the great
+applications and all their dependencies. I like this OS so much I will be using it for all my SDR
+projects, tutorials, and courses.</p>
+<p>Run dump1090</p>
+<p>Now with DragonOS or the dump1090 software installed on another Linux machine, navigate to
+the dump1090 directory.</p>
+<p>kali &gt; cd dump1090</p>
+<p>Now, simply enter the command;</p>
+<p>dragon&gt; ./dump190</p>
+<p>255 | P a g e</p>
+<p>As you can see above, your RTL-SDR receiver and dump1090 software are providing you with
+all the ADS-B data available in your area, including GPS coordinates, altitude, and ground
+speed.</p>
+<p>If we are looking for just the raw data without formatting, we can simply use the --raw switch.</p>
+<p>dragon&gt; ./dump1090 --raw</p>
+<p>256 | P a g e</p>
+<p>For a more interesting view of the data, we can use the --interactive switch like the one below.
+Here dump1090 provides us with an interactive table of the flights in the area updated each
+second.</p>
+<p>dragon&gt; ./dump1090 --interactive</p>
+<p>Maybe the most graphically appealing view of the data sets is similar to radarbox, this data
+overlaid on Google maps. In this way, we can actually watch the flights in real-time on a map of
+our area.</p>
+<p>To watch the graphical data on a map, simply enter the following;</p>
+<p>./dump1090 --interactive --net</p>
+<p>Then open your browser and navigate to localhost:8080</p>
+<p>257 | P a g e</p>
+<p>This should open an interactive map showing all the aircraft in your area (your map may appear
+slightly different)</p>
+<p>Every airplane sends out an ADS-B signal that can be used to track the position and altitude of
+the flight. With some free software such as 1090dump and an inexpensive receiver such as the
+RTL-SDR, we can follow all the flights within our receiving range (this depends upon many
+factors, including your antenna).</p>
+<p>This is just one more example of the power and importance of SDR for Hackers!</p>
+<p>Spoofing your Global Position (GPS) to Hide Your Location</p>
+<p>As you already know, it IS possible to spoof both your IP address and MAC address, but can you
+spoof my global position (GPS)? The answer, of course, is YES! This is one of the beauties of
+becoming conversant and skilled in Software Defined Radio (SDR).</p>
+<p>There are a number of reasons you may not want your global position known. As most of you
+know, I have been active in assisting Ukraine to repel the brutal aggression of its neighbor and
+former colonial master, Russia. I think it goes without saying that Russia is the aggressor and
+needs to be reminded that invading and killing your neighbors is wrong. In this war, global
+positions are critical to finding and destroying the opposing side. In addition, early in the war, we
+used GPS to geo-locate the yachts of the Russian oligarchs and had them seized by NATO
+nations. Soon after that, the remaining yachts began to spoof their global position to evade our
+detection.</p>
+<p>258 | P a g e</p>
+<p>What if the troops on the ground could send out a spoofed GPS signal to hide their location from
+artillery and rockets? Most importantly, warships and aircraft send out a GPS signal that can be
+tracked by missiles and other weapons. Wouldn't they gain stealth by sending out spoofed
+positions? These are just a few  real-life examples of the value of spoofing a GPS signal.</p>
+<p>In this tutorial, we will demonstrate how to spoof your GPS position using SDR and the
+inexpensive HackRF One.</p>
+<p>Install HackRF One</p>
+<p>The first step is to purchase and install a HackRF One. The less expensive SDR receivers such as
+SDR-RTL are exclusively receivers and are incapable of transmitting signal.</p>
+<p>For more on setting up your HackRF One, see this article. (https://www.hackers-
+arise.com/post/software-defined-radio-sdr-for-hackers-setting-up-your-hackrf-one)</p>
+<p>259 | P a g e</p>
+<p>Install GPS Spoof</p>
+<p>Next, create a directory named GPS_SPOOF...</p>
+<p>kali &gt; mkdir GPS_SPOOF</p>
+<p>....and then navigate to the new directory.</p>
+<p>kali &gt; cd GPS_SPOOF</p>
+<p>Then, download the gps spoof software from github.com</p>
+<p>kali &gt; sudo git clone https://github.com/osqzss/gps-sdr-sim.git</p>
+<p>260 | P a g e</p>
+<p>Now, navigate to the new directory it created</p>
+<p>kali &gt; cd gps-sdr-sim</p>
+<p>We need to compile the gpssim.c to a file named gps-sdr-sim, and in order to be able to use
+motion files, we need to compile it with -DUSER_MOTION_SIZE=400 (this enables the GPS
+spoof to appear to be moving rather than remaining static which would likely signal to a receiver
+that it was false signal).</p>
+<p>kali&gt; sudo gcc gpssim.c -lm -O3 -o gps-sdr-sim -DUSER_MOTION_SIZE=4000</p>
+<p>Where:</p>
+<p>261 | P a g e</p>
+<p>gcc is the GNU C compiler</p>
+<p>gpssim.c is the C file that we need to compile</p>
+<p>-lm is a link to the math.c library</p>
+<p>-O3 optimizes the compilation to higher level</p>
+<p>-o places the output into a file named gps-sdr-sim</p>
+<p>Locate the Satellite</p>
+<p>The next step is to locate the GPS satellite. This is done through the use of the GPS broadcast
+ephemeris file. The archive of the daily file can be downloaded here (you must register).</p>
+<p>https://cddis.nasa.gov/archive/gnss/data/daily/</p>
+<p>These files are then used to generate a simulated pseudo-range and Doppler for the satellites in
+your range. This data is then used to create simulated range data to generate digitized I/Q
+samples for the GPS signal. Make certain you download the most recent daily file.</p>
+<p>https://cddis.nasa.gov/archive/gnss/data/daily/2022/brdc/</p>
+<p>262 | P a g e</p>
+<p>Next, select a location you want to spoof. In my case, I want to appear to be in Moscow,
+specifically the Kremlin. You can go to Google maps to get the GPS coordinates.</p>
+<p>263 | P a g e</p>
+<p>264 | P a g e</p>
+<p>Now, to start your GPS spoof, simply enter the following command with the ephemeris file and
+the GPS coordinates such as;</p>
+<p>kali &gt; sudo ./gps-sdr-sim -b 8 -e brdc0010.22n -l 55.75911686948662, 37.616404140886715,
+100</p>
+<p>265 | P a g e</p>
+<p>This creates a simulation file named gpssim.bin</p>
+<p>Now, to send out a spoofed GPS signal that simulates my position in the Kremlin, I can simply
+enter;</p>
+<p>kali &gt; sudo hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0</p>
+<p>266 | P a g e</p>
+<p>Success! Now anyone tracking my GPS signal believes that I am in the Kremlin!</p>
+<p>Radio Frequency hacking is one of the most important and least appreciated cybersecurity fields.
+There really are so many devices and systems that send and receive radio signals that are
+vulnerable to exploitation. One of those ubiquitous radio signals is the global positioning system
+or GPS. While it is a wonderful tool for finding our way around the world, it can also be used
+maliciously to track our every step. By spoofing the GPS, we can hide our position and avoid
+tracking by governments and other malicious actors.</p>
+<p>Exercises</p>
+<p>Install the HDSDR software</p>
+<p>1.
+2. Listen to your local airport air traffic control communication
+3. Use Your RTL-SDR to capture aircraft location and speed data with dump1090</p>
+<p>267 | P a g e</p>
+<p>Appendix A</p>
+<p>Cyber Warrior Wisdom of</p>
+<p>Master OTW</p>
+<p>Hacking is the new martial art of the 21st century. To become a master hacker, you
+must think strategically and analytically. Master OTW offers some of his strategic
+wisdom for novice hackers that every cyberwwwarrior should arm themselves with
+before going to battle.</p>
+<p>1.</p>
+<p>2.</p>
+<p>3.</p>
+<p>4.</p>
+<p>5.</p>
+<p>6.</p>
+<p>7.</p>
+<p>8.</p>
+<p>Fools talk. The wise listen.</p>
+<p>Hacking is a process, not a technology or collection of tools.</p>
+<p>Hacking is the ultimate martial art</p>
+<p>If a service is free, you are not the customer; you are the product.</p>
+<p>Only the fool goes to battle without adequate reconnaissance of their enemy.</p>
+<p>"Listen" closely and intently to your enemy; they will tell you everything you
+need to know to defeat them.</p>
+<p>If you believe in nothing, you can be led to believe anything.</p>
+<p>Every adversary--no matter how strong and powerful--always has a weakness.
+Find the weakness and exploit it.</p>
+<p>268 | P a g e</p>
+<p>9.</p>
+<p>A great offense might win the battle, but an impregnable defense wins the war.</p>
+<p>10.</p>
+<p>Turn the power and strength of your opponent against them.</p>
+<p>11.</p>
+<p>The battle often goes NOT to the strongest but to the most persistent.</p>
+<p>12.</p>
+<p>There is ALWAYS opportunity in chaos.</p>
+<p>13.</p>
+<p>Avoid your adversary's strengths and attack their weaknesses.</p>
+<p>14.</p>
+<p>Never become predictable.</p>
+<ol>
+<li>When faced with an adversary of overwhelming power and strength, do not
+face them head-on. Strike only when you have the element of surprise.</li>
+</ol>
+<p>16.</p>
+<p>Understanding human psychology, motivation, and behavior is one of the
+hacker's most important tools.</p>
+<p>17.</p>
+<p>A series of persistent, small wins will defeat your opponent.</p>
+<p>18.</p>
+<p>Create confusion and dissension within the ranks of your opponent.</p>
+<p>19.</p>
+<p>At times, it can be advantageous to retreat to lure your opponent into a
+vulnerable and indefensible position.</p>
+<p>20.</p>
+<p>People on social media are much  less than they appear</p>
+<p>21.</p>
+<p>In cyber war, industrial facilities can be both a target and a weapon</p>
+<ol>
+<li>To  remain safe and anonymous on  the Internet, you must have a thorough and</li>
+</ol>
+<p>deep understanding of digital forensics</p>
+<p>269 | P a g e</p>
+<p>22.  Humility makes you stronger; hubris makes you vulnerable</p>
+<p>23.</p>
+<p>Unless you believe that civilization and culture reached their zenith during your
+youth, then nostalgia for "the good old days" is just the foolishness of the
+myopic and old.</p>
+<p>270 | P a g e</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "navigation.sections", "navigation.expand", "navigation.tracking", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

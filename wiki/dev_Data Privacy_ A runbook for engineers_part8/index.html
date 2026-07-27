@@ -1,0 +1,4145 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated knowledge base built from health science textbooks.">
+      
+      
+        <meta name="author" content="8LUEPRINT3">
+      
+      
+        <link rel="canonical" href="https://8LUEPRINT3.github.io/awesome-health-science-wiki/wiki/dev_Data%20Privacy_%20A%20runbook%20for%20engineers_part8/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Data Privacy_ A runbook for engineers - Part 8 - Awesome Health Science Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#page-708" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-header__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesome Health Science Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Privacy_ A runbook for engineers - Part 8
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Awesome Health Science Wiki" class="md-nav__button md-logo" aria-label="Awesome Health Science Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Awesome Health Science Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Human Body
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Human Body
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Human%20Body_part13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorrentino's Textbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sorrentino's Textbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sorrentinos%20Canadian%20Textbook_part12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 12-19
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Palliative Care
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Palliative Care
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Palliative%20Textbook_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#page-708" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 708
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-709" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 709
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-710" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 710
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-711" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 711
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-712" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 712
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-713" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 713
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-714" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 714
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-715" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 715
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-716" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 716
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-717" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 717
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-718" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 718
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-719" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 719
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-720" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 720
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-721" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 721
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-722" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 722
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-723" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 723
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-724" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 724
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-725" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 725
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-726" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 726
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-727" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 727
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-728" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 728
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-729" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 729
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-730" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 730
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-731" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 731
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-732" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 732
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-733" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 733
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-734" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 734
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-735" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 735
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-736" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 736
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-737" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 737
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-738" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 738
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-739" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 739
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-740" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 740
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-741" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 741
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-742" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 742
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-743" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 743
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-744" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 744
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-745" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 745
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-746" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 746
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-747" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 747
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-748" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 748
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-749" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 749
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-750" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 750
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-751" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 751
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-752" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 752
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-753" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 753
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-754" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 754
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-755" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 755
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-756" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 756
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-757" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 757
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-758" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 758
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-759" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 759
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-760" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 760
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-761" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 761
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-762" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 762
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-763" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 763
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-764" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 764
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-765" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page 765
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Data Privacy_ A runbook for engineers - Part 8</h1>
+
+<p>product IDs. Let’s assume that two users are shopping on
+the website and have orders as shown in table 10.1.
+Table 10.1 Two example orders</p>
+<h2 id="page-708">Page 708</h2>
+<p>User ID</p>
+<p>Order ID</p>
+<p>Products</p>
+<p>1234</p>
+<p>A1</p>
+<p>Food products</p>
+<p>5678</p>
+<p>B1</p>
+<p>Home furnishings</p>
+<h2 id="page-709">Page 709</h2>
+<p>Figure 10.4 Relationships between users, orders, and product
+Let’s also assume that the backend query to display the
+orders is as follows:
+http://www.buyproducts.com/order_details?order_id=A1 
+http://www.buyproducts.com/order_details?order_id=B1
+If the backend function does not verify that the user that is
+logged in is the same user whose order is being displayed,
+this counts as an IDOR vulnerability.
+In this example, the order ID is used directly as a record
+index in queries that are performed on the backend
+database. If no other controls are in place, an attacker can</p>
+<h2 id="page-710">Page 710</h2>
+<p>simply modify the order ID value, bypassing access controls
+to view the records of other customers. This is an example
+of an IDOR vulnerability leading to horizontal privilege
+escalation. If a user can change the order ID and get
+information about another user’s purchase history, or if the
+page listing the details of the order contains the user’s name
+and address, you have a severe privacy violation leaking one
+user’s purchase info to another.53
+According to the PortSwigger blog, “an attacker might also
+be able to perform horizontal and vertical privilege
+escalation by altering the user to one with additional
+privileges while bypassing access controls. Other possibilities
+include exploiting password leakage or modifying
+parameters once the attacker has landed in the user’s
+accounts page, for example.”54
+There are other ways for IDOR vulnerabilities to manifest
+themselves. For example, IDOR vulnerabilities often arise
+when sensitive resources are located in static files on the
+server-side filesystem. A website might save user purchase
+receipts to disk using an “incrementing by 1” filename, and
+allow users to retrieve these by visiting a URL like the
+following:
+https://www.buyproducts.com/static/12144.txt
+In this situation, an attacker can simply modify the filename
+to retrieve a receipt belonging to another user and
+potentially obtain user credentials and other sensitive data.</p>
+<h2 id="page-711">Page 711</h2>
+<p>To make this risk even clearer, if an attacker does not like
+the coverage of newspapers like the New York Times or the
+Wall Street Journal, they could write a script to look at the
+IDs of subscribers, if the IDs were publicly obtainable or
+guessable. They could then obtain the credentials of such
+subscribers via the dark web and put their subscriptions on
+hold, or worse, cancel them.
+Given today’s hyper-polarized atmosphere, it is possible that
+bad actors will use cyberwarfare to make their points as
+well. To be fair, it may be unlikely for there to be a breach at
+a national newspaper where someone would update info to
+escalate privileges to cause geopolitical issues, but it is
+possible for a more local paper to be at risk here.
+10.3.2 IDOR testing and mitigation
+There are no easy ways to foresee every possible attack
+method for IDOR, but there are some effective techniques
+that researchers recommend:55
+The challenges to make sure that you can test for
+situations where a user can access more
+applications than they should, as well as whether a
+user can obtain more privileges than they should
+for a specific application. In short, you will need
+more than one user account for testing purposes.
+When you do this at scale, you should be able to,
+for example, test various access-levels for different
+concurrent access requests by users with varying
+levels of privileges.</p>
+<h2 id="page-712">Page 712</h2>
+<p>To protect individual features, you should try to
+discover as many features as you can. To avoid
+confirmation bias and false negatives, you will
+want to use the role with the highest privilege.
+You may remember how intuitive service names
+assisted the Target hackers. You could similarly try
+to identify a naming pattern for all your endpoints.
+You could then come up with new names and
+patterns that are not quite as easy to guess.
+To cover all your endpoint-role combinations, you
+will want to test each time you create/register a
+new role. Whether you do this manually or in bulk
+will depend on the maturity and reach of your
+tooling.
+There are also coding best practices that engineers can
+deploy to avoid IDOR gaps in the first place:56
+1. Given that the IDOR is borne out of combinations,
+unit testing is insufficient. Integration tests that
+cover IDOR use cases are a must have.
+2. The testing for IDOR is not confined to roles; at
+the DevOps stage you will want additional
+integration tests to check once more before
+services are deployed.
+3. Developers should not display private object
+references. The goal here is to minimize how
+publicly visible keys or filenames should be.
+4. For any kind of access, all parameters and
+referenced objects should be continually validated.</p>
+<h2 id="page-713">Page 713</h2>
+<ol>
+<li>There should be a tight coupling between users
+and tokens, and neither the tokens nor the
+mappings should be public.</li>
+<li>At render time, you should store data values in
+session and not in a database where subsequent
+access is possible; given the number of times we
+have seen sensitive data be accessed by attackers,
+you should prevent persistence, which in turn will
+mitigate the risk of later leaks.</li>
+<li>When the user submits data, you will want to
+validate the data, with one eye on latency. For
+example, if the user submits a Social Security
+number, you could join the table that stores
+financial data and the table that stores user
+account data. This will serve as access control
+enforced by the data itself, unless your backend
+data itself has been corrupted.
+This chapter has provided engineers and others with some
+insight into how inefficient security controls can lead to
+privacy harms. It is vital to understand that there is no
+exhaustive list of security weaknesses that, once fixed, can
+mitigate privacy impacts. Just as combinations of data can
+lead to privacy risks, security gaps can work in concert as
+well.
+As a checklist-type resource for businesses, the guidance
+from the Center for Internet Security can be a good place to
+start.57 Their guidance provides a list of data protection
+controls and their components. If companies adhere to</li>
+</ol>
+<h2 id="page-714">Page 714</h2>
+<p>these, there is a good chance they will avoid or detect any
+gaps in their data protection posture.
+Summary
+Companies too often optimize for privacy by
+focusing on the data, but security risks around
+infrastructure and IT are just as critical. For many
+companies, these areas could be a starting point to
+manage privacy.
+An expanded risk surface and a porous access
+management posture pose real risks to a company,
+its data, and customer trust.
+A risk-management model and proactive access
+management for the company and its vendors is
+critical.
+Many security (and therefore privacy) harms are
+the denouement of smaller risks and their
+collective impact, so proactive and gradual risk-
+mitigation is critical.
+1 “Target Confirms Unauthorized Access to Payment Card Data in U.S. Stores,” Target,
+December 19, 2013, http://mng.bz/aD4X.
+2 Brian Krebs, “Sources: Target Investigating Data Breach,” Krebs on Security, December 18,
+2013, http://mng.bz/5KY8.
+3 Jaikumar Vijayan, “Target breach happened because of a basic network segmentation
+error,” Computerworld, February 6, 2014, http://mng.bz/6ZGp.
+4 Ibid.
+5 Thor Olavsrud, “11 steps attackers took to crack Target,” CSO, September 2, 2014,
+http://mng.bz/oaVy.
+6 Teri Radichel, “Case Study: Critical Controls that Could Have Prevented Target Breach”
+(SANS, 2021), https://www.sans.org/white-papers/35412/.</p>
+<h2 id="page-715">Page 715</h2>
+<p>7 Michael Kassner, “Anatomy of the Target data breach: Missed opportunities and lessons
+learned,” ZDNet, February 2, 2015, http://mng.bz/nYxV.
+8 Brian Krebs, “Email Attack on Vendor Set Up Breach at Target,” Krebs on Security, February
+12, 2014, http://mng.bz/voOm.
+9 Kassner, “Anatomy of the Target data breach.”
+10 Thor Olavsrud, “11 steps attackers took to crack Target,” CSO, September 2, 2014,
+http://mng.bz/4jv5.
+11 Olavsrud, “11 steps attackers took to crack Target.”
+12 “Pass-the-Hash (PtH) Attack,” BeyondTrust, http://mng.bz/QWg1.
+13 Olavsrud, “11 steps attackers took to crack Target.”
+14 Olavsrud, “11 steps attackers took to crack Target,” page 2, http://mng.bz/4jv5.
+15 Olavsrud, “11 steps attackers took to crack Target,” page 2.
+16 Olavsrud, “11 steps attackers took to crack Target,” page 2.
+17 Olavsrud, “11 steps attackers took to crack Target,” page 2.
+18 Radichel, “Case Study: Critical Controls that Could Have Prevented Target Breach.”
+19 Radichel, “Case Study: Critical Controls that Could Have Prevented Target Breach.”
+20 Ibid.
+21 Ibid.
+22 “Updates on Target’s security and technology enhancements,” Target, April 29, 2014,
+http://mng.bz/XWAl.
+23 “Unstructured Data Management,” MongoDB,
+https://www.mongodb.com/scale/unstructured-data-types.
+24 Guy Harrison, “MongoDB Security Improves in the Face of Increasing Attacks,” Database
+Trends and Applications, September 29, 2020, http://mng.bz/y427.
+25 Ibid.
+26 Steve Symanovich, “What is a honeypot? How it can lure cyberattackers,” Norton, May 26,
+2020, http://mng.bz/M2WE.
+27 “MongoDB is subject to continual attacks when exposed to the internet,” Help Net
+Security, July 8, 2020, http://mng.bz/aD4x.
+28 “Ibid.
+29 Daniel Andrew, “9 minutes to breach: the life expectancy of an unsecured MongoDB
+honeypot,” Intruder, July 7, 2020, http://mng.bz/g4YZ.
+30 “MongoDB is subject to continual attacks when exposed to the internet.”
+31 Harrison, “MongoDB Security Improves in the Face of Increasing Attacks.”
+32 “Authorization is Broken,” Aserto blog, January 28, 2021, http://mng.bz/endw.
+33 Omri Gazitt, “5 Ways to Fix Your Broken Authorization System,” The New Stack, March 18,
+2021, http://mng.bz/p2gE.
+34 Gert Drapers, “Why separate policy from your code?” Aserto blog, March 4, 2021,
+http://mng.bz/OG22.
+35 Gazitt, “5 Ways to Fix Your Broken Authorization System.”
+36 Lorenzo Franceschi-Bicchierai, “Bugs Allowed Hackers to Dox John Deere Tractor Owners,”
+Vice, http://mng.bz/YgPe.
+37 Ibid.</p>
+<h2 id="page-716">Page 716</h2>
+<p>38 Gazitt, “5 Ways to Fix Your Broken Authorization System.”
+39 Ryan Mac, Katie Notopoulos, Ryan Brooks, and Logan McDonald, “We Found Joe Biden’s
+Secret Venmo. Here’s Why That’s A Privacy Nightmare For Everyone.” BuzzFeed News, May
+14, 2021, http://mng.bz/GGWV.
+40 Omri Gazitt, “Authentication != Authorization,” Aserto blog, April 18, 2021,
+http://mng.bz/zQMr.
+41 Robert McKay, “It’s time to shift from verifying data to authenticating identity,” Help Net
+Security, May 28, 2021, http://mng.bz/0wWm.
+42 Ibid.
+43 McKay, “It’s time to shift from verifying data to authenticating identity.”
+44 David E. Sanger, Clifford Krauss, and Nicole Perlroth, “Cyberattack Forces a Shutdown of a
+Top U.S. Pipeline,” New York Times, May 8, 2021, http://mng.bz/KB14.
+45 William Turton and Kartikay Mehrotra, “Hackers Breached Colonial Pipeline Using
+Compromised Password,” Bloomberg, June 4, 2021, http://mng.bz/9KOa.
+46 Kevin Collier, “50,000 security disasters waiting to happen: The problem of America’s
+water supplies,” NBC News, June 17, 2021,
+https://www.nbcnews.com/news/amp/rcna1206.
+47 Kevin Collier, “Lye-poisoning attack in Florida shows cybersecurity gaps in water systems,”
+NBC News, February 9, 2021, http://mng.bz/jyOy.
+48 Collier, “50,000 security disasters waiting to happen.”
+49 Collier, “50,000 security disasters waiting to happen.”
+50 Ayşe Bilge Gündüz, “Everything You Need to Know About IDOR (Insecure Direct Object
+References),” ayşe bilge gündüz, April 19, 2020, http://mng.bz/W7ax.
+51 Ibid.
+52 Ibid.
+53 Gündüz, “Everything You Need to Know About IDOR.”
+54 “Insecure direct object references (IDOR),” PortSwigger, http://mng.bz/8lJ2.
+55 “IDOR explained – OWASP Top 10 vulnerabilities,” Thehackerish, April 22, 2021,
+http://mng.bz/8lJ2.
+56 “IDOR explained – OWASP Top 10 vulnerabilities.” “Insecure Direct Object Reference
+(IDOR) Vulnerability,” GeeksforGeeks, 12 September 2021, http://mng.bz/NxA2;
+“Parameter Tampering,” Hdiv, http://mng.bz/ DxV9.
+57 “CIS Controls Navigator,” CIS, http://mng.bz/lapM.</p>
+<h2 id="page-717">Page 717</h2>
+<p>11 Scaling, hiring, and considering
+regulations
+This chapter covers
+Creating a maturity model for privacy and data protection
+Dimensions of privacy and data protection evolution
+Privacy engineering skills to build your program
+The regulatory climate that affects innovation and privacy
+regulation
+At this point in the book, you have learned how to build
+privacy into data, tooling, and business review processes.
+Chapters 3 and 4 dove deep into data management once
+data enters the company, by classifying and cataloging it
+using automation and metadata. Chapter 5 offered scalable
+privacy techniques for data sharing, given how much online
+computing and commerce deals with data transfers.
+You will have also understood how to scale those
+architectures and processes as your company grows. You
+will have also understood how to operationalize your privacy
+tooling and processes, since companies cannot keep
+throwing hardware, software and staff at these issues.
+Chapter 6 aimed to repurpose the traditional privacy review
+process by front-loading it into an advisory and consultative</p>
+<h2 id="page-718">Page 718</h2>
+<p>capacity. Using automation, companies can build in privacy
+for their features rather than bolting it on after the fact.
+Given the energy around customer-facing compliance,
+chapters 7 through 9 took a deep dive around deletion, data
+export, and consent.
+Given the need for both security and privacy in data
+protection, we have also spent a fair bit of time in
+addressing security gaps that could lead to privacy harms.
+Chapter 10 looked at security through the lens of privacy,
+and offered hands-on skills for companies that many may
+use as a starting point.
+However, after having put all these tools and processes into
+practice, companies face a critical choice:
+Will they operate by making improvements as
+needed but otherwise tread water? In this case,
+privacy and data protection will remain reactive
+and tactical.
+Alternatively, companies could choose a different
+course and plan on a privacy engineering offering
+that is not just operationalized but also optimized.
+This chapter will help you plan for the latter course.
+Having such a mature program has several benefits. You
+will be able to staff intelligently, make data-driven
+prioritizations, and avoid building up technical debt. I am
+advocating for this choice based on my experience advising
+many startups and venture capital firms. Companies that</p>
+<h2 id="page-719">Page 719</h2>
+<p>fail to mature their program often find that their plans for
+“hockey stick” growth, instead, end up with a broken stick.
+Their product roadmaps freeze and atrophy; rolling out
+features becomes difficult, due to privacy audits and data
+leaks. Instead of a unicorn, the company becomes a camel.
+In companies that fall into this trap, privacy engineers and
+program managers keep having to go to their leaders for
+funding without a framework or metrics to back them up.
+This sets up the company for failure, both in privacy
+strategy and in operational efficiency. In this chapter, we
+will look at how you might avoid such an outcome.
+First, I will help you build a capability maturity model for
+your privacy engineering program. I will be offering you a
+template that will not just help you scale your offering, but
+also help you:
+Segment your data protection capabilities into
+dimensions like identification, protection,
+detection, and remediation
+Conduct a gap analysis for key aspects of your
+data protection capabilities
+Build tiers for your capabilities to track their
+evolution from foundational to mature to
+advanced
+This approach will help you measure your program against
+the backdrop of the threat model, compliance
+commitments, customer obligations, and feature roadmaps.
+In the absence of such a data-driven model, privacy and</p>
+<h2 id="page-720">Page 720</h2>
+<p>security engineers will always end up scrounging for scraps
+rather than partnering with and enabling the business.
+Second, I will help you build a staffing model, which will be
+important in the event that your program grows. Even if
+your company remains on the smaller side, you will want to
+develop equivalent skills either in-house or via third parties.
+Just as software development requires experience in
+frontend, backend, platform, and infrastructure, privacy
+engineering has its own subdomains of expertise; we will
+look at the various skills required to develop the tools and
+metrics we have discussed throughout this book.
+Third, we will look at the larger regulatory ecosystem that
+affects companies and technical staff. It is not enough for
+engineers to merely understand the basics of laws like
+GDPR; engineers need to be able to interact with regulators
+and other influential bodies. This will enable engineers to
+influence new and existing laws.
+As a technologist, I have always believed that it is wrong
+and bad business practice to pigeonhole engineers as order-
+takers. Keeping privacy and security technologists away
+from the regulatory process is counterproductive, just as it
+is when engineers are kept away from sales conversations.
+In the latter case, you see churn and unmet expectations,
+and in the former case, you may see privacy laws that fail
+to provide customers with meaningful protections and
+create unneeded burdens for businesses.
+Before we dive in, I want to offer a word of caution: this
+chapter, like the book as a whole, is the beginning of a</p>
+<h2 id="page-721">Page 721</h2>
+<p>journey. I will offer frameworks and architectures that you
+can customize to your liking. Given the scale of modern
+technology and data, no book can offer simple step-by-step
+instructions to achieve enterprise-level privacy engineering
+maturity.
+First we’ll build a maturity model so you can track the
+effectiveness of your privacy engineering. To maintain
+consistency and provide a recognized starting point, I have
+used the NIST Cybersecurity Framework
+(www.nist.gov/cyberframework) and lessons learned from
+audits/assessments conducted by large firms as a reference
+for my work in this chapter.
+11.1 A maturity model for privacy
+engineering
+Something I have learned over a decade in cybersecurity
+and privacy is that these disciplines are like doing improv
+(improvisational theatre). The golden rule of improv is that
+you never say “No”; instead you say “Yes, and....”
+Far too often I have seen privacy practitioners who have
+deep domain knowledge but lack business finesse. They see
+themselves as user advocates and purists, and they try to
+block any products that are not completely privacy-safe.
+They find themselves initially feared but eventually
+sidelined, since the business sees them as intractable. This
+is not a sustainable approach.</p>
+<h2 id="page-722">Page 722</h2>
+<p>As you begin your data protection practice within a
+company, you will run up against headwinds like immature
+processes, resistance, lack of focus, and, often, people just
+prioritizing revenue over data privacy. To entrench your
+work and win allies, you will need to resist the urge to say
+“No” and find a way to help the business get to “Yes, but
+without violating user trust.”
+This approach is a great one to start with, but it’s also not a
+durable one. Over time, you will need to secure and ring-
+fence resources and create objective success criteria. This
+section will help you build that framework, which will serve
+as a maturity model for your privacy engineering efforts.
+As we build this maturity model for privacy engineering, we
+will look at four key dimensions. For each dimension, we will
+look at assessments and actions that will help you gauge
+effectiveness. The following subsections will look at each of
+these dimensions in more detail.
+Identification—In this dimension, you are
+assessing your privacy risk identification
+capabilities. Rather than detecting a risk in real
+time, you are exploring possible risks before they
+occur by investigating the following:
+Can your program rapidly identify privacy risks and
+gaps?
+Can this identification of risks occur at scale?
+Is the identification occurring consistently via a
+combination of process and tooling?</p>
+<h2 id="page-723">Page 723</h2>
+<p>Protection—In this dimension, you can assess the
+reach and maturity of your data protection
+capabilities by checking for the following:
+Can you protect the data in motion between
+endpoints and at rest in multiple storage locations?
+Are you conducting activities like vulnerability scans
+and dynamic testing to address any gaps?
+Are you managing access to assets, data, and
+systems in a risk-driven and auditable fashion?
+Detection—Since not every risk can be proactively
+identified and protected against, your program
+will need to be able to detect risks as well. In this
+dimension, you should consider the following
+questions:
+Is your data protection coverage comprehensive in
+that it covers all key systems and tools?
+Are you detecting anomalous behavior both for the
+ingress and egress of data?
+Remediation—Even the most mature privacy
+engineering program may not be able to prevent
+all risks and harms. In this dimension, it is
+therefore critical that you test your program’s
+ability in the following areas:
+Does your program offer resiliency and business
+continuity capabilities to remedy a privacy harm?
+Does your incident response team have established
+service level agreements (SLAs)?
+Is there a dashboard that tracks incoming incidents,
+SLA status, and patterns?</p>
+<h2 id="page-724">Page 724</h2>
+<p>This list is an outline around which a growing and maturing
+company can build its framework.
+We will now look at each dimension in detail and assess
+your program’s readiness. First, though, it will be helpful to
+set readiness milestones like foundational to mature to
+advanced. That way, when your company performs a gap
+analysis, you can use these levels as stepping stones and
+targets.
+Since there is no industry definition for these milestones,
+we can define them here:
+Foundational—The program has core capabilities
+but they still need to scale and increase their
+coverage. This is common in startups and
+companies that have made a major shift.
+Mature—The program has iterated and adapted
+and can scale to meet privacy compliance goals in
+most cases.
+Advanced—The program is not just in line with
+existing best practices but also has progressed in
+a way that demonstrates how other companies
+can evolve and grow.
+11.1.1 Identification
+To identify privacy risks, you will want to look at your
+infrastructure and systems as individual units as well as
+collective systems that interact with and impact each other.
+Just as engineers need to perform unit testing and</p>
+<h2 id="page-725">Page 725</h2>
+<p>integration testing prior to code deployment, privacy
+engineers need to look at the entire business through a
+similar inside-out lens. This dimension is about looking at
+your tech stack and business processes across the board to
+identify possible risks.
+Given the decentralized nature of modern engineering,
+identifying privacy risk involves several component
+activities. These are not activities that you can suddenly
+perform on demand. Additionally, it may take a while for
+their impact to be felt. That is why it is helpful to examine
+the three levels of maturity and plan your evolution
+accordingly. We will now look at these activities in turn.
+ASSET MANAGEMENT
+Given that your IT infrastructure will serve either as a pipe
+for transfers or as a container for data storage, asset
+management is critical to identify privacy risks. In
+particular, you will need to track the status and ownership
+of any assets that affect your data. This is critical so that
+you can then focus on applying the data privacy techniques
+discussed throughout this book on the assets based on their
+prioritization.
+Table 11.1 provides an example of the sorts of activities you
+will need to perform under the aegis of asset management
+and how your execution must evolve for maturity.
+Table 11.1 Asset management maturity evolution</p>
+<h2 id="page-726">Page 726</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>Capabilities optimize 
+for tracking and 
+listing assets, so as 
+to start a basic list of 
+possible risks.</p>
+<p>Capabilities optimize 
+for tracking, listing, 
+and ranking, so that 
+preemptive 
+remediation provide 
+high value in risk 
+reduction.</p>
+<p>Scope focuses on 
+automation and 
+orchestration 
+improvement.</p>
+<p>Roadmaps and 
+quarterly plans build 
+on this informal list of 
+business processes 
+and information 
+assets, such as data 
+stores, IT (corporate 
+engineering) assets, 
+etc.</p>
+<p>Engineers have an 
+intuitive albeit 
+undocumented </p>
+<p>Roadmaps and 
+quarterly plans 
+leverage a prioritized 
+database of all 
+business processes 
+and information 
+assets; this evolving 
+list is a combination 
+of architectural 
+designs and technical 
+workflows.</p>
+<p>The process of 
+discovering and 
+cataloging assets is 
+automated with 
+minimal errors.</p>
+<p>The asset inventory 
+lists business value, 
+privacy risk, and 
+associated owners; 
+this inventory and its 
+continually updated 
+versions have </p>
+<h2 id="page-727">Page 727</h2>
+<p>understanding of 
+which systems 
+contain which 
+information.</p>
+<p>As with data, the 
+criteria for classifying 
+information assets 
+are foundational but 
+have buy-in from 
+leadership.</p>
+<p>Assets are tagged to 
+indicate ownership, 
+data sensitivity, and 
+business criticality; 
+this helps provide 
+accountability and 
+quantifiable KPIs.</p>
+<p>The inventory of 
+digital assets covers 
+the entire tech stack 
+with no initial opt-
+outs, so as to build a 
+baseline of risk 
+identification.</p>
+<p>executive approval 
+with technical 
+mitigations as a fast-
+follow.</p>
+<p>Information assets 
+are represented as 
+specific nodes in a 
+network architecture 
+diagram and 
+workflow.</p>
+<p>Existing workflows 
+and data flows are 
+continually mapped 
+in response to and in 
+preparation for </p>
+<p>A majority of third-
+party information 
+systems are 
+catalogued, and they 
+are prioritized based 
+on the company’s 
+internal risk appetite.</p>
+<p>The most privacy-
+sensitive assets are 
+mapped to business 
+risk to facilitate </p>
+<p>All third-party 
+systems are 
+catalogued and 
+regularly refreshed to 
+reflect external 
+updates, and they are 
+prioritized based on 
+the company’s risk 
+appetite.</p>
+<p>A dollar value is 
+assigned to each </p>
+<h2 id="page-728">Page 728</h2>
+<p>inappropriate access 
+of sensitive data by 
+insiders and vendors.</p>
+<p>analysis and 
+prioritization.</p>
+<p>business process and 
+asset to determine 
+the impact and 
+likelihood of privacy 
+harm.</p>
+<p>KPIs are tracked at 
+the team level so as 
+to set up a light-touch 
+process and get 
+teams started on this 
+maturity journey.</p>
+<p>KPIs are tracked by 
+clustering related 
+teams or ones that 
+belong to the same 
+business lines.</p>
+<p>KPIs are tracked and 
+reviewed bottom-up 
+across the 
+organization’s scope.</p>
+<p>For table 11.1 and subsequent tables, the following two
+points apply:
+Each offering attains more maturity as you move
+from left to right. For example, the scope (row 1)
+in the Mature column requires that you prioritize
+the cataloging of assets rather than just tracking
+them ad hoc, as companies are likely to do at the
+Foundational stage of relative immaturity.
+Additionally, each entry assumes the work in the
+box to its left is already accomplished.
+GOVERNANCE</p>
+<h2 id="page-729">Page 729</h2>
+<p>Regardless of size, companies need a governance structure
+to help identify risks. This means having standards and
+guidelines that can be used to monitor operations and flag
+risks. Table 11.2 lists the activities you need to perform and
+how the maturity levels evolve.
+Table 11.2 Governance maturity evolution</p>
+<h2 id="page-730">Page 730</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>Employees sign on to 
+acknowledge 
+disclosures and 
+standards during 
+onboarding and then 
+annually (i.e., with a 
+defined cadence but 
+after the passage of 
+non-trivial amounts of 
+time).</p>
+<p>Employees do not just 
+sign on to disclosures 
+and standards but are 
+trained on an ongoing 
+basis with 
+assessments to help 
+ensure understanding 
+rather than just 
+awareness.</p>
+<p>Employees do not just 
+sign on to disclosures 
+and standards but are 
+trained on an ongoing 
+basis, and they need 
+to meet a minimal 
+assessment score, as 
+a condition to retain 
+data access, for 
+example.</p>
+<p>Teams are able to 
+evaluate policy 
+exceptions on a case-
+by-case basis.</p>
+<p>A committee 
+comprised of data 
+privacy specialists 
+reviews the risks by 
+applying policies and 
+standards.</p>
+<p>A committee 
+comprised of data 
+privacy specialists 
+partners with 
+businesses to review 
+risks and build 
+metrics around 
+policies and 
+standards.</p>
+<h2 id="page-731">Page 731</h2>
+<p>Privacy standards are 
+defined for all risk 
+areas, such as 
+identity and access 
+management and 
+data encryption, but 
+no clear enterprise 
+standard needs to be 
+in place.</p>
+<p>Enterprise-wide 
+privacy standards are 
+in place in some but 
+not all of the risk 
+areas; for remaining 
+risk areas, 
+foundational 
+standards exist.</p>
+<p>Scalable and flexible 
+enterprise-wide 
+privacy controls 
+address privacy risks 
+including 
+architecture, 
+endpoints, access 
+management, change 
+management, vendor 
+management, etc.</p>
+<p>Each business 
+function establishes 
+its own privacy risk 
+metrics and KPIs to 
+measure its 
+compliance.</p>
+<p>The company 
+maintains a central 
+scorecard to measure 
+privacy risk reduction 
+using a complete set 
+of KPIs.</p>
+<p>Besides the central 
+scorecard, the 
+company maintains 
+and updates privacy 
+risk appetite 
+thresholds for each 
+business area.</p>
+<p>As you can see in table 11.2, improved privacy governance
+can help detect privacy risks. At the foundational level, you
+see standards and policies that are vertical in nature, in that
+they apply to a specific business unit. A more mature
+governance offering creates company-wide controls, while
+the advanced governance posture shows a more
+collaborative and itinerant process.</p>
+<h2 id="page-732">Page 732</h2>
+<p>The likelihood of timely risk identification grows as you
+move from foundational to advanced, but a caveat does
+apply: as your privacy governance capabilities grow,
+possibly so do new business units, mergers, and cavalier
+behaviors among employees. Therefore, any maturity of
+your privacy governance is not to be seen as an absolute
+gain but as a moving target.
+RISK MANAGEMENT
+It is critical that businesses have mechanisms to manage
+assets and govern them to discover risks. However, another
+key vertical of the identification capability for privacy is risk
+management. Once risks are identified, businesses can end
+up on one of two extremes. They could either be overly
+tactical and miss out on efficiencies or be overly strategic
+and get caught in analysis. Therefore, developing a maturity
+framework for risk management is vital. Table 11.3 lays out
+such a framework.
+Table 11.3 Risk management maturity evolution</p>
+<h2 id="page-733">Page 733</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>The privacy risk 
+management 
+strategy is seeded by 
+teams in disaster 
+recovery and incident 
+response based on 
+past incidents or 
+ones that have 
+occurred elsewhere.</p>
+<p>As such, the strategy 
+leans into a more 
+defensive and 
+backward-looking 
+mindset.</p>
+<p>The privacy risk 
+management strategy 
+aggregates input 
+from technical and 
+non-technical 
+stakeholders, so as to 
+provide broader 
+business coverage.</p>
+<p>As such, the strategy 
+is dynamic and 
+evolving but in a more 
+scattershot rather 
+than collaborative 
+manner.</p>
+<p>Business leaders 
+evaluate and quantify 
+risk and remediation 
+options (backed up by 
+KPIs and risk appetite 
+mappings) as part of 
+privacy strategy 
+development.</p>
+<p>The strategy includes 
+input from upstream 
+stakeholders like 
+heads of business 
+lines and markets, </p>
+<p>The privacy risk 
+management strategy 
+aggregates input 
+from technical and 
+non-technical </p>
+<p>The privacy risk 
+management strategy 
+is developed in close 
+collaboration with 
+business and </p>
+<h2 id="page-734">Page 734</h2>
+<p>but these insights 
+don’t always affect 
+technical outcomes 
+and decisions.</p>
+<p>The non-technical 
+leadership may or 
+may not have veto 
+power over the 
+emerging strategy, 
+since the company is 
+typically optimizing 
+for growth and 
+market 
+penetration/expansio
+n instead of risk 
+assessment maturity.</p>
+<p>stakeholders; 
+however, the aim for 
+this engagement is 
+awareness rather 
+than explicit 
+endorsement or 
+formal sponsorship by 
+those stakeholders.</p>
+<p>technology 
+stakeholders, and 
+there is a formal 
+sponsorship by those 
+stakeholders.</p>
+<p>The business 
+stakeholders are 
+accountable for the 
+success of the 
+strategy, sort of like 
+how executive 
+leaders are 
+increasingly tying 
+their compensation to 
+diversity and 
+inclusion.</p>
+<p>There is quasi-
+mandated 
+consultation between 
+privacy engineers and 
+strategic leadership, 
+but alignment is not a 
+prerequisite for 
+roadmap planning 
+and execution.</p>
+<p>Consultation between 
+privacy engineers and 
+business leaders is a 
+prerequisite for 
+planning and 
+execution; whether 
+acquiescence and 
+alignment is a 
+blocker is determined 
+on a case-by-case 
+basis.</p>
+<p>Business leaders are 
+initiators of the 
+privacy risk 
+management 
+strategy; they provide 
+formal review or sign-
+off and serve as 
+escalation points for 
+internal and external 
+audits.</p>
+<h2 id="page-735">Page 735</h2>
+<p>The management of 
+strategy development 
+and execution is 
+often not 
+documented because 
+the risk management 
+conversations tend to 
+be embryonic, 
+transactional, and 
+tactical.</p>
+<p>Risk management 
+strategy development 
+and execution is 
+fueled by metrics, 
+tooling, and 
+automation, as well 
+as growing coverage 
+of business units.</p>
+<p>The privacy risk 
+management strategy 
+managed by the tools 
+is routinely consulted 
+before key business 
+decisions.</p>
+<p>As you can see in table 11.3, the foundational risk
+management strategy is very team-specific. It is possible,
+even likely, that teams develop such strategies for
+themselves while being oblivious to dependencies and
+redundancies with other teams. There is a substantial
+evolution as you move to a more mature model, where
+there are more sustained partnerships with the business.
+There is a gentler evolution in the advanced model, where
+the business uses the privacy risk management strategy
+more proactively.
+We have seen how a company can evolve in its
+identification and management of privacy risk. In the next
+subsection, we will examine how a company can protect
+itself from such risks after having identified them.</p>
+<h2 id="page-736">Page 736</h2>
+<p>11.1.2 Protection
+The tools for protecting data range from security techniques
+like multifactor authentication, encryption, anomaly
+detection, and monitoring to privacy techniques like
+anonymization, obfuscation, and deletion. However, a
+program’s evolution in maturity requires an approach that
+helps drive these tools in coordination rather than as
+isolated point solutions. In this section, we will look at the
+various parts of an ideal protection strategy.
+IDENTITY AND ACCESS MANAGEMENT
+The best data protection strategy would be to limit
+collection from the start, but the data you do need to collect
+requires protection. Table 11.4 shows how you can build a
+framework to manage the identities for those who access
+the data and build in access management tied to those
+identities. These identities would typically be employee
+identities, but over time could refer to partners or even
+customers. Note that some of the specifics may need to be
+adapted for your company, its sector, geographic presence,
+etc., so the table is to be used as a starting point.
+Table 11.4 Identity and access management maturity evolution</p>
+<h2 id="page-737">Page 737</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>In keeping with a 
+growth mindset, the 
+IT administrators can 
+provide access 
+credentials for 
+employees, partners, 
+and others. There is 
+potential audit 
+coverage as part of 
+an embryonic access 
+control system.</p>
+<p>The company drives 
+identity and access 
+management based 
+on informal but 
+quantifiable 
+standards so as to 
+avoid falling behind 
+competitors or failing 
+audits. As such, 
+access management 
+follows a “do no 
+harm” approach.</p>
+<p>The company 
+routinely stress-tests 
+its access 
+management policies 
+via bug bounties, 
+audits, and industry 
+benchmarking.</p>
+<p>The management of 
+identities is governed 
+by zero-trust but also 
+low-friction access. 
+This leads to an 
+identity management 
+strategy that does 
+not comport with 
+industry standards 
+but provides a solid 
+starting point.</p>
+<p>The coupling of zero-
+trust access and 
+scalable controls 
+means that identity 
+management and 
+governance tends to 
+have an upward arc. 
+There is also tooling 
+to auto-provision and 
+auto-rescind. This 
+leads to upwards of </p>
+<p>The company has 
+such an advanced 
+state of access 
+management that 
+they can quantify the 
+need for access for 
+users (internal and 
+external) and for 
+systems. By way of 
+automated tooling, 
+user-system access </p>
+<h2 id="page-738">Page 738</h2>
+<p>Key stakeholders, 
+vendors, and 
+regulators are set up 
+for short-term access, 
+but there are often 
+minimal controls to 
+prevent abuse.</p>
+<p>50% identity coverage 
+across all systems 
+and assets.</p>
+<p>User identities are 
+closely tied to 
+systems based on 
+documented need, 
+and their access is 
+constantly monitored 
+so as to allow for 
+renewing access or 
+discontinuing it.</p>
+<p>New identity-based 
+access systems help 
+monitor usage. Such 
+access is renewed in 
+response to need and 
+not provided in 
+expectation of future 
+need.</p>
+<p>The company begins 
+to factor into its 
+overall risk score the 
+continual reduction 
+(or right-sizing) of 
+cumulative access 
+requests are 
+evaluated and 
+granted (or denied).</p>
+<p>There are 
+impenetrable controls 
+that prevent 
+privileged users from 
+growing their access 
+without 
+administrative 
+approval. For 
+example, a privileged 
+user may not amplify 
+their access and also 
+may not create 
+another identity of 
+equivalent privilege.</p>
+<h2 id="page-739">Page 739</h2>
+<p>across all teams and 
+data assets. The 
+company also starts 
+investing in 
+automation that can 
+assess access 
+requests 
+expeditiously.</p>
+<p>Systems that store 
+sensitive user or 
+customer data need 
+to use authentication 
+tooling that is 
+constantly monitored.</p>
+<p>Most systems, at a 
+minimum, rely on 
+single-factor 
+authentication but 
+increasingly need to 
+use multifactor user 
+authentication and 
+additional verification 
+for specific systems 
+that contain sensitive 
+data. This progression 
+represents the fusion 
+of asset management 
+and identity 
+management.</p>
+<p>Using a combination 
+of data inventory, 
+asset management, 
+and identity, the 
+company can 
+strategically deploy 
+access management 
+at scale in a targeted 
+fashion. There is 
+ongoing improvement 
+in these mappings 
+based on shifts in 
+data collection and 
+usage as well as 
+regulatory 
+expectations.</p>
+<p>You can see in table 11.4 how access management is
+multifaceted given the sprawl of data, systems, and
+identities. There is a risk-multiplier aspect to the privacy
+risk given the amount of online activity that companies and</p>
+<h2 id="page-740">Page 740</h2>
+<p>governments capture. It is vital that companies try to
+evolve their maturity across the various facets of access
+management so as to reduce the pressure on downstream
+activities like deletion and encryption.
+VULNERABILITY MANAGEMENT
+Protecting data requires patching any gaps in your systems.
+As you have seen in earlier chapters, bad actors have
+exploited vulnerabilities ranging from access control to
+leaked credentials to third parties. While you may not catch
+every gap, building a framework to track and manage these
+vulnerabilities, like the one shown in table 11.5, is critical.
+Table 11.5 Vulnerability management maturity evolution</p>
+<h2 id="page-741">Page 741</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>Vulnerability scans 
+are continuous and 
+comprehensive.</p>
+<p>Vulnerability 
+identification tools 
+need to be managed 
+outside of teams that 
+own assets, data 
+stores, or services so 
+that there are no 
+bespoke exceptions 
+that then lead to 
+increased risk.</p>
+<p>Remediation of 
+vulnerabilities is 
+managed at the team 
+level. This could lead 
+to reliable and 
+targeted 
+remediations but also </p>
+<p>Central privacy and 
+security teams define 
+SLAs for vulnerability 
+remediation based on 
+business impact as 
+well as regulatory 
+risk. These SLAs are 
+binding for teams 
+across the company 
+unless explicit 
+exceptions are 
+granted.</p>
+<p>Testing and fixing of 
+vulnerabilities should 
+follow a set template 
+so as to maintain 
+consistency and 
+create a paper trail 
+for future audits.</p>
+<p>The SLAs for 
+vulnerability 
+remediation are made 
+more aggressive with 
+the passage of time 
+and heightening of 
+scrutiny.</p>
+<p>Security and privacy 
+teams compare the 
+results of 
+vulnerability scans so 
+as to assess risk 
+across the tech 
+stack. Product lines 
+are asked to improve 
+their risk-reward 
+ratios. As such, 
+vulnerability 
+management helps 
+set business direction 
+rather than being an 
+after-the-fact cleanup 
+job.</p>
+<h2 id="page-742">Page 742</h2>
+<p>to a lack of central 
+visibility into overall 
+organizational 
+remediation maturity.</p>
+<p>The company uses a 
+documented risk 
+framework to 
+prioritize vulnerability 
+remediation based on 
+data sensitivity and 
+business risk (in 
+terms of money at 
+stake, should the risk 
+materialize).</p>
+<p>There is a tight 
+coupling between 
+vulnerability scans 
+and parts of the tech 
+stack so that risks 
+are targeted for 
+elimination rather 
+than unknowingly 
+replicated.</p>
+<p>The company 
+maintains a central 
+CMS (or other 
+system) that 
+inventories all known 
+vulnerabilities and 
+their applicability in 
+systems other than 
+the ones where the 
+vulnerability was first 
+detected.</p>
+<p>Risk vectors are 
+updated 
+automatically and 
+continuously in line 
+with changes internal </p>
+<p>Vulnerability 
+reporting is stored in 
+tamper-proof logs and 
+maintained both for 
+audit reporting and to 
+demonstrate 
+compliance to 
+enterprise customers.</p>
+<h2 id="page-743">Page 743</h2>
+<p>and external to the 
+business; this insight 
+then feeds into the 
+implementation of 
+the vulnerability 
+scanning.</p>
+<p>After high-profile privacy breaches, I am often asked why
+companies and governments fail to provide the basic steps
+for data protection. As you can see from table 11.5, the
+leap from foundational capabilities to more mature coverage
+is non-trivial. The sooner you start to close these gaps, the
+less effort it will take to close them.
+SOFTWARE DEVELOPMENT SECURITY AND PRIVACY
+Investing in protecting your data and infrastructure will only
+go so far if you don’t also protect the product development
+process itself. Your engineers make many micro-decisions
+on design and implementation that, left unguided, could
+lead to privacy risk. Table 11.6 shows how you can create a
+software development process that balances engineering
+throughput and privacy.
+Table 11.6 Software development security and privacy maturity
+evolution</p>
+<h2 id="page-744">Page 744</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>Vulnerability 
+identification is 
+conducted in code (to 
+spot loose 
+credentials, for 
+example) and at 
+runtime, but teams 
+may prioritize one 
+over the other in the 
+absence of top-down 
+guidance or industry 
+standards.</p>
+<p>Privacy reviews act 
+as a final potential 
+blocker before code 
+deployments to 
+production, but there 
+are no workflows or 
+mandates to compel 
+engineering 
+participation in the 
+review process.</p>
+<p>Development and 
+testing need to 
+proceed with 
+synthetic and/or 
+anonymized data. 
+Code migration—from 
+development to 
+production 
+environments or vice 
+versa—would require 
+approvals and impact 
+analyses.</p>
+<p>Change-management 
+systems provide for 
+documenting the 
+impact on high-touch 
+systems and blocking 
+for approvals if 
+applicable. There 
+would be a callout to 
+privacy engineers to 
+review changes that 
+impact sensitive 
+customer data.</p>
+<p>Additive changes like 
+new systems, tech 
+stacks, or mergers 
+should proceed only 
+after integration and 
+unit testing is 
+conducted for privacy 
+risks.</p>
+<p>Individual systems as 
+well as cross-
+functional 
+combinations of 
+systems should have 
+controls built in to 
+identify 
+vulnerabilities 
+emerging from new 
+changes; for example, 
+ingesting more data 
+from a new API could 
+trigger tests to 
+recalculate k-
+anonymity, which you </p>
+<h2 id="page-745">Page 745</h2>
+<p>Emergency changes 
+trigger warning 
+notifications to 
+impacted entities 
+with an option to 
+revert.</p>
+<p>learned about in 
+chapter 5.</p>
+<p>The engineering and 
+privacy/security 
+teams should 
+continuously update 
+threat models based 
+on industry insight 
+and standards, and 
+then adapt those 
+changes to product 
+design, code 
+environments, and 
+transfer mechanisms.</p>
+<p>Only authorized 
+engineers and 
+DevOps personnel 
+can deploy code, and 
+there is a tamper-
+proof audit trail of all 
+deployments and 
+review requests.</p>
+<p>Penetration tests are 
+conducted annually 
+for all critical </p>
+<p>Systems, code, and 
+access configurations 
+are subject to sudden 
+reviews to validate 
+compliance. This 
+guardrail can be 
+repurposed for 
+privacy as well.</p>
+<p>Penetration tests are 
+conducted for critical 
+applications.</p>
+<p>Automated 
+vulnerability scans 
+are buffered by 
+manual testing so as 
+to avoid an over-
+dependence on 
+automation.</p>
+<p>Teams utilize testing 
+techniques that 
+attempt to find bugs 
+in code by randomly </p>
+<h2 id="page-746">Page 746</h2>
+<p>applications and 
+processes. These 
+tests simulate the 
+activities of an 
+attacker to validate 
+that discovered 
+vulnerabilities can be 
+exploited.</p>
+<p>feeding invalid and 
+unexpected input so 
+as to find coding 
+errors and security 
+loopholes. Done 
+continually, teams 
+are able to identify 
+patterns of new 
+vulnerabilities and 
+treat them as training 
+opportunities.</p>
+<p>Access to deployment 
+and environments is 
+restricted to people 
+with verified or 
+verifiable use cases.</p>
+<p>There is a document 
+approval process that 
+engineers can follow 
+before services can 
+egress data to 
+outside the network 
+perimeter (such as 
+the public cloud, third 
+parties, etc.).</p>
+<h2 id="page-747">Page 747</h2>
+<p>The critical takeaway from table 11.6 is that companies
+need data protection capabilities as an accompaniment to
+the software development process. Given the number of
+variables at play, companies need to help their engineers do
+the right thing. Companies that fail to do so are the ones
+who end up pointing their fingers at an engineer whose
+simple mistake ended up with outsized ramifications. The
+framework in table 11.6 will help protect the company, its
+engineers, and its customers.
+CLOUD-BASED DATA PROTECTION
+Given the vast amount of data that already lives in the
+cloud, as well as the number of companies migrating data
+to the cloud, cloud-based data protection is a key
+component of overall data protection. The chasm in data
+protection skills between cloud-first or cloud-native
+companies and companies playing catch-up is significant.
+This is critical, since cloud infrastructure is now a key part
+of the engineering development process. Table 11.7
+provides a framework for making sure that data protection
+is woven into your usage of the cloud.
+Table 11.7 Cloud data protection maturity evolution</p>
+<h2 id="page-748">Page 748</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>The company has a 
+list of cloud service 
+providers and their 
+services that have 
+been “allowlisted” by 
+finance, compliance, 
+requisitions teams, 
+etc.</p>
+<p>Data protection is 
+actively managed for 
+public cloud 
+programs and 
+workloads.</p>
+<p>Data protection is 
+considered explicitly 
+in all cloud programs. 
+There is a 
+proliferation of 
+controls applicable to 
+data, whether in 
+storage or transit.</p>
+<p>Data of varying levels 
+of sensitivity are 
+often processed in a 
+cloud, and this data is 
+often unstructured.</p>
+<p>A security-driven 
+process is in place to 
+verify and test 
+hypervisor 
+configuration 
+settings.</p>
+<p>This standard should 
+be further entrenched 
+based on the 
+sensitivity of the data 
+and the volume of the 
+data.</p>
+<p>When that happens, 
+engineers must 
+configure distinct 
+cloud accounts to 
+provide appropriate 
+levels of privacy or </p>
+<h2 id="page-749">Page 749</h2>
+<p>A mix of security and 
+business specialists 
+periodically review 
+hypervisor 
+configuration 
+settings and 
+document findings 
+and gaps.</p>
+<p>There is a need-based 
+and metric-driven 
+process to grant and 
+withdraw access to 
+hypervisor 
+management 
+functions and 
+administrative 
+consoles for systems 
+hosting virtualized 
+systems. If access is 
+granted, the validity 
+of the usage is 
+continually monitored 
+to compare against 
+the predefined need.</p>
+<p>Engineers use 
+secured and </p>
+<p>Data is encrypted 
+from end to end and 
+exemptions must be 
+clearly enumerated. 
+All server interactions 
+occur via encrypted 
+channels.</p>
+<p>the level of protection 
+is optimized for the 
+highest level of 
+sensitivity.</p>
+<h2 id="page-750">Page 750</h2>
+<p>encrypted 
+communication 
+channels when 
+migrating physical 
+servers, applications, 
+or data to virtualized 
+servers. Engineers 
+must be strongly 
+incentivized to use a 
+network distinct from 
+production networks 
+so as to avoid data 
+leakage during the 
+migration process.</p>
+<p>INFRASTRUCTURE-BASED DATA PROTECTION
+Just as protecting the cloud is critical, taking the same view
+toward the overall infrastructure is key. Given the
+segmentation of the modern tech domain into endpoints,
+services, etc., taking a holistic view of the infrastructure is
+non-negotiable. This will also increase the chances that a
+bad actor gets detected, since your data protection controls
+will be broad and deep rather than consolidated in a single
+layer. Table 11.8 provides a framework.
+Table 11.8 Infrastructure-based data protection maturity evolution</p>
+<h2 id="page-751">Page 751</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>Network and 
+endpoint security is 
+governed by policies 
+that define remote 
+access, 
+segmentation, email 
+security, network and 
+endpoint security 
+monitoring, and 
+device hardening. The 
+universal and 
+consistent 
+application of these 
+policies may not be 
+present.</p>
+<p>There has to be a 
+direct correlation 
+between the 
+sensitivity of the data 
+and the security 
+offered by the 
+containing network 
+segment. Such 
+security, regardless of 
+implementation 
+details, should 
+adhere to the 
+principles of zero-
+trust, continuous 
+monitoring, and rapid 
+adjustment in the 
+event of an anomaly.</p>
+<p>It should be possible 
+to isolate system 
+components from 
+other components of 
+the system so as to 
+provide enforceable 
+access limitations. 
+This isolation can 
+occur based on threat 
+identification, 
+detection, or on 
+regulatory changes.</p>
+<p>The company will 
+segment networks to 
+drive protection 
+based on risk. The 
+success criteria is the 
+quantifiable </p>
+<p>There must be 
+proactive and 
+continuous 
+monitoring of 
+adherence to access 
+control policies. This </p>
+<p>There is a constant 
+automated 
+comparison of data 
+flows across network 
+segments to an 
+acceptable baseline. </p>
+<h2 id="page-752">Page 752</h2>
+<p>reduction of 
+discovery and 
+exfiltration of critical 
+information assets.</p>
+<p>Segmented networks 
+for systems open to 
+third parties do not 
+have the same 
+lineage and access to 
+production assets 
+that internal 
+networks do.</p>
+<p>Remote access is 
+often necessary for 
+employees but is 
+configured such that 
+secure 
+communication and 
+data transfer can 
+occur over publicly 
+accessible networks 
+with minimal risk.</p>
+<p>There is enterprise 
+email security 
+filtering with anomaly 
+detection and third-
+must be upheld for 
+every network 
+segment as well as 
+remote access. Such 
+approval must also 
+require scrutiny of the 
+business case for 
+such access.</p>
+<p>There must be a 
+baseline set for 
+services in terms of 
+network traffic and 
+data flows they will 
+generate. These 
+metrics evolve with 
+changing adoption 
+levels, so acceptable 
+thresholds must be 
+regularly refreshed 
+for the entire 
+enterprise.</p>
+<p>Access to websites, 
+especially ones that 
+may lead to content 
+injection or data 
+extraction, should be 
+restricted through 
+web content filtering.
+Deviations from this 
+established baseline 
+will immediately lead 
+to access being 
+blocked.</p>
+<p>The mobile device 
+management (MDM) 
+mandates the highest 
+and most potent 
+encryption; BYOD 
+devices are not 
+allowed access to 
+systems with 
+sensitive data unless 
+there are exceptional 
+circumstances.</p>
+<p>There is little, if any, 
+difference between 
+monitoring, 
+quarantine, and 
+deletion controls that 
+apply to internal 
+email and messaging 
+and the 
+corresponding 
+controls for external 
+communications.</p>
+<h2 id="page-753">Page 753</h2>
+<p>party “allow” lists 
+and “block” lists.</p>
+<p>Remote wipe 
+capabilities and data 
+loss protection must 
+be offered by the 
+mobile device 
+management (MDM); 
+the MDM must also 
+offer lost device 
+tracking for hardware 
+with access to 
+sensitive data.</p>
+<p>In the event that 
+“Bring Your Own 
+Device” (BYOD) is 
+permitted, the 
+administrators must 
+facilitate a 
+ringfenced 
+environment for 
+enterprise 
+applications and 
+data.</p>
+<p>The security controls 
+to detect sensitive 
+data egress should 
+cover email, chat </p>
+<p>Only select users with 
+privileges can make 
+changes to the 
+firewall rules when 
+those changes are to 
+apply immediately.</p>
+<h2 id="page-754">Page 754</h2>
+<p>programs, and other 
+data mobility tools. 
+Detections of 
+unauthorized data 
+sharing via all 
+possible channels 
+should be used to 
+update the risk score 
+as well as threat 
+models. This finding 
+is then fed into 
+roadmaps for risk 
+identification when 
+new systems are 
+conceived.</p>
+<p>A key observation from table 11.8 is that the use of
+endpoints is not all there is to infrastructure protection.
+Since privacy is contextual and is often compromised by
+data aggregation, the mobile nature of today’s workforce
+and customers should be a consideration, as should
+communication via email, given the risk of targeting and
+compromise.
+Given the number of companies just migrating to the cloud
+or struggling to update their legacy protocols, it is possible
+they are vulnerable to email-powered attacks. These range
+from spoofing and phishing to domain squatting. These
+attacks tend to be aimed at companies with antiquated
+email configurations. Their targets tend to be busy</p>
+<h2 id="page-755">Page 755</h2>
+<p>executives or other leaders who may be increasingly
+susceptible.
+Client-side attacks can be equally effective. Malicious
+content, by way of an email attachment, could easily lead to
+a ransomware situation. This is just a flavor of
+infrastructure-related vulnerabilities that, when combined
+with a hyper-mobile and connected workforce, form a
+combustible cocktail. Having continually evolving
+infrastructure security is vital for detecting and remedying
+these gaps. I hope that you will see the shadows of recent
+headlines and mistakes in the recommendations in table
+11.8.
+11.1.3 Detection
+The third dimension of privacy engineering is detection of
+risks or actions that could pose risks. However, the
+traditional detection model optimizes for damage control via
+timely detection and remedial action. I am proposing that
+we lean in and build preemptive capabilities that detect
+risks upstream and help build products that are risk-
+resistant.
+THREAT INTELLIGENCE
+Bad actors who wish to gain access to customer data will
+either hew to existing risk patterns or identify new ones.
+Companies that wish to thwart them need to act likewise
+and gather threat intelligence so they can prepare a defense
+strategy. Table 11.9 provides a sample framework.</p>
+<h2 id="page-756">Page 756</h2>
+<p>Table 11.9 Threat intelligence maturity evolution</p>
+<h2 id="page-757">Page 757</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>The collection and 
+interpretation of 
+threat information 
+and corresponding 
+updates occurs in an 
+ad hoc fashion. These 
+updates may not be 
+uniformly enforced 
+like they should be, 
+since they exist, in 
+many cases, at the 
+service level rather 
+than the 
+infrastructure level.</p>
+<p>The company updates 
+security tools and 
+their configuration 
+settings based on 
+threat intelligence 
+that is a superset of 
+several threat models 
+and vectors.</p>
+<p>The organization has 
+an evolving threat 
+profile that identifies 
+potential threat 
+actors, motives, 
+intent, capabilities, 
+and targets.</p>
+<p>Rather than relying 
+on internal 
+assessments that 
+carry the risk of 
+confirmation bias, the 
+company regularly 
+refreshes threat 
+intelligence from free 
+and paid sources, 
+such as benevolent 
+hackers and other 
+experts.</p>
+<p>The organization has 
+an evolving threat 
+profile that covers the 
+full perimeter and 
+constantly imbibes 
+insights from the 
+team/service level.</p>
+<p>Responses to 
+detected or identified 
+threats trigger 
+preplanned processes 
+and mitigation 
+workflows.</p>
+<h2 id="page-758">Page 758</h2>
+<p>There is a very 
+rudimentary 
+prioritization 
+mechanism for 
+threats that are 
+newly discovered.</p>
+<p>There are limited risk 
+indicators and KPIs 
+for threat 
+intelligence, and 
+these KPIs vary by 
+team and service 
+(i.e., the KPIs for a 
+specific service may 
+not reflect the 
+network exposure or 
+data sensitivity).</p>
+<p>The company 
+prioritizes and 
+addresses threat 
+information sources; 
+these sources are 
+regularly validated to 
+confirm 
+completeness and 
+currency.</p>
+<p>While the Key Risk 
+Indicators (KRIs) and 
+KPIs may not be 
+finessed for all edge 
+cases, they are 
+tracked to ensure 
+organizational 
+coverage.</p>
+<p>The company can 
+track whether the 
+threat intelligence is 
+comprehensive as 
+well as adaptable. For 
+example, incoming 
+emails are continually 
+monitored and 
+intercepted to detect 
+phishing attempts or 
+SQL injection 
+attempts. </p>
+<h2 id="page-759">Page 759</h2>
+<p>As table 11.9 shows, threat intelligence requires not just an
+agile understanding of data and identity, but also a tight
+alignment organizationally. This will help build an
+understanding of upcoming attacks and gaps that would
+amplify the effectiveness of those threats.
+CONTINUOUS MONITORING
+As you build out privacy engineering maturity, ensuring that
+you monitor for threats and anomalies is critical. Monitoring
+should optimize for both coverage as well as depth. That
+means you want a capability that covers a large and
+expanding surface area as well as to probe in depth for
+specific silos. Table 11.10 provides a sample framework.
+Table 11.10 Continuous monitoring maturity evolution</p>
+<h2 id="page-760">Page 760</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>It is possible to 
+identify privacy 
+incidents, policy 
+violations, fraudulent 
+activity, and potential 
+breaches based on 
+logging activity and 
+signals sent to 
+system owners. There 
+may not be a 
+centralized 
+monitoring system 
+that enforces 
+identification SLAs.</p>
+<p>There are the 
+beginnings of a 
+mapping between 
+monitoring resources 
+and corresponding 
+remediation 
+workflows.</p>
+<p>Engineers fine-tune, 
+test, and run QA for 
+alerts prior to and 
+during production, so 
+as to ensure 
+continual monitoring.</p>
+<p>Owners of mission-
+critical services 
+create runbooks for 
+advanced use cases; 
+these runbooks 
+provide guidance for 
+triage and “stop the 
+bleeding” steps.</p>
+<p>Log generation and 
+storage are 
+configured for easy 
+access and rapid 
+response.</p>
+<p>All logs are monitored 
+with high frequency 
+to observe anomalies 
+such as when a 
+source system 
+generates discernibly 
+more or less data 
+than normal.</p>
+<p>Automated network 
+scanning tools 
+continuously identify 
+log sources that 
+could help identify 
+threats and even new 
+services that may 
+process sensitive 
+data.</p>
+<h2 id="page-761">Page 761</h2>
+<p>Alert escalations 
+tend to follow an ad 
+hoc process that is 
+optimized for 
+resolution rather than 
+formal 
+documentation.</p>
+<p>In order to discern 
+the impact of privacy 
+and security events, 
+alert thresholds are 
+programmed based 
+on incident severity 
+and blast radius.</p>
+<p>Engineers create and 
+prioritize logging 
+sources with a 
+myopic and service 
+focus rather than 
+extrapolation to 
+organizational 
+monitoring needs.</p>
+<p>Any sensitive data (IP 
+addresses, device 
+IDs, etc.) are 
+aggregated and/or 
+obfuscated to serve 
+monitoring needs but 
+to also avoid granular 
+use profiling.</p>
+<p>There is obviously more to mature monitoring than I have
+provided in table 11.10. However, the key observation is</p>
+<h2 id="page-762">Page 762</h2>
+<p>that you will want to check more places for logs, check
+more often, and watch for anomalies in those logs. Patterns
+in those entries and timely identification of those patterns
+will help identify security risks that, left undeterred, could
+cause privacy harms.
+INSIDER THREAT
+Companies may have internal associates who end up
+compromising the protection of its data. This threat may
+stem from malfeasance or incompetence or even
+carelessness. This creates a need for sophisticated granular
+and tiered access control and in-depth monitoring and
+response capabilities. Table 11.11 provides a sample
+framework.
+Table 11.11 Insider threat maturity evolution</p>
+<h2 id="page-763">Page 763</h2>
+<p>Foundational</p>
+<p>Mature</p>
+<p>Advanced</p>
+<p>There is continuous 
+monitoring of insiders 
+whose services 
+access and process 
+sensitive data.</p>
+<p>There is a lack of 
+continual education 
+and training on data 
+management and 
+processing best 
+practices or on the 
+outcomes if these 
+best practices are 
+violated.</p>
+<p>The team relies 
+primarily on existing 
+applications, 
+generated alerts, and 
+user reports, and </p>
+<p>There is continuous 
+monitoring of third-
+party vendors whose 
+services access and 
+process sensitive 
+data.</p>
+<p>The security team 
+monitors behavior 
+analytics to simulate 
+a set of use cases 
+that a malicious 
+insider may execute. 
+These behavioral 
+analytics are 
+compared to defined 
+baseline profiles and 
+legitimate behavior. 
+These comparisons 
+help drive 
+escalations, 
+remediations, and 
+sanctions.</p>
+<p>The access to 
+sensitive data is 
+granularly segmented 
+so that there are 
+specific risk focus 
+areas. An example 
+would be insiders 
+who have access to a 
+customer’s mobility 
+data and could use it 
+to track an ex-spouse.</p>
+<p>Varying levels of 
+insider sophistication 
+drive response 
+workflows; this will 
+help cover insiders 
+ranging from the 
+sophisticated to ones 
+that are dilettantes.</p>
+<h2 id="page-764">Page 764</h2>
+<p>these efforts are 
+often siloed.</p>
+<p>Privacy and security 
+engineers correlate 
+and analyze a defined 
+set of data such as 
+log information, IP 
+addresses, and data 
+movements to 
+identify potential 
+insider threats.</p>
+<p>There could be more 
+invasive monitoring 
+for employees 
+identified as likely 
+insider threats. When 
+anomalies are 
+identified, 
+remediation is often 
+localized to the team.</p>
+<p>Policies and controls 
+for insider threats 
+tend to not be 
+defined clearly, nor is 
+their application 
+consistent.
+Employees with 
+granular access to 
+sensitive data are 
+made aware of the 
+additional scrutiny 
+and monitoring that 
+will apply to them.</p>
+<p>Rather than looking 
+for deviation from a 
+baseline, the insider 
+threat modeling 
+evaluates how the 
+baseline must evolve 
+as data, network 
+segments, and 
+service engagement 
+levels change.</p>
+<h2 id="page-765">Page 765</h2>
+<p>As you can see from table 11.11, privacy controls for insider
+risk require monitoring based on the data and
+infrastructure. However, they also require an insight into
+human behavior. While I understand the data protection
+imperative, building a baseline of acceptable behavior and
+predicting future behavior could land you in some sensitive
+areas. I advise you to take a consultative approach so as to
+avoid a process and outcome tainted by prejudice or false
+positives.
+11.1.4 Remediation
+Even if companies do everything in their power and then
+some, there will be privacy incidents. These could range
+from inadvertent logging or access of sensitive data to
+incomplete deletion to exfiltration. These will require an
+incident response management capability that cannot be
+spun up on the fly. This resource (or team) will need to
+work cross-functionally and quickly. This is a challenge for
+small and growing companies, since these businesses are
+segmented to optimize for rapidity. Table 11.12 provides
+some context on how you can scale this dimension to
+complete your overall data protection rubric.
+INCIDENT RESPONSE MANAGEMENT
+Companies need to understand that insider risk is often the
+most underrated risk vector to security and privacy. Either</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "navigation.sections", "navigation.expand", "navigation.tracking", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
