@@ -19,6 +19,9 @@ theme:
     - toc.follow
     - content.code.copy
 
+plugins:
+  - search
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -33,7 +36,7 @@ validation:
     unrecognized_links: warn
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Human Body:
     - Part 1: wiki/The Human Body_part1.md
     - Part 2: wiki/The Human Body_part2.md
