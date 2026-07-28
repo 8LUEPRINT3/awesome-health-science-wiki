@@ -1,0 +1,3006 @@
+---
+title: Palliative Textbook - Part 3
+source: Palliative Textbook.md
+category: health-science
+---
+
+other usual tasks
+• Slept or rested for more time than usual but arose with-
+out feeling refreshed or energized
+• Said things like “I am still so tired” or “I slept all day, and I
+could sleep all night”
+• Started a task but was not able to complete it
+• Felt distressed after engaging in even limited activities
+• Withdrew from or lost interest in activities
+• Refused to see visitors
+Using the Symptom Framework for PSWs—fatigue
+If you observe signs of fatigue in the person you are car-
+ing for, use the Symptom Framework for PSWs adapted
+for fatigue (Figure 8) to explore your observations. Choose
+a time to ask questions when the person is freshest and
+most energetic. Always proceed with a trauma-informed
+approach. As you ask questions, remember to be open to
+different understandings of fatigue by people from different
+Chapter 4: Supporting Physical Comfort | Fatigue 121
+
+Figure 8 . Symptom Framework for PSWs—fatigue
+When did you first notice feeling tired?
+O Onset Is this new, or has this happened before?
+Did it start suddenly or slowly?
+P Provoking/Palliating What makes fatigue worse or better?
+Q Quality What does this fatigue feel like to you? Does it affect what you do?
+R Region/Radiating Where do you feel this fatigue? Are there places in your body that feel more fatigued?
+How severe is this experience with fatigue?
+0 = no symptom and 10 = the worst imaginable
+S Severity
+Small, medium, large
+Mild, moderate, severe
+T Treatment What do you think might be helpful?
+U Understanding What do you think might be happening?
+V Values What are your goals for the fatigue?
+What else do you want me to know or do?
+W What else? For the PSW: Consider your knowledge of this person—what do you see?
+What do you believe would be helpful?
+Preventive In the moment
+PSWs can support a person experiencing fatigue by help- When a person is fatigued, you might offer to
+ing them with their activities of daily living (Canadian Virtual • Reschedule treatments and activities
+Hospice, 2019e). You could open the conversation by saying, • Provide the person with a meal in bed
+• Offer a small snack rather than a full meal
+I am here to do the things that are of less interest to you • Suggest activities that are relaxing (e.g., listening to
+so that you can use your energy for things that are most music, massage)
+important to you.
+When nighttime sleep becomes disturbed, you can suggest
+To help the person pace their plans for the day, you might options that could improve sleep, such as having a quiet
+say, time before bed, listening to music, and receiving thera-
+peutic touch or a comforting visit by a loved one.
+I notice that you have more energy in the morning and
+are tired and want to sleep in the afternoon. Do you want For the family
+your family to visit you in the morning?
+PSWs can help the family understand the changing energy
+Would you like to limit the number of visitors or limit the levels of the dying person. It is helpful to work with the
+length of their visits? family to plan appropriate activities and caregiving that
+will meet the needs of the fatigued person. Always listen to
+Early in the disease process, the physiotherapist may discuss family members to understand their concerns, and acknow-
+the benefits of exercise as a way to increase energy. As their ledge their fears about what fatigue might mean for the per-
+disease progresses, exercise may add to exhaustion. son. Report the family’s concerns (e.g., Is medication causing
+fatigue?) to the nurse.
+122 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+When appropriate, invite the family to help the person with
+activities of daily living. Look for opportunities to share infor-
+mation with the family about how to
+• Help their loved one without “doing it all” for them
+• Be open to adapting plans daily or hourly, depending
+on how the person is feeling
+• Be mindful, when visiting the person, of their energy
+and needs
+• Revise the care plan with the nurse as determined by
+the person’s needs
+• Ask the nurse for more information about fatigue
+You can also help the family by reinforcing the following
+messages provided by the team:
+• Drowsiness is a normal side effect when a person begins
+to take opioids or when the opioid dose increases. The
+person’s drowsiness will fade after a few days.
+• As death nears, it is normal and expected that people
+become weaker and sleep more.
+Medications and Treatments
+The person benefits most when treatments remove the
+cause of fatigue (e.g., antibiotics to remove an infection,
+blood transfusion to treat anemia). When it is not possible
+to remove the cause of fatigue, depending on its cause a
+short course of steroids can boost the person’s energy. Con-
+sider this option when a person wants to participate in cer-
+tain activities (e.g., daily activities, a special event such as a
+wedding), and discontinue the steroid medication when the
+person cannot get out of bed.
+Chapter 4: Supporting Physical Comfort | Fatigue 123
+
+Mouth Discomfort
+Most of the people I care for have dementia. They can’t tell me Competency Touchstone
+when something is wrong. They can’t tell me that they have a The PSW:
+sore mouth. So I listen like I am a detective. I observe carefully, Supports people in self-management of their
+I “listen to behaviours.” Then I try to figure out what could be life-limiting conditions, involving the family
+wrong. as appropriate.
+(BC Centre for Palliative Care, 2018)
+I remember one lady who was upset, but she couldn’t tell
+me what was wrong. She hit me and resisted care. Finally, I
+started singing with her, and she relaxed a bit. I sat next to her. The person with mouth discomfort may have
+• Visibly dry lips, gums, or tongue
+Then I thought, “I need to see her mouth. She has not been • Swollen oral mucosa, lips, or tongue
+letting me give her mouth care for the last few days.” Sure • Fresh or dried blood in their mouth or on their lips
+enough, her mouth had ugly red patches and creamy white • A coloured discharge on their toothbrush after use
+spots. She had a thrush infection that was causing her pain. • An unpleasant smell in the mouth
+• Colour changes with or without red or white sores in
+their mouth
+Mouth discomfort develops when the normal tissues of the • Difficulty swallowing
+oral cavity become dry, irritated, and possibly infected. There
+are many causes of mouth discomfort (e.g., medication side Using the Symptom Framework for PSWs—mouth
+effects, poorly fitting dentures, a weakened immune sys- discomfort
+tem); therefore, preventive mouth care is important. Because
+PSWs provide most of the personal care, they will be the first Use the questions in the Symptom Framework for PSWs
+to notice changes in a person’s mouth or behaviours that adapted for mouth discomfort to gather information about
+may signal mouth pain. mouth comfort (Figure 9) (Fleming et al., 2020). Proceed with
+a trauma-informed approach and remember that the mean-
+Gathering Information ing of a symptom is subjective and must be understood
+from the person’s perspective. Record and report informa-
+Observing tion to the nurse and team, and collaborate with the team
+to individualize comfort measures.
+Some people may tell you their mouth is sore, but most
+people manage their sore mouth by avoiding activities that
+Competency Touchstone
+cause mouth pain. PSWs need to watch for behaviours that
+The PSW:
+may signal mouth pain. A person who suddenly does not
+Communicates promptly with registered
+want anything in their mouth (e.g., refuses food, drinks less
+staff about the changing health status of the
+than usual, doesn’t want their teeth cleaned) may have a
+person.
+sore mouth. If talking causes pain, the person may stop talk-
+ing or moan instead of using words. If you see these behav-
+Maintains open communication channels
+iours, look further for symptoms of mouth discomfort.
+with First Nations, Inuit, Métis and urban
+Indigenous care teams when caring for First
+Nations, Inuit, Métis and urban Indigenous
+people.
+(Ontario Palliative Care Network, 2019)
+124 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Figure 9 . Symptom Framework for PSWs—mouth discomfort
+When did you first notice your mouth was sore?
+O Onset
+Is this new, or has this happened before?
+P Provoking/Palliating What makes your mouth feel worse or better?
+Q Quality Can you describe the discomfort? How does this symptom affect you?
+R Region/Radiating Where in your mouth or throat do you feel the pain?
+How severe is your mouth discomfort?
+0 = no symptom and 10 = the worst imaginable
+S Severity
+Small, medium, large
+Mild, moderate, severe
+T Treatment What do you think might be helpful?
+U Understanding What do you think might be happening?
+V Values What are your goals for your mouth?
+What else do you want me to know or do?
+W What else? For the PSW: Consider your knowledge of this person—what do you see?
+What do you believe would be helpful?
+Comfort Measures
+Preventive
+Regularly providing mouth care will help prevent mouth It is important to use these mouth care strategies (Canadian
+dryness and sores. The preventive mouth care strategies dis- Virtual Hospice, 2019a):
+cussed below are useful for all people receiving supportive • Provide mouth care before and after the person eats.
+care and are especially important for those at high risk for • Remove the person’s dentures before providing mouth
+developing thrush infections (e.g., during and after radiation care.
+or chemotherapy). Focus on hydrating and lubricating the • Brush gently or wipe the oral mucosa to remove plaque
+mouth in people at risk for a dry mouth, such as those with and debris.
+limited intake or who are in their last days and hours. • For people resisting mouth care, use creative strategies
+to complete the task (e.g., distract them with singing,
+When providing personal care such as mouth care, proceed talking, gently touching).
+with a trauma-informed approach, recalling what you know • If the person has a thrush infection, soak their dentures
+about this person to make the experience as pleasant as and toothbrushes in a vinegar or disinfectant solution
+possible. Be respectful of the person’s cultural values, their to prevent spreading the infection.
+understanding of this symptom, and their goals of care. • Use a soft toothbrush and, if necessary, a specialized
+toothpaste.
+Chapter 4: Supporting Physical Comfort | Mouth Discomfort 125
+
+In the moment
+Competency Touchstone
+In addition to using the mouth care strategies listed above, The PSW:
+Seeks to understand the family’s desired level
+if the person’s mouth is dry, use these strategies to hydrate
+of involvement in the person’s care, being
+and lubricate (Fleming et al., 2020):
+sensitive to the family’s wishes.
+• Offer water or other drinks frequently.
+• Recognizes that caring for First Nations,
+• Spray the inside of the person’s mouth with cold water.
+Inuit, Métis and urban Indigenous people
+• Offer them ice cubes wrapped in a clean washcloth to
+may involve the larger First Nations, Inuit,
+moisten the mouth.
+Métis and urban Indigenous community
+• Offer them slightly thawed Popsicles, pineapple chunks,
+beyond the individual/family.
+sour candies, or chewing gum.
+(Ontario Palliative Care Network, 2019)
+When a person cannot manage their mouth care, you can
+use these strategies: Medications and Treatments
+• Moisten their oral mucosa gently using packaged or
+homemade mouth swabs. Medications may be necessary for pain relief, to prevent
+• Use a fine-mist spray bottle to moisten the oral mucosa or treat infections, and to encourage healing. Topical
+with water. treatments may be “swish and swallow” or “swish and spit”
+• Offer these liquids for rinsing their mouth: depending on the medication. Report to the nurse when
+• Water a person is not able to swallow or spit. Depending on your
+• Salt water (1 teaspoon table salt mixed into 2 cups scope of practice, you may be directed to “paint” medication
+boiled and cooled water) on with mouth swabs or to squirt medication onto the inner
+• Alcohol-free germicidal mouthwash diluted to half cheeks using a syringe.
+strength with water
+• Brandy diluted with water to remove crusts and
+reduce breath odour
+• Club soda to loosen materials on oral mucosa and
+teeth.
+• Apply lubricant to the oral mucosa using a swab, after
+the mouth has been cleaned and rinsed.
+• Apply lip balm after applying the lubricant (use water-
+based products if the person is receiving oxygen).
+For the family
+Invite the family to participate in mouth care as one way
+to support their loved one. Remind them to use gloves if
+the person has a thrush infection. Family can participate
+by using the fine-mist spray bottle to moisten the person’s
+mouth.
+Irene was in her last days of life. She was not eating and could
+not swallow liquids without coughing and choking. The
+PSW began using mouth swabs to moisten her tongue, oral
+mucosa, and lips to keep her comfortable. Balm was applied
+to keep her lips from cracking. The PSW invited the family to
+participate in mouth care and showed them how to use the
+swabs. Her family welcomed the opportunity to help provide
+comfort for Irene in her last days and hours.
+126 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+I need to be creative with this lady to get her comfortable. I set Sample Report
+up towels, a toothbrush, a glass of water, and the rinse she is ❝ I am Katy and I am contacting you about
+supposed to use for the thrush infection. Mrs. Z and concerns I have about her mouth.
+She loves singing, so I sing with her and walk her slowly into When I did Mrs. Z’s mouth care today I saw red
+the bathroom. Using a singsong voice, I ask her if she would patches and white spots in her mouth. She
+like to brush her teeth or rinse her mouth. Sometimes it takes did not seem to be in pain, and I did not see
+several tries. any blood. She was able to rinse her mouth
+but would not allow me to brush her teeth.
+I try putting the toothbrush in her hand while singing or smil- She enjoyed my singing while trying to do the
+ing, speaking softly to her. Then I gently lift the toothbrush mouth care. I charted the care and observa-
+to her mouth (keeping my fingers crossed she will work with tions. Plan is to continue to provide mouth
+me). care after meals and rinses as per protocol.
+I always watch her body language. I stop when she gets Can you assess her mouth please? ❞
+defensive or agitated and switch the conversation to some-
+thing she enjoys.
+Sample Record
+…
+0815 Mrs. Z—PPS 30%. Mrs.
+Z refuses to brush teeth, did
+rinse mouth with prescription
+mouth rinse. Mouth has red
+patches and white spots. No
+blood visible in swish and spit.
+Did not make sounds of pain or
+facial expression of pain. She will
+only rinse her mouth if we sing
+to her. No responsive behaviours
+present. Reported to nurse. Plan to
+encourage resident to brush teeth
+after meals and rinse her mouth
+…
+as per orders.
+Chapter 4: Supporting Physical Comfort | Mouth Discomfort 127
+
+Nausea and Vomiting
+Gathering Information
+She was crying on the bed when I entered her room. “I’m so
+tired of this nausea, I wish I could just die.”
+Observing
+I sat with her and held her hand … It was all I could think of
+to help at that moment. A PSW needs to be aware that people signal they are feeling
+nauseated in many ways. For example, a mildly nauseated
+When she was less distressed, we talked about the things that person might say, “I don’t feel good” or “My stomach is jump-
+make it worse and those things that might make it better. We ing” or “I have an upset tummy.” When nausea increases, the
+made a few changes, and then I phoned the nurse to report. person may tell you, “I think I am going to throw up” or “I’m
+going to be sick.”
+Consider exploring whether a person is experiencing nau-
+Competency Touchstone sea if they
+The PSW: • Say, “My stomach doesn’t feel good” or “I have an upset
+Provides appropriate interventions as per
+stomach”
+the care plan. Provides comfort measures for
+• Burp much more frequently than usual
+common symptoms.
+• Begin taking deep breaths or holding their breath for
+(BC Centre for Palliative Care, 2018)
+a short time
+• Place pressure on their abdomen using their hands and
+Nausea is a feeling of discomfort centred in a person’s stom- arms
+ach and extending up to their throat. Sometimes nausea • Suddenly decrease their intake of or refuse food and
+creates the feeling there is a lump at the back of the throat. drink
+These feelings of discomfort can range from mild to severe. • Begin rocking or any repetitive continuous movement
+Nausea is often, but not always, accompanied by vomiting, for no apparent reason
+that is, the contents of the stomach and digestive system • Make retching and gagging sounds
+moving in the reverse direction, coming up the esophagus
+and out through the mouth. These two symptoms can be If the person vomits, observe and record the date and time
+very difficult for a person to tolerate, often as difficult as they vomited and a description of what they vomited,
+severe pain. including the amount, texture, and colour. Report the
+vomiting to the team.
+Working quickly to manage the causes and effects of nausea
+and vomiting or relieving the symptoms greatly improves a
+dying person’s comfort. Reducing nausea and vomiting can
+be difficult because they have many causes (e.g., medica-
+tion, pain, stomach irritation, brain swelling, anxiety, odours)
+(BC Centre for Palliative Care, 2017). As PSWs provide most
+of the personal care and support for the dying person, your
+input is valuable for identifying the causes of nausea or
+vomiting.
+128 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Using the Symptom Framework for PSWs—nausea Comfort Measures
+and vomiting
+Understanding the cause of a person’s nausea and vomiting
+If you suspect a person is nauseated or they have vomited, can help prevent and manage future episodes.
+use the Symptom Framework for PSWs adapted for nausea
+and vomiting (Figure 10) to explore how they are feeling Preventive
+and their understanding of their symptoms (Fraser Health,
+2012). Use your knowledge of the person’s cultural values As a PSW, you will be able to manage the environmental
+to understand this person’s experiences with nausea and causes of nausea and vomiting and help with personal care
+vomiting. Incorporate a trauma-informed approach when after vomiting.
+asking questions, and take note of
+• The person’s colouring, paleness, or pallor When you suspect that the person you are caring for is
+• Their comments about feeling heartburn, stomach experiencing nausea, taking the following actions may help
+pain, or discomfort to provide comfort:
+• The date and a description of their last BM • Remove sources of unpleasant odours from the room
+• Any other symptoms, such as headache or anxiety (e.g., commode, uneaten food).
+• Ensure that the flow of air in the room is sufficient to
+keep it smelling fresh and clean.
+Competency Touchstone • Use a bathroom fan to keep air moving.
+The PSW:
+Provides assistance with personal care needs
+Preventive measures for vomiting include these:
+in a way that maximizes the person’s dignity
+• Provide regular mouth care. If the person cannot toler-
+and privacy in self-care and also when client
+ate mouth care, try rinsing their mouth with water. This
+is no longer able to communicate.
+can help to prevent more vomiting.
+(BC Centre for Palliative Care, 2018)
+• Supply small meals that cater to the person’s prefer-
+ences and appetite on any given day.
+Figure 10 . Symptom Framework for PSWs—nausea and vomiting
+When did the symptom begin?
+O Onset Is this new, or has this happened before?
+Did it start suddenly or slowly?
+P Provoking/Palliating What makes the symptom feel better? Worse?
+Q Quality Can you describe the discomfort? How does this symptom affect you?
+R Region/Radiating Where are you feeling the symptom?
+How severe is the symptom?
+0 = no symptom and 10 = the worst imaginable
+S Severity
+Small, medium, large
+Mild, moderate, severe
+T Treatment What do you think might be helpful?
+U Understanding What do you think might be happening?
+V Values What are your goals for the symptom?
+What else do you want me to know or do?
+W What else? For the PSW: Consider your knowledge of this person—what do you see?
+What do you believe would be helpful?
+Chapter 4: Supporting Physical Comfort | Nausea and Vomiting 129
+
+• Use pillows to help the person remain upright after eat- The family can help by gathering materials that will be
+ing if this position decreases nausea or vomiting. needed if vomiting occurs (e.g., large bowls rather than
+small kidney-shaped basins, towels, washcloths, tooth-
+In the moment brushes, drinking glass). You might also consider doing the
+following if vomiting is expected:
+When a person feels nauseous, you may help them feel bet- • To make the bowl or bucket cleanup easier, pour a
+ter by small amount of water into the bowl or bucket before
+• Repositioning them to raise their head above the heart the person vomits.
+level, using pillows if necessary • Make non-see-through bags into which the person
+• Providing fresh air by opening windows or using a fan can vomit by putting a plastic bag inside a small paper
+bag, because hiding the vomit can reduce their nau-
+It is important to listen to the person’s concerns, remem- sea. Once a bag has been used, you or the family can
+bering that focusing on nausea can increase the feeling of examine the contents and estimate the volume if there
+nausea. Explore these options to help manage the person’s is concern about what is in the vomit.
+symptoms:
+• Ask if scents or perfumes are contributing to their Medications and Treatments
+symptoms.
+• Ask whether visitors or quiet time would help. As with pain, a combination of medications may be required
+• Offer distractions, for example, ask whether they would to manage nausea and vomiting. Depending on the cause
+like to watch TV or listen to music. of the nausea or vomiting, the person may need to take
+• Offer gentle massage or other touch therapies if helpful. the medication continuously until death. The dying person
+• Connect with the care team to share information about and their family may wonder why they have to keep taking
+managing nausea for this person. the medication when they are no longer experiencing the
+symptoms. If the person or family talks about wanting to
+If the person is vomiting, in addition to initiating or continu- stop the medication when the symptom stops, suggest that
+ing support for nausea as detailed above, you can also do they speak with the nurse or physician about this concern.
+the following:
+• Provide privacy while the person is vomiting.
+• Offer mouth care after they have vomited or rinse the Sample Report
+❝
+mouth if they cannot tolerate mouth care. Hello, I’m Shauna and I am calling about
+• Frequently offer small sips of fluids or ice chips to pre- Jim M. I am concerned about his nausea.
+vent dehydration.
+He said the other day that he was nauseated,
+• Provide fresh sheets, towels, and sleepwear after the
+and then again today. He does not talk very
+person has vomited.
+often, and rarely does he mention when he is
+uncomfortable. He is not able to answer any
+You will need to report to the nurse when the person stops
+of the questions about the nausea. There is
+vomiting and nausea settles, and work with the team to
+no record that he received any medications
+adapt the care plan when the person wants to eat again.
+when he was nauseated a few days ago. His
+Once nausea and vomiting stop, it is important to proceed
+bowel movements are normal. He moves
+cautiously with oral intake. This should begin with clear flu-
+and transfers the same as before. His eating
+ids and be increased very gradually to full fluids, if tolerated,
+patterns have changed. He only eats little
+and eventually progress to eating small meals.
+amounts and no snacks. This is a change for
+him. Jim’s family is concerned. They noticed
+For the family he was not eating but did not know about
+the nausea. I gave him clear soup for lunch.
+If the person has specific preferences about who can be
+present when they are vomiting or being cleaned up after Can you please see him to address his
+❞
+such episodes, you can help by communicating these pref- nausea?
+erences to the family. Explain that for some people, vomiting
+can be embarrassing, as well as extremely uncomfortable.
+130 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Pain
+I remember a woman I cared for almost 30 years ago in a Competency Touchstone
+small-town hospital. Lying at the far end of the hall in a two- The PSW:
+bed room, she would call out, “Nurse … Nurse … help me … Demonstrates understanding of the poten-
+Nurse …” and after a while, she would call out, “God, God, tial barriers to providing pain management,
+God … help me, God.” When I look back all these years later, I particularly when caring for First Nations,
+can still recall her name and can remember walking into her Inuit, Métis and urban Indigenous people
+room, not knowing what to do or how to help. In retrospect, I • E.g., The person may not discuss pain, fear
+think that she received acetaminophen a few times a day, but of addiction, and availability of medication.
+I am sure that she did not get anything else for her pain. My Important to pay additional attention to
+memory of her still haunts me, and I regret not having been a the non-verbal cues and body language of
+better support to her. the individual/family.
+(Ontario Palliative Care Network, 2019)
+Pain is a signal sent to the brain that indicates that tissue or
+nerve damage is occurring. Pain is a common symptom of Gathering Information
+dying, because the dying process involves progressive tissue
+damage and cell death. Sadly, pain is still one of the most PSWs spend significant time providing care and therefore
+feared symptoms people associate with dying. generally are familiar with the person’s usual behaviour. This
+knowledge can help you identify early signs of discomfort
+Although tissue damage causes physical pain, pain is also a when you are observing the person.
+whole person experience. Dame Cicely Saunders (see Chap-
+ter 1, “Understanding Dying and a Palliative Approach”), iden-
+Competency Touchstone
+tified the concept of “total pain,” which includes physical,
+The PSW:
+emotional, spiritual, and social parts of a person. Untreated
+Identifies and communicates changes in the
+pain can result in depression, decreased mobility, decreased
+person’s condition.
+socialization, and sleep disturbances. When integrating a
+(BC Centre for Palliative Care, 2018)
+palliative approach, the team works with the whole person
+to manage pain.
+Observing
+Older people commonly have pain and many will have
+more than one source of pain. For the older adult, most pain Often a person’s behaviour changes even before they talk
+is associated with musculoskeletal problems such as arth- about pain. Therefore, PSWs who know a person’s usual
+ritis. Nerve pain can also result from diabetes, trauma, and behaviour, who know what is normal and meaningful
+amputation. Cancer can cause a variety of organ, muscle, for the person, will be best at identifying changes in their
+bone, and nerve pain. Older persons are at highest risk for behaviour. Observe, record, and report to the nurse and
+unrecognized pain and undertreatment of pain, because team behaviour changes that may indicate untreated pain.
+they may not report their pain or, due to cognitive impair-
+ment, may not be able to report their pain (BC Centre for When providing care for a person who is unable to com-
+Palliative Care, 2017). municate their pain verbally, because of cognitive impair-
+ment or an unwillingness to speak about pain, PSWs need to
+Good pain management requires a team approach, and be watchful for behaviour changes that may indicate pain.
+PSWs are invaluable resources in helping to gather informa-
+tion, identify comfort measures, and provide support. Your
+input helps the team fine-tune the medications used to
+help people achieve their goals for pain management.
+Chapter 4: Supporting Physical Comfort | Pain 131
+
+Cultural differences in pain behaviours may make changes
+I give morning care to a woman with advanced dementia.
+difficult to observe. For example, some people may not
+One morning I lifted her arm to wash her armpit and she
+report or show their pain because of their mistrust of the
+pulled her arm away sharply, grimaced, moaned, and struck
+health care system. Others may not talk about or show signs
+me with her other hand.
+of pain, believing that the need for pain medications indi-
+cates weakness (Narayan, 2010). For these reasons, it may be
+I wondered, “What is going on? Maybe her shoulder is sore
+helpful to ask yourself the question, “I wonder whether this
+and it hurts when I move it.” I reported this to the nurse, and
+person’s behaviour is telling me about pain?”
+we discussed a few options to improve the resident’s comfort.
+As a PSW, you might suspect a person is experiencing
+Our plan: Tomorrow I will wait for one hour after she receives
+untreated pain if you observe any of the items on the
+her morning pain medication before bathing her. I will wash
+PACSLAC-II tool in Figure 7 in Chapter 3, “Using Standardized her armpit without lifting her arm so high. And I will try put-
+Tools.” ting a looser-fitting shirt on her. I will then report back to the
+nurse and discuss next steps. I will also watch the woman
+Pain Assessment Checklist for Seniors with Limited Ability to Communicate-II (PACSLAC-II) closely and see if there are other activities that seem to be
+Date of Assessment: Time: Check if present
+causing her pain. Then the nurse can talk to the doctor about
+Facial Expressions
+whether the medication needs to be increased.
+1. Grimacing
+2. Tighter face
+3. Pain expression
+4. Increased eye movement
+5. Wincing
+6. Opening mouth Using the Symptom Framework for PSWs—pain
+7. Creasing forehead
+8. Lowered eyebrows or frowning
+9. Raised cheeks, narrowing of the eyes or squinting
+10. Wrinkled nose and raised upper lip Margot McCaffery, an expert in the subject of pain, popu-
+11. Eyes closing
+larized the key principle to understanding a person’s pain.
+Verbalizations and Vocalizations
+12. Crying She identified that “Pain is whatever the person says it is”
+13. A specific sound for pain (e.g., ‘ow’, ‘ouch’)
+14. Moaning and groaning (McCaffery, 1968). An observer does not need to judge
+15. Grunting
+16. Gasping or breathing loudly whether the pain is as severe as or is more severe than
+Body Movements
+17. Flinching or pulling away reported.
+18. Thrashing
+19. Refusing to move
+20. Moving slow When you suspect pain, adopt a trauma-informed approach
+21. Guarding sore area
+22. Rubbing or holding sore area and use the questions in the Symptom Framework for
+23. Limping
+24. Clenched fist PSWs adapted for pain (Figure 11) to explore and develop an
+25. Going into foetal position
+26. Stiff or rigid understanding of the person’s pain. Consider the person’s
+27. Shaking or trembling
+Changes in Interpersonal Interactions culture, cultural values, and personal history, and explore
+28. Not wanting to be touched
+using a trauma-informed approach. For example, a person
+29. No allowing people near
+Changes in Activity Patterns or Routines with substance use disorder may not report their pain freely
+30. Decreased activity
+Mental Status Changes for fear of being judged or labelled as drug seeking. Report
+31. Are there mental status changes that are due to pain and are not explained by another condition (e.g.,
+delirium due to medication, etc.)? your observations and preliminary information to the nurse.8
+Total Score (Add up checkmarks)
+When there are barriers to communication for the person,
+arrange for a translator (family member, community mem-
+ber, friend, team member) to facilitate communication.
+Arrange for assistive technology when required. Work with
+the translator and ask them to write down a few words that
+mean “pain” or “discomfort” in the person’s language for you
+to use at times when a translator is not available.
+8 Remember that the person (and family) may be tired from answering questions. If it is inappropriate to ask further questions, provide the nurse with
+information based on your observations. You could say, “This is what I observed.” Your observations and clear communication will help the nurse under-
+stand the importance and the urgency of your request.
+132 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Figure 11 . Symptom Framework for PSWs—pain
+When did the pain begin?
+| O Onset |     | Is this new, or has this happened before? |     |     |     |
+| ------- | --- | ----------------------------------------- | --- | --- | --- |
+Did it start suddenly or slowly?
+| P Provoking/Palliating |     | What makes the pain feel better? Worse? |     |     |     |
+| ---------------------- | --- | --------------------------------------- | --- | --- | --- |
+Q Quality Can you describe the discomfort? How does this symptom affect you?
+| R Region/Radiating |     | Where are you feeling the pain? |     |     |     |
+| ------------------ | --- | ------------------------------- | --- | --- | --- |
+How severe is the pain?
+0 = no symptom and 10 = the worst imaginable
+S Severity
+Small, medium, large
+Mild, moderate, severe
+| T Treatment     |     | What do you think might be helpful?   |     |     |     |
+| --------------- | --- | ------------------------------------- | --- | --- | --- |
+| U Understanding |     | What do you think might be happening? |     |     |     |
+| V Values        |     | What are your goals for your pain?    |     |     |     |
+What else do you want me to know or do?
+W What else? For the PSW: Consider your knowledge of this person—what do you see?
+What do you believe would be helpful?
+Figure 12 . A body map
+Competency Touchstone
+The PSW:
+|     | Adapts  communication  |     | and  information  |     |     |
+| --- | ---------------------- | --- | ----------------- | --- | --- |
+sharing to the unique needs of the person
+and their family, and engages specialist sup-
+port as needed to bridge communication
+|     | barriers  (e.g.,  | interpreters,  | sign  language  |     |     |
+| --- | ----------------- | -------------- | --------------- | --- | --- |
+interpreters, assistive technology)
+•   Understands the role and importance of
+experienced translators for individuals with
+language barriers, particularly First Nations,
+Inuit, Métis and urban Indigenous people,
+and how to access their services to ensure
+|     | strong  communication  |     | and  understand- |     |     |
+| --- | ---------------------- | --- | ---------------- | --- | --- |
+ing between health care providers and the
+individual/family.
+(Ontario Palliative Care Network, 2019) Provide the person with a body map and a pen or pencil. Ask
+them to draw on the map where they feel their pain. If their
+Using a body map vision is compromised, you may want to enlarge the map. If
+the person is unable to use a pencil or pen, they may be able
+The body map (Figure 12; see also the section on the Edmon- to point to the areas where they feel pain.
+ton Symptom Assessment System in Chapter 3, “Using Stan-
+dardized Tools”) helps the team learn more about a person’s  People may find it difficult to rate their pain. For some it
+pain, and may also help people who struggle to tell about  may be the first time they have thought of pain in terms
+their pain. People with mild or moderate cognitive impair- of a scale. Reassure the person that there is no right or
+ment may be able to use a body map to give information. wrong answer. If a person is unable or unwilling to assign
+|     |     |     |     | Chapter 4: Supporting Physical Comfort  |  Pain  | 133 |
+| --- | --- | --- | --- | ------------------------------------------------ | --- |
+
+a number to their pain, you could ask them to describe it  Gathering information when a person is cognitively
+| in words instead: |     |     | impaired |     |     |     |
+| ----------------- | --- | --- | -------- | --- | --- | --- |
+Can you rate this pain as being mild, moderate, strong, or  PSWs  use  the  Pain  Assessment  in  Advanced  Dementia
+intense or severe? Can you tell me if this is a small pain, a  (PAINAD) Scale (Warden et al., 2003) when caring for people
+medium pain, or a big pain? who are cognitively impaired or unable to respond verbally.
+See Chapter 3, “Using Standardized Tools,” for the PAINAD
+On occasion, the family may feel that their loved one’s pain  Scale and the PACSLAC-II tool for gathering information
+rating is not accurate. based on pain behaviours, as in Figure 13.
+My husband is very strong and does not like to talk about
+Annette is one of the ladies on our unit. She often tries to leave
+pain, so he says it is 3 out of 10, but that really means that
+the building. She usually paces and rattles the doors. The
+it is more like a 6 out of 10.
+other day Annette was much quieter. It was a nice change too
+because she wasn’t rattling the doors. I noticed she was sitting
+This type of insight helps caregivers understand any hidden
+in her room, rocking a bit and had a deep frown on her face. I
+meaning in a person’s communication. Record and report  asked her if she was having pain. She nodded. She rubbed her
+both the person’s and the family members’ comments. It
+back. I gave her a warm flannel to wrap around her shoulders
+may also help to use the person’s own words, such as “dis- and I reported immediately to the nurse. The nurse assessed
+comfort” rather than “pain.”
+Annette and requested an x-ray. Because our LTC unit is part
+of a hospital, it was easy to x-ray her back. The X-ray showed
+If the person or their family cannot respond to questions,
+a new compression fracture (broken bone) in Annette’s back.
+you will need to observe the person and communicate your  The fracture was causing increased pain and was the reason
+observations to the nurse. that Annette was not up and walking about. The nurse spoke
+with the doctor. The doctor increased the pain medications.
+After that Annette visibly relaxed and was soon able to get up
+and walk around with assistance.
+Figure 13 . Pain Assessment in Advanced Dementia (PAINAD) Scale
+|           | 0   |     | 1   |                           | 2   | Score |
+| --------- | --- | --- | --- | ------------------------- | --- | ----- |
+| Breathing |     |     |     | Noisy laboured breathing. |     |       |
+Occasional laboured breathing.
+| Independent of  | Normal |     |     | Long period of hyperventilation. |     |     |
+| --------------- | ------ | --- | --- | -------------------------------- | --- | --- |
+Short period of hyperventilation.
+| vocalization |     |                           |     | Cheyne-Stokes respirations.    |     |     |
+| ------------ | --- | ------------------------- | --- | ------------------------------ | --- | --- |
+|              |     | Occasional moan or groan. |     | Repeated troubled calling out. |     |     |
+Negative
+|     | None | Low level speech with a negative  |     | Loud moaning or groaning. |     |     |
+| --- | ---- | --------------------------------- | --- | ------------------------- | --- | --- |
+Vocalization
+|            |              | or disapproving quality.   |     |     | Crying.           |     |
+| ---------- | ------------ | -------------------------- | --- | --- | ----------------- | --- |
+| Facial     | Smiling, or  |                            |     |     |                   |     |
+|            |              | Sad. Frightened. Frowning. |     |     | Facial grimacing. |     |
+| Expression | inexpressive |                            |     |     |                   |     |
+Rigid. Fists clenched, knees pulled
+|               |         |                               | Tense. |                            | up. |     |
+| ------------- | ------- | ----------------------------- | ------ | -------------------------- | --- | --- |
+| Body Language | Relaxed |                               |        |                            |     |     |
+|               |         | Distressed pacing. Fidgeting. |        | Pulling or pushing away.   |     |     |
+Striking out.
+|     | No need to  | Distracted or reassured by voice  |     | Unable to console, distract or  |     |     |
+| --- | ----------- | --------------------------------- | --- | ------------------------------- | --- | --- |
+Consolability
+|     | console |     | or touch. |     | reassure. |     |
+| --- | ------- | --- | --------- | --- | --------- | --- |
+TOTAL
+134  Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Reflective Activity on Different Types of Pain
+Pain is produced through a number of different pathways Visceral pain comes from the organs, such as the heart,
+in the body, each pathway producing different sensations. intestines, or liver. The pain may be local, it may seem to
+Reflect on a pain you experienced, and describe the sensa- move around, or it may refer to another area of the body.
+tions. How do these pains differ? Abdominal pain is often described as cramping, colicky, and
+• A mild toothache intermittent, and is often associated with constipation. The
+• A muscle sprain pain comes in surges and may seem to move around.
+• A broken bone
+• An episode of constipation Pain associated with a sunburn, a cold sore, or shingles
+• The experience of childbirth involves the nerves—neuropathic pain. When this type of
+• The experience of passing a kidney stone pain occurs, the skin is more sensitive than normal. Stimu-
+• A cold sore lation or touch that would not normally hurt may be really
+• An episode of shingles painful. This pain is caused by an “unhappy nerve” and is
+• A sunburn often a shooting pain, or the pain grabs the person instantly.
+Such pain is unpredictable. Neuropathic pain may be
+As you consider these pains, you may notice how different described as burning, itching, numbness, shooting, icy cold,
+each one is. “pins and needles,” or like an electrical jolt. It usually follows
+a distinct pattern along a nerve pathway and may be con-
+Pain comes from different types of body tissue, which is why tinuous or intermittent.
+each pain feels different.
+It is possible to have pain that is a combination of the differ-
+The pain of a broken bone and a mild toothache may both ent types of pain. For example, a person with a toothache
+involve localized aching pain from the bone and muscle. might have the constant aching, throbbing originating in
+The person may describe their pain as deep, aching, pene- the muscle and bone, and nerve pain causing severe sensi-
+trating, or probing. If the pain is untreated, it may spread to tivity to heat, cold, or pressure.
+other areas.
+People may also have several different types of pain caused
+by their illness or treatment for it.
+Comfort Measures comfortable may help guide you in deciding which com-
+fort measures to use when they are in pain. Remember that
+Review the principles for using medications to manage what works one day may not work another day. Invite the
+symptoms on page 79 to orient yourself to the strategies family to participate in assessing, sharing information, and
+for managing pain. Consider what you know about this per- offering comfort. Respect the dying person and individual-
+son, their culture, and their beliefs and values, and use com- ize the care!
+fort measures that meet their goals of care (BC Centre for
+Palliative Care, 2017). Preventive
+As a PSW, you can create a relaxing environment, reposition Various ways in which you can help prevent pain are dis-
+the person to provide support and comfort, use music or cussed below.
+other distractions to decrease the perception of pain, and
+provide gentle touch to reduce discomfort. If appropriate, Create a relaxing pace for daily activities
+you might suggest traditional healing and medicines or
+alternative and complementary therapies as ways to sup- A person’s sensation of pain often increases with stress.
+port their comfort. Therefore, create a daily plan that encourages an unhurried
+approach to daily activities.
+You can use comfort basket items to individualize care to
+the person’s needs. Information gathered when a person is
+Chapter 4: Supporting Physical Comfort | Pain 135
+
+Plan activities for times when the pain medication is Support the neck
+most effective
+Supporting the neck and head can provide comfort and
+Plan to do activities that may cause discomfort at a time enhance a person’s feeling of security. Gently slide a soft pil-
+when the person has the best pain relief in place. For low under the person’s head and neck. Tug the pillow down
+example, if the person experiences some discomfort when to their shoulders so that it encircles their neck.
+being bathed, then plan to bathe the person about an hour
+after they receive pain medication. Reposition the person slightly after raising the head of
+the bed
+Competency Touchstone
+Make sure the person is high in the bed before raising the
+The PSW:
+head of the bed. Once you have raised it, face the person and
+Plans personal care for a time when medi-
+lean toward them with arms outstretched, putting your arms
+cations for symptom management will be
+around the person as though you were going to hug them.
+most effective (e.g., in collaboration with the
+Place your hands behind their shoulder blades, lift gently, and
+nurse).
+bring their entire body forward slightly. Lay the person back
+(BC Centre for Palliative Care, 2018)
+against the bed. This very simple procedure helps realign
+their back and their clothing. It may sound simple, but when
+Position for comfort people cannot reposition themself it is wonderful when their
+caregiver employs this strategy. Try it!
+Prevent skin breakdown and ulceration by ensuring a
+smooth, clean, dry, and wrinkle free surface wherever the Take pressure off the coccyx when the person is sitting or
+person is sitting or lying down. This is especially important lying
+for people who are less mobile and are unable to reposition
+themself. When a person has a pressure ulcer or discomfort in the
+coccyx area, place a soft thin pillow under the fleshy part of
+Check mobility aids for safety the buttocks to reposition the person slightly. This will take
+some weight off the tailbone.
+When people need to use a wheelchair for a limited time,
+they may borrow one that does not fit their body. Ensure Elevate swollen lower limbs
+that mobility aids are safe by checking the following:
+• The fit of the wheelchair. Ensure that it does not put When a person has swollen feet or lower legs, elevate the
+pressure on the person’s arms, hips, heels, and calves, foot of the bed. Insert a few folded blankets or a thin pillow
+and that the person can use the footrests comfortably. under the foot of the bed between the mattress and the
+• The comfort of the seat. Ensure that the cushion is bed frame. Over a period of eight hours, the swelling should
+properly inflated and the pillow is positioned with the decrease. This will improve comfort and reduce risk of pres-
+bowl in back and the bump in front, between the legs. sure ulcers in the heels.
+When the person is not able to sit upright and remain
+centred on their own, they may benefit from having a Turn a person in stages through the night
+wheelchair that tilts back (in such cases, consult with
+a rehabilitation professional). It may be helpful to have Before turning a person, remove the pillows. Replace them
+a physiotherapist or occupational therapist consult after the turn.
+about what seating would be best for the person. Sug-
+gest a consult if the person Figure 14 shows how to gradually move a person from one
+• Squirms constantly in the wheelchair side to their other side with small movements every few
+• Needs repositioning every 30 minutes hours. Repositioning every few hours reduces the risk of
+• Has a pressure ulcer. pressure ulcers. Slight adjustments mean that the person
+is not lying on the same pressure points. For instance, the
+person may start the night far over on their right side and
+then slowly, over a few turns, be closer to lying on their
+136 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Figure 14 . How to turn a person gradually to provide comfort
+back. From there, turn the person to their left side. Then, person, do not touch or massage the newly exposed skin on
+using small adjustments over the next few turns, adjust until which they have lain. The oxygen-deprived tissues are very
+the person is nearly on their back again. Small adjustments susceptible to damage.
+make it possible to turn a sleeping person while disturbing
+them as little as possible. Position and reposition the person for comfort. Bed-bound
+and mobility-limited people are at high risk for pressure
+Lay the person on their side ulcers. Reposition the person every two to four hours to
+reduce the risk of pressure ulcers.
+These are the steps in laying a person on their side:
+1. Roll the person onto one side. Place a pillow behind In the moment
+the back, being careful to remove wrinkles in bed-
+clothes and sleepwear. Distract for comfort
+2. Gently grasp the shoulder blade the person is lying on
+and pull the arm forward toward you. Distracting a person can decrease their pain for a short time.
+3. Move their top leg forward and bend the knee. Position Consider this strategy when a person is waiting for a pain
+a pillow between the legs, supporting the lower part medication to take effect or is in the midst of a painful pro-
+of the legs. cedure. Distraction might help during a five-minute dressing
+4. Shift their pelvis forward slightly by pulling the slider change that usually causes the person discomfort or when
+sheet and hips toward you. the person does not want medication or extra medication.
+5. Position a pillow under the upper arm.
+6. Reposition the pillow between the legs to decrease A person may be distracted by chatting while visiting, hav-
+pressure on the ankle joints. ing stories told to them, reminiscing, laughing, being with
+a pet, watching TV or videos, reading, or breathing fresh air.
+Protect the skin before turning the person Explore which distractions might work best for the person in
+your care. As with any of the comfort measures, individual-
+Before turning a person, gently stroke or massage the skin ize the care. What might distract someone from their pain
+on the side they will be lying on. Light massage will improve might cause another person to feel more pain!
+blood flow and reduce skin breakdown. After turning the
+Chapter 4: Supporting Physical Comfort | Pain 137
+
+Use relaxation strategies for comfort prevent burns or skin damage. Ensure they are wrapped in a
+towel and applied for a maximum of 20 minutes.
+Relaxation strategies such as massage, guided imagery,
+breathing exercises, and music care can decrease the sen- Place a warm flannel between the person and their blankets,
+sation of pain, as well as improve the effectiveness of medi- folded behind their back, or simply over the legs.
+cations. Guided imagery can help a person relax until the
+regular dose or breakthrough dose takes effect. Sometimes gentle stimulation in one area can decrease the
+sensation of pain in another. Consider applying gentle but
+firm touch on the side of the body opposite from where
+Guided Imagery
+they feel pain.
+When you provide care for someone, talk with the person
+Gentle massage may be soothing, but care should be taken
+about the activities they love, the places they enjoy, their
+to avoid touching or massaging sensitive or painful areas.
+favourite place to sit and relax … You might ask questions
+Check your employer’s policies and guidelines about the
+such as these:
+type of touch and massage you are permitted to offer.
+What is your favourite place? The cottage? What time of
+Before using these comfort measures, remember to ask the
+year? What time of day? Where do you like to sit? What
+person whether they would like you to.
+does the ground feel like? What do you see? What do you
+feel? What do you smell? What do you hear?
+For the family
+When the person is uncomfortable, for example, while
+waiting for pain medication to take effect, you might sug- Invite the family to participate in providing comfort. Care
+gest that they try to imagine relaxing in their favourite provided by family can be particularly effective at soothing
+place. a person. It also comforts the family members, because they
+feel helpful and involved. Some family members may feel
+Use the images shared by the dying person to create a completely comfortable participating in the person’s care,
+guided imagery. You might say something like this: or they may need prompting or guidance to get started. You
+might make suggestions like this:
+While the medication takes effect, close your eyes and
+think for a few minutes about that favourite spot of yours I heard you say that you would like to give your mom
+at the cottage. Imagine that you are sitting on your favour- mouth care but don’t know how to do that. Would it be
+ite rock overlooking the lake. It is late summer. The grasses
+helpful if I showed you how to freshen her mouth?
+are dry, and you can feel the dry prickly grasses with your
+fingers. The ground is hard beneath you. You are leaning
+For some people, their family may include their community,
+back against another rock, warmed by the sun. The breeze
+and they may be comforted by having their community par-
+off the water smells fresh. The grasses smell warm and dry,
+ticipate with them, performing healing rituals or traditional
+that smell of late summer. You look across the lake and see
+or faith practices. Work with the team to provide space and
+your favourite tree, the one you liked to climb when you
+opportunities for rituals and practices that support the per-
+were a child. You can hear the birds, and you especially
+son’s comfort.
+love those birds that perch on the trees nearby. Breathe the
+fresh air. Take it in gently. Then let your breath out. Relax
+Wheelchair massage
+and enjoy the summer warmth, the warm flannel, and rest
+for a bit …
+A person sitting in a wheelchair can become quite stiff even
+after a short time. People with normal mobility maintain
+Stimulate for comfort their comfort by constantly changing their posture and
+position in multiple little ways. People with limited mobility
+Warm flannels, fresh cool cloths, or creamy lotions applied cannot make these little adjustments and become uncom-
+with a gentle but firm touch can stimulate the senses fortable as time passes. Therefore, it may be soothing for a
+and help the mind focus on something other than pain. person with limited mobility who is in a wheelchair for an
+Use heated beanbags or frozen compresses cautiously to extended time to have a wheelchair massage. This may not
+138 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+be in the scope of the PSW’s practice and is suggested here fears and misconceptions about opioids, and the common
+as a comfort strategy that family can provide. side effects of opioids. Be familiar with questions you can ask
+to gather information about pain, the importance of follow-
+These are directions for giving a wheelchair massage: ing up after medication is administered, and the importance
+1. Slip your hands between the person’s body and the of recording and reporting initially and during the follow-up.
+chair.
+2. While resting the back of the hand against the chair, There are many types of treatment for pain. The ideal treat-
+apply gentle pressure with curved fingers and massage ment choice is the one that works for the person in pain
+or press and helps them meet their goals. Examples of non-invasive
+• On the back treatments are physiotherapy, massage therapy, acupunc-
+• Under the legs ture, guided imagery, and meditation. Invasive treatments
+• Under the hips. include surgery, nerve blocks, radiation therapy, and chemo-
+therapy. Figure 15 shows strategies for supporting physical
+Encourage family to do those things that the person enjoyed comfort.
+doing before becoming ill. A person may want their loved
+one to hold or snuggle them. The person may appreciate The team consults with the person to determine the most
+your help in getting the family member snuggled comfort- appropriate treatment, given the person’s goals of care.
+ably and safely in the bed. The side bar may help to hold the
+second person safely in bed.
+Sample Report
+❝
+Medications and Treatments I just went to provide care for Mrs. C. She
+was in her recliner, did not want to have her
+bath, was holding tight to a pillow, and was
+A number of medications can be used to help manage pain.
+not chatting as she usually does. I asked if
+The principles of palliation and principles of using medica-
+she was having pain, and she nodded yes. I
+tions to manage symptoms were presented at the begin-
+showed her the body map and she pointed
+ning of this chapter, because they apply to managing all of
+to the right leg and hip. She did have some
+the symptoms discussed in it. It is essential that you review
+pain yesterday according to the chart. I don’t
+those principles again as you study this section about pain
+know if she had any medication or if the pain
+management.
+settled. When I have seen her with this pain in
+her leg and hip, I normally help reposition her
+Below are a few key messages about medication used for
+and put on her favourite music, and the nurse
+pain management:
+gives her a breakthrough medication. Today
+• Pain medication is categorized as either
+I repositioned her, am playing the music she
+• Non-opioid analgesics, which include acetamino-
+likes, and wonder if you [the nurse] can see
+phen and ibuprofen
+her about the medication. When she is more
+• Adjuvant analgesics, which may be used to treat settled, then I can help her with her bath. ❞
+another symptom but their secondary effect is
+pain relief. Such medications include steroids,
+non-s teroidal anti-inflammatories, anticonvulsants,
+antispasmodics, antidepressants, and antibiotics.
+• Opioid analgesics, which include morphine, hydro-
+morphone, oxycodone, fentanyl, sufenta, codeine,
+and others
+• The principles of palliation (see page 79) and princi-
+ples of using medications to manage symptoms (see
+page 79) should be understood and followed.
+If you are working with people who experience pain, ensure
+that you are familiar with the information in this chapter
+about the principles for using opioids to manage pain, the
+Chapter 4: Supporting Physical Comfort | Pain 139
+
+Figure 15 . Strategies for supporting physical comfort (continued on next page)
+Hi, I have the towels I am feeling
+for your shower, but awful. I am in
+you look uncomfortable. pain again.
+What is happening?
+When did the pain start? Can
+you show me on this body map
+where you are hurting?
+It started again
+during the night.
+And I hurt right
+there, in my hip,
+and down my
+left leg.
+Let me speak with the
+nurse. Can I get you a
+warm flannel and a cup
+of tea?
+140 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Figure 15 . Strategies for supporting physical comfort
+Hi Ms. S. I hear that
+you are having pain
+in your hip and leg
+again. I have brought
+you a breakthrough
+medication. Would
+you like to take that
+now?
+You look much more
+comfortable now. Is
+your hip still sore?
+Your leg? Can you rate
+your discomfort on a
+scale of 0 to 10?
+The pain in my leg
+is gone. My hip is
+maybe a 2 out of
+10. Earlier it was
+a 6 out of 10.
+Thanks for
+getting the nurse
+to see me.
+How are you doing now? Can
+Well … let
+you rate your pain again? I
+me think!
+don’t want to pester you with
+many questions, but it helps us
+to know what medications work
+for you, and how long they are
+effective.
+Is there anything
+else I can get you?
+Chapter 4: Supporting Physical Comfort 141
+
+References
+Anderson, J. E., Michalak, E. E., & Lam, R. W. (2002). Depression in primary Centers for Disease Control & Prevention. (2014). QuickStats: Percentage of
+care: Tools for screening, diagnosis, and measuring response to Users of Long-Term Care Services with a Diagnosis of Depression, by
+treatment. BC Medical Journal, 44(8), 415–419. Provider Type—National Study of Long-Term Care Providers, United
+States, 2011 and 2012. Morbidity and Mortality Weekly Report, 63(4), 83.
+Auger, M., Howell, T., & Gomes, T. (2016). Moving toward holistic wellness,
+empowerment and self-determination for indigenous peoples in Chau, R., Kissane, D. W., & Davison, T. E. (2019). Risk Factors for Depression
+Canada: Can traditional indigenous health care practices increase in Long-Term Care: A Systematic Review. Clinical Gerontologist, 42(3),
+ownership over health and health care decisions? Canadian Journal of 224–237.
+Public Health, 107(4–5), e393–e398.
+CHPCA. (2013). A Model to Guide Hospice Palliative Care: Based on National
+BC Centre for Palliative Care. (2017). Inter-professional Palliative Symptom Principles and Norms of Practice, Revised & Cond. March, 118. https://
+Management Guidelines: Anorexia. B.C. Inter-Professional Palliative www.chpca.ca/wp-content/uploads/2019/12/a-model- to-guide
+Symptom Management Guidelines, June, 1–17. -hospice-palliative-care-2002-urlupdate-august2005.pdf.
+http://www.bc-cpc.ca/cpc/symptom-management-guidelines/.
+Coelho, A., Parola, V., Escobar-Bravo, M., & Apóstolo, J. (2016). Comfort
+BC Centre for Palliative Care. (2018). Inter-professional Palliative Competency experience in palliative care: A phenomenological study. BMC
+Framework—Health-care Assistants. Palliative Care, 15(1), 1–8.
+http://bc-cpc.ca/cpc/wp-content/uploads/2018/11/HCA
+Downing, M., & Wainwright, W. (2006). Medical Care of the Dying (4th ed.).
+-Competencies- ONLINE.pdf.
+Victoria Hospice Society. 9780969504184.
+Berger, L., Tavares, M., & Berger, B. (2013). A Canadian experience of
+Fleming, M., Craigs, C. L., & Bennett, M. I. (2020). Palliative care assessment
+integrating complementary therapy in a hospital palliative care unit.
+of dry mouth: what matters most to patients with advanced disease?
+Journal of Palliative Medicine, 16(10), 1294–1298.
+Supportive Care in Cancer, 28(3), 1121–1129.
+Bruera, E., Hui, D., Dalal, S., Torres-Vigil, I., Trumble, J., Roosth, J., Krauter, S.,
+Foster, B. (2014). Personal communication.
+Strickland, C., Unger, K., Palmer, J., Allo, J., Frisbee-Hume, S., & Tarleton,
+K. (2013). Parenteral hydration in patients with advanced cancer: a Fraser Health. (2006). Depression in the Terminally Ill. https://content .oma
+multicenter, double-blind, placebo-controlled randomized trial. .org//wp-content/uploads/08fhsymptomguidelines.pdf.
+Journal of Clinical Oncology, 31(1), 111–118.
+Fraser Health. (2012). Nausea and Vomiting. https://www. fraserhealth
+Canadian Coalition for Seniors’ Mental Health. (2016a). Delirium .ca/ -/ media/Project/FraserHealth/FraserHealth/ Health
+Assessment and Treatment for Older Adults. http://ccsmh.ca/wp -Professionals/ Professionals-Resources/Hospice-palliative-care
+-content/uploads/2016/03/NatlGuideline_DeliriumEOLC.pdf. /14FHSymptomGuidelinesNausea.pdf.
+Canadian Coalition for Seniors’ Mental Health. (2016b). Delirium in the Fraser Health. (2018a). Dyspnea. https://www.fraserhealth.ca
+Elderly: CCSMH National Guidelines-Informed, Interactive, Case-Based /-/media/ Project/FraserHealth/FraserHealth/Health-Professionals
+Tutorial. http://ccsmh.ca/wp-content/uploads/2016/03 /CCSMH- /Professionals-Resources/Hospice-palliative-care/Dyspnea.pdf.
+National- GuidelineDelirium-In-The-Elderly.pps.
+Fraser Health. (2018b). Hospice Palliative Care Program Symptom
+Canadian Virtual Hospice. (2019a). Care of the Mouth. http://www Guidelines: Bowel Care. https://www.fraserhealth.ca/-/media/ Project
+.virtualhospice.ca/en_US/Main+Site+Navigation/Home/Topics/ Topics /FraserHealth/FraserHealth/Health-Professionals/ Professionals
+/Providing+Care/Care+of+the+Mouth.aspx. -Resources/Hospice-palliative-care/Sections-PDFs-for- FH-Aug31/9524
+-10-FH---Sym_Guide-BowelCare-v08.pdf.
+Canadian Virtual Hospice. (2019b). Confusion. http://www .virtualhospice
+.ca/en_US/Main+Site+Navigation/Home/Topics/ Topics/Symptoms+ Fraser Health. (2020). Delirium in the Older Adult: A Family Guide. https://
+_+Health+Concerns/Confusion.aspx. patienteduc.fraserhealth.ca/file/delirium-in-the-older-adult- a-family
+-guide-1311.pdf.
+Canadian Virtual Hospice. (2019c). Constipation. http://www .virtualhospice
+.ca/en_US/Main+Site+Navigation/Home/Topics/ Topics/Symptoms+ Gall, A., Leske, S., Adams, J., Matthews, V., Anderson, K., Lawler, S., & Garvey,
+_+Health+Concerns/Constipation.aspx. G. (2018). Traditional and Complementary Medicine Use Among
+Indigenous Cancer Patients in Australia, Canada, New Zealand, and
+Canadian Virtual Hospice. (2019d). Dehydration. http://www .virtualhospice
+the United States: A Systematic Review. Integrative Cancer Therapies,
+.ca/en_US/Main+Site+Navigation/Home/Topics/ Topics/Symptoms+
+17(3), 568–581.
+_+Health+Concerns/Dehydration.aspx.
+Inouye, S. (2003). The Confusion Assessment Method: Training Manual and
+Canadian Virtual Hospice. (2019e). Fatigue. http://www.virtualhospice .ca
+Coding Guide. https://help.agscocare.org/table-of-contents /H00101.
+/en_US/Main+Site+Navigation/Home/Topics/Topics/ Symptoms+
+_+Health+Concerns/Fatigue.aspx. International Association of Reiki Professionals. (2014). Definition of Reiki.
+https://iarp.org/learn-about-reiki/.
+Canadian Virtual Hospice. (2019f). Shortness of Breath. http://www
+.virtualhospice.ca/en_US/Main+Site+Navigation/Home/Topics/ Topics Mayo Clinic Staff. (2017). End of life: Caring for a dying loved one. https://
+/Symptoms+_+Health+Concerns/Shortness+of+Breath.aspx. www.mayoclinic.org/healthy-lifestyle/end-of-life/in-depth/ cancer
+/art-20047600.
+142 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+McCaffery, M. (1968). Nursing practice theories related to cognition, bodily Zeng, Y. S., Wang, C., Ward, K. E., & Hume, A. L. (2018). Complementary
+pain, and man-environment interactions. Los Angeles: UCLA Students and Alternative Medicine in Hospice and Palliative Care: A Systematic
+Store. Review. Journal of Pain and Symptom Management, 56(5), 781–794.e4.
+McConnell, T., & Porter, S. (2017). Music therapy for palliative care: A realist
+review. Palliative and Supportive Care, 15(4), 454–464.
+McCusker, J., Cole, M. G., Voyer, P., Monette, J., Champoux, N., Ciampi, A.,
+Vu, M., Dyachenko, A., & Belzile, E. (2014). Observer-rated depression in
+long-term care: Frequency and risk factors. Archives of Gerontology and
+Geriatrics, 58(3), 332–338.
+Narayan, M. (2010). Culture’s effects on pain assessment and management.
+American Journal of Nursing, 110, 38–47.
+Nova Scotia Health Authority. (2017). The Nova Scotia Palliative Care
+Competency Framework: A Reference Guide for Health Professionals and
+Volunteers. https://library.nshealth.ca/ ld.php?content_id=34202519.
+NSDUH. (2014). Results from the 2013 National Survey on Drug
+Use and Health: summary of national findings. In NSDUH
+series H-48. https://www.samhsa.gov/data/sites/default/files
+/NSDUHresultsPDFWHTML2013/Web/NSDUHresults2013.pdf.
+Nyatanga, B. (2015). Using complementary therapies in palliative care.
+British Journal of Community Nursing, 20(4), 203.
+Nyatanga, B., Cook, D., & Goddard, A. (2018). A prospective research study
+to investigate the impact of complementary therapies on patient
+well-being in palliative care. Complementary Therapies in Clinical
+Practice, 31, 118–125. https://doi.org/10.1016/j.ctcp .2018.02.006.
+Ontario Palliative Care Network. (2019). The Ontario Palliative Care
+Competency Framework. A Reference Guide for Health Professionals and
+Volunteers. https://www.ontariopalliativecarenetwork.ca/sites/opcn
+/files/ OPCNCompetencyFramework.pdf.
+Reflexology Association of Canada. (2017). What is reflexology? https://
+www.reflexologycanada.org/en/what-is-reflexology/.
+RNAO. (2007). Assessment and Management of Pain in the Elderly. https://
+rnao.ca/bpg/resources/assessment-and-management-pain- elderly
+-learning-package-long-term-care.
+Smothers, A., & Buck, J. (2012). An evaluation of a practice change
+to increase understanding of the use of nonpharmacological
+interventions for the treatment of dyspnea in hospice patients.
+Journal of Hospice and Palliative Nursing, 14(8), 524–532.
+Waldrop, D. P., & Kirkendall, A. M. (2009). Comfort measures: a qualitative
+study of nursing home-based end-of-life care. Journal of Palliative
+Medicine, 12(8), 719–724.
+Warden, V., Hurley, A. C., & Volicer, L. (2003). Development and
+psychometric evaluation of the pain assessment in advanced
+dementia (PAINAD) scale. Journal of the American Medical Directors
+Association, 4(1), 9–15.
+WHO. (2013). World Health Organization (WHO) Analgesic Ladder.
+Encyclopedia of Pain, 4274–4274.
+WHO. (2018). Integrating palliative care and symptom relief into primary
+health care. A WHO guide for planners, implementers and managers.
+https://apps.who.int/iris/bitstream/handle/ 10665/ 274559
+/9789241514477 -eng.pdf.
+Chapter 4: Supporting Physical Comfort 143
+
+5
+Providing Psychosocial Care
+This chapter focuses on strategies for providing psychosocial the dying person and family completely for the death of
+support for the dying person and family and includes dis- their loved one. However, you can provide care to support
+cussions on transitions, loss, grief, advance care planning, them as they adjust to the person’s decline and death. This is
+medical assistance in dying, and supporting children whose known as psychosocial care.
+loved one is dying. Realistically it is impossible to prepare
+The Holistic Nature of Psychosocial Care
+The nurse or team assesses a person’s psychosocial care
+Competency Touchstone needs when the person first receives care. As you provide
+The PSW: care, you can gather information about changes in the
+Describes people as holistic beings (i.e., with person’s and family’s psychosocial needs and share that
+physical, emotional, psychosocial, sexual and
+information with the team. This information will help all
+spiritual aspects).
+health care providers (HCPs) to understand the person’s and
+family’s psychosocial needs.
+Observes [and addresses] physical, emo-
+tional, cognitive and spiritual needs of the
+Dame Cicely Saunders’s concept of total pain (see Chapter 2,
+dying person.
+“Preparing to Care”) addresses physical, emotional, mental,
+(BC Centre for Palliative Care, 2018)
+and spiritual pain. Saunders knew that treating all parts of
+the person would provide the best care. This makes sense
+Psychosocial care includes supporting the emo- because human beings are holistic. Palliative care acknow-
+tional, mental, spiritual, sexual, interpersonal, and ledges that, for example, physical symptoms affect emo-
+cultural aspects of a person. Simply said, it means “every- tions, and that emotions, such as grief, affect physical symp-
+thing except the physical.” A person’s psychosocial responses toms. This holistic approach in palliative care is essential to
+to illness, dying, and death are shaped by many things, providing care that meets all the person’s needs. Remind
+including their yourself that the person is more than their illness and more
+• Personality than the sum of their body parts.
+• Age and stage in life—child, parent, senior
+• Personal experiences with illness and losses, dying and
+death Competency Touchstone
+• Ways of coping with changes and losses The PSW:
+• Cultural and spiritual values and beliefs around dying, Continuously monitors the person’s daily
+physical, emotional and psychological func-
+death, loss, and grief
+• Support network’s strength tioning, adapts approaches within the PSW
+scope and promptly recognizes and reports
+• Additional stresses (e.g., finances, job security, personal
+changes to the most responsible provider.
+health issues)
+(Ontario Palliative Care Network, 2019)
+Chapter 5: Providing Psychosocial Care 145
+
+Transitions with Life-Limiting Illness
+PPS 80%–70%
+Competency Touchstone
+The PSW: A person’s PPS score may decline to between 80% and 70%
+Supports the person and family as they because their disease reoccurs, they may not have responded
+grieve losses, transitions, decline and death in
+to treatment, or they may decline due to progression of
+unique ways and at their own pace.
+their chronic illness. Some people seek medical treatment
+(BC Centre for Palliative Care, 2018)
+at a hospital while others may explore alternative forms of
+treatment to relieve their symptoms. The book Transitions
+A transition is a process of adjusting to changes in life. A in Dying and Bereavement: A Psychosocial Guide for Hospice
+person with a life-limiting illness will go through many tran- and Palliative Care calls this “the path not chosen” (Victoria
+sitions as their health declines. Common challenges associ- Hospice et al., 2016). Although the person had hoped for a
+ated with transitions include adjusting to ill health, pain and cure or stabilization of the illness, they face declining health
+other symptoms, loss of abilities, uncertainty in the future, and may experience feelings of disappointment, anger, fear,
+and a lack of control. or anxiety. With diseases like dementia, the person may
+become very sensitive to changes in their symptoms and
+The challenges a person and family often experience during struggle against the perceived decline in their abilities. They
+transitions are described below and aligned with levels of may feel like they are in a state of limbo. They are neither
+the Palliative Performance Scale (PPS) (see Chapter 3, “Using healthy nor dying and may feel disconnected from people
+Standardized Tools”). Practical ways for personal support around them.
+workers (PSWs) to support the person and family follow the
+description of each transition. Remember that while specific How PSWs can support
+changes and ways to support are grouped together under a
+PPS level, in life these are blurry groupings, and some chan- As a PSW, you provide support when you ask open-ended
+ges may occur in the neighbouring PPS level. questions and listen while the person reflects on their
+situation.
+PPS 100%–90%
+Hmm … I wonder how is this for you.
+Disease may be diagnosed in a person when their score on
+the PPS is between 100% and 90%. At this time, the person Can you tell me more?
+and their family may struggle to understand the illness and
+make decisions about treatment options. With symptom What might be helpful to you in the moment?
+relief, the person may be able to return to their previous
+activities of daily life, but with a new awareness of the uncer- You provide emotional support as you listen to their fears,
+tainty of their future. concerns, and grief about taking “the path not chosen.”
+How PSWs can support
+Competency Touchstone
+You may provide care for people because they are in hospi- The PSW:
+tal to have tests, receive a diagnosis, or have treatment. The Incorporates quality of life, as defined by the
+person, as a key focus of care.
+team will share information to help the person make deci-
+(BC Centre for Palliative Care, 2018)
+sions about managing their illness. As a PSW you provide
+emotional support by listening to the person’s hopes, fears,
+concerns, and questions and sharing these with the team
+as needed. You can offer comfort measures and support by
+being fully present and empathetic. You support by avoid-
+ing roadblocks to communicating such as giving advice or
+minimizing concerns.
+146 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+PPS 60%–50% plans, as the future seems uncertain and confusing even as
+they continue to cope with the ongoing losses.
+When a person has a PPS score between 60% and 50%, their
+disease is advanced, and it is likely that they have been told How PSWs can support
+that a cure is not possible. The person can no longer ignore
+the illness. Fatigue and weakness often mean that the per- This is often the time when the PSW begins providing full-
+son is no longer able to work or participate in their hobbies, time personal care. In the home setting, you help the per-
+and they may spend most of their time sitting or lying down. son and their family organize new routines for personal care,
+However, a person with dementia may find that while their while understanding the need for flexibility if the person
+energy level is still good, cognitive decline interferes with improves for a time. In a long-term care facility, you may be
+their ability to work and carry out activities such as driving, the one to welcome and provide support to the person and
+planning and cooking meals, and shopping. As a result, the their family as they make this very significant and sometimes
+person and their family may need to adjust their roles and difficult transition. You support when you reassure the family
+responsibilities. It can be a good time for the team to intro- that the person will be well cared for and ask about the per-
+duce the principles of a palliative approach, with its empha- son’s preferences and special needs, especially if the person
+sis on good communication. This will help the person and has dementia and is unable to verbally communicate their
+family prepare for the next stages of the illness, identify their needs. Remember that in all settings you are often uniquely
+hopes and concerns, and, if possible, begin reframing hope positioned to hear family stories and gather historical infor-
+in the context of a terminal illness. mation because of the relationships you form with those you
+care for. These stories are the foundation of personal, holistic
+How PSWs can support care, so it can be important that, with the family’s permission,
+you share this information with the team.
+You provide emotional support when you acknowledge
+the many losses the person and family are experiencing.
+Remember that each person’s experience of loss and grief Competency Touchstone
+is unique and personal and that this can create challenges The PSW:
+between family members. People who have not experi- Asks the person and family what is import-
+ant to them and with permission, shares that
+enced this process of decline with a long-term illness may
+information with the inter-professional team.
+feel that their family tensions are not okay. You can nor-
+(BC Centre for Palliative Care, 2018)
+malize their experience when you say something like “In
+our experience it is natural for families to struggle with the
+changes and decisions that need to be made at this time.”
+PPS 20%–10%
+You support when you listen and encourage the person and
+their family to share their concerns, questions, and challen-
+ges with the team. When the person’s score on the PPS descends to between
+20% and 10%, the person becomes less alert and is less
+PPS 40%–30% responsive. For family it may feel that the person is with-
+drawing and they are losing them. Family members may
+A person with a PPS score between 40% and 30% feels ask questions about how to prepare for the person’s death
+weak, is often very tired, and becomes unable to provide and how long it will take. Some family members may want
+self-care. Initially the person may still want to get out of bed to stay close and have private time with the person, while
+and may be frustrated with no longer being independent. If others may say their goodbyes at this point.
+the person has delirium or is restless, this period can be one
+of intense caregiving and supporting of the family. Once How PSWs can support
+the person is in a wheelchair or bed full-time, the work of
+caregiving may be a bit less stressful. However, with some This is the time when the preparation for the last days and
+illnesses like dementia, chronic obstructive pulmonary dis- hours is typically done, so contact with the team may increase
+ease, or multiple sclerosis, a person may dip down to 30% at this time and the care plan may need to be flexible. You can
+PPS and then rally back up to 40% or higher over and over provide psychosocial support for the dying person and their
+again. This can make it very difficult for families to make family by offering your presence and by listening to families
+Chapter 5: Providing Psychosocial Care 147
+
+reminisce as they grieve the impending loss. When providing respectful care, softly referring to the person by name and
+care, it is important to talk with the person as though they keeping family members as informed as they want to be
+are still able to hear you, using their name and, if appropriate, about what you are doing. Some family members may not
+gently explaining what you are doing. want to leave the bedside, so it may be helpful for you to
+demonstrate the kind of touch the person likes and how
+The family may need time and gentle support as they tran- family members can soothe and comfort the person, per-
+sition from “doing for” to “being with.” Some family members haps by reading to them, playing the music they like, or just
+may want to be more involved with care at this time, while holding their hand. You provide support when you remain
+others may want to leave care mostly up to you. You provide calm, prepared to be present as needed, but also willing to
+support when you ask what people’s preferences are and step aside to let the family “do it their way.”
+are sensitive to their needs to stay close at the bedside or
+drift away as they cope in their own way with the impend- As the person you have cared for approaches their death, it
+ing death. This may be a good time to ask family members is important for you to remain in touch with what may be
+if there are any special rituals or procedures they want fol- your own feelings of grief and loss. While your grief should
+lowed at the time of death. not overshadow the family’s needs and your responsibility
+to provide care, it is important that you acknowledge your
+You may also provide support by offering options for visitors, feelings and create space in your life to grieve for those you
+such as limiting visits to a few minutes or restricting the have cared for and lost.
+number of people in the room. There is no right or wrong
+way to do this, so let the family guide you with their wishes. Chapter 6, “Caring in the Last Days and Hours,” discusses the
+As a PSW, you can nurture and support the family by pro- challenges and ways to support during last days and hours,
+viding nourishment, responding to questions, communi- and Chapter 7, “Caring for You!” discusses the importance of
+cating with the nurse, and providing information brochures self-care.
+as appropriate. The last days and hours are often what the
+family remembers most clearly, so encourage them to con-
+tact the team with any questions or concerns, and reassure
+them that this is what the team is there for. (See Chapter 6,
+“Caring in the Last Days and Hours,” for more information.)
+PPS 10%–0%
+A person with a PPS of less than 10% is in their last days
+and hours. At this point the person may require total care.
+You provide support when you continue to provide gentle,
+Transitions for People Dying with Dementia
+What is Uncertain When Dying with with dementia. The following questions are commonly
+Dementia? asked by family members and serve to highlight the many
+uncertainties in the process of dying with dementia. There
+The trajectory of decline with dementia follows a stuttering are no certain answers to these questions.
+or slow decline and presents unique challenges for the per-
+son and family. A person with dementia loses abilities and When will death occur?
+is eventually unable to participate in decision making. The
+family may become exhausted after extended periods of I don’t know how long he has. Do I need to keep up my
+caregiving and coping with the many uncertainties of dying energy for months or years?
+148 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+What will the trajectory look like? Death is certain to occur . It is easy to forget that death is
+certain when a person’s health has declined very slowly over
+What can I anticipate? What is going to happen? many years, or when the person seems relatively stable, and
+especially when the person has improved in the past when
+What will death look like? they appeared to be dying. However, despite the uncertainty
+of the slow or stuttering declines, death is certain to occur.
+Will he be peaceful? Will he die suddenly? Will I know
+when death is going to happen? Comorbidities will affect the trajectory . If a person is
+healthy other than their dementia, they might live longer
+What other illnesses will contribute to dying? than a person who has a history of strokes, diabetes, cancer
+of a vital organ, cardiovascular disease, and so on.
+Does it matter that he also has diabetes and kidney
+failure? Many interventions are not effective in late-stage
+dementia . A person with late-stage dementia has substan-
+What is going to happen next? tially impaired brain function, and therefore their body is not
+able to respond to interventions in the same way as a per-
+When she eats her dinner, I wonder if she is getting better. son without dementia. The following interventions do not
+When she has a bad day, I wonder if she is dying. Tonight, improve the person’s quality of life or extend their life:
+she ate her dinner. Is she getting better? • Attempts at cardiopulmonary resuscitation
+• Gastric tubes, which do not
+• Increase survival
+What is Known About Dying with
+• Reduce the risk of infection
+Dementia? • Prevent aspiration
+• Improve functional status
+The many uncertainties of dying with dementia can make • Improve comfort
+the process feel unmanageable for family. If possible, focus • Transfers to hospital for intravenous antibiotics
+on what is known about dying with dementia as part of sup- • Because the body requires a functioning immune
+porting family. system for antibiotics to be effective, IV antibiotics
+are no more effective than oral antibiotics for repeat
+The overall trajectory will be a decline . The family may infections in late-stage dementia
+feel confused as the person’s health improves a bit and then • Antibiotics are not essential for comfort in the last
+declines again. The family may wonder whether the person days
+is getting better or worse on any given day.
+Several indicators often precede the actively dying phase for
+Share with the family that the overall trend is a decline in people dying with dementia. In the period before death, the
+health. It may be helpful to share information about the person may
+common changes experienced with dementia from Chap- • Have repeated infections
+ter 1, “Understanding Dying and a Palliative Approach,” • Have skin ulcers that do not heal
+so that they can identify where their loved one is in their • Have a significant decline in intake
+decline. This is an opportunity for them to consider what • Be unable to swallow
+changes may come next and begin to prepare. For example, • Increasingly sleep and withdraw from others
+a person with Alzheimer’s type dementia will first lose skills
+associated with higher-level functioning, such a balancing a Chapter 6, “Caring in the Last Days and Hours,” describes
+chequebook or following a recipe. Eventually the person will challenges that the person and family may experience near
+lose more basic skills, including providing self-care, dressing, the end of life and ways of supporting an actively dying
+and walking. Eventually people with this type of dementia person.
+will not be able to feed themselves, and if they live long
+enough, they will lose the ability to swallow, one of the most
+basic reflexive behaviours.
+Chapter 5: Providing Psychosocial Care 149
+
+Supporting the Psychosocial Needs of the Dying Person
+and Family
+The experiences of a person living and dying with life-l imiting
+illness can bring many psychosocial challenges for the per- Cultural Touchstone
+son and family. You provide psychosocial support when you The PSW:
+do the following in your caregiving. Demonstrates openness and sensitivity to
+social, spiritual and cultural values and prac-
+tices that may influence preferences of the
+Competency Touchstone person and family. Provides opportunities
+The PSW: for the person and family to exercise these
+Provides emotional support to the person, values.
+from diagnosis to bereavement. (BC Centre for Palliative Care, 2018)
+(BC Centre for Palliative Care, 2018)
+Being respectful of a person’s desire to hear information and
+acknowledging their discomfort will help the team to find
+Share Information
+supportive ways of sharing difficult information.
+Many people are uncomfortable talking and hearing about
+Many cultures have specific beliefs about death
+difficult topics, including dying and death. People may avoid
+and dying that may feel at odds with principles
+talking about dying and what might be happening next to
+of providing palliative care. For example,
+them or to their loved one. However, when people have
+• Family may request that the dying person not be told
+information, they are more able to make informed decisions,
+of a terminal diagnosis, to maintain hope and prevent
+participate in care planning, and access the team as needs
+emotional suffering in people from African, Asian,
+arise. They may not know how helpful it is to talk about dying
+Chinese, East Indian, Hispanic, Indonesian, Japanese,
+and what to expect until they have those conversations.
+North American Indigenous, and Vietnamese cultures
+• Buddhist faith followers may request that the person
+not receive medications that would “cloud the mind”
+Sharon’s Fears about the Palliative Care Unit
+when dying
+• Taiwanese people may not be willing to talk about a
+Sharon was in lots of pain. She did not want to go to the pal-
+person’s impending death or that the person is dying,
+liative care unit because, she said, “It means that I am dying!”
+as they may believe that mentioning death or dying,
+She sounded fearful.
+or talking about it will “tempt fate”
+(Givler & Maani-Fogelman, 2020)
+I told her, “I have been to the unit, and I know that people go
+to the unit to get medications adjusted and then go home.
+People will have preferences about information sharing.
+Going to the palliative care unit does not mean you will die
+immediately.” The nurse had told her the same information
+earlier in the day. Radwany reports that “when HCPs took time to give
+explanations using terms they [the person and family]
+Sharon looked at me, as though she was hearing this for the understood, allowing time for decision-making, the
+first time, and said, “Okay, I will go for a few days.” She was experience was positive.”
+in the palliative care unit for a week and came home much (Radwany et al., 2009)
+more comfortable.
+Some people will want a lot of information; others will want
+only a small amount on a need-to-know basis. Some people
+will want the textbook version; others will want brochures,
+simple online videos, or written instructions. Some people
+150 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+will want to have only one person with them when informa-
+tion is shared, while other people may want their commun- Cultural Touchstone
+ity with them. The following are examples from two differ- The PSW:
+ent people of their preferences for how much information Recognizes that communication and
+decision- making may involve the larger
+they want to receive.
+community, particularly when caring for First
+Nations, Inuit, Métis and urban Indigenous
+Two people were asked, peoples, and supports facilitation of this.
+(Ontario Palliative Care Network, 2019)
+Do you want information about your prognosis?
+Supporting the person and family by sharing information
+Person 1 responded,
+includes
+• Listening to the person and empathizing with them
+Well, if I am dying tomorrow, I want to know.
+about their concerns and questions, and connecting
+them with the appropriate team member for support
+Person 2 responded,
+Those are excellent questions about what to expect
+in the coming days and weeks. Can I share this
+No, like, if I am … if I am … you know, if I am going [point-
+information with the nurse and ask them to meet
+ing upward], I don’t want to know.
+and talk with you? Would that be helpful?
+When asked for permission to speak to his wife about
+• Communicating with the team when the person or
+what was happening, Person 2 replied,
+family do not understand the information that has
+Yes, you can talk with her, but I don’t want to talk about it. been shared with them
+[Reporting to the nurse] Mrs. Singh is confused
+about her husband’s medications. This morning
+she said, “I don’t know when I am supposed to
+give these pills. The nurse showed me, but I don’t
+Cultural Touchstone
+understand. I don’t know what to do.” Can you [the
+The PSW:
+nurse] please see her?
+Examines attitudes towards death particu-
+larly for First Nations, Inuit, Métis and urban
+• Identifying and working to share information in line
+Indigenous peoples/communities and how it
+with the person’s and family members’ preferences for
+compares to Western Views/Society.
+receiving and sharing information
+(Ontario Palliative Care Network, 2019)
+The brother uses the Internet to read about the dis-
+ease. He likes lots of details and scientific informa-
+In Chapter 2, “Preparing to Care,” the principles for providing tion. The rest of the family really likes the brochures
+culturally safe care were introduced. Being curious about a you gave them.
+person’s beliefs and traditions about dying and death can
+help you to provide information respectfully. However, do • Ensuring that the person and family know how to con-
+not assume that a person who identifies with a specific cul- tact the team at any time of the day or week
+ture or population also follows the traditional beliefs and Do you have the numbers to phone if you need
+practices of that culture or population. Acknowledging the help in the middle of the night? May I post that
+person’s culture can help build trust and open doors for ser- information on the fridge?
+ious illness conversations. There are many options for pro-
+viding culturally safe care. For example, in a care facility, the • Working with the team to identify other people who
+team could offer space and menu options that meet the can provide support to the person and family if the
+cultural needs of the person, family, and community. health care team is not available at night
+Chapter 5: Providing Psychosocial Care 151
+
+Above all, when sharing information, remember that it • Advocate by communicating the person’s choices and
+needs to be goals to the nurse and team
+• Consistent—it is a good thing to hear someone say, This morning Sabita told me that she does not
+“You all say the same thing” want to go back to hospital and does not want
+• Delivered with compassion more tests or treatments. I hear that Sabita is
+• Shared regularly as needed, and repeated if necessary scheduled to go to the hospital next week. Can you
+• Offered in a way compatible with the preferred style of please talk with her?
+learning of the person and family
+• Support their preferences
+Support a Person’s Independence I understand you meet with your son each mor-
+ning for prayers. Would you prefer that I arrive later
+The dying person has little control over their disease, the in the morning to provide care?
+changes in their body, the health care system, the team
+members, or the resources offered. You can support a per- • Invite the person to determine the priorities
+son’s independence by offering choices and encouraging What can I do for you this morning so that you
+them to make decisions that are important to them. Having can save your energy for the things that are most
+choices can help ease the person’s frustration over their loss important to you?
+of control and bring back or maintain a sense of normalcy.
+Yesterday was very busy with friends coming to
+visit. In the evening you said that you were really
+Competency Touchstone wiped out. What is your preference for today?
+The PSW: Would you like us to decrease the number of
+Maximizes the person’s participation in their visitors or the length of their stay?
+own care, and enables choice to the fullest
+extent possible. When a person refuses assist- • Respect the person’s right to choose or refuse treat-
+ance, the PSW pursues a balance between
+ment, to eat or not eat, to bathe or not bathe
+respect for the person’s right to choice, and
+I hear you, and I respect your decision to choose
+the need to provide a minimum standard of
+whether or not to continue with treatment.
+care.
+(Ontario Palliative Care Network, 2019)
+You support a person when you
+• Acknowledge their desire for independence
+I know that you prefer to care for yourself. Is there
+anything I can do that would make receiving help
+more comfortable for you?
+• Support their independence when possible
+It looks like you can wash yourself today. Let me
+Support Hope
+know if you need any assistance.
+A person with a life-limiting illness may hope that the illness
+You seem a bit shaky. I wonder if I can do that for will not really affect their quality of life, that it will be cur-
+you today. able and not cause their death. When the same person is
+told “The treatments are not working,” they may continue to
+• Provide choices whenever possible hope for a long life, even when they know that it would take
+Would you like your bath before or after you have a miracle to cure them.
+lunch?
+Hope can help sustain a person’s emotional well-being
+by allowing them to look forward to good things in the
+future. A dying person may say, “I hope I can go fishing next
+152 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+summer like I have done for 55 years!” even when they know there are times when roles must change, when the person
+they may not live through the next month. Hope is both is no longer able to contribute as they did before they were
+fragile and resilient. Hope is not rational; it does not depend sick. It may be helpful to acknowledge the loss and explore
+on statistics or facts. what roles the person can continue to fill.
+It is not helpful to confront a person with the reality that With a palliative approach to care, family includes anyone
+they are dying. It would not be supportive to say, “Don’t you that the dying person identifies as family. In some cultures
+understand? You will never be able to go fishing again.” Nei- (e.g., Indigenous) and populations, dying in the person’s
+ther would it be helpful to say, “Of course you’ll be able to home community and being surrounded by family may be
+go fishing next summer. Just set your mind to it and think important. With these preferences, you support the person
+positive thoughts.” and family when you work with the team to coordinate care
+for the person in the comfort of their home community sur-
+As a PSW, you provide support when you rounded by their family.
+• Respond from a genuine but neutral place
+Wouldn’t that be wonderful? I hope you get your You support the person and family when you create a com-
+wish. What else do you hope for? fortable place where people can gather and be with the
+dying person. As a person declines, there may be medical
+• Respond to the feelings behind the hope equipment and supplies in the bedroom and throughout
+It sounds like you loved fishing. Where was your the house. You can
+favourite fishing hole? What is your favourite fish- • Put away medical equipment and supplies after using
+ing story? them, and clean the surroundings so the area is com-
+fortable and fresh
+Hope is always possible. Hope can change. When someone • Arrange the room so that family members can make
+can no longer hope for a cure, it is possible to hope to see themselves comfortable in chairs, lying on the bed, or
+the next grandchild born, or to hope for a pain-free death, stretching out on the floor in the way that they prefer
+or to hope the family will be well supported following death.
+When a person from a rural and/or remote Indigen-
+ous location must leave their family and community
+Michelle had four hopes. She hoped to live until Christmas, to to access care, with little hope for returning home, they will
+enjoy our trip to Hawaii in January, to have a birthday party feel the distance more deeply and may feel isolated. When
+for her nephew, and to make it to Easter. She got three out of
+working with a person in this situation, PSWs can support by
+four of her wishes.
+helping the person with more frequent calls and contacts to
+— A.S.
+home. Talk with the person about whether their cultural or
+spiritual practices might help them to stay connected to
+home or feel more at home in their setting. Talk with the
+Support Family Relationships
+team about the option to provide space for the person to
+create a culturally relevant place to help them feel con-
+nected to their home and culture.
+My grandmother became depressed when she was dying.
+It turns out that she did not like being in a back bedroom.
+She wanted to be in the living room to know what was hap-
+pening. She wanted to give us advice and tell us what to
+do. She still wanted to make decisions. Once we put her in
+the front room and she was part of the action, she stopped
+being so sad.
+Family relationships can be important to both the dying per-
+son and the family members. In the grandmother’s experi-
+ence related above, the grandmother valued her role in the
+family and did not want it to change. On the other hand,
+Chapter 5: Providing Psychosocial Care 153
+
+Provide Opportunities for Privacy and • Listen to a person’s concerns and needs for privacy, and
+Expressions of Physical Affection respond by asking if you can share the information with
+the nurse.
+• Provide thoughtful ways for getting privacy (Morrissey
+Competency Touchstone Stahl et al., 2018). When a dying person is being cared
+The PSW: for by others and people are coming and going from
+Describes people as holistic beings (i.e., with the room, it may be difficult for the person to find
+physical, emotional, psychosocial, sexual and
+space, time, and energy for privacy, physical affection,
+spiritual aspects
+and closeness. You may want to discuss this with the
+(BC Centre for Palliative Care, 2018)
+person and their family.
+If you would like some time to yourself, we could
+People are sexual beings and expressing physical affection put a do-not-disturb sign on the door. How would
+may be important. A person’s interest in physical affection that be?
+and emotional closeness may change as disease progresses,
+giving rise to concerns and questions (Kelemen et al., 2018). Would you like a sign on your door that asks
+However, when the team does not ask or talk about sexual- people to knock first and wait for an answer before
+ity, it may suggest to the person that the topic is not open entering?
+for discussion (Katz, 2019). As a PSW you can provide support
+in these ways: Is there anything else that would be helpful?
+• Reflect on your beliefs and biases about sexuality and
+expressions of physical affection for people receiving
+palliative care.
+• Acknowledge and respect the person’s rights for pri-
+vacy and physical affection.
+There are so many people coming and going. Do
+you want to have some space for just the two of
+you?
+Sometimes people don’t realize that there is room
+for two people on a hospital bed. Would you like
+your loved one to be in bed with you?
+154 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Supporting the Dying Person’s Wishes through to Death
+A dying person’s values, beliefs and wishes provide direc- Goals of Care Conversations
+tion about their preferences for care as they decline and die.
+In your role as a PSW, you will gather information about a The physician and nurse are responsible for having goals
+person’s values, beliefs and wishes for care through informal of care conversations (also called serious illness conversa-
+conversations while providing direct care, as well as when tions) with the person and family. These conversations often
+spending time with the person and family. The nurse or occur when a care decision is needed about a current health
+physician will use formal processes for discussing a person’s event, e.g., reoccurence of cancer, heart attack, infection
+wishes for care such as a psychosocial needs assessment, and so on, where a person’s health status has changed. The
+advance care planning (ACP) conversations and goals of physician or nurse documents goals of care conversations
+care conversations. These formal conversations may also and the decision making that occurred. As a member of the
+include the substitute decision maker, the family, a social team, you will need to know the decisions made in a goals
+worker and a palliative care counselor. In some cultures, of care conversations so as to adjust the care you provide.
+these formal processes may include the community or may
+not include the person. Advance Care Planning (ACP)
+Conversations
+Although PSWs do not usually participate in the formal con-
+versations, they need to be familiar with these formal pro- Conversations about ACP help people to consider their
+cesses to know the appropriate information to share from goals—wishes, desires, and concerns—for their future care,
+the person and family to the team. As providers of direct and to document and share those goals with someone who
+care, PSWs will also need to know the cultural protocols to can speak for them if there comes a time when they are no
+consider before proceeding. longer able to speak for themselves (CHPCA and BCCPC,
+2019).
+Psychosocial Needs Assessment
+ACP conversations explore hypothetical outcomes for the
+When a person begins receiving care, whether in their person and determine what is tolerable/intolerable. Prepar-
+home, a hospital, a hospice, or a long-term care facility, the ation for ACP conversations includes:
+team will begin gathering information about their beliefs, • Confirming the person’s substitute decision maker
+values and care preferences. It may be that a tool similar (SDM).
+to the Psychosocial Assessment Tool (see Chapter 3, “Using • Assessing the capacity of the person to participate
+Standardized Tools”) is used to help the team learn about in ACP. To participate in ACP conversations, a person
+the person, the family, and their psychosocial needs. must understand their health status and be capable of
+making decisions. If they are not capable, the SDM will
+Understanding a person’s psychosocial needs is speak for them.
+especially important when supporting a person • Preparing the person/SDM by providing information
+whose culture or population group is different than yours, about the process of ACP.
+and they are not able to live close to their family or com-
+munity. Become familiar with the person’s responses to the ACP conversations may include broader aspects of care,
+questions asked in a psychosocial needs assessment, so that such as non-urgent health care, and preferences for psycho-
+you can provide individualized care that aligns with the per- social supports if these topics have not previously been
+son’s psychosocial needs. addressed in a psychosocial needs assessment.
+If you are providing care, and a person makes a statement People do need to document their wishes ahead of time
+that suggests their psychosocial needs have changed, or while they are still able to make decisions and commit to
+are not being met, you might ask open-ended questions to updating the document as their ideas and goals change.
+clarify what they are saying. Ask permission to share what
+was discussed, then record and report it to the team.
+Chapter 5: Providing Psychosocial Care 155
+
+PSWs can ask about a person’s SDM, and explain the pro- The substitute decision maker (SDM)
+cess of ACP to a person. PSWs support the person’s ACP by
+recording and reporting information they gather in con- Appointing an SDM (other terms are used across Canada
+versations when providing care. These conversations may to refer to the person who fills this role) is part of the ACP
+include addressing concerns like these: process. The SDM will make health care decisions for a per-
+son if the time comes when the person is no longer able
+When I think about death, I worry about … [being alone, to make their own decisions or direct their own care. The
+not being able to breathe …]. SDM is restricted to making health care decisions only and
+does not, for example, make financial decisions. As with ACP,
+When I am nearing death, I want … [soft music playing, it is necessary that the person assigns an SDM while still
+someone to hold my hand, a blessing by my priest …]. mentally capable of making decisions. If a person does not
+assign an SDM, then a family member, public guardian, or
+When I am nearing death, I want my friends and family trustee is appointed by the government.
+to remember … [I love you, I forgive you …].
+The ideal SDM has conversations with the dying person
+When I can … that really makes life worthwhile about values, goals of care, preferences, fears, and hopes
+and is already actively involved in the life of the person.
+Ask permission to share this information with the nurse and This could include accompanying the person to medical
+team. Remember that the legal requirements for ACP differ appointments and talking with them as the person’s condi-
+for each province and territory in Canada. As such, inform tion changes. When making health care decisions, the SDM
+yourself of the policies and laws at your location. must be willing to honour the wishes of the dying person.
+Decisions must be based on the preferences of the dying
+person and not on the SDM’s wants or needs.
+Competency Touchstone
+The PSW:
+In some Indigenous traditions, the family elects an
+Collaborates with the inter-professional team,
+SDM for the person, or there are time-honoured
+person and family to ensure care plans are
+customs that a certain position in the family is automatically
+consistent with goals of care, preferences
+designated as the SDM. PSWs and the team need to be
+and advance care plans (ACPs), which may
+aware that this protocol may run contrary to the legislated
+change throughout life-limiting conditions.
+guidelines on precedents among family roles.
+(BC Centre for Palliative Care, 2018)
+Scope of medical treatment forms Ethics Touchstone
+The PSW:
+Scope of medical treatment forms may be included in the Supports individual and family choices per-
+taining to end-of-life care in alignment with
+ACP process. These forms identify which life-saving med-
+the Health Care Consent Act, and Substitute
+ical treatments and interventions align with the person’s
+Decisions Act
+goals of care, and include for example, the DNACPR—Do
+(Ontario Palliative Care Network, 2019)
+Not Attempt CPR form, the MOST (Medical Orders for Scope
+of Treatment) form, or the POLST (Physicians Orders for
+Life-Sustaining Treatment) form.
+The physician collaborates with the person or the SDM to
+prepare the forms on the basis of the person’s wishes and
+treatment options. In the home, these forms are often
+attached to the fridge so that HCPs can find them easily. If
+you work in a care facility, make yourself familiar with the
+location of these forms.
+156 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Reflective Activity Competency Touchstone
+The PSW:
+Completing an advance care plan for yourself will help Recognizes that communication and
+you to understand and know what the process feels like. decision- making may involve the larger
+Discuss your challenges in answering the questions in the community, particularly when caring for First
+following activity. Nations, Inuit, Métis and urban Indigenous
+1. Write reflectively about what is important to you as a peoples, and supports facilitation of this.
+person. What gives your life meaning? What gives you (Ontario Palliative Care Network, 2019)
+joy, strength, and support?
+2. Record on paper what values or ideas you want your
+SDM to consider if you were to become unable to
+speak for yourself. BBA 67-year-old Egyptian man with ALS (amyotrophic
+3. Who would you ask to be your SDM? lateral sclerosis) was admitted to hospice. The eldest
+son met with the team before his father arrived and informed
+us that his father was to be told that he had had a heart
+The collaborative role of family and community in attack. The son explained that his father was not to know
+decision making that he had ALS—it would be shameful and would “break
+him.” The team met and ensured that the father wanted the
+son to make the health care decisions. So the HCPs agreed to
+Families and close friends may play important roles in a per-
+not tell the father, but they still provided care and focused on
+son’s life and therefore may be able to contribute helpful
+the best care they could provide.
+information for the team when the person can no longer
+make decisions. The friends of a person who has dementia
+The man kept asking, “Is this what a heart attack feels like?
+may be able to share information about current activities
+Is this what it is supposed to be like?” and “Is this what you
+the person might enjoy. People from the same spiritual
+think? Is this what you think it looks like … is this normal?”
+community might be able to contribute information on
+practices that might soothe a person’s spirit. A family mem-
+In the end, the father died without knowing he had ALS.
+ber may know that in their last hours the person wants a
+It was a long two years for the team. We supported him by
+particular song playing in their room. Encourage family and
+answering the questions without answering them. And pro-
+friends to share and communicate this type of information
+vided excellent care.
+to the SDM and the team.
+Being open to the communication needs of people Organ donation
+from different cultures and populations regarding
+illness, dying, and death will enable you to hear the prefer- Donating organs and tissues may be one way for a dying
+ences of the person and family. In some cultures, the com- person to feel their death has meaning. While 90% of Can-
+munity contributes to the decision making. Follow the val- adians support organ and tissue donation, less than 20%
+ues of the person to decide when to seek contributions of have discussed this with their family or SDM, or made plans
+community members. It may be possible to appoint an SDM to donate (Canadian Transplant Society, 2020). The ACP pro-
+to speak with the team and still include the larger commun- cess needs to address a person’s interest in organ or tissue
+ity in the decision-making process. In some cultures, the donations.
+dying person does not take part in decision making and will
+not be informed that they are dying. In these instances, only It may be surprising to learn that potential donors can
+the family will discuss information with the team. include people with some life-limiting illness. Canadian
+Blood Services reports that the oldest organ donor (to date)
+Remember to be mindful by leaving your biases and beliefs was of 92 years of age, and the oldest tissue donor was a per-
+behind when gathering information about ACP, and to son 104 years of age! (Canadian Blood Services, 2020). Organs
+research and/or ask about the person’s cultural values and and tissues donated from one person can potentially bene-
+beliefs before discussing advance care plans. fit more than 75 people, and may assist up to 8 people to
+live longer and with better quality of life (Province of Nova
+Scotia, 2020). In Nova Scotia, legislation effective in late 2020
+Chapter 5: Providing Psychosocial Care 157
+
+will include everyone as an organ donor unless the person You might respond,
+opts out, as a way to increase the number of organ and tis- I hear you. It is not uncommon for people to post-
+sue donors (Province of Nova Scotia, 2020). pone these conversations. But you know, I have lis-
+tened to conversations that were definitely not sad.
+The topic of organ and tissue donation after medical assist- It is really about you exploring who you are, what
+ance in dying brings up ethical concerns. The primary con- you care about, and what you want. It is about
+cern is that people might choose medical assistance in making a plan.
+dying as a way to donate organs and tissues (Downar et
+al., 2019). From an ethical perspective, the person needs to 3. Encourage them to discuss their goals of care.
+confirm their decision to pursue medical assistance in dying The nurse wants to know what I want done in the
+before starting a discussion on organ or tissue donation. future as I get more sick, and as death becomes
+more imminent.
+As a PSW providing care for dying people, you may do so
+for a person with a life-limiting illness who is interested in You might respond,
+donating tissues and organs after they die. If you are asked How do you feel about having a conversation like
+about donating, you might respond with, that? When your kids come this weekend, do you
+think it might be possible to discuss it with them?
+That is a good question. Can I share your interest with the
+nurse and team? They can gather information for you Do you need some help to find the words to open
+and can come to talk with you about your wishes. the conversation? (Communicate this informa-
+tion to the nurse.)
+You can point the person and family to information on organ
+and tissue donation in Canada available on the Government 4. Help the person learn about medical procedures.
+of Canada website, under Health > Healthy Living > Blood, I don’t understand what they are going to do
+organ and tissue donation. tomorrow.
+Eight strategies for supporting ACP You might respond,
+That must be a bit worrisome. Could you talk with
+Talking about advance care plans might feel foreign for the doctor or nurse about your questions? Some-
+many people. You support people in ACP when you do the times it is hard to remember what you were going
+following: to ask when you get to an appointment. I’d be
+1. Validate their desire to talk about their personal wishes happy to help you write down your questions and
+and hopes. concerns.
+I want to talk with my family about my illness, but
+they don’t want to talk about it. 5. Help the person think about what’s right for them.
+I need more care and I don’t want to burden my
+You might respond, family.
+That must be hard. I wonder if someone from the
+team—the nurse, physician, or social worker— You might respond,
+could talk with you more about this. Would it be That’s a hard one. Can you tell me more? (Fol-
+all right if I mention this to the nurse? Or would you low up on the next visit. Talk this over with the
+rather mention it yourself? nurse.)
+Remember to follow up on your next visit.
+2. Acknowledge the lack of interest in discussing end-of-
+life issues, and at the same time share a healthy attitude
+toward ACP conversations.
+I don’t want to talk about all this sad stuff.
+158 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+6. Help the person prepare to talk with the health care pro-
+Muriel Ponders Her Care Wishes
+fessionals about medication or treatment concerns.
+I don’t want to take all these medications.
+Muriel, aged 89, had been living in an assisted living facility
+for several years. Over that time her condition had slowly
+You might respond,
+declined, although she still ate well and enjoyed a number of
+Sounds like you have had enough of taking pills.
+activities with friends. One day the PSW who was caring for
+What’s happening? Can you talk with your doctor
+her and knew her quite well said to Muriel, “You seem espe-
+or nurse about how you are feeling?
+cially quiet today. Are you feeling okay?”
+Here’s another example:
+“Well,” Muriel said, “My best friend, Joan, died unexpectedly
+I’m so tired of dialysis.
+last week, and it’s really gotten me thinking about when I
+die and where I want to be buried. My children don’t want to
+You might respond, talk about it, but although I’ve lived out West for a long time,
+It’s a tiring process isn’t it? Can you tell me a little my heart is really on the prairies and I would like to be buried
+more about what you are thinking and feeling? there with the rest of my family.”
+Who have you talked with about this?
+The PSW responded, “Hmm … It’s quite natural that your
+7. Help the person record conversations. You might say, friend’s death would get you thinking about what’s import-
+Maybe you could write down some of these ant to you, and it sounds like it might be helpful to consider
+thoughts and questions so you can talk with your some ways to bring this subject up with your family. Would it
+doctor and family. Would you like me to take notes be okay if I asked your nurse to connect you with someone on
+during this conversation if no one else is available? the team who can help you do that?”
+“Thank you!” Muriel said. “I know I may have a lot of time
+8. Encourage the person to talk with the health care pro-
+before I die, but it would be such a relief to me to know that
+fessionals and provide them with the relevant contact
+my family knew my wishes.”
+information. You might say,
+There are people who can help you talk with your
+daughter about this. Would you like to talk to one
+of the other members of the team?
+It sounds like you are clear on your goals. Can you
+talk with the nurse, physician, or social worker
+about this?
+PSWs at work cannot
+• Sign documents, including wills, legal forms, or
+contracts
+• Tell someone what they should or should not do or
+what treatments they should have
+• Make recommendations for ACP decisions
+Chapter 5: Providing Psychosocial Care 159
+
+Medical Assistance in Dying (MAID)
+Written in collaboration with David K. Wright1
+MAID refers to the process whereby a person requests and The prescribing or providing by a medical practitioner
+receives a lethal substance that causes their death. Requesting or nurse practitioner of a substance to a person, at their
+and receiving MAID raises complex issues for the dying per- request, so that they may self-administer the substance
+son, the family, health care professionals, and hospice and pal- and in doing so cause their own death.
+liative care communities. As a friend, as a family member, and (Government of Canada, 2016)
+in your work, you will know, care about, and care for people
+who have questions about MAID and those who will request Reasons for Requesting MAID
+MAID. It is important to understand what MAID involves and
+why people request it, to consider your thoughts, feelings, and People request MAID for many reasons. The most frequent
+beliefs about MAID, and to reflect on how you can respond in reason for requesting MAID was their desire for autonomy
+a non-judgmental way when a person requests information and control over their end-of-life experience, and the right
+about MAID, and chooses and plans for MAID. to choose death when their suffering becomes intolerable
+(Fischer et al., 2009; Nuhn et al., 2018).
+Ethics Touchstone “I don’t want to have to take matters into my own hands. I
+The PSW: want options. I want choice. I deserve that. We all deserve
+• Demonstrates understanding of relevant that.” (Patient H)
+legislation and policies, e.g. Bill C-14
+(Nuhn et al., 2018)
+(Medical Assistance in Dying (MAID), Bill
+84 (MAID Statute Law Amendment Act,
+Some people requested MAID when their health declined
+2017) Child, Youth and Family Services Act,
+such that their life no longer included activities that gave
+Adult Protection Act, Health Care Con-
+them joy, they had lost their sense of purpose, and they
+sent Act, and Substitute Decisions Act
+wanted to end suffering or feared future suffering (Selby et
+• Responds to inquiries regarding MAID
+al., 2020; Wiebe et al., 2018).
+in accordance with legislation and
+employer policies
+“I don’t want to struggle anymore.” (Patient C)
+(Ontario Palliative Care Network, 2019)
+(Nuhn et al., 2018)
+Understanding MAID in Canada For some people, having the choice to die provides comfort,
+and after receiving the opportunity to have MAID or phys-
+MAID was legalized in Canada in June 2016 and is a service ician assisted dying, they do not actually go ahead with it.
+available to people who meet specific criteria. Since MAID
+was legalized, the number of people choosing MAID has Eligibility Criteria for Accessing MAID
+increased each year and is equally divided between men
+and women (Health Canada, 2019). In Canada, the person requesting MAID must meet specific
+eligibility requirements that are set out by law, and then fol-
+In Canada, MAID is defined as, low the process outlined before receiving the life-ending
+medication.
+The administering by a medical practitioner or nurse
+practitioner of a substance to a person, at their request, The person may receive MAID only if they meet all these
+that causes their death; or criteria:
+• They are eligible to receive health services funded by a
+government in Canada.
+1 David Kenneth Wright is assistant professor and co-director of the Nursing Palliative Care Research and Education Unit, University of Ottawa.
+160 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+• They are at least 18 years of age and capable of making
+decisions with respect to their health. Ethics Touchstone
+• They have a grievous and irremediable medical The PSW:
+Responds to inquiries regarding Medical
+condition.
+• They have voluntarily requested MAID and did not do Assistance in Dying (MAID) in accordance
+with organizational policies and directives.
+so as a result of pressure from other people.
+(BC Centre for Palliative Care, 2018)
+• They give informed consent to receive MAID after hav-
+ing been informed of the means available to relieve
+their suffering, including palliative care.
+MAID and the Principles of Palliative Care
+For further information on MAID and related safeguards, and The relationship between MAID and the principles of pal-
+for clarification of terms, check the policy in your jurisdiction liative care is complex. One principle of palliative care (see
+and facility. For example, provincial laws in Quebec provide Chapter 1, “Understanding Dying and a Palliative Approach”)
+different criteria for requesting and accessing what is iden- is to relieve suffering. Providing MAID for a person who is
+tified as “medical aid in dying.” If you are working in Quebec, experiencing or will experience unbearable suffering agrees
+ensure that you are familiar with its medical aid in dying laws with the principle of relieving suffering. Further, palliative care
+(Government of Quebec, 2019). by definition states that the person and family are the unit
+of care. Honouring a person’s interest to explore or pursue
+MAID is therefore consistent with person-centred care. At the
+The Process for Requesting MAID
+same time, the principles of palliative care state that it does
+When a person is interested in accessing MAID, they speak
+not hasten or delay death, and that death is a natural phe-
+with their physician/nurse practitioner and they share their
+nomenon. Because MAID deliberately hastens death, some
+reasons for requesting MAID. Together they look at the
+people in the palliative care community suggest that MAID
+persons’ illness, their decline, and when death is expected.
+contradicts these palliative care principles and should not be
+They look at the care options that have been tried and
+provided in hospice or palliative care settings. Additionally,
+focus on those that are successful. They address whether
+because there exists a myth in the general public that pallia-
+palliative care has been offered and assessed. If the person
+tive care hastens death, there is concern that providing MAID
+then wants to access MAID, these are the next steps:
+in the palliative care setting would feed this myth.
+• The person makes a formal written request in front of
+two independent witnesses.
+• The physician/nurse practitioner assesses the person’s Reflecting on Your Beliefs and Values
+eligibility (see the “Eligibility Criteria for MAID in Can- about MAID
+ada” section on page 160).
+• If MAID is approved, the person enters a manda- Understanding your beliefs and values is essential to provid-
+tory 10-day period of reflection. During this period, a ing person-centred palliative care. Know that your beliefs,
+second physician/nurse practitioner must confirm the values, and ethical assumptions about MAID will affect your
+person is eligible to receive MAID. The 10-day period desire and willingness to participate in discussions about
+may be shortened if the dying person’s death and/or MAID. Because MAID addresses our feelings about the value
+loss of capacity for consent is imminent. of life, it is possible that you may experience strong emo-
+• The person can then arrange a time with the phys- tions when talking with a person who expresses a desire to
+ician/nurse practitioner to receive MAID. die. You may find the intensity of the experience difficult.
+• Through the process of requesting MAID, the person You may find that the interprofessional dynamics of your
+can choose to postpone their application or decide work setting are such that you need to advocate for the
+not to proceed. dying person’s wishes for MAID so that the rest of the care
+team understands those wishes and takes them seriously.
+Proposed amendments to the 2016 MAID legislation
+Conversely, you or someone else on the team may have cul-
+include safeguards that would make MAID available to
+tural, religious, or personal objections to some or all aspects
+people for whom death is not reasonably foreseeable
+of caring for people who request MAID.
+(Government of Canada, 2020).
+You can use the following reflective activity, developed by
+David Wright, to reflect on your beliefs and values about
+Chapter 5: Providing Psychosocial Care 161
+
+MAID. Your new understanding will help you to respond to your team. Consider also how you will ensure that
+appropriately when you care for someone who wants to talk the dying person and family are not harmed by your
+about or requests MAID. It may identify directions for your personal stance.
+professional development. • If you are unsure of what you believe and are not
+comfortable supporting MAID for any reason, consider
+Exploring your beliefs about MAID your needs for education, support, and skill develop-
+ment, and seek continuing education in the areas you
+Use the following reflective activity and the follow-up activ- identify.
+ities below it to help clarify your beliefs and feelings about • If you support MAID, you may also want to identify
+participating in MAID. areas in which you want to further your education and
+skill development. Consider ways you can contribute to
+the well-being of the health care team, and how you
+Reflective Activity
+might offer empathy and support to team members who
+Below is a list of activities that PSWs may participate in as
+do not participate in offering MAID and those who do.
+part of the MAID process. Consider how comfortable you
+would be doing each activity. Identify where on the con-
+Responding to a Person’s Request for
+tinuum you would place yourself for each activity.
+MAID
+1. Responding to a person who is asking questions about
+MAID as a care option Regardless of your beliefs and values, you need to be avail-
+able to respond from a neutral place to the person’s request.
+Seek out your organization’s policy and procedures for PSWs
+Totally Uncomfortable Totally Comfortable responding to requests for MAID.
+2. Responding to the family’s questions about MAID A dying person interested in MAID may say to you,
+3. Discussing a person’s request for MAID with inter-
+I want to die.
+professional colleagues, including physicians/nurse
+practitioners, and nurse
+I have had enough! Can someone just give me a pill?
+4. Providing personal care to someone who is scheduled
+to receive MAID I cannot go on like this. What are my options?
+5. Supporting family members after a person dies by I want to know about medical assistance in dying.
+means of MAID
+I want medical assistance in dying.
+Follow-up activities
+The statements above reflect a range of emotions and could
+After completing the activity, reflect on the aspects of it that mean many different things (Wright et al., 2017). Respond
+made you feel uncomfortable. Explore, through journaling first with compassion and empathy, and then clarify what
+or by talking with a friend or colleague, the source of your the dying person means.
+discomfort. Is your discomfort based on a professional or a
+more personal stance? Consider the following: I can hear your frustration/anger/disappointment at
+• If you are uncomfortable having an open dialogue what is happening. Do you want to talk for a bit?
+with a dying person about the possibility of MAID, is this
+because you lack confidence in your knowledge and You can offer compassion and empathy by being with the
+skills to have these conversations, or because you have person in silence and providing appropriate touch. The
+an ethical objection to the idea of MAID as a care option? essence of compassion, and of palliative care, is to be with
+• If you believe MAID is not ethical, investigate your a person in their suffering, to walk with them on difficult
+organization’s policies and find out whether they pathways, and to convey empathy, warmth, and acceptance
+include a policy for employees who have a moral objec- along the journey. This is a time for nonjudgmental pres-
+tion to MAID. Consider other ways you can contribute ence, no matter what your personal beliefs are about MAID.
+162 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+When it is appropriate to ask questions, you might clarify own values, goals, and circumstances. When a person wants
+the person’s meaning by asking questions such as these, or to explore the option of MAID, remember that the desire
+adaptations of them: for autonomy—their right to decide when their suffering is
+unbearable—can lead a person to consider MAID. The team
+Can you tell me more about what is happening, what will want to reflect on some critically important questions
+you are wanting [thinking about]? such as these:
+• What suffering is this person experiencing that they
+Can you clarify what it is that you are asking for? feel is intolerable?
+• Are there palliative care options that might help mini-
+Asking open-ended questions will help clarify the person’s mize suffering? Specifically,
+needs and goals, including their interest in MAID. • Is this person receiving optimal pain and symptom
+management?
+Whether the person is seeking more information about • Is this person receiving the necessary psychological,
+MAID or wanting to access it, the next steps for the PSW social, and spiritual support from a trained inter-
+include recording the request and reporting to the nurse professional care team?
+and team. The policies and guidelines relating to MAID and • Has the health care team done everything possible to
+the legal policies of your professional college/organization provide dignity-conserving care?
+or work setting will identify how to proceed.
+With the team, it is important to discuss what the dying
+The Team’s Response to Requests for MAID people you care for experience and what you can do to sup-
+port them.
+The role of the team is to address the needs of the dying
+person and help the person make decisions based on their
+I don’t feel I understand that she wants
+assisted dying assisted dying, but I don’t
+is ethical, and I want to participate.
+don’t want to
+participate.
+I am comfortable
+with supporting and
+being involved with
+assisted dying, but
+She wants I’m concerned about
+assisted the team. How can
+dying, and I support them?
+it is part
+of the
+care I can
+provide.
+Chapter 5: Providing Psychosocial Care 163
+
+Supporting People Experiencing Loss and Grief
+People experience loss when they are deprived of someone
+Making Friends with Gone
+or something important to them. Grief is a healthy and nat-
+ural adaptive response to loss. People grieve when they lose
+Most all the food’s been put away
+someone or something that is important to them. Grieving
+A little soup left on the stove
+is the process of adapting to the loss in the changed environ-
+I hear the last car leaving
+ment. Grieving is a whole-person experience that includes
+Down the driveway and up the road
+the sorrow and suffering caused by the loss, as well as the
+It was so sweet of Jim and Joan
+personal growth and insight that people may experience
+To make a trip so long
+after a loss. A palliative approach supports the dying person
+I guess now I’ll be making friends with gone
+from the time of diagnosis through the dying process and
+care of the body following death. A palliative approach sup-
+The flowers they were beautiful
+ports the family from the time of diagnosis through the time
+And everyone so kind
+of death and through the grieving process.
+I thought how you’d have loved to see
+So many dear friends at one time
+After all the stories
+Competency Touchstone
+And the toasts till nearly dawn
+The PSW:
+I guess now I’ll be making friends with gone
+Identifies grief as a common response to loss
+with multifaceted aspects that affect how it is
+I’m so glad we had those last days
+experienced.
+Laughing so hard at the jokes you make
+(BC Centre for Palliative Care, 2018)
+And like every time that you drove away
+You said I love you
+And I called out I love you too
+Basic Truths about Loss and Grief
+Just a little longer now
+I don’t want to go to bed
+There are many theories about loss and grief. Models of grief
+Maybe just another walk
+have been developed, refined, and changed as new under-
+Down Cooper Road instead
+standings emerge. There are basic truths about loss and
+If anybody asks you
+grief that all members of the team should understand:
+How I’m getting on
+• Loss is natural. Everyone experiences loss as part of
+Just tell them I’m still making friends with gone
+being alive.
+Now forever making friends with gone
+• People whose health is declining and who are dying
+(Ulrich, 2013)
+experience multiple losses.
+• Grief is a natural, healthy response to loss that helps
+people adapt to living in a changed world.
+• Grief is a whole-person experience. Losses in life are natural
+• People grieve differently over time.
+• People grieve in different and unique ways. In everyday life, we experience losses. As children, we experi-
+• Denial can be an effective way to cope with over- ence loss when we go to kindergarten and leave our parents
+whelming loss and grief. at home, or when a good friend is in a different school.
+• Hope is a wish for something that is important to the
+person. Some losses are tangible, like the death of a person or pet.
+Other losses are symbolic, such as the loss of a dream. Some
+The song “Making Friends with Gone” illustrates the losses losses are clear, such as when a person dies suddenly—one
+Shari Ulrich felt after the death of my mother, Yetta, and day they are there and the next day they are not. Other
+other close friends. losses are more ambiguous and difficult to identify, such as
+loss of cognitive function with dementia.
+164 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Multiple losses occur with dying Unexpected losses are difficult
+We experience losses when someone important to us Some losses are expected, while others are unexpected. A
+becomes ill or dies. When an ill person cannot interact with person can unexpectedly die or lose abilities from an acci-
+us in their usual way, we both experience losses. This could dent, a heart attack, a stroke, or complications of a pandemic
+mean the loss of a walking partner or a life partner. The illness such as COVID-19. In general, unexpected losses are
+point to remember is that the family and the ill person suffer more difficult to adjust to because the person cannot pre-
+repeated losses each time the person’s abilities decline, their pare for them mentally or emotionally. Share information
+mutual activities disappear, and the relationship changes. with the person and family about expected losses to reduce
+The family experiences loss when the person dies, and the the number of unexpected losses. Share information about
+relationship is severed. the person’s trajectory of decline and dying to help the per-
+son and family plan for the certainties in the decline.
+Each loss will have unique meaning for each person, based
+on their own life and experiences. It follows that each per- Multiple losses are difficult
+son will respond in their own way to loss.
+PSWs can support people who are grieving multiple losses
+People who have immigrated may experience added losses. by listening to how the losses are affecting them and by
+Their losses may include not being able to “go home to die,” remembering that each loss will have unique meaning for
+which means dying away from their family, community, each person. What one person considers a major loss may
+homeland rituals, heritage, and culture. You support the per- be a minor loss to someone else. You can communicate the
+son by allowing them to teach you about what is important person’s feeling about their losses to the care team so that
+for them, and how to engage with them. Your being cul- the team can also provide support.
+turally humble will help meet the person’s needs for rituals,
+heritage, and culture.
+It all began when Len woke up one day and his speech was
+slurred. The kids and I laughed at him. Then he began tripping
+A person who has lived through traumas in the past may
+over things and having trouble using his hands. By the time
+experience added losses if events during the dying process
+he was diagnosed with ALS, we stopped laughing. It seemed
+bring up old traumas. This could happen,for example, if an
+that every day he experienced one more loss. He became frus-
+HCP makes insensitive comments when providing care for a
+trated. Sometimes he yelled at me. Going for our daily walk,
+person who identifies as LGBTQ2S+. You can prevent addi-
+having a pleasant drive, playing cards, watching TV, enter-
+tional losses by leaving your baggage behind and providing
+taining our friends, all became impossible. All the things that
+care with a trauma-informed approach. gave our life meaning and happiness disappeared one by
+one. After a while he could do nothing for himself. Our rela-
+Ambiguous losses are difficult tionship became that of patient and caregiver. Life as we had
+known it was gone forever. Some days I would lie on my bed
+Ambiguous losses are those that are not clearly defined, for and sob. One time I was interrupted in my crying by the sound
+example, the many losses experienced by the family of a of him crying in the other room. It just broke my heart. I real-
+person with progressive dementia. The person is still alive ized then that grief begins long before a person dies.
+but is not the same as they once were.
+To open conversations about the meaning of loss, you could
+When Mom could no longer care for herself and had to be
+ask questions like these:
+placed in a facility, I had to be like the mother advocating for
+my “child.” I still loved her, but it was different, and my emo-
+You have lived in your home for a long time on your own.
+tions were all mixed up. Sometimes I felt sad, but I was also
+How are you feeling about the move to assisted living?
+angry and scared. I lost the mom I knew long before she died.
+But I couldn’t really grieve the loss like I could have if she had
+I’ve noticed that it seems harder for you to get around
+died, because she was still alive. It was a difficult time and very
+without your walker lately. How is that for you?
+few people understood what I was feeling.
+Chapter 5: Providing Psychosocial Care 165
+
+I’m happy to prepare meals for you, but you have told me is to support people to find their way on their very personal
+that you love to cook. How are you feeling about handing and unique journey.
+that off to someone else?
+Grief is a part of living. Colin Murray Parkes, a British psych-
+Please let me know your meal preferences and I will do iatrist and grief specialist, states that grief is the price we
+my best to accommodate them. pay for love (Parkes, 1986). If we ignore this truth, we will be
+unprepared to experience loss in our life or support other
+Understanding Grief people in their grief.
+Grief is a whole-person experience
+Competency Touchstone
+The PSW:
+Identifies resources available for grieving Lee’s Experience with Grief
+families
+(BC Centre for Palliative Care, 2018) When Lee’s partner died, Lee was in shock for several months.
+His chest hurt, like his heart had actually broken. He didn’t
+respond to his friends and family when they invited him out
+for a walk or to share a meal. He felt numb at times and then
+Competency Touchstone
+at other times would burst into tears without warning. He
+The PSW:
+railed at a God that had always been a comforting source of
+Supports people and their families in their
+strength. None of it made sense to him.
+unique ways of grieving
+(BC Centre for Palliative Care, 2018)
+Grief is a whole-person experience that can affect every
+Grief is our response to loss part of a grieving person’s life. When you are working with a
+grieving person, it may be helpful to remember that people
+Grief is a normal response to loss. It is the natural, subject- may experience and express grief in the following ways.
+ive, and complex reaction to a perceived loss. The word
+“grieve” comes from the Latin and Old French words mean- Physical
+ing “heavy” and “burden,” respectively. Grieving people fre-
+quently describe feeling weighed down or burdened. As in Lee’s experience with grief described in the preceding
+story, grief can be felt as an aching in the stomach, head,
+Elizabeth Kübler- Ross pioneered work on loss and grief over or chest, or as fatigue, restlessness, or listlessness. Sleeping
+50 years ago. Her work was valuable in getting people talk- can be difficult, even when the person is exhausted. Fatigue
+ing about death, dying, loss, and grief. Through her research can be overwhelming. Some people have no appetite, while
+she proposed that our response to loss could be viewed others take comfort in eating.
+as stages of grief: shock and disbelief, anger, bargaining,
+depression, and acceptance. These five stages of grief reson- Social
+ated with many people, possibly because the stages made
+the variety of emotions of grief seem normal. Some grieving people find it impossible to be with friends
+and family because conversations that are not about grief
+However, it was not Kubler-Ross’s intent to imply that griev- seem trivial, yet if they do talk about their grief, they feel
+ing people moved sequentially through each grief stage, vulnerable and exposed. Others find that they need family
+or that they resolved the emotions of each stage before and friends to distract them from their emotions and may
+proceeding. People also mistakenly thought the goal was feel frightened, lonely, and even resentful when family and
+for grieving people to accept their loss. We know now that friends leave. Still others worry that they will upset other
+many people do not want to accept death or the loss of a people if they speak of their grief and so prefer to be silent.
+loved one. They do not want to “let go and move on.” People
+who lose a loved one usually find ways to adapt to the
+loss and experience joy again. It is also true that for some
+people, grief walks with them the rest of their life. The goal
+166 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Emotional Australia, grief may be expressed with a “death wail,” the crying
+of grief aloud, that was first identified among ancient Celts.
+The emotions of grief can feel overwhelming. Sadness is a
+common emotion of grief, as are anger and frustration. These
+Competency Touchstone
+emotions may result in irritability. A person’s feelings can be
+The PSW:
+more intense with sleep deprivation and ongoing decline
+Recognizes the range of individual physical,
+in functioning. Fear is an emotion associated with grief, as
+psychological, spiritual, emotional and social
+the person experiences the fear of being a burden, the fear
+responses to loss and grief
+of separation, and the challenges of facing the unknown.
+(Ontario Palliative Care Network, 2019)
+While some people readily express emotion through tears
+or angry outbursts, others may be more comfortable keep-
+ing their emotions to themselves. In your caregiving, you will care for people who grieve in a
+variety of ways. People who like to draw or reflect may find
+Spiritual using a body map helpful to understand their whole-p erson
+experience of grief.
+It is common for people who are grieving to question their
+beliefs and long-held world views. They are trying to adjust
+Competency Touchstone
+to their new reality and find meaning in the loss and the
+The PSW:
+situation. This questioning may be particularly painful and
+Demonstrates knowledge of diverse perspec-
+surprising for those who have held strong beliefs and found
+tives on loss, grief, bereavement, and mourn-
+comfort in those beliefs.
+ing to support others from a cross- cultural
+perspective
+Mental
+• Recognizes the impact of colonization,
+historical loss and trauma when caring
+A grieving person may find it difficult to think clearly. Other
+for First Nations, Inuit, Métis and urban
+people may find that their mind is busy, going over and over
+Indigenous people
+the course of events, trying to recall or understand what hap- • Understands cumulative grief which can
+pened. Others have trouble concentrating and may be forget- be particularly significant in First Nations
+ful, have difficulty doing things that were easy, or have difficulty and Inuit communities
+learning new things. The person may become easily confused (Ontario Palliative Care Network, 2019)
+and feel mentally exhausted even after sleeping or may forget
+simple things, such as how to get to the store or how to cook a
+basic meal. Some people fear they are going crazy.
+Cultural
+A person’s culture may affect how they express grief.
+Among people in some cultures (e.g., British or Euro-
+pean), public expressions of grief have historically been dis-
+couraged. For other cultures, private expression of grief may
+also be discouraged. Among some Asian cultures, a stoic atti-
+tude is encouraged to the extent that many grieving individ-
+uals experience depression from internalizing their grief (Grief
+Speaks, 2020).
+At the opposite end of how grief is expressed are cultures
+that do so openly. Among Haitians, cultural expressions of
+grief encourage large physical displays of great emotion.
+Among Indigenous cultures of Africa, South America, Asia, and
+Chapter 5: Providing Psychosocial Care 167
+
+Several factors influence a person’s grief
+The Ball and the Box—a Model for Coping with Grief
+The intensity of a person’s grief is influenced by the timing of
+Imagine a box with a ball inside. On the inside is a red
+the loss, the nature of the loss, what the loss means in terms
+button that, when bumped, causes grief pain. When the
+of the progression of their illness, and how the loss affects
+loss is new, the ball is taking up most of the space in the
+their ability to maintain hope. A dying person’s perception
+box. The ball feels like it hits the grief pain button with
+of a loss and its effect on quality of life are the most signifi-
+every movement, action, thought or memory. Grief pain is
+cant influences on their grief. Consider these losses:
+constant and is triggered in so many ways.
+• The loss of independent living when moving into an
+assisted living facility
+As time moves on, the ball becomes smaller and hits the
+• The loss of independence when help is required for
+grief pain button less often. The pain is the same, but with
+daily activities fewer hits the person begins to heal between grief pain
+• The loss of privacy when total care is needed experiences. The person experiences the same grief pain,
+but less frequently.
+While these losses are common as illness progresses, the
+meaning of the loss will be different for each person. For As time continues to pass, the ball continues to shrink and
+example, while one person may grieve the loss of the ability it hits the grief pain button infrequently. But still, when the
+or opportunity to cook, another may be relieved that some- ball hits the button, the grief pain is the same pain. How-
+one else is now responsible for doing the grocery shopping ever, the person is healing and is more able to manage the
+and making meals. Understanding the meaning of the loss grief pain. They feel it but are able to feel it in a different
+to the person at the time will be important to understand- way.
+ing their grief. (Grohol, 2019)
+Competency Touchstone
+The PSW:
+Grief Changes
+Acknowledges the cumulative losses inher-
+ent in the experience of a life-limiting condi-
+Initially I was completely wiped out. I dragged myself through
+tion and its impact on the person and family.
+each day. I could not think clearly to make decisions. I had to
+(BC Centre for Palliative Care, 2018)
+rely on others to help me sort out the big stuff. I was unable
+to eat. The first year after my husband died in the accident, I
+was a mess.
+People experience grief differently over time
+People were kind. They brought meals. They drove the kids
+to school. They put snow tires on the car. They winterized the
+One of the truths about grief is that grief does not end. The
+house. I don’t know where I was, but I know I did not function
+intensity and energy of grief usually decrease over time, but
+well.
+in some form grief is woven into the fabric of a person’s life.
+Now, the kids and I are managing better. We still miss him. I
+think of him every day. I miss him especially at special times
+for the kids. But, it does not hurt so much anymore. And I don’t
+cry as much as I used to cry. It is easier. The blanket of grief is
+not as heavy. There are holes in it, and it is more a part of my
+life.
+168 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+People grieve in different and unique ways you will judge or label their behaviour. Knowing their griev-
+ing style makes supporting them in their grieving easier.
+How Greta and Jack Grieved Differently For example, Greta might appreciate attending a support
+group as she grieves, while Jack might prefer to work with
+Greta and Jack cared for their adult son for months when he the community to establish the memorial garden.
+was dying. Greta attended to his every need. After his death
+her days seemed endless and her grief was overwhelming.
+Caregivers need to avoid judging or labelling the behaviour
+She sobbed for hours at a time. She talked with others who
+of grieving people. Instead, support the person by letting
+understood and who allowed her to cry.
+them know that their grief and ways of expressing grief
+are normal. Help them to identify their strengths in coping
+Jack was dry eyed. He arranged the funeral, found hotels for
+and to accept the way others are grieving. When you give
+out of town relatives who came to the funeral, gave a brilliant
+people the chance to identify what is helpful to them, you
+eulogy, and later made a bench with a plaque dedicated to
+can better support them.
+his son. He applied to the city to design and build a small
+memorial garden in a local park where the bench would be
+People may use denial to cope with overwhelming
+placed.
+loss and grief
+When a person appears to ignore a diagnosis, prognosis,
+Kenneth J. Doka and Terry L. Martin (2010) created the terms or suggestion (e.g., that they need to use a walker), they
+“intuitive griever” and “instrumental griever” to explain two may be labelled as “in denial.” Denial of illness occurs in
+styles of grieving. An intuitive griever feels and freely shows approximately 20% of people diagnosed with serious illness
+their emotions. This style is commonly linked with women (Flynn, 2004). Denial before diagnosis may prevent the per-
+but is not limited to women. An instrumental griever is son from seeking appropriate and timely medical care. Their
+active in their grief. They express themselves by doing prac- denial is suggested to be a coping mechanism for managing
+tical tasks. This style of grieving is commonly linked with their anxiety about illness. Interestingly, denial after diagno-
+men but is not limited to men. sis may also benefit the person in the short term. Denial is
+reported to help maintain a person’s perception of quality
+Greta’s experiences show her to be an intuitive griever. She of life. People who deny illness may report fewer common
+expresses her emotions readily. In her grief, she cries often symptoms, such as fatigue, nausea and vomiting, appetite
+and sometimes feels like she lacks control. She finds support loss, and pain (Vos et al., 2010).
+in being with other people. At times, the power of her feel-
+ings is frightening to her, and she is often tired. Her focus is
+on her feelings, not on doing tasks.
+Jack’s experiences suggest he is an instrumental griever. He
+stays busy, focuses on caring for others, and appears to be
+coping with daily activities. He makes meaning of his son’s
+death by preparing a park bench to celebrate his life, and
+working toward a public memorial garden. Jack struggles
+to maintain control while he feels deep pain, turmoil, and
+anxiety. He copes with the loss in the same manner that
+he copes with other problems that he needs to solve. He
+appreciates privacy and does not welcome questions that
+address feelings, but he may accept help with his projects.
+Both Greta and Jack are adjusting to the world without their
+son and are grieving in different ways. Neither way is right or
+wrong. Their experiences highlight different grieving styles.
+Knowing a person’s grieving style makes it less likely that
+Chapter 5: Providing Psychosocial Care 169
+
+In some cultures, being in denial is judged as a weakness compassion and acceptance. It is important to remember
+that needs fixing. Denial of illness can obstruct communi- that each person is unique, so support will be different for
+cation and cause frustration within the family and with the each person. Proceed with a trauma-informed approach,
+team, because a person who does not acknowledge illness being mindful that a current loss may trigger trauma from
+will not need care. previous traumas. Some strategies PSWs can try when sup-
+porting someone dealing with losses and grief are discussed
+In another culture, what might appear to be denial below.
+may in fact be the a cultural lack of interest in and
+desire to talk about what death means or concerns about
+Competency Touchstone
+dying (Lee et al., 2018).
+The PSW:
+Supports people and their families in their
+Caregivers need to understand that denial is a valid coping
+unique ways of grieving.
+mechanism for people managing difficult or frightening
+(BC Centre for Palliative Care, 2018)
+information that may lead to overwhelming feelings of loss
+and grief. Allowing a person to use denial for a while may
+help them to cope. Acknowledge loss, grief, and emotions
+It may be helpful to consider that people use denial to reduce It may be helpful to acknowledge the loss, grief, and mixed
+the flow of bad news, allowing only as much information in emotions the person is experiencing. You might say,
+as they can comfortably tolerate. This situation is not unlike
+that of the farmer who builds a floodgate to manage the You have had many changes in the last few months. How
+flow of water onto his land. The floodgate limits the amount has that been for you?
+of water coming in and preserves the land. In this analogy,
+the water is the flow of bad news and closing the floodgate This seems really hard for you. I hear the pain in your
+(denial) is the person’s way to limit the flow of information. voice.
+Each person has a unique capacity to process information,
+and some people create an internal floodgate to control the Mixed emotions are common in people who experience
+flow of bad news as a means of self- preservation. Denial is losses. Family members feel sadness about the impending
+one method people use to control the flow of diffcult infor- loss of a loved one and at the same time may also feel guilty
+mation so that they can deal with it in smaller amounts. It is for being well, for wanting time for themselves, or for being
+another way of saying, “I’m just not ready for that informa- frustrated and angry at having to take time away from work
+tion yet. I need more time to take it all in.” to be a caregiver. The dying person may feel grateful that
+you prepare the meals and help with personal care and at
+It’s important to remember that each person will respond the same time resent that they need your help. And, after
+differently to bad news and will absorb the information as death occurs, a family member may express both relief and
+they are able. You can acknowledge to the person and their grief, especially if there have been many losses to deal with
+family that it is normal for people to take in information at during a long and slow dying process. These are all exam-
+different rates. This may help family members be less judg- ples of mixed emotions and a range of emotions. There are
+mental with one another. no good or bad emotions in the grieving process, just as
+there is no right or wrong way to grieve.
+You may support the person by saying something like this:
+It may be helpful to acknowledge that emotions, like rela-
+Sometimes it takes people a bit of time to adapt to all this tionships, are complicated. You support a person who is
+information. That is all right. expressing mixed emotions by acknowledging for them
+that relationships are complicated, that both caregiving
+and being sick are difficult, and that having mixed feelings
+Supporting a Grieving Person is normal.
+You support the person when you invite the person to talk,
+when you listen attentively, and when you respond with
+170 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Empathize and reflect the person you are with, in order to give up control of the
+space that silence creates.
+Empathy is the ability to understand how the other person
+is feeling and includes being willing to get close to another If talking meets the needs of the person receiving care, then
+person’s emotional pain without needing to hide it or fix talking is appropriate. It’s a good idea to check regularly
+it. Sometimes being empathetic can mean reflecting back to see if the person is tired of talking. A conversation can
+what the person has said or what you have observed. Con- be a useful distraction from discomfort, but it can also be
+sider how you might use phrases like the following, remem- exhausting. If you are not sure whether someone wants you
+bering that to be credible you must use your own words: to continue to talk, you might say something like,
+It sounds like you are having a tough day. Is there any- I don’t want to tire you out with conversation. I can just sit
+thing I can do to help? It seems like your feelings of sorrow here with you quietly if you would prefer.
+are overwhelming.
+It sounds like you are really struggling to try to find mean- Perhaps the most important thing we bring to another
+ing in what is happening to you [your loved one]. person is the silence in us, not the sort of silence that is
+filled with unspoken criticism or hard withdrawal. The sort
+of silence that is a place of refuge, of rest, of acceptance
+These are big questions that you are asking. Do you want
+of someone as they are. We are all hungry for this other
+to talk about them, or are you happy to just think about
+silence. It is hard to find. In its presence we can remember
+them?
+something beyond the moment, a strength on which to
+build a life. Silence is a place of great power and healing.
+Avoid roadblocks such as offering false reassurance, praise,
+(Remen, 1997)
+platitudes, or sympathy, or falling into the Fix-It Trap.
+Leave room for silence Individualize care
+It takes courage and confidence to be able to witness deep It is important for caregivers to remember to allow the griev-
+grief and stay present, perhaps only offering a gentle touch ing person to guide the care. You can be curious and focus
+or companioning in silence. Silence can be a sign that the on the person, and invite the person to describe what is
+person feels comfortable in your company. Sometimes helpful, what they appreciate people doing to help them.
+the mere presence of another human can be comforting. You know too that family members will grieve and will
+Silence, however, can be awkward if the grieving person express their grief in different ways. Your compassionate
+feels responsible for entertaining or engaging with you. It response to each person will model that there are many
+can be difficult to decide whether silence is welcome or not. normal ways to express grief and many ways to support a
+It may be difficult for you to keep silent if you are accus- person in their grief. You might say,
+tomed to talking or feel it is your responsibility to keep the
+conversation going. In every family or social group there will be people who
+express their grief in different ways.
+Many people feel silence is emptiness or just an absence
+of conversation. In fact, silence is full of presence; there is What you are telling me is completely normal.
+always something going on in the spaces between our
+words and actions. Welcoming silence clears space for what- Reflecting on people’s grieving style will help you under-
+ever needs to happen. Silence can be a gift when working stand how to support them. Instrumental grievers may
+with people who are severely ill, grieving, or overwhelmed respond best to concrete information about grief. They may
+with emotions from changes and losses. Silence allows benefit from having projects to address the needs of the
+the person the time and space to collect their thoughts. It people involved. Intuitive grievers may find it most helpful
+allows them to reflect on the hugeness of death, or to con- when people listen to them and allow them to explore and
+sider questions like “Why me?” that have no answers. Being express feelings. Groups such as a breast cancer support
+comfortable with silence requires that you trust yourself and group and Family Caregivers of British Columbia may meet
+the person’s need for sharing.
+Chapter 5: Providing Psychosocial Care 171
+
+Robert’s Experience with Grieving
+When Robert’s wife died, people from the church and others
+that he barely knew in his neighbourhood left many casseroles
+and baked goods on his doorstep. He had no appetite and felt
+guilty when the food went bad.
+Regina was the PSW caring for Robert. She wondered why Rob-
+ert didn’t eat the food and why he was not expressing gratitude
+for the meals. She resisted the urge to judge him and decided
+to be curious. One day she asked him, “Robert, of all the things
+that you have to deal with right now, what would you say is the
+most difficult for you?”
+He looked her in the eye and said, “I just miss her. I feel so awfully
+lonely I just want to lie down and die.”
+Regina’s heart felt like it was melting. She put her hand on his
+shoulder and sat down beside him. “What do you need the
+most right now?”
+She was very surprised when he said, “I want some company.
+I don’t want the casseroles. I want someone to sit down and
+share a cup of tea with me.” Regina and Robert then talked
+about how he could make that happen.
+People who are more intuitive grievers, or “feelers,” may appre- • Support the person to meet their commitments and
+ciate being offered the opportunity to express their grief and handle problems that arise
+have conversations about their experience. You might ask, You mentioned that your kids are coming today
+and want to meet with the community nurse. Can
+Do you want to talk about how this is for you? you tell the nurse what time your kids will be here?
+You support a grieving person when you • Support the person to link with community resources
+• Remind the person that it takes time to grieve but that I think your dad might like the recreation activities.
+they will adjust with time Do you want to connect with the activity person?
+It is normal for this to take a while. Do not feel that
+you have to rush to recover or to adapt. It is normal People who are more instrumental, action-oriented grievers
+for people to have a lot of emotion. may attend planned activities but may seek private ways to
+express feelings, such as listening to a sad song or watching
+• Support the person if they struggle to think clearly or a video alone. You might say,
+feel disorganized or disoriented
+It is hard when you are not able to think as clearly as You mention feeling isolated in your role as a caregiver.
+you normally do. Would it be helpful to write notes I understand that there is an online support group for
+about these concerns so that you can remember to family caregivers. They meet each week, and all you need
+talk about them with the doctor [your kids]? is a phone to connect. They provide information and edu-
+cation about family caregiving. Do you want me to get
+It is common for people to feel disoriented and you information about the online support group?
+mixed up. Would it be helpful if we reviewed the
+calendar again?
+172 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Would you like to watch one of your favourite old-time Social factors that may affect how a person grieves include
+movies that you save for special occasions? I wonder if • Lack of financial resources
+one of those emotional movies might be a nice way to • Difficult family dynamics
+think about your own feelings in a private way. • Lifestyle changes, such as needing to relocate, loss of a
+job, or changes in the bereaved person’s ability to live
+Make room for tears independently, that result from their loved one’s illness
+and death
+Crying is a normal, healthy response when grieving. Some-
+times people try to stop people from crying by saying As a PSW, you may see or hear that the bereaved person
+“shhh,” distracting the person, offering false reassurance is struggling. While it is completely normal to lose one’s
+(e.g., “There, there, it’s all going to be fine”), or trying to put a appetite or not feel like getting dressed, it is a concern if the
+positive spin on the person’s grief. Silence and empathy are normal signs of grief seem exaggerated or occur over an
+helpful—gently acknowledging that “it’s so hard right now” extended time. You may notice that the person is not cop-
+may make space for tears. Sometimes other people’s tears ing well if they are consistently tired, unable to do their daily
+will trigger your own. This is normal and may comfort the activities, talk about self-harm, or express an ongoing sense
+other person because they see that you understand. As long of purposelessness. When you see these signs, record and
+as the focus stays on the person you are with and does not report them to the team.
+move to you, it is okay to shed a few tears. (You may want to
+discuss your emotions later with a colleague or supervisor.) You can make a big difference in a person’s life by showing,
+through your words and actions, that you support them and
+Identify people who need extra support care about them.
+Some people may need more support than others when Remember
+grieving the death of a loved one if the death was sudden,
+difficult, or complicated by other challenging life events. The physical pains and discomfort discussed in Chapter 4,
+People might need more support when grieving because “Supporting Physical Comfort,” can often be decreased using
+of personal factors as well. For example, a person may be medications and comfort measures. However, when a per-
+tired or socially isolated because they have been the pri- son is dying, there are psychosocial pains that cannot be
+mary caregiver for a long time. The person may have had a fixed. There is no “emotional morphine” that can ease deep
+difficult relationship with the dying person, they may have suffering. The other reality is that not only can you not fix
+mental or physical health problems, or they might be facing deep suffering, but it is not your job to try to fix it. Your job is
+difficulties unrelated to grieving. The person may have to provide support.
+experienced traumas in life that are triggered by the current
+losses and grief they are experiencing.
+Chapter 5: Providing Psychosocial Care 173
+
+Supporting Children Whose Loved One Is Dying
+Written by Andrea Warnick
+Many people find it challenging to support a child when a a positive one. Before the visit, talk with the child about the
+person close to them is dying or has died. In North Amer- following:
+ica, in the past century death and dying moved out of the • How the person’s room will look
+home and into hospitals and long-term care facilities. The • The equipment in the room, the lights on the equip-
+dying process began happening behind closed doors, sep- ment, and the sounds it makes
+arating children from their dying loved one, often with the • How their loved one looks now, including describing
+unintended effect of interfering with children’s ability to say any dramatic changes, such as weight loss, hair loss, or
+goodbye to the person. In addition, the separation denied pallor, since the child last saw the person (a child could
+children the opportunity to learn about death as a normal be shocked by seeing a person who customarily wears
+part of life. Current research-based principles on supporting dentures without them)
+children whose loved one is dying suggest that children • The rules for visitors
+need to be included and that communication about dying • What the child can do, say, or talk about when with the
+needs to be open and honest. dying person
+• What will happen during the visit (e.g., both laughter
+and tears may occur)
+Competency Touchstone
+The PSW:
+Be honest
+Follows the current principles and best prac-
+tices for communicating with children about
+Adults may try to protect children from the news that a
+death, dying, loss and grief.
+family member is dying. However, most children sense
+(BC Centre for Palliative Care, 2018)
+when something is wrong in the family, and if they are not
+told the truth, they invent a story to explain what is wrong.
+Applying the principles discussed below can help HCPs Quite often their imaginations create scenarios that are
+and families feel more confident when supporting children worse than reality. This means that withholding the news
+whose loved one is dying, as well as help children in their that a family member is dying tends to be more frightening
+grieving process. than the truth, and denies children access to accurate infor-
+mation and appropriate emotional support. When children
+sense they have not been told the truth or they learn the
+Principles for Supporting Children
+truth after the fact, their sense of security and ability to trust
+Whose Loved One Is Dying
+the adults around them are damaged.
+Include children when possible Invite children to participate in caregiving
+People often ask questions such as “Should my daughter Children may want to participate in caregiving but probably
+visit her grandfather who is dying?” Children benefit by hav- will not know what to do or how to help. A child can be
+ing the choice to visit dying friends and family members. included in caregiving by inviting them to
+Children of all ages should be asked whether they want to • Help with personal care, such as mouth care and apply-
+visit and should be allowed to participate to the extent that ing nail polish or skin moisturizer
+they are comfortable doing so. • Help create a comfortable atmosphere by means of
+music, decorations, storytelling, or reminiscing
+Prepare children for what they will see • Share daily events, do homework, or do other quiet
+activities at the bedside
+Some parents are hesitant to let a child visit a dying person • Sit quietly at the bedside and hold hands with their
+due to concerns that the person’s appearance or the equip- loved one
+ment in the person’s room may frighten the child. Preparing
+a child to visit their loved one will help make the experience
+174 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Invite questions • “Passing” or “passed away.” These terms do not indicate
+what has happened to the person and will be difficult
+Children often have many questions about what is happen- for children to understand.
+ing to their dying family member and the care that the per- • “Mommy went to a better place.” Children may interpret
+son is receiving. You can invite children to ask questions with this to mean that Mommy chose to leave the family
+statements such as, and go somewhere else.
+• “We lost Grandpa.” Children frequently lose things and
+You are welcome to ask me any questions. find them later. Saying that someone is lost may lead
+children to believe the person will be found later.
+When a child asks questions, be prepared to repeat your • “Dad will never get better.” This phrase doesn’t accur-
+answers, as the child may ask the same questions repeat- ately indicate that Dad is dying. Children may think that
+edly. If you do not have an answer, be honest and tell the Dad will live forever in his current state of functioning.
+child that you do not know the answer. If someone else on • “It’s like a big sleep.” This phrase may make children
+the care team or in the family might know the answer to the believe that falling asleep is dying and therefore cause
+question, ask that person to help the child. them to fear falling asleep.
+Whatever questions children ask, thank them for asking
+Understanding Children’s Concerns:
+and let them know that their questions are good ones. Also
+The Three C’s
+encourage children to share their questions about dying
+and death with other caregivers.
+Children who whose loved one is dying often have three
+concerns, referred to here as “the three C’s”:
+Competency Touchstone
+The PSW:
+Did I cause it?
+Uses developmentally appropriate communi-
+cation approaches during conversations that
+Children often feel more responsible for what is happening
+involve children.
+around them than adults realize. If, for example, the child
+(BC Centre for Palliative Care, 2018)
+had been angry with the person who is dying, the child
+may believe they caused the dying to happen or that it is a
+Use correct language punishment for their misbehaviour. Even if a child shows no
+signs of feeling responsible for the illness, it is important to
+In an effort to protect children, adults often avoid using the let the child know that nothing they did or thought caused
+name of the disease by instead saying that the person is sick or can cause illness or death.
+or has an illness. This can confuse children. When an adult
+says, “Your grandma is sick and will die,” the child may start to Can I catch it?
+think that anyone who is sick will die. Using correct language
+that names the illness (e.g., “Your grandma has leukemia”) Children often think that all illnesses are like the common
+will help prevent such confusion. Death can be explained cold, the flu, or chicken pox and can be spread from one
+as “when a body stops working and will never work again.” person to another. It helps to explain to children that dis-
+eases that are not contagious, such as ALS and cancer, or
+It is also common for adults to avoid using certain words dying of old age, do not work this way—one person cannot
+around children, specifically “dying,” “death,” and “died,” and catch them from another person.
+substitute other words, such as “passing” or “passed away.”
+Substituting words can confuse children. The best way to Who will take care of me?
+proceed is to use correct language—“dying,” “death,” and
+“died.” This will help children develop an understanding of If a child’s parent or guardian is dying, it is important that the
+death. Avoid using the following unclear terms to describe parents or guardians let the child know who will take care of
+dying and death: them following the person’s death.
+Chapter 5: Providing Psychosocial Care 175
+
+Recognizing Children’s Grief I describe grief to children by saying, “Grief is all of the feel-
+ings people experience when someone is dying or has died.
+Children, like adults, have a range of responses to death This includes being sad, mad, worried, and lonely, as well as
+and dying. Adults are often surprised to see children being being happy and continuing to enjoy life.”
+very upset one moment about a family member’s dying,
+and then playing happily the next. It is important to allow Children learn how to grieve by watching the adults around
+children, like all people, to express their sorrow in their own them. PSWs can let families know that it is okay for them
+way and in their own time. Children will naturally regulate to cry together, be mad together, and be sad together, and
+the amount of time they spend experiencing intense emo- that moments of happiness and laughter are all part of the
+tions by taking breaks from the feelings through play and process. Sometimes children will ask questions or make
+continuing to enjoy life. It is also important to realize that comments that are surprising or disturbing to other people.
+because children get up from crying and go out to play, It is important that children are supported regardless of
+they are not over their grief but rather are dealing with it bit whether what they say is politically correct.
+by bit, as they are able.
+Supporting children through the death of someone they
+Children’s grief may include the following: care about can be a heartbreaking experience during what
+• Sleep disturbances is already a difficult time. However, death is an inevitable
+• Stomach aches and headaches part of life and ultimately not something from which chil-
+• Difficulty concentrating in school dren can be protected. Adults can help prepare children for
+• Angry outbursts a loved one’s death by including children at the bedside and
+• Fears about seemingly unrelated things providing them with ongoing emotional support. Preparing
+kids for dying and death can help prepare them for life and
+Grieving together living. By doing this, health care professionals, parents and
+guardians, and other family members can play a powerful
+Adults who hide their emotions from children in an effort role in shaping children’s experience of the death while at
+to protect them may inadvertently teach them that grief the same time equipping them to deal with future adversity.
+should be hidden.
+It is important for kids to know that all of the feelings they
+are experiencing are normal, and that adults experience
+them too.
+176 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+Katz, A. (2019). Sexuality—Breaking the Silence. Virtual Hospice. http://
+References www.virtualhospice.ca/en_US/Main+Site+Navigation/Home
+/Topics/Topics/Symptoms+_+Health+Concerns/Sexuality+
+BC Centre for Palliative Care. (2018). Inter-professional Palliative Competency
+–+Breaking+the+Silence.aspx.
+Framework—Health-care Assistants. https://bc-cpc. ca/cpc/wp- content
+/uploads/2019/09/2-Health-Care-Assistant- Competencies-May2019 Kelemen, A. M., Acquaviva, K., Mullins, K., & Groninger, H. (2018). Sexuality
+.pdf. and Intimacy Needs within a Palliative Care Population: Results from
+Qualitative Interviews of Hospitalized Patients. Journal of Pain and
+Canadian Blood Services. (2020). Organs and Tissues. https://blood.ca/ en
+Symptom Management, 56(6).
+/organs-tissues.
+Lee, M. C., Hinderer, K. A., & Alexander, C. S. (2018). What Matters Most
+Canadian Transplant Society. (2020). Every moment counts. https://www
+at the End-of-Life for Chinese Americans? Gerontology and Geriatric
+.cantransplant.ca/organ/.
+Medicine, 4, 1–7.
+CHPCA and BCCPC. (2019). Living Well: Planning Well. December, 1–36.
+Morrissey Stahl, K. A., Bower, K. L., Seponski, D. M., Lewis, D. C., Farnham,
+https://www.advancecareplanning.ca/wp-content/ uploads/2019/11
+A. L., & Cava-Tadik, Y. (2018). A Practitioner’s Guide to End-of-Life
+/Speak-Up-Public-Workbook-ENG-1.pdf.
+Intimacy: Suggestions for Conceptualization and Intervention in
+Doka, K. J., & Martin, T. L. (2010). Grieving Beyond Gender: Understanding Palliative Care. Omega (United States), 77(1), 15–35.
+the Ways Men and Women Mourn. Rev. ed. Routledge Taylor & Francis
+Nuhn, A., Holmes, S. Kelly, M., Just, A., Shaw, J., Wiebe, E. (2018). Experiences
+Group.
+and perspectives of people who pursued medical assistance in dying.
+Downar, J., Shemie, S. D., Gillrie, C., Fortin, M.-C., Appleby, A., Buchman, Qualitative study in Vancouver, BC. Canadian Family Physician, 64,
+D. Z., Shoesmith, C., Goldberg, A., Gruben, V., Lalani, J., Ysebaert, D., 380–386.
+Wilson, L., & Sharpe, M. D., for Canadian Blood Services, the Canadian
+Ontario Palliative Care Network. (2019). The Ontario Palliative Care
+Critical Care Society, the Canadian Society for Transplantation, and
+Competency Framework. A Reference Guide for Health Professionals
+the Canadian Association of Critical Care Nurses. (2019). Deceased
+and Volunteers. https://www. ontariopalliativecarenetwork.ca/en
+organ and tissue donation after medical assistance in dying and other
+/competencyframework.
+conscious and competent donors: guidance for policy. CMAJ, 191(22),
+E604–13. Parkes, C. M. (1986). Bereavement: Studies of Grief in Adult Life. Penguin UK.
+Fischer, S., Huber, C. A., Furter, M., Imhof, L., Imhof, R. M., Schwarzenegger, Province of Nova Scotia. (2020). Nova Scotia Organ and Tissue Donation Act:
+C., Ziegler, S. J., & Bosshard, G. (2009). Reasons why people in an overview. https://novascotia.ca/organdonation/.
+Switzerland seek assisted suicide: The view of patients and physicians.
+Radwany, S., Albanese, T., Clough, L., Sims, L., Mason, H., & Jahangiri, S.
+Swiss Medical Weekly, 139(23–24), 333–338.
+(2009). End of life decision making and emotional burden: Placing
+Flynn, T. C. (2004). Denial of illness: Basal cell carcinoma. Dermatologic family meetings in context. American Journal of Hospice and Palliative
+Surgery, 30(10), 1343–1344. Medicine, 26(5), 376–383.
+Givler, A., & Maani-Fogelman, P. (2020). The Importance of Cultural Remen, N. R. Kitchen Table Wisdom: Stories That Heal. Riverhead Trade.
+Competence in Pain and Palliative Care. StatPearls [Internet]. Treasure
+Selby, D., Bean, S., Isenberg-Grzeda, E., Blair, H. D., & Nolen, A. (2020).
+Island (FL): StatPearls Publishing. https://www.ncbi.nlm .nih.gov
+Medical Assistance in Dying (MAiD): A Descriptive Study from a
+/books/NBK493154/.
+Canadian Tertiary Care Hospital. American Journal of Hospice and
+Government of Canada. (2016). An Act to amend the Criminal Code and to Palliative Medicine, 37(1), 58–64.
+make related amendments to other Acts (medical assistance in dying), S.C.
+Ulrich, S. (2013). Making Friends with Gone. https://www.shariulrich .com
+2016, c. 3. https://laws-lois.justice .gc.ca/eng/AnnualStatutes/2016_3
+/music/everywhere-i-go.
+/FullText.html.
+Victoria Hospice, Cairns, M., Thompson, M., & Wainwright, W. (2016).
+Government of Canada. (2020). Proposed changes to Canada’s medical
+Transitions in Dying and Bereavement: A Psychosocial Guide for Hospice
+assistance in dying legislation. https://www. justice. gc. ca/eng/csj-sjc/pl/
+and Palliative Care (2nd ed.). Health Professions Press.
+ad-am/index.html.
+Vos, M. S., Putter, H., van Houwelingen, H. C., & de Haes, H. C. J. M. (2010).
+Government of Quebec. (2019). Medical Aid in Dying. https://www.quebec
+Denial and physical outcomes in lung cancer patients, a longitudinal
+.ca/en/health/health-system-and-services/end-of-life-care/ medical
+study. Lung Cancer, 67(2), 237–243.
+-aid-in-dying/.
+Wiebe, E., Shaw, J., Green, S., Trouton, K., & Kelly, M. (2018). Reasons for
+Grief Speaks. (2020). Cultures and Grief. http://griefspeaks.com/id90. html.
+requesting medical assistance in dying. Canadian Family Physician,
+Grohol, J. (2019). Coping with Grief: The Ball and the Box. PsychCentral. 64(9), 674–679.
+https://psychcentral.com/blog/coping-with-grief-the-ball-the-box/.
+Wright, D. K., Chirchikova, M., Daniel, V., Bitzas, V., Elmore, J., & Fortin, M.-L.
+Health Canada. (2019). Fourth Interim Report on Medical Assistance in Dying (2017). Engaging with patients who desire death: Interpretation, pres-
+in Canada. Government of Canada. https://www.canada .ca/en/health ence, and constraint. Canadian Oncology Nursing Journal, 27(1), 56–64.
+-canada/services/publications/health-system-services/ medical
+-assistance-dying-interim-report-april-2019.html.
+Chapter 5: Providing Psychosocial Care 177
+
+6
+Caring in the Last
+Days and Hours
+The focus in this chapter is on preparing the family for the The person’s care needs will change in their last week, days,
+last days and hours, and learning about the physical chan- and hours. Therefore, you need to be able to adapt as the
+ges that occur in the dying person, ways to support the person’s needs change, and to provide the support that is
+person and their family, and care of the body after death needed in the moment. When the family arrives after the
+and continuing care of the family. What to do when death person has died, you may need to step back so the family
+is sudden, and the emerging home funeral movement, are can be right at the bedside. You may need to sit at the bed-
+also discussed briefly. side because the family wants to meet in another room.
+Being aware of your beliefs and baggage will help you to put
+As you can imagine, the last days and hours can be a special your preferences aside and focus on the needs of those for
+time, a sad time, and a sacred time for the dying person and whom you care. In the words of Stephen Levine, an author
+their family. This time can also be challenging. You can help and teacher well known for his work on death and dying,
+by providing a calm and compassionate presence. Calmness
+can be contagious, and your presence can help reduce anx- If any were to ask us what our “technique” is for work-
+iety and stress. Your presence, your way of being with the ing with those in crisis, I would have to say that it is the
+person and family, and the kind, supportive care you pro- “braille method”—feeling our way along from moment
+vide may be remembered for years. to moment in uncharted territory.
+(Levine, 1984)
+Competency Touchstone Remember those words as you provide care.
+The PSW:
+Provides an atmosphere of peace, safety and
+unconditional regard for the person.
+(Ontario Palliative Care Network, 2019)
+
+Preparing to Care
+Preparing Yourself
+When supporting the family through changes their
+When providing care in the last days and hours, you will loved one experiences, all members of the care
+need to address your beliefs and baggage related to dying team must be aware of the family’s needs and preferences
+and death so that you can be present and fully support the for information. Remember that personal, cultural, religious,
+dying person and family. Your capacity to understand and and philosophical preferences can influence their desire for
+accept that dying is natural and expected is vital to being information. While some families will want information,
+able to provide compassionate care. other families may want little or no information. Remember
+also that individuals within a family may have different
+needs for information. You can use information gathered
+Competency Touchstone
+using the Psychosocial Assessment Tool (see Chapter 3,
+The PSW:
+“Using Standardized Tools”), or during advance care plan-
+Acknowledges and accepts that the death of
+ning conversations or informal conversations, to understand
+individuals in their care is natural and inevit-
+how much information each person and family may want.
+able and emotionally prepares themselves.
+(Ontario Palliative Care Network, 2019)
+As you do when managing a symptom, share information
+with the family in a way that respects their preferred ways of
+You may want to talk with members of the team, a coun- communicating and provides the depth of information they
+sellor, or another support person to discuss any apprehen- desire. Sharing information about the common physical
+sion or fears that you may be feeling about providing care changes a dying person may experience in the last days and
+in the last days and hours. Consider also reflective writing, hours can support the family and help its members to pre-
+journaling, and meditation as ways to understand what your pare mentally and emotionally.
+feelings mean and to learn how to manage when providing
+care.
+Competency Touchstone
+Preparing the Family and Other Staff The PSW:
+Talks to the person and family regarding
+death and dying, to the degree they are able,
+The Canadian Hospice Palliative Care Association (CHPCA)
+explores their wishes for end-of-life care by
+identifies the components of the process of providing care
+listening and responding to questions, [and]
+as follows: assessment, information sharing, decision mak-
+protects the person’s and family’s need for
+ing, care planning, care implementation, and confirmation
+privacy when having these conversations.
+(evaluation). In a person’s last days and hours, care follows
+(Ontario Palliative Care Network, 2019)
+the same process, incorporating the following actions,
+based on the CHPCA framework:
+• Sharing information If the family asks questions such as “What changes can I
+• Responding to questions expect in the last days and hours?” you support the family
+• Arranging for support and resources when you do the following:
+• Developing a plan for the time of death • Acknowledge and validate the family’s questions.
+• Identifying rituals and preferences for care following That’s a good question. Many people have shared
+death that concern with me.
+Sharing information • Connect the family with the nurse, or a counsellor or
+social worker, who can answer their questions.
+Information can help families understand what is happen- I would like permission to share your concern with
+ing, what to expect as the person dies, when death might the nurse. They will have an answer for you.
+occur, what they can do to be supportive, and whom they
+need to call if they have concerns or if needs arise.
+180 Integrating a Palliative Approach: Essentials for Personal Support Workers
+
+• Share agency or facility educational brochures about That is a question we are often asked. It is not an easy

@@ -1,0 +1,1500 @@
+---
+title: Getting Started Becoming a Master Hacker_ Hacking is the - Part 4
+source: Getting Started Becoming a Master Hacker_ Hacking is the.md
+category: development
+---
+
+service banner on the port, if it exists.
+The first step is to create a list with the ports in it. Open the SSH
+BannerGrab.py script, and we’ll edit it to add this new capability. We’ll
+need to add a list called Ports and place the ports we want to grab banners
+from into this list, namely port 21, 22, 25, and 3306.
+296 | P a g e
+
+## Page 552
+
+
+## Page 553
+
+Next, we create a for loop that iterates through that list four times, using
+each element in the list.
+Remember that the code that will be used within the for loop must be
+indented. We create a variable port and assign it to the value of each of the
+elements in the list as we iterate through. We then use that variable
+containing the port number in our connection to the remote system for each
+iteration. When that line of code is executed, it will attempt to connect to
+the IP address (make certain to use the IP address of the target system) and
+port combination. Now, if you run this script at the Metasploitable 2 system,
+you should get the following results.
+
+## Page 554
+
+297 | P a g e
+Note that the script has grabbed the banners from 21 and found vsFTPd
+2.3.4 running on it, port 22 open with OpenSSH 4.7 running on it, port 25
+open with Postfix running on it and port 3306 with MySQL
+5.0.51.a running on it.
+You have now successfully built a multiport banner grabbing tool in Python
+to perform reconnaissance on a target system. This tool grabs the service
+banner and tells which service and version is running on that port,
+simplifying our task of exploiting it!
+Exceptions and Password Crackers
+ANY code risks errors and exceptions. In programming, an exception is
+anything that disrupts the normal flow of your code—usually errors. You
+usually want to catch these errors and exceptions and do
+something, and sometimes you can use these errors and exceptions in the
+logic of your code. To address these errors, Python has exception handling.
+Exception handling is simply a bit of code that is triggered when an
+
+## Page 555
+
+exception occurs. In Python, we have the try/except structure to handle
+exceptions.
+A try block, as the name implies, tries to execute some code and if an error
+occurs, the except
+statement or block of code is executed. As I mentioned above, sometimes
+you can build the
+try/except structure into the logic of your code, similar to a if…else. For
+instance, we can use the try/except in a password cracker, and if an error
+occurs due to a password mismatch, move to try the next password with the
+except statement. Let’s take a look at using that now.
+Below you will see the code for a simple FTP password cracker (FTP
+crackers are relatively simple compared to other protocols, so let’s start
+there). This script asks the user for the IP address of FTP server and the
+username whose password they are trying to crack. It then reads in a text
+file containing a list of possible passwords (see Chapter 8) and tries each
+one until it receives a message of success (code 230).
+The script runs until it achieves success or runs out of passwords.
+298 | P a g e
+
+## Page 556
+
+
+## Page 557
+
+We need the ftplib module, so we need to import that first. Next, we need to
+create a variable named server and another variable named user. These two
+variables store the inputs from the script user.
+This script prompts the user for the IP address of the FTP server and the
+username and stores that information in these variables.
+The script then asks the user for the path to the password list. You can use
+the passwords lists we created in Chapter 8, create a new one tailored to this
+
+## Page 558
+
+user, or use any of the lists built into Kali when you enter
+“locate wordlists” at the command prompt.
+Our script then starts the try block of code that uses the password list the
+user provided.
+Note that we use a Python function not previously discussed named strip.
+This function is necessary to remove a first and last character of a string to
+make certain that white space or commas are not used from our password
+list. The strip function removes these—if they exist—and leaves just strings
+of characters from the passwords. Without it, your script might be trying
+passwords such as:
+“password,” or “ password“
+Neither of these would match a potential password of “password” as the
+first includes a comma “,” and the second a space “ “.
+299 | P a g e
+Next, we use a second try block. Here, we use the ftplib module first to
+connect to the FTP server and then try the next password from the user
+
+## Page 559
+
+supplied password list.
+If the combination of the username and the password results in an error
+(exception), the try block exits and goes to the except clause (a good
+example of using the try/except as part of the script logic).
+There, it prints “still trying” and then returns to the top of thefor clause,
+grabs the next password, and tries again.
+If the new password succeeds (Code 230), the successful password is
+printed to the screen. The final line captures any other potential errors such
+as a bad password or other issues with the password list.
+Now we are ready to run this script against our FTP server on the
+Metasploitable system (make certain to enter its IP address when prompted
+by our script). Here, I am using a password list
+custompasswordlist.txt.txt in my working directory, that I created using our
+tools from
+Chapter 8 that are tailored to the target. You may use any password list that
+you think is appropriate including our most common password lists. Just
+make certain that you use the full absolute path to the list, for instance,
+/usr/share/custompasswordlist.txt.
+As you can see, our script successfully cracked the password of the FTP
+server for the root user!
+Python Script to Exploit EternalBlue
+Throughout this book, we have focused upon the NSA’s stolen EternalBlue
+exploit as an example of an effective and malicious exploit. Although this
+exploit was not originally written in Python, once this exploit saw the light
+of day, the global security community reverse-engineered its capabilities.
+That is what the Metasploit EternalBlue exploit in Chapter 9 is; a reverse-
+engineered EternalBlue exploit for Metasploit. It does the same thing as the
+original, but with different code.
+
+## Page 560
+
+The same happened with Python. Several security researchers reverse-
+engineered the EternalBlue exploit into Python. I think this is a good
+example of some excellent, sophisticated Python for system
+exploitation. Although it is beyond our capabilities at this level to develop
+an exploit like this, I think it is useful to see and understand how Python
+can be used to develop some of the most advanced exploits in the world.
+To find the EternalBlue Python exploit, you can use the searchsploit
+command in your Kali.
+300 | P a g e
+kali > searchsploit eternalblue
+As you can see, searchsploit found three EternalBlue exploits on our
+system, all of them Python scripts as indicated by .py extension. Let’s use
+the second one labeled:
+/exploit/windows/remote/42315.py.
+Let’s copy and rename that exploit into our /root user’s directory and give it
+a name of
+eternalblue.py.
+kali > cp exploits/windows/remote/42315.py eternalblue.py
+Now open this eternalblue.py script with PyCharm.
+
+## Page 561
+
+When you open the eternalBlue.py script in PyCharm, it will look similar to
+this:
+301 | P a g e
+
+## Page 562
+
+Note at the very first line the familiar, /usr/bin/python telling the system to
+use the Python
+interpreter. On lines 5, 6, and 7, the script imports some key modules,
+including sys, socket and time. Note also the extensive use of multiline
+comments beginning with line 9 and the triple quotation marks.
+If we scan down a bit to line 280, you can see that the author has defined a
+few functions with the def command. On line 293, the author starts a for
+loop and on line 294 begins our familiar try/except exception handling.
+302 | P a g e
+
+## Page 563
+
+
+## Page 564
+
+
+## Page 565
+
+Scanning a bit further down the page, we find some if and elif control
+statements at lines 341 and 345, respectively.
+Scanning down to line 511, we see the for loop we had used previously in
+our scripts.
+Although this script is presently beyond our nascent Python skills, I think it
+is useful to see how the skills you have just learned are used in a real-life,
+world-class Python exploit.
+303 | P a g e
+Summary
+In this chapter, we developed some rudimentary Python skills and
+developed some useful
+hacker/information security scripts. I hope this chapter demonstrates that
+Python scripting is not insurmountable; you can DO it! In addition, we
+analyzed an advanced Python script for exploiting the EternalBlue
+vulnerability in SMB (MS17-010), and although we aren’t ready to take on
+such an advanced task yet, you can see that this script used many of the
+same concepts we developed in this short excursion into Python. I strongly
+advise you to continue to develop your Python skills beyond here so that
+you may rise to the upper echelons of hacking—the Master Hacker!
+
+## Page 566
+
+Although it’s not necessary to master Python scripting to become a hacker,
+without these skills, you will be relegated to using other people’s hacking
+scripts. That can be quite limiting as exploits don’t have a significant shelf
+life. As soon as they are out in the wild, their value begins to decline
+precipitously. If you are not developing zero-day exploits, these skills may
+not be necessary, but they certainly can be useful for a multitude of tasks.
+Exercises
+1. Create each of the scripts we wrote here and save them.
+2. Starting with the more advanced Banner Grabber, edit it to
+grab the banners from ports 1-1000 and display them to the
+screen.
+3. Start with the FTP password cracker and edit it to work with
+the MySQL installation on the Windows 7 system.
+For more on Python for Hacking, look for my upcoming book Python
+Basics for Hackers !
+304 | P a g e
+
+## Page 567
+
+1 7
+Social Engineering
+Understanding human psychology, motivation, and behavior is one of the
+hacker's most important tools.
+Master OTW
+As institutions, companies, and individuals become more
+security conscious, sometimes the only way to penetrate a system or
+network is through social engineering. Some novice hackers tend to
+downplay the importance of social engineering and instead hold out for
+that “single silver bullet” that will enable them to pwn the target (such as
+EternalBlue). I need to point out that some of the most important hacks in
+history have been a result of social engineering, including the most famous
+305 | P a g e
+
+## Page 568
+
+hack in history: Stuxnet (the US hack of the Iranian nuclear enrichment
+facility at Natanz in 2010, see
+https://www.hackers-arise.com/post/2019/11/01/scada-hacking-anatomy-of-
+the-stuxnet-attack) .
+Some of the other famous hacks in history that were the result of social
+engineering include:
+1. Democratic National Committee hack during 2016 election;
+2. Target Point of Sale (POS) hack;
+3. Sony Pictures hack;
+4. 2011 RSA SecurID hack;
+5. Yahoo’s multiple security breaches.
+6. Russia’s Blackenergy3 Hack of the Ukraine electrical grid
+There is an often-repeated adage in cybersecurity that says, “The weakest
+link in any information security system is the end user.” If the attacker can
+fool a single user, the entire network—or even entire institution—may be
+taken down (one user clicking on a malicious link almost took down RSA
+and
+similarly cost the US retailer, Target, billions of dollars).
+What is Social Engineering in Cyber Security?
+Social engineering has been a part of the human dynamic from the
+beginning of time. People have always social engineered each other to get
+them to do what they want. How else would they get young, healthy men
+and women to fight in senseless wars?
+Social engineering is simply the art of manipulating people to get them to
+do what you want or give up the information you need. In the field of
+cybersecurity, the “do something” is often to open an email attachment or
+
+## Page 569
+
+click on a malicious link, while the “give up information” is often a
+password. Both of these examples are social engineering, but there are so
+many other as well.
+Social Engineering Vectors
+Social engineering is a separate skill set from hacking, but just as important.
+Many hackers don’t take the time and effort to understand and master this
+field. It isjust as much a science as hacking, but also includes an
+artistic/creative element. It requires an understanding of human motivation,
+human wants, and human needs.
+Although social engineering—the art of getting people to do what you want
+—is varied, the vectors to engineer the attacks are well-known.
+Some of the most common social engineering vectors in information
+technology are:
+1.
+Phishing —The practice of sending out large amounts of email trying to get
+a few random
+people to click on a link or open an attachment or other malicious act. This
+is probably
+the most common social engineering attack, but increasingly less effective.
+2.
+Spear Phishing —Targeting a single individual with email attacks. This
+can often be
+done by spoofing email addresses or phone numbers. It usually is preceded
+by a
+significant amount of open-source intelligence gathering to determine the
+interests, needs
+
+## Page 570
+
+and motivating factors of the target. This can be VERY effective if done
+properly.
+306 | P a g e
+3 .
+Whaling —An email targeting a very powerful person. In some cases, this
+might be the
+CEO or another person in the organization with the power to access
+significant resources.
+4.
+Vishing —Very similar to phishing, but done with the voice calls. This is an
+increasingly, effective tool with digital phone systems capable of “robo-
+calling.”
+5.
+Baiting —Similar to phishing (mass emails), but in baiting,the attacker
+holds out the hope of targeting some large payout (often from a Nigerian
+prince).
+6.
+Tailgating —This attack is usually associated with entry to a secure facility.
+Often it is a nonemployee following an employee into an area that requires
+proper authentication
+7.
+Quid Pro Quo —This is Latin for “this for that.” This social engineering
+attack usually
+involves the target being promised some benefit in exchange for
+information or other
+
+## Page 571
+
+service.
+Social Engineering Concepts and Strategies
+Social engineering is a different field of science, much more akin to
+psychology. Although it’s beyond the scope of one section of one chapter in
+one book to illuminate the keys to human psychology, I want to briefly
+outline some concepts that have proven effective in social engineering. For
+a more complete andthorough understanding of social engineering, I
+recommend Social Engineering: The Art of Human Hacking , by
+Christopher Hadnagy.
+Elicitation
+Elicitation is the ability to draw out the information or behavior you are
+seeking from the target. This a technique used by spies the world over to get
+what they want. In the US National Security Agency’s training manual, the
+NSA defines elicitation as “the subtle extraction of information during a
+normal and innocent conversation. ” Perfect! That is exactly what we are
+trying to do.
+These conversations can take anyplace and often are most effective when
+they seem to be part of the normal course of the day or work. This can be in
+the lunchroom, restaurant, café, restroom, just about anywhere.
+Elicitation is effective because people like to talk about themselves and
+their work. Elicitation works well because:
+1. People want to be helpful;
+2. People take pride in themselves and their work;
+3. People want to appear intelligent and important;
+4. People are vulnerable to flattery.
+The key to elicitation is to get people to talk. There are at least four
+strategies to get people to talk: 1. Appeal to their ego;
+
+## Page 572
+
+2. Show mutual Interest;
+3. Volunteer information about yourself or your work;
+4. Assume knowledge.
+307 | P a g e
+Pretexting
+Another excellent social engineering strategy is known as pretexting. In this
+strategy, you pretend to be someone else with an entirely different
+background and story. Ever wanted to be an actor? This may be your
+chance!
+Pretexting is more than just telling a lie; it usually involves creating an
+entirely new identity and back story. It’s important to note that to be
+effective, the pretext must be tailored to the target. There is no one-size-fits-
+all.
+Pretexting is common in many professions, but probably most importantly
+in sales. The whole concept is to create a scenario and trust where the target
+is willing to give up information they would not otherwise relinquish.
+Planning the Pretext
+Before engaging in a pretext attack, it is worthwhile to do a bit of planning.
+1. Gather as much information about the target as possible.
+2. Try to find an area where your actual interests overlap those of the target.
+3. Plan the pretext to appear to be as spontaneous as possible.
+Influence
+If the attacker wants to persuade someone to do or say something we want,
+their best strategy is to appeal to the target’s interests and avoid an
+
+## Page 573
+
+intellectual appeal. Persuasion most often involves human beliefs and
+emotions, not their intellect.
+The key here is to get someone else to want to do or think what you want
+them to do. They must believe that it is something THEY want to do or say.
+A few objectives before you start an influence campaign are:
+1. Set clear goals;
+2. Build rapport;
+3. Be observant;
+4. Be flexible.
+Influence Strategies
+The following are some key influence strategies. If you have ever
+purchased a used car, you will likely recognize some of these. Successful
+sales people are often the best social engineers. They are successful because
+they get you to do something they want you to do , buy their product.
+308 | P a g e
+Reciprocity— People want to behelpful, so if the attacker offers something
+to the target, then the target will often want to reciprocateby offering
+something to the attacker
+when asked.
+Obligation—
+The attacker creates a feeling of obligation to themselves by giving or
+offering
+something,often just kindness or friendliness.
+
+## Page 574
+
+Concession— This is similar to reciprocity but the attacker asks for more
+than they need and
+settle for what they want (ask for $200 when you only want $100 and get
+the
+target to concede to $100).
+Scarcity—
+The attacker creates a false scarcity to get the target to act before they all
+gone.
+Authority—
+The attacker acts as an authority to get the target to do or reveal something.
+Consensus—
+Theattacker convinces the target that “everyone knows this “ or “everyone
+does
+this” to get the target to do something.
+Now that we have some background on the psychology and strategies of
+social engineering, let’s look at some technologies and tools to assist in this
+endeavor.
+Information Gathering
+Before attempting a social engineering attack, it’s best to gather as much
+information about the target as possible. This will enable you to design an
+attack that is tailored to the individual’s needs and wants. For instance, if
+you had discovered through social networking sites and other sources that
+the individual is an avid golfer, emails and URLs tailored to that person will
+likely have a greater chance of success. In addition, information gathering
+might reveal friends, family members, and work colleagues who could be
+impersonated in email, SMS, or other means (see SpoofBox below).
+
+## Page 575
+
+There are numerous places we can collect information on the target,
+including:
+1. Facebook
+2. LinkedIn
+3. Twitter
+4. Maltego
+5. Google Hacking
+6. People Search
+For more on Open Source Intelligence (OSINT), go to www.hackers-
+arise.com/osint
+Social Engineering Tools
+Throughout the years, books and courses have used the Social Engineering
+Toolkit (SET) by Dave
+Kennedy as an example of a social engineering tool. With all due respect to
+Dave Kennedy (he is an 309 | P a g e
+excellent security researcher) and others, I don’t find the SET to very
+useful. Most of its techniques don’t work, and its interface is inelegant and
+clunky.
+By contrast, the following tools ARE effective and useful:
+1. BeEF or the Browser Exploitation Framework;
+2. Wi-Fiphisher;
+3. Spoof SMS;
+4. Fileformat vulnerabilities;
+
+## Page 576
+
+Social Engineering Techniques and Tools
+There are many tools that are useful for social engineering, but in this
+section, I want to demonstrate just a few.
+BeEF or Browser Exploitation Framework
+The Browser Exploitation Framework or BeEF, for short, enables you to
+take control of the target’s browser. It relies upon your ability to get the
+target to click on a malicious Javascript link, and once they do, you are
+inside their browser! Once inside, there is considerable mischief you can
+do, including: 1. Resetting or DoSing their router;
+2. Social engineering them to give up their passwords;
+3. Send their browser to other malicious web sites;
+4. Social Engineer them to give you access to their webcam.
+Depending upon the version of Kali you are using, BeEF may not be
+installed by default but is in the Kali repository. If BeEf is not included in
+your Kali, simply download and install it from the Kali repository.
+kali > apt install beef-xss
+The first step is to start the BeEF server. You can start BeEF by entering:
+kali > beef-xss
+Once the server has started, you can connect to it with your browser by
+navigating to localhost:3000. This should bring up a screen like that below
+with the BeEF login. The default login is: username=beef and
+password=beef.
+310 | P a g e
+
+## Page 577
+
+
+## Page 578
+
+
+## Page 579
+
+After logging in, you will be greeted by a screen similar to the one below.
+The key to using BeEF is to get the target to click on the BeEF javascript
+link that will give you control of their browser.To successfully attack the
+browser, you can add the BeEF hook to a web page that the target is likely
+to visit or send the link via email or SMS with some enticing text such as,
+“You got to see this video!”
+Once the target clicks on the link, BeEF will hook their browser and you
+will control it! Here, I have hooked my Mozilla browser in Kali (127.0.0.1).
+311 | P a g e
+
+## Page 580
+
+
+## Page 581
+
+
+## Page 582
+
+When I click on the browser link in the left-hand window labeled “Hooked
+Browsers”, BeEF will display the key information about the browser.
+You can now click on the commands column, and you can view all the
+commands available to you on this target system. Note the color-coding.
+Green means go; the command will likely work. Red means stop; that
+command will NOT work. Grey means “maybe.”
+In the figure below, we can see several commands that are green including
+“Geolocation.”
+312 | P a g e
+
+## Page 583
+
+Below, we can see that some of the commands are red, meaning they will
+not work with this browser.
+The webcam command is green with this browser. This command will pop
+up a dialog box asking
+the user to enable their webcam. If they click “Yes,” their webcam will be
+enabled and begin
+taking snapshots. You can replace this message and customize a new
+message (“Update Your
+
+## Page 584
+
+Adobe Flash Now!”) in the dialog box that will likely entice the user to
+click.
+BeEF is an excellent tool for social engineering the target, and taking
+control of their browser.
+SMS Spoofing
+SMS communication has grown so dramatically over the last decade that
+some people seldom
+make phone calls anymore. This technology, commonly known as
+“texting,” is very vulnerable to
+spoofing.
+If you need someone to open a link on their phone or take some action, this
+can be an excellent
+way to do it. A few years ago, there were numerous SMS spoofing services,
+but many of them
+313 | P a g e
+
+## Page 585
+
+
+## Page 586
+
+have gone by the wayside. Among this turmoil, Spoofbox
+(www.spoofbox.com) has remained
+strong.
+This is one service that works as advertised and is relatively inexpensive
+(not free, but they do accept Bitcoin). I have used this tool in social
+engineering engagements, and I can swear by it. It works!
+
+## Page 587
+
+All you need to do is open an account and put some money in. Then enter
+the number the text is
+going to, the number you want it to appear that the text has come from, and
+the message to send
+to the target.
+Some of you who are “Mr. Robot” fans will remember that the f/society
+crew got Elliot out of jam at Stone Mountain by sending an SMS message
+to the woman escorting him out. The message apparently came from her
+husband and said that he had been hospitalized. This service can do exactly
+that!
+In addition to SMS spoofing, SpoofBox offers the following services:
+1. Spoofing email;
+2. Spoofphone calls;
+3. Fake WhatsApp;
+4. Fake iMessage.
+Use these at your own peril, as I have not tried these other services and
+cannot vouch that they are effective or safe.
+314 | P a g e
+
+## Page 588
+
+Wi-Fi Phisher
+While many hackers hammer away on cracking the WPA2 hash, some find
+it more effective to simply
+social engineer the password from the target. That’s where wifiphisher
+comes in. This tool is
+designed to:
+1. Create a clone of the target AP;
+2. Deauthenticate the user from their actual AP;
+3. Associate them with the fake AP;
+4. Present the user with an authentic-looking firmware update screen and
+ask them to provide their password to continue.
+You and I are unlikely to give up our password so easily, but my experience
+is that most others will.
+Wifiphisher is not built into Kali, so you need to downlaoad and install it
+from the Kali repository.
+
+## Page 589
+
+kali > apt install wifiphisher
+Once wifiphisher has completed its downloading and installing, let’s take a
+look at its help screen.
+kali > wifiphisher –help
+315 | P a g e
+There are numerous options, but wifiphisher has an automated script that
+will set up a fake AP
+automatically if you have a wireless card capable of working as an AP (I’m
+using an Alfa AWUS036NH, but some others will work as well).
+To start wifiphisher, you only need to enter;
+kali > wifiphisher
+
+## Page 590
+
+Wifiphisher will now setup your wireless card as an AP with DHCP. It will
+next scan the airwaves for available APs, as seen below.
+316 | P a g e
+
+## Page 591
+
+At this point, you need only to select the AP you want to clone. In this case,
+I selected “click here for a virus5.”
+Now wifiphisher begins to deauthenticate (kickoff) the users on the selected
+AP.
+When people re-login to the AP, they will be greeted with the screen below.
+This screen informs them that a firmware upgrade is taking place with their
+hardware and asks them for their password to continue.
+How crafty is that?
+317 | P a g e
+
+## Page 592
+
+When they enter their password, it appears on the attacker’s screen, as seen
+below!
+Social Engineering with Metasploit
+In addition to these techniques, there are numerous modules in Metasploit
+that can be used to send malicious links and documents via email. Open the
+Metasploit console (msfconsole) and search for
+“fileformat” exploits. This type of exploit usually involve flaws in various
+applications such as MS Word, Adobe PDF, OpenOffice, and others. There
+should be about 200 in Metasploit.
+msf5> search type:exploit fileformat
+318 | P a g e
+
+## Page 593
+
+Many of these exploits take advantage of vulnerabilities that have been
+patched by the developer, but not everyone updates their software.
+These involve vulnerabilities in different types of files that—if opened—
+will give the attacker control of the system (the BlackEnergy3 hack
+perpetrated against the Ukraine power grid began with one of these).
+You can also create a custom payload with msfvenom encrypted with
+shikata_ga_nai and send it to the victim. If you can entice them to open the
+file, your payload will be launched on their system, and you will own it.
+The most difficult part of that hack is the enticement part. This will likely
+involve one of the concepts above of (1) elicitation, (2) pretexting, or (3)
+influence.
+A few things to keep in mind when using Metasploit for social engineering.
+First, make ceratin that the email sounds convincing and legitimate. Second,
+use a common file format if you don’t know what
+application the target is using. Third, try zipping your attachments. Most
+mail services will NOT deliver an executable and will likely flag a
+fileformat attachment as malicious. By using ZIP, you can bypass some of
+these restrictions.
+Summary
+
+## Page 594
+
+Social engineering is often the most overlooked technique by the novice
+hacker, but some of the most important hacks, by some of the most
+sophisticated hackers (NSA, GRU, and others) in history have been the
+result of effective social engineering. Social engineering requires that the
+attacker study the target to understand their interests, needs, and wants to
+prepare an effective approach. This research and study often involves open-
+source intelligence and then combines that with a bit of psychology. Even
+the most secure organizations are susceptible to social engineering attacks.
+319 | P a g e
+Exercises
+1. Practice trying to get a friend to do what you want. Try using each of the
+concepts (1)
+elicitation (2) pretexting or (3) influence. Try out different scripts to see
+what works best.
+2. Set Up Wifiphisher in your home and see whether you can fool family
+members, roommates,
+or friends with the Netgear firmware update.
+3. Create a fileformat exploit with Metasploit and try sending it to a friend
+or associate.
+4. Go to SMS Spoof and try sending a spoofed SMS message to yourself
+froma friend’s phone
+number.
+320 | P a g e
+Epilogue
+Congratulations on having finished this book! You are well on your way to
+becoming a Master Hacker and a lucrative and rewarding career in cyber
+security.
+
+## Page 595
+
+The next steps are crucial. You may decide to become a Subscriber (three
+years of courses for $500) at Hackers-Arise (www.hackers-
+arise.com/hackers-arise-subscribers) to study furthe r with me or join one of
+the many cyber security schools. If you don’t become a Subscriber at
+Hackers-Arise, I can recommend the following training;
+1. SANS Institute
+2. Offensive Security
+3. InfoSec Institute
+In addition, look for my upcoming books
+1. Metasploit Basics for Hackers - 2020
+2. Shodan Basics for Hackers - 2020
+3. More Linux Basics for Hackers - 2021
+4. Python Basics for Hackers -2022
+5. Becoming a Master Hacker 2 - 2023
+6. Becoming a Master Hacker 3 – 2024
+7. The History of Hacking and Cybersecurity =-TBA
+Best of Luck, my aspiring master hackers!
+321 | P a g e
+Appendix A
+Cryptography Basics for Hackers
+As hackers, we are often faced with the hurdle of cryptography and
+encryption. Every cyber security engineer worth their pocket protector
+understands that encryption make the hacker/attacker's task much more
+
+## Page 596
+
+difficult. In some cases, it may be useful to the hacker to hide actions and
+messages.
+Many applications and protocols use encryption to maintain confidentiality
+and integrity of data. To be able to crack passwords and encrypted protocols
+such as SSL and wireless, you need to have at least a basic familiarity with
+the concepts and terminology of cryptography and encryption.
+To many new hackers, all the concepts and terminology of cryptography
+can be a bit overwhelming and opaque. To start, cryptography is the
+science and art of hiding messages so that they are
+confidential , then "unhiding" them so that only the intended recipient can
+read them. Basically, we can say that cryptography is the science of secret
+messaging.
+With this brief overview for the newcomer, I hope to lift the fog that
+shrouds this subject and shed a tiny bit of light on cryptography. I intend
+this simply to be a quick and cursory overview of cryptography for the
+novice hacker, not a treatise on the algorithms and mathematics of
+encryption. I'll try to familiarize you with the basic terminology and
+concepts so that when you read about hashing, wireless
+cracking, or password cracking and t he encryption technologies are
+mentioned, you have some grasp of what is being addressed.
+Don't get me wrong, I don't intend to make you a cryptographer here (that
+would take years), but simply to help familiarize the beginner with the
+terms and concepts of cryptography so as to help you become a credible
+hacker.
+I will attempt to use as much plain English to describe these technologies as
+possible, but like everything in IT, there is a very specialized language for
+cryptography and encryption. Terms like cipher, plaintext, ciphertext,
+keyspace, block size, and collisions can make studying cryptography a bit
+confusing and overwhelming to the beginner. I will use the term "collision,"
+as there really is no other word in plain English that can replace it.
+
+## Page 597
+
+Let's get started by breaking encryption into several categories.
+Types of Cryptography
+There are several ways to categorize encryption, but for our purposes here, I
+have broken them down into four main areas (I'm sure cryptographers will
+disagree with this classification system, but so be it).
+•
+Symmetric Encryption
+•
+Asymmetric Encryption
+•
+Hashes
+322 | P a g e
+
+## Page 598
+
+•
+Wireless
+A Word About Key Size
+In the world of cryptography, size does matter! In general, the larger the
+key, the more secure the encryption. This means that AES with a 256-bit
+key is stronger than AES with an 128-bit key and likely will be more
+difficult to crack. Within the same encryption algorithm , the larger the
+key, the stronger the encryption.
+It does not necessarily mean that larger keys mean stronger encryption
+between encryption algorithms.
+Between algorithms, the strength of the encryption is dependent on both the
+particulars of the algorithm AND the key size.
+Symmetric Cryptography
+Symmetric cryptography is where we have the same key at the sender and
+receiver. It is the most common form of cryptography. You have a password
+or "key" that encrypts a message and I have the same password to decrypt
+the message. Anyone else can't read our message or data.
+Symmetric cryptography is very fast, so it is well-suited for bulk storage or
+streaming applications. The drawback to symmetric cryptography is what is
+called the key exchange. If both ends need the same key, they need to use a
+
+## Page 599
+
+third channel to exchange the key and therein lies the weakness. If there are
+two people who want to encrypt their communication and they are 12,000
+miles apart, how do they exchange the key? This key exchange then is
+fraught with the all the problems of the confidentiality of the medium they
+choose, whether it be telephone, mail, email, face-to-face, etc. The key
+exchange can be intercepted and render the confidentiality of the encryption
+moot.
+Some of the common symmetric algorithms that you should be familiar
+with are:
+•
+DES - This was one of the original and oldest encryption schemes
+developed by IBM. It was found to be flawed and breakable and was used
+in the original hashing system of LANMAN hashes in early (pre-2000)
+Windows systems.
+323 | P a g e
+•
+3DES - This encryption algorithm was developed in response to the flaws
+in DES. 3DES applies the DES algorithm three times (hence the name
+"triple DES") making it slightly more secure than DES.
+•
+AES - Advanced Encryption Standard is not a encryption algorithm but
+rather a standard developed by National Institute for Standards and
+Technology (NIST). Presently, it is considered the strongest encryption,
+uses a 128-, 196-, or 256-bit key and is occupied by the Rijndael algorithm
+since 2001. It's used in WPA2, SSL/TLS, and many other protocols where
+confidentiality and speed is important.
+•
+
+## Page 600
+
+RC4 - This is a streaming (it encrypts each bit or byte rather than a block of
+information) cipher and developed by Ronald Rivest of RSA fame. Used in
+VoIP and WEP.
+•
+Blowfish - The first of Bruce Schneier's encryption algorithms. It uses a
+variable key length and is very secure. It is not patented, so anyone can use
+it without license.
+•
+Twofish - A stronger version of Blowfish using a 128- or 256-bit key and
+was strong contender for AES. Used in Cryptcat and OpenPGP, among
+other places. It also is in the public domain without a patent.
+Asymmetric Cryptography
+Asymmetric cryptography uses different keys on both ends of the
+communication channel. Asymmetric cryptography is very slow, about
+1,000 times slower than symmetric cryptography, so we don't want to use it
+for bulk encryption or streaming communication. It does, however, solve
+the key exchange
+problem. Since we don't need to have the same key on both ends of a
+communication, we don't have the issue of key exchange.
+Asymmetric cryptography is used primarily when we have two entities
+unknown to each other that want to exchange a small bit of information,
+such as a key or other identifying information, such as a certificate. It is not
+used for bulk or streaming encryption due to its speed limitations.
+Some of common asymmetric encryption schemes you should be familiar
+with are:
+•
+Diffie-Hellman - Many people in the field of cryptography regard the
+Diffie-Hellman key exchange to be the greatest development in
+
+## Page 601
+
+cryptography (I would have to agree). Without going deep into the
+mathematics, Diffie and Hellman developed a way to generate keys without
+having to exchange the
+keys, thereby solving the key exchange problem that plagues symmetric key
+encryption.
+•
+RSA - Rivest, Shamir, and Adleman is a scheme of asymmetric encryption
+that uses factorization of very large prime numbers as the relationship
+between the two keys.
+•
+PKI - Public key infrastructure is the widely used asymmetric system for
+exchanging confidential information using a private key and a public key.
+•
+ECC - Elliptical curve cryptography is becoming increasing popular in
+mobile computing as it efficient, requiring less computing power and
+energy consumption for the same level of security. ECC relies upon the
+shared relationship of two functions being on the same elliptical curve.
+324 | P a g e
+•
+PGP - Pretty Good Privacy uses asymmetric encryption to assure the
+privacy and integrity of email messages.
+Hashes
+Hashes are one-way encryption. A message or password is encrypted in a
+way that it cannot be reversed or unencrypted. You might wonder, "What
+good would it do us to have a something encrypted and then not be able to
+decrypt it?" Good question!
+
+## Page 602
+
+When the message is encrypted it creates a "hash" that becomes a unique,
+but indecipherable signature for the underlying message. Each and every
+message is encrypted in a way that it creates a unique hash.
+Usually, these hashes are a fixed length (an MD5 hash is always 32
+characters). In that way, the attacker can not decipher any information about
+the underlying message from the length of the hash. Due to this, we don't
+need to know the original message, we simply need to see whether some
+text creates the same hash to check its integrity (is unchanged).
+This is why hashes can be used to store passwords. The passwords are
+stored as hashes and then when someone tries to log in, the system hashes
+the password and checks to see whether the hash generated matches the
+hash that has been stored. In addition, hashes are useful for integrity
+checking, for instance, with file downloads or system files.
+In the world of encryption and hashing, a "collision" is where two different
+input texts produce the same hash. In other words, the hash is not unique.
+This can be an issue when we assume that all the hashes are unique such as
+in certificate exchanges in SSL. NSA used this property of collisions in
+the Stuxnet malware to provide it with what appeared to be a legitimate
+Microsoft certificate. Hash algorithms that produce collisions, as you might
+guess, are flawed and insecure.
+These are the hashes you should be familiar with.
+•
+MD4 - This was an early hash by Ron Rivest and has largely been
+discontinued in use due to collisions.
+•
+MD5 - The most widely used hashing system. It's 128-bit and produces a
+32-character message digest.
+•
+
+## Page 603
+
+SHA1 - Developed by the NSA, it is more secure than MD5, but not as
+widely used. It has 160-bit digest which is usually rendered in 40-character
+hexadecimal. Often used for certificate exchanges in SSL, but because of
+recently discovered flaws, is being deprecated for that purpose.
+Wireless Cryptography
+Wireless cryptography has been a favorite as so many are trying to crack
+wireless access points . As you might guess, wireless cryptography is
+symmetric (for speed), and as with all symmetric cryptography, key
+exchange is critical.
+•
+WEP - This was the original encryption scheme for wireless and was
+quickly discovered to be flawed. It used RC4, but because of the small key
+size (24-bit), it repeated the IV about every 5,000 packets enabling easy
+cracking on a busy network using statistical attacks.
+325 | P a g e
+•
+WPA - This was a quick fix for the flaws of WEP, adding a larger key and
+TKIP to make it slightly more difficult to crack.
+•
+WPA2-PSK - This was the first of the more secure wireless encryption
+schemes. It uses a pre-shared key (PSK) and AES. It then salts the hashes
+with the AP name or SSID. The hash is exchanged at
+authentication in a four-way handshake between the client and AP.
+•
+WPA2-Enterprise - This wireless encryption is the most secure. It uses a
+128-bit key, AES, and a remote authentication server (RADIUS).
+
+## Page 604
+
+326 | P a g e
+Appendix B
+Cyber Warrior Wisdom of Master OTW
+Hacking is the new martial art of the 21st century! To become a master
+hacker, you
+must think strategically and analytically. Master OTW offers some of his
+strategic
+wisdom for the novice hacker that every hacker should be armed with
+before doing
+battle.
+1.
+Fools talk. The wise listen.
+2.
+Hacking is a process; not a technology or collection of tools.
+3.
+If a service is free, you are not the customer; you are the product.
+4.
+Only the fool goes to battle without adequate reconnaissance of their
+enemy.
+5.
+"Listen" closely and intently to your enemy, they will tell you everything
+you need to know to defeat them.
+
+## Page 605
+
+6.
+If you believe in nothing, you can be led to believe anything.
+7.
+Every adversary--no matter how strong and powerful--always has a
+weakness. Find the weakness and exploit it.
+8.
+Humility is a virtue and strengthens the warrior; hubris is an evil and
+weakens the warrior.
+9.
+A great offense might win the battle, but a great defense wins the war.
+10. Turn the power and strength of your opponent against them.
+327 | P a g e
+11. The battle often does NOT go the strongest, but rather to the most
+persistent.
+12. There is ALWAYS opportunity in chaos.
+13. Avoid your adversary's strength and attack their weaknesses.
+14. Never become predictable.
+15. When faced with an adversary of overwhelming power and strength, do
+not
+face them head-on. Strike only when you have the element of surprise.
+
+## Page 606
+
+16. Understanding human psychology, motivation, and behavior are one of
+the
+hacker's most important tools.
+17. A series of persistent, small wins will defeat your opponent.
+18. Create confusion and dissension within the ranks of your opponent.
+19. At times, it can be advantageous to retreat to lure your opponent into a
+vunerable and indefensible position.
+20. Never confuse kindness for weakness.
+328 | P a g e
+329 | P a g e
+Index
+A
+Active Reconnaissance, vi, 30, 77–78, 86, 98
+AES, 257, 323–24, 326
+Aircrack-ng, 24, 184, 258, 261, 268, 273
+Aireplay-ng, 264–65, 271, 273
+Airodump-ng, 262, 264–65, 267, 277
+Anti-Virus (AV), vi, 22, 170, 190, 233–35, 239, 243, 280
+AP (Access Point), 256–58, 260–71, 273–75, 277–79, 316–17, 326
+Apache Tika, 163–64
+Apache webserver, 179–80
+
+## Page 607
+
+AR (Authentication Request), 275
+Assange, 5
+Julian, 5, 12
+Asymmetric Cryptography, 324
+At0, 269–70
+Attacking WordPress Websites, 222
+Attacks
+brute-force, 25, 30, 120
+dictionary, 25–26, 68, 136
+Authentication Request (AR), 275
+Auxiliary/scanner/portscan/tcp, 156
+AV. See Anti-Virus
+AV applications, 234–35, 242, 245
+AV detection, 233–34
+AV software, 234–35, 243
+B
+Banners, 26, 30, 60–61, 63–64, 290–91, 296, 298, 304
+Bash, 253, 294
+Bash command history, 246
+BASH scripts, 274, 283
+
+## Page 608
+
+Beef, 26, 310–13
+Berkeley Packet Filter (BPF), 179
+BPF (Berkeley Packet Filter), 179
+Browser Exploitation Framework, 310
+Brute force attacks, 120, 141
+BSSID, 256, 261–62, 264–65, 273, 277
+Buffer overflows, 31, 192, 194
+Bug bounty hunting, 3
+BuiltWith, 95–97
+BuiltWith to Scan for Website Technologies, 95
+BurpSuite, 24
+C
+330 | P a g e
+CERT (Computer Emergency Response Team), 9
+Cewl, 126–28, 134, 141, 266
+Chmod, 236, 285, 291–92
+Cisco routers, 60, 64–66
+CMSs (content management systems), 92, 94, 110, 222
+Code, block of, 289, 295, 298–99
+Collisions, 322, 325
+
+## Page 609
+
+Command history, 247, 251–53
+Command line, 19, 73, 110, 137, 218, 248
+Computer Emergency Response Team (CERT), 9
+Conficker Worm, 9, 29
+Connect, 192, 197, 209, 211, 255, 261–63, 268, 270–71, 274, 291, 293,
+296–97, 300
+Content management systems. See CMSs
+Control Statements, 293–94
+Control structure, 293–94
+Copyrighted material, 8, 16
+Cracking tools, 24–26, 121, 155
+Creating password crackers, 293
+Cross-site request forgery, 213–14
+Crunch, 126, 128–31, 134, 141, 266
+Cryptography, 22, 257, 322–24
+symmetric, 323–25
+D
+Database Management Systems. See DBMS
+DBMS (Database Management Systems), 21, 214, 220
+DDoS attacks, 8–9
+Dead Cow, 6–7
+
+## Page 610
+
+Deauth, 264–65, 271, 273
+Deauthenticate, 315, 317
+Deauth frames, 265, 273–74
+Debian, 34, 38, 102
+Denial of Service, 14, 78, 273
+Digital Forensics and Network Forensics, 21
+Digital Millennium Copyright Act (DMCA), 8, 16
+DMCA (Digital Millennium Copyright Act), 8, 16
+DNS, 19, 30, 49, 66, 70, 76, 177, 185
+Dnsenum, 68–69
+Dnsenum.pl, 68–69
+DNS information gathering tools, 68
+DNS server, 67–68, 70
+Download and install OWASP-ZSC, 236, 245
+Download Kali Linux, 35
+Dropbox, 191, 281
+E
+331 | P a g e
+Elcomsoft, 8, 16
+Elicitation, 307, 319–20
+
+## Page 611
+
+Elif, 295
+Encode, 235–36, 242–43, 245
+Encryption algorithms, 20, 323–24
+End User License Agreement (EULA), 111
+EternalBlue, 13, 29, 31, 99–101, 154, 157–59, 190–91, 233, 235, 300–301,
+305
+EternalBlue attack packet-by-packet, 196
+EternalBlue nmap Vulnerability Scanner, 100
+EternalBlue vulnerability, 99–100, 108, 175, 190
+EternalBlue vulnerability scanner, 100
+EternalBlue works, 190
+Eth0, 73–74, 183, 268–69
+Evading Windows Defender, 234
+Evil Twin, 24, 268, 271, 273
+Evil Twin AP, 268–69
+Evil twin attack, 268, 279
+Executable Formats, 169
+Extract password hashes, 210
+F
+False Negative, 100
+FBI (Federal Bureau of Investigation), 6–8, 14, 177
+
+## Page 612
+
+Federal Bureau of Investigation. See FBI
+Fingerprinting, 29, 71, 85
+passive operating system, 71
+Firewalls, 20, 30, 77–78, 87–88, 90, 280
+Fragments, 72, 88, 90
+FTP server, 296, 298–300
+G
+Git clone https, 131, 236, 275–76
+Google, 3, 9, 30, 49–50, 60, 76, 218, 223
+Google dorks, 53–54, 223–24
+Google Hacking, 49–50, 54, 60, 223, 309
+Google Hacks, 52, 76, 226
+GPU (graphical processor unit), 26, 134
+GRUB bootloader, 43
+H
+Hacker Process, vi, 28
+Hacking Team, 12
+Hacking tools, 17, 23, 27, 34, 281
+Hacking WordPress sites, 225
+Hammond, Jeremy, 11
+
+## Page 613
+
+Hardware keyloggers, 204
+332 | P a g e
+Hashcat, 25–26, 134–36, 138, 203, 263, 266, 274–75, 278–79
+Hashes, 25, 31, 118–20, 123–24, 136–37, 202–3, 207, 211, 263–66, 274–
+75, 278, 322, 325–26
+HBGary, 228–29
+Hcxdumptool, 275–78
+History command, 252–54
+History of hacking, 2, 4–6, 14, 16, 206
+History of Hacking and Cybersecurity, 321
+Hping, 30, 86–92, 97
+Hping3, 86–87, 91
+I
+IDEs, 283
+IEEE (Institute of Electrical and Electronics Engineers), 256–57, 279
+Ifconfig, 80, 145, 161, 163, 258, 270
+IIS (Internet Information Server), 214
+Information, banner, 26, 63, 290–91
+Information security engineers, 4, 196
+Installing Kali, 39, 41
+Institute of Electrical and Electronics Engineers. See IEEE
+
+## Page 614
+
+IP (intellectual property), 16, 26, 64–66, 80, 84, 89, 100–101, 106, 147,
+161, 208
+IP address, 56–57, 64, 66, 68, 80, 179, 185–86, 190, 192, 196, 290–91, 297,
+299–300
+IP header, 72, 88
+Iwlist, 259
+J
+Javascript, 242–43
+John, 25–26, 122–25, 128, 137–38, 141
+John passwordhashes, 124
+Jsfuck, 242–43
+K
+Kali Linux, 27, 34–37, 44, 58, 66, 141, 161, 281
+Kali repository, 236, 281, 310, 315
+Kali system in Metasploit, 173
+Keylogger, 197, 204–5
+Keyscan, 205–6
+Known vulnerabilities, 25, 31, 92, 99, 101, 214, 226
+databases of, 26, 99
+L
+Legitimate AP, 271, 273
+
+## Page 615
+
+LHOST, 147, 161, 171–73
+Linux Skills, 4, 19–20
+Listener, 31, 144, 172–73, 295
+Log files, 32, 246–47, 254
+Loops, 274, 289, 292, 295–97, 302–3
+333 | P a g e
+LPORT, 147, 171–73
+M
+MAC address, 256, 260–62, 266, 268–69
+Malicious payloads, 173–74, 245
+Medusa, 138–40
+Metasploit, 24, 31–32, 142–47, 149–51, 154–58, 161, 163–67, 169, 172–75,
+198–99, 210–11,
+233–34, 318, 320
+auxiliary modules in, 155
+Metasploitable, 34, 44, 80, 291, 297
+Metasploit Basics for Hackers, 321
+Metasploit commands, 150
+Metasploit commands and post-exploitation modules, 210
+Metasploit Directory Structure, 150, 154
+Metasploit for social engineering, 174, 319
+
+## Page 616
+
+Metasploit framework, 24, 154, 167
+Metasploit payload, 167
+Metasploit port scanning module, 157
+Meterpreter, 161–63, 166–67, 172, 199–209, 211, 247, 249–50, 254
+Meterpreter payload, 173, 175
+Mimikatz, 141, 207–8
+MiTM attacks, 91, 177
+Modules, 24, 139–40, 144, 146–50, 152, 154–58, 163–64, 166, 234, 281,
+290–91
+auxiliary, 144, 155, 157–58
+new, 164, 166, 234
+Msf5, 145, 147–50, 155–61, 166, 172–73, 198, 318
+Msfconsole, 143–45, 149, 151, 155–56, 173, 318
+Msfvenom, 166–68, 170–71, 173–75, 234, 319
+Mysql, 21, 46, 78, 140, 209–10, 214, 220, 222, 298
+MySQL database, 140, 209, 211
+N
+Nameserver, 58, 66–67, 69, 71, 76
+National Security Agency. See NSA
+Nessus, 26, 99, 101–5, 107, 109–10, 143
+Netcraft, 30, 49, 54, 57, 76, 94–95
+
+## Page 617
+
+Network Basics for Hackers, 20
+Network interface card (NICs), 177
+Network intrusion detection system (NIDS), 25
+NICs (network interface card), 177
+NIDS (network intrusion detection system), 25
+Nmap, 23, 30, 78–89, 92, 100, 143, 156
+Nmap commands, 80–81, 86
+NSA (National Security Agency), 2–3, 10, 13, 108, 190–91, 307, 319, 325
+NSA’s EternalBlue, v, 13, 76, 177, 190, 201
+334 | P a g e
+O
+Obfuscate, 235–36, 242, 245
+Obfuscation, 242–43, 245
+Occupytheweb, iii, v, 284–85
+Ollydbg, 26–27
+Online password, 120, 138
+Open ports, 23, 77, 84–85, 155, 295
+scan for, 84, 175
+Open Source Intelligence. See OSINT
+Open Web App Security Project. See OWASP
+
+## Page 618
+
+OSINT (Open Source Intelligence), 30, 49, 76, 309
+OTW, vi, 137, 216–17
+OWASP (Open Web App Security Project), 110, 214, 218, 235
+OWASP ZAP, 110–11, 114
+OWASP-ZAP, 25, 111, 218–19, 235
+OWASP-ZSC, 235–41, 243, 245
+P
+Passive reconnaissance, vi, 30, 48–49, 77
+Password crackers, 6, 134, 203, 298
+command-line, 138
+excellent Unix/Linux, 122
+fastest open source, 26
+Password Cracking, vi, 30, 138
+Password-cracking tools, 120, 209
+Password hashes, 26, 31, 118, 122–23, 136–38, 207, 247, 263, 274–75
+Password list
+custom, 126, 130, 141
+potential, 120, 131
+Passwords, 30–31, 44, 117–26, 128, 134, 136–41, 176–77, 182, 209, 213,
+215–17, 224, 256, 263,
+296, 298–300, 315, 317–18, 322–23, 325
+
+## Page 619
+
+cracking, 117–18, 120, 122
+offline, 120, 138
+Payloads, 24, 31, 144–47, 149, 160–61, 166–73, 186–87, 192, 194, 197–98,
+233–35
+Personally identifiable information (PII), 10, 32
+PIN, 266–67, 279
+PlayStation Network, 10
+PMK (pairwise master key), 258, 275
+PMKID, 275–79
+PMKID Attack, 274
+Ports, 58, 61, 63–66, 71, 77–78, 80–86, 89–90, 92, 97–98, 149, 180–82,
+186, 290–93, 295–96,
+298
+Post-exploitation, vi, 24, 32, 143–44, 201, 209–10
+Post-exploitation modules, 198–99, 210–11
+Potential passwords, 119–20, 128, 133, 230, 299
+Pretexting, 308, 319–20
+335 | P a g e
+Probes, 26, 30, 71, 92, 94, 99, 274, 276
+Programming, object-oriented, 281–82
+Programming languages, 281, 284, 287–89, 294
+
+## Page 620
+
+PSK (pre-shared key), 256–58, 277, 326
+PyCharm, 283, 287, 301
+Python, v, 21, 281–91, 293–94, 296, 298, 300, 304
+Python3, 281, 285
+Python interpreter, 287–88, 292, 294, 302
+Python Modules, 281
+Python scripts, 92, 281, 283, 295, 300–301
+R
+RAM, 34, 38, 141, 207–8
+Ransomware, 3, 13, 99, 107
+Rapid7, 143, 149, 155, 164, 234
+RCE (remote code execution), 107, 190
+Reaver, 267–68, 279
+Remote code execution (RCE), 107, 190
+Remote Password Cracking, 26, 138
+Rules passwordhashes, 125, 128
+Russia, 2, 4, 8–9, 13
+Russian hackers, 4, 13, 190
+S
+Scripting, cross-site, 214, 227–28
+
+## Page 621
+
+Search Shodan, 63–65
+Server Message Block. See SMB
+Set, 32, 34, 42, 72, 74, 88–89, 91–92, 147–49, 157, 160–61, 308–10, 316,
+320
+SET command, 147, 149, 161
+Set PAYLOAD windows/meterpreter/reverse, 173
+Set RHOSTS, 157, 159, 161
+Shellcode, 143, 193, 233, 235–36, 238–39, 241–43, 245
+new, 235, 243
+Shellcode database, 238, 245
+Shikata, 170–71, 319
+Shodan, 26, 30, 49, 60–63, 65–66, 76, 290
+SMB (Server Message Block), 13, 26, 77, 82–83, 86, 89, 153, 190–92, 235,
+304
+SMB packets, 192
+Social engineering attack, 52, 279, 307, 309, 319
+Social Engineering Tools, 309
+Spyaudio.wav, 206–7
+SQL, 214–17
+SQLi. See SQL injection
+SQL Injection, 21, 51, 213–14, 217–19, 231–32
+
+## Page 622
+
+SQL injection (SQLi), 21, 25, 51, 213–15, 217–19, 231–32
+Sqlmap, 25, 213, 218–22, 281
+336 | P a g e
+SSID, 256, 258, 261, 268, 326
+Swartz, 10–11
+Aaron, 10–11
+Sysinternals, 24–25
+T
+TCP connection, 291
+Tcpdump, 20, 177–82, 196
+TCP flags, 72, 74, 88, 156, 181
+TCP Listener, 291
+TCP ports, 78, 82, 84, 86, 181
+TCP scan, 80, 82, 85, 156
+THC-Hydra, 26, 66
+Timestamps, 91, 247, 249–50
+Timestomp, 249–50
+TJX, 8–9
+Transform Formats, 169
+TTL, 72
+
+## Page 623
+
+U
+UDP, 78, 81–82, 87, 185
+UDP ports, 81, 86
+UDP scans, 82
+Unsecured wireless network, 8–9
+USC Title, 15–16
+Uxiliary/scanner/portscan, 156
+V
+VirtualBox, 20, 34, 36–37, 41
+Virtual Machine (VM), 34, 36–39, 42, 183
+Virtual machines, 36–38, 42
+VirusTotal, 243–45
+VM. See Virtual Machine
+Vulnerabilities, 7, 9, 84–85, 98–101, 107–8, 110, 114, 143, 146, 148, 190,
+193, 227–28, 230–32,
+319
+critical, 107–8
+Vulnerability scan, 16, 92, 105, 107, 109, 157, 175
+Vulnerability scanners, 99–101, 116, 143, 157–58, 225
+W
+WAF (Web Application Firewall), 94
+
+## Page 624
+
+Web Application Firewall (WAF), 94
+Webcam, 32, 60, 197, 203–4, 206, 210, 310, 313
+Webcam Commands, 200, 313
+Web Hacking, vi, 138, 212–14, 231
+Webscantest, 220–22
+337 | P a g e
+Websites, scanning, 92–94
+Web technologies, 92, 213
+WEP, 20, 256–57, 263, 324–26
+Wevtutil, 248, 254
+Whatweb, 92–95
+Wi-Fi, 20, 255–58, 260, 279
+Wi-Fi Adapters, 258, 265, 268
+Wi-Fi AP, 256–57, 259, 261–62, 266, 277
+Wifiphisher, 279, 315–17, 320
+WikiLeaks, 5, 8, 11–13
+Window size, 72
+Windows meterpreters, 171, 247
+Windows Password Hashes, 137
+Windows post-exploitation modules in Metasploit, 211
+
+## Page 625
+
+Wireless adapter, 183, 276
+Wireless network card, 264, 279
+Wireless network interfaces, 257, 259
+Wireshark, 20, 24, 177, 182–84, 188–92, 195–96, 271–72
+Wlan0mon, 261, 264–69, 271, 273, 276–77
+Wordlists, 120–22, 125, 127–28, 130–31, 136–38, 263
+Wordpress, 54, 94–95, 222–23, 225–26, 229, 231
+Wordpress sites, 213, 223–27, 230, 232
+WordPress Sites Hacked, 225
+WordPress websites, 54, 222
+WPA, 20, 257, 326
+WPA2, 20, 256–58, 263, 324
+WPA2-PSK, 263, 274, 326
+WPA2-PSK brute force password attack, 274
+WPS, 20, 266–67, 27 9
+Wpscan, 225–27, 229–31, 281
+Www.cybrary.it, 94, 229, 231
+Www.hackers-arise.com, iii, 4, 20, 127–28
+Www.hackers-arise.com/database-hacking, 21, 25
+Www.hackers-arise.com/hacking-bluetooth, 256
+
+## Page 626
+
+Www.hackers-arise.com/osint, 30, 49, 309
+Www.hackers-arise.com/password-lists, 121
+Www.hackers-arise.com/passwords-list, 125
+Www.hackers-arise.com/scada-hacking, 17
+Www.hackers-arise.com/scripting, 21
+Www.hackers-arise.com/web-app-hacking, 21, 114
+Www.hackers-arise/scada-hacking, 2
+Www.networksolutions.com, 59
+Www.packetstormsecurity.com, 227–28
+338 | P a g e
+339 | P a g e
+
+## Page 627
+
+Table of Contents
+Chapter 1: Getting Started
+Chapter 2: Hacker Essentials
+Chapter 3: The Hacker Process
+Chapter 4: Creating our Virtual Lab
+Chapter 5: Passive Reconnaissance
+Chapter 6: Active Reconnaissance
+Chapter 7: Finding Vulnerabilities
+Chapter 8: Password Cracking
+Chapter 9: Exploitation with Metasploit 5
+Chapter 10: Packet Sniffing and Analysis
+Chapter 11: Post Exploitation
+Chapter 12: Web Hacking
+Chapter 13: Evading Anti-Virus
+Chapter 14: Covering Your Tracks
+Chapter 15: Wi-Fi Hacking
+Chapter 16: Malicious Python
+Chapter 17: Social Engineering
+

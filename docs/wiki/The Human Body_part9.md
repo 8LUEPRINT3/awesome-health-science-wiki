@@ -1,0 +1,3006 @@
+---
+title: The Human Body - Part 9
+source: The Human Body.md
+category: health-science
+---
+
+a. Granulocytes and Kupffer cells
+into the subclavian veins.
+b. Lymphocytes and macrophages
+d. It is cleansed by phagocytes as it flows through
+c. Reticulocytes and eosinophils
+lymphatic organs.
+d. Only granulocytes
+9. The lymphatic circulation
+2. The spleen
+a. is most closely associated with the venous side of
+a. is located in the right upper quadrant.
+the circulation.
+b. receives lymph from the thoracic duct.
+b. accompanies the aorta and its branches.
+c. engages in phagocytosis and removes worn-out
+c. is concerned primarily with the transport of oxygen.
+RBCs and platelets from the circulation.
+d. plays a vital role in hemostasis.
+d. pumps lymph throughout the body, much as the
+10. Which lymphatic structure is composed of red pulp and
+heart pumps blood.
+white pulp and is called the “graveyard” of RBCs?
+a. Thymus gland
+b. Peyer patches
+c. Spleen
+d. Appendix
+
+21
+Immune System
+http://evolve.elsevier.com/Herlihy
+Objectives
+1. Discuss nonspecific immunity, including the following: 3. Differentiate between genetic immunity and acquired
+• Describe the process of phagocytosis. immunity.
+• Explain the causes of the signs of inflammation. 4. Describe naturally and artificially acquired active and
+• Explain the role of fever in fighting infection. passive immunity.
+• Explain the role of interferons, complement proteins, 5. Describe other immune responses, including the
+and natural killer cells in the defense of the body. following:
+2. Discuss specific immunity, including the following: • Identify the steps in the development of anaphylaxis.
+• Differentiate between specific and nonspecific immunity. • Define autoimmunity.
+• Explain the role of T cells in cell-mediated immunity.
+• Explain the role of B cells in antibody-mediated immunity.
+Key Terms
+active immunity (p. 393) cell-mediated immunity (CMI) macrophages (p. 386)
+adaptive immunity (p. 388) (p. 389) natural killer (NK) cells (p. 384)
+allergen (p. 395) clone (p. 389) naturally acquired immunity
+antibodies (p. 392) complement proteins (p. 387) (p. 393)
+antibody-mediated immunity fever (p. 387) nonspecific immunity (p. 383)
+(AMI) (p. 389) immunity (p. 383) passive immunity (p. 393)
+antigen presentation (p. 389) immunization (p. 394) phagocytosis (p. 385)
+antigen (p. 388) immunoglobulins (p. 392) pyrogen (p. 387)
+artificially acquired immunity immunotolerance (p. 389) specific immunity (p. 383)
+(p. 393) inflammation (p. 386) T lymphocytes (T cells) (p. 389)
+autoimmune disease (p. 394) innate immunity (p. 383) vaccine (p. 393)
+B ly mphocytes (B cells) (p. 389) interferons (p. 387) vaccination (p. 394)
+If there is one system that has achieved immense clini-
+CLASSIFICATION OF THE IMMUNE
+cal significance today, it is the immune system. Recent
+SYSTEM
+developments have ended the need for the lifetime
+isolation of a child with a primary immunodeficiency The defense mechanisms of the immune system are
+disorder. Today we are more apt to encounter persons classified as nonspecific and specific. Nonspecific
+who are immunosuppressed because of human immu- immunity protects the body against many different
+nodeficiency (HIV) infection or treatment for cancer in types of foreign agents. With nonspecific immuni-
+the form of chemotherapy or radiation. This is a new ty, the body need not recognize the specific foreign
+day of bone marrow transplants, vaccinations, immu- agent.
+notherapies, and recognition of the scope of autoim- Specific immunity, on the other hand, hones in on a
+mune diseases. The term immune system refers to the specific substance.
+defensive mechanisms that protect us from pathogens,
+foreign substances such as pollens, and cancer cells.
+NONSPECIFIC IMMUNITY
+The immunity provided by this system is not restricted
+to a single organ or tissue; rather, it is diffusely scat- Nonspecific immunity is also called innate immunity,
+tered throughout the body. There are many moving because we are born with certain defense mecha-
+parts that work together to provide such protection. nisms that do not require prior exposure to the patho-
+The study of the immune system is called immunology. gen or foreign agent. Numerous defense mechanisms
+383
+
+384 CHAPTER 21 Immune System
+Mechanical barriers
+Nonspecific
+Immunity
+enil
+tsriF
+esnefed
+fo
+Chemical barriers Reflexes
+Acid
+Skin and mucous
+Sneezing
+membranes
+Tears
+Natural killer
+(NK) cells
+Phagocytosis
+Protective
+Inflammation proteins
+V
+Fever Interferons
+Complement
+Bacterium
+Second line
+of defense
+Fig. 21.1 Nonspecific Immunity. First line of defense: mechanical barriers, chemical barriers, and reflexes. Second line
+of defense: phagocytosis, inflammation, fever, protective proteins, and natural killer (NK) cells.
+FIRST LINE OF DEFENSE
+Go Figure (Refer to Fig. 21.1)
+The first line of defense includes mechanical barri-
+1. T /F __ With regard to nonspecific immunity: phagocytosis,
+inflammation, and fever are considered the first line of ers, chemical barriers, and reflexes. Intact skin and
+defense. mucous membranes serve as mechanical barriers;
+pathogens cannot cross these structures and enter the
+body. Destruction of mechanical barriers is an invita-
+are included in the category of nonspecific immunity tion to microbial invasion and subsequent infection
+(Fig. 21.1). Nonspecific immunity can be divided into (see Fig. 21.1). Assisting the skin and mucous mem-
+two lines of defense. The first line of defense includes branes with their mechanical defensive functions are
+mechanical barriers, chemical barriers, and reflexes. their chemical secretions. For example, the secretions
+The second includes phagocytosis, inflammation, fe- of the sebaceous and sweat glands of the skin form
+ver, protective proteins (interferons and complement an acid coating (acid mantle) that inhibits bacterial
+proteins), and natural killer (NK) cells. Remember that growth while the external layer of the skin continu-
+the nonspecific defense mechanisms work against ously sloughs off, thereby shedding microorganisms
+all foreign agents or types of injury; no recognition from the skin surface. Other chemical barriers in-
+of a specific agent or injury is necessary. Table 21.1 clude stomach secretions, saliva, sweat, and enzymes
+lists the many types of cells involved in the immune such as lysozyme. The acid and digestive enzymes
+response. secreted by the cells of the stomach kill most of the
+
+|                                            |     |                 |     | Immune System  | CHAPTER 21 | 385 |
+| ------------------------------------------ | --- | --------------- | --- | -------------- | ---------- | --- |
+| Table 21.1      Cells Involved in Immunity |     |                 |     |                |            |     |
+| CELL TYPE                                  |     | PRODUCTION SITE |     | FUNCTION       |            |     |
+GRANULAR LEUKOCYTES
+| Neutrophils |     | Bone marrow |     | Phagocytosis |     |     |
+| ----------- | --- | ----------- | --- | ------------ | --- | --- |
+Basophils Bone marrow Secrete histamine, leukotrienes, and heparin
+| Eosinophils |     | Bone marrow |     | Destroy parasites |     |     |
+| ----------- | --- | ----------- | --- | ----------------- | --- | --- |
+NONGRANULAR LEUKOCYTES
+Monocytes Bone marrow Phagocytosis; they enter tissues and are transformed
+into macrophages
+Lymphocytes
+	•		B	cells Bone marrow Antibody-mediated immunity; accounts for 20%–
+30% of blood lymphocytes
+| Plasma cells   |     |     |     | Secrete antibodies    |     |     |
+| -------------- | --- | --- | --- | --------------------- | --- | --- |
+| Memory B cells |     |     |     | Remember the antigens |     |     |
+	•		T	cells Bone marrow and lymphoid tissue Cell-mediated immunity; accounts for 70%–80% of
+blood lymphocytes
+| Cytotoxic T cells |     |     |     | Kill cells in cell-to-cell combat |     |     |
+| ----------------- | --- | --- | --- | --------------------------------- | --- | --- |
+Helper T cells Secrete cytokines, which activate T and B and other
+cells
+Suppressor T cells Inhibit B- and T-cell activity (help control immune
+response)
+Memory T cells Remember the antigens and respond quickly to a
+second encounter
+| 	•		Natural	killer	(NK)	cells |     | Lymphoid tissue |     | Kill cells |     |     |
+| ----------------------------- | --- | --------------- | --- | ---------- | --- | --- |
+OTHER CELLS
+Macrophages Almost all organs and tissues Phagocytosis; present antigens to lymphocytes
+Mast cells Almost all organs and tissues,  Release histamine and other chemicals involved in
+|                 |            | especially liver and lungs |     | inflammation |     |     |
+| --------------- | ---------- | -------------------------- | --- | ------------ | --- | --- |
+| microorganisms  | that  are  | swallowed.  Perspiration,  |     |              |     |     |
+ Re-Think
+tears, and saliva contain lysozyme, an enzyme that
+ 1. L ist the three mechanisms that make up the first line of
+discourages the growth of pathogens.
+defense.
+| Other  secretions  | make  | the  environment  | sticky  |     |     |     |
+| ------------------ | ----- | ----------------- | ------- | --- | --- | --- |
+ 2. D  escribe three ways in which the skin acts as a barrier to
+and so provide another type of barrier. The mucus  the entrance of pathogens.
+secreted by the mucous membranes of the respira-
+ 3. H  ow does mucus help the respiratory system to avoid
+tory tract traps inhaled foreign material. Then the  the inhalation of pathogens and other particulate matter?
+cilia, which line most of the respiratory structures,   4. W  hy do health care workers wear gloves while handling
+sweep the entrapped material toward the throat,      the body secretions of patients?
+
+so that the material can eventually be coughed up
+or swallowed. In addition to the mechanical and
+SECOND LINE OF DEFENSE
+chemical barriers, reflexes assist in the removal of
+pathogens. Sneezing and coughing help to remove  The second line of defense includes phagocytosis, in-
+pathogens from the respiratory tract, whereas vom- flammation, fever, protective proteins, and NK cells.
+iting and diarrhea help to remove pathogens from
+| the digestive tract. |     |     | Phagocytosis |     |     |     |
+| -------------------- | --- | --- | ------------ | --- | --- | --- |
+Mechanical barriers, chemical barriers, and reflex- The leukocytes ingest and digest pathogens and other
+es are not an adequate defense against all pathogens,  foreign substances by phagocytosis. Two important
+however. If a pathogen penetrates this first line of de- phagocytes are the neutrophils and monocytes. The
+fense, it encounters processes that make up the second  neutrophils are small and motile, and they travel to
+line of defense. the site of infection quickly. There they engage the
+
+386 CHAPTER 21 Immune System
+pathogen aggressively and most die in battle, becom- or pathogens, much like an ameba does. The phago-
+ing part of the cellular debris and pus. The neutro- cyte’s plasma membrane sends out pseudopods (“false
+phils are also active in the absence of infection; they feet”) that surround the pathogen. The surfaces of the
+constantly wander throughout the connective tissue, pseudopods then fuse, thereby enclosing the pathogen
+killing bacteria before they have a chance to grow and within the phagocyte. The trapped pathogen encoun-
+multiply. Adding to its phagocytic bag of tricks, the ters a lysosome; the lysosomal membrane fuses with
+neutrophil, when prompted to phagocytose, secretes the pathogen, releasing potent enzymes that destroy
+and surrounds itself within a cloud of bactericidal the pathogen. The process of phagocytosis can be sum-
+chemicals. The neutrophil thus feasts away in a phago- marized as “ingested (eaten) and digested.”
+cyte-friendly chemical killing zone.
+The second group of phagocytes consists of the
+agranulocytic monocytes. Some monocytes circulate
+within the blood; they are described as free and motile.
+Other monocytes leave the blood; they develop into
+macrophages and become fixed in lymphatic tissue
+throughout the body. Macrophages that become fixed
+in specific organs are stationary, or nonmotile. They can,
+however, divide and produce new macrophages in their Re-Think
+fixed sites. The macrophages that become fixed in an or-
+1. L ist two important phagocytes.
+gan often take on a variety of names. For instance, the
+2. D escribe how phagocytosis occurs.
+Kupffer cells in the liver are fixed to the walls of the large 3. W hat point is the bloodhound making about white blood
+capillaries called sinusoids. As blood flows through the cells (WBCs)?
+sinusoids, pathogens and other foreign substances are 4 . Define diapedesis and chemotaxis.
+removed from the blood and phagocytosed. The liver,
+spleen, lungs, and lymph nodes have a particularly rich
+supply of phagocytes. Some fixed macrophages in the Inflammation
+lungs are called “dust cells” because they phagocytose Inflammation refers to the body’s responses on being
+inhaled solid particles … better known as dust. Thus the confronted by an irritant. The irritant can be almost
+macrophages function as phagocytes, or “big eaters,” anything; common irritants include pathogens, fric-
+as their name implies. The macrophages play another tion, excessive heat or cold, radiation, injuries, and
+important defensive role. The macrophages help the chemicals. If the irritant is caused by a pathogen, the
+lymphocytes, as antigen-presenting cells, to mount an inflammation is called an infection.
+immune response (described later in the chapter). Inflammation is characterized by redness, heat,
+swelling, and pain (see Fig. 21.1). What are the causes
+Asking directions: How phagocytes “find” the site of of these symptoms? When the tissues are injured or
+infection. As they travel through the blood to the irritated, injured cells release histamine and other
+site of infection, the neutrophils and monocytes can chemicals. These chemicals cause the blood vessels
+squeeze through the tiny gaps between the endothelial in the injured tissue to dilate, and the dilated blood
+cells of the capillary walls and enter the tissue spaces at vessels bring more blood to the area. The increased
+the site of infection. The process of squeezing through blood flow, called hyperemia, causes redness and
+the tiny gaps is called diapedesis (dye-ah-peh-DEE-sis). heat. The histamine causes the blood vessel walls to
+How do the neutrophils and monocytes know where leak fluid and dissolved substances into the tissue
+to go? Chemicals released by injured cells attract them spaces, causing swelling. Fluid and irritating chemi-
+to the injured site. The signaling is called chemotaxis cals accumulating at the injured site also stimulate
+(kee-moh-TAK-sis). This process is like a bloodhound pain receptors; therefore the person experiences pain.
+tracking a scent; the hound picks up the signal (odor), Redness, heat, swelling, and pain are the classic signs
+which identifies its source. of inflammation.
+What does a phagocyte do? What exactly does the
+phagocyte do? A phagocyte engulfs, or eats, particles
+
+Immune System CHAPTER 21 387
+Do You Know... Evidence suggests that the reduction of fever pro-
+longs an infection. Note, however, that a very high
+How and Why the Body “Walls Off the Pus”?
+fever must be reduced because high body tempera-
+When an area becomes infected, the cells involved in the ture may cause severe and irreversible brain dam-
+inflammatory response do two things: First, they kill the age. High fever, especially in children, is frequently
+pathogens. As the war continues, dead cells (including
+accompanied by seizures. Seizures resulting from an
+phagocytes, injured cells, and pathogens) and secretions
+elevated body temperature are called febrile (fever)
+accumulate in the area as pus. Second, the cells build a wall
+seizures.
+of tissue around the infected debris. This walled-off area is
+an abscess. An abscess performs a beneficial role in that it
+Protective Proteins
+restricts the spread of the infection throughout the body. A
+large abscess may require a surgical procedure whereby the Two groups of protective proteins, the interferons
+ab scess is lanced and drained. and complement proteins, act nonspecifically to pro-
+tect the body (see Fig. 21.1). Interferons (in-ter-FEER-
+ons) are a group of proteins secreted by cells infected
+by a virus. The interferons diffuse to surrounding
+Re-Think
+cells, where they prevent viral replication, thereby
+1. D ifferentiate between infection and inflammation. protecting neighboring cells. Researchers first found
+2. L ist the four signs of inflammation and explain the interferons in cells infected by the influenza virus
+physiologic basis of each.
+and named them accordingly because they interfered
+3. W hat makes up pus?
+with viral replication. Interferons also activate NK
+4 . W hat is the purpose of abscess formation?
+cells and macrophages, thus boosting the immune
+system.
+Fever A second group of proteins that protect the body
+Fever, also known as pyrexia (pye-REK-see-ah), is an comprises the complement proteins. Complement pro-
+abnormal elevation in body temperature. As phago- teins circulate in the blood in their inactive form. When
+cytes perform their duty, they release fever-producing the complement proteins are activated against a bacte-
+substances called pyrogens (from the Latin word for rium, they swarm over it. The complement attaches to
+“fire”). The pyrogens stimulate the hypothalamus in the bacterium’s outer membrane and punches holes in
+the brain to reset the body’s temperature, producing it. The holes in the membrane allow fluid and electro-
+a fever. The elevation in temperature is thought to be lytes to flow into the bacterium, causing it to burst and
+beneficial in two ways: a fever stimulates phagocyto- die. The activated complement proteins also perform
+sis and decreases the ability of certain pathogens to other functions that enhance phagocytosis and the
+multiply. inflammatory response.
+V
+Interferons
+Complement
+Bacterium
+Natural Killer Cells
+NK cells are a small population of a special type of
+What happens physiologically when the hypo-
+lymphocyte that acts nonspecifically to kill a variety
+thalamus resets the body temperature? First, the
+of cells. NK cells are effective against many microbes
+person shivers to generate heat; the heat is con-
+and certain cancer cells. NK cells cooperate with the
+served as the blood vessels of the skin constrict. The
+specific defense mechanisms to mount the most effec-
+person may have chills and feel cold and clammy,
+tive defense possible.
+even though the body temperature is rising. The ele-
+vated temperature hovers around the new set point
+Re-Think
+while the pathogen is active, but when the infection
+is contained and the secretion of pyrogens dimin- 1. E xplain how a pathogen causes a fever.
+ishes, the hypothalamus resets its thermostat back 2. W hat is a febrile seizure?
+to normal. Heat-losing mechanisms are activated; 3. E xplain how the interferons and complement proteins
+participate in the destruction of pathogens and fight
+the blood vessels of the skin dilate, and the person
+infection.
+sweats.
+
+388 CHAPTER 21 Immune System
+Sum It Up!
+Fig. 21.2 summarizes the functions of the nonspecific defense Behind the wall of the fortress is the second line of defense:
+mechanisms in defense against pathogens, pollens, and can- phagocytosis, inflammation, fever, protective proteins, and NK
+cer. The wall of the fortress is the first line of defense; it includes cells. The third line of defense includes lymphocytes that are
+mechanical barriers, chemical barriers, and reflexes. c o ncerned with specific immunity, the topic of the next section.
+THIRD LINE T cells B cells (B lymphocytes)
+OF DEFENSE (T lymphocytes)
+Antibodies
+SECOND LINE
+OF DEFENSE Natural Killer cells
+Protective Inflammation
+Proteins and Fever
+Phagocytes
+FIRST
+LINE OF
+DEFENSE
+Chemical Reflexes
+barriers
+Mechanical barriers
+Parasite
+Fungus
+Bacterium
+INVADING
+ENEMIES Cancer Virus
+Go Figure (Refer to Fig. 21.2) agent. Specific immunity homes in on a foreign sub-
+stance, such as the measles virus or ragweed pollen,
+1. W hich of the following refers to specific immunity?
+and provides protection against one specific sub-
+__________________ (mechanical barriers, complement/
+stance but not others.
+interferons, fever, B and T lymphocytes)
+II. Memory. Memory refers to the ability to respond
+2. T /F __ The immune system is effective only against
+pathogens. faster and more robustly to reexposure to the same
+pathogen or foreign agent.
+The cells that play key roles in specific immunity
+are the lymphocytes (B lymphocytes and T lympho-
+SPECIFIC IMMUNITY: THIRD LINE OF DEFENSE
+cytes) and the macrophages. Understanding the func-
+Specific immunity is also called adaptive immunity be- tion of lymphocytes requires an understanding of
+cause the immune cells can respond or adapt to newly antigens.
+encountered pathogens or foreign agents. Two charac-
+ANTIGENS
+teristics distinguish specific immunity from nonspe-
+cific immunity: specificity and memory. An antigen is a substance that stimulates the formation
+I. Specificity. As stated earlier, with nonspecific immu- of antibodies. In fact, the word antigen is made up of
+nity, the body need not recognize the specific foreign words that refer to antibody generating. Antigens are
+CIFICEPS
+CIFICEPSNON
+YTINUMMI
+YTINUMMI
+Fig. 21.2 The Immune System Wages Its Battle with Three Lines of Defense. (Read from bottom to top.)
+
+Immune System CHAPTER 21 389
+generally large molecules; most are proteins, but a few immunity (AMI). Because the antibodies are carried
+are polysaccharides and lipids. Antigens are found on by the blood and other tissue fluids (the body’s “hu-
+the surface of many substances, such as pathogens, mors”), this type of immunity is also called humoral
+red blood cells, pollens, foods, toxins, and cancer cells. immunity.
+Foreign substances that display antigens are described
+as antigenic. Antigenic substances are attacked by T-Cell Activation and Cell-Mediated Immunity
+macrophages and lymphocytes. T cells are effective against many pathogens, tumor
+cells, and foreign tissues such as organ transplants.
+SELF AND NONSELF: IS THAT ME?
+Refer to Fig. 21.3 as you read about the following steps
+Before birth, your lymphocytes somehow get to know in CMI:
+who belongs and who does not. In effect, your lym- • Step 1. T cells originate in the red bone marrow and
+phocytes learn to recognize “you” (self) and take steps migrate to the thymus gland, where they mature;
+to eliminate “not you” (nonself, or foreign agent). Your they then seed other lymphatic tissue, where they
+body perceives your own cells and secretions as non- eventually encounter an antigen.
+antigenic and other cells as antigenic. The antigenic • Step 2—antigen presentation. The antigen, on the
+cells are subsequently eliminated. Recognition of self surface of the pathogen, is phagocytosed by a mac-
+is called immunotolerance. Sometimes a person’s im- rophage. The macrophage digests the pathogen and
+mune system fails to identify self and mounts an im- pushes the antigen to its surface. The macrophage’s
+mune attack against its own cells. This attack is the ability to push the antigen to its surface is called
+basis of autoimmune diseases, such as rheumatoid antigen presentation.
+arthritis. • Step 3—T-cell activation. The antigen binds to the
+receptor sites on both the helper T cells and the un-
+Re-Think activated cytotoxic T cell. The helper T cell then se-
+cretes cytokines, chemicals that activate cytotoxic T
+1. W hy is specific immunity referred to as adaptive
+cells. Activated cytotoxic T cells bind to pathogens
+immunity?
+and destroy them.
+2. W hat is the origin of the word antigen?
+• Step 4—production of a clone. The activated T cells
+3 . Define immunotolerance.
+divide repeatedly, creating clones of cytotoxic T cells
+and memory T cells. (A clone is a group of identical
+LYMPHOCYTES
+cells formed from the same parent cell.)
+The two types of lymphocytes are T lymphocytes The cytotoxic T cells are killer cells, engaging in
+(T cells) and B lymphocytes (B cells). Although both cell-to-cell combat. They destroy the pathogen by two
+come from the stem cells in the bone marrow, they dif- mechanisms: punching holes in the pathogen’s cell
+fer in their development and functions (see Table 21.1). membrane and secreting substances called cytokines,
+which enhance phagocytic activity. The memory T cells
+Why the Names “T” and “B” Cells? do not participate in the destruction of the pathogen
+During fetal development, stem cells in bone marrow (antigen). These cells “remember” the initial encounter
+produce lymphocytes. The blood carries lymphocytes with the antigen. If the antigen is presented at some
+throughout the body. About half of the lymphocytes future time, the memory cells quickly reproduce and
+travel to the thymus gland, where they mature and dif- thus allow a faster immune response to occur.
+ferentiate into T cells (the “T” is for thymus-derived We have described the function of three T cells (cy-
+lymphocytes). Eventually, the blood carries T cells totoxic T cells, helper T cells, and memory T cells).
+away from the thymus gland to various lymphatic tis- A fourth T cell, called a suppressor T cell, inhibits or
+sues, particularly the lymph nodes, liver, and spleen. T dampens the immune response when the antigen has
+cells live, work, and reproduce in the lymphatic tissue been destroyed. (The origin and development of the
+and also circulate in the blood, making up 70% to 80% helper T cell and suppressor T cell are not shown in
+of the blood’s lymphocytes. Fig. 21.3.)
+What about the B lymphocytes? B cells differentiate
+in the fetal liver and bone marrow (the “B” is for bone). B-Cell Activation and Antibody-Mediated Immunity
+As the T cells do, the B cells take up residence in lym- B cells engage in AMI. Activated B cells produce
+phatic tissue, chiefly the lymph nodes. B cells make up antibody-secreting plasma cells. The antibodies are
+20% to 30% of the circulating lymphocytes. carried by the blood and body fluids to the antigen-
+Both T and B cells attack antigens, but they do so in bearing pathogens (antigens) that usually reside in
+different ways. T cells attack antigens directly, through the plasma or other extracellular fluid. B cells can
+cell-to-cell contact. This immune response is called produce over 10 million different antibodies; each
+cell-mediated immunity (CMI). B cells, on the other B cell interacts with a specific antigen and produces
+hand, interact with the antigen indirectly, by secreting its own antibody. The large numbers of antibodies
+antibodies. This response is called antibody-mediated allow the body to develop immunity against many
+
+390 CHAPTER 21 Immune System
+T-Cell Activation
+Step 3
+T-cell activation
+(Binding of antigens
+to helper T cell and
+cytotoxic T cell)
+Fig. 21.3 Cell-Mediated Immunity. Steps in cytotoxic T-cell activation and production of a clone of cytotoxic T cells
+and memory T cells.
+Go Figure (Refer to Fig. 21.3) • Step 3—B-cell and helper T-cell activation. The pre-
+sented antigens bind to the B and helper T cells.
+1. W hich of the following engages in antigen presentation?
+Cytokines from the activated helper T cells partici-
+__________________ (helper T cell, memory T cell,
+pate in B-cell activation.
+macrophage, unactivated T lymphocyte)
+• Step 4—production of a clone. The B cells repro-
+2. T /F __ Helper T cells, through the secretion of cytokines,
+are necessary to activate the T cell. duce, creating clones of plasma cells and memory
+B cells. Plasma cells secrete large quantities of anti-
+different diseases. Follow Fig. 21.4 as you read about bodies that travel through the blood to the foreign
+the following steps in AMI: antigens (pathogens). The memory B cells do not
+• Step 1. The B cell originates and matures in the red participate in the attack; they remember the specific
+bone marrow; it then seeds other lymphatic tissue antigen during future encounters and allow a quick-
+where it eventually encounters an antigen. er response to the invading pathogen (antigen).
+• Step 2—antigen presentation. A macrophage engulfs Note that B- and T-cell activation depends on helper
+and processes an antigen. The antigen is pushed to T-cell activity. HIV attacks the helper T cells, thereby
+the surface of the macrophage. producing severe impairment of both B- and T-cell
+
+Immune System CHAPTER 21 391
+B-Cell Activation
+Step 1 Origin, maturation, seeding
+SStteepp 2 Antigen presentation
+Unactivated B cell
+Macrophage
+Pathogen B cell
+Step 3
+B- and helper
+(cytokines)
+T-cell activation
+(Binding of Helper
+antigens) T cell
+B cell
+Activated B cell
+Step 4 Clone
+Plasma
+cells Memory
+(many) B cells
+Fig. 21.4 Antibody-mediated Immunity. Steps in B-cell activation and production of a clone of antibody-secreting
+plasma cells and memory B cells.
+Go Figure (Refer to Fig. 21.4) Another name for the helper T cell. The helper
+T cell is also called the CD4+ T cell (because of a
+1. B -cell activation produces ________________ and
+surface protein called CD4). The CD4+ T cell is a
+__________________. (helper T cells, macrophages,
+marker for immune function, and the progression
+plasma cells, memory B cells)
+of HIV infection is monitored by the CD4+ T-cell
+2. W hich of the following produce antibodies?
+_________________ (plasma cells, memory B cells, count. The CD4+ T-cell count decreases as the infec-
+macrophages, helper T cells) tion progresses.
+3. T /F __ Helper T cells are necessary for the activation of
+both B and T lymphocytes. Re-Think
+1. L ist two lymphocytes that engage in specific immunity.
+function. HIV infection may progress to acquired im-
+2. D escribe the activation of the cytotoxic T cell.
+munodeficiency syndrome (AIDS). Because of the wide-
+3. D escribe the activation of the B cell.
+spread impairment of their immune systems, persons 4. E xplain why helper T cells are crucial for both T-cell and
+with HIV infection and AIDS experience numerous B-cell function.
+and serious bouts of infection.
+
+392 CHAPTER 21 Immune System
+ANTIBODIES
+Primary response Secondary response
+What Antibodies Are
+The antibodies secreted by the B cells are proteins called Second
+exposure
+immunoglobulins and constitute the gamma globulin
+fraction of plasma proteins. There are five major types
+First
+of immunoglobulins:
+exposure
+• Immunoglobulin G (IgG) is an antibody found in
+plasma and tissue fluids. It is particularly effective
+against certain bacteria, viruses, and toxins.
+• Immunoglobulin A (IgA) is an antibody found pri-
+marily in the secretions of exocrine glands. IgA in 0 30 60 90 120 150 180
+milk, tears, and gastric juice helps protect against Time (days)
+infection. Breast milk contains IgA antibodies and
+helps the infant to ward off infection.
+• Immunoglobulin M (IgM) is an antibody found
+in blood plasma. The anti-A and anti-B antibodies
+associated with red blood cells are a type of IgM
+antibody.
+• Immunoglobulin D (IgD) is an antibody found on
+the surface of B cells and participates in the activa-
+tion of B cells.
+• Immunoglobulin E (IgE) is an antibody that ap-
+is due to the initial exposure to the antigen; it de-
+pears in the exocrine secretions such as breast milk,
+velops slowly and produces a small number of anti-
+tears, gastrointestinal secretions, and urine. The IgE
+bodies. Note what happens to antibody production
+antibody participates in allergic reactions and is de-
+with a second exposure to the antigen. The immune
+scribed further later in the chapter.
+system responds quickly and produces many anti-
+bodies. This second challenge is called the secondary
+What Antibodies Do
+response.
+Antibodies destroy antigens. They accomplish this
+Why is the secondary response so much greater?
+task directly by attacking the antigen and indirectly by
+The initial exposure to the antigen has stimulated
+activating complement proteins that in turn facilitate
+the formation of antibody-secreting plasma cells and
+the attack on the antigens.
+memory cells. The memory cells, which live for a long
+When antibodies react with antigens directly, the
+time in the plasma, are activated very quickly on the
+antibodies bind to antigens in a process called an an-
+second exposure. The activated memory cells, in turn,
+tigen–antibody reaction. By engaging in an antigen–
+induce the formation of many antibody-secreting
+antibody reaction, the antigen–antibody c omponents
+plasma cells.
+clump together, or agglutinate (ah-GLOO-tin-ate).
+What does the secondary response mean for you?
+Agglutination makes it easier for the phagocytic cells
+It means that you won’t get the disease a second time;
+to destroy the antigen. Under normal conditions, di-
+you are immune to that disease. For example, if you had
+rect attack by the antibodies is not very helpful in pro-
+measles as a child, you developed measles antibodies
+tecting the body against invasion by pathogens.
+and many memory cells. If you are then exposed to the
+A more effective way for antibodies to attack an
+measles virus later in life, the memory cells “remem-
+antigen is through activation of the complement pro-
+ber” the first exposure and produce antibody-secreting
+teins, which cause a variety of effects: they stimu-
+plasma cells very quickly. The measles antibodies, in
+late chemotaxis (attract more phagocytes), promote
+turn, attack the measles virus and prevent you from
+agglutination, make pathogens more susceptible to
+becoming ill.
+phagocytosis, and encourage lysis, or rupture of the
+The level of antibodies in your blood is called an an-
+pathogen’s cell membrane. Direct and indirect attacks
+tibody titer. If you have had measles, for example, your
+by antibodies provide an effective defense against for-
+measles antibody titer is higher than the titer of some-
+eign agents.
+one who has never had measles.
+Remember Me? Primary and Secondary
+Re-Think
+Responses
+When they are exposed to an antigen, B cells are acti- 1. Define agglutination and explain how it facilitates
+vated and produce many antibody-secreting plasma phagocytosis and cell death.
+cells and memory cells. Note the primary and sec- 2. L ist two differences between the primary and secondary
+responses.
+ondary responses in Fig. 21.5. The primary response
+mures
+ni
+noitartnecnoc
+ydobitnA
+Fig. 21.5 Primary and Secondary Responses to an Antigen.
+Go Figure (Refer to Fig. 21.5)
+1. T he secondary response is due to
+_____________________. (antibody titer, complement,
+interferons, T-cell activation)
+
+Immune System CHAPTER 21 393
+Sum It Up! Go Figure (Refer to Fig. 21.6)
+Specific immunity or adaptive immunity forms the third line 1. W hich of the following is descriptive of immunity induced
+of defense of the immune response. It allows the immune by a vaccine? _____________ (active, gamma globulin,
+system to recognize and destroy specific substances called naturally acquired, genetic)
+antigens. The B and T lymphocytes and the macrophages 2. L ucy was diagnosed with measles. Which of the following
+are the most important cells associated with specific immuni- characterizes the type of immunity she will develop?
+ty. T cells engage in cell-to-cell combat (CMI—cell-m ediated __________________ (inborn immunity, artificially acquired
+immunity), whereas B cells fight indirectly through the medi- active immunity, artificially acquired passive immunity,
+ation of antibodies (AMI—antibody-mediated immunity). naturally acquired active immunity)
+Macrophages engage in both phagocytosis and antigen
+presentation, a process necessary for B and T cell activa-
+tion. Antibodies are called immunoglobulins (IgG, IgA, IgM, ACQUIRED IMMUNITY
+IgD, and IgE); they engage antigens causing agglutination.
+Agglutination, in turn, facilitates phagocytosis and results in Unlike genetic immunity, acquired immunity is re-
+the death of the pathogen. The primary and secondary re- ceived during a person’s lifetime. Acquired immunity
+sponses refer to the secretion of antibodies by plasma cells is achieved either naturally or artificially.
+an d memory cells in response to antigen stimulation.
+NATURALLY ACQUIRED IMMUNITY
+You can acquire immunity naturally in two ways. The
+TYPES OF IMMUNITY
+first is by getting the disease. As a child, you probably
+The two main categories of immunity are genetic im- had one of the childhood diseases, such as chicken-
+munity and acquired immunity (Fig. 21.6). pox. Your body responded to the specific pathogen by
+developing antibodies. After that first exposure, you
+GENETIC IMMUNITY never became ill with chickenpox again because your
+immune system had a ready supply of antibodies and
+Do you ever wonder why you have never gotten heart-
+memory cells with which to respond quickly to the
+worms from your dog or why your dog did not pick
+second invasion of the chickenpox virus. Because your
+up chickenpox from you? As a human, you have in-
+own body produced the antibodies, this type of natu-
+herited immunity to certain diseases such as canine
+rally acquired immunity is called active immunity. Active
+heartworm; you are immunologically protected from
+immunity is generally long lasting.
+your pet. Similarly, your dog will never contract chick-
+The second way to acquire immunity naturally is by
+enpox; Rover is immunologically protected from you.
+receiving antibodies from your mother. Some antibod-
+Another comforting thought is that neither you nor
+ies (IgG) crossed the placenta from your mother into
+your dog is in danger of contracting Dutch elm disease
+you as a fetus. Your mother developed these antibod-
+from your tree. Each of you was born with genetic in-
+ies in response to the pathogens that she encountered
+formation that provides immunity to certain diseases.
+throughout her lifetime. Because your immune system
+Genetic immunity is also called inborn, innate, or species
+did not produce these antibodies (you received them
+immunity. As you can see, your species protects you
+as a gift from your mother), this type of immunity is
+from many diseases that afflict other species.
+called passive immunity. Antibodies can also be trans-
+ferred passively from mother to infant through breast
+Immunity
+milk. Breast milk contains IgA antibodies.
+Unlike active immunity, which often lasts a lifetime,
+passive immunity is short lived. The antibodies that are
+Genetic
+Acquired acquired passively are broken down and eliminated from
+or inborn
+the baby’s body. The mother’s antibodies afford protec-
+tion to the infant for about 6 months after birth. Breast-
+Naturally Artificially
+feeding may extend the length of immunoprotection.
+acquired acquired
+ARTIFICIALLY ACQUIRED IMMUNITY
+You can also acquire immunity artificially in two ways.
+The first is by a vaccine; the second is by injection of im-
+mune globulin. Both provide artificially acquired immunity.
+Active Active
+(getting the disease) vaccine A vaccine is an antigen-bearing substance, such as a
+pathogen, injected into a person in an attempt to stim-
+Passive ulate antibody production. For example, the m easles
+Passive
+(from mom) Immune virus is first killed or weakened or attenuated (ay-TEN-
+Globulin
+yoo-ayt-ed). The attenuated virus cannot cause the
+Fig. 21.6 Types of Immunity. disease (measles) when injected into the person, but it
+
+394 CHAPTER 21 Immune System
+can still act as an antigen and stimulate the person’s im- Why might you receive an injection of immune
+mune system to produce antibodies. The use of a dead globulin? Assume for the moment that you are not
+or attenuated pathogen to stimulate antibody produc- immune to hepatitis B and so do not have antibod-
+tion is called vaccination, or immunization. The solution ies against the hepatitis B virus. You are then ex-
+of dead or attenuated pathogens is the vaccine. Because posed to the virus. Because you have no immunity
+the use of a vaccine stimulates the body to produce its to the virus, you may receive immune globulin (an-
+own antibodies, vaccines induce active immunity. tibodies) to provide immediate protection against
+A vaccine can also be made from the toxin secret- the virus. Because this is a form of passive immu-
+ed by the pathogen. The toxin is altered to reduce its nity, the immunity is short lived. Immune globulins
+harmfulness, but it can still act as an antigen to induce are available for rubella (German measles), hepatitis
+immunity. The altered toxin is called a toxoid. Because A and B, rabies, and tetanus. A comparison of the
+a toxoid stimulates the production of antibodies, it different types of acquired immunity appears in
+causes active immunity. Table 21.2.
+The purpose of vaccination is to provide an initial Other forms of passive immunity are commonly
+exposure and stimulate the formation of memory cells used to prevent a disease or the development of severe
+(the primary response). The purpose of a booster shot symptoms of the disease. Antitoxins contain antibodies
+is to stimulate the secondary response by administer- that neutralize the toxins secreted by the pathogens but
+ing another dose of the vaccine (antigen). have no effect on the pathogens themselves. Examples
+Vaccines have almost eradicated certain diseases. of antitoxins include tetanus antitoxin (TAT) and the
+For example, infants routinely receive a series of DTP antitoxins for diphtheria and botulism. Antivenoms
+injections. DTP injections stimulate active immunity for contain antibodies that combat the effects of the poi-
+diphtheria (diphtheria toxoid), tetanus (tetanus toxoid), sonous venom of snakes.
+and pertussis, or whooping cough (pertussis vaccine).
+The MMR vaccine (measles-rubeola, mumps, and ru- Do You Know...
+bella) is also used preventively during early childhood.
+Why the Ancient “Charmers” Drank Snake Venom?
+Most recently several corona virus vaccines have been
+developed in hopes of stemming the COVID pandemic. Long ago, Indian snake charmers squeezed the venom from
+Immune globulin differs from a vaccine. Immune their cobras and drank it. Why? They realized that by drinking
+the venom, they developed resistance to the bite of the fam-
+globulin is obtained from a donor (human or animal)
+ily pet. This observation eventually evolved into our modern-
+and contains antibodies (immune globulins). The anti-
+d ay immunology.
+bodies are formed in the donor in response to a specific
+antigen. These preformed antibodies are taken from
+the donor and injected into a recipient, thereby con-
+Re-Think
+veying passive immunity.
+1. D ifferentiate between active and passive immunity. Give
+Do You Know... an example of each.
+2. D ifferentiate between naturally and artificially acquired
+Why Joey Is Mooing?
+immunity. Give an example of each.
+Here’s the story. Vaccination against smallpox was originally
+3. W hat is a vaccine? Why is it necessary to attenuate the
+accomplished by injecting the cowpox virus, a cousin to the
+pathogen used in a vaccine?
+smallpox virus. Although Edward Jenner (circa 1850) had dem-
+onstrated some success with vaccination, many doctors op-
+posed the procedure. His fellow doctors therefore spread a THE WHAT-IFS OF ALTERED IMMUNE RESPONSES
+nasty rumor designed to scare the peasant population. The
+rumor claimed that the injection of the cowpox virus makes the Normally the immune system protects the body from
+child take on the characteristics of a cow… Moooooo! Pictures nonself; foreign agents are recognized and eliminat-
+were widely distributed of Joey mooing, swatting flies with his ed. Sometimes, however, the immune system goes
+tail, and clanging a cowbell hung around his neck. awry: it attacks the self, causing autoimmune dis-
+Fortunately the peasants weren’t duped, because they knew ease, it overreacts, causing allergies, or it fails to act
+that milkmaids rarely came down with smallpox. Most attributed
+(immunodeficiency).
+the milkmaids’ immunity to the cowpox lesions that developed
+• What If a person’s immune system produces anti-
+when they milked the cows infected with the cowpox virus.
+bodies against its own cells? This the basis of auto-
+(Holy cow—this sounds like bull!) Just remember, the Latin
+immune disease. There are numerous autoimmune
+word for cow is vacca, the root word for vaccination.
+Yet another cow-related immunologic term: herd
+diseases—rheumatoid arthritis, diabetes mellitus
+immunity. Herd or population immunity occurs when a large (type 1), rheumatic fever, lupus, and thyroiditis—to
+percentage of the population has become immune to an name a few.
+infection. The immune part of the population does not get • What If the immune system forms antibodies to
+the infection and therefore provides indirect protection for the substances not usually recognized as foreign? This
+p art of the population that is not immune. response forms the basis of allergic reactions. The
+
+Immune System CHAPTER 21 395
+Table 21.2 Types of Acquired Immunity
+TYPE STIMULUS RESULT
+NATURALLY ACQUIRED
+Active immunity Exposed to live pathogens (e.g., get the disease) Long-term immunity; makes antibodies
+Passive immunity Antibodies are passed from mother to infant Short-term immunity (lasts approximately for the
+(across placenta and/or by breast-feeding) first 6 months and for duration of breast-feeding);
+does not stimulate the production of antibodies
+ARTIFICIALLY ACQUIRED
+Active immunity Vaccination Long-term immunity; makes antibodies
+Passive immunity Injection with gamma globulin (antibodies) Short-term immunity; does not stimulate the
+production of antibodies
+two common allergic reactions are the delayed-reac- 1 Activation of B cells by
+tion allergy and the immediate-reaction allergy. the allergen (antigen)
+The delayed-reaction allergy is so named because it usu-
+B cell
+ally takes about 48 hours to occur; its onset is delayed.
+This type of allergic response can occur in anyone. It
+usually results from the repeated exposure of the skin to
+chemicals such as household detergents. Repeated ex- 2 Production of clone
+posure to the chemical activates T cells, which eventual- with antibody-secreting
+plasma cell and Plasma
+ly accumulate in the skin. Local tissue response to T-cell memory cells cells Memory
+activity causes skin eruptions and other signs of inflam- (many) B cells
+mation. This skin response is called contact dermatitis.
+Other forms of contact dermatitis are associated with
+poison ivy, poison oak, certain cosmetics, and soaps. 3 Secretion of IgE antibodies
+The immediate-reaction allergy, as its name implies,
+occurs rapidly in response to its stimulus. It is more 4 IgE antibodies bind to
+mast cells
+commonly called immediate hypersensitivity reaction
+and involves immunoglobulin E, the IgE antibod-
+ies. Allergens are antigens capable of inducing al-
+lergy. Allergens that are apt to be involved in this
+acute type of allergic response include insect venom,
+drugs such as penicillin, and foods such as peanuts.
+5 Binding of allergen to the
+The following steps are involved in the development IgE antibodies on mast
+of an immediate hypersensitivity reaction (Fig. 21.7): cells with the release
+of histamine
+• Step 1. An allergen (red dot) activates a B cell.
+• Step 2. The activated B cell forms a clone of anti-
+body-secreting plasma cells and memory B cells.
+• Step 3. The plasma cells secrete large amounts of IgE
+Bronchoconstriction
+antibodies against the specific allergen.
+• Step 4. The IgE antibodies bind to the mast cells in
+body tissues.
+• Step 5. More of the allergen invades the body. The
+allergen binds with the IgE antibodies on the mast
+cells. The mast cells release large amounts of hista-
+mine, leukotrienes, and other chemicals that cause Vasodilation
+systemic effects, especially issues regarding blood
+pressure and impaired breathing. Fig. 21.7 Immediate Hypersensitivity Reaction.
+Go Figure (Refer to Fig. 21.7)
+1. I gE antibodies bind to ___________________. (lungs/
+arterioles, plasma cells, memory B cells, mast cells)
+2. H istamine is released from the ____________________.
+(plasma cells, activated B lymphocytes, mast cells,
+memory B cells)
+
+396 CHAPTER 21 Immune System
+The systemic effects can be severe; they include a Sum It Up!
+massive vasodilation, which causes a sharp drop in
+Immunity is classified as genetic or acquired. Immunity may
+blood pressure and severe constriction of the respira-
+be acquired naturally or artificially. Immunity is also classified
+tory passages (bronchoconstriction), making breathing
+as active or passive. If a person makes antibodies in his or
+extremely difficult and, in some cases, impossible. This
+her own body, the immunity is active. If the person merely
+severe form of the immediate hypersensitivity reaction receives antibodies that were made by another person or
+is called anaphylaxis or anaphylactic shock. Persons aller- animal, the immunity is passive. Active immunity is gener-
+gic to penicillin are at particular risk for anaphylaxis. As ally long lasting, whereas passive immunity is short lasting.
+a result, always ask a person about allergies to medi- Although the immune system normally works to protect the
+cations before administering any type of drug, particu- body, it can go awry, causing allergic reactions and autoim-
+larly antibiotics. (Some persons are even allergic to as- mune disease. Anaphylaxis is a serious IgE hypersensitivity
+re action that is life threatening.
+pirin.) The immediate administration of a drug such as
+epinephrine (adrenalin) is particularly effective because
+it “opens up” breathing passages and elevates blood
+pressure. Most persons who are prone to anaphylactic As You Age
+responses carry a source of injectable epinephrine.
+1. T -cell and B-cell function is somewhat deficient in older
+What If the immune system cannot mount a defense,
+adults. Depressed lymphocyte function is accompanied
+as in immunodeficiency disorders? Immunodeficiency by a decrease in macrophage activity. Consequently
+disorders are classified as primary or secondary. Primary older adults are more prone to develop infections,
+immunodeficiency disorders are rare, an example being and they recover more slowly. Depressed lymphocyte
+severe combined immunodeficiency disease (SCID). function might also explain the higher incidence of
+Secondary immunodeficiency disorders are common, cancer in older adults.
+the most common cause being a drug-induced immune 2. O lder adults often have a reduced fever response to
+infection and may therefore have difficulty in combating
+deficiency such as the granulocytopenia resulting from
+infection.
+cancer chemotherapy. Other causes include radiation
+3. O lder adults have increased levels of circulating
+therapy, steroid therapy, stress, malignancies, aging,
+autoantibodies (antibodies directed against self). This
+and many diseases, especially infection with the human
+increase explains, in part, why they are more prone to
+immunodeficiency virus (HIV).
+the development of autoimmune disease.
+4. O lder adults often take drugs or undergo treatment that
+Re-Think depresses the immune system. For example, the use
+of steroids in the treatment of arthritis and the use of
+1. W hat is the stimulus for the secretion of IgE antibodies?
+drugs and radiation in the treatment of cancer all cause
+2. W hat is the stimulus for the release of histamine and
+immunosuppression.
+leukotrienes?
+3. W hat are the effects of histamine on blood pressure and
+breathing?
+4 . E xplain how epinephrine relieves anaphylaxis.
+Move It
+…
+1. E xercise stimulates the immune system; it improves
+Do You Know... immunosurveillance and enhances the immune
+response to the challenges to infection. The effects of
+About Rejection? It Can Go Either Way!
+exercise are significant and are referred to as “exercise
+When dealing with transplant patients, we watch closely immunology.”
+for signs of organ rejection by the host (recipient). The re- 2. E xercise diminishes chronic inflammation, which is a
+cipient’s immune system recognizes the donated organ factor in multiple chronic diseases such as diabetes
+such as a kidney as foreign and mounts an immune attack mellitus (type II) and coronary artery disease.
+against it. When the immune attack is successful, the organ 3. E xercise increases antibodies and WBCs and causes
+is destroyed and is said to be rejected. Following organ the release of T lymphocytes from the bone and spleen,
+transplant, the recipient usually receives drugs that sup- thereby enabling the HIV-infected person to fight
+press the immune system thereby preserving the donated infection.
+organ. However, some patients experience the opposite 4. E xercise enhances the effectiveness of alveolar
+effect—the transplanted organ (or blood) rejects the host. macrophages, thereby decreasing the incidence of
+This response is called graft-versus-host disease (GVHD); respiratory infections.
+GVHD usually occurs in immunodeficient patients and is 5. E xercise increases the production of natural killer cells
+caused in part by transplanted T cells. The target organs and enhances immunosurveillance; these effects are
+for rejection are the skin, digestive tract, and liver. The big- thought to enhance the detection and destruction of
+gest clinical problem is a variety of infections that gradually cancer cells.
+overwhelm the granulocytopenic patient. So the transplant 6. E xercise lowers the levels of stress hormones, which
+recipient faces two huge clinical challenges: the patient’s suppress immune function.
+body can reject the donated organ, or the donated organ
+ca n reject the patient’s body.
+
+|     |     |     | Immune System  | CHAPTER 21 | 397 |
+| --- | --- | --- | -------------- | ---------- | --- |
+      Medical Terminology and Disorders  Disorders of the Immune System
+WORD PART
+MEANING OR
+| MEDICAL TERM | WORD PARTS | DERIVATION | DESCRIPTION |     |     |
+| ------------ | ---------- | ---------- | ----------- | --- | --- |
+Words
+anaphylaxis ana- up Anaphylaxis is a life-threatening hypersensitivity
+reaction mediated by IgE antibodies.
+|     | -phylaxis | From a word meaning “guarding” |     |     |     |
+| --- | --------- | ------------------------------ | --- | --- | --- |
+immune immune/o- From a word meaning “exempt  To be immune is to be exempt or protected from a
+|     |     | from” | particular disease. |     |     |
+| --- | --- | ----- | ------------------- | --- | --- |
+lymphocyte lymph/o- lymph A lymphocyte is a nongranular white blood
+cell. There are T lymphocytes (T cells) and B
+|     | -cyte | cell |     |     |     |
+| --- | ----- | ---- | --- | --- | --- |
+lymphocytes (B cells).
+macrophage macro- large A macrophage (fixed or wandering) is a type of
+white blood cell that digests foreign materials,
+|     | -phage | eat |     |     |     |
+| --- | ------ | --- | --- | --- | --- |
+including pathogens.
+wheal-and-flare  A wheal-and-flare reaction is a skin reaction to
+| reaction |     |     | an allergen or antigen. The response is a circular  |     |     |
+| -------- | --- | --- | --------------------------------------------------- | --- | --- |
+(wheal) blanched area surrounded by an area of
+redness.
+Disorders
+hypersensitivity  A hypersensitivity reaction is the immune system’s
+| reactions |     |     | response to a foreign substance, or what is  |     |     |
+| --------- | --- | --- | -------------------------------------------- | --- | --- |
+perceived as “foreign” in the case of autoimmune
+disease. Hypersensitivity reactions include
+allergies and autoimmune diseases.
+| allergies |     |     | An allergy occurs when the immune system reacts  |     |     |
+| --------- | --- | --- | ------------------------------------------------ | --- | --- |
+to a foreign substance. Allergies are described in
+many ways: atopic, bacterial, contact, cold, drug,
+immediate, delayed, etc. Anaphylaxis is a severe
+and life-threatening hypersensitivity reaction
+mediated by IgE antibodies.
+autoimmune  auto- self Autoimmune system disorders occur when a
+| diseases |           |          | person’s immune system produces antibodies  |     |     |
+| -------- | --------- | -------- | ------------------------------------------- | --- | --- |
+|          | -immun/o- | immunity |                                             |     |     |
+against its own cells; the immune system no
+longer recognizes self from nonself.
+immunodeficiency  immun/o- Disorders caused by an impaired immune
+| disorders | -deficiency |     | response. Immunodeficiency disorders  |     |     |
+| --------- | ----------- | --- | ------------------------------------- | --- | --- |
+are classified as primary or secondary.
+Primary immunodeficiency disorders are
+rare, an example being severe combined
+immunodeficiency disease (SCID). Secondary
+immunodeficiency disorders are common,
+the most common cause being a drug-induced
+immune deficiency such as the granulocytopenia
+resulting from cancer chemotherapy.
+scleroderma scler/o- hard A chronic autoimmune disease characterized by
+a hardening of the skin or other organs. The
+|     | -derm/o | skin |     |     |     |
+| --- | ------- | ---- | --- | --- | --- |
+systemic form of the disease may be fatal because
+of heart, kidney, lung, and intestinal involvement.
+systemic lupus  From the Latin word meaning  SLE is a chronic autoimmune disorder. Symptoms
+erythematosus  “wolf” (lupus) are due to inflammation and are highly variable,
+| (SLE) |     |     | but all persons experience joint pain (especially in  |     |     |
+| ----- | --- | --- | ----------------------------------------------------- | --- | --- |
+the fingers, hands, wrist, and knees). A “butterfly”
+rash over the bridge of the nose and patchy skin
+color are characteristic of SLE.
+
+398 CHAPTER 21 Immune System
+Get Ready for Exams!
+Summary Outline IV. The What-Ifs of Immune Responses
+A. Allergic reactions
+The immune system is a defense system that protects the
+1. Allergic reactions are caused by the formation of
+body from foreign agents such as pathogens, pollens, tox-
+antibodies to substances usually not recognized
+ins, and cancer cells.
+as foreign.
+I. Nonspecific Immunity 2. There are two types of allergic reactions: delayed-
+A. Nonspecific immune mechanisms (innate immunity) onset allergy and immediate-reaction allergy.
+protect the body against many different types of 3. A delayed-onset allergy takes about 48 hours to
+foreign agents and do not require recognition of the develop. Contact dermatitis to a household chemi-
+specific agent. cal is a common example.
+B. Lines of defense 4. An immediate-onset reaction allergy (also called
+1. The first line of defense includes mechanical barri- an immediate hypersensitivity reaction) is often
+ers, chemical barriers, and reflexes. caused by exposure to pollens and drugs such as
+2. The second line of defense includes phagocytosis, penicillin. The most severe form is anaphylaxis.
+inflammation, fever, protective proteins, and natu- B. Autoimmune Diseases
+ral killer (NK) cells. C. Immunodeficiency states
+II. Immunity
+A. Specific immunity (adaptive) protects the body Review Your Knowledge
+against specific foreign agents and requires recogni-
+tion of the specific agent involved. Matching: Nonspecific Immunity
+B. T cells, or T lymphocytes Directions: Match the following words with their descrip-
+1. The T cells make up 70% to 80% of the blood’s tions. Some words may be used more than once.
+lymphocytes. a. protective proteins
+2. T cells engage in cell-mediated immunity (CMI).
+b. phagocytosis
+3. Activated cytotoxic T cells produce a clone
+c. inflammation
+(cytotoxic T cells and memory T cells).
+4. Helper T cells secrete cytokines and are necessary d. fever
+for activation of the cytotoxic T cells. 1. ___ Caused by pyrogens
+C. B cells, or B lymphocytes 2. ___ Eats debris and pathogens
+1. B cells make up 20% to 30% of the blood’s 3. ___ Redness, heat, swelling, and pain
+lymphocytes.
+4. ___ Neutrophils and monocytes
+2. B cells engage in antibody-mediated immunity (AMI).
+3. Activated B cells produce a clone of (memory
+5. ___ Complement and interferons
+cells and plasma cells). The plasma cells secrete
+Matching: Specific Immunity
+antibodies that travel through the blood to the
+Directions: Match the following words with their descrip-
+antigens located primarily in extracellular fluids.
+tions.
+4. The antibodies are called immunoglobulins (IgG,
+IgA, IgM, IgD, and IgE). a. immunotolerance
+5. Immunoglobulin E (IgE) presents a serious problem b. cell-mediated immunity
+with regard to an acute allergic response. c. antibody-mediated immunity
+III. Types of Immunity d. macrophage
+A. Genetic or acquired immunity
+e. plasma cells
+1. With genetic immunity, a person is genetically
+1. ___ Subgroup of the B-cell clone that secretes
+immune to an antigen.
+antibodies
+2. A person can acquire immunity naturally or
+artificially. 2. ___ Recognition of self
+3. A person can acquire immunity naturally in two 3. ___ The cell responsible for antigen presentation
+ways: by getting the disease or by receiving anti- 4. ___ Also called humoral immunity
+bodies from the mother across the placenta and/or
+5. ___ T-cell immunity
+through breast milk.
+4. Immunity can be acquired artificially in two ways: Matching: Active and Passive Immunity
+by the use of a vaccine or by injection of immune
+Directions: Indicate whether each of the following conveys
+globulin made by another person or animal.
+active immunity (a) or passive immunity (b).
+B. Active or passive immunity 1. ___ Vaccine
+1. Active immunity means that a person’s body 2. ___ Antivenom
+makes the antibodies (usually a long-lasting
+3. ___ Antitoxin
+immunity).
+4. ___ Toxoid
+2. Passive immunity means that the antibodies are 5. ___ Gamma globulin
+made by another animal and then injected into a
+6. ___ Getting the disease
+patient’s body (usually a short-lasting immunity).
+
+Immune System CHAPTER 21 399
+Multiple Choice 9. Inflammation is
+1. Complement and interferons are a. a form of specific or adaptive immunity.
+a. considered to be specific or adaptive immunity. b. characterized by redness, heat, swelling, and pain.
+b. protective proteins engaged in nonspecific immunity. c. known as cell-mediated immunity.
+c. secreted by B cells and T cells. d. synonymous with infection.
+d. vaccines, conveying active immunity. 10. Specificity and memory are characteristic of
+2. T and B cells a. interferons and complement proteins.
+a. engage in nonspecific or innate immunity. b. B and T lymphocytes.
+b. are granulocytic neutrophils. c. innate or nonspecific immunity.
+c. both secrete immunoglobulins. d. myelocytic phagocytes.
+d. are lymphocytes that are responsible for specific or 11. Which words most accurately describe phagocytosis?
+adaptive immunity. a. Chemotaxis and diapedesis
+3. Which of the following is not related to cell-mediated b. B-cell and T-cell activation
+immunity? c. Antigen presentation and agglutination
+a. Cell-to-cell combat d. Ingestion and digestion
+b. Cytotoxic T cells 12. Which of the following is true of the person who devel-
+c. Immunoglobulins ops measles?
+d. Antigen presentation by a macrophage a. She should receive the measles vaccine immediately.
+4. Pyrexia, pyrogens, and febrile seizures are most related b. She should be started on a 7-day course of a
+to which nonspecific form of immunity? broad-spectrum antibiotic.
+a. Inflammation c. She will develop a naturally acquired active
+b. Fever immunity.
+c. Anaphylaxis d. She will require a weekly a dose of gamma globulin
+d. Diapedesis, chemotaxis, and phagocytosis to maintain her measles antibody titer.
+5. Plasma cells 13. Which of the following is characterized by redness,
+a. are activated T cells. heat, swelling, and pain?
+b. are the same as NK cells. a. Anaphylaxis
+c. secrete antibodies. b. Pyrexia
+d. secrete interferons and complement proteins. c. Phagocytosis
+d. Inflammation
+6. With which of the following is anaphylaxis most
+associated? 14. A deficiency of helper T cells
+a. Interferons a. causes anaphylaxis.
+b. Phagocytosis b. affects B- and T-cell function.
+c. IgE antibodies c. affects only cell-mediated immunity; antibody-
+d. Contact dermatitis mediated immunity is unaffected.
+d. affects only T-cell activation.
+7. What is the primary concern regarding the care of a
+person experiencing an anaphylactic reaction? 15. Which of the following is descriptive of the protection
+a. Inability to breathe and hypotension offered by an intact skin and mucous membranes?
+b. Development of hives (urticaria) and intense itching a. Mechanical barriers
+(pruritus) b. Specific or adaptive immunity
+c. Development of a high fever and febrile seizures c. B-cell and T-cell activation
+d. Development of jaundice and itching d. Diapedesis and chemotaxis
+8. Which of the following is most characteristic of a
+vaccine?
+a. Artificially acquired active immunity
+b. Passive immunity and short-lived immunity
+c. Innate nonspecific immunity
+d. Administration of antibodies formed by another per-
+son or animal
+
+22
+Respiratory System
+http://evolve.elsevier.com/Herlihy
+Objectives
+1. Describe the structure and functions of the organs of the • How respiratory muscles affect thoracic volume
+respiratory system and trace the movement of air from the • Three conditions that make the alveoli well suited for
+nostrils to the alveoli. the exchange of oxygen and carbon dioxide
+2. Explain why lungs collapse or expand and the role of 4. List lung volumes and capacities.
+pulmonary surfactants. 5. Discuss the voluntary and involuntary control of breathing,
+3. Discuss the three steps in respiration, including the including the following:
+following: • The neural and chemical control of breathing
+• The relationship of Boyle’s law to ventilation • Common variations and abnormalities of breathing
+Key Terms
+alveolus (p. 407) inhalation (p. 412) surface tension (p. 409)
+Boyle’s law (p. 412) intercostal muscles (p. 414) surfactants (p. 409)
+bronchial tree (p. 407) intrapleural pressure (p. 410) tidal volume (p. 419)
+bronchioles (p. 407) larynx (p. 404) trachea (p. 405)
+bronchus (p. 405) lower respiratory tract (p. 400) upper respiratory tract (p. 400)
+compliance (p. 411) partial pressure (p. 417) ventilation (p. 412)
+diaphragm (p. 413) pharynx (p. 402) vital capacity (p. 419)
+epiglottis (p. 404) phrenic nerve (p. 415) vocal cords (p. 404)
+exhalation (p. 412) pleura (p. 408)
+g lo ttis (p. 404) pleural cavities (p. 407)
+Is he breathing? This is the first question asked • Filters and humidifies inhaled air
+about a person who has been seriously injured. It • Regulates acid-base balance
+indicates the importance of each breath. To breathe • Produces and modulates various sounds, including
+is to live; not to breathe is to die. Each breath is a the voice
+breath of life. • Houses the olfactory (smell) chemoreceptors
+Because of its close connection with life, ancient
+peoples attributed the act of breathing to the divine.
+STRUCTURE: ORGANS OF THE
+Even the phases of breathing are called inspiration and
+RESPIRATORY SYSTEM
+expiration, references to a divine spirit moving into
+and out of our lungs. The creation story in Genesis,
+UPPER AND LOWER RESPIRATORY TRACTS
+in which God breathes life into the little clay figure of
+Adam, vividly expresses an image of divine breath. The respiratory system comprises the upper and low-
+Poetry also describes breathing as the life force. For er respiratory tracts (Fig. 22.1). The upper respiratory
+example, the great Persian poet Sa’di echoed the tract contains the respiratory organs located outside
+sacredness of breath in a prayer: “Each respiration the chest cavity: the nose and nasal cavities, pharynx,
+holds two blessings. Life is inhaled, and stale, foul air larynx, and upper trachea. The lower respiratory tract
+is exhaled. Therefore thank God twice every breath consists of organs located in the chest cavity: the lower
+you take.” trachea, bronchi, bronchioles, and alveoli. The lower
+In a more physiologic tone, the respiratory system parts of the bronchi, bronchioles, and alveoli are lo-
+performs the following functions: cated in the lungs. The pleural membranes and the
+• Delivers oxygen-rich air into the body and excretes muscles that form the chest cavity are also part of the
+carbon dioxide–rich air from the body lower respiratory tract.
+400
+
+Respiratory System CHAPTER 22 401
+Clavicle
+Ribs
+Lung
+Nasal cavity
+Pharynx
+Upper respiratory tract
+Larynx
+Trachea
+Primary
+bronchus
+Lower respiratory
+Right lung tract
+Left lung
+Diaphragm
+Fig. 22.1 Organs of the Respiratory System: Upper Respiratory Tract and Lower Respiratory Tract.
+Go Figure (Refer to Fig. 22.1) Most of the respiratory organs are concerned with
+the conduction, or movement, of air through the respi-
+1. T /F __ The larynx, bronchioles, and alveoli are part of the
+ratory passages. The alveoli are the tiny air sacs located
+lower respiratory system.
+at the distal ends of the respiratory passages. They are
+2. A lign these structures according to the pathway
+concerned with the exchange of oxygen and carbon di-
+of the flow of air into the lungs. ______, _______,
+_______________, _______________ (bronchioles, oxide—the respiratory gases—between the air and the
+alveoli, bronchus, trachea) blood across the walls of the pulmonary capillaries. It
+is critical that the airway remain open; obstruction of
+the airway is a threat to life!
+
+402 CHAPTER 22 Respiratory System
+The nasal cavities contain several drainage open-
+NOSE AND NASAL CAVITIES
+ings. Mucus from the paranasal sinuses (see Fig. 8.8)
+The nose includes an external portion, which forms drains into the nasal cavities. The paranasal sinuses in-
+part of the face, and an internal portion, called the nasal clude the maxillary, frontal, ethmoidal, and sphenoidal
+cavities. The nasal cavities are separated into right and sinuses. Tears from the nasolacrimal ducts also drain
+left halves by a partition called the nasal septum, which into the nasal cavities. (Cry and your nose runs.)
+is made of bone and cartilage. Air enters the nasal cavi-
+THE WHAT-IFS OF THE NOSE
+ties through two openings called the nostrils, or nares.
+Nasal hairs in the nostrils filter large particles of dust • What If the the nasal septum bends toward one
+that might otherwise be inhaled. In addition to its re- side or the other, thereby obstructing the flow of air
+spiratory function, the nasal cavity contains the recep- and making breathing difficult? This abnormal po-
+tor cells for the sense of smell. The olfactory receptors sitioning of the septum is called a deviated septum.
+cover the mucous membrane of the upper parts of the Surgical repair of the deviated septum (septoplasty)
+nasal cavity and a part of the nasal septum. corrects the problem.
+Three bony projections, called nasal conchae • What If the nose snorts cocaine? Chronic exposure
+(KONCH-ay), appear on the lateral walls of the nasal of the drug causes intense vasoconstriction of the
+cavities. The conchae increase the surface area of the blood vessels that supply the septum. The septal
+nasal cavities and support the ciliated mucous mem- cartilage dies, thereby creating a hole in the septum
+branes that line the nasal cavities. These mucous mem- and giving the nose a collapsed or “caved-in” ap-
+branes contain many blood vessels and mucus-secret- pearance. Not a good look!
+ing cells. The rich supply of blood warms and moistens • What If the nose is subjected to a strong nasal spray
+the air, and the sticky mucus traps dust, pollen, and (decongestant)? Over time it may rebel by develop-
+other small particles, thereby cleansing the air as it is ing rebound nasal congestion, called rhinitis medi-
+inhaled. Because the nose helps to warm, moisten, and camentosa. It refers to nasal congestion caused by
+cleanse the air, breathing through the nose is better medication.
+than mouth breathing.
+PHARYNX
+Do You Know... The pharynx (FAIR-inks), or throat, is located behind
+the oral cavity and between the nasal cavities and the
+That Your Nose Is More Than Just a Smeller?
+larynx (Fig. 22.2). The pharynx includes three parts:
+The nose does a few things really well; as you know, the
+the nasopharynx (upper section), oropharynx (middle
+nose knows smells. It also “nose” how to clean and humidify
+section), and laryngopharynx (lower section). The
+air. Equally important, the nose plays a big cosmetic role: it
+oropharynx and laryngopharynx are part of both the
+makes us look good, and if it doesn’t, we can rearrange it
+digestive and respiratory systems; they function as
+surgically until it is fashioned into a great-looking nose. Nose-
+passageways for both food and air. The pharynx sends
+related medical conditions or procedures are named after the
+“rhino,” who sports the mother of all noses. For instance, food toward the esophagus (the tube that sends food
+a rhinoplasty (RYE-no-PLASS-tee) refers to the surgical re- toward the stomach). The pharynx also conducts air to
+shaping, resizing, or realigning of the nose. Rhinorrhea refers the larynx as it moves toward the lungs.
+to a runny nose, as in the common cold or the discharge of The pharynx contains two other structures: the
+cerebrospinal fluid from the nose. Rhinokyphosis (RYE-no- openings from the eustachian tubes (auditory tubes)
+ky-FOH-sis) is a humpback nose, and, of course, you can
+and the tonsils. The eustachian tube connects the naso-
+have a pain in the nose—rhinodynia (RYE-no-DIN-ee-uh).
+pharynx with the middle ear.
+It is interesting that the rhino has captured the nose words
+because the rhino’s nose is merely hardened hair; it doesn’t
+sniff or drip, and it certainly doesn’t check itself in for a nose Eustachian tube
+job.
+
+Respiratory System CHAPTER 22 403
+Auditory tube
+Nasal cavities
+(eustachian tube)
+Pharyngeal tonsil
+(adenoids)
+Oral cavity
+Nasopharynx
+Tongue
+Lingual tonsil Palatine tonsil
+Oropharynx
+Laryngopharynx
+Epiglottis
+Larynx
+Vocal cords Esophagus
+Trachea
+Thyroid
+A gland
+Epiglottis False
+vocal
+cord
+Glottis
+True
+vocal
+cord
+Thyroid cartilage
+(Adam’s apple) C
+Epiglottis
+Trachea
+Glottis
+Inner
+lining of
+trachea
+B D
+Fig. 22.2 (A) Organs of the upper respiratory tract. (B) Larynx, showing the thyroid cartilage (Adam’s apple). (C) Vocal
+cords and glottis (closed). (D) Vocal cords and glottis (open).
+
+404 CHAPTER 22 Respiratory System
+Go Figure (Refer to Fig. 22.2) tongue, and lip movement. The nasal cavities, sinus-
+es, and pharynx act as resonating chambers, thereby
+1. W hich of the following has cartilaginous rings that prevent
+altering the quality of your voice. Listen to the dif-
+its collapse? ______________ (alveoli, bronchioles,
+ferent voices of your friends. One voice may sound
+trachea, epiglottis)
+high and squeaky, whereas another may sound low
+2. W hich word best describes the glottis ___________?
+(cartilaginous ring, lingual, an opening, vocal cord) and booming.
+3. T rue and false describe the _______________________. From boy to young man. At puberty, under the in-
+(pharynx, vocal cords, tonsils, nasal cavities) fluence of testosterone, the male larynx enlarges,
+and the vocal cords become longer and thicker. The
+larger vocal cords deepen the male voice. Changes
+LARYNX in the larynx and vocal cords cause the boy’s voice
+to “break” as he matures into a young man. In an
+WHERE AND WHAT IS YOUR VOICE BOX?
+earlier period in history, young choir boys with
+The larynx (LAIR-inks), also called the voice box, is beautiful high voices were castrated. Castration, the
+located between the pharynx and trachea (see Fig. surgical excision of the testes, removes the source
+22.2A). The larynx has three functions: it acts as a of testosterone and prevents thickening of the vo-
+passageway for air during breathing, it produces cal cords. These unfortunate castrated boys contin-
+sound (your voice), and prevents food and other ued to sing beautifully as members of the castrati
+foreign objects from entering the distal respiratory choir. For obvious reasons, this practice eventually
+structures. The larynx is a triangular structure made disappeared.
+primarily of cartilage, muscles, and ligaments (see
+DOWN THE WRONG WAY
+Fig. 22.2C and D).
+The largest of the cartilaginous structures in the lar- As shown in Fig. 22.2A, the pharynx acts as a passage-
+ynx is the thyroid cartilage. It is a tough hyaline carti- way for food, water, and air. Food and water in the
+lage and protrudes in the front of the neck. The thyroid pharynx, however, should not enter the larynx. How
+cartilage is larger in men and is called the Adam’s apple are food and water normally kept out of the larynx?
+(see Fig. 22.2B). When you breathe in air, the glottis opens, and air
+The epiglottis (ep-i-GLOT-iss) is another carti- moves through the glottis into tubes that carry it to the
+laginous structure, located at the top of the larynx lungs.
+(see Fig. 22.2A). The epiglottis acts as a flap, a very When you swallow food, however, the epiglottis
+important flap. It covers the opening of the trachea covers the glottis, thereby preventing food from en-
+during swallowing so that food does not enter the tering the lower respiratory passages. Instead, the
+lungs. food enters the esophagus, the tube that empties
+into the stomach. How does this happen? During
+VOCAL CORDS
+swallowing, the larynx moves upward and forward
+The larynx is called the voice box because it contains while the epiglottis moves downward. If you place
+the vocal cords (see Fig. 22.2A and C). The vocal cords your fingers on your larynx as you swallow, you can
+are folds of tissue composed of muscle and elastic liga- feel the larynx move upward and forward. In ad-
+ments and covered by mucous membrane. The cords dition to the movement of the epiglottis, the glottis
+stretch across the upper part of the larynx. The glottis is closes. Compare the size of the glottis in Fig. 22.2C
+the space or opening between the vocal cords. and D
+Note that swallowing plays a key role in pre-
+TRUE OR FALSE
+venting the entrance of food or water into the re-
+The two types of vocal cords are the false and true vo- spiratory tubes. Some patients develop difficulty
+cal cords. The false vocal cords are called “false” be- in swallowing, particularly those who have suf-
+cause they do not produce sounds. Instead, the mus- fered neurologic damage such as cerebral palsy or
+cles in this structure help to close the airway during a stroke. Any patient who experiences difficulty
+swallowing. The true vocal cords produce sound. Air in swallowing is at risk for aspiration (entrance of
+flowing from the lungs through the glottis during ex- food or water into the lungs). Aspiration is a large
+halation causes the true vocal cords to vibrate, thereby clinical problem.
+producing sound.
+The loudness of your voice depends on the force
+Re-Think
+with which the air moves past the true vocal cords.
+1. T race the flow of air from the nose to the trachea.
+The pitch of your voice depends on the tension ex-
+2. E xplain why food and water do not enter the respiratory
+erted on the muscles of the true vocal cords. You form
+structures during swallowing.
+sound into words with your pharynx, oral cavity,
+
+Respiratory System CHAPTER 22 405
+Do You Know... Why is the carina so important clinically? The carina
+is very sensitive; touching it during suctioning causes
+Why You Should Know How to Perform the Abdominal Thrust?
+vigorous coughing. The purpose of the trachea? It con-
+The abdominal thrust is a simple life-saving technique that ducts air to and from the lungs.
+was designed to dislodge an obstructing object from the
+throat of a choking person. The “bear hug” procedure is KEEPING IT OPEN
+demonstrated on an adult in the accompanying illustration.
+The trachea lies in front of the esophagus, the food tube.
+Here are the steps for the adult:
+C-shaped rings of cartilage partially surround the tra-
+1. S tand behind the choking person and wrap your arms
+chea for its entire length and serve to keep it open. The
+around the person’s waist.
+rings are open on the back side of the trachea so that
+2. P osition your hands (fist position) between the person’s
+navel and the bottom of the rib cage. the esophagus can bulge forward as food moves along
+3. P ress your fist into the abdomen with a quick upward the esophagus to the stomach. You can feel the carti-
+movement. laginous rings if you run your fingers along the front of
+4. R epeat several times as necessary. your neck. Without this strong cartilaginous support,
+the trachea would collapse and shut off the flow of air
+through the respiratory passages. Because of the car-
+tilaginous rings, a tight collar or necktie does not col-
+lapse the trachea. A severe blow to the anterior neck,
+however, can crush the trachea and cause an acute re-
+spiratory obstruction. The trachea must be kept open.
+Do You Know...
+What a Tracheostomy Is?
+Sometimes a part of the upper respiratory tract becomes
+blocked, thereby obstructing the flow of air into the lungs.
+To restore airflow, an emergency tracheostomy may be per-
+formed. This procedure is the insertion of a tube through a
+surgical incision into the trachea below the level of the ob-
+Abdominal thrust (adult)
+struction. The tracheostomy bypasses the obstruction and
+allows air to flow through the tube into the lungs.
+Insertion of
+Do You Know...
+tracheostomy tube
+How a “Dumb Plant” Was Used to Control Gossip (Without, of Obstruction into trachea
+in upper
+Course, Killing the Gossiper)?
+respiratory
+tract
+A tea made from dieffenbachia (“dumb plant”) was given to
+Roman slaves before they were sent to the market to shop.
+The tea caused the slaves’ tongues and mouths to swell and
+paralyzed the throat. The slave was therefore unable to speak
+and gossip about household’s affairs. It is still used by some
+African tribes as a punishment for gossip. An overdose of the
+poison causes excessive swelling, obstruction of the respira-
+tory passageways, and death by suffocation. On an updated
+note, acute respiratory obstruction can be induced when a
+patient is given a drug or food to which she is allergic. “Dumb
+plant ingestion” may be dead, but the anaphylactic response
+(re spiratory obstruction) is very much alive and well.
+Tracheostomy
+in place
+TRACHEA
+WHERE IT SITS AND WHERE IT SPLITS
+The trachea (TRAY-kee-ah), or windpipe, is a tube 4 to
+5 inches (10 to 12.5 cm) long and 1 inch (2.5 cm) in di-
+ameter (Fig. 22.3). The trachea extends from the larynx
+downward into the thoracic cavity, where it splits into
+the right and left bronchi (sing., bronchus). The trachea
+splits, or bifurcates, at a point called the carina (kah-
+RYE-nah) at the manubriosternal junction (where the
+manubrium of the sternum meets the sternal body).
+
+406 CHAPTER 22 Respiratory System
+Cartilaginous
+Trachea rings
+Apex
+Superior lobe
+Carina
+Primary
+bronchi
+Superior lobe
+Secondary
+bronchi
+Tertiary
+bronchi
+Bronchiole
+Middle lobe
+Inferior lobe
+Inferior lobe
+Hilus
+Base
+Terminal bronchiole
+Alveolar duct
+Alveolar
+sacs
+Capillaries
+Alveoli
+Fig. 22.3 Trachea and Bronchial Tree (Bronchi, Bronchioles, and Alveoli).
+
+Respiratory System CHAPTER 22 407
+Go Figure (Refer to Fig. 22.3) complains of a tight chest and expends much energy
+trying to force air through the constricted bronchioles
+1. R espiratory gas exchange occurs across the walls of the
+into the lungs. Forced air causes a wheezing sound.
+______________. (alveoli, bronchioles, epiglottis, trachea)
+Bronchiolar smooth muscle relaxants are medications
+2. W hich of the following structures is not located within
+that cause bronchodilation, thereby improving air-
+the lungs? ____________________ (alveoli, bronchioles,
+bronchi, trachea) flow and relieving the wheezing.
+Let’s translate this into autonomic pharmacology.
+The bronchioles contain beta -adrenergic receptors.
+2
+BRONCHIAL TREE: BRONCHI, BRONCHIOLES, AND Stimulation of these receptors causes relaxation of the
+ALVEOLI bronchiolar smooth muscle, thus inducing bronchodi-
+lation and improved airflow. Albuterol, a beta -adren-
+2
+The bronchial tree consists of the bronchi, the bronchi- ergic agonist, is a bronchodilator drug. Conversely, a
+oles, and the alveoli. It is called a tree because the bron- beta-adrenergic blocker, such as propranolol, causes
+chi and their many branches resemble an upside-down bronchoconstriction and is therefore contraindicated
+tree. Most of the bronchial tree is in the lungs. in asthmatic patients.
+BRONCHI ALVEOLI
+The right and left primary bronchi are formed as the The bronchioles continue to divide and give rise to
+lower part of the trachea divides into two tubes. The many tubes called alveolar ducts (see Fig. 22.3). These
+primary bronchi enter the lungs at a region called ducts end in very small, grapelike structures called al-
+the hilus. The primary bronchi branch into second- veoli (sing., alveolus). The alveoli are tiny air sacs that
+ary bronchi, which branch into smaller tertiary bron- form at the distal ends of the respiratory passages. A
+chi. Because the heart lies toward the left side of the pulmonary capillary surrounds each alveolus. The al-
+chest, the left bronchus is narrower and positioned veoli function to exchange oxygen and carbon dioxide
+more horizontally than the right bronchus. The right across the alveolar–pulmonary capillary membrane.
+bronchus is shorter and wider than the left bronchus Oxygen diffuses from the alveoli into the blood; car-
+and extends downward in a more vertical direction. bon dioxide diffuses from the blood into the alveoli.
+Because of the differences in the size and position- Alveolar characteristics that favor gas exchange are
+ing of the bronchi, food particles and small objects described later in the chapter.
+are more easily inhaled, or aspirated, into the right What If the number of alveoli decrease? An example
+bronchus. is atelectasis, in which patches of alveoli are collapsed
+Why are tiny toys not good for tiny tots? Young chil- and airless. Atelectasis occurs commonly as a postop-
+dren generally put toys in their mouths. The tiny toy erative complication and as a result of conditions such
+may become lodged in the larynx or bronchus, causing as pneumonia and cancer of the lung. Other respira-
+an acute respiratory obstruction. Unless it is relieved tory diseases may destroy alveoli or cause a thickening
+immediately, the obstruction can be fatal. Tiny toys are of the alveolar wall. As a result, the exchange of gases
+responsible for many toy recalls. is slowed. Oxygenation of the blood may decrease,
+The upper segments of the bronchi have C-shaped causing hypoxemia and cyanosis, and the blood may
+cartilaginous rings, which help keep the bronchi open. retain carbon dioxide, causing a disturbance in acid–
+As the bronchi extend into the lungs, however, the base balance (acidosis).
+amount of cartilage decreases and finally disappears.
+The finer and more distal branches of the bronchi con-
+Do You Know...
+tain no cartilage.
+How You Spot “Clubbed” Fingers?
+BRONCHIOLES
+Patients who experience chronic hypoxemia, such as those
+The bronchi divide repeatedly into smaller tubes with impaired lung and heart function, often develop club-
+called bronchioles (BRON-kee-ohls). The walls of the bing of the fingers and toes. Clubbing is characterized by en-
+larged fingertips and toes and changes in the thickness and
+bronchioles contain smooth muscle and no cartilage.
+shape of the nails. The enlargement is due to the formation of
+The bronchioles regulate the flow of air to the alveoli.
+additional capillaries and tissue hypertrophy in an attempt to
+Contraction of the bronchiolar smooth muscle causes
+d eliver additional oxygen to the oxygen-deprived cells.
+the bronchioles to constrict, thereby decreasing the
+bronchiolar lumen (opening) and thus decreasing the
+flow of air. Relaxation of the bronchioles causes the LUNGS
+lumen to increase, thereby increasing the flow of air.
+RIGHT AND LEFT
+An asthma attack illustrates the effect of bronchiolar
+smooth muscle constriction. In a person with asthma, The two lungs, located in the pleural cavities, extend
+the bronchioles overrespond to a particular stimu- from an area just above the clavicles to the diaphragm.
+lus. The bronchiolar smooth muscle then constricts, The lungs are soft cone-shaped organs so large that
+decreasing the flow of air into the lungs. The person they occupy most of the space in the thoracic cavity
+
+408 CHAPTER 22 Respiratory System
+(see Fig. 22.3). The lungs are subdivided into lobes. The Go Figure (Refer to Fig. 22.4)
+right lung has three lobes: superior, middle, and infe-
+1. T he intrapleural space is located ___________________
+rior. Because of the location of the heart in the left side
+_________________________. (inferior to the diaphragm,
+of the chest, the left lung has only two lobes: superior
+within the mediastinum, between the visceral and parietal
+and inferior.
+pleurae, within the lungs)
+The upper rounded part of the lung is called the
+apex, and the lower portion is called the base. The base
+of the lung rests on the diaphragm. The amount of air
+INTRAPLEURAL SPACE
+the lungs can hold varies with a person’s body build,
+age, and physical conditioning. For instance, a tall per- Between the visceral pleura and the parietal pleura
+son has larger lungs than a short person. A swimmer is a space called the intrapleural space. The pleural
+generally has larger lungs than a “couch potato,” and membranes secrete a small amount of serous fluid
+the trained singer has larger lungs than the typical (approximately 25 mL). The fluid lubricates the
+“shower singer.” pleural membranes and allows them to slide past
+one another with little friction or discomfort. Under
+Re-Think abnormal conditions, the intrapleural space has the
+potential to accumulate excess fluid, blood, and air.
+1. W hat structures make up the bronchial tree?
+An excess secretion of pleural fluid is called a pleu-
+2. W hat is the “problem” caused by bronchoconstriction?
+ral effusion. A purulent (with pus) pleural effusion is
+3 . W hat is the primary function of the alveoli?
+called an empyema.
+PLEURAL MEMBRANES
+Sum It Up!
+PLEURAE
+Air moves through the following structures—from the nasal
+The outside of each lung and the inner chest wall cavities, to the pharynx, to the larynx, to the trachea, to the
+are lined with a continuous serous membrane called bronchi, to the bronchioles, and finally to the alveoli. When
+the air reaches the alveoli (the tiny air sacs at the end of the
+the pleura (Fig. 22.4). The pleurae are named accord-
+bronchial tree), the respiratory gases oxygen and carbon di-
+ing to their location. The membrane on the outer
+oxide diffuse across the alveolar–pulmonary capillary mem-
+surface of each lung is called the visceral pleura; the
+brane. Most of the respiratory structures conduct air to and
+membrane lining the chest wall is called the parietal
+from the alveoli in the lungs. Only the alveoli function in the
+pleura. The visceral pleura and the parietal pleura
+exchange of the respiratory gases between the outside air
+are attracted to each other like two flat plates of glass and the blood. The lungs contain the structures of the lower
+whose surfaces are wet. The plates of glass can slide respiratory tract. Pleural membranes surround the lungs and
+past one another but offer some resistance when you line the thoracic cavity, creating the intrapleural space or
+try to pull them apart. p leural cavity.
+COLLAPSED AND EXPANDED LUNGS
+Fig. 22.1 shows that the lungs occupy most of the tho-
+racic cage, but this statement must be qualified: the ex-
+panded lungs occupy most of the thoracic cage. Under
+normal conditions, the lungs expand similarly to in-
+flated balloons. Under abnormal conditions, however,
+a lung may collapse. What determines whether or not
+Parietal pleura the lungs collapse or expand?
+Visceral pleura
+WHY LUNGS COLLAPSE
+Intrapleural
+space
+If the pleural cavity is entered surgically or in response
+to a penetrating chest injury, the lungs collapse. There
+are two reasons why the lungs collapse: elastic recoil
+and surface tension.
+ELASTIC RECOIL
+Consider a balloon and a lung (Fig. 22.5A). If you blow
+up a balloon but fail to tie off the open end, the air rush-
+Fig. 22.4 Lungs, Pleural Membranes, and the Intrapleural Space. es out and the balloon collapses. It collapses because of
+
+Respiratory System CHAPTER 22 409
+the arrangement of its elastic fibers. When these fibers Go Figure (Refer to Fig. 22.5)
+stretch, they remain stretched only when tension is ap-
+1. W hich of the following opposes the collapsing tendency
+plied (the air blown into the balloon stretches the bal-
+of the alveoli? ________________ (surface tension, elastic
+loon). If the end of the balloon is not tied off, the elastic
+recoil, negative intrapleural pressure)
+fibers recoil, forcing air out and collapsing the balloon.
+2. T /F __ Pulmonary surfactants decrease surface tension,
+The same can be said of the lung. The arrangement of thereby making it easier to expand the lungs.
+the lung’s elastic tissue is similar to the arrangement
+of the elastic fibers in the balloon. The elastic tissue of
+SURFACE TENSION
+the lung can stretch, but it recoils and returns to its un-
+stretched position if tension is released (see Fig. 22.5B). The lung also collapses for a second reason, a force
+This is called elastic recoil. called surface tension. The single alveolus in Fig. 22.5C
+illustrates surface tension. A thin layer of water lines the
+inside of the alveolus. Water is a polar molecule; one
+end of the water molecule has a positive (+) charge,
+whereas the other end of the molecule has a negative
+(−) charge. Note how the water molecules line up. The
+positive (+) end of one water molecule is attracted to
+the negative (−) charge on the second water molecule.
+Each water molecule pulls on the other and on the wa-
+ter molecules beneath them. The electrical attraction of
+the water molecules is the surface tension. As the water
+molecules pull on one another, they tend to make the
+A
+alveolus smaller; in other words, they tend to collapse
+the alveoli.
+Note: The surface tension of pure water is nor-
+mally very high. In the mature normal lung, spe-
+cial alveolar cells secrete pulmonary surfactants.
+Surfactants (sur-FAK-tants) are detergent-like lipo-
+proteins that decrease surface tension by interfer-
+ing with the electrical attraction between the water
+molecules on the inner surface of the alveolus (see
+Elastic tissue
+Fig. 22.5C). The secretion of surfactant is stimulated
+by a sigh. After every five or six breaths, a person
+takes a larger-than-normal breath (a sigh); the sigh
+stretches the alveoli, promoting the secretion of sur-
+factant. Surfactants lower surface tension but do not
+eliminate it. Surface tension remains a force that acts
+to collapse the alveoli.
+Elastic tissue is Elastic tissue recoils
+B stretched to unstretched position
+Do You Know...
+Why a Premature Infant Is More Apt Than a Full-Term Infant to
+Develop Respiratory Distress Syndrome?
+Water
+Surfactant Surfactant-secreting cells in the alveolar walls appear only
+molecule
++ – + –
+during the later stages of fetal development. An infant born
+– + – + 2 to 3 months prematurely generally has insufficient surfac-
++ – + – tant-secreting cells. As a result, surface tension within the
+– + – + alveoli is excessively high, the alveoli collapse, and the infant
++ – + – experiences respiratory distress. The infant may die in respi-
+–
++ –
++ –
++ –
++ ratory failure or heart failure. The heart literally fails because
+it is “worked to death” in attempting to provide the energy
+Surface tension Surfactants interfere necessary for ventilation. This condition is commonly called
+between water with surface tension, respiratory distress syndrome. Before delivery, the mother
+molecules makes helping alveolus may be given steroids to hasten the development of surfac-
+alveolus want stay open
+C tant-secreting cells. In addition, a premature infant is given
+to collapse
+surfactants through inhalation in an attempt to prevent this
+Fig. 22.5 (A and B) Elastic recoil. (C) Surface tension: water and the lif e-threatening condition.
+effect of surfactants.
+
+410 CHAPTER 22 Respiratory System
+Re-Think atmospheric pressure. P2 is the pressure in the lung, also
+called the intrapulmonic pressure. P3 is the pressure in
+1. L ist two reasons why the lungs want to collapse.
+the intrapleural space, also called the intrapleural pres-
+2. W hy does water have a high surface tension?
+sure. Note in Fig. 22.6A that the lungs are normally
+3. W hy does a deficiency of surfactants increase the “work”
+expanded.
+of breathing?
+Fig. 22.6B and C show why the lungs expand.
+To illustrate this point, a hole is created in the right
+chest wall so that the right lung collapses. Note the
+pressures. Because of the hole in the chest wall, all
+WHY LUNGS EXPAND
+the pressures are equal. In other words, P1 = P2 =
+If elastic recoil and surface tension collapse the lungs, P3. In Fig. 22.6C, a tube is inserted through the hole
+why do they remain expanded in the normal closed of the right chest wall into the intrapleural space.
+thorax? Lung expansion depends on pressure within The tube is attached to a pump, which removes air
+the intrapleural space. A series of diagrams in Fig. 22.6 from the intrapleural space. As air moves from the
+illustrates this point. In Fig. 22.6A, the three pressures intrapleural space, the intrapleural pressure (P3) de-
+are labeled P1, P2, and P3. P1 is the pressure outside creases and becomes negative. This negative intra-
+the chest (the pressure in the room), also called the pleural pressure (P3) merely means that it is lower
+P3
+Intrapleural Collapsed
+pressure lung
+P1
+P1
+Atmospheric
+P1
+pressure
+P2 P2 P2
+Hole
+Intra-
+pulmonic
+P3 P3-
+pressure
+negative
+Pump
+A B C
+P3
+P1 P1
+P1 P2 P2
+P2
+P3 P3
+Pump
+D E F
+Fig. 22.6 Lung Expansion and Collapse. (A) The lungs expand. (B) The right lung collapses because of the hole in the
+chest wall. (C) Air is pumped out of the intrapleural space, creating a negative intrapleural pressure. (D) The lung expands
+because of the negative intrapleural pressure. (E) The lung collapses because of the hole (knife wound) in the chest wall.
+(F) The lung collapses because of a hole in the lung.
+
+Respiratory System CHAPTER 22 411
+Go Figure (Refer to Fig. 22.6) intrapleural space to aspirate, or withdraw, air, blood,
+and pus in a procedure called a thoracentesis, which fa-
+1. T /F __ P3 represents the intrapulmonic pressure.
+cilitates lung expansion.
+2. W hich word(s) describes the consequence of P3
+Note: The intrapleural pressure remains nega-
+exceeding P2? _______________? (inhalation, expiration,
+tive only when no hole exists in the chest wall or the
+collapse of the lung, pulmonary edema)
+lungs.
+than the atmospheric pressure (P1) or the intrapul-
+monic pressure (P2).
+Re-Think
+What is the effect of a negative intrapleural pres-
+sure? Because P2 (intrapulmonic pressure) is greater 1. E xplain why the lungs remain expanded. Use the
+than P3 (intrapleural pressure), the lung is pushed terms atmospheric pressure, intrapleural pressure, and
+toward the chest wall, causing the lung to expand. intrapulmonic pressure in your explanation.
+2. E xplain why a hole in the chest wall causes the lung to
+Also, because P1 (atmospheric pressure) is higher
+collapse.
+than P3, the chest wall is pushed inward toward
+the lung. When the chest wall and the lungs meet,
+the lung is expanded (see Fig. 22.6C and D). The
+important point is that the lung expands and re-
+SAYING IT ANOTHER WAY: COMPLIANCE
+mains expanded because the intrapleural pressure is
+negative. Compliance is the measure of elastic recoil and can
+What happens if the pump is removed, thereby rec- be illustrated by two balloons. One balloon has never
+reating the hole in the chest wall? Because P1 is higher been inflated and is stiff. A second balloon has been
+than P3, air rushes into the intrapleural space through inflated many times and has lost some of its elastic-
+the hole and eliminates the negative intrapleural pres- ity (elastic recoil); it appears baggy. Which balloon is
+sure. As a result, the lung collapses. Remember that the easier to inflate? The baggy balloon is easier to inflate
+lung expands only when the intrapleural pressure is because it has lost some of its elasticity and is less stiff.
+negative. Translation: The baggy balloon is more compliant
+Fig. 22.6E illustrates the effects of a stab wound to (stretchy). The new balloon is less compliant (stiff) and
+the chest. The hole created by the knife allows the air is therefore more difficult to inflate.
+to rush into the intrapleural space and eliminate the
+negative intrapleural pressure. The introduction of air THE WHAT-IFS OF LUNG COMPLIANCE
+into the intrapleural space and subsequent collapse • What If lung compliance decreases? The lungs be-
+of the lung is called a pneumothorax (pneumo- means come stiff and therefore more difficult to inflate.
+“air”; thorax means “chest”). Air in the intrapleural Some conditions associated with decreased lung
+space is also why the lungs collapse when a surgi- compliance are pulmonary edema, respiratory dis-
+cal incision is made through the chest wall into the tress syndrome, and pulmonary fibrosis. Decreased
+pleural cavity. lung compliance—not good!
+Fig. 22.6F shows the effect of a hole in the lung. • What If lung compliance increases? Lungs that are
+Because the intrapulmonic pressure (P2) is higher than too stretchy also cause problems. For example, the
+the intrapleural pressure (P3), air rushes into the in- patient with emphysema has damaged lung struc-
+trapleural space through the hole in the lung, thereby ture and reduced elastic recoil. Lung compliance
+eliminating the negative intrapleural pressure and col- has increased too much; there is not enough elas-
+lapsing the lung. Sometimes people with emphysema tic recoil to completely expel air on exhalation. The
+develop blebs, or blisters, on the outer surface of their increased compliance also contributes to the forma-
+lungs. The blebs rupture and create a hole between tion of the barrel-chest appearance that character-
+the intrapulmonic and intrapleural spaces, causing air izes a person with chronic lung disease.
+to rush into the intrapleural space and collapsing the
+lung.
+Re-Think
+What can be done for a collapsed lung? The physi-
+cian inserts a tube through the chest wall into the in- 1. E xplain compliance using the example of two springs:
+trapleural space and pulls air out of the intrapleural a heavy-duty spring used on garage doors and the tiny
+springs found in ballpoint pens.
+space. As the air leaves the intrapleural space, nega-
+2. E xplain why an increase in lung compliance causes
+tive pressure is reestablished, and the lung expands.
+barrel-chestedness.
+Sometimes the physician inserts a large needle into the
+
+412 CHAPTER 22 Respiratory System
+Do You Know... • Ventilation, or breathing
+• Exchange of oxygen and carbon dioxide
+Why This Person’s Chest Looks Like a Barrel?
+• Transport of oxygen and carbon dioxide by the blood
+This person has emphysema, a condition characterized by
+damaged tissue in the lower respiratory structures and over- STEP 1: VENTILATION, OR BREATHING
+inflated alveoli. As a result, the lungs cannot exhale the prop- What It Is
+er amount of air, and the air remains trapped in the alveoli.
+Movement of air into and out of the lungs is called ventila-
+(Emphysema means “puffed up” alveoli.) Consequently, the
+tion; it is more commonly called breathing. The two phas-
+alveoli and lungs become overinflated and cause the chest to
+es of ventilation are inhalation and exhalation. Inhalation,
+be shaped like a barrel, so a person with severe emphysema
+also called inspiration, is the breathing-in phase. During
+is described as barrel-chested.
+inhalation, oxygen-rich air moves into tiny air sacs (al-
+veoli) in the lungs. Exhalation, also called expiration, is the
+breathing-out phase. During exhalation, air rich in car-
+bon dioxide is moved out of the lungs. One inhalation
+Normal adult
+and one exhalation make up one respiratory cycle.
+Boyle’s Law: Pressure and Volume
+To understand ventilation, you need some background
+information. You need to know the relationship between
+pressure and volume, a relationship called Boyle’s law.
+Note the two tubes in Fig. 22.7. Tube A is a small tube that
+fits into a bicycle tire. When filled, the tube can hold 1 L of
+air. Tube B is larger and fits into a truck tire. When filled,
+it can hold 10 L of air. Thus, the volume of the truck tube
+(B) is 10 times greater than the volume of the bicycle tube.
+In the upper panel of Fig. 22.7, both tubes are empty.
+Let’s add 1 L of air to each tube and measure the pressure
+Barrel-chest in each tube. By touching the surfaces of the tubes, you
+can get a rough estimate of the pressures. Tube A feels
+firm, whereas tube B feels soft. In other words, the pres-
+sure in tube A is higher than the pressure in tube B. Both
+tubes received the same amount of air, so why are the
+pressures different? The different volumes of the tubes
+cause the different pressures. The pressure is higher in
+tube A because the volume of tube A is small; 1 L of air
+completely fills the tube. The pressure in tube B is lower
+because its volume is large (10 L). One liter of air only
+partially fills the truck tube. The smaller the volume, the
+higher the pressure; the greater the volume, the lower the
+pressure. If volume changes, the pressure changes. This
+is Boyle’s law, the principle on which ventilation is based.
+Sum It Up!
+Do You Know...
+The expanded lungs normally fill the thoracic cavity. Unless
+About the Pink Puffers and Blue Bloaters?
+pressure conditions in the pleural cavity are correct, the lungs
+collapse. The tendency of the lungs to collapse stems from Both Pink Puffers and Blue Bloaters suffer from breathing dif-
+two factors: elastic recoil and alveolar surface tension. The ficulties, such as asthma, emphysema, or chronic obstructive
+expansion of the lungs is caused by a negative intrapleural pulmonary disease (COPD). Pink Puffers gasp for breath and, in
+pressure within the intrapleural space. If the negative intra- doing so, turn red in the face. Blue Bloaters, having suffered from
+p leural pressure is eliminated, the lungs collapse. poor pulmonary function for a longer time, are accustomed to
+struggling for air and so don’t gasp and struggle like the Pink
+Puffers. The Blue Bloaters, with weakened respiratory muscles,
+RESPIRATORY FUNCTION don’t have the energy to puff away and turn red; rather, they tend
+to inhale a large volume of air, hold it, and become bloated. This
+THREE STEPS IN RESPIRATION type of respiratory activity causes their oxygen levels to decline,
+thereby causing hypoxemia and cyanosis. Complicating the
+Most of us equate breathing with respiration. hypoxemia is an accumulation of carbon dioxide in the blood,
+Respiration includes breathing, but it is more than which, in turn, causes respiratory acidosis. Of the two, Blue
+breathing; it involves the entire process of gas ex- Bloaters are generally the most seriously ill and in need of treat-
+ment. Furthermore, their already depleted oxygen levels decline
+change between the atmosphere and the body’s cells.
+qu ickly if they develop an acute complication such as pneumonia.
+Respiration includes the following three steps:
+
+Respiratory System CHAPTER 22 413
+Deflated bicycle tube Deflated truck tube
+(10(cid:31) volume of bicycle tube)
+Tube is soft
+to the touch
+Tube is firm
+to the touch
+Bicycle tube inflated
+with 1 L of air
+Truck tube partially inflated
+A B with 1 L of air
+Fig. 22.7 Boyle’s Law: Relationship Between Pressure and Volume. (A) Smaller bicycle tube. (B) Larger truck tube.
+Boyle’s Law and Ventilation
+Go Figure (Refer to Fig. 22.7)
+What does Boyle’s law have to do with ventilation? On
+1. W hich of the following describes the inverse relationship
+inhalation (breathing in), air flows into the lungs. What
+of volume and pressure? ____________ (pneumothorax,
+is the force that causes the air to flow in? Place your
+Boyle’s law, Starling’s law of the heart, compliance)
+hands on your rib cage. Inhale. Notice that the tho-
+2. T /F __ As volume increases pressure decreases; as
+racic cage moves up and out on inhalation (Fig. 22.8A
+volume decreases pressure increases.
+and C). This movement increases the volume of the
+thoracic cavity and lungs. As the volume in the lung
+increases, the pressure in the lung (P2) decreases (satis- • Air flows in response to pressure changes. Pressure
+fying Boyle’s law). As a result, P2 becomes less than P1 changes occur in response to changes in volume.
+(atmospheric pressure, the air you breathe). Air flows Inhalation is associated with an increase in thoracic
+from higher pressure to lower pressure, from the nose volume; exhalation is associated with a decrease in
+and into the lungs. thoracic volume.
+What happens on exhalation? Another change in
+lung volume. Place your hands on your rib cage and ex- Re-Think
+hale. The thoracic and lung volumes decrease as the rib
+1. L ist the two phases of ventilation.
+cage returns to its resting position (see Fig. 22.8B and D).
+2 . E xplain ventilation in terms of Boyle’s law.
+The decreased lung volume causes the pressure within
+the lungs (P2) to increase. Now P2 is higher than P1, and
+air flows out of the lungs through the nose. Let us clarify The Muscles of Respiration
+the relationship between Boyle’s law and ventilation: What causes the thoracic volume to change? The change
+• Air flows in response to changes in pressure. As the in thoracic volume is caused by the contraction and re-
+lung volume increases on inhalation, the intrapulmon- laxation of the respiratory muscles. On inhalation, the
+ic pressure (P2) decreases and air flows into the lungs. respiratory muscles, diaphragm, and intercostal mus-
+• On exhalation, lung volume decreases, intrapul- cles contract (see Fig. 22.8A and C). The diaphragm is
+monic pressure (P2) increases, and air flows out of a dome-shaped muscle that forms the floor of the tho-
+the lungs. racic cavity and separates the thoracic cavity from the
+
+414 CHAPTER 22 Respiratory System
+Rib cage moves
+Rib cage moves down and in
+up and out
+Intercostal Lungs
+muscles
+Diaphragm
+Diaphragm Diaphragm
+A down B up
+P1
+Air flow
+Air flow
+Lungs Lungs recoil
+expand P1 (get smaller)
+P2 P2 P2 P2
+Diaphragm
+Diaphragm
+contracted
+relaxed
+C D
+Fig. 22.8 Inhalation and Exhalation. The thoracic volume increases, and air rushes into the lungs (A and C). The
+thoracic volume decreases, and air rushes out of the lungs (B and D).
+Go Figure (Refer to Fig. 22.8) This movement increases the length of the thoracic cav-
+ity. During quiet breathing, the diaphragm accounts
+1. T he chief muscle of inhalation is the _________________.
+for most of the increase in the thoracic volume.
+(intercostals, sternocleidomastoid, trapezius, diaphragm)
+The two intercostal muscles, the external and inter-
+2. T /F __ Contraction of the diaphragm increases thoracic
+nal intercostals, are located between the ribs. When
+volume which, in turn, causes inhalation.
+the external intercostal muscles contract, the rib cage
+moves up and out, thereby increasing the width of the
+abdominal cavity. The diaphragm is the chief muscle of thoracic cavity. Note that the size of the thoracic cavity
+inhalation. Contraction of the diaphragm flattens the increases in three directions: from front to back, from
+muscle and pulls it downward, toward the abdomen. side to side, and lengthwise. Why is this increase in
+
+Respiratory System CHAPTER 22 415
+thoracic volume so important? As the thoracic volume The phrenic nerve exits from the spinal cord at the level of
+increases, so does the volume of the lungs. According C4, travels within the cervical plexus, and is distributed to
+to Boyle’s law, the increase in volume decreases the the diaphragm. Firing of the phrenic nerve stimulates the
+pressure in the lungs and, as a result, air flows into the diaphragm to contract. The intercostal nerves supply the
+lungs. Some of the accessory muscles of respiration, lo- intercostal muscles. Thus inhalation is initiated by the fir-
+cated in the neck and chest, can move the rib cage even ing of the phrenic and intercostal nerves.
+farther during exertion.
+On exhalation, the muscles of respiration relax and Do You Know...
+allow the ribs and diaphragm to return to their original
+That a Boa Constrictor Knows More About Boyle’s Law Than
+positions (see Fig. 22.8B and D). This movement de-
+the Early Corset Makers?
+creases thoracic and lung volume and increases pres-
+sure in the lungs. Consequently, air flows out of the The boa fully appreciates Boyle’s law! It knows that by wrap-
+lungs. Elastic recoil of lung tissue and surface tension ping itself around an animal’s chest, it can suffocate the vic-
+tim by preventing chest expansion and inhalation. Early cor-
+within the alveoli aid with exhalation. Forced exhala-
+set makers, however, ignored this basic information. Corsets
+tion uses the accessory muscles of respiration. These
+were designed to constrict the waist—the tighter the corset,
+include the muscles of the abdominal wall and the
+the smaller the waist. A successfully corseted young lady
+internal intercostal muscles. Contraction of the acces-
+might boast of a 12-inch-diameter waist! Problem was that
+sory muscles of respiration pulls the bottom of the rib
+the upper part of the corset included the lower part of the rib
+cage down and in, and it forces the abdominal viscera cage. What was the result of this constant binding? The cor-
+upward toward the relaxed diaphragm. These actions set prevented adequate ventilation and caused a permanent
+force additional air out of the lungs. deformity of the rib cage, to say nothing of the displaced ab-
+How much energy does it take to breathe? Inhalation dominal organs. The corseted young lovely couldn’t breathe
+is a result of the contraction of the respiratory muscles, and often fainted. Herein lies the physiologic basis of the
+so it is an active process. The muscles use up energy “swoon” and delicate weakness that characterized wealthy
+young women. They were not weak because of their female
+(ATP) as they contract. Exhalation associated with nor-
+X chromosomes; they were merely hypoxemic—no oxygen
+mal quiet breathing is passive. Exhalation is caused by
+going to the brain. Fortunately, only the wealthiest could
+muscle relaxation; no energy is required for muscle re-
+m ake a fashion statement by fainting.
+laxation. Thus, in normal, quiet breathing, we use up
+energy during half of the respiratory cycle (inhalation).
+We rest on exhalation. During forced exhalation (as in
+exercise), however, the accessory muscles of respira- The What-Ifs of Impaired Respiratory Nerve-
+tion must contract and exhalation becomes energy us- Muscle Function
+ing, or active. You will be caring for patients whose nerve and muscle
+With certain lung diseases such as emphysema, exha- function is impaired.
+lation can be achieved only when the accessory muscles • What If the spinal cord is severed above C4? The
+of respiration are used. The patient with emphysema phrenic nerve cannot fire, thereby preventing the
+therefore uses energy during both inhalation and exha- skeletal muscles (diaphragm and intercostals) from
+lation. This process is physically exhausting, and these contracting. The person is then not only quadriplegic
+patients usually complain of being very tired. but also can’t breathe without the help of a ventilator.
+• What If a person experiences difficulty breathing
+Re-Think because of the effects of certain drugs? (Review
+the NM receptors at the neuromuscular junction,
+1. W hat muscles are used for inhalation?
+p. 154.) Curare, for example, is a drug commonly
+2. U sing the term Boyle’s law, explain how contraction
+used during surgery to cause muscle relaxation. It is
+of the respiratory muscles causes air to move into the
+a neuromuscular blocking agent that interferes with
+lungs.
+3. U sing the term Boyle’s law, explain how relaxation of the the transmission of electrical signals from nerve to
+respiratory muscles causes air to move out of the lungs. muscle. The block occurs within the neuromuscu-
+4. W hat is meant by forced exhalation? How do the lar junction, including the neuromuscular junction
+abdominal muscles assist with forced exhalation? of the phrenic nerve and diaphragm. The patient is
+then not only unable to move the body voluntarily
+but is also unable to breathe.
+Nerves That Supply the Respiratory Muscles
+Ventilation occurs in response to changes in the thoracic
+Re-Think
+volume, and the changes in thoracic volume are caused by
+muscle contraction and relaxation. The respiratory mus- 1. W hat is the respiratory consequence of an injured or
+severed phrenic nerve?
+cles, being skeletal muscles, must be stimulated by motor
+2. E xplain how blockade at the neuromuscular junction
+nerves to contract. The motor nerves supplying the respi-
+(phrenic nerve/diaphragm) impairs ventilation.
+ratory muscles are the phrenic nerve and intercostal nerves.
+
+416 CHAPTER 22 Respiratory System
+Sum It Up! Go Figure (Refer to Fig. 22.9)
+The three steps in respiration are ventilation, exchange of 1. T /F __ Phrenic nerve stimulation relaxes the diaphragm
+oxygen and carbon dioxide in the lungs and cells, and trans- and causes exhalation.
+port of oxygen and carbon dioxide by the blood. Ventilation 2. W hich of the following is necessary for exhalation?
+occurs in response to changes in thoracic volumes, which ____________________ (phrenic nerve stimulation,
+in turn cause changes in intrapulmonic pressures (Boyle’s contraction of the diaphragm, decreased thoracic
+law). Inhalation occurs when the respiratory muscles (primar- volume, decreased intrapulmonic pressure)
+ily the diaphragm) contract and enlarge the thoracic cage.
+Exhalation occurs when the respiratory muscles relax, allow-
+ing the thorax to return to its smaller, resting thoracic volume.
+The muscles of respiration are skeletal muscles and contract
+in response to stimulation of the phrenic and intercostal Do You Know...
+nerves. The steps involved in ventilation are summarized in
+That Charles Dickens “Nailed It” in His Novel The Pickwick
+Fi g. 22.9.
+Papers?
+Steps in Ventilation Yup, the creator of our beloved Tiny Tim in A Christmas
+Carol was the first to accurately describe (but not name)
+1. Stimulation of the phrenic and the syndrome of obesity-associated alveolar hypoventila-
+intercostal nerves tion, or Pickwickian syndrome. In Dickens’s description in
+Pickwick Papers, he refers to “a fat boy and red-faced boy
+in a state of somnolency” (extreme sleepiness). He sub-
+sequently addresses the boy as “Young Dropsy” (a refer-
+ence to his obesity), Young Opium-eater (a reference to his
+2. Contraction of the diaphragm and
+somnolency), and Young Boa Constrictor (a reference to
+external intercostal muscles
+his excessive appetite). Physiologically, this is what Dickens
+meant to say: The boy’s immense abdominal girth causes
+ventilatory insufficiency (periodic respirations and hypoven-
+tilation) and hypoxemia, explaining his extreme sleepiness
+3. Increased thoracic volume
+(somnolence). The hypoxemia also stimulates the produc-
+tion of red blood cells and polycythemia (through eryth-
+ropoietin) in an attempt to increase oxygen in the blood;
+this accounts for the boy’s red appearance. Had Dickens
+4. Decreased intrapulmonic pressure known a little pathophysiology, he would have thrown into
+the mix a probable hematocrit of 65, expanded blood vol-
+ume, hypercapnia with mild respiratory acidosis, alveolar
+hypoventilation, and an enlarged right heart. He would have
+5. Inhalation explained that right heart failure, in turn, causes distention
+of the neck veins (jugular venous distention, or JVD), hepa-
+tomegaly, and pedal edema.
+Although Dickens didn’t throw around much medical
+terminology, Young Dropsy’s appearance described
+6. Quieting of the phrenic and
+the syndrome quite accurately. So why is Pickwickian
+intercostal nerves
+syndrome of such concern today? Because of the
+prevalence of obesity in our society and the wide varieties
+of obesity-related health conditions! Our increasing girth
+continues to “expand” upward. The short-term solution
+7. Relaxation of the diaphragm and
+may be to increase the size of clothes, chairs, and
+external intercostal muscles
+caskets, but the real solution is to waste the waist. The
+good news? Weight loss appears to reverse the signs and
+symptoms of Pickwickian syndrome, including “obesity
+h eart disease.”
+8. Decreased thoracic volume
+STEP 2: EXCHANGE OF OXYGEN AND
+CARBON DIOXIDE
+9. Increased intrapulmonic pressure
+Inhalation delivers fresh oxygen-rich air to the al-
+veoli and exhalation removes carbon dioxide–laden
+air from the alveoli. The second step of respiration
+10. Exhalation is the exchange of the respiratory gases. Exchange
+occurs at two sites: in the lungs and at the cells
+Fig. 22.9 Flowchart: Steps in Ventilation. (Fig. 22.10).
+
+|     |     |     | Respiratory System  | CHAPTER 22 | 417 |
+| --- | --- | --- | ------------------- | ---------- | --- |
+LUNGS
+P 104
+| Pulmonary artery | P 40 | O2   |      |                 |     |
+| ---------------- | ---- | ---- | ---- | --------------- | --- |
+|                  | O2   | P 40 |      |                 |     |
+|                  | P 45 | CO2  | P 95 | Pulmonary veins |     |
+|                  | CO2  |      | O2   |                 |     |
+|                  |      |      | P 40 |                 |     |
+O CO2
+|     | CO 2  |     | 2   |     |     |
+| --- | ----- | --- | --- | --- | --- |
+Alveoli
+Pulmonary
+capillaries
+Left
+Right
+heart
+heart
+Systemic capillaries
+P O2  40
+P O2  95
+P CO2  45
+P CO2  40
+| Systemic veins |     |     |     | Systemic arteries |     |
+| -------------- | --- | --- | --- | ----------------- | --- |
+O 2
+P 40
+|     | CCOO | O2  |     |     |     |
+| --- | ---- | --- | --- | --- | --- |
+22   P 50
+CO2
+TISSUE
+Fig. 22.10 Partial pressures of oxygen (PO ) and carbon dioxide (PCO ) within the lungs and at the cellular level (in
+|     | 2   | 2   |     |     |     |
+| --- | --- | --- | --- | --- | --- |
+millimeters of mercury).
+ Go Figure (Refer to Fig. 22.10) much resistance to the movement of oxygen and
+carbon dioxide across the membranes.
+|  1. W  hat are the capillary and tissue PO 2   |     |     |     |     |     |
+| ---------------------------------------------- | --- | --- | --- | --- | --- |
+	•	  Closeness of the alveoli to the pulmonary capillaries.
+levels?___________, ___________ (50, 40, 95, 200)
+Each alveolus is very close to a pulmonary capil-
+ 2. W  hat are the PCO  levels of venous blood and tissue?
+2 lary. For diffusion, closeness ensures a high rate of
+_________, _______ (45, 95, 200, 50)
+|  3. T /F __ This figure illustrates gas exchange at the  |     | diffusion.  |     |     |     |
+| -------------------------------------------------------- | --- | ----------- | --- | --- | --- |
+pulmonary capillary/alveolar site and gas exchange at
+Partial Pressures and the Diffusion of Gases
+    the peripheral tissue site.
+What causes the respiratory gases to diffuse? Chapter 3
+describes how molecules diffuse from an area of higher
+Why the Lungs Are Good Gas Exchangers concentration to an area of lower concentration. For
+Gas exchange occurs in the lungs, specifically across  gases such as oxygen and carbon dioxide, however,
+the membranes of the alveoli and pulmonary capillar- concentration is related to pressure. When the mole-
+ies. Three conditions make the alveoli well suited for  cules of a gas are highly concentrated, the gas creates
+the exchange of oxygen and carbon dioxide: a large  a high pressure. Consequently, we can talk about dif-
+surface area, thin alveolar and pulmonary capillary  fusion from areas of higher pressure to areas of lower
+| walls, and a short distance between the alveoli and  |     | pressure. |     |     |     |
+| ---------------------------------------------------- | --- | --------- | --- | --- | --- |
+pulmonary capillaries. Ordinary room air is a gas composed of 78% ni-
+	•	  Large surface area. Millions of alveoli, approximately  trogen, 21% oxygen, and 0.04% carbon dioxide. Each
+350 million per lung, create a total surface area about  part of the gas contributes to the total pressure. The
+half the size of a tennis court. The large surface in- amount of pressure each gas contributes is called the
+creases the amount of oxygen and carbon dioxide  partial pressure. The symbol for the partial pressure of
+exchanged across the alveolar membranes. oxygen is PO 2 ; the symbol for the partial pressure of
+	•	  Thin alveolar and pulmonary capillary walls. The thin  carbon dioxide is PCO . (Because the body does not
+2
+walls  favor  diffusion  because  they  do  not  offer  use nitrogen gas, we can ignore it.)
+
+418 CHAPTER 22 Respiratory System
+Partial pressures within the lungs. Fig. 22.10 illustrates Oxygen Transport
+the diffusion of the respiratory gases at two sites: the Almost all the oxygen (98%) is transported by the he-
+lungs and the tissues. Let us analyze the partial pressures moglobin in the red blood cells. The remaining 2%
+of the respiratory gases in the alveoli and pulmonary of the oxygen is dissolved in the plasma. As soon as
+capillaries. The PO of air in the alveoli is 104 mm Hg, oxygen enters the blood in the pulmonary capillaries,
+2
+whereas the PO of venous blood (the blue end of the it immediately forms a loose bond with the iron por-
+2
+pulmonary capillary) is 40 mm Hg. Oxygen diffuses tion of the hemoglobin molecule. This new molecule
+from the area of higher pressure (the alveolus) to the is oxyhemoglobin. As the oxygenated blood travels
+area of lower pressure (the pulmonary capillary). Note to the cells throughout the body, the oxygen unloads
+that the PO in the blood increases from 40 mm Hg from the hemoglobin molecule and diffuses across the
+2
+(blue) to 95 mm Hg (red). The partial pressure of oxy- capillary walls to the cells. The oxygen is eventually
+gen increases because the blood has been oxygenated. used up by the metabolizing cells.
+As for the waste, the PCO (the carbon dioxide) in the
+2
+blood (blue capillary) is 45 mm Hg, whereas the PCO Carbon Dioxide Transport
+2
+in the alveolus is only 40 mm Hg. Carbon dioxide dif- Blood carries carbon dioxide from the metabolizing
+fuses from the capillary, the area of higher pressure, to cells to the lungs, where it is exhaled. Blood carries
+the alveolus, the area of lower pressure. Because of the carbon dioxide in the following three forms:
+diffusion of carbon dioxide out of the blood, the PCO • Seventy percent of the carbon dioxide is converted
+2
+of the blood decreases from 45 mm Hg at the blue end of to the bicarbonate ion (HCO −). Note that the blood
+3
+the capillary to 40 mm Hg at the red end of the capillary. carries most of the carbon dioxide in the form of
+What has been accomplished? The blood coming from bicarbonate.
+the right side of the heart (blue) has been oxygenated, • Twenty percent of the carbon dioxide combines
+and the oxygenated blood (red) eventually returns to the with hemoglobin to form carbaminohemoglobin.
+left side of the heart, so that it can be pumped through- Note that the hemoglobin carries both oxygen and
+out the body. As oxygenation occurs, carbon dioxide has carbon dioxide but at different sites on the hemo-
+been removed; it leaves the lungs during exhalation. globin molecule. The oxygen forms a loose bond
+with the iron portion of the hemoglobin, whereas
+Partial pressure at the cells. What happens to the gas- the carbon dioxide bonds with the globin, or protein
+es at the tissues, or body cells? Two events occur. First, (amino acids) portion, of the hemoglobin.
+oxygen leaves the blood and diffuses into the cells, • Ten percent of the carbon dioxide is dissolved in
+where it can be used during cell metabolism. Second, plasma.
+carbon dioxide, a consequence of cell metabolism, dif-
+fuses into the blood. Re-Think
+What partial pressures cause these events to hap-
+1. W hat is the PO in the alveoli, pulmonary veins, tissue,
+pen? The PO of the arterial blood is 95 mm Hg, where- 2
+2 and vena cava?
+as the cellular PO is only 40 mm Hg. During gas ex-
+2 2. W hat is the driving force for oxygen as it moves from the
+change, oxygen diffuses from the blood into the space alveoli into the blood? From the blood into the tissues?
+surrounding the cells. The PCO 2 of the cells is 50 mm 3. W hat is the primary way in which the blood transports
+Hg, and the arterial PCO is only 40 mm Hg. Carbon oxygen? Carbon dioxide?
+2
+dioxide therefore diffuses from the cells into the blood.
+The blood then carries the carbon dioxide to the lungs
+for excretion. Thus oxygenated blood from the lungs
+Sum It Up!
+carries the oxygen to the cells; the oxygen then diffuses
+from the blood into the cells. The carbon dioxide, or Exchange of the respiratory gases occurs at two sites: the
+lungs and the cells. Oxygen diffuses from the alveoli into the
+the waste produced by the metabolizing cells, diffuses
+pulmonary capillaries. Carbon dioxide diffuses from the pul-
+into the blood, which carries it to the lungs for excre-
+monary capillaries into the alveoli. At the cellular sites, oxygen
+tion. Note the venous blood leaving the cells. The PO
+2 diffuses from the capillaries into the cells, and carbon dioxide
+is 40 mm Hg because the oxygen has been used up by
+diffuses from the cells into the capillaries. Blood transports
+the cells. The PCO is 45 mm Hg because the waste was
+2 oxygen and carbon dioxide. Hemoglobin carries most of the
+removed from the cells. oxygen as oxyhemoglobin. The blood carries most of the
+ca rbon dioxide in the form of a bicarbonate ion (HCO 3−).
+STEP 3: TRANSPORT OF OXYGEN AND CARBON
+DIOXIDE
+The third step in respiration is the blood’s mechanism AMOUNTS OF AIR
+for transporting oxygen and carbon dioxide between
+LUNG VOLUMES
+the lungs and body cells. Although the blood trans-
+ports both oxygen and carbon dioxide, the way in Think about all the ways in which you can vary the
+which blood transports each gas differs. amount of air you breathe. For example, you can
+
+Respiratory System CHAPTER 22 419
+Liters
+6
+5
+Inspiratory
+reserve
+4
+Vital
+capacity
+Tidal
+volume
+Total lung (normal, 3
+capacity quiet
+breathing) 2.5
+Expiratory 2
+reserve
+1.2
+Residual volume
+0
+Time
+Fig. 22.11 Pulmonary Volumes and Capacities.
+Go Figure (Refer to Fig. 22.11) of air, inhale as much as you possibly can. The ad-
+ditional volume of air is called the inspiratory re-
+1. V ital capacity measurement does not include
+_____________________. (tidal volume, inspiratory reserve serve volume. This extra volume is approximately
+volume, expiratory reserve volume, residual volume) 3000 mL.
+2. T ake a deep breath and exhale as much as you can. • Expiratory reserve volume. Exhale a normal amount
+These directions measure _______________. (tidal volume, of air. Now, in addition to this normal amount of air,
+residual volume, total lung capacity, vital capacity) exhale as much as you possibly can. The extra vol-
+ume of exhaled air is called the expiratory reserve
+volume. It is about 1100 mL.
+inhale a small amount of air, or you can take a deep • Residual volume. Even after a forced exhalation,
+breath. How are you breathing now? Probably slowly about 1200 mL of air remains in the lungs. This
+and effortlessly. With strenuous exercise, you breathe remaining air is the residual volume. Residual air
+more rapidly and deeply. If you become anxious, your remains in the lungs at all times, even between
+breathing pattern becomes more rapid and shallow. breaths. Note in Fig. 22.11 that the four pulmonary
+With certain diseases, your respirations might increase volumes add up to the total lung capacity.
+or decrease. In other words, the amount, or volume, of
+LUNG CAPACITIES
+air you breathe can vary significantly.
+The different volumes of air you breathe have In addition to four pulmonary volumes, there are
+names. The four pulmonary volumes are tidal volume, three pulmonary capacities (one described here). A
+inspiratory reserve volume, expiratory reserve volume, and pulmonary capacity is a combination of pulmonary
+residual volume. A spirometer (spih-ROM-eh-ter) is a volumes. For example, vital capacity (4600 mL) refers
+device that measures pulmonary volumes. The patient to the combination of tidal volume (500 mL), inspi-
+blows into the spirometer, which measures the amount ratory reserve volume (3000 mL), and expiratory re-
+of air and prints the results on graph paper. A record- serve volume (1100 mL). The measurement of vital
+ing of the volumes appears in Fig. 22.11 and is sum- capacity is a commonly used pulmonary function
+marized in Table 22.1: test.
+• Tidal volume. Breathe in and out. The amount of You can measure vital capacity as follows. Take the
+air moved into or out of the lungs with each breath deepest breath possible. Exhale all the air you possi-
+is called the tidal volume. The average tidal volume bly can into a spirometer. The spirometer measures the
+during normal quiet breathing is about 500 mL. amount of air you forcibly exhale. The amount exhaled
+Tidal volume increases with exercise. should be approximately 4600 mL. In other words, vital
+• Inspiratory reserve volume. Inhale a normal vol- capacity is the maximal amount of air exhaled after a
+ume of air. Now, in addition to this normal amount maximal inhalation. Vital capacity measures pulmonary
+
+420 CHAPTER 22 Respiratory System
+Table 22.1 Lung Volumes and Capacities
+NAME DESCRIPTION AMOUNT (mL)
+Volumes
+Tidal volume The volume of air moved into or out of the lungs during one respiratory cycle 500
+Residual volume The volume of air that remains in the lungs after a forceful exhalation 1200
+Inspiratory reserve volume The volume of air that can be forcefully inhaled after normal inhalation 3000
+Expiratory reserve volume The volume of air that can be forcefully exhaled after normal exhalation 1100
+Capacities
+Vital capacity The maximum volume of air that can be exhaled following maximal inhalation 4600
+Functional residual capacity The volume of air remaining in the lungs following exhalation during quiet breathing 2300
+Total lung capacity The volume of air in the lungs following a maximal inhalation 5800
+function in patients with lung diseases such as emphy- about 16 times/min. (The normal respiratory rate
+sema and asthma. A more commonly used clinical term ranges from 12 to 20 breaths/min in an adult and from
+for forced vital capacity is the forced expiratory volume 20 to 40 breaths/min in a child, depending on the age
+(FEV). The FEV is the fraction of the forced vital capac- and size of the child.) You do not have to remember
+ity exhaled in a specific number of seconds. The sub- to breathe in and out, nor do you have to calculate
+script in FEV indicates the number of seconds that the how deeply to breathe. Fortunately, breathing occurs
+1
+measurement lasted. The term peak expiratory flow rate automatically.
+(PEFR) is another clinically useful respiratory measure- You can control breathing voluntarily up to a point.
+ment. It is defined as the maximal rate of airflow during Hold your breath for 5 seconds. Now try to hold your
+expiration. PEFR is measured by a handheld flow meter. breath for 3 minutes. You can’t do it; you must breathe.
+Asthmatic patients are taught to measure FEV and/or The need to breathe means that Sammy should not
+1
+PEFR in an attempt to manage their asthma. (Other pul- hold you hostage with his temper tantrums. No mat-
+monary capacities are listed in Table 22.1.) ter how good his performance and how long he holds
+his breath, he will eventually take a really deep breath
+DEAD SPACE
+and live.
+Some of the air you inhale never reaches the alveoli.
+It stays in the conducting passageways of the trachea,
+bronchi, and bronchioles. Because this air does not
+reach the alveoli, it is not available for gas exchange
+and is said to occupy anatomical dead space. The dead
+space holds about 150 mL of air. Breathing slowly and
+deeply increases the amount of well-oxygenated air that
+reaches the alveoli. Conversely, rapid panting delivers
+a poorer quality of air to the alveoli because a greater
+percentage of the inhaled volume of air remains in the
+anatomical dead space. Therefore, when you encourage
+your patients to take deep breaths, you are also helping
+NEURAL CONTROL OF BREATHING
+supply the alveoli with well-oxygenated air.
+How does the body control breathing? The two
+Re-Think means of controlling breathing are nervous and
+chemical mechanisms. The nervous mechanism
+1. D ifferentiate between tidal volume and vital capacity.
+involves several areas of the brain, the most im-
+2. E xplain to your postoperative patient why deep breathing
+portant being the brain stem. Special groups of
+is beneficial.
+neurons are widely scattered throughout the brain
+stem, particularly in the medulla oblongata and
+the pons (Fig. 22.12). The main control center for
+CONTROL OF BREATHING
+breathing, in the medulla oblongata, is called the
+Normal breathing is rhythmic and involuntary. For medullary respiratory control center. It sets the basic
+example, as you read, you are breathing effortlessly, breathing rhythm.
+
+Respiratory System CHAPTER 22 421
+Emotional responses,
+anxiety and fear
+(fight or flight)
+Hering–Breuer
+reflex prevents
+over-inflation
+of the lungs
+Sneezing,
+coughing,
+and yawning
+Pneumotaxic center
+Peripheral
+Pons chemoreceptors
+in carotid and
+Apneustic center aortic bodies
+Medullary
+respiratory
+control center
+Medulla oblongata
+Inspiratory neurons
+Expiratory neurons
+Voluntary control
+over breathing
+Central
+chemoreceptors
+in medulla
+Fig. 22.12 Neural and Chemical Factors That Influence Breathing.
+Go Figure (Refer to Fig. 22.12) Inhalation occurs when the inspiratory neurons in the
+medulla oblongata fire, giving rise to nerve impulses.
+1. T he inspiratory and expiratory neurons of the respiratory
+The nerve impulses travel from the medulla oblongata
+control center are located in the ____________. (medulla
+along the phrenic and intercostal nerves to the muscles
+oblongata, pons, apneustic center, Broca’s area) is this
+of respiration. Contraction of the respiratory muscles
+spaced properly?
+2. T he pneumotaxic and apneustic centers are located in causes inhalation. Exhalation occurs when the expira-
+the _______________. (medulla oblongata, cerebrum, tory neurons in the medulla oblongata fire and shut
+lungs, cerebellum) down the inspiratory neurons. This process inhibits the
+
+422 CHAPTER 22 Respiratory System
+formation of nerve impulses and causes the respiratory stimulate the areas of the brain stem concerned with
+muscles to relax. Thus, breathing is the result of the al- respiration. The two types of chemoreceptors are cen-
+ternate firing of the inspiratory and expiratory neurons. tral chemoreceptors, located in the central nervous
+Although the medulla oblongata is the main control system (CNS), and peripheral chemoreceptors, located
+center for breathing, the pons also plays an important outside the CNS.
+role. The pons contains the pneumotaxic and the ap- The central chemoreceptors in the medulla oblon-
+neustic centers. These areas in the pons modify and gata detect changes in the blood concentrations of
+help control breathing patterns. Damage to these ar- carbon dioxide and hydrogen ions. If carbon dioxide
+eas, as in stroke, produces some distinctive breathing or hydrogen ion concentration increases, the central
+patterns. chemoreceptors signal the respiratory center to in-
+The medullary respiratory center is very sensitive crease its activity. This response causes an increase in
+to the effects of opioids (narcotics). Narcotics, such the rate and depth of breathing. As a result of the in-
+as morphine, depress the medulla oblongata and crease in breathing, carbon dioxide is exhaled and the
+slow respirations. If the narcotic overdose is large blood levels of carbon dioxide decrease. Conversely,
+enough, respirations may even cease, causing re- if the blood levels of carbon dioxide and hydrogen
+spiratory arrest and death. Because of the profound ions decrease, breathing decreases, thereby allowing
+effect of narcotics on respiration, you must check a concentrations of both carbon dioxide and hydrogen
+patient’s respiratory rate before administering nar- ions to increase. Breathing is controlled primarily by
+cotics. Respiratory depression is always an issue with blood concentrations of carbon dioxide and hydro-
+narcotic use. gen ions, which trigger the central chemoreceptors.
+Although the brain stem normally determines the (Note the relationship between respiratory activity
+basic rate and depth of breathing, other areas of the and blood pH; the respiratory control of blood pH is
+brain, including the hypothalamus and cerebral cor- described in Chapter 25.)
+tex, can also affect breathing patterns. For example, The peripheral chemoreceptors are in the walls
+the hypothalamus processes our emotional responses, of the carotid arteries and the walls of the aorta in
+such as anxiety and fear. The hypothalamus, in turn, the neck and chest region. They are called the carotid
+stimulates the brain stem and changes the breathing and aortic bodies. (Do not confuse the chemorecep-
+pattern. Rapid breathing, a response to anxiety or tors with the baroreceptors, which are located in
+fear, is part of the fight-or-flight response. The cere- the same general area.) The peripheral chemorecep-
+bral cortex can also affect respiration; cortical activity tors are sensitive primarily to low concentrations of
+allows us to control the depth and rate of breathing oxygen and increased hydrogen ion concentrations.
+voluntarily. Blood concentrations of oxygen, however, must be
+Several other nervous pathways affect the respi- very low to trigger the peripheral chemoreceptors.
+ratory system. For example, the vagus nerve carries Thus, oxygen plays only a minor role in the regula-
+nerve impulses from the lungs to the brain stem. tion of breathing. Remember: PCO is the major regula-
+2
+When the lungs become inflated, nerve impulses tor of respirations.
+travel to the brain stem, inhibiting the inspiratory
+neurons. This response is called the Hering-Breuer The What-Ifs of PCO Dysregulation
+2
+reflex. It prevents overinflation of the lungs. The ner- • What If the person with COPD is administered O
+2
+vous structures not only control breathing patterns therapy? As stated previously, PCO is normally the
+2
+but also affect several reflexes associated with the major regulator of respiratory activity. In a patient
+respiratory system. These include coughing, sneez- with a chronic elevation in PCO , as in obstructive
+2
+ing, and yawning. lung disease, the major regulator of respiratory ac-
+tivity shifts from PCO to PO . This patient now
+2 2
+Re-Think breathes in response to declining levels of PO 2 . This
+shift is of clinical concern for the following reason:
+1. W hat part of the brain stem exerts the greatest control of
+If the COPD patient’s PO declines too acutely, he
+respiration? 2
+may require the administration of supplemental O
+2. W hat are inspiratory and expiratory neurons? 2
+to correct the life-threatening hypoxemia. The criti-
+3. W hy will a downward herniation of the brain stem
+through the foramen magnum cause respiratory arrest? cal point is that the amount of O 2 must be sufficient
+to address the hypoxemia but not enough to “knock
+out” the new respiratory regulator (the low PO ).
+2
+CHEMICAL CONTROL OF BREATHING
+If too much O is administered, the PO increases,
+2 2
+Chemicals dissolved in the blood also affect breathing and the patient’s color improves. Unfortunately,
+(see Fig. 22.12), including carbon dioxide, hydrogen he loses his stimulus to breathe and becomes ap-
+ion (which determines the pH), and oxygen. These neic. The apnea causes a drastic increase in PCO ,
+2
+chemicals are detected by chemosensitive cells called which, in turn, causes CNS depression and induces
+chemoreceptors. When activated, the chemoreceptors a stuporous state progressing to unconsciousness.
+
+|                                       |                       |                   | Respiratory System                                       | CHAPTER 22 | 423 |
+| ------------------------------------- | --------------------- | ----------------- | -------------------------------------------------------- | ---------- | --- |
+| This sequence of events is called “CO |                       | 2  narcosis.” In  |  Re-Think                                                |            |     |
+| response to supplemental O            |  the patient with ob- |                   |                                                          |            |     |
+|                                       | 2,                    |                   |  1. W  hat is the major chemical regulator of breathing? |            |     |
+structive lung disease literally “pinks up and dies.”
+ 2. L ocate and identify the stimulators of the
+•	 		What If hyperventilation is practiced prior to a free
+chemoreceptors involved in the chemical regulation of
+diving event? Hyperventilation is used by free div-
+breathing.
+ers to prolong time under water. Like anyone else,   3. T he patient with obstructive lung disease has a chronically
+the diver breathes normally in response to increas- elevated PCO . Explain why the administration of oxygen
+2
+| ing PCO ; as PCO |  increases, she inhales. Here is  |     |                                       |     |     |
+| ---------------- | --------------------------------- | --- | ------------------------------------- | --- | --- |
+| 2                | 2                                 |     |   can cause him to “pink up and die.” |     |     |
+the dangerous practice: The diver hyperventilates
+before the dive in an attempt to lower her PCO .
+2
+| The lower the PCO | 2 , the longer it takes for the  |     |  Sum It Up! |     |     |
+| ----------------- | -------------------------------- | --- | ----------- | --- | --- |
+PCO  to increase to the level that forces her to in-
+| 2   |     |     | Normal breathing is rhythmic and involuntary. Nervous and  |     |     |
+| --- | --- | --- | ---------------------------------------------------------- | --- | --- |
+hale. She thus prolongs the time she can remain
+chemical mechanisms control breathing. The nervous mecha-
+submerged. With excessive hyperventilation, the
+nism involves several areas of the brain, the most important of
+PCO  declines. However, as the diver swims about
+2 which is the brain stem. The inspiratory and expiratory neu-
+under water, her tissues consume O 2 , and her PO 2   rons in the medulla oblongata determine the basic breathing
+declines. The decline in PO  may be sufficient to  pattern, which can be modified by the apneustic center and
+2
+cause hypoxemia and loss of consciousness. The  pneumotaxic center in the pons. Chemicals in the blood help
+unconscious diver then resumes breathing under  to control respirations. The central chemoreceptors in the
+water and drowns. brain are sensitive to carbon dioxide and hydrogen ions, and
+the peripheral chemoreceptors are sensitive to low blood lev-
+Respiratory patterns change, most often in response
+els of oxygen and an increase in the hydrogen ion concentra-
+to changing body needs and sometimes in response to
+tion. PCO  is the major regulator of respirations. The patient
+| underlying pathology. Table 22.2 includes respiratory  |     |     | 2                                                            |     |     |
+| ------------------------------------------------------ | --- | --- | ------------------------------------------------------------ | --- | --- |
+|                                                        |     |     | with obstructive lung disease has a chronically elevated PCO |     | 2   |
+terms commonly used to describe altered respiratory
+|           |     |  an d may shift his respiratory drive from PCO |     |  to PO . |     |
+| --------- | --- | ---------------------------------------------- | --- | -------- | --- |
+| activity. |     |                                                |     | 2 2      |     |
+Table 22.2      Common Respiratory Terms
+| TERM  | DESCRIPTION                       |     |     |     |     |
+| ----- | --------------------------------- | --- | --- | --- | --- |
+| Apnea | Temporary cessation of breathing. |     |     |     |     |
+Cyanosis A bluish color of the skin or mucous membrane caused by a low concentration of oxygen in
+the blood.
+| Dyspnea | Difficult or labored breathing. |     |     |     |     |
+| ------- | ------------------------------- | --- | --- | --- | --- |
+| Eupnea  | Normal, quiet breathing.        |     |     |     |     |
+Hypercapnia An abnormally high concentration of carbon dioxide in the blood.
+Hyperventilation An increase in the rate and depth of respiration. Hyperventilation causes an excess
+exhalation of carbon dioxide and alkalosis.
+Hypocapnia An abnormally low concentration of carbon dioxide in the blood.
+Hypoventilation A decrease in the rate and depth of respiration. Hypoventilation causes a retention of carbon
+dioxide and acidosis.
+Hypoxemia An abnormally low concentration of oxygen in the blood.
+Hypoxia An abnormally low concentration of oxygen in the tissues.
+Kussmaul breathing An increase in rate and depth of respiration stimulated by metabolic acidosis.
+Orthopnea Difficulty in breathing that is relieved by a sitting-up position.
+Rales Crackles (as in snap, crackle, and pop) are small clicking sounds in the lungs that resemble
+rubbing hair together next to the ear. They are typically inspiratory and are believed to
+occur when air opens closed airspaces.
+Rhonchi Sounds similar to snoring that generally occur with obstruction of air in the large airways
+(trachea and bronchi).
+Stridor High-pitched, wheeze-like sound that can be heard on both inhalation and/or exhalation. It
+is caused by an obstruction of airflow in the upper airway, such as the trachea, or in the
+back of the throat.
+| Tachypnea | Rapid breathing |     |     |     |     |
+| --------- | --------------- | --- | --- | --- | --- |
+Wheezes High-pitched sounds typically heard on exhalation. Wheezing occurs when air is forced
+through narrow airways. Although commonly associated with asthma, wheezing may also
+be caused by other obstructing conditions (e.g., tumors, swelling, foreign bodies).
+
+424 CHAPTER 22 Respiratory System
+As You Age Move It
+…
+1. A s a person ages, lung capacity decreases. The 1. E xercise increases the strength of the respiratory
+decrease in lung capacity is caused by the loss of muscles thereby increasing pulmonary function and
+elasticity of the lung tissue and diminished efficiency of oxygen capacity. This, in turn, improves endurance,
+the respiratory muscles. By the age of 70 years, vital reduces breathlessness, and improves endurance.
+capacity has decreased 33%. 2. E xercise increases cardiac performance, which, in turn,
+2. W ith aging, many of the protective mechanisms of the improves pulmonary blood flow and enhances delivery of
+respiratory system decline. The ciliary activity of the oxygen and nutrients to all tissues.
+mucosa decreases, for example, and the phagocytes in 3. E nhanced cardiac and respiratory performance
+the lungs become less effective. As a result, older adults in persons with chronic lung disease eases
+are at greater risk for respiratory infections, especially symptomatology and improves quality of life.
+pneumonia and bronchitis. 4. E xercise helps to clear the respiratory passages of
+3. W ith age-related structural changes, the number of mucus and bacteria, thereby preventing infection.
+alveoli diminishes. The resulting decrease in oxygenation Persons who exercise get fewer colds.
+ultimately diminishes the capacity for physical activity. 5. E xercise enhances the numbers and effectiveness of
+4. R espiratory control is altered; consequently, the PO 2 alveolar macrophages. The effect on macrophages may
+drops to a lower level, whereas the PCO 2 increases to a represent the main effect of exercise on the pulmonary
+higher level. system.
+5. H aving breathed a lifetime’s worth of various harmful
+substances (e.g., cigarette smoke, pollutants, pollens,
+pathogens), the lungs of an older person often show
+evidence of wear and tear, leading to emphysema and
+other respiratory disorders.
+Medical Terminology and Disorders Disorders of the Respiratory System
+WORD PART
+MEANING OR
+MEDICAL TERM WORD PARTS DERIVATION DESCRIPTION
+Words
+epistaxis From a word Epistaxis is a nosebleed.
+meaning “to drip”
+eupnea (and eu- normal Eupnea means normal breathing. To contrast, bradypnea (brady- =
+other “-pnea” slow) is slow breathing, whereas tachypnea (tachy- = rapid) means
+-pnea breathing
+words) rapid breathing. Apnea (a- = without) refers to the temporary
+cessation of breathing, dyspnea (dys- = difficult) is difficulty in
+breathing, and orthopnea (ortho- = straight) is the inability to
+breathe unless in an upright position.
+oximeter -ox/i- oxygen A pulse oximeter is a mechanical device used to measure oxygen
+levels in the blood.
+-meter measure
+thoracentesis thorac/o- chest A thoracentesis is the incision through the chest wall to aspirate fluid
+or air.
+-centesis surgical puncture
+Disorders
+influenza From a word A respiratory infection (also known as the flu) that can be caused by
+meaning several influenza viruses.
+“influence of the
+cold”
+pharyngitis pharyng/o- pharynx or throat Also called a sore throat; refers to an inflammation of the pharynx or
+throat.
+-itis inflammation of
+rhinitis rhin/o- nose Refers to the inflammation of the nasal mucosa. Acute viral rhinitis is the
+common cold or acute coryza.
+-itis inflammation of
+sinusitis (acute) sinus/o- sinus Refers to inflammation of the sinuses and is most often due to a
+swelling and narrowing of passages that drain the sinuses.
+-itis inflammation of
+
+Respiratory System CHAPTER 22 425
+Medical Terminology and Disorders Disorders of the Respiratory System—cont’d
+WORD PART
+MEANING OR
+MEDICAL TERM WORD PARTS DERIVATION DESCRIPTION
+Lower Respiratory Disorders
+asthma From a word A chronic immune-mediated airway inflammation, characterized by
+meaning “to breathlessness, tightness of the chest, dyspnea, wheezing, and
+breathe hard” or coughing.
+“to pant”
+bronchiectasis bronch/o- bronchus Refers to the permanent and abnormal dilation of the bronchi.
+-ectasis stretching or dilation
+tuberculosis tubercul/o- tubercle Commonly called TB. It is known historically as “consumption”
+and was responsible for the “white plague.” TB is caused by
+-osis condition of
+Mycobacterium tuberculosis, or the “acid-fast” bacillus, and is
+generally spread by droplet infection through inhalation of the
+pathogen.
+Restrictive Lung Disorders
+Disorders characterized by decreased “stretchiness” of the lungs and/or chest wall. They are classified as extrapulmonary and
+intrapulmonary disorders. Extrapulmonary causes of restrictive disorders include disorders of the CNS, the neuromuscular
+junction, and the chest wall. The intrapulmonary disorders are described as follows.
+pleuritis pleur/o- pleura Also called pleurisy and refers to an inflammation of the pleura.
+Pleurisy is classified as dry pleurisy (fibrinous) and wet pleurisy
+-itis inflammation
+(serofibrinous, with an increased secretion of pleural fluid).
+pleural effusion pleur/o- pleura Refers to the accumulation of excess fluid between the two pleural
+membranes. (An effusion is an escape of a fluid into a body cavity.)
+-al pertaining to
+effusion From a word
+meaning “to pour
+out”
+pneumothorax pneum/o- air or lung Refers to the accumulation of air within the pleural space, causing the
+lung to collapse. A pneumothorax can be open (stabbing) or closed
+-thorac/o- chest
+(ruptured bleb on the lung). A tension pneumothorax is due to a
+rapid accumulation of air/fluid in the pleural space.
+interstitial lung A general term that includes many disorders characterized by
+diseases inflammation and fibrosis. The largest group of disorders appears in
+(ILDs) occupations and environments where there is significant inhalation
+of dust, gas, or fumes.
+pneumonia pneum/o- air or lung Refers to an inflammation of lung tissue. Pneumonia is the leading
+cause of death by infectious disease in the United States and has
+-ia condition of
+the highest mortality rate of all nosocomial (hospital-acquired)
+infections. There are many types of pneumonia.
+acute Adult respiratory distress syndrome, or ARDS, is a syndrome
+respiratory that leads to multiple organ failure and death. Infant respiratory
+distress distress syndrome (IRDS) occurs in the premature infant and is
+syndrome due to the lack of pulmonary surfactants. (IRDS was formerly called
+(ARDS) hyaline membrane disease.)
+Chronic Obstructive Pulmonary Diseases
+Called COPDs; include diseases (chronic bronchitis and emphysema) characterized by increased airflow obstruction. The major
+risk factor is cigarette smoking.
+emphysema From a word: Characterized by hyperinflation and destruction of the alveoli,
+meaning “puffed obstruction of the small airways, and loss of elasticity of the lung
+up” tissue.
+chronic bronch/o- bronchus The excessive production of mucus in the bronchi and the
+bronchitis development of a recurrent and productive cough.
+-itis inflammation of
+Continued
+
+426 CHAPTER 22 Respiratory System
+Medical Terminology and Disorders Disorders of the Respiratory System—cont’d
+WORD PART
+MEANING OR
+MEDICAL TERM WORD PARTS DERIVATION DESCRIPTION
+Vascular Lung Disorders
+pulmonary A collection of fluid within the alveolar and interstitial spaces of the
+edema lungs. The presence of fluid impairs the diffusion of respiratory
+gases causing dyspnea, hypoxemia, CO retention, and respiratory
+2
+acidosis.
+pulmonary The lodging of an embolus or emboli in the pulmonary arterial
+embolism circulation. The affected part of the lung is therefore ventilated but
+not perfused (with blood). The most common causes of pulmonary
+embolus are a blood clot arising from a thrombus in the deep veins
+of the legs or a clot originating in the right side of the heart in a
+person with atrial fibrillation.
+pulmonary An elevation in pulmonary artery pressure. Pulmonary hypertension
+artery increases the workload of the right ventricle, causing ventricular
+hypertension hypertrophy and cor pulmonale.
+Get Ready for Exams!
+Summary Outline G. Lungs
+1. The right lung has three lobes; the left lung has
+The respiratory system is primarily concerned with the deliv-
+only two lobes.
+ery of oxygen to every cell in the body and with the elimina-
+2. The lungs contain the structures of the lower respi-
+tion of carbon dioxide.
+ratory tract.
+I. S tructures: Organs of the Respiratory System H. Pleural membranes
+A. Consists of the upper and lower respiratory tracts 1. The serous membranes in the chest cavity are the
+B. Nose and nasal cavities parietal pleura and the visceral pleura.
+1. The nose and nasal cavities warm and humidify 2. Serous fluid between the pleural membranes pre-
+inhaled air. vents friction.
+2. Olfactory receptors are located in the nose. 3. The intrapleural space is located between the
+3. The nasal cavities receive drainage from the para- visceral and parietal pleurae.
+nasal sinuses and tear ducts. 4. For the lungs to remain expanded, the pressure in
+C. Pharynx (throat) the intrapleural space must be negative.
+1. The nasopharynx forms a passage for air only.
+II. Respiratory Function
+2. The oropharynx and laryngopharynx form pas-
+A. Respiration includes three steps: ventilation,
+sageways for both air and food.
+exchange of respiratory gases, and transport of respi-
+D. Larynx (voice box)
+ratory gases in the blood.
+1. The larynx is a passage for air.
+1. Ventilation (breathing)
+2. The epiglottis is the uppermost cartilage; it covers
+a. The two phases of ventilation are inhalation and
+the larynx during swallowing.
+exhalation.
+E. Trachea (windpipe)
+b. Ventilation occurs in response to changes in the
+1. It bifurcates into the right and left bronchi and
+thoracic volume (Boyle’s law).
+carries air to and from the lower respiratory
+c. Thoracic volume changes because of the
+structures.
+contraction and relaxation of the respiratory
+2. C-shaped rings of cartilage keep the trachea open.
+muscles.
+F. Bronchial tree
+d. The phrenic and intercostal nerves are motor
+1. The bronchial tree contains the bronchi, bronchi-
+nerves that supply the diaphragm and the inter-
+oles, and alveoli.
+costal muscles.
+2. The bronchioles determine the radius of the
+e. Inhalation is an active process (ATP is used dur-
+respiratory air passages and therefore affect the
+ing muscle contraction). Unforced exhalation is
+amount of air that can enter the alveoli.
+passive (no ATP used).
+3. The alveoli are tiny grapelike air sacs surrounded
+2. Exchange of gases
+by pulmonary capillaries.
+a. Exchange of respiratory gases occurs by
+4. Gas exchange occurs across the thin walls of the
+diffusion across the alveoli and pulmonary
+alveoli.
+capillaries.
+
+Respiratory System CHAPTER 22 427
+b. Oxygen diffuses from the air in the alveoli into Review Your Knowledge
+the blood while carbon dioxide diffuses from
+Matching: Structures of the Respiratory Tract
+the blood into the alveoli.
+Directions: Match the following words with their descrip-
+c. At the cellular layer, oxygen diffuses from the
+tions. Some words may be used more than once.
+capillaries to the cells. Carbon dioxide diffuses
+from the cells into the capillaries, where it is
+transported to the lungs for excretion.
+a. pharynx 1. _ _ The trachea
+3. Transport of gases in the blood
+b. trachea branches into a right
+a. Most of the oxygen (oxyhemoglobin) is trans-
+c. larynx and left _______.
+ported by the red blood cells.
+d. bronchus 2. __ This is called the
+b. The blood transports most carbon dioxide in
+e. paranasal sinuses voice box because
+the form of bicarbonate ion (HCO −).
+3 f. bronchioles it contains the vocal
+B. Amounts of air
+g. carina cords.
+1. Pulmonary volumes
+h. alveoli 3. _ _ Mucus drains
+a. The amounts of air moved into and out of the
+from these mucous
+lungs.
+membrane–lined
+b. Pulmonary volumes are illustrated in Fig. 22.11
+structures into the
+and summarized in Table 22.1.
+nasal passages.
+2. Vital capacity and anatomical dead space
+4. _ _ The respiratory
+a. Lung capacities are combinations of pulmonary
+structure is
+volumes.
+connected to the
+b. Vital capacity is the amount of air that can be
+middle ear by the
+exhaled after a maximal inhalation.
+eustachian tube.
+c. Anatomical dead space is approximately
+5. _ _ This large tube,
+150 mL of air remaining in the large conduct-
+called the windpipe,
+ing passageways that is unavailable for gas
+is supported by rings
+exchange.
+of cartilage.
+C. Control of breathing
+6. _ _ The respiratory
+1. Neural control of breathing
+structure(s)
+a. The respiratory center is located in the brain
+concerned with the
+stem.
+exchange of the
+b. The medullary respiratory center contains inspi-
+respiratory gases.
+ratory and expiratory neurons. Nerve impulses
+7. _ _ The structure
+travel along the phrenic and intercostal nerves
+closest to the
+to the muscles of respiration.
+pulmonary capillaries.
+c. The pneumotaxic center and apneustic center
+8. _ _ Tiny respiratory
+are in the pons. These centers help to produce
+passages that deliver
+a normal breathing pattern by influencing the
+air to the alveoli.
+medullary respiratory center.
+9. __ The respiratory
+d. Two other areas of the brain can affect respira-
+passage that delivers
+tions: the hypothalamus and cerebral cortex.
+air to the bronchioles.
+2. Chemical control of breathing
+10. __ The point at which
+a. Central chemoreceptors are stimulated by
+the trachea splits;
+carbon dioxide (PCO ) and hydrogen ion [H+].
+2 intense coughing
+b. Peripheral chemoreceptors are sensitive to low
+occurs when it is
+concentrations of oxygen and increased hydro-
+stimulated by a
+gen ion concentration in the blood.
+suction catheter.
+
+428 CHAPTER 22 Respiratory System
+Matching: Thoracic Cavity and Ventilation 7. Which of the following does not occur on inhalation?
+Directions: Match the following words with their descrip- a. Air moves into the lungs.
+tions. Some words may be used more than once. b. Thoracic volume increases.
+c. The diaphragm contracts.
+d. Pressure within the intrapleural space becomes
+a. parietal pleura 1. _ _ Membrane on the
+positive.
+b. thoracic cavity outer surface of each
+8. Which of the following is the normal drive for
+c. intrapleural space lung.
+ventilation?
+d. visceral pleura 2. _ _ Contains the pleural
+a. Surfactants
+e. phrenic cavity, pericardial cavity,
+b. Bicarbonate
+f. diaphragm and mediastinum.
+c. Increasing PCO
+3. _ _ The lung collapses 2
+d. Increasing PO
+when air or fluid 2
+collects in this space. 9. A deficiency of surfactants in the neonate
+4. _ _ The motor neuron a. makes it difficult to expand the lungs.
+that innervates the b. decreases alveolar surface tension.
+diaphragm. c. causes epiglottal swelling and laryngospasm.
+5. _ _ Dome-shaped d. makes the central chemoreceptors unresponsive to
+muscle that is the chief increasing PCO 2 .
+muscle of inhalation. 10. When the muscles of ventilation relax, which of the fol-
+6. _ _ Membrane that lowing takes place?
+lines the walls of the a. Thoracic volume increases and air moves out of the
+pleural cavity. lungs.
+7. _ _ The pressure here b. Air is inhaled.
+must be negative. c. Thoracic volume decreases and air moves out of the
+lungs.
+d. Thoracic volume decreases, thereby decreasing
+Multiple Choice
+intrapulmonic pressure.
+1. Ventilation
+11. A person exhales maximally after a maximal inhalation.
+a. refers to transport of the respiratory gases by hemoglobin.
+The amount of air forcibly exhaled is called the
+b. is caused by the movement of expired air through
+a. total lung volume.
+the glottis.
+b. tidal volume.
+c. consists of inhalation and exhalation.
+c. residual volume.
+d. consists of inhalation and inspiration.
+d. vital capacity.
+2. The bronchi, bronchioles, and alveoli are
+12. The epiglottis
+a. the sites of the exchange of respiratory gases.
+a. prevents entrance of food and water into the respira-
+b. upper respiratory structures.
+tory passages.
+c. collectively referred to as the bronchial tree.
+b. is a tube that connects the pharynx and the middle ear.
+d. surrounded by rings of cartilage.
+c. is located within the pleural cavities.
+3. The diameter of the bronchioles determines the
+d. is innervated by the phrenic nerve.
+a. amount of mucus secreted by the respiratory
+13. The phrenic nerve
+membranes.
+a. exits the spinal cord at the level of C4 and travels
+b. rate of surfactant secretion.
+within the cervical plexus.
+c. airflow to the alveoli.
+b. innervates the epiglottis.
+d. ventilatory rate.
+c. innervates the intercostal muscles.
+4. Firing of the phrenic nerve
+d. innervates the accessory muscles of exhalation.
+a. is responsible for exhalation.
+14. Identify the names of the following: voice box, throat,
+b. causes the diaphragm to contract.
+and windpipe.
+c. is responsible for the pumping of O from the alveoli
+2
+a. Larynx, vocal cords, and trachea
+into the pulmonary capillaries.
+b. Larynx, epiglottis, and eustachian tube
+d. decreases thoracic volume.
+c. Larynx, pharynx, trachea
+5. Which of the following best describes the visceral and
+d. Bronchial tree, carina, and apex
+parietal pleura?
+15. Which of the following describes Boyle’s law?
+a. They line the inner wall of the trachea, bronchi, and
+a. An increase in thoracic volume causes an increase in
+bronchioles.
+intrapleural pressure.
+b. They line the mediastinum.
+b. There is no relationship between intrapulmonic pres-
+c. They are serous membranes.
+sure and thoracic volume.
+d. They are surfactant-secreting membranes.
+c. An increase in thoracic volume decreases intrapul-
+6. If intrapleural pressure equals or exceeds intrapulmonic
+monic pressure.
+pressure,
+d. A decrease in thoracic volume decreases intrapul-
+a. surfactant secretion ceases.
+monic pressure.
+b. the lung collapses.
+c. the larynx can no longer generate sound.
+d. air is inhaled.
+
+23
+Digestive System
+http://evolve.elsevier.com/Herlihy
+Objectives
+ 1.  Discuss the basic anatomy and physiology of the digestive  	 •	  The role of bile in the digestion of fats
+system, including the following: 	 •	  The effects of the hormones gastrin, cholecystokinin,
+	 •	  The four functions of the digestive system and secretin
+	 •	  The processes of digestion and absorption  4.  Discuss nutrition concepts, including the following:
+	 •	  The four layers, nerves, and membranes of the  	 •	  The five categories of nutrients
+digestive tract 	 •	  The importance of a balanced diet
+ 2.  Describe the structure and functions of the organs and
+accessory organs of the digestive tract.
+ 3.  Explain the physiology of digestion and absorption,
+including the following:
+	 •	  The effects of amylases, proteases, and lipases
+Key Terms
+absorption (p. 430) digestive tract (p. 430) lipases (p. 448)
+alimentary canal (p. 430) disaccharides (p. 446) liver lobules (p. 444)
+| amylase (p. 446) | duodenum (p. 438) | mastication (p. 432) |
+| ---------------- | ----------------- | -------------------- |

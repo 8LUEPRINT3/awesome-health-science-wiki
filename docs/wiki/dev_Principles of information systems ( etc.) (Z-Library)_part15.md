@@ -1,0 +1,2128 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 15
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+another system or archiving it in accor-
+dance with applicable records manage-
+ment policies.
+software defect Any error that, if not 
+removed, could cause a software system to 
+fail to meet its users’ needs or open a door 
+for a cyberattacker.
+software as a service (SaaS) A software 
+distribution model under which a third-
+party provider hosts applications and 
+makes them available to subscribers over 
+the Internet.
+software suite A collection of programs 
+packaged together and sold in a bundle.
+software-defined networking (SDN) An 
+emerging approach to networking that 
+allows network administrators to have pro-
+grammable central control of the network 
+via a controller without requiring physical 
+access to all the network devices.
+solid state storage device (SSD) A storage 
+device that stores data in memory chips 
+rather than on hard disk drives or optical 
+media.
+source data automation Capturing data at 
+its source and recording it accurately in a 
+timely fashion, with minimal manual effort 
+and in an electronic or digital form so that 
+it can be directly entered into the computer.
+sponsoring business unit The business 
+unit most affected by the project and the 
+one whose budget will cover the project 
+costs.
+SQL A special-purpose programing lan-
+guage for accessing and manipulating data 
+stored in a relational database.
+stakeholder management A set of activ-
+ities that involves identifying, engaging, 
+communicating with all the people, groups, 
+or organizations who are or could be 
+impacted by a project.
+star network A network in which all 
+network devices connect to one another 
+through a single central device called the 
+hub node.
+storefront broker A company that acts as 
+an intermediary between your Web site and 
+online merchants who have the products 
+and retail expertise.
+strategic planning A process that helps 
+managers identify desired outcomes and 
+formulate feasible plans to achieve their 
+objectives by using available resources and 
+capabilities.
+strategy A plan that describes how an 
+organization will achieve its vision, mission, 
+objectives, and goals.
+streaming A form of data collection, where 
+data is available through a continuous feed.
+Strengths, Weaknesses, Opportunities, 
+Threats (SWOT) matrix A simple way 
+to illustrate what a company is doing 
+well, where it can improve, what oppor-
+tunities are available, and what environ-
+mental factors threaten the future of the 
+organization.
+security audit A process that enables the 
+organization to identify its potential threats, 
+establish a benchmark of where it is, deter-
+mine where it needs to be, and develop a 
+plan to meet those needs.
+security policy Defines an organization’s 
+security requirements, as well as the con-
+trols and sanctions needed to meet those 
+requirements.
+self-service analytics Training, techniques, 
+and processes that empower end users to 
+work independently to access data from 
+approved sources to perform their own 
+analyses using an endorsed set of tools. 
+selecting Manipulating data to eliminate 
+rows according to certain criteria. 
+semiconductor fabrication plant A factory 
+where integrated circuits are manufactured; 
+also called a fab or a foundry.
+semi-supervised learning Machine learn-
+ing using a combination of supervised and 
+unsupervised learning techniques.
+server A computer employed by many 
+users to perform a specific task, such as 
+running network or Internet applications.
+server farm A facility that houses a large 
+number of servers in the same room, where 
+access to the machines can be controlled 
+and authorized support personnel can more 
+easily manage and maintain the servers.
+server virtualization A method of logically 
+dividing the resources of a single physical 
+server to create multiple logical servers, 
+each acting as its own dedicated machine.
+service-oriented architecture (SOA) A 
+software design approach based on the use 
+of discrete pieces of software (modules) 
+to provide specific functions as services to 
+other applications.
+shadow IT The information systems and 
+solutions built and deployed by depart-
+ments other than the information systems 
+department.
+site preparation Preparation of the loca-
+tion of a new system.
+slack time The amount of time an activity 
+can be delayed without delaying the entire 
+project.
+slipstream upgrade A minor system 
+upgrade—typically a code adjustment or 
+minor bug fix; it usually requires recom-
+piling all the code, and in so doing, it can 
+create entirely new bugs.
+smart city Cities that make use of data 
+from sensors combined with artificial intel-
+ligence to improve infrastructure and effi-
+ciently manage traffic lights, power plants, 
+water supplies, networks, energy usage, 
+and other resources.
+soft side of implementing change The 
+work designed to help employees embrace 
+a new information system and way of 
+working.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 591
+
+Glossary
+569
+user preparation The process of readying 
+managers, decision makers, employees, 
+other users, and stakeholders to accept and 
+use the new system.
+utility programs A program that helps to 
+perform maintenance or correct problems 
+with a computer system.
+V
+version A major program change, typically 
+encompassing many new features.
+video analysis The process of obtaining 
+information or insights from video footage.
+virtual private network (VPN) A secure 
+connection between two points on the 
+Internet; VPNs transfer information by 
+encapsulating traffic in IP packets and 
+sending the packets over the Internet.
+virtual tape A storage device for less 
+frequently needed data. With virtual tape 
+systems, data appears to be stored entirely 
+on tape cartridges, although some parts of 
+it might actually be located on faster hard 
+disks.
+virtualization tools A set of tools that 
+allow users to access their desktop oper-
+ating system hosted in the cloud on a cen-
+tralized server—meaning users can interact 
+with files and applications as if they were 
+stored on a local device.
+virus signature Code that indicates the 
+presence of a specific virus.
+vision A concise statement of what an orga-
+nization intends to achieve in the future.
+vision statement A statement that com-
+municates an organization’s overarching 
+aspirations to guide it through changing 
+objectives, goals, and strategies (see also 
+mission statement).
+vision systems The hardware and software 
+that permit computers to capture, store, and 
+manipulate visual images.
+visual analytics The presentation of data in 
+a pictorial or graphical format.
+volume testing Testing to evaluate the per-
+formance of the information system under 
+varying yet realistic work volume and oper-
+ating conditions to determine the work load 
+at which system performance begins to 
+degrade and to identify and eliminate any 
+issues that prevent the system from reach-
+ing its required service-level performance.
+W
+waterfall system development process A 
+sequential, multistage system development 
+process in which work on the next stage 
+cannot begin until the results of the current 
+stage are reviewed and approved or modi-
+fied as necessary.
+Web 2.0 The Web as a computing platform 
+that supports software applications and the 
+sharing of information among users.
+thin client A low-cost, centrally managed 
+computer with no internal or external 
+attached drives for data storage.
+time and material contract A contract that 
+requires the buyer to pay the provider for 
+both the time and materials required to 
+complete the contract.
+time series analysis The use of statistical 
+methods to analyze time series data and 
+determine useful statistics and characteris-
+tics about the data.
+transaction processing cycle The process 
+of data collection, data editing, data cor-
+rection, data processing, data storage, and 
+document production.
+Transmission Control Protocol/Internet 
+Protocol (TCP/IP) A collection of commu-
+nication protocols used to interconnect net-
+work devices on packet switching networks 
+such as the Internet.
+Transport Layer Security (TLS) A commu-
+nications protocol or system of rules that 
+ensures privacy between communicating 
+applications and their users on the Internet.
+U
+Uniform Resource Locator (URL) A Web 
+address that specifies the exact location of 
+a Web page using letters and words that 
+map to an IP address and a location on the 
+host.
+unit testing Testing of individual compo-
+nents of code (subroutines, modules, and 
+programs) to verify that each unit performs 
+as designed.
+unsupervised learning Machine learning 
+using an unlabeled data set and no exam-
+ples. The data is labeled through observa-
+tions, and learning is through observation.
+upskill The practice of training a workforce 
+to perform higher-skilled roles to ensure 
+they meet their full potential.
+U.S. Computer Emergency Readiness 
+Team (US-CERT) A partnership between 
+the Department of Homeland Security and 
+the public and private sectors; established 
+to provide timely handling of security inci-
+dents as well as conducting improved anal-
+ysis of such incidents.
+user acceptance document A formal agree-
+ment that the organization signs stating that 
+a phase of the installation or the complete 
+system is approved.
+user acceptance testing (UAT) Testing 
+performed by trained system users to verify 
+that the system can complete required tasks 
+in a real-world operating environment and 
+perform according to the system design 
+specifications.
+user documentation Written descriptions 
+developed for people who use a program; 
+in easy-to-understand language, it shows 
+how the program can and should be used 
+to meet the needs of its various users.
+system investigation The initial phase in 
+the development of a new or modified busi-
+ness information system whose purpose is 
+to gain a clear understanding of the specif-
+ics of the problem to solve or the opportu-
+nity to address.
+system investigation report A summary of 
+the results of the system investigation, with 
+a recommendation of a course of action.
+system maintenance A stage of systems 
+development that involves changing and 
+enhancing the system to make it more useful 
+in achieving user and organizational goals.
+system operation The use of a new or 
+modified system under all kinds of operat-
+ing conditions.
+system review The process of analyzing 
+a system to make sure it is operating as 
+intended.
+system software Software that includes 
+operating systems, utilities, and middleware 
+that coordinate the activities and func-
+tions of the hardware and other programs 
+throughout the computer system.
+system testing Testing the complete, inte-
+grated system (hardware, software, data-
+bases, people, and procedures) to validate 
+that the information system meets all speci-
+fied requirements.
+T
+tablet A portable, lightweight computer 
+with no keyboard that allows you to roam 
+the office, home, or factory floor carrying 
+the device like a clipboard.
+tangible benefit A benefit that can be 
+measured directly and assigned a monetary 
+value.
+technical documentation Written details 
+used by computer operators to execute the 
+program and by analysts and programmers 
+to solve problems or modify the program.
+technical feasibility The process of deter-
+mining whether a project is feasible within 
+the current limits of available technology.
+technical resource A subject matter expert 
+in an IS topic of value to the project.
+technology acceptance model (TAM) A 
+model that specifies the factors that can 
+lead to better attitudes about an informa-
+tion system, along with higher acceptance 
+and usage of it.
+technology infrastructure All the hard-
+ware, software, databases, networks, facil-
+ities, and services used to develop, test, 
+deliver, control, or support the information 
+technology applications and services an 
+organization requires to meet the needs of 
+its customers, suppliers, key business part-
+ners, regulatory agencies, and employees.
+text analysis A process for extracting value 
+from large quantities of unstructured text 
+data.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 592
+
+Glossary
+570
+team members are in the same location or 
+­dispersed around the world.
+workstations A more powerful personal 
+computer used for mathematical computing, 
+computer-assisted design, and other high-
+end processing but still small enough to fit 
+on a desktop.
+Z
+zero-day attack An attack that takes  
+place before the security community 
+becomes aware of and fixes a security 
+vulnerability.
+word cloud A visual depiction of a set of 
+words that have been grouped together 
+because of the frequency of their occurrence.
+work breakdown structure (WBS) An 
+outline of the work to be done to complete 
+the project.
+workgroup application software Software 
+designed to support teamwork, whether 
+team members are in the same location or 
+dispersed around the world.
+workgroup information system Systems 
+that support teamwork and enable peo-
+ple to work together effectively, whether 
+Web browser Web client software—such  
+as Chrome, Edge, Firefox, Internet  
+Explorer, and Safari—used to view Web 
+pages.
+wide area network (WAN) A network that 
+connects large geographic regions.
+Wi-Fi A medium-range wireless commu-
+nications technology brand owned by the 
+Wi-Fi Alliance.
+wireless communication The transfer of 
+information between two or more points 
+that are not connected by an electrical 
+conductor.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 593
+
+571
+Note: A boldface page number indicates a key term and the location of its definition in the text.
+A
+ACID (atomicity, consistency, isolation, durability) 
+properties, 191
+ACM (Association for Computing Machinery), 75
+ADP (automatic data processing), 368
+advanced persistent threat (APT), 34
+advertising, 335–336
+agile development, 547–550
+advantages and disadvantages of, 549
+firm’s first agile project, 551
+AITP (Association of Information Technology  
+Professionals), 75
+alphanumeric data, 174
+alpha testing, 539
+alternatives, 73–74
+Amazon DynamoDB, 218
+Amazon Web Services (AWS), 262, 299
+American Recovery and Reinvestment Act Title XIII, 79
+analysis, 384
+Android Emulator, 156
+Android operating system, 142
+anonymous expression, 87–88
+antivirus software, 53
+API (application programming interface), 147
+Apple Computer operating system, 141–142
+Apple iPad, 128
+application programming interface (API), 147
+application software, 138
+enterprise, 155
+overview of, 149–150
+personal, 151
+programming languages, 155–156
+workgroup, 154
+APT (advanced persistent threat), 34
+articulated robot, 433
+artificial intelligence (AI), 404
+applications, 416
+brain computer interface (BCI), 429–431
+and employment, 416–419
+enterprise resource planning (ERP)  
+system, 378
+expert systems, 409–415
+machine learning, 420–428
+natural language processing (NLP), 428–429
+nature of, 407–409
+overview of, 404–407
+in perspective, 407
+research scientist, 419
+robotics, 432–433
+timeline of, 405
+vision systems, 415–416
+artificial intelligence (AI) systems, 407
+artificial neural network, 416–417
+Association for Computing Machinery (ACM), 75
+Association for Women in Computing, 75
+Association of Information Technology Professionals  
+(AITP), 75
+atomicity, consistency, isolation, durability (ACID) 
+properties, 191
+attack vector, 33
+attributes, 177–179
+audio data, 174
+augmented reality (AR), 415–416
+automatic data processing (ADP), 368
+autonomic computing, 298
+AWS (Amazon Web Services), 262, 299
+B
+B (byte), 116
+backward chaining, 414
+backward compatibility, 131
+banking, 339
+bar-code scanners, 121
+bartering
+couponing, 337–338
+price comparison, 337
+retargeting, 337
+Websites, 337
+Basel III (international standards for the banking  
+industry), 19
+batch processing system, 367–368
+B2B (business-to-business) e-commerce, 315–316, 320
+B2C (business-to-consumer) e-commerce, 317–320
+BCI (brain–computer interface), 429–431
+best practices, 379
+beta testing, 539
+big data, 209
+challenges of, 212–213
+characteristics, 209–210
+free sources of, 210–211
+sources of, 210
+technologies for, 214–220
+uses of, 211–212
+value, 209
+variety, 209–210
+velocity, 209
+veracity, 210
+volume, 209
+Bing search engine, 272
+biometric authentication, 48
+bioprinting, 126
+black hat hacker, hiring, 37–38
+Subject Index
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 594
+
+Subject INDEX 
+572
+blade server, 134
+blended threat, 34
+blogs, 96, 275
+BLS (U.S. Bureau of Labor Statistics), 15
+Bluetooth, 254
+botnet, 35
+brain computer interface (BCI), 429
+DARPA, 431
+medical research, 429–431
+brainstorming, 73
+bring your own device (BYOD), 31
+BTO (Business Technology Optimization), 543
+bus, 113
+business analysts, 17–18
+business continuity plan, 43
+business ethics, 69–72
+business intelligence (BI), 220–223, 221
+benefits, 221–222
+components required, 223
+business intelligence and analytics tools
+descriptive analysis, 224–227
+optimization, 229–230
+popular BI/analytics software, 232
+predictive analytics, 227–229
+self-service analytics, 232–234
+simulation, 230–231
+text analysis, 231
+video analysis, 231–232
+business intelligence developer, 419
+business process reengineering (BPR), 464
+Business Technology Optimization (BTO), 543
+business-to-business (B2B) e-commerce, 315–316, 320
+business-to-consumer (B2C) e-commerce, 317–320
+bus network, 248
+buying off-the-shelf software, 508–512
+finalizing contract, 511
+implementation, 512
+integration and testing, 511
+software package evaluation phase, 509–511
+BYOD (bring your own device), 31
+byte (B), 116
+C
+CA (certificate authority), 350
+cache memory, 117
+CAD (computer-aided design), 386
+CAE (computer-aided engineering), 386
+CAM (computer-aided manufacturing), 387
+careers
+certification, 19
+in information systems, 15–20
+other IS, 18
+Cartesian robots, 433
+Cascading Style Sheet (CSS), 267–268
+C2C (consumer-to-consumer) e-commerce, 319, 320
+central processing unit (CPU), 113
+certificate authority (CA), 350
+certification, 19
+change model, 466
+channel bandwidth, 250
+charge card, 352–353
+chief information officer (CIO), 6, 16
+Child Online Protection Act (COPA), 94
+Children’s Internet Protection Act (CIPA), 91–92
+Children’s Online Privacy Protection Act (COPPA), 80
+children’s personal data, 79–80
+Chrome operating system, 140
+CIA security triad
+computer forensics, 57–58
+detection of a cyberattack, 53–54
+disaster recovery, 43–44
+establishing security policy, 44–45
+implementing at the application level, 51
+implementing at the end-user level, 51–53
+implementing at the network level, 47–51
+implementing detection systems, 53–54
+managed security service provider, 56–57
+organizations response for attacks, 54–56
+regulatory standards compliance, 46
+response, 54–56
+risk assessment, 42–43
+security audits, 45
+security dashboard, 47
+security policies, 44–45
+security strategy, 42
+using managed security service provider (MSSP), 57
+CIO (Chief Information Officer), 6, 16
+client/server architecture
+Cascading Style Sheet (CSS), 267–268
+domain name system, 264–265
+Extensible Markup Language (XML), 267
+hyperlinks, 265–266
+Hypertext Markup Language (HTML), 266–267
+clock speed, 114
+cloud computing, 293–298
+data disaster recovery planning, 533
+hybrid, 297–298
+private, 296
+public, 293–296
+code of ethics, 74
+cold site, 533
+commercial off the-shelf (COTS) software, 508
+common personal computer input devices, 120
+Communications Decency Act (CDA), 90–91
+communications management, 482–483
+communications media, 247, 251–257
+4G wireless communications, 256–257
+5G wireless communications, 257
+guided transmission media types, 251
+microwave transmission, 255–256
+wireless transmission, 252–255
+communications software
+network operating system, 258–259
+software-defined networking, 259
+compiler, 156
+compliance departments, 532
+CompTIA (Computer Technology Industry  
+Association), 75
+computer(s)
+desktop, 129
+input devices, 120–123
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 595
+
+Subject INDEX
+573
+mainframe, 130–131
+memory, 116
+multiple-user, 127
+nettop, 129
+network, 247
+nonportable, 127
+operational supercomputers, 132
+output devices, 123–126
+portable, 127–129
+processors, 114–116
+secondary storage, 117–120
+servers, 130
+special-purpose, 139
+storage units, 116
+supercomputers, 131–132
+thin client, 129
+types of, 126–133
+workstation, 129–130
+computer-aided design (CAD), 386
+computer-aided engineering (CAE), 386
+computer-aided manufacturing (CAM), 387
+computer-based information system (CBIS), 4
+computer forensics, 57–58
+computer-generated imagery (CGI), 111
+computer graphics card, 123
+computer incidents, reasons for, 31–32
+bring your own device (BYOD), 31
+growing reliance on software with known  
+vulnerabilities, 31–32
+increase in prevalence of bring your own device  
+(BYOD) policies, 31
+increasing computing complexity, 31
+increasing sophistication of those who would do  
+harm, 32
+computer network, 247
+computers
+nonportable, single-user, 129–130
+quantum, 132–133
+Computer Technology Industry Association  
+(CompTIA), 75
+concurrency control, 183
+conferencing, 274
+consequences, of successful cyberattack
+business disruption, 38–39
+direct impact, 38
+consumer-to-consumer (C2C) e-commerce,  
+319, 320
+contact data, importing, 384
+contact management, 384
+content streaming, 275
+Continuous Application Availability, 533
+continuous education, 19–20
+continuous improvement, 465–466
+controls
+design system, 526–527, 531–532
+system, 526–527
+conversion funnel, 225–226
+COPA (Child Online Protection Act), 94
+COPPA (Children’s Online Privacy Protection Act), 80
+coprocessor, 115
+core, 113
+core competency, 469
+core value, 454
+corporate and individual accountability, 68
+corporate social responsibility, 69–72
+cost management, 477
+cost-reimbursable contract, 487
+COTS (commercial off the-shelf software), 508
+couponing, 337–338
+CPU (central processing unit), 113
+credit card, 352–353
+crime risk assessment, 42–43
+CRISP-DM (Cross-Industry Process for Data  
+Mining), 228
+critical path, 475
+Cross-Industry Process for Data Mining  
+(CRISP-DM), 228
+cryptocurrency, 423
+CSS (Cascading Style Sheet), 267–268
+culture, 466
+current operating system, 140–148
+customer relationship management (CRM) system,  
+383–385
+highly rated, 385
+key features of, 384
+customer support, 384
+cutover, 541–543
+cyberattacks
+consequences of a, 38–39
+cyberespionage, 36–37
+cyberterrorism, 37–38
+data breach, 35–36
+distributed denial-of-service attacks, 35
+ransomware, 33–35
+cybercrimes, 30–40
+classifying perpetrators of, 33
+computer incidents, 31–32
+federal laws for, 39–40
+cyberespionage, 36–37
+cyberterrorism, 37–38
+D
+DaaS (database as a service), 193
+DAMA (Data Management Association), 194–195
+DARPA (Defense Advanced Research Projects  
+Agency), 431
+data, 174
+backup, 546
+breach, 29, 35–36
+cleansing, 185
+creation and loading for system development, 536
+design, 185–187
+differences from information, 174–175
+hierarchy, 177–179
+high-quality data (see quality of data)
+normalization, 191
+relational database manipulation, 189–191
+sensitive, deletion, 546
+types of, 174
+data analysts, 420
+data analytics, 423
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 596
+
+Subject INDEX 
+574
+database(s), 173
+activities, 180–185
+attributes, 178–179
+creating database, 181–182
+data definition language, 181
+data dictionary, 181
+designing, 534
+entities, 177
+generating reports, 183–184
+manipulating data, 183–184
+modifying, 181–182
+NoSQL, 217–218
+primary key, 179
+Query by Example, 183
+retrieving data, 182–183
+SQL, 191–192
+database administrator (DBA), 196
+database applications, 151
+database approach to data management, 179–180
+database as a service (DaaS), 193
+database management system (DBMS), 180
+backup service, 185
+creating database, 181–182
+generating reports, 183–184
+manipulating data, 183–184
+modifying database, 181–182
+recovery service, 185
+retrieving data, 182–183
+security management, 184
+storing data, 182–183
+user view, 180–181
+database model, relational, 188–191
+data breach, 29, 35–36
+data center, 134–135
+data collection, 372–374
+data correction, 374
+data definition language (DDL), 181, 534
+data dictionary, 181, 534
+data editing, 374
+data encryption, 51, 53
+data entry, 120
+data-flow diagram (DFD), 524–527
+data-flow line, 525
+data governance, 195
+data input, 124
+data item, 178
+data lakes, 216–217
+data lifecycle management (DLM), 196–197
+data management, 194–197
+Data Management Association (DAMA), 194–195
+data manipulation language (DML), 184
+data mart, 216
+data mining, 227–229
+data model, 185
+enterprise, 186
+data modeling, 526
+data processing, 374
+data scientist, 222–223, 418
+data steward, 196
+data storage, 374
+data warehouses, 214–216
+DBA (database administrator), 196
+DDL (data definition language), 181, 534
+DDoS (distributed denial-of-service) attack, 35
+debit card, 352–353
+decision implementation, 74
+decision making, ethical considerations in, 72–74
+decode instruction, 113
+deep learning, 428
+defamation, 92
+Defense Advanced Research Projects Agency (DARPA), 431
+demand management, 381
+Department of Homeland Security (DHS), 38
+descriptive analysis, 224–227
+desktop computers, 129
+detailed scheduling, 382
+development engine
+DevOps, 549–550
+DFD (data-flow diagram), 524–527
+DHS (Department of Homeland Security), 38
+diffusion of innovation theory, 468
+digital certificate, 350
+direct conversion, 541
+direction-setting phase
+core value, 454
+goals, 455–456
+initiatives and programs, 456
+mission statement, 454
+objectives, 454
+projects, 456
+strategy, 456
+vision, 454
+disaster recovery plan, 43, 532–533
+discrete manufacturing, 388
+display screen, 123–124
+distributed denial-of-service (DDoS) attack, 35
+DLM (data lifecycle management ), 196–197
+document production, 375
+domain, 177
+domain expert, 414
+domain name system (DNS), 264–265
+DRAM (dynamic random access memory), 117
+dynamic random access memory (DRAM), 117
+E
+eBay, 277
+e-book readers, 145
+e-commerce. See electronic commerce (e-commerce)
+economic feasibility, 518
+e-discovery (electronic discovery), 292
+education, World Wide Web, 271
+e-government, 320–321
+EHR (electronic health record) software, 512
+EHR (electronic health record) systems, 425–426
+electronic cash, 351–352
+electronic commerce (e-commerce)
+advantages, 322–324
+advertising, 335–336
+after-sales service, 327
+banking, 339
+bartering, 337–338
+business-to-business, 315–316, 320
+business-to-consumer, 317–320
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 597
+
+Subject INDEX
+575
+categories of, 315
+challenges, 327–331
+consumer privacy concerns, 328–329
+e-government, 320–321
+finance, 338
+flow of goods and information, 323–324
+improved customer service, 324
+increase accuracy, 324
+investment, 338
+manufacturing, 332–334
+marketing, 334–335
+multistage model, 324–327
+overcoming consumers lack of trust, 329–330
+overcoming global issues, 330–331
+personalized shopping, 339, 340
+products and services delivery, 326
+purchase products and services electronically, 326
+reaching new customers, 323
+reduced costs, 323
+search and identification, 325
+select and negotiate, 326
+software, 348, 349
+strategies for successful, 341–345
+technology infrastructure, 346–353
+wholesale, 332
+electronic data interchange (EDI), 9
+electronic exchange, 332–334
+electronic health record (EHR) software, 512
+electronic health record (EHR) systems, 425–426
+electronic payment systems, 349–353
+certificate authority, 350
+charge card, 352–353
+credit card, 352–353
+debit card, 352–353
+digital certificate, 350
+electronic cash, 351–352
+smart card, 352–353
+transport layer security, 351
+Electronic Product Environmental Assessment Tool  
+(EPEAT), 136
+embedded operating system, 144–145
+embedded system, 144
+employee protection, 71
+encryption, 49
+encryption key, 49
+End User License Agreement (EULA), 157
+enterprise application software, 155
+enterprise data model, 186
+enterprise information system, 8
+enterprise operating system, 144
+enterprise resource planning (ERP) system
+advantages of, 377–380
+best practices, 379
+decision making, 377–378
+human–machine learning partnership, 378
+legacy systems, 378–379
+technology infrastructure upgrades, 379–380
+work processes improvement, 379–380
+enterprise sphere of influence, 140
+enterprise systems, 376
+customer relationship management, 383–385
+hosted software model for, 391–392
+overcoming challenges in implementing, 389–391
+product lifecycle management, 385–389
+supply chain management (SCM), 381–383
+entity, 177
+entity-relationship (ER) diagram, 187, 189
+entity symbol, 525
+entrepreneurs and transaction processing systems, 371–372
+EPEAT (Electronic Product Environmental Assessment  
+Tool), 136
+eradication effort, 55
+ER (entity-relationship) diagrams, 526
+ethical issues, 72–74
+in developing quality software, 97–99
+ethical versus legal, 69
+ethics, 68–76
+ETL (Extract, Transform, Load), 216
+EULA (End User License Agreement), 157
+EUVL (extreme ultraviolet lithography), 114
+execute instruction, 113
+expert systems, 409–415
+capabilities of, 411–412
+characteristics of, 410–411
+components of, 412–414
+domain expert, 414
+explanation facility, 414
+inference engine, 413–414
+knowledge acquisition facility, 414
+knowledge base, 412–413
+knowledge engineer, 414
+knowledge user, 415
+participants in developing and using, 414–415
+user interface, 414
+expert system shell, 414
+explanation facility, 414
+exploits, on information system, 31
+exploits, types of
+advanced persistent threat (APT), 34
+blended threat, 34
+cyberespionage, 36–37
+cyberterrorism, 37–38
+distributed denial-of-service (DDoS) attack, 35
+identity theft, 35
+phishing, 34
+ransomware, 33–35
+spam, email, 34
+Trojan horse, 34
+virus, 34
+worms, 34
+Extensible Markup Language (XML), 267
+Extract, Transform, Load (ETL), 216
+extranets, 279–280
+extreme programming (XP), 549
+extreme ultraviolet lithography (EUVL), 114
+F
+fab/foundry, 114
+failover, 44, 533
+Fair and Accurate Credit Transactions Act, 78
+Fair Credit Reporting Act, 78
+Fair information practices, 77
+fake news, 95–96
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 598
+
+Subject INDEX 
+576
+fake news sites, 96
+Family Educational Rights and Privacy Act (FERPA), 80
+FCC (Federal Communications Commission), 253
+feasibility analysis, 518–520, 528, 534
+Federal Communications Commission (FCC), 253
+Federal Financial Institutions Examination Council, 350
+Federal Information Security Management Act of 2002 
+(FISMA), 19
+federal laws for cybercrimes, 39–40
+Federal Trade Commission (FTC), 328
+FERPA (Family Educational Rights and Privacy Act), 80
+fetch instruction, 113
+5G wireless communication, 257, 301
+file, 177
+file-compression utilities, 146
+finance, 338
+financial data, 77–78
+firewall, 48
+First Amendment, 86–87
+FISA (Foreign Intelligence Surveillance Act), 84–85
+FISMA (Federal Information Security Management  
+Act of 2002), 19
+fixed-price contract, 487
+flat-panel displays, 123
+Flickr, 270
+Foreign Intelligence Surveillance Act (FISA), 84–85
+foreign key, 179
+forming-storming-norming-performing-adjourning  
+model, 479
+forward chaining, 413
+Fourth Amendment, 82
+4G wireless communications, 256–257
+four tiers of data center classification, 135
+freedom of speech, 86–88
+freelancers, 18
+FTC (Federal Trade Commission), 328
+functional decomposition, 517, 524
+G
+GAAP (Generally Accepted Accounting Principles), 19
+Gantt chart, 475, 477
+G2B (government-to-business) e-commerce, 320
+G2C (government-to-citizen) e-commerce, 320
+General Data Protection Regulation (GDPR), 77, 177
+Generally Accepted Accounting Principles (GAAP), 19
+genetic algorithms, 229, 230, 416
+geographic information system (GIS), 279
+geolocation, 278–279
+Geostationary Operational Environmental Satellite  
+program, 256
+geotagging, 279
+G2G (government-to-government) e-commerce, 320
+gigahertz (GHz), 114
+GIS (geographic information system), 279
+Global Terrorism Database (GTD), 178
+goal, 455–456
+goals-based strategic planning, 451
+good business practices, 71
+Google Chrome, 266
+Google Maps, 278–279
+government surveillance, 82–86
+government-to-business (G2B) e-commerce, 320
+government-to-citizen (G2C) e-commerce, 320
+government-to-government (G2G) e-commerce, 320
+graphics processing unit (GPU), 124
+green computing, 135–137, 136
+grid computing, 115
+guided transmission media types, 251
+H
+Hadoop, 218–219
+Hadoop Distributed File System (HDFS), 219
+hard disk drive (HDD), 118
+hardware
+bus, 113
+central processing unit, 113
+desktop computer, 129
+disposal, 546–547
+mainframe, 130–131
+memory, 116
+mobile commerce, 349
+nettop, 129
+secondary storage, 117–120
+supercomputers, 131–132
+tablet, 128–129
+utilities, 145–147
+workstation, 129–130
+hate speech, 90
+HDD (hard disk drive), 118
+HDFS (Hadoop Distributed File System), 219
+healthcare fraud, 427–428
+health information, 78–79
+Health Insurance Portability and Accountability Act  
+(HIPAA), 19, 79, 177, 297
+help desk, 543
+heuristics, 409
+hierarchy of data, 177–179
+high-quality data. See quality of data
+high-quality software systems, 97
+HIPAA (Health Insurance Portability and  
+Accountability Act), 19, 79, 297
+hosted software model
+advantages and disadvantages of, 391
+enterprise systems, 391–392
+hot site, 532
+HTML (Hypertext Markup Language), 266–267
+HTML tags, 266–267
+human-readable data, 120
+hybrid cloud computing, 297–298
+hybrid cloud computing environment, 297
+hyperlinks, 265–266
+Hypertext Markup Language (HTML), 266–267
+hypervisor, 143
+I
+IaaS (infrastructure as a service), 294
+IBM Healthcare Provider Data Model, 186
+IC (integrated circuit), 114
+IDE (integrated development environment), 156
+identity theft, 35, 328
+IDS (intrusion detection system), 53–54
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 599
+
+Subject INDEX
+577
+IEEE-CS (Institute of Electrical and Electronics Engineers 
+Computer Society), 75
+IFRS (International Financial Reporting Standards), 19
+IF-THEN statements, 413
+image data, 174
+IMDB (in-memory database), 219–220
+implementation tasks, key, 512
+incident
+containment, 55
+follow-up, 55–56
+notifications, 54–55
+Independent Computer Consultants Association, 75
+individual efforts to protect privacy, 81
+industrial robots
+articulated robot, 433
+Cartesian robots, 433
+SCARA robots, 433
+inference engine, 413–414
+information, 174
+data, 174–175
+value of, 175
+information system (IS), 4–11
+careers in, 15–20
+computer-based, 4
+ethical issues, 72–74
+means to achieve competitive advantage, 5–8
+strategic planning, 11–14
+types of, 8–9
+value chain, 10–11
+information systems and freedom of expression
+Internet censorship, 88–96
+measures protecting freedom of speech, 86–88
+information systems and government surveillance, 82–86
+information systems and privacy
+individual efforts to protect privacy, 81
+measures protecting personal data, 77–80
+web site privacy policy, 80
+information systems security analyst, 16
+information system strategic planning
+identifying projects and initiatives, 460–461
+organizational strategy, 459–460
+prioritizing projects and initiatives, 461–462
+infrastructure as a service (IaaS), 294
+inkjet printers, 124
+innovation, 463–464
+input devices
+bar-code scanners, 121
+common personal computer input devices, 120
+data entry, 120
+data input, 124
+definition, 113
+optical data readers, 120–121
+pen devices, 122
+RFID devices, 121–122
+scanning devices, 120
+touch screens, 122–123
+input/output devices, 120–123
+installation, 541
+instant messaging, 273–274
+Institute of Electrical and Electronics Engineers Computer 
+Society (IEEE-CS), 75
+intangible benefit, 462
+integrated circuit (IC), 114
+integrated development environment (IDE), 156
+integrated software packages, 152
+integration testing, 511, 538
+intelligent agent, 416
+intelligent behavior, 407
+International Financial Reporting Standards  
+(IFRS), 19
+Internet
+accessing, 263
+backbone, 261
+intranets, 279
+IP addresses, 261
+network hardware, 261–262
+online conferencing, 274
+routing, 262
+shopping, 276–278
+Web applications and, 269–279
+works of, 261–262
+World Wide Web, 263
+Internet censorship, 88–90
+Internet Corporation for Assigned Names  
+and Numbers (ICANN), 265
+Internet filter, 91
+Internet of Things (IoT), 299–306
+autonomous vehicles, 301
+business benefits of, 302
+connected devices, 300
+5G networks, 301
+home automation, 300
+potential issues with, 303
+smart cities, 300–301
+types of, 302–303
+wearable devices, 300
+Internet pornography censoring, 93–95
+Internet protocol (IP), 261
+Internet service provider (ISP), 263
+interorganizational IS, 9
+intranets, 279
+intrusion detection system (IDS), 53–54
+IP (Internet protocol), 261
+IP addresses, 261
+IS entrepreneurs, 18
+ISP (Internet service provider), 263
+issues-based strategic planning, 451
+J
+JAD (joint application development), 516–517
+job information, 271–272
+joining data, 189
+joint application development (JAD), 516–517
+journalism, 95
+K
+kernel, 138
+knowledge, 174
+knowledge acquisition facility, 414
+knowledge base, 412–413
+knowledge engineer, 414
+knowledge user, 415
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 600
+
+Subject INDEX 
+578
+L
+LAN (local area network), 249–250
+laptop, 128
+Large Hadron Collider (LHC), 132
+laser printers, 124
+lead time, 382
+Leavitt’s Diamond, 5
+legal feasibility, 520
+legal versus ethical, 69
+LexisNexis, 273
+LHC (Large Hadron Collider), 132
+licenses, 157
+LifeKeeper, 533
+linear programming, 229–230
+LinkedIn, 272
+Linux operating system, 142
+LinxCRM, 536
+local area network (LAN), 249–250
+logical access path (LAP), 182
+Long Term Evolution (LTE), 256
+long-term profitability, 452
+lot size, 382
+low earth orbit (LEO) satellite system, 255
+LTE (long term evolution), 256
+M
+machine learning, 420
+across industries, 422–428
+data analytics and cybersecurity, 423
+engineer, 419
+healthcare, 425–428
+insurance, 423–424
+logistics and supply chain management, 424–425
+semi-supervised learning, 422
+supervised learning, 421
+training, 420–422
+unsupervised learning, 421–422
+Mac operating systems, 141
+Mac OS X Server, 143
+magnetic tape, 118
+mainframe computer, 130–131
+main memory, 116
+make-or-buy decision, 486
+MAN (metropolitan area network), 250
+managed security service provider (MSSP), 57
+managers’ role, information systems, 5–8
+manipulating data, 189–191
+manufacturing, electronic commerce, 332–334
+manufacturing processors, 114
+MapReduce program, 219
+marketing, 334–335
+marketing automation, 384
+market intelligence data, 175
+market segmentation, 335
+mark sense form, 121
+massively parallel processing system, 115
+materials requirement planning (MRP), 382
+m-commerce. See mobile commerce (m-commerce)
+memory, 113
+cache memory, 117
+definition, 113
+main memory, 116
+random access memory, 116–117
+read-only memory, 117
+types of, 117
+menu-creation software, 536
+menu-driven system, 530
+mesh networks, 248
+metropolitan area network (MAN), 250
+Michael Porter’s Five Forces Model, 452
+microblogging, 274
+Microsoft Disk Operating System (MS-DOS), 141
+Microsoft Outlook, 140
+Microsoft PC operating systems, 141
+Microsoft Windows 10, 141
+microwave transmission, 255–256
+middleware, 147
+mission-critical processes, 44, 532
+mission statement, 454
+mobile application software, 153–154
+mobile commerce (m-commerce)
+advertising, 335–336
+banking, 339
+bartering, 337–338
+effective model, 341
+finance, 338
+investment, 338
+manufacturing, 332–334
+marketing, 334–335
+personalized shopping, 339, 340
+in perspectives, 322
+software, 349
+strategies for successful, 341–345
+technology infrastructure, 346–353
+Websites, 322
+mobile device management (MDM) software, 258–259
+mobile devices, accessing, 384
+monitoring, 543–544
+Monte Carlo simulation, 231
+M-Pesa, 339
+MRP (materials requirement planning), 382
+MS-DOS (Microsoft Disk Operating System), 141
+MSSP (managed security service provider), 57
+multicore processor, 114
+multiprocessing, 115
+multithreading, 140
+N
+National Integrated Ballistic Information Network  
+(NIBIN), 178
+National Syndromic Surveillance Program (NSSP), 182
+natural language processing (NLP), 428–429
+navigation, 278–279
+near field communication (NFC), 254–255
+.NET, 535
+nettop, 129
+nettop computer, 129
+network
+client/server architecture, 263–268
+communications media, 251–257
+communications software, 258–259
+computer, 247
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 601
+
+Subject INDEX
+579
+network diagram, 476
+network latency, 250
+network-management software, 258
+network operating system (NOS), 258–259
+Network Professional Association, 75
+network topology, 247–248
+bus network, 248
+mesh networks, 248
+star network, 247
+network types
+local area network, 249–250
+metropolitan area network, 250
+personal area network, 249
+wide area network, 250
+news feeds, 274
+next-generation firewall (NGFW), 48
+NFC (near field communication), 254–255
+NGFW (next-generation firewall), 48
+nonportable, single-user computers
+desktop computers, 129
+nettop computer, 129
+thin clients, 129
+workstations, 129–130
+NOS (network operating system), 258–259
+NoSQL database, 217–218
+notebooks, 128
+O
+objective, 454
+OCR (optical character recognition), 120–121
+Offshore Leaks Database, 178
+off-the-shelf software, 150
+OLTP (online transaction processing), 368
+omnichannel, 316
+OMR (optical mark recognition), 120–121
+online transaction processing (OLTP), 214, 368
+open source software, 157–159
+openSUSE operating system, 142
+operating system (OS), 138
+Apple Computer, 141–142
+current, 140–148
+embedded, 144–145
+enterprise, 144
+Google, 142
+hardware functions, 139
+kernel, 138
+Linux, 142
+multiple computers with multiple users, 139
+role of, 138
+single computer with multiple simultaneous users, 139
+single computer with single user, 139
+special-purpose computers, 139
+by sphere of influence, 140
+task management, 139–140
+workgroup, 142
+operational feasibility, 520
+operational supercomputers, 132
+optical character recognition (OCR), 120–121, 424
+optical data readers, 120–121
+optical mark recognition (OMR), 120–121
+optical storage device, 118
+order processing and purchasing, 9
+organic strategic planning, 451
+organization(s)
+implement detection systems, 53–54
+response to attacks, 54–56
+risk assessment, 42–43
+security policy, 44–45
+organizational change, 466
+organizational culture, 466
+output devices
+definition, 113
+display screen, 123–124
+printers and plotters, 124–125
+3D printers, 125–126
+P
+PaaS (platform as a service), 294–295
+PAN (personal area network), 249
+parallel processing, 115–116
+parallel start-up, 542
+Pareto principle (80–20 rule), 528
+patch, 545
+Payment Card Industry-Data Security Standard  
+(PCI-DSS), 177
+payroll, 9
+pen input device, 122
+perceptive system, 409
+performance evaluation test, 510
+perpetual license, 506
+personal application software
+database applications, 151
+examples of, 151
+integrated software packages, 152
+mobile application software, 153–154
+other, 152–153
+personal information management, 151
+presentation graphics program, 152
+software suites, 152
+spreadsheet analysis, 151
+word-processing applications, 151
+personal area network (PAN), 249
+personal data protection, 77–80
+personal information system, 8
+personalization, 345
+personal productivity software, 151
+personal sphere of influence, 140
+phase-in approach, 542
+phishing, 34
+piecemeal approach, 542
+pilot start-up, 542
+Pixar, 111
+platform as a service (PaaS), 294–295
+plotters, 124–125
+plunge, 541
+podcast, 275
+portable computer, 127
+laptop, 128
+notebooks, 128
+smartphones, 127–128
+tablet, 128–129
+predecessor task, 475
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 602
+
+Subject INDEX 
+580
+predictive analytics, 227–229
+data mining, 227–229
+time series analysis, 227
+presentation graphics program, 152
+prevention of attack
+installing antivirus software, 53
+safeguard against attacks by malicious insiders, 53
+security audit, 45
+security dashboard, utilizing, 47
+price comparison, 337
+primary key, 179
+printers, 124–125
+privacy
+individual efforts to protect, 81
+measures protecting personal data, 77–80
+web site privacy policy, 80
+private cloud computing environment, 296
+problem statement, 72–73
+procedure, 7
+process, 7
+process manufacturing, 388
+processor
+manufacturing, 114
+multiprocessing, 115
+phases of processing, 113
+process redesign, 464
+process resource management, 479–482
+process symbol, 525
+procurement management, 486–487
+product backlog, 548
+production, 382
+product lifecycle management (PLM), 385–389
+benefits of, 389
+business strategy, 387
+scope of software, 386–387
+software products, 388
+product lifecycle management (PLM) software, 386
+product owner, 548
+professional code of ethics, 74–75
+programmers, 17
+programming languages, 155–156
+project, 456, 468
+project budget, 478
+project champion, 481
+project deadline, 475
+projecting data, 189
+project integration management, 487–488
+project management, 473
+complexity levels, 469
+core competency, 469
+variables, 469–473
+project management knowledge areas
+communications management, 482–483
+cost management, 477
+procurement management, 486–487
+project integration management, 487–488
+project resource management, 479–482
+quality management, 479
+risk management, 483, 484–486
+schedule management, 475–477
+scope management, 474–475
+stakeholder management, 488–489
+project milestone, 475
+project organization, 481
+project risks, 483
+assessment of, 484
+identification of, 484
+project schedule, 475
+project scope, 469
+project sponsor, 481
+project stakeholders, 473
+project steering team, 481
+project variables
+cost, 470–471
+quality, 472
+scope, 469–470
+time, 471–472
+user expectations, 472
+proprietary software, 149
+proxy server, 50–51
+PRTG Network Monitor, 146
+public cloud computing, 293–296
+benefits of, 294
+issues with, 295–296
+types of services, 294–295
+public cloud computing environment, 293
+purchasing systems, 370, 382
+Q
+QBE (Query by Example), 183
+quality, 472
+quality assurance, 479
+quality control, 479
+quality management, 479
+quality of data
+characteristics of, 175, 176
+ensure compliance, 177
+improve decision making, 175
+improve innovation, 177
+increase customer satisfaction, 175–176
+increase sales, 176–177
+raise productivity, 177
+quality planning, 479
+quantum computers, 132–133
+Query by Example (QBE), 183
+Quintessentially, 340–341
+20Q Web site, 408
+R
+radio frequency identification (RFID) tag, 121
+RAID (redundant array of independent/inexpensive  
+disks), 119
+random access memory (RAM), 116
+ransomware, 33–35
+Raskin, Jef, 530
+read-only memory (ROM), 117
+reasonable assurance, 43
+record, 179
+Red Hat Linux, 142
+redundant array of independent/inexpensive disks  
+(RAID), 119
+reengineering, 464–465
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 603
+
+Subject INDEX
+581
+regression analysis, 227
+regulatory standards compliance, 46
+reinforced learning, 422
+relational database model, 188
+building and modifying, 191
+characteristics, 188
+linking data tables, 189, 190
+release, software, 545
+report generator software, 536
+request for information (RFI), 509
+request for maintenance form, 545
+respondeat superior, 71
+response for attacks
+eradication efforts, 55
+incident containment, 55
+incident follow-up, 55–56
+response to attacks
+incident notifications, 54–55
+protection of evidence and activity logs, 55
+retail Web sites, 322
+retargeting, 337
+RFI (request for information), 509
+RFID (radio frequency identification), 121
+Right to Financial Privacy Act, 78
+risk assessment, crime, 42–43
+risk management, 483, 484–486
+risk management plan, 485
+risk owner, 485
+robotics, 432–433
+industrial robots, 433–434
+industry applications, 434–435
+robotics scientist, 419
+robotic tape backup system, 119
+ROM (read-only memory), 117
+rootkit, 34
+router, 48–49, 261–262
+rule, 413
+S
+SaaS (software as a service), 150–151, 295
+safety-critical system, 97–98
+sales and operations plan (S&OP), 381
+sales forecasting, 381
+sales management, 384
+sales ordering, 382
+sample stakeholder analysis matrix, 483
+Sarbanes-Oxley Act, 19
+scalability, 130
+scanning devices, 120
+SCARA (Selective Compliance Assembly Robot Arm)  
+robots, 433–434
+scenario analysis, 230
+schedule feasibility, 520
+schedule management, 475–477
+schema, 180
+SCM (supply chain management), 381–383
+scope management, 474–475
+Scrum, 547
+Scrum master, 548
+SDKs (software development kits), 156
+SDN (software-defined networking ), 259
+search engine optimization (SEO), 272–273
+search engines, 272–273, 428
+secondary storage
+cost comparison with forms of storage, 118
+definition, 118
+devices, 118–120
+magnetic, 118–120
+optical, 118
+solid state, 119–120
+Section 230 of the CDA, 90
+Section 814 of the USA Patriot Act, 39
+security
+and system requirements, 526–527
+systems design, 531–532
+Websites, 330
+security audit, 45
+security dashboard, utilizing, 47
+security education, 51–52
+security policy, organizations, 44–45
+selecting data, 189
+Selective Compliance Assembly Robot Arm (SCARA)  
+robots, 433–434
+self-service analytics, 232–234
+semiconductor fabrication plant, 114
+semi-supervised learning, 422
+SEO (search engine optimization), 272–273
+server, 130
+server blade, 134
+server farm, 133–134
+Server Message Block (SMB), 34
+server virtualization, 143–144
+service-oriented architecture (SOA), 147
+shadow IT, 19
+shopping online, 276–278
+sign-on procedure, 530
+single-user license, 157
+site preparation, 541
+slack time, 475
+slipstream upgrade, 545
+small and medium-sized enterprises (SMEs), 371–372
+smart card, 352–353
+smart city, 300
+SMART goals, 456
+smartphones, 127–128
+SMEs (small and medium-sized enterprises), 371–372
+smishing, 34
+SOA (service-oriented architecture), 147
+social media sites, 96
+social networking, 384
+social Web, 269–271
+soft side of implementing change, 466
+software
+application, 138
+buying off-the-shelf, 508–512
+coding for system development, 535–536
+commercial off the-shelf, 508
+enterprise application, 155
+licenses, 157
+menu-creation, 536
+mobile commerce, 349
+off-the-shelf, 150
+open-source software, 157–159
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 604
+
+Subject INDEX 
+582
+software (Continued )
+proprietary, 149
+release, 545
+report generator, 536
+spending, 138
+system, 138
+version, 545
+workgroup application, 154
+software as a service (SaaS), 150–151, 295
+advantages of, 505–506
+disadvantages of, 506–507
+software codes, 535–536
+software defect, 97
+software-defined networking (SDN), 259
+software developer, 16, 419
+software development kits (SDKs), 156
+software package evaluation phase, 509–511
+identifying potential solutions, 509
+making selection, 511
+researching top contenders, 510
+selecting top contenders, 510
+software piracy, 68
+software product planning and  
+development, 389
+software suites, 152
+solid state storage device (SSD), 119
+source data automation, 373
+spam, email, 34
+special-purpose computers, 139
+sphere of influence, 140
+sponsoring business unit, 470
+spreadsheet analysis, 151
+SQL (Structured Query Language), 191–193
+SQL databases, 191–193
+SRAM (static random access memory), 117
+SSD (solid state storage device), 119
+stakeholder management, 488–489
+star network, 247
+static random access memory (SRAM), 117
+status updates, 274
+steering team, 521, 535
+storefront broker, 343
+strategic planning
+benefits, 12, 450
+defining strategies, 456–457
+definition, 11, 450
+deploy plan, 457
+direction-setting phase, 453–456
+goals-based, 451
+information system, 12–14
+issues-based, 451
+organic, 451
+situation analysis, 451–453
+strategic planning pyramid
+core value, 454
+goal, 455–456
+mission statement, 454
+strategies, 456
+vision, 454
+vision/mission statement, 454
+strategy, 456–457
+streaming, 373
+Strengths, Weaknesses, Opportunities, Threats  
+(SWOT) matrix, 453
+structure, 8
+Structured Query Language (SQL), 191–193
+subject matter expert, 482
+subscribe
+buy vs. build, 502–504
+supercomputers, 131–132
+supervised learning, 421
+supply chain, 10
+supply chain management (SCM), 381–383
+switch, 261
+syntax, 155
+SysAdmin, Audit, Network, Security (SANS)  
+Institute, 75
+Sysinternals Suite, 146
+system analysis, 522–529
+additional candidates for, 528
+alternative solutions, 528
+budget development, 522
+draft report, 529
+feasibility analysis, 528
+identifying requirements and prioritizing them,  
+523–527
+reviewing results, 529
+study existing system, 522–523
+team recruitment, 522
+system construction, 535–537
+coding software components, 535–536
+creating and loading data, 536
+unit testing, 537
+system design, 529–535
+design database, 534
+designing user interface, 530–532
+disaster recovery plan, 532–533
+draft preparation of, 534–535
+report, 535
+result review, 535
+schedule and budget development, 530
+security and controls, 531–532
+team recruitment, 530
+system development, 504
+system disposal, 545–546, 547
+communicate intent, 546
+data backup, 546
+delete sensitive data, 546
+hardware dispose, 546–547
+terminate contracts, 546
+system implementation, 539–543
+cutover, 541–543
+installation, 541
+site preparation, 541
+user preparation, 540
+system integration, 537–539
+system investigation, 514–521
+budget development, 515
+feasibility analysis, 518–520, 528, 534
+functional decomposition, 517
+joint application development, 516–517
+report, 520
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 605
+
+Subject INDEX
+583
+request, 515
+result review, 521
+system investigation request, 515
+tasks during, 516
+team recruitment, 515
+system maintenance, 544–545
+system on a chip, 127
+system operation, 543–544
+system performance, 527
+system review, 544
+systems analysts, 17
+system software, 138
+current operating system, 140–148
+embedded operating system, 144–145
+middleware, 147
+operating system, 138–140
+utility programs, 145–147
+workgroup operating system, 142
+system testing, 511, 537, 538, 539
+T
+tablet, 128–129
+TAM (technology acceptance model), 540
+tangible benefit, 462
+task management, 139–140
+TCP/IP (Transmission Control Protocol/Internet  
+Protocol), 261
+technical documentation, 536
+technical feasibility, 518
+technical resource, 482
+technology acceptance model (TAM), 467, 540
+technology infrastructure, 7, 346–353
+testing, 537–539
+text analysis, 231
+thin client, 129
+thin clients, 129
+3D printers, 125–126
+time
+and material contract, 487
+project variables, 471–472
+time series analysis, 227
+TLS (transport layer security), 350
+touch screens, 122–123
+traditional systems development life cycle coding  
+software components, 535–536
+training, World Wide Web, 271
+transaction processing cycle, 372
+transaction processing systems (TPSs)
+accounting systems, 370
+activities, 372–375
+batch processing system, 367–368
+data collection, 372–374
+data correction, 374
+data editing, 374
+data processing, 374
+data storage, 374
+document production, 375
+enterprise resource planning, 376–381
+for entrepreneurs, 371–372
+objectives, 367–371
+online transaction processing, 368
+order processing systems, 369–370
+overview of, 366–367
+point-of-sale, 373
+purchasing systems, 370
+for small and medium-sized enterprises, 371–372
+translators, 429
+Transmission Control Protocol/Internet Protocol  
+(TCP/IP), 261
+transport layer security (TLS), 49, 350
+travel, 278–279
+Trojan horse, 34
+U
+UAT (user acceptance testing), 538–539
+unfavorable publicity, 71–72
+Uniform Resource Locator (URL), 264–265
+Uniting and Strengthening America by Providing 
+Appropriate Tools Required to Intercept and Obstruct 
+Terrorism (USA PATRIOT Act), 85
+unit testing, 537
+universal serial bus (USB) flash drive, 120
+Unix operating system, 143
+unsupervised learning, 421–422
+upskill, 418
+USA Freedom Act, 85
+USA PATRIOT Act (Uniting and Strengthening America by 
+Providing Appropriate Tools Required to Intercept and 
+Obstruct Terrorism), 85
+U.S. Bureau of Labor Statistics (BLS), 15
+US-CERT (U.S. Computer Emergency Readiness Team), 38
+U.S. Computer Emergency Readiness Team (US-CERT), 38
+user acceptance document, 539
+user acceptance testing (UAT), 538–539
+for new accounting system, 547
+user documentation, 536
+user interface, 414
+designing, 530–532
+user preparation, 540
+user satisfaction, 467
+utility programs, 145–147
+V
+value chain, 10–11
+vendor-managed inventory (VMI), 9
+version, software, 545
+video analysis, 231–232
+video data, 174
+video RAM (VRAM), 124
+virtualization tools, 292
+Virtual Private Cloud (VPC), 296
+virtual private network (VPN), 50–51, 280
+virtual tape, 119
+virus, 34
+virus signature, 53
+vishing, 34
+vision, 454
+vision/mission statement, 454
+vision systems, 415–416
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 606
+
+Subject INDEX 
+584
+visual analytics, 225
+volume testing, 511, 538
+VPC (Virtual Private Cloud), 296
+VPN (virtual private networks), 50–51
+vulnerabilities, software, 31–32
+W
+WAN (wide area network), 250
+waterfall system development process, 513–547
+advantages and disadvantages of, 514
+integration and testing, 537–539
+system analysis, 522–529
+system construction, 535–537
+system design, 529–535
+system development, 504
+system implementation, 539–543
+system investigation, 514–521
+system maintenance, 544–545
+system operation, 543–544
+Web-based application suite, 153
+Web browser, 266
+Web developers, 16, 17
+Web server
+hardware, 347–348
+software, 348
+web site privacy policy, 80
+Web sites
+bartering, 337
+building traffic, 343–344
+establishing, 342–343
+functions of, 342
+improving, 344–345
+maintaining, 344–345
+mobile commerce, 322
+outages, 348
+security, 330
+travel, 278–279
+Web 2.0 technologies, 269–270, 271
+wholesale electronic commerce, 332
+wide area network (WAN), 250
+Wi-Fi, 254–255
+Windows Embedded, 139
+Windows Server, 142
+Windows XP, 546
+wireless communication, 252–253
+frequency ranges, 253
+wireless connection, 263
+wireless transmission, 252–255
+word cloud, 225
+word-processing applications, 151
+work breakdown structure (WBS), 475
+workgroup, 140
+workgroup application software, 154
+workgroup information system, 8
+workgroup operating system, 142
+workgroup sphere of influence, 140
+workstation, 129–130
+World Wide Web (WWW), 263
+blogging, 275
+client/server architecture (see client/server architecture)
+conferencing, 274
+developing content and applications, 268–269
+education, 271
+geolocation, 278–279
+instant messaging, 273–274
+intranets, 279
+job information, 271–272
+microblogging, 274
+movies, video, and television, 275–276
+music, 275
+navigation, 278–279
+news, 271
+news feeds, 274
+online games and entertainment, 276
+online media and entertainment, 275
+podcasting, 275
+search engines, 272–273
+shopping online, 276–278
+social Web, 269–271
+status updates, 274
+training, 271
+travel, 278–279
+Web 2.0 technologies, 269–270, 271
+worms, 34
+WWW. See World Wide Web (WWW)
+X
+XML (Extensible Markup Language), 267
+XP (extreme programming), 549
+Z
+zero-day attack, 32
+zombie, 35
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 607
+
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 608
+
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 609
+
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 610
+
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+

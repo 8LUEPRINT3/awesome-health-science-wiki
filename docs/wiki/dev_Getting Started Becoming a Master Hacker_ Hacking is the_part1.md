@@ -1,0 +1,3006 @@
+---
+title: Getting Started Becoming a Master Hacker_ Hacking is the - Part 1
+source: Getting Started Becoming a Master Hacker_ Hacking is the.md
+category: development
+---
+
+---
+title: Getting Started Becoming a Master Hacker_ Hacking is the
+source: Getting Started Becoming a Master Hacker_ Hacking is the -- Occupytheweb -- ded2f82dabe16ab443139fbc14f403b9 -- Anna’s Archive.pdf
+category: development
+---
+
+## Page 1
+
+
+## Page 2
+
+
+## Page 3
+
+Getting Started
+Becoming a
+Master Hacker
+By Occupytheweb
+Dedication
+This book is dedicated to my three exquisite daughters who mean the world
+to me…
+…and Laura, who offered emotional support and encouragement
+throughout.
+Thank you
+ii | P a g e
+About the Author
+Occupytheweb is the nom de guerre of a security researcher and forensic
+investigator with over 20 years in the industry. He is a former university
+professor who now offers hacker and information security courses at
+www.hackers-arise.com.
+Occupytheweb has trained hackers at every one of the US military branches
+and the national intelligence agencies.
+To learn more about Occupytheweb and listen to interviews with him, go to
+www.hackers-arise.com/otw-in-the-news
+iii | P a g e
+Acknowledgements
+
+## Page 4
+
+I want to thank everyone from the Hackers-Arise community who offered
+their comments and questions during the early stages of developing this
+manuscript. In particular, I want to thank Artur Zeilinski for his diligent
+assistance and comment throughout this process. In addition, I want to
+thank a hacker known only to me as “Locke” for his assistance.
+iv | P a g e
+Preface
+My Friends:
+Thank you for picking up this book. I hope you find it informative and
+enlightening. It is
+intended to help guide you into the most exciting career in the 21st Century!
+Before you begin, I want to point out a few elements of this book that I
+hope you will enjoy.
+Hacking Process and Strategy
+Hacking is a process. It is not just learning a bunch of technologies and
+tools. The master hacker must be strategic and analytical in their approach.
+Unfortunately, I don’t believe this has been emphasized enough among
+other introduction to hacking books. To that end, I hope you find this
+emphasis here useful and enlightening.
+Keep it Brief
+Knowing that few will read and study a 1000-page tome, I have tried to
+keep this book to a
+manageable size with the thought that those that want to learn more, there
+are many resources.
+There are a multitude of web sites (I tried to give you links to more in-depth
+information on
+
+## Page 5
+
+hackers-arise.com) and innumerable books. This book is designed to get
+you started, not make
+you a master hacker. That is long journey, but this is the first step.
+Case Study of the NSA’s EternalBlue
+To demonstrate key principles throughout this book, I have focused upon a
+case study of the
+NSA’s EternalBlue exploit. This two year old exploit was stolen from the
+US espionage agency
+in 2017 and it was responsible for wreaking havoc around the world. It was
+integrated into many
+attacks including most famously the WannaCry, Petya, and NotPetya
+ransomware. In this book,
+I use it as a case study in vulnerability assessment in Chapter 7, exploitation
+in Chapter 9,
+sniffing for exploit analysis in Chapter 10, and Python in Chapter 16. I hope
+you find this
+approach informative and enlightening.
+Happy Hacking,
+OccupytheWeb
+v | P a g e
+TABLE OF CONTENTS
+Dedication……………………………………………………………………
+………………………………….
+3
+
+## Page 6
+
+About the
+Author………………………………………………………………………
+……………………
+4
+Acknowledgements
+…………………………………………………………………..……………
+…
+5
+Preface………………………………………………………………………
+………………………………….
+6
+Chapter 1: Getting
+Started…..……………………………………………………………………
+..
+1
+Chapter 2: Essential Skills and
+Tools…………………………………………………………..
+18
+Chapter 3: The Hacker
+Process…………………………………………………………………..
+28
+Chapter 4: Setting Up Our
+Lab……………………………………………………………………
+33
+
+## Page 7
+
+Chapter 5: Passive
+Reconnaissance……………………………………………………………
+48
+Chapter 6: Active
+Reconnaissance……………………………………………………………..
+78
+Chapter 7: Vulnerability
+Scanning……………………………………………………………..
+99
+Chapter 8: Password
+Cracking…………………………………………………………………..
+118
+Chapter 9: Metasploit
+Exploitation……………………………………………………………..
+143
+Chapter 10: Sniffing and Protocol
+Analysis………………………………………………..
+178
+Chapter 11: Post-
+Exploitation…………………………………………………………………
+…..
+199
+Chapter 12: Web
+Hacking………………………………………………………………………
+…..
+
+## Page 8
+
+214
+Chapter 13: Evading Anti-Virus
+(AV)…………………………………………………………
+235
+Chapter 14: Covering Your
+Tracks…………………………………………………………….
+246
+Chapter 15: Wi-Fi
+Hacking………………………………………………………………………
+….
+257
+Chapter 16: Malicious
+Python…………………………………………………………………….
+282
+Chapter 17: Social
+Engineering………………………………………………………………….
+307
+Epilogue……………………………………………………………………
+…………………………………
+323
+Appendix A: Cryptography Basics for
+Hackers………………………………………….
+324
+
+## Page 9
+
+Appendix B: Cyber Warrior Wisdom of
+OTW…………………………………………….
+329
+Index…………………………………………………………………………
+……………………………….
+332
+vi | P a g e
+CONTENTS IN DETAIL
+
+## Page 10
+
+Dedication
+ii
+About the Author
+iii
+
+## Page 11
+
+Acknowledgements
+iv
+
+## Page 12
+
+Preface
+v
+Table of Contents
+vi
+
+## Page 13
+
+Chapter 1: Getting Started
+1
+Professions for Hackers
+2
+Black Hat v White Hat
+4
+History of Hacking
+4
+Legal Consequences
+14
+
+## Page 14
+
+Chapter 2: Hacker Essentials
+18
+Essential Skills
+19
+Fundamental Skills
+19
+Intermediate Skills
+21
+Intangible Skills
+22
+Essential Tools
+23
+
+## Page 15
+
+Chapter 3: The Hacker Process
+28
+Fingerprinting
+29
+Passive Reconnaissance
+29
+Active Reconnaissance
+30
+Password Cracking
+30
+Exploitation
+31
+vii | P a g e
+Post Exploitation
+32
+Covering Tracks
+32
+
+## Page 16
+
+Chapter 4: Creating our Virtual Lab
+33
+Downloading Kali
+34
+Installing VirtualBox
+36
+Installing Kali in VirtualBox
+39
+Installing Your Target Systems
+44
+Installing MySQL
+46
+
+## Page 17
+
+Chapter 5: Passive Reconnaissance
+48
+Google Hacking
+49
+Netcraft
+55
+Whois
+59
+Shodan
+61
+DNS
+67
+p0F
+72
+
+## Page 18
+
+Chapter 6: Active Reconnaissance
+78
+Nmap
+79
+Hping
+87
+Whatweb
+93
+Builtwith
+96
+
+## Page 19
+
+Chapter 7: Finding Vulnerabilities
+99
+Finding the EternalBlue Vulnerability
+101
+Nessus
+102
+OWASP-ZAP
+111
+
+## Page 20
+
+Chapter 8: Password Cracking
+118
+viii | P a g e
+Password Cracking Fundamentals
+119
+Password Cracking Strategy
+122
+Cracking Passwords with john
+123
+Creating Custom Password Lists
+127
+Hashcat
+135
+Windows Password Hashes
+138
+Remote Password Cracking with Medusa
+139
+
+## Page 21
+
+Chapter 9: Exploitation with Metasploit 5
+143
+
+## Page 22
+
+Introduction to Metasploit
+144
+Keywords and Commands
+145
+Strategy for Finding the Proper Module
+150
+Directory Structure of Metasploit
+151
+Reconnaissance with Metasploit
+156
+Vulnerability Scanning
+158
+Exploitation with EternalBlue
+160
+Adding a New Module
+164
+Creating a Malicious File with msfvenom
+168
+Using msfvenom for Exploitation when You have Physical Access
+174
+
+## Page 23
+
+Chapter 10: Packet Sniffing and Analysis
+178
+Sniffing with tcpdump
+179
+Sniffing with Wireshark
+184
+Wireshark Analysis of EternalBlue
+192
+
+## Page 24
+
+Chapter 11: Post Exploitation
+199
+Post Exploitation Metasploit Modules
+200
+Idletime
+203
+Hashdump
+203
+Web Cams
+204
+ix | P a g e
+Keylogger
+205
+Microphone
+207
+Mimikatz
+208
+Arpscanner
+209
+MySQL Post Exploitation
+
+## Page 25
+
+210
+
+## Page 26
+
+Chapter 12: Web Hacking
+214
+Approaches to Web Hacking
+215
+Website Vulnerabilities
+216
+SQL Injection
+216
+Attacking WordPress Sites
+224
+
+## Page 27
+
+Chapter 13: Evading Anti-Virus
+235
+Metasploit’s Evasion Modules
+236
+How Anti-Virus Software Works
+236
+What is Shellcode
+237
+OWASP-ZSC
+238
+
+## Page 28
+
+Chapter 14: Covering Your Tracks
+246
+Covering Your Tracks with the meterpreter
+247
+wevutil to Delete Logs
+248
+Timestomp
+249
+Covering Tracks on Linux Systems
+250
+Removing Command History
+251
+Shredding Command History
+252
+
+## Page 29
+
+Chapter 15: Wi-Fi Hacking
+257
+Wi-Fi Basics
+258
+Terminology
+258
+Security Protocols
+259
+x | P a g e
+Wi-Fi Adapter for Hacking
+260
+Attacking Wi-Fi APs
+263
+WPA2-PSK
+265
+WPS Attack
+268
+Evil Twin Attack
+270
+AP DoS Attack
+
+## Page 30
+
+275
+PMKID Attack
+276
+
+## Page 31
+
+Chapter 16: Malicious Python
+282
+Python Modules
+283
+Pip
+283
+OOP
+284
+Pycharm IDE
+285
+Variables
+286
+Comments
+289
+Functions
+290
+Lists
+291
+Modules
+292
+
+## Page 32
+
+Network Communication in Python
+292
+Dictionaries, Loops and Control Statements
+295
+Exceptions and Password Crackers
+300
+Python for Exploiting EternalBlue
+302
+
+## Page 33
+
+Chapter 17: Social Engineering
+307
+What is Social Engineering in Cyber Security?
+308
+Social Engineering Vectors
+310
+Social Engineering Concepts and Strategies
+309
+Social Engineering Tools and Technologies
+311
+Social Engineering with Metasploit
+320
+xi | P a g e
+Epilogue
+323
+Appendix A: Cryptography Basics
+324
+Appendix B: Cyber Warrior Wisdom
+329
+Index
+
+## Page 34
+
+332
+xii | P a g e
+1
+
+## Page 35
+
+Introduction to Master Hacker
+“The journey of a thousand miles begins with the first step”
+LaoTzu
+Welcome back, my aspiring master hackers! I was
+inspired to write this book to follow on my unexpectedly successful
+Linux Basics for Hackers . So many of you wrote and asked when I
+would write another to help them continue their journey from novice to
+master hacker. So here we are.
+I hope you enjoy and gain from reading this book.
+I had a wonderful time writing it !
+1 | P a g e
+In my previous book, Linux Basics for Hackers , I began by saying,
+“Hacking is the most important skill set of the 21st century.” Today—two
+years later—I want to re-emphasize that this statement is even more true.
+Each and every day—in our increasingly digitized world—our privacy, our
+safety, our national security, our identity, and our hard-won earnings are at
+risk. Hacking--once the realm of a few geeky computer enthusiasts--has
+now grown up to become one of the most sought-after skill sets in the
+world . From national governments, espionage agencies and militaries, to
+information security firms and, of course, cybercrime enterprises—all are
+seeking highly-skilled hackers. This book is designed to guide and train you
+toward that profession, whatever your end goal might be.
+Before we embark upon this journey, let’s examine few areas to help us
+gain perspective on this industry and profession, namely;
+1. Legitimate professions open to hackers;
+
+## Page 36
+
+2. The history of hacking, to give you some appreciation and perspective of
+our discipline;
+3. The legal consequences of hacking, to help keep you out of the harm’s
+way.
+Professions for Hackers
+Initially, hacking was thought to be the profession of a few antisocial, geeky
+individuals who did it for fun, lulz or profit. By 2019, it has become a
+legitimate profession widely sought-after by many
+organizations and governments. Here are just a few of the legitimate
+employment opportunities for master hackers as you plan your future.
+National Security
+Nearly each and every national security agency from around the world use
+hackers. Obviously, the United States, China, Israel, Russia, United
+Kingdom, and Iran are the most active, but nearly every national
+government has an offensive cyber security element. These national
+security agencies are desperately seeking well-trained hackers to protect
+their nations and attack their adversaries. This particularly applies to the
+field of SCADA/ICS (Supervisory Control and Data Acquisition/Industrial
+Control Systems)
+hacking, where nations can disable or destroy industrial plants and
+infrastructure in time of cyberwar, such as petroleum plants or the electrical
+grid (see Russia’s attacks against the Ukrainian electrical grid at
+www.hackers-arise/scada-hacking).
+National Espionage
+In the past, every government employed scores of “cloak and dagger” spies,
+but in this digital age, spying via hacking is cheaper, safer, and more
+reliable. Don’t get me wrong, there are still thousands of spies plying their
+craft around the world, but more and more national espionage agencies are
+
+## Page 37
+
+relying on the much cheaper, safer, and reliable digital spying. Of course, to
+do so they need good hackers.
+Military
+In an era where even the troops in the field are using sophisticated digital
+equipment, national militaries are using hackers in the field and on the
+frontline. I’m proud to say that I trained the U.S. Army’s first 2 | P a g e
+field hacker unit (for the Special Forces at Ft. Campbell, Kentucky) several
+years ago. They and every other government will be using hackers in the
+field in military operations to knock out or control the adversaries’
+communications and other digital equipment.
+Penetration Testing or Pentesting
+Now that companies and institutions around the world are increasingly
+aware and concerned about cyber threats, they are hiring firms to test the
+security of their systems. Conducting a penetration test, or pentest, is one of
+the best ways to make certain these systems are safe and secure. A pentest is
+essentially a form of legal hacking. The company hires these hackers or
+pentesters to try to hack into their systems to determine how secure they
+are. The general idea is to have the good-guy hackers hack your systems
+before the bad guys. At the end of the pentest, these hackers then provide a
+report to the organization detailing the weaknesses in their network and
+systems so that they can be repaired or hardened. This field has grown
+rapidly over the last decade and continues to grow.
+Bug Bounty Hunting
+One of the newest areas of hacking is known as bug bounty hunting.
+Corporations, organizations, and websites are now offering rewards
+(bounties) to hackers who can find vulnerabilities (bugs) in their software
+before the general public becomes aware of them. Some of these bounties
+are as large as $1
+million. Many of the largest organizations in the United States now offer
+bug bounties, including Microsoft, Google, Facebook and the U.S.
+
+## Page 38
+
+Department of Defense. In 2019, it was announced that an Argentinian
+teenager, Santiago Lopez, was the first bug bounty hunter to earn $1
+million.
+Zero-Day Developer
+Probably at the top of the hacker pyramid are the zero-
+Zero-day exploits are exploits or
+day developers Some hackers develop zero-days and
+hacks that have never seen before
+then sell them to cyber crime gangs or national
+hence the information security
+espionage agencies such as NSA (the U.S. National
+industry has had zero days to respond
+Security Administration) or GCHQ (Britian’s
+with defenses. Zero-days are the
+Government Communications Headquarters). These
+“Holy Grail” of hackers
+zero-day exploits can sell for millions of dollars as they
+enable national espionage agencies to spy on their
+adversaries and their own citizens. There are even companies who
+specialize in developing and selling zero-days such as Germany’s Gamma
+Group, France’s Zupen, Israel’s NSO Group, or Italy’s Hacking
+
+## Page 39
+
+Team. In addition, the EternalBlue exploit that was stolen from the NSA in
+2017 and became a critical element of such ransomware as WannaCry and
+Petya (both of which led to the shuttering of many
+organizations and the paying of millions of dollars in ransom) was likely
+developed by one of these zero-day developers for the NSA.
+3 | P a g e
+Information Security (Infosec) Engineers
+Hackers make the best information security engineers. Not everyone who
+studies hacking will be
+breaking into a foreign power’s state secrets. Many newly minted hackers
+will become the people
+guarding state secrets. In brief, the people who are best at protecting any
+digital resource are those who know how others can break in. That’s just
+common sense, but unfortunately that common sense isn’t always reflected
+by the hires of CISOs (Chief Information Security Officer) and others in
+charge of information security engineers. But that is changing.
+I think the wisdom of hiring hackers as information security engineers
+might be reflected in military or sports strategy. Can you imagine a general
+whose task it was to guard the nation’s capital not being familiar with the
+offensive tactics of the adversary? Of course not! The same analogy can be
+applied to sports. How about a basketball coach who doesn’t understand the
+opposing team’s plays and strategies to score? How effective of a defense
+could they mount? I think it goes without saying that you need to
+understand the offense of the opposition (hacking) to mount an effective
+defense (information security).
+For more on why hackers make better information security engineers, see
+my article “Why Hackers Make the Best Information Security Engineers” at
+www.hackers-arise.com.
+Linux Skills
+
+## Page 40
+
+To begin, if you haven’t read my Linux Basics for Hackers , I suggest you
+pause now, pick it up and study it. Read it and do the exercises. It’s a good
+starting point in your journey from novice to master hacker. In this book, I
+will assume you have some basics Linux skills that covered in that book.
+A Word about Black Hat v. White Hat
+Nearly every “hacking” book discusses the concept of white hat hacker vs.
+black hat hacker. In our modern world, the distinctions have become
+blurred. For instance, Russia, the United States, and China are hacking each
+other 24/7 for geopolitical advantage. From the perspective of the United
+States, the Russian hacker might be considered a black hat, while in Russia
+they would be celebrated as heroes. Of course, the same applies in reverse.
+U.S. hackers intruding upon China are well-paid and well-respected
+members of the military or intelligence community with nice homes in the
+suburbs and 2.5 children, but are considered criminal or black hats in China.
+I hope you get the idea. Context and perspective are critical in making the
+distinction, one I prefer not to make. I maintain the terms are anachronistic
+in 2020.
+In the old days—meaning way back to 2010—there were basically two
+types of hackers, but today there are many types and many motivations. As
+a result, I will avoid the distinction and if I refer to any hat at all, I will call
+them white hats.
+History of Hacking
+Before you begin this journey to becoming a Master Hacker, let’s take a
+look back at the history of hacking.
+4 | P a g e
+
+## Page 41
+
+Hacking has a long and storied history in the United States and around the
+world. It did not begin yesterday—or even at the advent of the twenty-first
+century—but rather dates back nearly forty
+years. Although there was little hacking activity in the 1980s, once the
+Internet migrated to
+commercial use in the 1990s, hacking went into hyper-drive.
+To those of you unaware of our long and proud history, I want to dedicate
+the following to provide you with some of the highs and lows of this nearly
+40-year history. It would be impossible to list every hack or hacker over the
+last 40 years, even if this were a 500-page book, so I will limit myself to a
+brief history and only try to touch upon the most significant hacks over that
+period of time.
+It’s important to note that we are limited in this history to only discussing
+hacks that were made public. Those that were not reported by their victims
+(national governments and large corporations are reluctant to report
+intrusions for fear of embarrassment and damage to their reputation) or
+were never discovered, cannot be included for obvious reasons. So, of
+course, that biases this expostion to only those who were caught.
+
+## Page 42
+
+Famous People Who Were Hackers
+Before we delve into this history of hacking, let's take a look at some
+prominent people
+who were once hackers. In reality, there are many respectable people in IT
+and IT security that have a hacker background, but few are willing to admit
+it. I personally know CIOs (Chief Information
+Officers) and CTOs (Chief Technology Officers) of major corporations in
+the United States who
+have admitted to me that they were once hackers, but they won't say so on
+the record and really don't want their employers to know.
+Steve Jobs
+Before there was an Apple computer, Mac, iPod,
+iPad, or iPhone, Steve Jobs and his partner, Steve
+Wozniak, were developing a tool that became
+known as the “Blue Box” in 1972. This tool was
+capable of replicating the audio tones used
+by the telephone company (Yes, once upon a time
+there was just one telephone company in the
+United States) to enable long-distance calls—
+without paying for them.
+Julian Assange
+Long before WikiLeaks, Julian Assange was an infamous
+
+## Page 43
+
+teenage hacker in Australia. As a sixteen-year-old in
+Australia, Assange, aka Mendax, was hacking into the US
+Department of Defense, NASA, the US Navy, MILNET,
+Citibank, and Lockheed Martin, among many others. By
+1991, Assange was caught hacking Nortel and was arrested
+and charged with thirty-one counts of computer crimes. In
+5 | P a g e
+1996, he plead guilty to twenty-five counts and paid a minimal fine with no
+jail time .
+Kevin Poulsen
+Now known as an author and astute tech writer for WIRED magazine,
+Kevin Poulsen, was first a
+hacker. He is best known for hacking the phone system of KIIS-FM in Los
+Angeles to make certain
+he was the 102nd caller, which won him the prize of a new Porsche 944.
+Poulsen was caught by the FBI and sentenced to five years in the federal
+
+## Page 44
+
+penitentiary with a three-year ban on using the Internet.
+Mudge (aka Peiter Zatko)
+Mudge was the most prominent member of the hacker super
+group, Cult of the Dead Cow (cDc) that was responsible for the
+development of BackOrifice (one of early exploits of Windows
+95 and 98 giving the attacker complete control of the remote
+system) and a heightening awareness of information security in
+the early days of the Internet (see the History of Hacking later in
+this chapter). In addition, Mudge was a leading member of the
+L0pht Heavy Industries and developed the widely used
+password cracker, Lophtcrack (it’s still in Kali). Unlike some
+other hackers, Mudge steered clear of breaking any laws and
+eventually advised President Bill Clinton on cyber security.
+He then took a job as project manager of a Defense
+Advanced Research Projects Agency (DARPA) project focused on directing
+research in cyber
+security. As of 2017, he is the head of security at credit card processor
+Stripe (in 2019, it was revealed that US presidential candidate Beto
+O’Rourke was also a member of the cult of the
+Dead Cow).
+In the Beginning...
+
+## Page 45
+
+There really is no clear-cut beginning, unlike the Bible. Almost as soon as
+there were electronic computers (ENIAC was developed for military
+ballistics work in 1946), there were hackers. Most of these hacks were
+minor, without major dollar losses or legal implications. Many people point
+to one event that may have marked the beginning of awareness of the risks
+and significance of computer
+hacking.
+Lawrence Livermore National Laboratory in Berkeley, CA was developed
+during WWII to do
+research on atomic weapons. After the war and up to the present, it
+continued to work on nuclear weapons development. During the Cold War
+between the US and USSR, this lab was the target and
+focus of espionage, as it held secrets that could give either nation an upper
+hand in any conflict.
+In 1986, at the height of the Cold War, Clifford Stoll, an astronomer
+working in IT at the lab, was asked to resolve a $0.75 accounting error on
+the timeshare (back then, many people shared time on one large mainframe
+computer) system. In his research, Stoll discovered that there was an
+unauthorized user on the system. Stoll was able to trace the new,
+unauthorized user back to Germany.
+6 | P a g e
+
+## Page 46
+
+
+## Page 47
+
+Stoll contacted the FBI, CIA, and other law enforcement agencies but
+received little or no help.
+Eventually, he set up fake files containing "national secrets" that the
+attacker found and stole. This is probably the first reported use of a virtual
+honeypot in history . Eventually, the trail led to a hacker in Germany named
+Markus Hess. He was stealing these nuclear secrets and passing them to the
+Soviet
+Union for compensation.
+This event, probably more than any other, triggered the national
+consciousness to the risks of hacking and started the process of developing
+a legal framework to prohibit hacking.
+Morris Worm - 1988
+In November 1988, the young Internet almost came crashing down. A
+twenty-two-year-old Cornell
+University graduate student by the name of Robert Tappan Morris
+unleashed a worm that infected
+nearly 25 percent of the computers on the Internet (admittedly, there were
+few computers on the
+Internet back then). This was particularly embarrassing for his father, who
+was a prominent NSA
+scientist and, at the time, head of IT security for the world's largest
+computer company, IBM.
+Eventually, Morris became the first person to be prosecuted under the
+Computer Abuse and Fraud
+Act of 1986 (Title 18, Section 1030 of the U.S.C. see Legal Stuff below).
+This same law is still used to prosecute most hacking crimes in the United
+States. Morris was sentenced to three-years probation and 400 hours of
+
+## Page 48
+
+community service. Dr. Morris is now a tenured professor at the
+Massachusetts
+Institute of Technology (MIT).
+Melissa Virus - 1999
+The Melissa virus was a milestone in virus development as it was a macro
+virus. This means that it used macros embedded in MS Office documents to
+do its dirty work. This may have been the most
+successful virus in computing history, reportedly infecting up to one in
+every five computers
+worldwide.
+Eventually, the developer of the Melissa virus, David L. Smith, was caught
+and prosecuted.
+Authorities tracked the GUID (Global Unique ID) of the Microsoft Office
+documents containing the virus to catch Smith. He plead guilty and was
+sentenced to ten years in prison.
+Back Orifice and BackOrifice 2000-1998-1999
+Back Orifice debuted in 1999 as a rootkit and remote
+administration tool (RAT) for Windows 95 and
+Windows 98 systems. Developed by the hackivist
+group Cult of the Dead Cow (Mudge was the most
+famous member and it now turns out that US
+presidential candidate, Beto O’Rourke also), it did
+much to heighten the awareness of the vulnerabilities
+
+## Page 49
+
+of Windows systems to malware and spurred Microsoft
+to take security seriously.
+7 | P a g e
+This malware with an easy-to-use GUI, enabled the hacker to control nearly
+any Windows system
+from a remote location.
+DMCA &Elcomsoft - 2001
+The Digital Millennium Copyright Act (DMCA) of 2001 made it illegal to
+pirate copyrighted
+material and contained severe penalties for doing so. Still, almost as soon as
+the ink was dry on this law, the FBI arrested Dmitry Sklyarov of Elcomsoft
+as he came to the United States to attend Defcon (one of the most famous
+information security conferences) in Las Vegas. The FBI claimed that
+Sklyarov and Elcomsoft were trafficking software programs that could
+circumvent copyright
+protections, which made Sklyarov the first person arrested and prosecuted
+under this new law.
+
+## Page 50
+
+Elcomsoft is a Russian company that sells digital forensics software that
+can also be used for
+hacking. For instance, they produce one of the best password-cracking tools
+available anywhere. It was this password cracking software that the FBI
+considered illegal that lead to his arrest. Eventually, the FBI dropped the
+charges against Sklyarov and he was allowed to return to Russia.
+Elcomsoft, the company, was then prosecuted under this law and was found
+not guilty.
+Anonymous Formed - 2003
+Anonymous, the loosely organized hacking
+collective, made its first appearance in 2003. An
+outgrowth of the 4chan image boards, this group
+would gain greater fame than any other hacker
+organization.
+It conducted numerous widely reported hacks
+including; Operation Chanology, an attack on the
+Church of Scientology's website; Operation
+Payback, the DDoS attacks against MasterCard,
+Discover, Visa, and PayPal after they refused to allow people to use their
+services to send
+contributions to WikiLeaks; Operation Paris, in response to the 2015
+terrorist attacks in
+Paris; Operation ISIS, an attempt to nullify ISIS recruiting efforts on the
+Internet; Operation Trump, an effort to keep Donald Trump from being
+elected president; and many others.
+
+## Page 51
+
+Several members, contributors, and readers of, Hackers-Arise.com, are also
+members of Anonymous.
+TJX - 2007
+TJX, the holding company of the off-price retailers such as TJ Maxx and
+Marshalls, lost nearly 45
+million customer records and credit cards numbers when hackers were able
+to compromise their
+network through an unsecured wireless network. It was the largest data
+security breach up to that time.
+8 | P a g e
+The hackers found one of its stores had an unsecured wireless network that
+they were able to access from the parking lot. From there, they traversed the
+company network to the database servers holding the customer accounts
+and credit card numbers. TJX held all this data unencrypted, making the
+hacker's task extraordinarily easy.
+Carder Market & Max Butler - 2007
+An American hacker, Max Ray Butler, aka Max Vision, took over the
+world's largest black market
+for stolen credit cards numbers, Carders Market. Eventually, in 2007, Butler
+(also the founder of the Arachnids vulnerability database) was caught and
+sentenced to thirteen years in prison, the stiffest sentence imposed upon a
+hacker yet. Butler is cooperating with the Computer Emergency Response
+Team (CERT) and is likely to be released early as a result of his
+cooperation.
+The Nation of Georgia and South Ossetia - 2008
+
+## Page 52
+
+Often marked as a milestone in the history of cyber warfare, Georgia, the
+former Soviet republic, was attacked with a massive DDoS attack against
+its internet architecture. As a result, all of the
+government and military internet-based communications were disabled,
+while Russian tanks and
+troops rolled into the Georgia province of South Ossetia. The DDoS attack
+was instigated by civilian hackers in Russia, probably at the direction of the
+Kremlin.
+Conficker Worm - 2009
+First detected in November 2008, the Conficker Worm struck fear into
+nearly every Windows user
+and their IT departments in 2009 and 2010. The worm used the
+vulnerability in Windows systems
+that became known as MS08-067 (Metasploit now has an exploit that tests
+for this vulnerability). The Conficker worm created one of the largest
+botnets in history, maybe as large as 15 million computer systems around
+the globe.
+This worm gave the developer access to the personal information of the
+computer user while adding them to a massive worldwide botnet that could
+be used for DDoS (Distributed Denial of Service)
+attacks, password cracking, and spamming, among many other malicious
+activities. Despite
+concerted international efforts, no one is certain who was responsible for
+Conficker and what its ultimate purpose was.
+Operation Aurora - 2010
+In 2010, Google was the victim of a massive attack, presumably from
+Chinese state-sponsored
+
+## Page 53
+
+hackers. These attacks were undertaken to compromise Google's Gmail
+service. Google speculated
+that Chinese authorities were seeking information on dissidents in their
+country that used Gmail to communicate. As a result, Google made a
+strategic decision to withdraw from the Chinese market,
+the world's largest.
+9 | P a g e
+
+## Page 54
+
+Stuxnet - 2010
+This was probably the most sophisticated hack of
+all time. Undoubtedly, this malware was
+developed by the NSA, probably in collaboration
+with Israel. Its intention was to slow Iranian
+nuclear development efforts and it accomplished
+that goal.
+This worm was first released in the wild in 2009
+and traveled around the world. It was soon
+discovered by security researchers, but its goal was unknown. Eventually, it
+found its way to the offline uranium-enrichment facility in Natanz, Iran,
+where it infected the Siemens PLC controllers on the centrifuges used to
+enrich uranium. It did not disable them, but rather made them operate at
+speeds that were inadequate to properly enrich the uranium, all the while
+reporting to the control room that all was well.
+This bit of malware was sophisticated and unique. First, it was very
+specific; it only infected the Siemens-produced controllers used on that
+enrichment facility. Second, it was harmless on all other infected
+computers. Only when it detected the target PLCs did it "phone home" for
+an upgrade.
+Third, it used a hash collision likely generated by NSA's supercomputers to
+bypass Microsoft's
+software-signing certificate authentication process. In all, the world has
+never seen such sophisticated malware, but I am sure that won't last for
+long. For more on Stuxnet, see https://www.hackers-
+arise.com/post/2019/11/01/scada-hacking-anatomy-of-the-stuxnet-attack
+
+## Page 55
+
+PlayStation Network - 2011
+The PlayStation Network of Sony Corp. was hacked in April 2011, and over
+77 million users'
+personally identifiable information (PII) was compromised. It was one of
+the largest data security breaches in history. Sony blamed Anonymous, but
+Anonymous denied involvement.
+Aaron Swartz - 2011
+Aaron Swartz was an icon and martyr for the cause of
+information freedom. Swartz is known for his
+development of the web syndication format RSS, and his
+involvement in the organization Creative Commons as
+well as partner in Reddit. In January 2011, Swartz was
+arrested by MIT police for connecting a computer to the
+MIT network and downloading academic journal articles.
+Federal prosecutors charged him with wire fraud and
+10 | P a g e
+eleven violations of the Computer Fraud and Abuse Act, US Title 18
+Section 1030. These charges
+could have meant up to thirty-five years in prison for Swartz.
+Distraught over the heavy-handed grandstanding by the federal prosecutor
+that would place him
+behind bars, Swartz took his own life, hanging himself in his Brooklyn
+apartment.
+
+## Page 56
+
+In August 2013, Aaron Swartz was inducted into the Internet Hall of Fame.
+Jeremy Hammond - 2013
+Jeremy Hammond was a computer hacker and hacktivist who was
+convicted and sentenced in
+November 2013 to ten years in federal prison for hacking Stratfor, the
+private foreign intelligence firm, and releasing the information and emails
+to WikiLeaks. Interestingly, the presiding judge at his trial, Loretta Preska,
+had ties to Stratfor through her husband, yet refused to recuse herself.
+Hammond founded the website www.hackthissite.com at just age 18.
+Hammond had long been a
+staple in the information security community and is a good example of
+someone using their skills for the common good, despite being labeled as
+criminal by the US justice system.
+Mt. Gox - 2011-2014
+Mt. Gox, based in Tokyo, was one of the first bitcoin (digital
+cryptocurrency) exchanges and
+probably the most widely used. Started in 2010, it closed its website and
+exchange in 2014. During that time, over 850,000 bitcoins ($450 million at
+the time and over $41 billion presently) went
+missing from its exchange.
+It was eventually revealed that Mt. Gox had been hacked numerous times
+over the years by various hackers. The CEO of Mt. Gox, Mark Karpeles,
+was arrested in 2015 for falsifying the account
+records to cover the losses.
+Target / Home Depot Hack - 2013
+
+## Page 57
+
+In December 2013, Target revealed that its database servers had been
+hacked and millions of
+customers' data had been compromised. The hackers apparently exploited
+the point-of-sale (POS)
+systems that were running Windows XP to enter the network, then traveled
+to the database servers from there to extract the data.
+Evidence points to a Russian cybercrime organization that purchased the
+exploit from a Russian
+teenager for $1,700. Soon after the Target hack, major retailers across the
+U.S. experienced the same attack, most notably Home Depot. This attack
+was probably responsible for one of the largest data breaches in history,
+compromising over 100 million credit card numbers. It had a significant
+impact upon these retailers’ reputation for information security and led to
+US credit card issuers to finally begin the transition to the more secure,
+chip-based credit cards, something the European issuers had done over a
+decade before.
+Yahoo- 2013
+11 | P a g e
+In the largest data breach yet, hackers breached Yahoo’s email service and
+stole 3 billion email account passwords. This breach haunted Yahoo for
+years and eventually led to it being acquired by Verizon.
+Sony - 2014
+Just before Christmas of 2014, Sony Entertainment's computer systems
+were hacked, presumably by
+the North Korean government, in response to a movie that Sony was about
+to release. This movie did not reflect well on the North Korean dictator,
+Kim Jong-un. The hackers were able to copy movies, emails, and
+confidential corporate documents that were very embarrassing to Sony.
+
+## Page 58
+
+Independent researchers found evidence that the attack was likely an inside
+job by former employees who had a grudge against the corporation.
+Hacking Team - 2015
+In 2015, a company in Italy known as "Hacking Team" was hacked and had
+the contents of its email and file server posted online. What makes this hack
+so significant is that it clearly shows how
+hacking has become a legitimate business. Emails from their servers show
+that Hacking Team,
+like Vupen (the French exploit developer), developed zero-day exploits and
+sold them to
+governments around the world. These exploits are largely used by
+governments to watch and monitor their citizens' online activities.
+Panama Papers Hack – 2016
+Wealthy individuals around the world were exposed for evading taxes by
+using shell corporations set up in Panama by the shadowy law firm,
+Mossack Fonesca in 2016. Although no one went to prison due these
+revelations, the Prime Minister of Iceland, David Gunnlaugsson, was forced
+to resign for hiding assets in Panama and the UK prime minister, David
+Cameron, had to issue an apology for his family’s use of the tax evasion
+methods (evenetually he did resign over Brexit, but these revelations did
+not help his case).
+Estimates of the total tax revenue evaded by those involved exceeded $200
+billion! Those implicated by this hack included those two prime ministers,
+and also include; Vladimir Putin, the prime minister of Georgia, the prime
+minister of Ukraine, the Spanish royal family, the Saudi royal family, Lionel
+Messi, Tiger Woods, Simon Cowell and many others. For more on this
+hack, go to https://www.hackers-
+arise.com/post/2018/08/01/confessions-of-a-professional-hacker-how-
+hackers-obtained-the-secrets-of-
+
+## Page 59
+
+the-panama-paper
+The Presidential Election of 2016
+The 2016 USpresidential election will likely go down as one of the most
+significant hacks in history.
+Presumably, the Russian state and Russian state-sponsored entities (GRU)
+endeavored to influence the election in favor of Donald Trump. These
+activities included posting divisive and false
+information on social media sites such a Facebook and Twitter and hacking
+the emails of Trump's
+opponent, Hillary Clinton,and her campaign manager, John Podesta. These
+emails were then
+transferred to WikiLeaks, where they were released by Julian Assange and
+his comrades at
+12 | P a g e
+WikiLeaks. In addition, the Russian hackers attempted to infiltrate the
+software of some voting machines, but were apparently unsuccessful. For
+more on how the Russian GRU compromised the
+2016 US Presidential election, see https://www.hackers-
+arise.com/post/2018/07/15/confessions-of-a-
+professional-hacker-how-russian-hackers-compromised-the-2016-us-
+presiden
+EternalBlue 2017
+In late 2016 and early 2017, a shadowy organization appropriately named
+the ShadowBrokers, was
+trying to sell exploits on the Internet that they said had been stolen from the
+US spy agency, NSA.
+
+## Page 60
+
+When they were unable to sell them for their asking price, they released
+them on the web on April 14, 2017. These exploits were real, stolen exploits
+from the NSA and could effectively give their owner access to nearly any
+Windows 7 and earlier computer system with system administrator
+privileges. This exploit (hack) was known as EternalBlue and Eternal
+Romance. Within days,
+Microsoft released a patch known as MS17-010 in the spring of 2017.
+Unfortunately, not everyone
+patched their systems and this exploit was responsible for millions of
+computers being compromised in the next few months including the
+WannaCry, Petya and NotPetya ransomware (see below).
+Evidence would seem to indicate that the Shadow Brokers was an operation
+of Russian espionage
+agencies and associated bodies.
+WannaCry 2017
+Nearly as soon as the EternalBlue exploit was released by the
+ShadowBrokers, someone used it to
+build the ransomware (ransomware encrypts the target’s files and demands
+ransom to decrypt hem)
+known as WannaCry. The first attack began on Friday May 12, 2017 (29
+days from the release of
+EternalBlue) and quickly spread to hundreds of thousands of computer
+systems around the world.
+This ransomware entered the computer system via SMB (Server Message
+Block protocol port 445.
+For more on SMB, see www.hackers-arise.com/network-fundamentals)
+using EternalBlue and then encrypted all the key files on the computer
+
+## Page 61
+
+system including Microsoft Office documents (doc, xls, ppt) as well as
+graphic files and database files. The attackers demanded ransom for the
+decryption key to be paid via the crypto-currency, bitcoin. The damages
+from this ransomware are estimated in the billions of US dollars. Many
+believe that this ransomware was the work of North Korean state-sponsored
+hackers and may have been used to fund that economically isolated
+country’s national
+budget needs.
+NotPetya Ransomware 2017
+Having first appeared in the Ukraine and generally attributed to the
+Sandworm hacking unit in
+Russia, the ransomware spread throughout the world in days crippling
+businesses around the globe.
+This ransomware caused over $10 billion in damage as businesses could not
+function without their data files, most notably the global shipping business
+Maersk. NotPetya also used NSA’s EternalBlue to exploit the systems and
+then providing access to the files for encryption. This was probably the
+most devastating ransomware attack to date.
+13 | P a g e
+Starwood Hotels 201 8
+In November 2018, the US hotel chain Marriott revealed that one of their
+subsidiaries’, Starwood Hotels, reservation system had been breached.
+Nearly half a billion (yes, that’s billion, meaning 7
+percent of this planet’s human population) of their guests’ records had been
+stolen. Apparently, the hacker had been embedded in their systems for over
+four years before being detected. It is suspected that this was a state-
+sponsored attack and that the state in question is simply stockpiling data on
+potential targets in the West.
+
+## Page 62
+
+I hope this brief history of hacking clearly demonstrates to you its
+importance and significance of over the last 40 years or so. As more and
+more of our lives become digital, hacking and IT security will become even
+more important, making them the most valuable and critical skills of the
+twenty-
+first century.
+Legal Stuff
+Before we begin training to become master hackers, let’s look at the law. So
+many of my readers have asked me “what is legal and illegal in
+hacking/pentesting” that I decided it was time to address it directly in this
+book. In our discipline, we may WANT to ignore the legal consequences
+(until they slap us upside the head) but that's not a prudent strategy. It may
+very well cut your hacking career short.
+The Cyber Crime Law Enforcement
+In the United States, most hacking is investigated and prosecuted by federal
+law enforcement.
+Surprisingly, the Secret Service is the lead agency, but they are primarily
+involved in coordinating the response, usually not in investigating. They
+delegate the investigation to one of the numerous federal agencies, but the
+FBI's Cyber Crime Task Force is the agency most often involved.
+There are cybercrime task forces in each locality. They are generally
+assigned the smaller local cases as the local FBI special agents have limited
+training and background in hacking and forensics. They often rely on good-
+old detective work to solve these cases. I can't tell how many times hackers
+have been tracked down because they bragged about their exploits. You
+don't have to be a techno-genius to track down a bragging hacker who
+suddenly is awash in money.
+Although federal law makes it a felony to do more than $5,000 damage, the
+general rule is the FBI won't even get involved in cases that comprise less
+than $100,000 in damages. Note that the key
+
+## Page 63
+
+word here is "damages."This has nothing to do with how much the hacker
+takes, but rather how much damage is done to the individual or business.
+For instance, Amazon does $230 billion per year in revenue or $630 million
+per day or $26 million per hour. If a hacker were to create a Denial of
+Service (DoS) against Amazon for one hour, the losses would be $26million
+plus mitigation costs, legal costs and reputation loss. Good luck making that
+restitution after you are caught and found guilty!
+US Federal Laws Regarding Cyber Crime
+14 | P a g e
+
+## Page 64
+
+Federal agencies in the United States prosecute cases using two primary
+federal statutes; USC Title 18 Sections 1029 and 1030 . These two statutes
+are so broad and ambiguous that many things not intended to be hacking
+could very well be found to be illegal.
+USC Title 18 Section 1029 or The Access Device statute, was designed to
+criminalize the possession or use of counterfeit access devices,
+unauthorized access devices for the unauthorized access to money, goods or
+services. When this statute was written, it was designed primarily to
+criminalize the devices used by phone “phreakers” such as Steve Jobs and
+Steve Wozniak of Apple fame. Back then, phone phreakers used these
+devices that enabled them to get free long distance access.
+The second of these two, USC Title 18 Section 1030, is most often used to
+prosecute hacking in the United States. That being the case, let's have a look
+at it. I have reprinted the key section that defines what activity is illegal
+below. I know there is a lot of legalese here, but let's try to stay focused and
+examine the critical sections closely.
+USC Title 18 Section 1030
+
+## Page 65
+
+Please note the sections I have highlighted above to get your attention that
+among other things, prohibits accessing "information from any protected
+computer." Since the courts have ruled that a"protected computer" can be a
+computer with as little protection as a password, this means essentially that
+EVERY computer is covered in this section.
+15 | P a g e
+
+## Page 66
+
+USC Title 18 Section 1030
+This section is key as well. It defines ways that a computer might be
+damaged such as "transmission of a program, information, code or
+command" or "accesses a protected computer without
+
+## Page 67
+
+authorization" which then "causes damage or loss.”
+As you can see, this is so vaguely worded that even a vulnerability scan
+might be construed as criminal if the prosecutor and "victim" can show
+there was damage or loss. Imagine a scenario where you are doing a
+vulnerability scan on a poorly designed website and it crashes as a result.
+You may have committed a federal felony!
+So, that is the key law. I left out the section on penalties, but you can
+imagine that it's not fun reading.
+DMCA
+The Digital Millenium Copyright Act or DMCA was passed by the US
+Congress in 1998 to protect
+against intellectual property (IP) pirating. This law specifically protects
+copyrighted material from unauthorized access. The DMCA has both civil
+and criminal penalties for the use, manufacture and trafficking of devices
+that circumvent technological measures for controlling access to
+copyrighted material. To sum up, it is a criminal act to access any
+copyrighted material such as books, music, and movies. As we saw above in
+the history of hacking, Elcomsoft was prosecuted under this law for
+creating password-cracking software that might be used to crack DMCA
+protected material. That
+16 | P a g e
+prosecution was definitely a good example of prosecutorial overreach and
+luckily Elcomsoft was found not guilty.
+Cyber Security Enhancement Act of 2002
+In 2002, the US Congress decided to expand cybersecurity statutes into
+some areas previously
+uncovered. This was in the wake of the World Trade Towers attack of
+September 2001, commonly
+
+## Page 68
+
+referred to as 9/11. The first thing this new statute did was allow for life
+sentences for a computer crime. If a computer crime results in another
+person’s bodily harm or death, the hacker could be sentenced to life in
+prison. Consider SCADA/ICS attacks on national infrastructure such as oil
+refineries, chemical plants, the electrical grid, etc.(for more on SCADA
+Hacking and Security, see
+www.hackers-arise.com/scada-hacking ).
+In addition, the CSEA enabled law enforcement to acquire records of
+suspicious activity from service providers without the service provider
+having to inform the customer.
+Be Careful Out There!
+My message to all of you is simply, "Be careful out there!" Even if you
+don't have malicious intentions, the knowledge that you are about to acquire
+can be misconstrued as bad intentions. If a website blows up while you are
+scanning it, no one is going to ask about your intentions before they throw
+you in prison.
+For someone like myself who has danced on both sides of the law, I can tell
+you first hand that when somebody finds out you have Kali or any hacking
+tools AND the knowledge of how to use them, you are suddenly guilty until
+proven innocent.
+17 | P a g e
+
+## Page 69
+
+2
+Essential Skills and Tools of the Master Hacker
+Everything happens one step at a time.
+Hima Das
+The master hacker is THE most skilled information
+technology (IT) practitioner .
+If you are a network engineer or a database administrator, you know
+how to manage networks and databases, respectively. You don’t need to
+write code or understand other operating systems, etc. You simply need
+to understand your pigeonhole of the IT field and to do that, you have
+manuals and courses.
+18 | P a g e
+
+## Page 70
+
+On the other hand, the master hacker must master many, if not all, the IT
+disciplines to be able to break the systems. Often, there are no manuals, just
+the hacker’s understanding of the fundamentals of how those systems work.
+Don't be discouraged if you don't have all the skills listed below, but rather
+use this list as a starting point for what you need to study and master in the
+near future.
+This is my overview of required skills to enter the pantheon of this elite IT
+profession. I've broken the skills into three categories to help you go from
+one rung to the other more easily: fundamental, intermediate, and intangible
+skills.
+The Fundamental Skills
+These are the basics that every hacker should know before even trying to
+hack. Once you have a good grasp on everything in this section, you can
+move into the intermediary level.
+1. Basic Computer Skills
+It probably goes without saying that to become a hacker you need some
+basic computer skills. These skills go beyond the ability to create a Word
+document, watch YouTube videos, or cruise the Internet.
+You need to be able to use the command line in Windows, edit the registry,
+and set up your networking parameters.
+Many of these skills can be acquired in a basic computer course like the
+CompTIA A+.
+2. Networking Skills
+You need to understand the basics of networking, such as;
+•
+DHCP
+
+## Page 71
+
+•
+NAT
+•
+Subnetting
+•
+IPv4
+•
+IPv6
+•
+Public v Private IP
+•
+DNS
+•
+Routers and switches
+•
+VLANs
+•
+OSI model
+•
+MAC addressing
+
+## Page 72
+
+•
+ARP
+As we are often exploiting these technologies, the better you understand
+how they work, the more successful you will be. Look for my upcoming
+book “Network Basics for Hackers” in 2021 for more depth on this subject.
+In the meantime, you can study network basics on www.hackers-
+arise.com/networks-basics.
+3. Linux Skills
+19 | P a g e
+It is critical to develop Linux skills to become a hacker. Nearly all the tools
+we use as a hacker
+are developed for Linux and Li nux gives us capabilities that we don't have
+using Windows or the MacOS.
+If you need to improve your Linux skills, or you're just getting started with
+Linux, check out my new Linux series for beginners (https://www.hackers-
+arise.com/linux-fundamentals) or m y “Linux Basics for Hackers ”
+(https://amzn.to/2JAsYUI ) from No Starch Press.
+4. Wireshark or Tcpdump
+Wireshark is the most widely used sniffer/protocol analyzer, while tcpdump
+is a command line
+sniffer/protocol analyzer. Both can be extraordinarily useful in analyzing
+network traffic and attacks.
+5. Virtualization
+You need to become proficient in using one of the virtualization software
+packages, such
+
+## Page 73
+
+as VirtualBox or VMWare Workstation. A virtual environment provides you
+with a safe place to practice your hacks before you take them out in the real
+world. Eventually, you will want a virtual environment to analyze live
+malware or exploit the virtualization system.
+6. Security Concepts & Technologies
+A good hacker understands security concepts and technologies. The only
+way to overcome the roadblocks established by the security admin’s is to be
+familiar with them. The hacker must understand such things as PKI (public
+key infrastructure), SSL (secure sockets layer), IDS (intrusion detection
+system), firewalls, etc.
+The beginner hacker can acquire many of these skills in a basic security
+course, such as CompTIA’s Security+ or through my upcoming series on
+information security concepts
+7. Wi-Fi Technologies
+In order to be able to hack Wi-Fi (802.11) you must first understand how it
+works—concepts such as encryption algorithms (WEP, WPA, WPA2), the
+four-way handshake, and WPS. In addition,
+understanding such as things as the protocol for connection, authentication,
+and the legal constraints on wireless technologies.
+To get started, check out my tutorial on wireless hacking strategies on
+www.hackers-arise.c om, then read my collection of Wi-Fi hacking guides
+for further information on each kind of encryption algorithms and for
+examples of how each hack works. Chapter 15 of this book is dedicated to
+Wi-Fi Hacks. My
+upcoming book, Network Basics for Hackers , will have an entire section on
+Wi-Fi (802.11) technologies.
+20 | P a g e
+The Intermediate Skills
+
+## Page 74
+
+This is where things get interesting, and where you really start to get a feel
+for your capabilities as a hacker. Knowing all of these will allow you to
+advance to more intuitive hacks, where you call all the shots—not some
+other hacker.
+8. Scripting
+Without scripting skills, you will be relegated to using other hackers' tools.
+This limits your effectiveness.
+Every day a new tool exists, its effectiveness diminishes as security
+administrators come up with defenses.
+To develop your own unique tools, you will need to become proficient in at
+least one of the scripting languages, including the BASH shell, and at least
+one of Perl, Python, or Ruby. You can find tutorials on these at
+www.hackers-arise.com/scripting or Chapte r 16 “Malicious Python” in this
+book.
+9. Database Skills
+If you want to be able to proficiently hack databases, you will need to
+understand them and how they work. This includes the SQL language. I
+would also recommend mastery of one of the major Database Management
+Systems (DBMS)s such SQL Server, Oracle, or MySQL. I have a series of
+tutorials
+exclusively in SQL Injection (SQLi) at https://www.hackers-
+arise.com/database-hacking.
+10. Web Applications
+Web applications are probably the most fertile ground for hackers in recent
+years. The more you
+understand about how web applications work and the databases behind
+them, the more successful you will be as a hacker. In addition, you will
+likely need to build your own website for phishing and other nefarious
+
+## Page 75
+
+purposes. Check out my series on Web App Hacking at www.hackers-
+arise.com/web-app-
+hacking .
+11. Forensics
+To become a good hacker, you must not be caught! You can’t become a pro
+hacker sitting in a prison cell for five years (see my section on Legal Stuff
+in Chapter 1). The more you know about digital forensics, the better you
+can become at avoiding and evading detection. In Chapter 14, we look at
+ways to Cover Your Tracks. Also, check out my series on Digital Forensics
+and Network Forensics at www.hackers-
+arise.com/network-forensics-1.
+12. Advanced TCP/IP
+The beginner hacker must understand TCP/IP basics, but to rise to the
+intermediate level, you must understand the intimate details of the TCP/IP
+protocol stack and fields. These include how each of the fields (flags,
+window, df, tos, seq, ack, etc.) in both the TCP and IP packet can be
+manipulated and used against the victim system to enable man-in-the
+middle (MitM) attacks, among other things.
+21 | P a g e
+
+## Page 76
+
+TCP/IP Header
+13. Cryptography
+Although one doesn't need to be a cryptographer to be a good hacker, the
+more you understand the strengths and weaknesses of each cryptographic
+
+## Page 77
+
+algorithm, the better the chances of defeating it. In addition, cryptography
+can be used by the hacker to hide their activities and evade detection. For
+some basics of cryptography and cryptographic concepts, refer to Appendix
+A “Cryptography Basics for
+Hackers.”
+14. Reverse Engineering
+Reverse engineering enables you to open a piece of malware and rebuild it
+with additional features and capabilities. Just like in software engineering,
+no one builds a new application from scratch. Nearly every new exploit or
+malware uses components from other existing malware.
+In addition, reverse engineering enables the hacker to take an existing
+exploit and change its signature so that it can fly past Intrusion Detection
+Systems (IDS) and antivirus (AV) software detection.
+Intangible Skills
+Along with all these computer skills, the successful hacker must have some
+intangible skills. They include the following.
+15. Think Creatively
+There is ALWAYS a way to hack a system and many ways to accomplish it.
+A good hacker can think
+creatively of multiple approaches to the same hack.
+22 | P a g e
+16. Problem-Solving Skills
+A hacker is always coming up against seemingly unsolvable problems,
+requiring the master hacker to be accustomed to thinking analytically and
+solving problems. This often demands that the hacker diagnose accurately
+what is wrong and then break the problem down into separate components.
+
+## Page 78
+
+This is one of those abilities that usually only comes with many hours of
+practice.
+17. Persistence
+A hacker must be persistent. If you fail at first, try again. If that fails, come
+up with a new approach and try again. It is only through persistence that
+you will be able to hack the most secure systems.
+I hope this gives you some guidelines to what you need to study and master
+if you want to ascend to the intermediate level of hacking.
+Essential Tools
+Often when students start down the path toward becoming a master hacker,
+they can become
+overwhelmed by the plethora of available tools. This can lead to frustration
+and inertia, or worse, as the number of tools seems more than you can
+tackle and master.
+For that reason, I have put together this list of essential tools a hacker needs
+to master. This does not mean that the others don’t have value or that you
+should ignore them, but rather focus on these first to build your
+hacker/infosec skills.
+Essential Tools of the Master Hacker
+Although there are literally thousands of infosec and hacking tools, here is
+my list of the most important tools for the aspiring master hacker. This is
+not meant to be an exhaustive list—I could have compiled a list of hundreds
+of excellent tools—but rather a list of what I consider to be essentia l tools.
+Of course, depending upon the task, choose the appropriate tool.
+In no particular order, my choices are;
+Nmap
+
+## Page 79
+
+This is an essential tool for port scanning and much more. Among the very
+first port scanners developed, Nmap is still going strong after over twenty
+years. Its primary purpose was to probe target systems for open ports and
+services, but in recent years Fyodor and the nmap community have added
+additional capabilities, including nmap scripts that expand this tool in many
+new directions. See Chapter 5 of this book for the basics of nmap.
+23 | P a g e
+Wireshark
+Wireshark is one of those fabulous tools with which nearly everyone in the
+IT industry should be familiar.
+Wireshark is a sniffer that enables us to examine every packet, and thereby
+analyze what is wrong with our network or what the intruder was trying to
+do.
+Wireshark enables you to interactively browse the data, develop display
+filters, and view a reconstructed stream of a TCP session. It can interpret
+hundreds of different protocols and each of their structures.
+Unfortunately, Wireshark has had its own issues with security
+vulnerabilities in recent years.
+For more information on Wireshark, see Chapter 10 in this book or
+https://www.hackers-
+arise.com/post/2018/09/24/network-forensics-wireshark-basics-part-1
+Metasploit
+Metasploit is the world's most popular exploitation framework. It packages
+nearly everything you need to conduct a pentest into a single software
+package—from scanning, exploitation, and post-exploitation.
+The Metasploit framework is extensible with modules for payloads,
+auxiliary, exploits, encoders, postexploitation, and no-operation (NOP)
+
+## Page 80
+
+generators. Metasploit is free, but does have commercial versions with
+additional features and costs.
+Metasploit 5 was just released in late 2018 (look for my “Metasploit Basics
+for Hackers ” in 2020) and has several new features, including new evasion
+modules. For information on Metasploit, see Chapter 9 in
+this book or see https://www.hackers-arise.com/metasploit-1
+BurpSuite
+BurpSuite is an excellent tool for attacking web applications, with
+numerous integrated tools. There is a limited-capability free version and the
+pro version is $399 per year from www.portswigger.com . For more on
+BurpSuite see https://www.hackers-arise.com/post/2018/06/21/online-
+password-cracking-with-thc-
+hydra-and-burpsuite
+Aircrack-ng
+The Aircrack-ng suite is the premier wireless technology analysis and
+cracking tool. Many of the other Wi-Fi tools on the market are simply
+scripts and GUIs that enable the use of Aircrack-ng. It is a suite of tools for
+monitoring, dumping, cracking, even creating an Evil Twin, and more. For
+information aircrack-ng see Chapter 15 in this book or
+https://www.hackers-arise.com/wireless-hacks
+Sysinternals
+Sysinternals was first developed by Mark Russinovich, then became part of
+Microsoft when the software company purchased Russinovich's firm in
+2006. Sysinternals are among the best tools to analyze what is actually
+taking place internally in your Microsoft operating system. They are
+designed to manage, 24 | P a g e
+diagnose, troubleshoot, and monitor Windows operating systems. Among
+the most useful of these tools are Process Explorer and Process Monitor.
+
+## Page 81
+
+For information on Sysinternal, see https://www.hackers-
+arise.com/post/2016/11/29/digital-forensics-part-7-live-analysis-with-
+sysinternals.
+Snort
+Snort is the world's most widely used network intrusion detection system
+(NIDS). It was started by Marty Roesch as an open-source project, sold to
+Sourcefire and then purchased by the networking giant, Cisco, in 2013. It is
+now built into many of the Cisco networking and firewall products. Since
+Snort is still a community open-source project, it is also used in many other
+IDS products. For more information on Snort, see Linux Basics for Hackers
+and https://www.hackers-arise.com/snort .
+sqlmap
+sqlmap is probably the best tool for automating SQL injection (SQLi)
+attacks against web forms. It is capable of database fingerprinting, dumping
+data from the database into csv files, and even accessing the underlying OS
+of the web server. For information on sqlmap see Chapter 13 or
+https://www.hackers-
+arise.com/database-hacking .
+Ettercap
+Ettercap is a tool for conducting a MiTM (Man-in-The-Middle) attack on a
+LAN. Its user-friendly GUI makes this process relatively easy and enables
+the attacker to alter messages and packets. For information on Ettercap see
+https://www.hackers-arise.com/post/2017/08/28/mitm-attack-with-ettercap
+OWASP-ZAP
+OWASP-ZAP is a free and open-source web application vulnerability
+scanning tool from the folks at the venerable OWASP project. Written in
+Java (therefore platform independent) with an excellent easy-to-use GUI, it
+can be mastered by even a novice in minutes. It is terrific for scanning web
+
+## Page 82
+
+applications in search of known vulnerabilities. For more OWASP-ZAP, go
+to Chapter 7 in this book.
+John the Ripper
+John the Ripper is the granddaddy of Linux based password cracking tools.
+Lightweight and fast, it can auto-detect the type of hash and then begin a
+dictionary attack first, followed by a brute-force attack, if the dictionary
+attack fails. This command-line tool is short on pretty user interfaces, but
+long on ease-of-use and effectiveness. For more on john the ripper, go to
+Chapter 8 in this book.
+hashcat
+hashcat is another Linux-based password cracker. Although not as easy to
+use as John the Ripper, many consider it one of the world's fastest open
+source password crackers. Among its many capabilities include 25 | P a g e
+using a graphical processor unit (GPU) for faster password hash cracking
+(hashcat 3.0). For more on hashcat, go to https://www.hackers-
+arise.com/post/2016/05/26/cracking-passwords-with-hashcat
+BeEF
+BeEF is the Browser Exploitation Framework Project. This tool enables the
+attacker to exploit the target's browser and then conduct a multitude of
+nefarious activities within their browser. For more information on BeEF, see
+Chapter 17 in this book or https://www.hackers-
+arise.com/post/2017/05/22/browser-
+exploitation-framework-beef-part-1
+THC-Hydra
+THC-Hydra is one of the leading remote password cracking tools. It is
+capable of dictionary attacks against multiple protocols, most notably
+HTTP, HTTPS, SMB, and FTP protocols. For more information on THC-
+
+## Page 83
+
+Hydra see see https://www.hackers-arise.com/post/2018/06/21/online-
+password-cracking-
+with-thc-hydra-and-burpsuite
+Nessus
+Nessus is the most popular vulnerability scanner. Originally developed as
+an open-source project, it is now owned by Tenable. Nessus utilizes a vast
+database of known vulnerabilities and then probes the target systems for
+evidence of their existence.
+Although the commercial version is over $2,000, you can still find the
+“Essentials” version for free on their website. This version enables you to
+scan up to 16 IPs without charge. For more information on Nessus, see
+Chapter 7 in this book.
+Shodan
+Shodan is the world's most dangerous search engine. It scans the Internet,
+not for keywords, but instead for web banners. It pulls the banner from
+nearly every IP address and then indexes that banner
+information for searching. This is an essential tool for finding sites that
+have useful characteristics, such as a particular web server, vulnerability,
+operating system, type of IoT or protocol. For more information on Shodan,
+see Chapter 5 in this book or https://www.hackers-arise.com/shodan
+Ollydbg
+OllyDbg is a 32-bit (x86) debugger for Microsoft Windows. It analyzes and
+deciphers software where the source code is unavailable. OllyDbg is free to
+download and use.
+OllyDbg is often used in reverse engineering of software as well as by
+programmers to make certain their programs are working as expected and
+for reverse engineering malware. For information on how to use Ollydbg,
+
+## Page 84
+
+see https://www.hackers-arise.com/post/2017/10/03/reverse-engineering-
+malware-part-5-
+ollydbg-basics .
+26 | P a g e
+Summary
+There are thousands of excellent tools for hacking and cyber security. In
+Kali Linux alone, there are hundreds of hacking tools. There are so many
+hacking tools, that it can be overwhelming to the novice hacker. It is my
+professional advice to start with these essential tools; master them and then
+move on to the many other powerful tools at your disposal. In that way, you
+will have a solid foundation toward becoming a master hacker.
+27 | P a g e
+
+## Page 85
+
+3
+The Hacker Process
+Hacking is a process, not a technology or tool.
+Master OTW
+In reality, hacking shares few similarities to the
+hacking portrayed in movies and television shows .
+To keep it attractive to the masses of lay and technically challenged
+viewers, these shows usually portray hackers with swirling geometric
+objects and animations on their computer screens. Then, in a matter of
+seconds, the hacker has access to all of the computer’s resources.
+28 | P a g e
+In real life, hacking can be a long, tedious process that sometimes can take
+days, weeks, or even months.
+
+## Page 86
+
+There are cases in the annals of hacking (for instance, the Carbanak Hack)
+where the attackers patiently worked for six to twelve months before
+compromising a highly valuable system such as a bank or
+national security system. Successful hackers spend a great deal of their time
+on reconnaissance of the systems, the network, and the users.
+There was a time when a hacker could use a single exploit to enter just
+about any Windows system (Conficker worm, MS08-067) and occasionally
+a similar exploit still appears in the modern era (such as EternalBlue; we’ll
+be working with the EternalBlue exploit through this book). As systems
+have become more and more secure, exploits have had to become more and
+more specialized. For instance, you may need to know the following to
+successfully exploit a system:
+1. The operating system;
+2. The service pack of the operating system;
+3. What ports are open on the target system;
+4. What services are running on the target system;
+5. What applications are running on the target system; and
+6. What language is used on the target system.
+Sometimes, even more information is necessary. This specificity is why
+reconnaissance is so critical. You need to determine all this information
+before even beginning the game. In some cases, reconnaissance may take
+up to 90 percent of the time of the entire operation.
+Reconnaissance is not as sexy as popping shell on the target system, but it is
+supremely critical in this era.
+If your reconnaissance is inadequate, all of your efforts will likely go for
+naught.
+
+## Page 87
+
+Although hacking is NOT a cookbook activity (a great hacker is creative
+and analytical. See Hacker Essentials in Chapter 2), we can generalize and
+say that you should take the following steps in your hacking process.
+Fingerprinting
+Fingerprinting is the process of enumerating the following attributes of a
+target:
+1. Users
+2. Hosts
+3. Network Topology
+4. Operating Systems
+5. Services
+The hacker can gather all of this information in a multitude of ways.
+Generally, our discipline categorizes these as either active or passive. Let's
+take a look at each of these below.
+29 | P a g e
+Passive Reconnaissance
+Passive reconnaissance is the process of learning about the target without
+ever directly interacting with it.
+In other words, you can gather information about the target from third-party
+sources, such as DNS, Shodan, Netcraft, Google, social networking sites,
+and others. The key to passive reconnaissance is to gather as much
+information about the target as you can without ever interacting with it and
+alerting the target of your interest. All the information comes from sources
+that have gathered the information previously. All we do is then harvest that
+information. In some circles, these techniques are known as open-source
+intelligence or OSINT (for more on OSINT, see www.hackers-
+
+## Page 88
+
+arise.com/osint ). In some cases, finding key information about the target
+can be critical to effective and efficient password cracking (see Chapter 8).
+Active Reconnaissance
+Active reconnaissance, as you probably already guessed, is information
+gathered while actively
+interacting with the target. Active reconnaissance is risky, but usually
+provides the attacker with more reliable and accurate information. Very
+often, this is through port scanning with tools such as nmap, hping3 or
+banner grabbing (see Chapter 6). Much more specific information can be
+gathered in the active reconnaissance phase, but it risks detection by the
+target, as every packet and probe has the signature of the sender. This phase
+of reconnaissance also risks triggering security devices such as firewalls
+and intrusion detection systems (IDS).
+Password Cracking
+Password cracking is a specialty that—when successful—can render
+significant rewards to the
+practitioner. In 2019, most systems are still protected by a single password
+and not the two-factor authentication (2FA) that would make them so much
+safer. If you can crack the password, you gain all the user’s permissions and
+rights.
+As security has become more and more important, passwords have become
+more and more difficult to crack. A password from the dictionary or other
+common alphanumeric combinations (qwerty, 12345678, etc.) can be
+broken in seconds. On the other hand, a ten-character password containing
+upper- and lower-case letters, numbers, and special characters would
+require a brute-force attack to attempt
+56,000,000,000,000,000,000 possibilities! Depending upon the tool the
+hacker uses, such a brute-force attack can take a very, very long time.
+Despite this—from the captured password dumps on the dark web—we
+know that the favorite passwords are:
+
+## Page 89
+
+1. 123456
+2. password
+3. 123456789
+4. 12345678
+5. 12345
+6. 111111
+7. 1234567
+8. sunshine
+9. qwerty
+30 | P a g e
+10. iloveyou
+11. princess
+12. admin
+13. welcome
+14. 666666
+15. abc123
+16. football
+17. 123123
+18. monkey
+19. 654321
+
+## Page 90
+
+20. !@#$%^&*
+21. charlie
+22. aa123456
+23. donald
+24. password1
+25. qwerty123
+If someone on the network is using one of these common passwords, or the
+5,000 other most-common passwords, the attacker can crack it in seconds!
+There are at least two types of password cracking, online and offline.
+Offline cracking is much simpler once the password hash (most passwords
+are stored in one-way encryption known as a hash. See
+Appendix A, “Cryptography Basics for Hackers”) has been obtained and the
+hacker can employ whatever resources are at their disposal to crack it.
+Online cracking is far more difficult, as many systems have lockouts that
+can limit our attempts.
+Exploitation
+If we have failed with password-cracking, the next step is to attempt
+exploitation. Based on the information garnered in the reconnaissance
+phase, we can develop a strategy for exploitation. Exploitation is usually
+accomplished because of a flaw in the operating system or application. The
+most notorious of these flaws is the buffer overflow. The buffer overflow
+occurs when a variable area is overflowed with too much, or with a specific
+type, of data and then enables the attacker to place their remote code
+(usually a rootkit, payload, or listener) in its place. This replacement code is
+then executed by the target system, and the attacker then connects to and
+controls the target system (for more on buffer overflows see Exploit
+Development, Part 1 at https://www.hackers-arise.com/single-
+post/2017/05/26/Exploit-Development-
+
+## Page 91
+
+Part-1-Anatomy-of-Buffer-Overflows ).
+Although there are many tools and scripts available for exploitation,
+Metasploit is the tool of choice for the beginner-to-intermediate hacker.
+Metasploit is a framework for the exploitation(and other tools) against
+known vulnerabilities in computer systems. The key words here are
+"known vulnerabilities."
+Metasploit does not help you hack with new, zero-day (never seen before)
+exploits, but instead catalogs and deploys tools and exploits against known
+vulnerabilities in operating systems, services, and applications.
+It’s important to note that systems are NOT always patched and up-to-date.
+As we saw in the History of Hacking section in Chapter 1, even after the
+patch for the EternalBlue exploit was released, the attackers 31 | P a g e
+were able to exploit hundreds of thousands of systems around the world and
+garner billions of dollars in ransom.
+In this book, we will focus on the use of Metasploit and some Python
+scripts for exploitation.
+Post-Exploitation
+Post-exploitation is what happens after the hack, or exploitation. The hack
+gets the attacker inside the system, but access is generally just the
+beginning. Post-exploitation can include grabbing passwords, accessing the
+database, turning on and accessing the microphone or webcam, etc. It may
+also include pivoting to compromise other parts of the network. For
+instance, if the hacker can compromise a single user on the network, that
+user's systems will not likely have the valuable assets the hacker is seeking,
+such as the database that contains personally identifiable information, credit
+card numbers, or confidential information. The hacker needs to learn to
+pivot from the compromised system to other systems on the network to be
+successful.
+Covering Tracks
+
+## Page 92
+
+Once the exploitation is complete, and the post-exploitation havoc has been
+done (taking or reading documents, turning on the microphone, pivoting to
+other systems, etc.), the final task for the hacker is to cover their tracks.
+This phase makes it more difficult for a forensic investigator to be able to
+track the hacker’s activity and actions. This can mean deleting or altering
+log files, deleting bash commands, changing timestamps on files, and
+others.
+Summary
+Now that we have an idea of the process of hacking or exploitation, let's get
+started!
+In the next chapter, we will set up the safe lab environment where we can
+practice without any chance of legal ramifications.
+32 | P a g e
+4
+
+## Page 93
+
+Building Your Hacking VirtualLab
+The desire for safety stands against every great and noble enterprise.
+Tacitus
+Now that we competed all the preliminaries, let’s get
+started hacking !
+Before we launch our journey to becoming a master hacker, we must
+first build a safe lab where we can practice our tools and techniques.
+The best way to do that is to use a virtual environment. Virtualization
+enables you to run many operating systems all within the same physical
+machine, and thereby practice your skills in secure environment.
+33 | P a g e
+
+## Page 94
+
+
+## Page 95
+
+There are numerous virtual machine environments available to you. These
+include VMware Workstation, VirtualBox, Parallels, Virtual PC, Xen, ESXi,
+Hyper-V, and any others. You can use any of these, but in the following
+section, I will walk you through setting up your hacking lab in Oracle’s free
+VirtualBox.
+VirtualBox is solid choice for virtualization, and most importantly, it’s free!
+Virtualization means we can set up our attacking system, such as Kali, on
+the same physical computer as our victim system, such as Windows 7 or
+Metasploitable 2 (this is a purposely vulnerable Linux system).
+There are at least two primary ways to virtualize operating systems, type-1
+or full-virtualization and type-2 or hardware-assisted virtualization.
+Type-1 virtualization runs on “bare-metal” or in other words, there is
+nothing between the virtualization system (hypervisor) and the hardware. In
+type-2 virtualization, we are able to run a guest operating system (OS)
+inside a host operating system. This is not the most efficient, but it is
+excellent as a lab environment. That’s what we will do here with
+VirtualBox.
+Kali Linux
+Let’s begin by downloading our attack system, Kali Linux. It was
+developed by Offensive Security as a hacking/pentesting operating system
+built on a distribution of Linux called Debian. There are many distributions
+of Linux, and Debian is one of the best. You are probably most familiar
+with Ubuntu as a popular desktop distribution of Linux. Ubuntu is also built
+on Debian. Other distributions include Red Hat, CentOS, Mint, Arch, SUSE
+and several others. Although they all share the same Linux kernel (the heart
+of the operating system that controls the CPU, RAM, and so on), each has
+its own utilities, applications, and choice of graphical interface (GNOME,
+KDE, and others) for different purposes. As a result, each of these
+distributions of Linux looks and feels slightly different. Kali was designed
+for penetration testers and hackers and comes with a significant
+complement of hacking tools.
+
+## Page 96
+
+34 | P a g e
+
+## Page 97
+
+I strongly recommend that you use Kali for this book. Although you can
+use other Linux distributions , you will likely spend significant amount of
+time downloading, installing and configuring the various tools we will be
+using (as many tools as Kali has, we will still need to download and install
+a few more).
+You can download Kali Linux at www.kali.org.
+
+## Page 98
+
+From the home page, click the Downloads link at the top of the page, and it
+will take you to the Downloads page. Here, you’ll be faced with multiple
+download choices, something like the figure below.
+These are the different versions of Kali for various systems.
+It’s important to choose the right download. Along the left side of the table,
+you will see the image name , which is the name of the version that the link
+downloads. For instance, the first is Kali Linux 64-Bit, meaning it’s the full
+Kali Linux, and is suitable for 64-bit systems—most modern systems use a
+64-bit Intel or AMD CPU. To determine what type of CPU is on your
+system, go to Control Panel ☐ System and Security System , and it
+should be listed. If yours is a 64-bit system, download and install the 64-bit
+version of the full Kali (not Light or Lxde, or any of the alternatives).
+If you are running an older computer with a 32-bit CPU, you will need to
+install the 32-bit version that appears lower on the page.
+You have a choice of downloading via HTTP or Torrent. If you choose
+HTTP, Kali will download
+directly to your system and place the image in your Downloads folder. The
+TORRENT download is the peer-to-peer download used by many file-
+sharing sites. You will need a torrenting application like BitTorrent to use
+this. The Kali file then will be downloaded to the folder in which the
+torrenting application stores it’ s downloads.
+There are other versions for other types of CPUs, such as the commonly
+used ARM architecture found in so many mobile devices. If you are using a
+Raspberry Pi, a tablet, or other mobile device (phone users will likely prefer
+Kali NetHunter), make certain you download and install the ARM
+architecture version of Kali by scrolling down to Download ARM images
+and clicking Kali Arm Images .
+35 | P a g e
+
+## Page 99
+
+
+## Page 100
+
+Now that you have Kali downloaded, but before you install anything, I want
+to talk a bit about virtual machines. As I mentioned above, Virtual Machine
+(VM) technology allows you to run multiple operating systems from one
+piece of hardware like your laptop or desktop. This means that you can
+continue to run your familiar Windows, Mac or Linux operating system and
+run a virtual machine of Kali Linux inside that operating system. You don’t
+need to overwrite your existing OS to learn hacking.
+Let’s install VirtualBox as our virtualization system.
+Installing VirtualBox
+You can download VirtualBox at www.virtualbox.org .You should see a
+Downloads button in the left menu. Click the Downloads button, which
+will take you to the screen shown below. Select the download link for your
+computer’s current operating system, which will host VirtualBox
+
+## Page 101
+
+VM. Make sure to download the latest version of VirtualBox.
+When the download has completed, click the setup file and you will be
+greeted by a familiar Setup Wizard like below.
+Click Next , and you should be greeted with the Custom Setup screen.
+36 | P a g e
+
+## Page 102
+
+
+## Page 103
+
+From this screen, simply click Next .
+Keep clicking Next until you get to the Network Interfaces warning screen,
+and then just click Yes.
+Click Install to begin the process. During this process, you will likely be
+prompted several times about installing device software . These are the
+virtual networking devices necessary for your virtual machines to
+communicate. Click Install for each one.
+When the installation is complete, click Finish .
+Setting Up Your Virtual Machine
+Now let’s get you started installing our virtual machines. VirtualBox should
+open once it has
+
+## Page 104
+
+installed—if not, open it—and you should be greeted by the VirtualBox
+Manager, as seen below.
+Since we will be creating a new virtual machine with our Kali Linux, click
+New in the upper-left corner.
+This opens the Create Virtual Machine window as seen below.
+37 | P a g e
+
+## Page 105
+
+Give your machine a name in the first window (any name is okay, but I
+simply used Kali) and then select Linux from the Type pull-down menu.
+Finally, select Debian (64-bit) from the third pull-down (unless you are
+using the 32-bit version of Kali, in which case select the Debian 32-bit
+version). Click Next , and you’ll see a screen like below. Here, we need to
+select how much RAM we want to allocate to this new virtual machine.
+As a rule of thumb, I don’t recommend using more than 25% of your total
+system RAM. That means if you have installed 4GB on your physical or
+host system, then select just 1GB for your virtual machine, and if you have
+16GB on your physical system, then select 4GB. The more RAM you give
+your virtual machine, the better and faster it will run, but you must also
+leave enough RAM for your host operating system and our other virtual
+machines you might want to run simultaneously. Your virtual machines will
+not use any RAM when you are not using them, but they will use hard drive
+space.
+
+## Page 106
+
+Click Next , and you’ll get to the Hard disk screen. Choose Create a
+virtual hard disk now and click Create .
+In the next screen, you can decide whether you want the hard drive you are
+creating to be allocated dynamically or at a fixed size. If you choose
+Dynamic allocated , the system will not take the entire maximum size you
+allocate for the virtual hard disk until you need it, saving more unused hard
+drive space for your host system. I suggest you select Dynamically
+allocated.
+Click Next , and you’ll choose the amount of hard drive space to allocate to
+the VM and the location of the VM .
+38 | P a g e
+
+## Page 107
+
+
+## Page 108
+
+The default is 8GB. I usually find that to be a bit small and recommend that
+you allocate 20–25GB as a minimum. Remember, if you chose to
+dynamically allocate hard drive space, it won’t use the space until you need
+it, and expanding your hard drive after it has already been allocated can be
+tricky, so better to err on the high side.
+Click Create , and you’re ready to go!
+Installing Kali in the VM
+At this point, you should see a screen like that below. Now you’ll need to
+install Kali. Note that on the left of the VirtualBox Manager, you should see
+an indication that Kali VM is powered off.
+Click the Start button (green arrow icon).
+
+## Page 109
+
+The VirtualBox Manager will then ask where to find the startup disk.
+You’ve already downloaded a disk image with the extension .iso , which
+should be in your Downloads folder (if you used a torrent to download Kali,
+the .iso file will be in the Downloads folder of your torrenting application).
+Click the folder icon to the right and navigate to the Downloads folder, and
+select the Kali image file.
+39 | P a g e
+
+## Page 110
+
+Then click Start .
+Congratulations! You are on your way!
+Setting Up Kali
+Kali will now open a screen like below, offering you several startup
+choices. I suggest using the graphical install for beginners.
+40 | P a g e
+
+## Page 111
+
+
+## Page 112
+
+Use your keyboard keys to navigate the menu.
+If you get an error when you’re installing Kali into your VirtualBox, it’s
+likely because you don’t have virtualization enabled within your systems
+BIOS. Each system and its BIOS will be slightly different, so check with
+your manufacturer or search online for solutions with your system and
+BIOS. In addition, on Windows systems, you will likely need to disable any
+competing virtualization software such as Hyper-V.
+Again, an internet search for your system should guide you in doing so.
+You will next be asked to select your language. Make certain you select the
+language you are most comfortable working in and then click Continue .
+
+## Page 113
+
+Next, select your location, click Continue , and then select your keyboard
+layout.
+When you click Continue , VirtualBox will go through a process of
+detecting your hardware and network adapters. Just wait patiently as it does
+so. Eventually, you will greeted by a screen asking you to configure your
+network, like below.
+41 | P a g e
+
+## Page 114
+
+The first item it asks for is the name of your host. You can name it anything
+you please, but I left mine with the default “Kali.”
+Next, you will asked for the domain name. It’s not necessary to enter
+anything here. Click Continue . The next screen, is very important. Here,
+you are asked for the password you want to use for the root user.
+The root user in Linux is the all-powerful system administrator (sysadmin).
+You can use anything you feel secure with. If this were a physical system
+that we are using on the Internet, I would suggest that you use a very long
+and complex password to limit the ability of an attacker cracking it. Since
+this is a virtual machine that people can’t access without accessing your
+host operating system, password authentication on this virtual machine is
+less important, but still, choose wisely.
+
+## Page 115
+
+Click Continue , and you will be asked to set your timezone. Do so and
+then continue.
+The next screen asks about partition disks. Choose Guided – use entire
+disk , and Kali will detect your hard drives and set up a partitioner
+automatically.
+Kali will then warn you that all data on the disk you select will be erased...
+but don’t worry! This is a virtual disk, and the disk is new and empty, so
+this won’t actually do anything. Click Continue .
+Kali will now ask you if you want all files in one partition (a partition is just
+what it sounds like—a portion or segment of your hard drive) or if you want
+to have separate partitions. If this was a production system, you probably
+would select separate partitions for /home , /var and /tmp , but considering
+that we will be using this as a learning system in a virtual environment, you
+should simply select All files in one partition .
+Now you be will asked whether to write your changes to disk. Select Finish
+Partitioning and write changes to disk . Kali will prompt you once more
+to see if you want to write the changes to disk; select Yes and click
+Continue .
+42 | P a g e
+
+## Page 116
+
+
+## Page 117
+
+Kali will now begin to install the operating system. This could take awhile,
+so be patient. Now is the time to take your bathroom break and get your
+favorite beverage.
+Once the installation is complete, you will be prompted as to whether you
+want to use a network mirror.
+This really is not necessary, but you may want to select a network mirror
+updates and additional software near your physical location .
+Then Kali will install GRUB (Grand Unified Bootloader). A bootloader
+enables you to select different operating systems to boot into, which means
+when you boot your machine you can boot into either Kali or another
+operating system. Select Yes . Then Kali will install the GRUB bootloader.
+
+## Page 118
+
+On the next screen, you will prompted as to whether you want to install the
+GRUB bootloader
+automatically or manually. For reasons as yet unclear, if you choose the
+second option, Kali will tend to hang and display a blank screen after
+installation. Select Enter Device Manually .
+On the following screen, select the drive where the GRUB bootloader
+should be installed (it will likely be something like /dev/sda . (Unlike
+Windows, Linux designates hard drive as sda, sbd, etc. See Linux
+Basics for Hackers for more information ). Click through to the next
+screen, which should tell you that the installation is complete.
+Congratulations! You installed Kali. Click Continue . Kali will attempt to
+reboot, and you will see a number of lines of code go across a blank, black
+screen before eventually you are greeted with Kali 2019 ’s login screen, as
+shown below.
+43 | P a g e
+
+## Page 119
+
+Login as root , and you will be asked for your password. Enter whatever
+password you selected for your root user.
+After logging in as root using your password, you will be greeted with the
+Kali Linux desktop like that below.
+Installing Your Target Systems
+Throughout this book, we will focus on two target systems, Metasploitable
+2, a purposely vulnerable Linux system and Windows 7. To download and
+install Metasploitable 2, click go to
+https://sourceforge.net/projects/metasploitable/ . Once it has been
+downloaded it, simply follow the instructions above for Kali to install your
+Metasploitable 2. The login for Metasploitable 2 is username: msfadmin and
+password: msfadmin
+44 | P a g e
+
+## Page 120
+
+
+## Page 121
+
+
+## Page 122
+
+To install Windows 7, things are a bit trickier. For you to fully engage with
+our exercises on Windows 7, you will need an unpatched Windows 7
+
+## Page 123
+
+system. Maybe you have one around your home, school or office.
+If not, you can search around the Internet and find numerous downloadable
+copies. Install it into your VirtualBox system, just as you did with Kali
+above.
+Eventually, you will be greeted by that familiar Windows 7 login screen.
+Lastly, we need to install MySQL on to the Windows 7 system. Go to
+www.oldapps.com and search for Windows applications. Go to the MySQL
+server and download and install MySQL v5.5.1 5
+45 | P a g e
+
+## Page 124
+
+Once you have installed MySQL for Windows, you will need to open the
+MySQL terminal (go to
+Programs then MySQL ) to create our test database and populate the
+database with the following commands.
+CREATE DATABASÈmoviedbÙSÈmoviedb`;
+CREATE TABLÈcreditcards` (
+ìd` varchar(20) DEFAULT NULL,
+`first_namè varchar(50) DEFAULT NULL,
+`last_namè varchar(50) DEFAULT NULL,
+èxpiration` date DEFAULT NULL
+ALTER TABLÈcreditcards` DISABLE KEYS */;
+INSERT INTÒcreditcards` VALUES ('001','Tom','Hanks','0000-00-00'),
+('002','Sandra','Bullock','0000-00-00'),('003','Alan','Rickman','0000-00-00');
+
+## Page 125
+
+CREATE TABLÈstars` (
+ìdìnt(11) NOT NULL,
+`first_namè varchar(50) DEFAULT NULL,
+`last_namè varchar(50) DEFAULT NULL,
+`dob` date DEFAULT NULL,
+`photo_url` varchar(200) DEFAULT NULL,
+PRIMARY KEY (ìd`)
+INSERT INTÒstars` VALUES (755011,'Arnold','Schwarzeneggar','1947-
+07-
+30','http://www.imdb.com/gallery/granitz/2028/Events/2028/ArnoldSchw_
+Grani_1252920_400.jpg?path=pgallery&
+path_key=Schwarzenegger,%20Arnold'),(755017,'Eddie','Murphy','1961-
+04-
+03','http://www.imdb.com/gallery/granitz/2487/Events/2487/EddieMurph_P
+imen_2724994_400.jpg?path=pgallery
+&path_key=Murphy,%20Eddie%20(I)');
+Congratulations! You are now ready to embark on a journey of “a thousand
+steps!” Be patient with yourself, you will not become a Master Hacker
+overnight, but you have taken the first important steps in that journey.
+46 | P a g e
+47 | P a g e
+
+## Page 126
+
+5
+Passive Reconnaissance
+“ Listen” closely and intently to your enemy; they will tell you everything
+you need to know to defeat them Master OTW
+Many on this path to becoming a master hacker tend to
+discount the need to do information gathering or reconnaissance. These
+newbies (I don't use that as a term of disparagement, but as a descriptor. We
+all
+began as newbies) want to rush right into attacking a target system. The
+master
+hacker understands that the more they know about the target, the better their
+chances of success. As I mentioned earlier in Chapter 3 on the “Hacker
+Process,” reconnaissance may take up to 90 percent of the entire project
+time and, in some cases, may take months.
+
+## Page 127
+
+48 | P a g e
+This chapter will focus on gathering information about our target from
+publicly available sources. These techniques are often termed "passive
+reconnaissance" because the hacker gathers information without interacting
+with the target. Some people also refer to this as open-source intelligence
+(OSINT). All of the information comes from third-party sources who have
+already gathered the information about our target.
+The information you gather in this stage depends upon the target. If the
+target is a website, you want to know as much about the technologies
+behind the web site as possible. If the target is a domain, you want to know
+as much about the domain as possible. If the target is a person, you want to
+know as much as possible about the person.
+It would be impossible to include all the passive-reconnaissance techniques,
+so we will limit ourselves to just a few here:
+1. Google Hacking
+2. Netcraft
+3. Shodan
+4. DNS
+5. p0F
+For additional passive reconnaissance techniques, go to www.hackers-
+arise.com/osint.
+Hacking Google
+As we all know, Google operates the most widely used Internet search
+engine on the planet. Google crawls nearly every web page of every web
+site, and builds a massive database of all the information it gathers. Most
+people then use Google's database to search by keywords for articles
+relevant to the subject of their inquiry. Google then retrieves the most
+relevant web sites based upon its algorithm (the PageRank algorithm,
+
+## Page 128
+
+named for Larry Page, one of Google’s founders), which prioritizes the
+articles.
+What few know is that Google has particular keywords and operators that
+can assist you in extracting precise information from this extraordinary
+database. As a hacker, that Google database may yield information about
+potential targets that could prove invaluable, including passwords.
+Let's take a look at a few of those keywords and what they do.
+Google Hacking Keywords
+Please note that Google's keywords require a colon(:) between the keyword
+and the search terms, such as intitle:hackers-arise.
+Although far from an exhaustive list, here are some of the more widely used
+Google keywords:
+allinanchor
+If you use the allinanchor keyword, Google restricts your search to those
+web pages that have ALL
+of the terms you are looking for in the anchor of the page.
+allintext
+If you use the allintext keyword, Google restricts your search to those pages
+that have ALL of the search terms you specify in the text of the page.
+allintitle
+If you use the allintitle keyword, Google restricts your search to those pages
+that have ALL of the search terms you specify in the title of the page
+allinurl
+If you use the allinurl keyword, Google restricts your search to those pages
+that have ALL of the 49 | P a g e
+
+## Page 129
+
+
+## Page 130
+
+search terms you specify in the URL of the page.
+filetype
+If you use the filetype keyword, Google restricts your search to those pages
+that have the filetype you specify. For instance, to search for an Adobe PDF
+file, you could use filetype:pdf
+inanchor
+
+## Page 131
+
+If you use the inanchor keyword, Google restricts your search to those
+pages that have search
+terms you specify in the anchor of the page.
+intext
+If you use the intext keyword, Google restricts your search to those pages
+that have the search
+terms you specify in the text of the page.
+intitle
+If you use the intitle keyword, Google restricts your search to those pages
+that have the search terms you specify in the title of the page.
+inurl
+If you use the inurl keyword, Google restricts your search to those pages
+that have the search
+terms you specify in the URL of the page.
+link
+When you use the link keyword followed by the URL, Google shows you
+all the sites that link back to the specified URL.
+site
+If you use the site keyword, Google restricts your search to the site or
+domain you specify.
+Google Hacking Examples
+Let's look at some examples of how we can use Google hacking to find
+relevant web sites and files.
+
+## Page 132
+
+As you know, many firms store important financial and other information in
+Excel files. We could use a simple Google hack that looks for the Excel
+filetype, “.xls” or “.xlsx”.
+filetype:xls
+We can get a bit more selective and combine Google keywords to look for
+Excel files in government websites (by using the keyword site with the top
+level domain .gov ) that have the word "contact" in their URL. This yields
+web pages that have contact lists from government agencies, a possible
+treasure trove for social engineering (see Chapter 17 for “Social
+Engineering”).
+filetype:xlssite:govinurl:contact
+50 | P a g e
+
+## Page 133
+
+
+## Page 134
+
+
+## Page 135
+
+If I were looking for an Excel file with email addresses, I might use the
+following:
+filetype:xls inurl:email.xls
+Many PHP applications are vulnerable to SQL injection (see Chapter 12)
+and other attacks. We can look for these types of web applications with:
+inurl:index.php?id=
+51 | P a g e
+
+## Page 136
+
+
+## Page 137
+
+Some other Google hacks that might yield interesting results include:
+intitle:"site administration:please log in"
+If I were pursuing a social engineering attack and I want to gather useful
+information on my target, I might use:
+intitle:"curriculum vitae" filetype:doc
+
+## Page 138
+
+Effectively finding unsecured web cams is one of the more fun aspects of
+Google hacks. The following list shows some of these effective hacks for
+finding vulnerable web cams:
+allintitle: "Network Camera NetworkCamera"
+intitle:"EvoCam" inurl:"webcam.html"
+intitle:"Live View / - AXIS"
+intitle:"LiveView / - AXIS" | inurl:view/view.shtml
+inurl:indexFrame.shtml "Axis Video Server"
+inurl:axis-cgi/jpg
+inurl:"MultiCameraFrame?Mode=Motion"
+inurl:/view.shtml
+inurl:/view/index.shtml
+“mywebcamXP server!”
+52 | P a g e
+
+## Page 139
+
+Google dorks are innumerable and some people, such as Johnny Long,
+specialize in developing effective Google dorks. Long has written a couple
+of good books on the subject. Another good source for Google dorks is the
+
+## Page 140
+
+Exploit Database at www.exploit-db.com. If you go t here and click on the
+GHDB tab to the left of the screen, we can find the latest Google dorks.
+When we click on the GHDB tab, it opens:
+Here we can find thousands of Google dorks. Some are more effective than
+others.
+53 | P a g e
+We can be very specific about the kind of dorks we are seeking. For
+instance, if we were targeting WordPress websites, we could enter the
+keyword “wordpress" in the search window, and this site would display all
+the Google dorks relevant to WordPress built websites (WordPress is the
+world's most popular content management system for building websites).
+Among the many Google dorks we find here is a
+more complex one that combines several phrases:
+filetype:sql intext:password | pass |
+passwdintext:usernameintext:INSERT INTO ùsers` VALUES
+When we use this dork, we find several web sites. When we click on one,
+we find the following:
+As you can see, we were able to find an SQL script that inserted users and
+passwords into a database. As we can scan through this script, we find
+
+## Page 141
+
+numerous username and password pairs. These should make hacking these
+accounts pretty simple!
+Google Hacking Summary
+Google hacking is a key skill that every hacker should be aware of and
+master. In many cases, it can yield information on our target that may save
+us hours, or even days, in exploiting a target.
+As we continue to expand on information-gathering techniques, keep in
+mind that you are unlikely to use all of these techniques on one project.
+Each project is unique, and you will need to customize your information-
+gathering techniques to the target. It is also important to note here that we
+are using publicly available information that does not require we "touch"
+the domain or website of the potential target and, thereby, trigger some alert
+by an Intrusion Detection System (IDS) or other security devices as we are
+gathering information.
+In this chapter, I’ll introduce you to more techniques for gathering
+information on your target from publicly available sources.
+Netcraft
+Netcraft is a project out the United Kingdom that began as an effort to track
+data about web servers and websites. It is a very reliable source for data on
+the market share of web server technologies. For instance, if you want to
+know what percent of web servers are running Apache (38.77%),or the most
+reliable hosting companies (Lightcrest) or the most widely used hosting
+companies (Softlayer), Netcraft is the authoritative source. As it does this
+task of gathering information, it has garnered a remarkable amount of
+information on millions of websites and servers that we can mine and may
+prove useful in developing a strategy toward a particular target.
+54 | P a g e
+
+## Page 142
+
+
+## Page 143
+
+
+## Page 144
+
+You can find the website at www.netcraft.com; the screenshot be low shows
+the netcraft.com home web page.
+Notice about two-thirds of the way down on the far right, there is a window
+labeled "What's that site running?" Below that label it states, "Find out what
+technologies are powering any website." Finding what technologies the
+website runs is precisely what we want to do!
+Let's select a target and see what we can find out about them. Nearly all of
+us are familiar with Facebook.
+Let's see what information Netcraft has gathered about www.facebook.com.
+Put "facebook.com" into the window and hit ENTER.
+55 | P a g e
+
+## Page 145
+
+
+## Page 146
+
+As you can see in the screenshot above, Netcraft lists multiple sites and
+servers for Facebook. Over the years, Facebook has expanded around the
+world with servers in many nations. Let's take a look at Facebook's original
+site, www.facebook.com. The listing tells us it was first seen in May 1997,
+the netblock is held by Facebook and the OS this site is running is Linux. If
+we click on the "site report" in the middle we can see more information on
+Facebook.
+The site report includes:
+• The site title;
+• The web site rank among the internet's millions of sites;
+• The date first seen;
+
+## Page 147
+
+• Primary language;
+• Description;
+The Hosting History section includes more interesting information such as:
+• IP address
+• The operating system
+• The web server
+• Last seen
+If we scroll down a bit, we see more information on the technologies that
+the site is using.
+56 | P a g e
+
+## Page 148
+
+
+## Page 149
+
+Very often, we can gather even more information about smaller websites
+and web servers from Netcraft (some sites, though, are too small to be
+tracked by Netcraft). Let's see what information they have about
+www.skullsecurity.com, a website dedicated to IT security and widely used
+as a source of password lists.
+Interestingly, under "Site Title" for skullsecurity.com, Netcraft has listed
+"404 Not Found.” A web site owner can put in any title these please. This
+web site owner obviously has a sense of humor. Under hosting history,
+Netcraft has the IP address along with the OS (Linux) and the web server
+(nginx). All this can be beneficial information in developing an exploitation
+strategy!
+57 | P a g e
+
+## Page 150
+
+Whois
+Whenever anyone registers a domain, they are required to provide some
+necessary information about themselves and their company. This
+information can include the nameserver, registrar, contact name, address,
+phone number, and email address. All of this information may be useful to
+the attacker.
+This information is maintained by the registrar and a central registry is
+maintained by InterNIC. We can query (port 43) these databases for this
+basic information by using the whois command built into nearly every
+Linux/UNIX system. Let's query facebook.com from our Kali system.
+
+## Page 151
+
+kali> whois facebook.com
+As you can see in the screenshot above, our Kali Linux automatically
+queries the whois entries and returns information on the domain, such as
+name, address, city, state, zip code, and phone number.
+Domain owners are also required to provide information on the technical
+and administrative contacts to the registrar, but most large companies now
+provide generic names like Facebook provided here. That's not always the
+case with smaller companies.
+When we run a similar whois query for skullsecurity.com, we get the
+owner's name, address, phone, and email address.
+58 | P a g e
+
+## Page 152
+
+If we are using a Windows system, we can use one of several online whois
+lookups. We can find one such tool at www.networksolutions.com, but
+others are available, such as:
+• http://whois.domaintools.com
+• http://ripe.net
+• http://whois.sc
+When we use a browser from Windows to run a whois query from
+www.networksolutions.com on
+skullsecurity.com, we get the following information.
+59 | P a g e
+
+## Page 153
+
+
+## Page 154
+
+
+## Page 155
+
+Note that the information is almost identical to the information we received
+from the Linux whois lookup, but formatted slightly differently.
+Shodan
+All of us have used (in most cases, several times per day) Google, Bing, or
+Yahoo to search for relevant material on the Internet. Earlier in this chapter,
+we learned some basics of using Google hacking to find information that
+might not be readily visible in Google's enormous database of web material.
+In this section, I’ll introduce you to another web search engine, Shodan.
+Shodan is often referred to as the
+"world's most dangerous search engine" because of the data it indexes and
+reveals.
+Shodan is a different type of search engine. Instead of crawling all the
+world's web pages and indexing the information on those pages for search,
+Shodan crawls the Internet and pulls the banners on web servers, then
+indexes the information found in those banners. If you are unfamiliar with
+pulling web banners, check out the banner-grabbing script in Chapter 16.
+Now that nearly every new device has a web interface—from webcams to
+refrigerators to security
+systems—each of these devices also have a tiny web server embedded, as
+well. These web interfaces are often enabled to allow remote
+administration, such as in a Cisco router or a home security system. These
+web interfaces mean that we can connect to those web servers and pull their
+banners to find out
+information about the device and its web server. Fortunately, we don't have
+to do that as Shodan has done this for us and nicely indexed all that
+information.
+60 | P a g e
+
+## Page 156
+
+
+## Page 157
+
+Shodan HQ
+John Matherly developed Shodan in 2009. Shodan collects and indexes
+information from the banners collected from all over the world on web
+interfaces on ports 80 (HTTP), 21 (FTP), 22 (Telnet), 23 (SSH),
+161(SNMP) and 5060 (SIP).
+Let's navigate to www.shodan.io.When we do so, we should see a screen
+like the one below.
+
+## Page 158
+
+To use Shodan, we need to register and open an account. Once we have
+registered, and before we have learned the subtleties of using Shodan
+effectively, we may want to take a look at some of the popular searches
+offered to the far right. These are searches others have done that reveal
+intriguing information and don't require you to learn the Shodan search
+syntax.
+For instance, here we have used the webcam search. When we clicked on it,
+and it has taken us to a web camera that appears to be an airplane hangar
+somewhere on the planet.
+61 | P a g e
+
+## Page 159
+
+
+## Page 160
+
+When we go to the router searches, we can find the interface of a router
+such as this one. In many cases, using the default username and password
+gives you access to these routers.
+Maybe even more frightening is that the web interfaces of SCADA
+(Industrial systems such as oil
+refining, manufacturing, electrical transmission and others) systems can
+also be found and accessed via Shodan.
+62 | P a g e
+
+## Page 161
+
+
+## Page 162
+
+Here we were able to find the web interface to a hydroelectric plant in
+Genoa, Italy.
+Shodan’s Search Syntax
+The popular searches above are all well and good. Interesting, but not very
+targeted. These popular searches make for helpful demonstrations, but how
+do we use Shodan to find specific web interfaces?
+Remember, Shodan indexes web interface banners. It pulls the banner
+information and then stores and indexes that information. When we search
+Shodan, we can look for that information from the banner.
+Shodan has few keywords that can help us narrow our search to specific
+interfaces, such as:
+
+## Page 163
+
+•
+after/before - limits our results to banners that have been indexed before or
+after a specific date
+•
+country - filters our results by country using the two-letter country code
+•
+hostname - filters the results by domain name
+•
+net - filters the results by IP address range using CIDR notation
+•
+geo - filters the results by longitude and latitude
+•
+os - filters the results by host operating system
+•
+port - filters the results by port
+Let's now use these filters to find some specific web interfaces.
+63 | P a g e
+
+## Page 164
+
+
+## Page 165
+
+What if we were looking for only Cisco routers? Remember, Shodan
+indexes the information it pulls from the web interface, so if the interface
+announces to the world that it is a Cisco device (vigilant security
+administrators can suppress the banners or even put in a fake banner),
+Shodan indexes it as such, and we can search for that keyword. For
+instance, if we put the word Cisco in the search engine, we pull up over
+three million devices!
+Because Shodan indexes the IP address of every web interface it pulls, and
+IP addresses are distributed to geographically specific locations, we can
+search Shodan by location. If we only wanted to find Cisco devices in India,
+we could search Shodan with:
+
+## Page 166
+
+Cisco country:IN
+When we do so, Shodan narrows our search down to just 71,147 devices.
+Still, a pretty unwieldy amount, but more workable than 3 million.
+To get more specific, we can filter by port. Let's assume we are looking for
+Cisco devices in India that are using VOIP. We know that VOIP uses the
+SIP protocol on port 5060, so we can narrow the search down by typing in
+the search engine:
+Cisco country:IN port 5060
+64 | P a g e
+
+## Page 167
+
+This syntax narrows our search down to just 2435 routers in India with port
+5060 open.
+Let's refine our search a bit more. As I pointed out earlier, Shodan indexes
+banner information with IP
+addresses. What if we wanted to narrow our search to Cisco routers in India
+with port 5060 open and are on the subnet 125.63.65.0/24? We could search
+Shodan by typing in the search window:
+Cisco country:IN port:5060 net:125.63.65.0/24
+Shodan finds exactly one router that meets those criteria. You can't get more
+specific than that!
+
+## Page 168
+
+Now, let's open those results.
+65 | P a g e
+
+## Page 169
+
+Here we can see we have an interface to a Cisco router in New Delhi, India
+with port 5060 open at the IP
+address we specified. If the router is unprotected, we may be able to access
+it without further trouble by simply clicking through this entry. If it requires
+authentication, first try the default username and password and only if that
+fails, try to brute force with a tool like THC-Hydra (for a tutorial on THC-
+Hydra, go to www.hackers-arise.com/online-password-cracking).
+Shodan is one tool in an arsenal of tools that we can use to gather
+information about potential targets.
+Shodan enables us to search for the world for vulnerable web interfaces
+and, with the help of just a few keywords, narrow our search to a specific
+type and location of web interfaces.
+
+## Page 170
+
+Information Gathering using DNS
+As you know, the Domain Name System, or DNS, is a protocol used by the
+Internet to translate
+domain names into IP addresses and vice versa. It stores information on
+every domain, enabling
+us to type in a domain name (microsoft.com) to access their website, versus
+remembering
+thousands of IP addresses. This database of domain names and URLs can be
+used to gather
+information on our target without ever having to touch the target’s
+computers or networks. It can reveal a surprising amount of information
+that we can then feed back into our attack. By
+querying the DNS database, we can gather information while appearing to
+be a typical DNS
+query and not alerting security devices or admins of our activities (for more
+on DNS, see
+https://www.hackers-arise.com/single-post/2019/05/20/Network-Basics-for-
+Hackers-Domain-Name-
+Service-DNS-and-BIND-Theory-Vulnerabilities-and-Implementation )
+Querying DNS about the target
+As most of you know, DNS can be queried directly by using the nslookup
+and dig commands. Working from Linux, we can use either; but if we are
+working from Windows we are limited to nslookup . I'm assuming that
+most of you have used these utilities, so I won't go into great detail here, but
+I’ll instead provide a brief review for those who are new to this subject.
+Although we can use both nslookup and dig from our Kali Linux, the dig
+command is simpler and provides more information and functionality, so
+
+## Page 171
+
+I’ll focus on it here. Let's assume we are looking for the nameserver of our
+favorite software company, Microsoft.com. We can use the following
+command:
+66 | P a g e
+
+## Page 172
+
+
+## Page 173
+
+kali> dig microsoft.com ns
+where ns indicates, we are looking for the nameserver.
+As you can see in the screenshot above, we were able to pull the
+nameserver records for
+microsoft.com.
+If we want the mail server records for microsoft.com, we can query the
+DNS server with:
+kali> dig microsoft.com mx
+Where mx indicates, we are looking for the mail server records.
+67 | P a g e
+
+## Page 174
+
+As you can see in the screenshot above, we successfully pulled the mail
+server records for microsoft.com Finally, we can attempt to do a zone
+transfer (in DNS terminology, a zone transfer is an update to DNS
+records) on microsoft.com by entering:
+kali> dig @75.75.75.75 microsoft.com axfr
+where @75.75.75.75 is the IP address of the DNS server, and axfr is the
+command for a zone transfer.
+Note that zone transfers are malicious and only possible on improperly
+configured DNS servers. In our case here, the DNS server would not allow
+us to do a zone transfer.
+Bruteforcing Subdomains using dnsenum.pl
+Within Kali, we have several DNS information gathering tools. dnsenum is
+Perl script and an excellent tool for automating the extraction of all the
+DNS information we have been extracting above manually and more.
+Open a terminal and enter dnsenum at the prompt.
+Note that dnsenum’s syntax is relatively simple:
+
+## Page 175
+
+dnsenum.pl [Options] <domain>
+In our case, we are using dnsenum to attempt a dictionary attack on the
+subdomains of kali.org with the DNS file supplied by the script developers
+(you can use your own if you like). To do this, we need to use the -f switch
+and the absolute path to our list of potential subdomain names
+(/usr/share/dnsenum/dns.txt) and then the domain we want to search for
+subdomains.
+68 | P a g e
+
+## Page 176
+
+In this case, let’s use www.kali.org.
+We would write our command like this below:
+kali> dnsenum.pl -f /usr/share/dnsenum/dns.txt kali.org
+As you can see below, once we hit Enter, dnsenum begins by enumerating
+the nameservers and mail
+servers for www.kali.org.
+It then tries to brute force subdomains using the list of potential subdomains
+we provided and the Class C
+netranges.
+Finally, it attempts a zone transfer unsuccessfully.
+69 | P a g e
+
+## Page 177
+
+Querying the Target’s DNS Cache to Determine its Antivirus Software
+Now that we understand a bit about how we can cultivate DNS service for
+information, let's look at another more sophisticated use of DNS for
+providing information on the target. I’ve included this technique not
+
+## Page 178
+
+because of its practicality, but for its ingenuity and creativity—two essential

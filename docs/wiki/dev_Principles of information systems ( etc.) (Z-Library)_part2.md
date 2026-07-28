@@ -1,0 +1,3006 @@
+---
+title: Principles of information systems ( etc.) (Z-Library) - Part 2
+source: Principles of information systems ( etc.) (Z-Library).md
+category: development
+---
+
+nerabilities, and the increasing sophistication of those who would do harm. 
+These reasons, which are discussed in the following sections, have caused a 
+dramatic increase in the number, variety, and severity of security incidents.
+Increasing Complexity Increases Vulnerability
+The computing environment has become enormously complex. The Internet of 
+Things, cloud computing, mobile devices, operating systems, applications, Web 
+sites, switches, routers, and gateways are all interconnected and are driven by 
+hundreds of millions of lines of code. This environment continues to increase in 
+complexity every day and soon will include billions of communicating devices. 
+The number of possible entry points to a network expands continually as more 
+devices are added, further increasing the possibility of security breaches.
+In addition, organizations are constantly adding new applications, mod-
+ifying existing applications, and replacing older, legacy information systems. 
+This constant change further increases the level of complexity and raises the 
+vulnerability of the systems.
+Bring Your Own Device Policies
+Bring your own device (BYOD) is a business policy that permits, and in some 
+cases encourages, employees to use their own mobile devices (smartphones, 
+tablets, or laptops) to access company computing resources and applications. 
+These resources and applications include email, corporate databases, the cor-
+porate intranet, and the Internet. Proponents of BYOD say the policy improves 
+employee productivity by allowing workers to use devices with which they 
+are already familiar—while also helping to create an image of a company as a 
+flexible and progressive employer. However, this practice raises many potential 
+security issues as it is highly likely that such devices are also used for non-
+work activity, such as browsing Web sites, blogging, shopping, and visiting 
+social networks. This nonwork activity exposes the devices to malware much 
+more frequently than a device that is used strictly for business purposes. (The 
+malware may then be spread throughout the company.) In addition, BYOD 
+makes it extremely difficult for IT organizations to adequately safeguard the 
+wide range of portable devices with various operating systems and a myriad 
+of applications.
+Use of Software with Known Vulnerabilities
+In computing, an exploit is an attack on an information system that takes 
+advantage of a particular system vulnerability. Often this attack is made pos-
+sible due to poor system design or implementation. Once the vulnerability is 
+discovered, software developers create and issue a “fix,” or patch, to eliminate 
+the problem. Users of the system or application are responsible for obtaining 
+and installing the patch, which they can usually download from the Web.
+Any delay in installing a patch exposes the system to a potential security 
+breach. The need to install a fix to prevent a hacker from taking advantage of 
+a known system vulnerability can create a time-management dilemma for sys-
+tem support personnel trying to balance a busy work schedule. For instance, 
+should support personnel install a patch that, if left uninstalled, could lead to 
+a security breach, or should they complete assigned project work so that the 
+anticipated project savings and benefits from the project can begin to accrue 
+on schedule? Note that the number of new software vulnerabilities identified 
+in 2016 was 15,000—an average of 41 per day—as shown in Figure 2.1.
+bring your own device 
+(BYOD):  A business policy 
+that permits, and in some cases 
+encourages, employees to use their 
+own mobile devices (smartphones, 
+tablets, or laptops) to access company 
+computing resources and applications.
+exploit:  An attack on an information 
+system that takes advantage of a 
+particular system vulnerability.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 54
+
+Part 1 • Information ­Systems in Business and Society
+32
+Clearly, it can be difficult to keep up with all the required patches to fix 
+these vulnerabilities. Of special concern is a zero-day attack, which is an attack 
+that takes place before the security community becomes aware of and fixes 
+a security vulnerability. Zero-day attacks are rare—just eight were identified 
+in 2016 and 49 were identified in 2017. Hackers employed a zero-day attack 
+in 2017 on the consumer credit reporting bureau Equifax. This attack led to a 
+data breach that exposed the names, addresses, social security numbers, and 
+driver’s license numbers of over 143 individuals.5
+While one would hope that the discoverer of a zero-day vulnerability would 
+immediately inform the original software manufacturer so that a fix could be 
+created for the problem, that is not always the case. In some cases, this knowl-
+edge is instead sold on the black market to cyberterrorists, governments, or 
+large organizations that may then use it to launch their own cyberattacks. For 
+example, a zero-day vulnerability that enabled hackers to gain admin rights 
+to any Windows operating system computer from Windows 2000 to a current 
+version of Windows 10 was offered for sale on the black market for $90,000.6
+U.S. companies increasingly rely on commercial software with known vul-
+nerabilities. Even when vulnerabilities are exposed, many corporate IT organi-
+zations continue to use already installed software as-is rather than implement 
+security fixes. IT organizations often make this decision because the fixes will 
+either make the software harder to use or eliminate “nice-to-have” features that 
+will help sell the software to end users.
+Increasing Sophistication of Those Who Would Do Harm
+Previously, computer troublemakers were stereotyped as introverted “geeks” 
+who were working independently and who were motivated by the desire to 
+gain some degree of notoriety. These individuals were armed with specialized, 
+but limited, knowledge of computers and networks and used rudimentary 
+tools, perhaps downloaded from the Internet, to execute exploits. While such 
+individuals still exist, today’s computer menace is much better organized and 
+may be part of an organized group (such as Anonymous, Chaos Computer Club, 
+Lizard Squad, TeslaTeam) that has an agenda and that targets specific orga-
+nizations and Web sites. Some of these groups have ample resources, includ-
+ing money and sophisticated tools, to support their efforts. Today’s computer 
+attacker has the depth of knowledge, financial wherewithal, and expertise to 
+get around computer and network security safeguards.
+Perpetrators Most Likely to Initiate a Cyberattack
+In 2017–2018, professional service firm Ernst & Young polled 1,735 global 
+executives, information security managers, and IT leaders, and found that in 
+descending order, careless insiders, cyber criminals, malicious employees, and 
+zero-day attack:  An attack that 
+takes place before the security 
+community becomes aware of and 
+fixes a security vulnerability.
+Figure 2.1
+Total number of new software 
+­vulnerabilities identified 
+annually
+Source: Shaun Waterman, “Report: 
+­Discovery Rate of New Software 
+­Vulnerabilities Flattens,” Cyber Scoop, 
+­February 17, 2017, https://www.cyber 
+scoop.com/risk-based-security-report- 
+number-vulnerabilities-cve-cvss.
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+14,000
+16,000
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+Number of vulnerabilities
+Year
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 55
+
+Chapter 2 • Secure Information Systems
+33
+hacktivists were considered the most likely sources of a cyberattack. Currently, 
+although the lone wolf and cyberterrorist receive a lot of publicity, they are not 
+considered among the most serious sources of cyberattacks.
+Type of perpetrator
+Description
+Careless insider
+An inside (employee, business partner, contractor, con-
+sultant) who does not follow the organization’s security 
+polices and enables a cyberattack to occur
+Malicious employees
+An insider who deliberately attempts to gain access to 
+and/or disrupt a company’s information systems and 
+business operations
+Cybercriminal
+Someone who attacks a computer system or network for 
+financial gain
+Hacktivist
+An individual who hacks computers or Web sites in 
+order to promote a political ideology
+Lone wolf attacker
+Someone who violates computer or Internet security 
+maliciously or for illegal personal gain
+Cyberterrorist
+State-sponsored individual or group who attempts to 
+destroy the infrastructure components of ­governments, 
+financial institutions, corporations, utilities, and 
+­emergency response units
+Ta b le 2.1  Classifying perpetrators of computer crime
+IBM found that 55–60 percent of all cyberattacks are initiated through the 
+actions of insiders. These insiders include employees, business partners, clients, 
+contractors, and consultants who have physical or remote access to a compa-
+ny’s assets. Careless (or untrained) insiders might not be acting with criminal 
+intent but they might fail to follow your organization’s cybersecurity policies 
+and do something foolish such as creating a weak password or opening an 
+email attachment containing malware.7
+Types of Attack Vectors
+Perpetrators of computer crimes use an attack vector to gain unauthorized 
+access to a device or a network and to initiate a cyberattack. There are numer-
+ous types of attack vectors, some of which are summarized in Table 2.2. While 
+we usually think of cyberattacks being aimed at computers, they are also being 
+aimed at smartphones because smartphones store an array of personal identity 
+information, including credit card numbers and bank account numbers.
+Cyberattacks That Pose Serious Threats
+Cyberattacks that pose serious threats are ransomware, distributed 
+­denial-of-service attacks, data breaches, cyberespionage, and cyberterrorism. 
+These types of cyberattacks are serious due to either the frequency of these 
+attacks or the potential damage they can inflict.
+Ransomware
+Ransomware is malware that stops you from using your computer or accessing 
+the data on your computer until you meet certain demands, such as paying a 
+ransom or, in some cases, sending compromising photos to the attacker. Pay-
+ment is frequently demanded in untraceable Bitcoin. While law enforcement 
+agencies recommend not paying the ransom, some two-thirds of victims reason 
+that the value of the encrypted data outweighs the cost of the ransom and so 
+they pay the ransom.8
+attack vector:  The technique 
+used to gain unauthorized access to a 
+device or a network.
+ransomware:  Malware that stops 
+you from using your computer or 
+accessing your data until you meet 
+certain demands.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 56
+
+Part 1 • Information ­Systems in Business and Society
+34
+From 2016 to 2017, the number of ransomware attacks on U.S. businesses 
+tripled from one attack every two minutes to one attack every 40 seconds. 
+Attacks against individuals doubled from 1 every 20 seconds to 1 every 10 sec-
+onds. The average ransom demand is just over $1000. Among those who have 
+paid ransom demands, 20% were never able to recover their files.9
+A computer can become infected with ransomware when a user opens 
+an email attachment containing the malware or is lured to a compromised 
+Web site by a deceptive email or pop-up window. However, most ransomware 
+attacks take advantage of vulnerabilities in widely deployed software such as 
+Microsoft’s Server Message Block (SMB). This is a network file sharing pro-
+tocol, to gain remote access to victim machines and execute the ransomware 
+directly. It is not necessary to trick users with disguised payloads to initiate a 
+ransomware attack. Once the malware has taken over, it encrypts some or all 
+of the victim’s files. The files can then only be decrypted with a mathematical 
+key known only to the attacker. Government agencies, medical facilities, and 
+law firms are favorite ransomware targets as these organization often need 
+immediate access to their files.
+Less than five percent of companies pay ransoms, electing instead to recover 
+encrypted data from backup files. However, getting infected systems back up 
+and running takes time and effort—nearly one-third of companies infected with 
+ransomware suffer five days or longer without access. Each day without access 
+runs up costs in lost business and damages due to ­downtime. Experts estimate 
+that global ransomware costs due to lost business and ­damages exceeded 
+$5 billion in 2017.10
+The city of Atlanta was hit with a ransomware attack in March 2018 that 
+disabled over 40 programs of the city’s mission critical apps, including those 
+Attack type
+Description
+Advanced persistent 
+threat
+A network attack in which an intruder gains access to a network and stays there—undetected—
+with the intention of stealing data over a long period of time.
+Blended threat
+A sophisticated threat that combines the features of a virus, worm, Trojan horse, and other 
+­malicious code into a single payload.
+Phishing
+The act of fraudulently using email to try to get the recipient to reveal personal data.
+Rootkit
+A set of programs that enables its user to gain administrator-level access to a computer without 
+the end user’s consent or knowledge. Once installed, the attacker can gain full control of the 
+system and even obscure the presence of the rootkit from legitimate system administrators.
+Smishing
+A variation of phishing that involves the use of texting.
+Social engineering
+The use of deception to trick individuals into divulging data needed to gain access to an 
+­information system or network.
+Spam
+The use of email systems to send unsolicited email to large numbers of people.
+Trojan horse
+A seemingly harmless program in which malicious code is hidden. A victim on the receiving 
+end of a Trojan horse is usually tricked into opening it because it appears to be useful software 
+from a legitimate source.
+Virus
+A piece of programming code, usually disguised as something else, that causes a computer to 
+behave in an unexpected and usually undesirable manner.
+Vishing
+Similar to smishing except that the victims receive a voice mail message telling them to call a 
+phone number or access a Web site.
+Worm
+A harmful program that resides in the active memory of the computer and duplicates itself. 
+Worms differ from viruses in that they can propagate without human intervention, often 
+­sending copies of themselves to other computers by email.
+Ta b le 2.2  Various types of cyberattacks
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 57
+
+Chapter 2 • Secure Information Systems
+35
+used by the court system and police. As a result of this attack, residents could 
+not pay their water bills or pay parking tickets, and police and other city 
+workers had to write out their reports manually. In addition, court proceedings 
+for people not in custody had to be cancelled until the systems were up and 
+running again, and years of police dashcam data were lost, making it more 
+difficult to prosecute some criminal cases.11 City officials decided not to pay 
+the $51,000 ransom but were still working to recover from the attack three 
+months later. It is estimated that the city will spend over $10 million to recover 
+from the attack.12
+Distributed Denial-of-Service Attacks
+A distributed denial-of-service (DDoS) attack is one in which a malicious 
+hacker takes over computers via the Internet and causes them to flood a tar-
+get site with demands for data and other small tasks. A DDoS attack does not 
+involve infiltration of the targeted system. Instead, it keeps the target so busy 
+responding to a stream of automated requests that legitimate users cannot get 
+in—the Internet equivalent of dialing a telephone number repeatedly so that 
+all other callers hear a busy signal. The targeted machine essentially holds the 
+line open while waiting for a reply that never comes; eventually, the requests 
+exhaust all resources of the target.
+The software required to initiate a DDoS is simple to use, and many DDoS 
+tools are readily available at a variety of hacker sites. In a DDoS attack, a tiny 
+program is downloaded surreptitiously from the attacker’s computer to dozens, 
+hundreds, or even thousands of computers all over the world. The term botnet 
+is used to describe a large group of such computers, which are controlled from 
+one or more remote locations by hackers, without the knowledge or consent 
+of their legitimate owners. The collective processing capacity of some botnets 
+exceeds that of the world’s most powerful supercomputers. Based on a com-
+mand by the attacker or at a preset time, the botnet computers (called ­zombies) 
+go into action, each sending a simple request for access to the target site again 
+and again—dozens of times per second. The target computers become so over-
+whelmed by requests for service that legitimate users are unable to get through 
+to the target computer.
+There were 7.5 million DDoS attacks worldwide in 2017. Victims of DDoS 
+attacks reported a financial impact in the range of $10,000–$100,000 coming 
+from damage to reputation and operational expenses.13
+GitHub, a Web site where some 28 million people go to develop software, 
+suffered perhaps the largest ever DDoS attack with over 1.35 terabytes (one 
+million multiplied by a million bytes) of requests per second. However, the 
+Web site was well prepared for such an attack and only experienced about 
+10 minutes of unavailability in February 2018.14
+Data Breach
+A data breach is the unintended release of sensitive data or the access of 
+sensitive data by unauthorized individuals, often resulting in identify theft. 
+Figure 2.2 illustrates the number of people who had personal identification 
+information compromised in the six largest U.S. data breaches.
+The number of U.S. data breaches in 2017 hit a record high of 1,575—a 
+44 percent increase over 2016.15 The numbers for government and ­industry 
+­sectors where data breaches occurred are identified in Figure 2.3. Data breaches 
+are considered a serious threat due to their relatively high frequency of occur-
+rence and the large number of people affected.
+Not only are the individuals whose data is compromised in a data breach 
+put at risk of identity theft or blackmail, but also the shareholders of an orga-
+nization hit with a data breach can be impacted by a decline in the valuation 
+of the firm that follows publication of the incident. They can lose money if 
+they need to sell the stock or if the hacked organization is being considered for 
+distributed denial-of-service 
+(DDoS) attack:  A cyberattack 
+in which a malicious hacker takes 
+over computers via the Internet and 
+causes them to flood a target site with 
+demands for data and other small 
+tasks.
+botnet:  A large group of computers 
+controlled from one or more remote 
+locations by hackers without the 
+knowledge or consent of their owners.
+data breach:  The unintended 
+release of sensitive data or the access 
+of sensitive data by unauthorized 
+individuals.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 58
+
+Part 1 • Information ­Systems in Business and Society
+36
+potential acquisition by another firm. Consumer credit reporting agency ­Equifax 
+suffered a data breach in which over 143 million consumers personal data was 
+compromised. Its stock price fell over 30 percent following ­announcement of 
+the data breach—from a high of around $141/share to a low of $94/share in 
+a period of just a week.16 As stated earlier in the chapter, Verizon was able to 
+negotiate a $350 million reduction in the acquisition of Yahoo when it became 
+known that it had suffered the biggest data breach in U.S. history.
+Cyberespionage
+Cyberespionage involves the deployment of malware that secretly steals data 
+in the computer systems of organizations. These organizations include govern-
+ment agencies, military contractors, political organizations, and manufacturing 
+firms. The type of data most frequently targeted includes data that can provide 
+an unfair competitive advantage to the perpetrator. This data is typically not 
+public knowledge and may even be protected via patent, copyright, or trade 
+secret. High-value data includes the following:
+• Sales, marketing, and new product development plans, schedules, and 
+budgets
+• Details about product designs and innovative processes
+cyberespionage:  The deployment 
+of malware that secretly steals data in 
+the computer systems of organizations.
+Figure 2.2
+Six largest data breaches in 
+the United States
+Source: Taylor Armerding, “The 17 biggest 
+data breaches of the 21st century,” CSO 
+Online, January 26, 2018, https://www 
+.csoonline.com/article/2130877/data-
+breach/the-biggest-data-breaches-of-the-
+21st-­century.html.
+0
+500
+1,000
+1,500
+2,000
+2,500
+3,000
+3,500
+Yahoo
+Adult Friend
+Finder
+eBay
+Equifax
+Heartland
+Payment
+Systems
+Target
+Number of accounts compromised -
+thousands
+Figure 2.3
+Data breaches in government 
+and industrial sectors in 2017
+Source: “The Reality of Data Breaches,” 
+https://breachlevelindex.com/assets/
+Breach-Level-Index-Infographic-2017- 
+Gemalto-1500.jpg, accessed July 17, 2018.
+27.28%
+12.13%
+11.11%
+11.11%
+11.11%
+7.7%
+5.5%
+3.3%
+3.3%
+8.8%
+Percent of Data Breaches by Government and Industry Sector
+Healthcare
+Technology
+Financial
+Professional
+Education
+Industrial
+Retail
+Entertainment
+Government
+All others
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 59
+
+Chapter 2 • Secure Information Systems
+37
+• Nonpublic information about mergers, acquisitions, and investment deals
+• Employees’ personal information
+• Customer and client data
+• Sensitive information about partners and partner agreements
+Tensions have long simmered between China and the United States over 
+alleged cyberespionage attacks. United States experts claim cyberespionage 
+has helped China to accelerate the research and development process and 
+cut years off the time for that country to acquire new technology in a variety 
+of ­industries. Alleged targets have included aluminum and steel producers, a 
+company that designs nuclear power plants, a solar panel manufacturer, and an 
+aircraft manufacturer. Meanwhile, China’s Foreign Ministry portrays the United 
+States as a hypocrite that engages in cyberespionage by ­conducting ­cybertheft, 
+­wiretapping, and surveillance activities against Chinese ­governmental 
+­departments, companies, and universities.
+After years of discussion and behind the scenes efforts, President Obama 
+and Chinese President Xi Jinping announced in September 2015 that the two 
+nations had agreed to initial norms of cyberactivities with the two nations 
+pledging each will avoid conducting cybertheft of intellectual property for 
+commercial gain.17,18 Cybersecurity experts stated that Chinese cyber espionage 
+operations aimed at stealing trade secrets, intellectual property, and other con-
+fidential business information substantially declined following this agreement. 
+However, by May 2017, FireEye (a provider of advanced computer security 
+services) detected a phishing campaign initiated by Chinese groups targeting 
+at least seven global law and investment firms in an attempt to access valu-
+able information on transactions such as mergers, acquisitions, and investment 
+deals. The attacks were associated with a group of hackers, with some degree 
+of sponsorship by the Chinese government.19
+Cyberterrorism
+Cyberterrorism is the intimidation of government or civilian population by 
+using information technology to disable critical national infrastructure (e.g., 
+energy, transportation, financial, law enforcement, emergency response, 
+and healthcare systems) to achieve political, religious, or ideological goals. 
+Cyberterrorism is an increasing concern for countries and organizations 
+around the globe.
+In September 2017, in a statement before the Senate Homeland Security 
+and Government Affairs Committee, FBI director Christopher Wray proclaimed: 
+“Preventing terrorist attacks remains the FBI’s top priority. The terrorist threat 
+against the United States remains persistent and acute. From a threat perspec-
+tive, we are concerned with three areas in particular: (1) those who are inspired 
+by terrorist propaganda and act out in support; (2) those who are enabled to 
+act after gaining inspiration from extremist propaganda and communicating 
+with members of foreign terrorist organizations who provide guidance on 
+operational planning or targets; and (3) those who are directed by members 
+of foreign terrorist organizations to commit specific, directed acts in support 
+of the group’s ideology or cause.”20 The FBI is warning private industry to be 
+prepared for an environment where multiple attacks can come from a variety 
+of sources, often simultaneously and always with an intent to do damage.
+In February 2018, Senate Select Committee on Intelligence hearing, ­Daniel 
+Coates, director of national intelligence stated: “Frankly, the United States is 
+under attack—under attack by entities that are using cyber to ­penetrate virtu-
+ally every major action that takes place in the United States. From U.S. busi-
+nesses, to the federal government, to state and local governments, the United 
+States is threatened by cyberattacks every day.” He highlighted Russia, China, 
+Iran, and North Korea as the greatest cyber threats, but stated that others use 
+cyber operations to achieve strategic and malign objectives.21
+cyberterrorism:  The intimidation 
+of government or civilian population by 
+using information technology to disable 
+critical national infrastructure (e.g., 
+energy, transportation, financial, law 
+enforcement, emergency response) 
+to achieve political, religious, or 
+ideological goals.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 60
+
+Part 1 • Information ­Systems in Business and Society
+38
+The Department of Homeland Security (DHS) is a large federal agency 
+with more than 240,000 employees and a budget of almost $65 billion whose 
+goal is to provide for a “safer, more secure America, which is resilient against 
+terrorism and other potential threats.” The agency was formed in 2002 when 
+22 different federal departments and agencies were combined into a unified, 
+integrated cabinet agency.22 The agency’s Office of Cybersecurity and Com-
+munications resides within the National Protection and Programs Directorate 
+and is responsible for enhancing the security, resilience, and reliability of U.S. 
+cyber and communications infrastructure. It works to prevent or minimize 
+disruptions to critical information infrastructure in order to protect the public, 
+the economy, and government services.23
+The Department of Homeland Security Web site (www.dhs.gov) provides 
+a link that enables users to report cyber incidents. Incident reports go to the 
+US-CERT Incident Reporting System, which assists analysts of the U.S. Computer 
+Emergency Readiness Team (US-CERT) (a partnership between the Depart-
+ment of Homeland Security and the public and private sectors) in providing 
+timely handling of security incidents as well as in conducting improved analysis 
+of such incidents.24 Established in 2003 to protect the nation’s Internet infrastruc-
+ture against cyberattacks, US-CERT serves as a clearinghouse for information on 
+new viruses, worms, and other computer security topics.
+According to the Department of Homeland Security, Russia has attempted 
+to infiltrate key U.S. infrastructure targets in the aviation, energy, manufactur-
+ing, nuclear, and water sectors since March 2016. Access was attempted by 
+initially targeting small third-party networks that were less secure. In his book 
+Lights Out, broadcast journalist Ted Koppel discusses the potential for a suc-
+cessful cyberterrorist attack on the United States power grid and its devasting 
+impact—tens of millions of people without the power required for running 
+water, sewage disposal, refrigeration, and lighting. Heating and air condition-
+ing units, life-saving hospital equipment, cell phone towers, traffic lights—all 
+would be without the power needed to operate for weeks or even months.
+In July 2018, 12 officers within Russia’s Main Intelligence Directorate of 
+the General Staff were indicted for allegedly hacking into various Democratic 
+Party computers, releasing tens of thousands of stolen emails and documents, 
+and attempting to gain control of the email accounts of people associated 
+with the 2016 Hilary Clinton campaign. In addition, around July 2016, Russian 
+­intelligence officers hacked into the Illinois state board of elections Web site 
+and stole information related to approximately 500,000 voters. There is no 
+evidence that the actual vote count was tampered with.26
+Consequences of a Successful Cyberattack
+The impact of a successful cyberattack can be serious and long lasting. There 
+are five broad areas of impact, as illustrated in Figure 2.4 and discussed below. 
+The image of the iceberg is appropriate for this discussion because most people 
+only think of the direct impact of a successful cyberattack and do not consider 
+all the other oft-hidden effects:
+Direct impact  This is the value of the assets (cash, inventory, equipment, ­patents, 
+copyrights, trade secrets, data) stolen or damaged due to the cyberattack. 
+Shareholders of the organizations will also experience a direct impact from the 
+drop in the share price that typically follows a major cyberattack.
+Business disruption  A successful cyberattack may make it impossible for the orga-
+nization to operate in an effective manner for several hours or days. This can 
+cause a loss of existing business and customers as well as the loss of potential new 
+business and customers. In addition, resources may be diverted from their ­regular 
+duties to scramble to operate some sort of back-up procedures that enables essen-
+tial business processes to continue—albeit at a lower level of efficiency.
+department of homeland 
+security (DHS):  A large federal 
+agency with more than 240,000 
+employees and a budget of almost  
+$65 billion whose goal is to provide for 
+a “safer, more secure America, which 
+is resilient against terrorism and other 
+potential threats.”25
+U.S. computer emergency 
+readiness team (US-CERT):  A 
+partnership between the Department 
+of Homeland Security and the public 
+and private sectors; established to 
+provide timely handling of security 
+incidents as well as conducting 
+improved analysis of such incidents.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 61
+
+Chapter 2 • Secure Information Systems
+39
+Recovery cost It may take people from the IS organization and business 
+areas days or weeks to repair affected systems and recover lost or compromised 
+data. Resources will need to be drawn from their normal work responsibilities 
+to perform a post-incident analysis to identify the scope, cause, and impact of 
+the cyberattack and to determine measures to prevent a reoccurrence.
+Legal consequences There is the prospect of monetary penalties for busi-
+nesses that fail to comply with data protection legislation. For example, the 
+European Union General Data Protection Regulation (GDPR) has established 
+strong guidelines for how organizations process and handle data so that the 
+personal information of individuals is protected. Organizations that violate 
+these guidelines can be fined 20 million euros ($23 million U.S. dollars), or 
+4 percent of global annual revenue—whichever is greater. In addition, con-
+sumers are almost certain to initiate lawsuits to recover any damages incurred 
+from the cyberattack. Many organizations that suffer a cyberattack that com-
+promises the personal data of employees, customers, or patients provide one 
+or two years of identity theft insurance or consumer credit monitoring for 
+those impacted. At a cost of $20 or so per month multiplied by the number of 
+individuals affected, this bill can be quite expensive.
+Reputation damage A successful cyberattack can erode the trust your 
+organization has established with your customers, suppliers, business part-
+ners, and shareholders. This damage to your organization’s reputation leads 
+to a devaluation of the products and services of your organization resulting in 
+a drop in stock price, loss of customers, supplier turnover, strained business 
+partner relationships, and ultimately, a loss of sales and decrease in profits.
+Federal Laws for Prosecuting Computer Attacks
+Over the years, the United States Congress has enacted multiple laws to 
+help prosecute those responsible for computer-related crime; these laws are 
+summarized in Table 2.3. For example, Section 814 of the USA Patriot Act 
+defines cyberterrorism as any hacking attempts designed to gain unautho-
+rized access to a protected computer, which, if successful, would cause a 
+person an aggregate loss greater than $5,000; adversely affect someone’s 
+medical examination, diagnosis, or treatment; cause a person to be injured; 
+cause a threat to public health or safety; or cause damage to a governmental 
+computer that is used as a tool to administer justice, national defense, or 
+national security.27 Those convicted of cyberterrorism are subject to a prison 
+Figure 2.4
+Consequences of a successful 
+cyberattack
+Direct
+cost
+Business
+disruption
+Recovery
+cost
+Legal
+consequences
+Reputation
+damage
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 62
+
+Part 1 • Information ­Systems in Business and Society
+40
+term of 5–20 years. (The $5,000 threshold is quite easy to exceed, and, as a 
+result, many young people who have been involved in what they consider to 
+be minor computer pranks have found themselves meeting the criteria to be 
+tried as cyberterrorists.)
+Federal Law
+Subject Area
+Computer Fraud and Abuse Act (U.S. 
+Code Title 18, Section 1030)
+Addresses fraud and related activities in association with computers, including 
+the following:
+• 
+Accessing a computer without authorization or exceeding authorized access
+• 
+Transmitting a program, code, or command that causes harm to a computer
+• 
+Trafficking of computer passwords
+• 
+Threatening to cause damage to a protected computer
+Fraud and Related Activity in Con-
+nection with Access Devices Statute 
+(U.S. Code Title 18, Section 1029)
+Covers false claims regarding unauthorized use of credit cards
+Identity Theft and Assumption  
+Deterrence Act (U.S. Code Title 18, 
+Section 1028)
+Makes identity theft a federal crime, with penalties of up to 15 years of 
+­imprisonment and a maximum fine of $250,000
+Stored Wire and Electronic Commu-
+nications and Transactional Records 
+Access Statutes (U.S. Code Title 18, 
+Chapter 121)
+Focuses on unlawful access to stored communications to obtain, alter, or 
+­prevent authorized access to a wire or electronic communication while it is in 
+electronic storage
+USA Patriot Act
+Defines cyberterrorism and associated penalties
+Ta b le 2.3  Federal laws that address computer crime
+University Under Attack!
+ Decision Making, DATA PROTECTION
+Your university has been hit by a ransomware cyberattack. Student academic and 
+financial records, faculty and administrative personnel information, and payroll 
+records are all illegally encrypted and now inaccessible to legitimate users. A ran-
+som of $50,000 must be paid in the next two days for the university to receive the 
+encryption key that will unlock the data. An emergency team has been called to 
+decide what to do.
+Review Questions
+1.	 What are the odds that even if the university pays the ransom that it will be 
+able to recover this data?
+2.	 What other options does the university have to recover this data?
+Critical Thinking Questions
+1.	 Develop a scenario under which it would be advisable for the university to pay 
+this ransom.
+2.	 How would you recommend that the university respond to this request? Why?
+Now that we have discussed the reasons cyberattacks are increasing, the 
+perpetrators most likely to initiate a cyberattack, the cyberattacks that pose 
+serious threats, the consequences of a successful cyberattack, and the laws 
+under which perpetrators can be prosecuted, we will discuss how organi-
+zations can take steps to implement a multilayer security strategy to thwart 
+cyberattacks.
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 63
+
+Chapter 2 • Secure Information Systems
+41
+	 The CIA Security Triad
+The IT security teams of organizations worldwide focus on ensuring confidenti-
+ality, maintaining integrity, and guaranteeing the availability of systems and data. 
+Confidentiality ensures that only those individuals with the proper authority can 
+access sensitive data such as employee personal data, customer and product sales 
+data, new product development plans, and marketing strategies. Integrity ensures 
+that data can be changed only by authorized individuals so that the accuracy, 
+the consistency, and the trustworthiness of the data are guaranteed. Availability 
+ensures that the data can be accessed when and where needed, including during 
+times of disaster recovery operations. A widely held but ­difficult-to-achieve stan-
+dard of availability for a system or product is known as “five 9s” or 99.999 
+­percent availability. For an operation that runs 365 days per year, 24 hours per 
+day this translates to less than one hour of unavailability per year. Confidentiality, 
+integrity, and availability are referred to as the CIA security triad.
+Although no organization can ever be completely secure from attack, a 
+layered security solution makes cyberattacks so difficult that an attacker eventu-
+ally gives up or is detected before much harm is inflicted. In a layered solution, 
+if an attacker breaks through one layer of security, another layer must then 
+be overcome. Security measures must be planned for, designed, implemented, 
+tested, and maintained at the organizational, network, application, and end-user 
+layers to achieve true CIA security (see Figure 2.5). These layers of protective 
+measures are explained in more detail in the following sections.
+CIA security triad:  Confidentiality, 
+integrity, and availability form the basis 
+of the CIA security triad.
+Figure 2.5
+A multi-layered security 
+solution
+Ransomware
+Distributed denial-of-service
+Data breach
+Other attacks
+Cyberespionage
+Organizational
+Assets
+Cyberterrorism
+Organizational
+Network
+Application
+End user
+Implementing CIA at the Organizational Level
+Implementing CIA begins at the organizational level with the definition of an 
+overall security strategy, performance of a risk assessment, laying out plans 
+for disaster recovery, setting security policies, conducting security audits, 
+ensuring regulatory standards compliance, and creating a security dashboard. 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 64
+
+Part 1 • Information ­Systems in Business and Society
+42
+Completion of these tasks at the organizational level will set a sound founda-
+tion and clear direction for future CIA-related actions.
+Security Strategy
+Implementing CIA security at the organizational level requires a risk-based 
+security strategy with an active governance process to minimize the potential 
+impact of any security incident and to ensure business continuity in the event 
+of a cyberattack. Creating such a strategy typically begins with performing 
+a risk assessment to identify and prioritize the threats that the organization 
+faces. The security strategy must define a disaster recovery plan that ensures 
+the availability of key data and information technology assets. Security policies 
+guide employees to follow recommended processes and practices to avoid 
+security-related problems.
+Periodic security audits are needed to ensure that individuals are follow-
+ing established policies and to assess if the policies are still adequate even 
+under changing conditions. In addition to complying with its internal policies, 
+an organization may also need to comply with standards defined by external 
+parties, including regulatory agencies. Many organizations employ a security 
+dashboard to help track the key performance indicators of their security strat-
+egy. The various components of the security strategy are discussed in the 
+following subsections.
+Risk Assessment
+Risk assessment is the process of assessing security-related risks to an orga-
+nization’s computers and networks from both internal and external threats. 
+Such threats can prevent an organization from meeting its key business objec-
+tives. The goal of risk assessment is to identify which investments of time and 
+resources will best protect the organization from its most likely and serious 
+threats. In the context of an IT risk assessment, an asset is any hardware, 
+software, information system, network, or database that is used by the orga-
+nization to achieve its business objectives. A loss event is any occurrence that 
+has a negative impact on an asset. Examples of loss events include a computer 
+contracting a virus or a Web site undergoing a DDoS attack.
+The steps in a general security risk assessment process are as follows:
+• Step 1—Identify the set of IT assets about which the organization is most 
+concerned. Priority is typically given to those assets that support the 
+organization’s mission and the meeting of its primary business goals.
+• Step 2—Identify the loss events or the risks or threats that could occur, 
+such as a DDoS attack or insider fraud.
+• Step 3—Assess the frequency of events or the likelihood of each poten-
+tial threat; some threats, such as insider fraud, are more likely to occur 
+than others.
+• Step 4—Determine the impact of each threat occurring. Would the threat 
+have a minor impact on the organization, or could it keep the organiza-
+tion from carrying out its mission for a lengthy period of time?
+• Step 5—Determine how each threat can be mitigated so that it becomes 
+much less likely to occur or, if it does occur, has less of an impact on the 
+organization. For example, installing virus protection on all computers 
+makes it much less likely that a computer will contract a virus. Due to 
+time and resource limitations, most organizations choose to focus on just 
+those threats that have a high (relative to all other threats) probability 
+of occurrence and a high (relative to all other threats) impact. In other 
+words, first address those threats that are likely to occur and that would 
+have a high negative impact on the organization.
+• Step 6—Assess the feasibility of implementing the mitigation options.
+• Step 7—Perform a cost-benefit analysis to ensure that your efforts will be 
+cost effective. No amount of resources can guarantee a perfect security 
+risk assessment:  The process of 
+assessing security-related risks to an 
+organization’s computers and networks 
+from both internal and external threats.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 65
+
+Chapter 2 • Secure Information Systems
+43
+system, so organizations must balance the risk of a security breach with 
+the cost of preventing one. The concept of reasonable assurance in 
+connection with IT security recognizes that managers must use their 
+judgment to ensure that the cost of control does not exceed the system’s 
+benefits or the risks involved.
+• Step 8—Make the decision on whether or not to implement a particular 
+countermeasure. If you decide against implementing a particular counter-
+measure, you need to reassess if the threat is truly serious and, if so, 
+identify a less costly countermeasure.
+The general security risk assessment process—and the results of that ­process—
+will vary by organization. Table 2.4 illustrates a risk assessment for a hypothet-
+ical organization. The estimated cost includes the cost of the direct impact, the 
+business disruption, the recovery efforts, and the legal and reputational damage.
+reasonable assurance:  The 
+recognition that managers must use 
+their judgment to ensure that the 
+cost of control does not exceed the 
+system’s benefits or the risks involved.
+Adverse event
+Business 
+objective 
+threatened
+Threat 
+­(estimated 
+frequency 
+of event)
+Vulnerability 
+(likelihood 
+of success of 
+this threat)
+Estimated 
+cost of a 
+successful 
+attack
+Risk = Threat × 
+­Vulnerability × 
+­Estimated cost
+Relative 
+­priority 
+to be 
+mitigated
+Data breach 
+of customer 
+account data
+Provide safe, 
+secure Web 
+site consumers 
+can trust
+18 per year
+3%
+$5,000,000
+$2,700,000
+1
+Distributed 
+denial-of-­
+service (DDoS) 
+attack
+24/7 operation 
+of a retail Web 
+site
+3 per year
+25%
+$500,000
+$375,000
+2
+Email attach-
+ment with 
+harmful worm
+Rapid and reli-
+able communi-
+cations among 
+employees and 
+suppliers
+1,000 per 
+year
+0.05%
+$200,000
+$100,000
+3
+Harmful virus
+Employees’ use 
+of personal 
+productivity 
+software
+2,000 per 
+year
+0.04%
+$50,000
+$40,000
+4
+Invoice and 
+payment fraud
+Reliable cash 
+flow
+1 per year
+10%
+$200,000
+$20,000
+5
+Ta b le 2.4  Risk assessment for a hypothetical company
+A completed risk assessment identifies the most dangerous threats to a 
+company and helps focus security efforts on the areas of highest payoff.
+Disaster Recovery
+Data availability requires implementing products, services, policies, and pro-
+cedures that ensure that data is accessible even during disaster recovery oper-
+ations. To accomplish this goal, organizations typically implement a disaster 
+recovery plan. This plan is a documented process for recovering an orga-
+nization’s business information system assets—including hardware, software, 
+data, networks, and facilities—in the event of a disaster such as a flood, fire, 
+or electrical outage. A disaster recovery plan should be a component of an 
+organization’s overall business continuity plan, which should also include 
+an occupant emergency evacuation plan, a continuity of operations plan, and 
+an incident management plan.
+A disaster recovery plan focuses on technology recovery and identifies the 
+people or the teams responsible in the event of a disaster, what exactly these 
+disaster recovery plan:  
+A documented process for recovering 
+an organization’s business information 
+system assets—including hardware, 
+software, data, networks, and 
+facilities—in the event of a disaster 
+such as a flood, fire, or electrical 
+outage.
+business continuity plan:  
+A document that includes an 
+organization’s disaster recovery plan, 
+occupant emergency evacuation 
+plan, continuity of operations plan, and 
+an incident management plan.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 66
+
+Part 1 • Information ­Systems in Business and Society
+44
+people will do when a disaster strikes, and the information system resources 
+required to support critical business processes. Disasters can be natural (e.g., 
+earthquake, fire, flood) or manmade (e.g., accident, civil unrest, terrorism). 
+When developing a disaster recovery plan, organizations should think in terms 
+of not being able to gain access to their normal place of business for an 
+extended period of time, possibly up to several months.
+As part of defining a business continuity plan, an organization should conduct 
+a business impact analysis to identify critical business processes and the resources 
+that support them. The recovery time for an information system resource should 
+match the recovery time objective for the most critical business processes that 
+depend on that resource. Some business processes are more essential to con-
+tinued operations and goal attainment than others. These processes are called 
+mission-critical processes. Quickly recovering data and operations for these 
+mission-critical processes can make the difference between failure and survival 
+for an organization. If your billing system doesn’t work and you can’t send out 
+invoices, your company is at risk of going out of business due to cash flow issues.
+Files and databases can be protected by making a copy of all files and data-
+bases changed during the last few days or the last week, a technique called incre-
+mental backup. This approach to backup uses an image log, which is a separate 
+file that contains only changes to applications or data. Whenever an application 
+is run, an image log is created that contains all changes made to all files. If a 
+problem occurs with a database, an old database with the last full backup of 
+the data, along with the image log, can be used to recreate the current database.
+Organizations can also hire outside companies to help them perform 
+disaster planning and recovery. EMC, for example, offers data backup in its 
+­RecoverPoint product.28 For individuals and some applications, backup copies 
+of important files can be placed on the Internet.
+Failover is another approach to backup. When a server, network, or data-
+base fails or is no longer functioning, failover automatically switches applications 
+and other programs to a redundant or replicated server, network, or database to 
+prevent an interruption of service. SteelEye’s LifeKeeper and Application Con-
+tinuous Availability by NeverFail are examples of failover software.29,30 Failover 
+is especially important for applications that must be operational at all times.
+It is imperative that a disaster plan be practiced, and improvements made 
+to the plan based on the results of the test. Unfortunately, many organizations 
+have either never tested their organization’s disaster recovery solution or have 
+no idea exactly when it was last tested. One reasonable approach to testing 
+is to simulate a disaster for a single critical portion (e.g., order processing or 
+customer billing) of your business during a time of low business activity. The 
+next disaster plan test should then target a different area of the business.
+Security Policies
+A security policy defines an organization’s security requirements, as well as 
+the controls and sanctions needed to meet those requirements. A good security 
+policy delineates responsibilities and the behavior expected of members of the 
+organization. A security policy outlines what needs to be done but not how 
+to do it. The details of how to accomplish the goals of the policy are typically 
+provided in separate documents and procedure guidelines.
+The SANS (SysAdmin, Audit, Network, Security) Institute’s Web site (www 
+.sans.org) offers several security-related policy templates that can help an orga-
+nization to quickly develop effective security policies. The templates and other 
+security policy information can be found at www.sans.org/security-resources/
+policies and provide guidelines for creating various policies, including accept-
+able use policy, email policy, password protection policy, remote access policy, 
+and software installation policy.
+Experienced IT managers understand that users will often attempt to 
+circumvent security policies or simply ignore them altogether. Because of 
+that, automated system rules should mirror an organization’s written policies 
+mission-­critical processes:  
+Business processes that are essential 
+to continued operations and goal 
+attainment.
+failover:  Another approach to 
+backup when a key component is no 
+longer functioning; applications and 
+other programs are automatically 
+switched over to a redundant server, 
+network, or database to prevent an 
+interruption of service.
+security policy:  Defines an 
+organization’s security requirements, 
+as well as the controls and sanctions 
+needed to meet those requirements.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 67
+
+Chapter 2 • Secure Information Systems
+45
+whenever possible. Automated system rules can often be put into practice using 
+the configuration options in a software program. For example, if a written pol-
+icy states that passwords be a minimum of 13 characters, include at least one 
+number, one capital letter, and one special character, then all systems should 
+be configured to enforce this policy automatically. Users should not be able to 
+create weak passwords.
+System administrators must also be vigilant about changing the default 
+usernames and passwords for specific devices when they are added to an 
+organization’s network. Cybercriminals and others looking to access the net-
+works of various organizations can easily find information online regarding 
+the default username and password combinations for many vendors’ products. 
+A hacker was able to gain access to sensitive military documents about how 
+to service the super classified MQ-9 Reaper drone, the deployment tactics 
+for IEDs, and an M1 ABRAMS tank operations manual because the default 
+­password for several network routers was never changed.31
+A growing area of concern for security experts is the use of wireless devices 
+to access corporate email, store confidential data, and run critical applications, 
+such as inventory management and sales force automation. Mobile devices 
+such as smartphones can be susceptible to viruses and worms. However, the 
+primary security threat for mobile devices continues to be loss or theft of the 
+device. Wary companies have begun to include special security requirements 
+for mobile devices as part of their security policies. In some cases, users of 
+laptops and mobile devices must use a virtual private network (a method 
+employing encryption to provide secure access to a remote computer over the 
+Internet) to gain access to their corporate network.
+Security Audits
+Another important prevention tool is a security audit that enables the orga-
+nization to identify its potential threats, establish a benchmark of where it 
+is, determine where it needs to be, and develop a plan to meet those needs. 
+Management should insist on thorough annual security audits using objective, 
+experienced resources from outside the organization. In some cases, they have 
+no choice in conducting an external audit. Financial institutions, for example, 
+are required to have external auditors certify compliance with regulations such 
+as the Gramm-Leach-Bliley Act (GLBA). Potential partners or customers may 
+insist on seeing the results of a security audit before they do business with 
+your company and put their own assets at risk.
+The audit should examine if security policies are being followed. For exam-
+ple, if a policy says that all users must change their passwords every 30 days, the 
+audit must check how well that policy is being implemented. The audit should 
+also review who has access to key systems and data and what level of author-
+ity each user has. It is not unusual for an audit to reveal that too many people 
+have access to critical data and that many people have capabilities beyond those 
+needed to perform their jobs. One result of a good audit is a list of items that 
+need to be addressed to ensure that security policies are being met.
+A thorough security audit should also test system safeguards to ensure 
+that they are operating as intended. Such tests might include trying the default 
+system passwords that are active when software is first received from the ven-
+dor. The goal of such a test is to ensure that all such known passwords have 
+been changed.
+Some organizations will also perform a penetration test of their defenses. 
+This entails assigning individuals to try to break through the measures and 
+identify vulnerabilities that still need to be addressed. The individuals used for 
+this test are knowledgeable and are likely to take unique approaches in testing 
+the security measures.
+In many cases, an organization will conduct additional security audits using 
+its own resources to ensure that the recommendation made based on previous 
+audits have been implemented.
+security audit:  A process that 
+enables the organization to identify 
+its potential threats, establish a 
+benchmark of where it is, determine 
+where it needs to be, and develop a 
+plan to meet those needs.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 68
+
+Part 1 • Information ­Systems in Business and Society
+46
+Regulatory Standards Compliance
+In addition to the requirement to comply with your own security program, 
+your organization may also be required to comply with one or more standards 
+defined by external parties. In that case, your organization’s security program 
+must include a definition of what those standards are and how the organization 
+will comply. Regulatory standards that might affect your organization include 
+those shown in Table 2.5.
+Act or standard
+Who must meet this standard
+Subject matter
+Bank Secrecy Act (Public 
+Law 91-507)—Amended 
+several times, including by 
+provisions in Title III of  
+the USA PATRIOT Act  
+(see 31 USC § 5311–5330 
+and Title 31 Code of Federal 
+Regulations)
+Financial institutions
+Requires financial institutions in 
+the United States to assist U.S. gov-
+ernment agencies in detecting and 
+preventing money laundering
+European Union–United 
+States Privacy Shield
+Organizations that do business with companies 
+and/or individuals in the European Union
+Provides companies on both sides 
+of the Atlantic with a mechanism 
+to comply with EU data protection 
+requirements when transferring 
+personal data from the European 
+Union to the United States in sup-
+port of transatlantic commerce
+Federal Information  
+Security Management Act 
+(44 U.S.C. § 3541, et seq.)
+Every federal agency
+Requires each federal agency to 
+provide information security for 
+the data and information systems 
+that support the agency’s opera-
+tions and assets, including those 
+provided or managed by another 
+agency, contractor, or other source
+Foreign Corrupt Practices 
+Act (15 U.S.C. § 78dd-1,  
+et seq.)
+Any person who is a citizen, national, or resi-
+dent of the United States and engages in foreign 
+corrupt practices; also applies to any act by U.S. 
+businesses, foreign corporations trading securi-
+ties in the United States, American nationals, U.S 
+citizens, and U.S. residents acting in furtherance 
+of a foreign corrupt practice whether or not 
+they are physically present in the United States
+Makes certain payments to foreign 
+officials and other foreign persons 
+illegal and requires companies to 
+maintain accurate records
+Gramm-Leach-Bliley 
+Act (GLBA) (Public Law 
+106–102)
+Companies that offer financial products or ser-
+vices to individuals, such as loans, insurance, or 
+financial and investment advice
+Governs the collection, disclosure, 
+and protection of consumers’ non-
+public personal information or per-
+sonally identifiable information
+Health Insurance Portability 
+and Accountability Act  
+(Public Law 104–191)
+Health-care clearinghouses, employer-­sponsored 
+health plans, health insurers, and medical 
+­service providers
+Regulates the use and disclosure of 
+an individual’s health information
+Payment Card Industry Data 
+Security Standard (PCI-DSS)
+All organizations that store, process, and trans-
+mit cardholder data, most notably for debit 
+cards and credit cards.
+Provides a framework of specifi-
+cations, tools, measurements, and 
+support resources to help organi-
+zations ensure the safe handling of 
+cardholder information
+Sarbanes-Oxley Act (Public 
+Law 107–204 116 Stat. 745)
+All public corporations
+Protects shareholders and the gen-
+eral public from accounting errors 
+and fraudulent practices in the 
+enterprise
+Ta b le 2.5  Additional standards your organization may be required to meet
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 69
+
+Chapter 2 • Secure Information Systems
+47
+Security Dashboard
+Many organizations use security dashboard software to provide a compre-
+hensive display of all key performance indicators related to an organization’s 
+security defenses, including threats, exposures, policy compliance, and incident 
+alerts. The purpose of a security dashboard is to reduce the effort required 
+to monitor and identify threats in time to take action. Data that appears in 
+a security dashboard can come from a variety of sources, including secu-
+rity audits, firewalls, applications, servers, and other hardware and software 
+devices. ­Figure 2.6 shows an example of a security dashboard.
+Figure 2.6
+An organizational security dashboard
+Organizational Security Dashboard
+#
+Key performance indicator
+Goal
+Actual
+Status
+1
+Number of separation-of-duty violations
+0
+2
+Red
+2
+Number of users with weak, noncompliant passwords
+<5
+4
+Green
+3
+Percentage of critical IT assets that passed penetration tests
+>96%
+93%
+Yellow
+4
+Backlog of software security patches and updates
+<3
+3
+Green
+5
+Number of days since last internal security audit
+<90
+94
+Yellow
+6
+Number of days since last external security audit
+<366
+384
+Red
+7
+Percentage of employees and contractors who passed security exam
+>95%
+87%
+Red
+8
+Score on last disaster-recovery test
+>90%
+93%
+Green
+Red - Immediate action required
+Yellow - Caution, should be monitored
+Green - OK, goal has been met
+Algoma Central Corporation, a leading Canadian shipping company, owns 
+and operates the largest Canadian flag fleet of dry-bulk carriers and product 
+tankers operating on the Great Lakes-St. Lawrence Seaway system. The firm 
+recently implemented a security dashboard from Avaap, Inc., to improve access 
+to security information and alleviate the complexity of managing security data 
+for its shipping operations.32
+Implementing CIA at the Network Level
+The Internet provides a wide-open and well-travelled pathway for anyone in 
+the world to reach your organization’s network. As a result, organizations are 
+continuing to move more of their business processes to the Internet to bet-
+ter serve customers, suppliers, employees, investors, and business partners. 
+However, unauthorized network access by a hacker or resentful employee 
+can result in compromised sensitive data and severely degrade services, with 
+a resulting negative impact on productivity and operational capability. This 
+in turn can create a severe strain on relationships with customers, suppliers, 
+employees, investors, and business partners, who may question the capability 
+of the organization to protect its confidential information and offer reliable 
+services. Organizations must carefully manage the security of their networks 
+and implement strong measures to ensure that sensitive data is not accessible 
+to anyone who is not authorized to see it.
+Authentication Methods
+To maintain a secure network, an organization must authenticate users attempt-
+ing to access the network by requiring them to enter a something they know (e.g., 
+username and password); something they possess (e.g., a smart card); or pass 
+a biometric check. Many organizations are moving to two-factor authorization 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 70
+
+Part 1 • Information ­Systems in Business and Society
+48
+that requires the user to provide two types of credentials before being able to 
+access the network; the two credentials can be any of the following:
+• Something you know, such as a personal identification number (PIN) or 
+password
+• Something you have, such as some form of security card or token
+• Something you are, such as a biometric (e.g., a fingerprint or retina scan)
+Two-factor authentication is required to withdraw money from a cash 
+machine. You must present your bank card (something that you have) and a 
+PIN (something that you know) to obtain cash from the machine.
+Biometric authentication is the process of verifying your identity by using 
+your physiological measurements (fingerprint, shape of your face, shape of 
+your hand, vein pattern, your iris, or retina) or behavioral measurements (voice 
+recognition, gait, gesture, or other unique behaviors). To do this, a reference 
+model of the unique characteristics must be stored in digital form in a data-
+base or smart card. This stored data is then compared to your biometric data 
+to authenticate you are indeed who you claim to be. Upon authentication, 
+you may then be granted access to a room or building, computer service, app, 
+computing or communications device.
+Firewall
+Installation of a corporate firewall is the most common security precaution 
+taken by businesses. A firewall is a system of software, hardware, or a combi-
+nation of both that stands guard between an organization’s internal network and 
+the Internet, and limits network access based on the organization’s access policy.
+Any Internet traffic that is not explicitly permitted into the internal network 
+is denied entry through a firewall. Similarly, most firewalls can be configured 
+so that internal network users can be blocked from gaining access to Web sites 
+deemed inappropriate for employees. These Web sites might include those 
+whose content is based on sex and violence. Most firewalls can also be con-
+figured to block instant messaging, access to newsgroups, and other Internet 
+activities.
+Software vendors Agnitum, Check Point, Comodo, Kaspersky, and Total 
+Defense provide some of the top-rated firewall software used to protect per-
+sonal computers. Their software provides antivirus, firewall, antispam, parental 
+control, and phishing protection capabilities and sell for $30–$80 per single 
+user license.
+A next-generation firewall (NGFW) is a hardware- or software-based 
+network security system that can detect and block sophisticated attacks by 
+filtering network traffic dependent on the packet contents. Compared to first- 
+and second-generation firewalls, a NGFW goes deeper to inspect the content of 
+packets and matches sequences of bytes for harmful activities, such as known 
+vulnerabilities, exploit attacks, viruses, and malware.
+Routers
+A router is a networking device that connects multiple networks together and 
+forwards data packets from one network to another. Often, an Internet service 
+provider (ISP) installs a router in a subscriber’s home to connect the ISP’s 
+­network to the network within the home.
+Routers enable you to create a secure network by assigning it a passphrase 
+so that only individuals who have the passphrase can connect to your network. 
+However, a skilled and committed attacker can break the passphrase to gain 
+access to your network. Thus, as an additional layer of security, the router 
+provides you the capability to specify the unique media access control (MAC) 
+address of each legitimate device connected to the network and restrict access 
+to any other device that attempts to connect to the network. This effectively 
+biometric authentication:  The 
+process of verifying your identity using 
+your physiological measurements 
+(fingerprint, shape of your face, shape 
+of your hand, vein pattern, your iris, or 
+retina) or behavioral measurements 
+(voice recognition, gait, gesture, or 
+other unique behaviors).
+firewall:  A system of software, 
+hardware, or a combination of both 
+that stands guard between an 
+organization’s internal network and the 
+Internet, and limits network access 
+based on the organization’s access 
+policy.
+next-generation firewall 
+(NGFW):  A hardware- or software-
+based network security system that 
+can detect and block sophisticated 
+attacks by filtering network traffic 
+dependent on the packet contents.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 71
+
+Chapter 2 • Secure Information Systems
+49
+enables the router to distinguish legitimate traffic from unsolicited traffic and 
+reject uninvited inbound connections. Most routers also have an option to 
+restrict access to specific Web sites thus blocking access to Web sites that are 
+known to infect user devices with malware.
+Encryption
+Encryption is the process of scrambling messages or data in such a way 
+that only authorized parties can read it. Encryption is used to protect ­billions 
+of online transactions each day, enabling consumers to order more than 
+$300 ­billion in merchandise online each year and enabling banks to route 
+some $40 trillion in financial transactions each year.33 With encryption, organi-
+zations share sensitive sales data, promotion plans, new product designs, and 
+project status data among employees, suppliers, contractors, and others with 
+a need to know. Encryption enables physicians and patients to share sensitive 
+healthcare data with labs, hospitals, and other health treatment facilities as well 
+as insurance carriers. To complete such transactions, sensitive data—including 
+names, physical addresses, email addresses, phone numbers, account numbers, 
+health data, financial data, passwords, and personal identification numbers 
+(PINs)—must be sent and received. Great harm could be done, and chaos could 
+ensue if this data were to fall into the wrong hands. Encryption is one means 
+of keeping this data secure.
+An encryption key is a value that is applied (using an algorithm) to a set 
+of unencrypted text (plaintext) to produce encrypted text that appears as a 
+series of seemingly random characters (ciphertext) that is unreadable by those 
+without the encryption key needed to decipher it. There are two types of 
+encryption algorithms: symmetric and asymmetric. Symmetric algorithms use 
+the same key for both encryption and decryption. Asymmetric algorithms use 
+one key for encryption and a different key for decryption. Advanced Encryption 
+Standard (AES) is the most widely used symmetric algorithm and is entrusted 
+to protect classified U.S. government information. Wireless Protected Access 2 
+(WPA2), which is the most commonly used security protocol for wireless 
+­networks today, employs the AES encryption algorithm.
+The ability to keep encrypted data secret is not determined by the encryp-
+tion algorithm, which is widely known, but rather on the encryption key. The 
+encryption key is chosen from one of a large number of possible encryption 
+keys. In general, the longer the key, the stronger the encryption. Thus, an 
+encryption protocol based on a 56-bit key is not as strong as one based on a 
+128-bit key. Of course, it is essential that the key be kept secret from possible 
+interceptors. A hacker who obtains the key can recover the original message 
+from the encrypted data. Encryption methods rely on the limitations of comput-
+ing power for their security. If breaking a code requires too much computing 
+power, even the most determined hacker cannot be successful.
+Many online shoppers fear the theft of their credit card numbers and 
+banking information. To help prevent this type of theft, the Transport Layer 
+Security communications protocol is used to secure sensitive data. Transport 
+Layer Security (TLS) is a communications protocol or system of rules that 
+ensures privacy between communicating applications and their users on the 
+Internet. TLS enables a client (such as a Web browser) to initiate a temporary, 
+private conversation with a server (such as an online shopping site or bank). 
+Before the client and server start communicating, they perform an automated 
+process called a “handshake” during which they exchange information about 
+who they are and which secret codes and algorithms they will use to encode 
+their messages to each other. Then, for the duration of the conversation, all 
+the data that passes between the client and server is encrypted so that even 
+if somebody does listen in, they won’t be able to determine what is being 
+communicated.
+encryption:  The process of 
+scrambling messages or data in such 
+a way that only authorized parties can 
+read it.
+encryption key:  A value that is 
+applied (using an algorithm) to a set of 
+unencrypted text (plaintext) to produce 
+encrypted text that appears as a 
+series of seemingly random characters 
+(ciphertext) that is unreadable by those 
+without the encryption key needed to 
+decipher it.
+transport layer security 
+(TLS):  A communications protocol or 
+system of rules that ensures privacy 
+between communicating applications 
+and their users on the Internet.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 72
+
+Part 1 • Information ­Systems in Business and Society
+50
+Proxy Servers and Virtual Private Networks
+A proxy server serves as an intermediary between a Web browser and another 
+server on the Internet that makes requests to Web sites, servers, and services 
+on the Internet for you (see Figure 2.7). When you enter the URL for a Web site, 
+the request is forwarded to the proxy server, which relays the request to the 
+server where the Web site is hosted. The homepage of the Web site is returned 
+to the proxy server, which then passes it on to you. Thus, the Web site sees the 
+proxy server as the actual visitor and not you.
+By forcing employees to access the Internet through a proxy server, com-
+panies can prevent employees from accessing certain Web sites. A proxy server 
+can also capture detailed records of all the Web sites each employee has visited, 
+when, and for how long. When you access a Web site directly, the server host-
+ing the Web site can see your IP address and store cookies on your computer, 
+but a proxy server can hide your IP address and block cookies from being 
+sent to your device. A proxy server relays those packets for you and strips the 
+originating address so instead of your IP address, the Web site only sees the 
+address of the proxy server.
+Remote users working at home, from a client’s office, or in a branch office 
+often have a need to access sensitive data on a company’s private servers; 
+however, doing so from an unsecured public network, such as a coffee shop 
+wireless hotspot, could expose that data to unauthorized users with ill inten-
+tions. A virtual private network (VPN) enables remote users to securely access 
+an organization’s collection of computing and storage devices and share data 
+remotely. To connect to a VPN, you launch a VPN client on your computer and 
+perform some form of authentication using your credentials. Your computer 
+Figure 2.7
+Proxy Server
+End users
+Proxy server
+The Internet
+Maatman/Shutterstock.com
+Pressmaster/Shutterstock.com
+martellostudio/Shutterstock.com
+Lineicons freebird/
+Shutterstock.com
+Anatoli Priboutko/Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 73
+
+Chapter 2 • Secure Information Systems
+51
+then exchanges keys to be used for the encryption process with the VPN server. 
+Once both computers have verified each other as authentic, all of your Internet 
+communications are encrypted and secured from eavesdropping.
+Implementing CIA at the Application Level
+Authentication methods, user roles and accounts, and data encryption are key 
+elements of the application security layer. These elements must be in place to 
+ensure that only authorized users have access to the organization’s applications 
+and data and that their access is limited to actions that are consistent with their 
+defined roles and responsibilities.
+Authentication Methods
+Users are required to be authenticated before they can access an application—
+ideally, two factor authentication is required. Most organizations require that 
+their applications authenticate users by requiring them to enter something they 
+know (e.g., username and password); something they possess (e.g., a smart 
+card); or pass a biometric check.
+User Roles and Accounts
+Another important safeguard at the application level is the creation of roles and 
+user accounts so that once users are authenticated, they have the authority to 
+perform their responsibilities and nothing more. For example, members of the 
+finance department should have different authorizations from members of the 
+human resources department. An accountant should not be able to review 
+the pay and attendance records of an employee, and a member of the human 
+resources department should not know how much was spent to modernize 
+a piece of equipment. Even within one department, not all members should 
+be given the same capabilities. Within the finance department, for example, 
+some users may be able to approve invoices for payment, but others may only 
+be able to enter them. No one user should be able to enter an invoice and 
+approve an invoice for payment. This concept is called proper separation-of-­
+duties. An effective system administrator will identify the similarities among 
+users and create profiles associated with these groups.
+Data Encryption
+Major enterprise systems such as enterprise resource planning (ERP), ­customer 
+relationship management (CRM), and product lifecycle management (PLM) 
+access sensitive data residing on data storage devices located in data ­centers, 
+in the cloud, or at third-party locations. Data encryption should be used 
+within such applications to ensure that this sensitive data is protected from 
+­unauthorized access.
+Implementing CIA at the End-User Level
+Security education, authentication methods, antivirus software, and data 
+encryption must all be in place to protect what is often the weakest link in the 
+organization’s security perimeter—the individual user. The importance of these 
+end-user level security measures cannot be overly emphasized.
+Security Education
+Creating and enhancing user awareness of security policies is an ongoing 
+security priority for companies. Employees and contract workers must be 
+educated about the importance of security so that they will be motivated to 
+understand and follow security policies. This can often be accomplished by 
+discussing recent security incidents that affected the organization. Users must 
+understand that they are a key part of the security system and that they have 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 74
+
+Part 1 • Information ­Systems in Business and Society
+52
+certain responsibilities. For example, users must help protect an organization’s 
+­information systems and data by doing the following:
+• Guarding their passwords to protect against unauthorized access to their 
+accounts
+• Prohibiting others from using their passwords
+• Applying strict access controls (file and directory permissions) to protect 
+data from disclosure or destruction
+• Reporting all unusual activity to the organization’s IT security group
+• Taking care to ensure that portable computing and data storage  
+devices are protected (hundreds of thousands of laptops are lost or  
+stolen per year)
+Table 2.6 provides a simple self-assessment security test that employees 
+and contractors alike should be asked to complete. In each case, the preferred 
+answer is Yes.
+Security assessment question
+Yes
+No
+Do you have the most current version of your computer’s operating system installed?
+Do you have the most current version of firewall, antivirus, and malware software 
+installed?
+Do you install updates to all your software when you receive notice that a new update 
+is available?
+Do you use different, strong passwords for each of your accounts and applications—a 
+minimum of 12 characters, with a mix of capital and lowercase letters, numbers, and 
+special characters?
+Are you familiar with and do you follow your organization’s policies for accessing cor-
+porate Web sites and applications from your home or remote locations (e.g., access via 
+a VPN)?
+Have you set the encryption method to WPA2 and changed the default name and 
+­password on your home wireless router?
+When using a free, public wireless network, do you avoid checking your email or 
+accessing Web sites requiring a username and password?
+Do you refrain from clicking on a URL in an email from someone you do not know?
+Do you back up critical files to a separate device at least once a week?
+Are you familiar with and do you follow your organization’s policies regarding the 
+­storage of personal or confidential data on your device?
+Does your device have a security passcode that must be entered before it accepts 
+­further input?
+Have you installed Locate My Device or similar software in case your device is lost or 
+stolen?
+Do you make sure not to leave your device unattended in a public place where it can 
+be easily stolen?
+Have you reviewed, and do you understand the privacy settings that control who can 
+see or read what you do on Facebook and other social media sites?
+Ta b le 2.6  Self-assessment security test
+Authentication Methods
+End users should be required to be authenticated before their computing/­
+communications device accepts further input. Again, several multifactor 
+authentication schemes can be used. Many mobile devices are using the user’s 
+fingerprint as a means of authentication.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 75
+
+Chapter 2 • Secure Information Systems
+53
+Antivirus Software
+Antivirus software should be installed on each user’s personal computer to 
+scan a computer’s memory and disk drives regularly for viruses. Antivirus soft-
+ware scans for a specific sequence of bytes, known as a virus signature, that 
+indicates the presence of a specific virus. If it finds a virus, the antivirus soft-
+ware informs the user, and it may clean, delete, or quarantine any files, direc-
+tories, or disks affected by the malicious code. Good antivirus software checks 
+vital system files when the system is booted up, monitors the system continu-
+ously for virus-like activity, scans disks, scans memory when a program is run, 
+checks programs when they are downloaded, and scans email attachments 
+before they are opened. Two of the most widely used antivirus software prod-
+ucts are Norton AntiVirus from Symantec and Personal Firewall from McAfee.
+According to US-CERT, most virus and worm attacks use already known 
+­malware programs. Thus, it is crucial that antivirus software be ­continually 
+updated with the latest virus signatures. In most corporations, the network 
+administrator is responsible for monitoring network security Web sites ­frequently 
+and downloading updated antivirus software as needed. Many ­antivirus vendors 
+recommend—and provide for—automatic and frequent updates. Unfortunately, 
+antivirus software is not able to identify and block all viruses.
+Data Encryption
+While you should already have a login password for your mobile computing 
+device or workstation, those measures won’t protect your data if someone steals 
+your device—the thief can simply remove your storage device or hard drive and 
+plug it into another computing device and access the data. If you have sensitive 
+information on your computer, you need to employ full-disk encryption, which 
+protects all your data even if your hardware falls into the wrong hands.
+Implementing Safeguards Against Attacks by Malicious Insiders
+User accounts that remain active after employees leave a company are another 
+potential security risk. To reduce the threat of attack by malicious insiders, IS 
+staff must promptly delete the computer accounts, login IDs, and passwords 
+of departing employees and contractors.
+Organizations also need to define employee roles carefully and separate 
+key responsibilities properly, so that a single person is not responsible for 
+accomplishing a task that has high security implications. For example, it would 
+not make sense to allow an employee to initiate as well as approve purchase 
+orders. That would allow an employee to input large invoices on behalf of a 
+dishonest vendor, approve the invoices for payment, and then disappear from 
+the company to split the money with that vendor. In addition to separating 
+duties, many organizations frequently rotate people in sensitive positions to 
+prevent potential insider crimes.
+Another important safeguard is to create roles and user accounts so that 
+users have the authority to perform their responsibilities and nothing more. 
+An effective system administrator will identify the similarities among users and 
+create roles and user accounts associated with these groups.
+Detection of a Cyberattack
+Even when preventive measures are implemented, no organization is com-
+pletely secure from a determined attack. Thus, organizations should implement 
+detection systems to catch intruders in the act. Organizations often employ an 
+intrusion detection system to minimize the impact of intruders.
+An intrusion detection system (IDS) is software and/or hardware that 
+monitors system and network resources and activities and notifies network 
+security personnel when it detects network traffic that attempts to circumvent 
+the security measures of a networked computer environment (see Figure 2.8). 
+antivirus software:  Should be 
+installed on each user’s personal 
+computer to scan a computer’s 
+memory and disk drives regularly for 
+viruses.
+virus signature:  Code that 
+indicates the presence of a specific 
+virus.
+intrusion detection system 
+(IDS):  Software and/or hardware 
+that monitors system and network 
+resources and activities and notifies 
+network security personnel when it 
+detects network traffic that attempts to 
+circumvent the security measures of a 
+networked computer environment.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 76
+
+Part 1 • Information ­Systems in Business and Society
+54
+Such activities usually signal an attempt to breach the integrity of the system 
+or to limit the availability of network resources.
+Knowledge-based approaches and behavior-based approaches are two 
+fundamentally different approaches to intrusion detection. Knowledge-based 
+intrusion detection systems contain information about specific attacks and 
+system vulnerabilities and watch for attempts to exploit these vulnerabilities, 
+such as repeated failed login attempts or recurring attempts to download a 
+program to a server. When such an attempt is detected, an alarm is triggered. 
+A behavior-based intrusion detection system understands normal behavior of 
+a system and its users because it collects reference information by various 
+means. The intrusion detection system compares current activity to this model 
+and generates an alarm if it finds a deviation. Examples include unusual traffic 
+at odd hours or a user in the human resources department who accesses an 
+accounting program that she has never before used.
+Response
+An organization should be prepared for the worst—a successful attack that 
+defeats all or some of a system’s defenses and damages data and information 
+systems. A response plan should be developed well in advance of any inci-
+dent and be approved by both the organization’s legal department and senior 
+management. A well-developed response plan helps keep an incident under 
+technical and emotional control.
+In a security incident, the primary goal must be to regain control and limit 
+damage, not to attempt to monitor or catch an intruder. Sometimes system 
+administrators take the discovery of an intruder as a personal challenge and 
+lose valuable time that should be used to restore data and information systems 
+to normal.
+Incident Notification
+A key element of any response plan is to define who to notify and who not 
+to notify in the event of a computer security incident. Questions to cover 
+include the following: Within the company, who needs to be notified, and what 
+Figure 2.8
+Intrusion detection system
+An IDS notifies network security personnel when it detects network traffic that attempts to circumvent 
+the security measures of a networked computer environment.
+Messages from IDS routed 
+to network security team
+Organization’s intrusion 
+detection system
+Organization’s network
+router sends network traffic
+to both IDS and firewall
+Internet traffic
+Organization’s  internal network
+Organization’s
+firewall
+IDS warns firewall of suspicious traffic. Network
+security team and logic in firewall decide what action 
+to take, such as block all traffic from the source IP 
+address of the suspicious traffic.
+Internet
+Monkey Business Images/ 
+Shutterstock.com
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 77
+
+Chapter 2 • Secure Information Systems
+55
+information does each person need to have? Under what conditions should 
+the company contact major customers and suppliers? How does the company 
+inform them of a disruption in business without unnecessarily alarming them? 
+When should local authorities or the FBI be contacted?
+Most security experts recommend against giving out specific information 
+about a compromise in public forums, such as news reports, conferences, 
+professional meetings, and online discussion groups. All parties working on 
+the problem must be kept informed and up-to-date without using systems 
+connected to the compromised system. The intruder may be monitoring these 
+systems and emails to learn what is known about the security breach.
+A critical ethical decision that must be made is what to tell customers 
+and others whose personal data may have been compromised by a computer 
+incident. Many organizations are tempted to conceal such information for fear 
+of bad publicity and loss of customers. Because such inaction is perceived by 
+many to be unethical and harmful, several state and federal laws have been 
+passed to force organizations to reveal when customer data has been breached.
+Protection of Evidence and Activity Logs
+An organization should document all details of a security incident as it works 
+to resolve the incident. Documentation captures valuable evidence for a future 
+prosecution and provides data to help during the incident eradication and 
+follow-up phases. It is especially important to capture all system events, the 
+specific actions taken (what, when, and who), and all external conversations 
+(what, when, and who) in a logbook. Because this may become court evidence, 
+an organization should establish a set of document-handling procedures using 
+the legal department as a resource.
+Incident Containment
+Often, it is necessary to act quickly to contain an attack and to keep a bad sit-
+uation from becoming even worse. The incident response plan should clearly 
+define the process for deciding if an attack is dangerous enough to warrant 
+shutting down or disconnecting critical systems from the network. How such 
+decisions are made, how fast they are made, and who makes them are all 
+­elements of an effective response plan.
+Eradication
+Before the IT security group begins the eradication effort, it must collect and 
+log all possible criminal evidence from the system and then verify that all neces-
+sary backups are current, complete, and free of any malware. Creating a foren-
+sic disk image of each compromised system on write-only media both for later 
+study and as evidence can be very useful. After virus eradication, a new backup 
+must be created. Throughout this process, a log should be kept of all actions 
+taken. This will prove helpful during the incident follow-up phase and ensure 
+that the problem does not recur. It is imperative to back up critical applications 
+and data regularly. Many organizations, however, have implemented inadequate 
+backup processes and found that they could not fully restore original data after 
+a security incident. All backups should be created with enough frequency to 
+enable a full and quick restoration of data if an attack destroys the original, 
+and this process must be tested to confirm that it works.
+Incident Follow-Up
+Of course, an essential part of follow-up is to determine how the organization’s 
+security was compromised so that it does not happen again. Often the fix is 
+as simple as getting a software patch from a product vendor. However, it is 
+important to look deeper than the immediate fix to discover why the incident 
+occurred. If a simple software fix could have prevented the incident, then why 
+wasn’t the fix installed before the incident occurred?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 78
+
+Part 1 • Information ­Systems in Business and Society
+56
+A review should be conducted after an incident to determine exactly 
+what happened and to evaluate how the organization responded. One 
+approach is to write a formal incident report that includes a detailed chronol-
+ogy of events and the impact of the incident. This report should identify 
+any mistakes so that they are not repeated in the future. The experience 
+from this incident should be used to update and revise the security incident 
+response plan. The key elements of a formal incident report should include 
+the following:
+• IP address and name of host computer(s) involved
+• The date and time when the incident was discovered
+• The length of the incident
+• How the incident was discovered
+• The method used to gain access to the host computer
+• A detailed discussion of vulnerabilities that were exploited
+• A determination of whether or not the host was compromised as a result 
+of the attack
+• The nature of the data stored on the computer (customer, employee, 
+financial, etc.)
+• A determination of whether the accessed data is considered personal, 
+private, or confidential
+• The number of hours the system was down
+• The overall impact on the business
+• An estimate of total monetary damage from the incident
+• A detailed chronology of all events associated with the incident
+Creating a detailed chronology of all events will also document the incident 
+for possible later prosecution. To this end, it is critical to develop an estimate of 
+the monetary damage. Potential costs include loss of revenue, loss in produc-
+tivity, and the salaries of people working to address the incident, along with 
+the cost to replace data, software, and hardware.
+Another important issue is the amount of effort that should be put into 
+capturing the perpetrator. If a Web site was simply defaced, it is easy to fix or 
+restore the site’s HTML (Hypertext Markup Language—the code that describes 
+to your browser how a Web page should look). However, what if the intruders 
+inflicted more serious damage, such as erasing proprietary program source 
+code or the contents of key corporate databases? What if they stole company 
+trade secrets? Expert crackers can conceal their identity and tracking them 
+down can take a long time as well as a tremendous amount of corporate 
+resources.
+The potential for negative publicity must also be considered. Discussing 
+security attacks through public trials and the associated publicity has not only 
+enormous potential costs in public relations but real monetary costs as well. 
+For example, a bank or a brokerage firm might lose customers who learn of 
+an attack and think their money or records aren’t secure. Even if a company 
+decides that the negative publicity risk is worth it and goes after the perpetra-
+tor, documents containing proprietary information that must be provided to 
+the court could cause even greater security threats in the future. On the other 
+hand, an organization must consider whether it has an ethical or a legal duty to 
+inform customers or clients of a cyberattack that may have put their personal 
+data or financial resources at risk.
+Using a Managed Security Service Provider (MSSP)
+Keeping up with computer criminals—and with new laws and regulations—
+can be daunting for organizations. Criminal hackers are constantly poking 
+and prodding, trying to breach the security defenses of organizations. Also, 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 79
+
+Chapter 2 • Secure Information Systems
+57
+laws such as HIPAA, Sarbanes-Oxley, and the USA Patriot Act require busi-
+nesses to prove that they are securing their data. For most small and midsized 
+organizations, the level of in-house network security expertise needed to 
+protect their business operations can be too costly to acquire and maintain. 
+As a result, many organizations outsource their network security operations 
+to a managed security service provider (MSSP), which is a company that 
+monitors, manages, and maintains computer and network security for other 
+organizations. MSSPs include such companies as AT&T, Computer Sciences 
+Corporation, Dell SecureWorks, IBM, Symantec, and Verizon. MSSPs pro-
+vide a valuable service for IS departments drowning in reams of alerts and 
+false alarms coming from virtual private networks (VPNs); antivirus, firewall, 
+and intrusion detection systems; and other security-monitoring systems. In 
+addition, some MSSPs provide vulnerability scanning and Web blocking and 
+­filtering capabilities.
+Computer Forensics
+Computer forensics is a discipline that combines elements of law and com-
+puter science to identify, collect, examine, and preserve data from computer 
+systems, networks, and storage devices in a manner that preserves the integ-
+rity of the data gathered so that it is admissible as evidence in a court of law. 
+A computer forensics investigation may be opened in response to a criminal 
+investigation or civil litigation. It may also be launched for a variety of other 
+reasons, for example, to retrace steps taken when data has been lost, assess 
+damage following a computer incident, investigate the unauthorized disclosure 
+of personal or corporate confidential data, or to confirm or evaluate the impact 
+of industrial espionage.
+Computer forensics investigators work as a team to investigate an inci-
+dent and conduct the forensic analysis using various methodologies and 
+tools to ensure the computer network system is secure in an organization. 
+For example, accounting, tax, and advisory company Grant Thornton Inter-
+national has several IS labs around the world that employ numerous forensic 
+experts who examine digital evidence for use in legal cases. Grant ­Thornton 
+employs forensic software called Summation (a Web-based legal document, 
+electronic data, and transcript review platform that supports litigation teams) 
+and Forensic Toolkit (used to scan a hard drive to find a variety of infor-
+mation, including deleted emails and text strings, to crack encryption). 
+The software from AccessData provides a combination of mobile forensics, 
+computer forensics, and functions for encoding and reviewing multilingual 
+documents.34
+Proper handling of a computer forensics investigation is the key to 
+fighting computer crime successfully in a court of law. In addition, exten-
+sive training and certification increases the stature of a computer forensics 
+investigator in a court of law. Numerous certifications relate to computer 
+forensics, including the CCE (Certified Computer Examiner), CISSP (Certified 
+Information Systems Security Professional), CSFA (CyberSecurity Forensic 
+Analyst), and GCFA (Global Information Assurance Certification Certified 
+Forensics Analyst). The EnCE Certified Examiner program certifies profes-
+sionals who have mastered computer investigation methods as well as the 
+use of Guidance Software’s EnCase computer forensic software. Numerous 
+universities (both online and traditional) offer degrees specializing in com-
+puter forensics. Such degree programs should include training in account-
+ing, particularly auditing, as this is very useful in the investigation of cases 
+involving fraud.
+Table 2.7 provides a list of questions that should be asked when an orga-
+nization is evaluating its readiness for a security incident.
+managed security service 
+provider (MSSP):  A company that 
+monitors, manages, and maintains 
+computer and network security for 
+other organizations.
+computer forensics:  A discipline 
+that combines elements of law and 
+computer science to identify, collect, 
+examine, and preserve data from 
+computer systems, networks, and 
+storage devices in a manner that 
+preserves the integrity of the data 
+gathered so that it is admissible as 
+evidence in a court of law.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 80
+
+Part 1 • Information ­Systems in Business and Society
+58
+Question
+Yes
+No
+Has a risk assessment been performed to identify investments in time and resources that 
+can protect the organization from its most likely and most serious threats?
+Have senior management and employees involved in implementing security measures been 
+educated about the concept of reasonable assurance?
+Has a security policy been formulated and broadly shared throughout the organization?
+Have automated systems policies been implemented that mirror written policies?
+Does the security policy address the following:
+• 
+Email with executable file attachments?
+• 
+Wireless networks and devices?
+• 
+Use of smartphones deployed as part of corporate rollouts as well as those purchased 
+by end users?
+Is there an effective security education program for employees and contract workers?
+Has a layered security solution been implemented to prevent break-ins?
+Has a firewall been installed?
+Is antivirus software installed on all personal computers?
+Is the antivirus software frequently updated?
+Have precautions been taken to limit the impact of malicious insiders?
+Are the accounts, passwords, and login IDs of former employees promptly deleted?
+Are employee responsibilities adequately defined and separated?
+Are individual roles defined so that users have authority to perform their responsibilities 
+and nothing more?
+Is it a requirement to review at least quarterly the most critical Internet security threats and 
+implement safeguards against them?
+Has it been verified that backup processes for critical software and databases work correctly?
+Has an intrusion detection system been implemented to catch intruders in the act—both in 
+the network and on critical computers on the network?
+Are periodic IT security audits conducted?
+Has a comprehensive incident response plan been developed?
+Has the security plan been reviewed and approved by legal and senior management?
+Does the plan address all of the following areas:
+• 
+Incident notification?
+• 
+Protection of evidence and activity logs?
+• 
+Incident containment?
+• 
+Eradication?
+• 
+Incident follow-up?
+Ta b le 2.7  Questions to be considered when evaluating an organization’s readiness  
+for a security incident
+Security Self-Assessment
+ Social Responsibility, DATA PROTECTION
+Use Table 2.6 to conduct a security self-assessment and answer the following 
+questions.
+Review Questions
+1.	 What test did you fail?
+2.	 Which of the failed situations is most critical to address?
+Critical 
+Thinking 
+Exercise
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 81
+
+Chapter 2 • Secure Information Systems
+59
+Critical Thinking Questions
+1.	 What specific actions will you take to improve your self-assessment?
+2.	 Should individuals with insecure systems be allowed to access public networks? 
+Should they be fined or penalized in some way if their lax security measures 
+are found to have enabled a cyberattack?
+Summary
+Principle:
+Computer crime is a serious and rapidly growing area of concern ­requiring 
+management attention.
+Increasing computing complexity, an increase in the prevalence of bring 
+your own device (BYOD) policies, use of software with known vulnerabilities, 
+and the increasing sophistication of those who would do harm have caused 
+a dramatic increase in the number, variety, and severity of security incidents.
+Many different types of people are responsible for cyberattacks with the 
+four most predominant being the careless insider, the cybercriminal, malicious 
+insider, and hacktivists.
+An attack vector is the technique used to gain unauthorized access to a 
+device or a network; it is a means used to initiate a cyberattack. Advanced 
+persistent threats, blended threats, phishing, rootkits, smishing, social engi-
+neering, spam, Trojan horses, viruses, vishing, and worms are all examples of 
+attack vectors.
+Ransomware, distributed denial of service attacks, data breach, cyberespi-
+onage, and cyberterrorism are cyberattacks that pose serious threats.
+The Department of Homeland Security (DHS) has the responsibility to 
+provide for a “safer, more secure America, which is resilient against terrorism 
+and other potential threats.” The agency’s Office of Cybersecurity and Commu-
+nications is responsible for enhancing the security, resilience, and reliability of 
+U.S. cyber and communications infrastructure.
+The U.S. Computer Emergency Readiness Team (US-CERT) is a partner-
+ship between DHS and the public and private sectors that was established to 
+protect the nation’s Internet infrastructure against cyberattacks by serving as 
+a clearinghouse for information on new viruses, worms, and other computer 
+security topics.
+There are five broad areas of impact caused by a serious cyberattack: 
+(1) the direct impact on the assets of the organization plus the likely decline 
+in stock price, (2) the impact caused by business disruption and the inability 
+to operate in an effective manner, (3) the recovery cost to repair affected sys-
+tems and recover lost data, (4) the legal consequences of monetary penalties 
+for failure to comply with data protection laws and lawsuits, and (5) reputation 
+damage which causes loss of customers and future business.
+Five federal laws that address computer crime are the Computer Crime and 
+Abuse Act, the Fraud and Related Activity in Connection with Access Devices 
+Statute, the Identity Theft and Assumption Deterrence Act, the Stored Wire and 
+Electronic Communication and Transactional Records Access Act, and the USA 
+Patriot Act.
+Principle:
+Organizations must take strong measures to ensure secure, private, and 
+reliable computing experiences for their employees, customers, and 
+­business partners.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 82
+
+60
+Part 1 • Information ­Systems in Business and Society
+The security practices of organizations worldwide are focused on ­ensuring 
+confidentiality, maintaining integrity, and guaranteeing the availability of 
+­systems and data. This is known as the CIA security triad.
+No organization can ever be completely secure from attack; however, a 
+layered security solution makes cyberattacks so difficult that an attacker even-
+tually gives up or is detected before much harm is inflicted. Security measures 
+must be planned for, designed, implemented, tested, and maintained at the 
+organization, network, application, and end-user layers to achieve true security.
+Security measures at the organizational level must include ­implementing a 
+security strategy, conducting a risk assessment, developing a disaster ­recovery 
+plan in conjunction with a business continuity plan, defining and ­enforcing 
+security policies, performing security audits, complying with regulatory 
+­standards, and monitoring all key security performance measures.
+Security measures at the network level include authenticating users, install-
+ing firewalls, the judicious use of routers, encryption of messages and data, and 
+the use of proxy servers and virtual private networks.
+Security measures at the application level include authenticating users, 
+careful definition of user roles and accounts, and data encryption.
+Security measures at the end-user level include security education, end user 
+authentication, antivirus software, and data encryption.
+The concept of reasonable assurance in connection with IS security recog-
+nizes that managers must use their judgment to ensure that the cost of control 
+does not exceed the system’s benefits or the risks involved.
+Eight steps that must be taken to perform a thorough security risk assess-
+ment include: (1) identify the set of IT assets that are most critical, (2) identify 
+the loss events that could occur, (3) assess the frequency of events or likelihood 
+of each potential threat, (4) determine the impact of each threat, (5) determine 
+how to mitigate each threat, (6) assess the feasibility of implementing the mit-
+igation options, (7) perform a cost-benefit analysis, and (8) make the decision 
+on whether or not to implement a particular countermeasure.
+No security system is perfect, so systems and procedures must be mon-
+itored to detect a possible intrusion. If an intrusion occurs, there must be a 
+clear reaction plan that addresses notification, evidence protection, activity log 
+maintenance, containment, eradication, and follow-up.
+Many organizations outsource their network security operations to a man-
+aged security service provider (MSSP), which is a company that monitors, man-
+ages, and maintains computer and network security for other organizations.
+Organizations must be knowledgeable of and have access to trained 
+experts in computer forensics to identify, collect, examine, and preserve data 
+from computer systems, networks, and storage devices in a manner that pre-
+serves the integrity of the data gathered so that it is admissible as evidence in 
+a court of law.
+cyberterrorism
+data breach
+Department of Homeland Security (DHS)
+disaster recovery plan
+distributed denial-of-service (DDoS) attack
+encryption
+encryption key
+exploit
+failover
+antivirus software
+attack vector
+biometric authentication
+botnet
+bring your own device (BYOD)
+business continuity plan
+CIA security triad
+computer forensics
+cyberespionage
+Key Terms
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 83
+
+Chapter 2 • Secure Information Systems
+61
+risk assessment
+security audit
+security policy
+Transport Layer Security (TLS)
+U.S. Computer Emergency Readiness Team (US-CERT)
+virus signature
+zero-day attack
+firewall
+intrusion detection system (IDS)
+managed security service provider (MSSP)
+mission-critical processes
+next-generation firewall (NGFW)
+ransomware
+reasonable assurance
+Self-Assessment Test
+Computer crime is a serious and rapidly growing 
+area of concern requiring management attention.
+1.	 The growth of the Internet of Things is help-
+ing to curb the number of cyberattacks. True or 
+False?  
+2.	 The perpetrator most likely to be the cause of a 
+cyberattack is the _______________.
+a.	 cybercriminal
+b.	 malicious insider
+c.	 hacktivist
+d.	 careless insider
+3.	 A(n) _______________ is the technique used 
+to gain unauthorized access to a device or a 
+network.
+4.	 A blended threat, phishing, and virus are all 
+examples of a(n) _______________.
+5.	 A form of cyberattack that is estimated to occur 
+every 10 seconds against an individual in the 
+U.S. is _______________.
+a.	 distributed denial-of-service attack
+b.	 ransomware
+c.	 data breach
+d.	 social engineering
+6.	 One of the consequences of a successful cyber-
+attack that can lead to monetary penalties for 
+organizations that fail to comply with data 
+­protection regulations is _______________.
+a.	 business disruption
+b.	 expulsion from industry sponsored 
+organizations
+c.	 recovery cost
+d.	 legal consequences
+7.	 A federal law that focuses on unlawful access to 
+stored communications to obtain, alter, or pre-
+vent authorized access to a wire or electronic 
+communication while it is in electronic storage.
+a.	 Computer Fraud and Abuse Act
+b.	 Fraud and Related Activity in Connection with 
+Access Devices Statute
+c.	 Identity Theft and Assumption Deterrence Act
+d.	 Stored Wire and Electronic Communications 
+and Transactional Records Access Statute
+Organizations must take strong measures to ensure 
+secure, private, and reliable computing experi-
+ences for their employees, customers, and business 
+partners.
+8.	 The four levels at which the CIA security triad 
+must be implemented include _______________.
+a.	 interorganizational, enterprise, workgroup, 
+and personal
+b.	 tier 1, tier 2, tier 3, and tier 4
+c.	 organizational, network, application,  
+and end user
+d.	 organization, business unit, department, 
+individual
+9.	 Each user should conduct a security 
+­self-­assessment test. True or False?  
+10.	 There are _______________ steps that must 
+be taken to perform a thorough security risk 
+assessment.
+a.	 three
+b.	 five
+c.	 seven
+d.	 eight
+11.	 Five actions an organization must take in the 
+event of a successful cyberattack include inci-
+dent notification, protection of evidence and 
+activity logs, incident containment, eradication, 
+and incident _______________.
+12.	 An organization that monitors, manages, and 
+maintains computer and network security for 
+other organizations is called a _______________ 
+service provider.
+13.	 Computer forensics is a discipline that combines 
+elements of _______________ and computer 
+science.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 84
+
+62
+Part 1 • Information ­Systems in Business and Society
+Self-Assessment Test Answers
+1.	 False
+2.	 d
+3.	 attack vector
+4.	 attack vector
+5.	 b
+6.	 d
+7.	 d
+8.	 c
+9.	 True
+10.	 d
+11.	 follow-up
+12.	 managed security
+13.	 law
+Review and Discussion Questions
+1.	 Provide four reasons why computer incidents 
+are so prevalent. Which of these do you think is 
+the most significant? Why?
+2.	 List the four perpetrators most likely to initiate a 
+cyberattack.
+3.	 What is the meaning of attack vector?
+4.	 Identify three commonly used attack vectors.
+5.	 List five cyberattacks that pose serious threats to 
+an organization.
+6.	 List all the likely consequences of a major data 
+breach. Which of these are likely to be the most 
+serious and long lasting?
+7.	 Identify five federal laws aimed at preventing 
+computer crime.
+8.	 Discuss how the CIS security triad can be imple-
+mented at the organizational level to safeguard 
+against cyberattacks.
+9.	 Use Table 2.6 to conduct a security self-­assessment. 
+Identify specific follow-up actions you need to 
+take.
+10.	 You are going to perform a security risk assess-
+ment for your small company. What steps must 
+be taken?
+11.	 Deciding if a cyberattack is serious enough 
+to warrant shutting down or disconnect-
+ing a ­critical system from the network is an 
+action associated with which action of the 
+response plan?
+12.	 What actions can a managed security service 
+provider take to improve the security of an 
+organization?
+13.	 Define the term computer forensics.
+14.	 Hundreds of a bank’s customers have called the 
+customer service call center to complain that 
+they are receiving text messages on their phone 
+telling them to log on to a Web site and enter 
+personal information to resolve an issue with 
+their account. What are all the potential conse-
+quences of this attack? What actions should the 
+bank take?
+Business-Driven Decision-Making Exercises
+1.	 It appears that someone is using your firm’s 
+corporate directory—which includes job titles 
+and email addresses—to contact senior manag-
+ers and directors via email. The email requests 
+that the recipient click on a URL, which leads  
+to a Web site that looks as if it were designed 
+by your human resources organization. Once  
+at this phony Web site, the employees are  
+asked to confirm the bank and account ­number 
+to be used for electronic deposit of their  
+annual bonus check. You are a member of the 
+IS Security unit. How should you respond to 
+this threat?
+2.	 A successful distributed denial-of-service attack 
+requires the downloading of software that turns 
+unprotected computers into zombies under the 
+control of the malicious hacker. Which perpetra-
+tors are most likely to initiate such an attack? What 
+harm can a denial-of-service attack cause? Suppose 
+that the federal government were proposing new 
+legislation that would impose a fine on the owners 
+of the zombie computers as a means of encour-
+aging people to better safeguard their computers. 
+Would you support this legislation? Why or why 
+not? Can you ­identify other approaches to reduce 
+the number of ­denial-of-service attacks?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 85
+
+Chapter 2 • Secure Information Systems
+63
+Teamwork and Collaboration Activities
+1.	 You and your team have been hired to improve 
+the computer security of the computer labs at 
+the business college of a small local university. 
+Identify the four classes of perpetrators most 
+likely to initiate a cyberattack against the com-
+puter lab. Identify the cyberthreats that pose the 
+most serious threat. How can the CIA security 
+triad be implemented to protect the lab?
+2.	 Have you and your team members conduct a 
+security self-assessment of your computer and 
+usage habits. What common issues do you 
+find? How can you go about eliminating these 
+issues? Do you expect that the other students 
+in your class have these same issues? Why or 
+why not?
+Career Exercises
+1.	 Do research to determine typical starting salaries 
+for someone with a four-year degree in com-
+puter forensics. What is the future demand for 
+individuals trained in computer forensics? Do 
+further research to find three universities that 
+offer four-year degrees specializing in computer 
+forensics. Compare the three programs and 
+choose the one you think is best. Why did you 
+choose this university?
+2.	 You are one of the top students in your univer-
+sity’s computer science program of 100 students, 
+and you have agreed to meet with a recruiter 
+from the Department of Homeland Security. 
+Over dinner, he talks to you about the increas-
+ing threat of cyberterrorist attacks launched on 
+the United States by foreign countries and the 
+need to counter those attacks. The agency has 
+a strong need for people that can both develop 
+and defend against zero-day exploits that could 
+be used to plant malware in the software used 
+by the government and military computers. At 
+the end of the dinner, the recruiter turns to you 
+and asks: “Would such a role be of interest to 
+you?” How do you respond?
+Case Study
+ Global, DATA PROTECTION
+Security Consultant Suffers Cyberattack
+Deloitte is one of the biggest professional services compa-
+nies in the world based on both revenue ($38.8 billion in 
+2017) and number of professionals (over 263,000). It pro-
+vides audit, tax, management consulting, financial advisory 
+services, and cybersecurity guidance to over 85 percent of 
+the Fortune 500 companies and more than 6,000 private 
+and middle market companies around the world. Its global 
+headquarters is in New York.
+In April 2017, the company discovered that its global 
+email server had been hacked starting six months earlier. 
+The hackers gained access to the system through an admin-
+istrative account that granted them privileged, unrestricted 
+access to all areas. Apparently, the account required just a 
+single password and did not have two-step verification.
+Deloitte offers its clients advice on how to manage the 
+risks posed by sophisticated cyberattacks. It also operates 
+a CyberIntelligence Center to provide clients with around-
+the-clock business focused operational security. In 2012, 
+Deloitte was ranked the best cybersecurity consultant in the 
+world. The firm earns a portion of its $12 billion a year in 
+consulting fees from these services. The breach was a deep 
+embarrassment for the firm.
+The use of email is interwoven into the operational fab-
+ric of the modern organization and is used to communicate 
+all sorts of sensitive information—new product plans, mar-
+keting strategies, merger and acquisition tactics, product 
+designs, patent data, copyrighted material, and trade secrets. 
+The server that was breached contained the emails of some 
+350 clients including the U. S. State Department, Depart-
+ment of Homeland Security, Department of Defense, Energy 
+Department, and the U. S. Postal Service. Also compromised 
+were the emails of the United Nations, National Institute of 
+Health, and housing giants Fannie Mae and Freddie Mac, 
+plus some of the world’s biggest multinationals. In addition 
+to emails, the hackers had potential access to usernames, 
+passwords, and IP addresses.
+Initially Deloitte kept the breach secret electing to 
+inform only a handful of senior partners, six clients the 
+firm knew to have been directly impacted by the attack, 
+and lawyers at international law firm Hogan Lovells. The 
+­Washington-based firm was retained to provide legal advice 
+and assistance about the potential fallout from the hack.
+Deloitte formed a team consisting of security ana-
+lysts and experts from both within and outside the firm 
+to conduct a formal inquiry to the breach. The goals were 
+to understand how this happened, assess the scope of the 
+incident, determine what the attacker targeted, evaluate the 
+potential impact to clients, and determine the appropriate 
+cyber-security response. After six months elapsed time, the 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 86
+
+64
+Part 1 • Information ­Systems in Business and Society
+team determined that the attacker was no longer in the 
+email system, ascertained that there had been no business 
+disruption to any of its clients, and recommended additional 
+steps to enhance Deloitte’s overall security. The team was 
+unable to determine whether a lone wolf, business rivals, or 
+state-sponsored hackers were responsible.
+The attack illustrates that any organization can fall prey 
+to a cyberattack—even those whose specialty is to stop them.
+Critical Thinking Questions
+1.	 Identify what you believe to be the area of most 
+severe consequences for Deloitte—direct impact, busi-
+ness disruption, recovery, legal, or reputation. Justify 
+your response.
+2.	 How would you evaluate Deloitte’s response to this 
+cyberattack? What did they do well? Where could they 
+have done better?
+3.	 Identify the three highest priority changes that need 
+to be made to the Deloitte security program.
+Sources: Brian Krebs, “Deloitte Breach Affected All Company Email, 
+Admin Accounts,” Krebs on Security, September 17, 2017, https:// 
+krebsonsecurity.com/2017/09/source-deloitte-breach-affected-all- 
+company-email-admin-accounts; “Deloitte Statement on Cyber-Incident,” 
+September 25, 2017, https://www2.deloitte.com/global/en/pages/ 
+about-­deloitte/articles/deloitte-statement-cyber-incident.html; “Here’s 
+How Many Deloitte Clients were Impacted by Hacking,” Fortune, 
+­October 10, 2017, http://fortune.com/2017/10/10/deloitte-clients- 
+hacking; Nick ­Hopkins, “Deloitte Hit by Cyber-Attack Revealing  
+Clients’ Secret Emails,” The Guardian, September 25, 2017, https://www 
+.theguardian.com/business/2017/sep/25/deloitte-hit-by-cyber-attack-­
+revealing-clients-secret-emails; and “Key Facts About the Deloitte Email 
+Cyber-Incident,” Deloitte, October 6, 2017, https://www2.deloitte.com/
+content/dam/Deloitte/global/Documents/About-Deloitte/gx-FactsSheet­
+forGlobalWebsite-cyber-attack.pdf.
+Notes
+Sources for opening vignette: Eric Newcomer, ‌“Uber 
+Paid Hackers to Delete Stolen Data on 57 Million People,” 
+Bloomberg, November 21, 2017; Dave Lewis, “‌Uber Suf-
+fers Data Breach Affecting 50,000,” Forbes, February 28, 
+2015, https://www.forbes.com/sites/davelewis/2015/02/28/
+uber-­suffers-data-breach-affecting-50000/#eda3a0f2db14; 
+Lilly May Newman, “‌Yahoo’s 2013 Email Hack Actually 
+­Compromised Three Billion Accounts,” Wired, October 3, 
+2017, https://www.wired.com/story/yahoo-breach-three-­
+billion-accounts; Nick Wells, ‌“How the Yahoo Hack Stacks 
+Up to Previous Data Breaches,” CNBS News, October 4, 
+2017, https://www.cnbc.com/2017/10/04/how-the-yahoo-
+hack-stacks-up-to-previous-data-breaches.html; Chloe 
+Aiello, ‌“Under Armour Says Data Breach Affected About 
+150 ­Million MyFitnessPal Accounts,” CNBC, March 29, 2018, 
+https://www.cnbc.com/2018/03/29/under-armour-stock-falls-
+after-­company-admits-data-breach.html.
+1.	 Nick Ismail, “The Rise of Cybercrime Continues 
+to Accelerate,” Information Age, July 28, 
+2017, https://www.information-age.com/
+rise-cyber-crime-continues-accelerate-123467629.
+2.	 Steve Morgan, “Top 5 Cybersecurity Facts, Figures, 
+and Statistics for 2018,” CSO Online, January 23, 2018, 
+https://www.csoonline.com/article/3153707/security/top-
+5-cybersecurity-facts-figures-and-statistics.html.
+3.	 Hannah Kuchler, “Cost of Cyber Crime Rises 
+Rapidly as Attacks Increase,” Financial 
+Times, November 8, 2017, https://www.ft.com/
+content/56dae748-af79-11e7-8076-0a4bdda92ca2.
+4.	 “Cybersecurity Regained: Preparing to Face Cyber 
+Attacks: EY Global Information Security Survey 
+2017-18,” EY, https://consulting.ey.com/cybersecurity-
+regained/ a, accessed July 10, 2018.
+The Global State of Information Security Survey 
+2018,” PwC, https://www.pwc.com/us/en/services/ 
+consulting/cybersecurity/library/information-security- 
+survey.html, accessed July 10, 2018.
+5.	 Dan Carfagno, “Your Ultimate Guide to Zero-Day 
+Attacks,” Black Stratus, https:/wwww.blackstratus.com/
+ultimate-guide-zero-day-attacks, accessed July 11, 2018.
+6.	 Tom Spring, “Windows Zero Day Selliing for $90,000,” 
+Threat Post, May 31, 2016, https://threatpost.com/
+windows-zero-day-selling-for-90000/118380.
+7.	 IBM X-Force Research 2018 Cyber Security Intelligence 
+Index, https://www.ibm.com/security/data-breach/
+threat-intelligence, accessed July 15, 2018.
+8.	 Josh Fruhlinger, “What is Ransomware? How It Works 
+and How to Remove It.” CSO Online, November 13, 
+2017, https://www.csoonline.com/article/3236183/
+ransomware/what-is-ransomware-how-it-works-and-
+how-to-remove-it.html.
+9.	 Johnathan Crowe, “Must-Know Ransomware Statistics 
+2017,” Barkley Blog, June 2017, https://blog.barkly.com/
+ransomware-statistics-2017.
+10.	 Johnathan Crowe, “Must-Know Ransomware Statistics 
+2017,” Barkley Blog, June 2017, https://blog.barkly.com/
+ransomware-statistics-2017.  
+11.	 Kimberly Hutcherson, “Six Days After a Ransomware 
+Cyberattack, Atlanta Officials Are Filling Out Forms by 
+Hand,” CNN, March 28, 2018, https://www.cnn 
+.com/2018/03/27/us/atlanta-ransomware-computers/
+index.html.  
+12.	 Jon Fingas, “Atlanta Ransomware Attack May Cost 
+Another $9.5 Million to Fix,” engadget, June 6, 2018, 
+https://www.engadget.com/2018/06/06/atlanta-
+ransomware-attack-struck-mission-critical-services.  
+13.	 “Frequency and Complexity of DDoS Attacks is Rising,” 
+Netscout, January 23, 2018, https://www.netscout.com/
+news/press-release/complexity-ddos-attacks.
+14.	 Steve Ranger, “GitHub Hit with the Largest DDoS Attack 
+Ever Seen,” ZDNnet, March 1, 2018, https://www.zdnet 
+.com/article/github-was-hit-with-the-largest-ddos- 
+attack-ever-seen.
+15.	 “2017 Data Breaches,” Identity Theft Resource Center, 
+https://www.idtheftcenter.org/2017-data-breaches, 
+accessed July 17, 2017.  
+16.	 Andrew Nusca, “Equifax Stock Has Plunged 
+18.4% Since It Revealed Massive Breach,” Fortune, 
+September 11, 2017, http://fortune.com/2017/09/11/
+equifax-stock-cybersecurity-breach.  
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 87
+
+Chapter 2 • Secure Information Systems
+65
+17.	 Michael Kan, “China Counters US Claims with Own 
+Charges of Cyber-Espionage,” PC World, May 19, 2014, 
+www.pcworld.com/article/2157080/china-counters-us-
+claims-with-own-charges-of-cyberespionage.html. 
+18.	 Sophia Yan, “Chinese Man Admits to Cyber Spying on 
+Boeing and Other U.S. Firms,” CNN Money, March 24, 
+2016, http://money.cnn.com/2016/03/24/technology/
+china-cyber-espionage-military/index.html.  
+19.	 Chris Bing, “Experts Warn Congress of the Return of 
+Chinese IP Theft,” Cyberscoop, June 14, 2017, https://
+www.cyberscoop.com/china-ip-theft-hackers-xi-jinping.  
+20.	 Christopher Wray, “Current Threats to the Homeland,” 
+Statement Before the Senate Homeland Security and 
+Government Affairs Committee, September 27,  
+2017, https://www.fbi.gov/news/testimony/
+current-threats-to-the-homeland. 
+21.	 Jim Garamone, “Cyber Tops List of Threats to U.S., 
+Director of National Intelligence Says,” Department of 
+Defense, February 13, 2018, https://www.defense.gov/
+News/Article/Article/1440838/cyber-tops-list-of-threats-
+to-us-director-of-national-intelligence-says.
+22.	 “About DHS,” Department of Homeland Security, www 
+.dhs.gov/about-dhs, accessed July 12, 2018. 
+23.	 “Office of Cybersecurity and Communications,” 
+Department of Homeland Security, http://www.dhs.gov/
+office-cybersecurity-and-communications, accessed  
+July 12, 2018.  
+24.	 “About DHS,” Department of Homeland Security, www 
+.dhs.gov/about-dhs, accessed July 12, 2018.
+25.	 “About DHS,” Department of Homeland Security, https://
+www.dhs.gov/about-dhs, accessed August 26, 2018.
+26.	 “12 Russian Intelligence Officers Indicted for Hacking in 
+2016 Presidential Election,” ABC News Chicago, July 13,  
+2018, http://abc7chicago.com/politics/12-russians-
+indicted-for-hacking-in-2016-election/3758586.  
+27.	 H. R. 3162, 107th Cong. (2001), www.gpo.gov/fdsys/
+pkg/BILLS-107hr3162enr/pdf/BILLS-107hr3162enr.pdf, 
+accessed July 12, 2018.  
+28.	 “RecoverPoint,” EMC, www.emc.com/storage/
+recoverpoint/recoverpoint.htm, accessed July 12, 2018. 
+29.	 “SteelEye LifeKeeper,” SteelEye Technology, Inc., www 
+.ha-cc.org/high_availability/components/application_
+availability/cluster/high_availability_cluster/steeleye_
+lifekeeper, accessed July 22, 2018.
+30.	 “NeverFail Application Continuous Availability,” 
+VirtualizationAdmin.com, www.virtualizationadmin 
+.com/software/High-Availability/Neverfail-for-VMware-
+VirtualCenter-.html, accessed June 16, 2015.
+31.	 Catalin  Cimpanu, “Hacker Steals Military Docs Because 
+Someone Didn’t Change a Default FTP Password,” 
+Bleeping Computer, July 11, 2018, https://www 
+.bleepingcomputer.com/news/security/hacker-steals-
+military-docs-because-someone-didn-t-change-a-default-
+ftp-password/.
+32.	 “Algoma Central Corporation Case Study,” Avaap, www 
+.avaap.com/case-studies, accessed July 24, 2018.
+33.	 “Encryption: Securing Our Data, Securing Our Lives,” 
+BSA The Software Alliance, http://encryption.bsa.org/
+downloads/BSA_encryption_primer.pdf, accessed July 
+23, 2018.
+34.	 “Case Study: Grant Thornton, Global Accounting, Tax 
+And Advisory Company Puts Its Trust in AccessData 
+for Computer Forensics and E-Discovery Solutions,” 
+AccessData, http://accessdata.com/resources/digital-
+forensics/case-study-grant-thornton-global-accounting-
+tax-and-advisory-company-puts-i, accessed July 24, 2018.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 88
+
+PlusONE/Shutterstock.com
+Corporate and Individual Accountability: 
+Ethical, Legal, and Social Issues
+Chapter 
+3
+Principles
+Learning Objectives
+An ethical decision- 
+making process and a code 
+of ­ethics can guide you as 
+you ­confront the many eth-
+ical dilemmas ­associated 
+with ­information systems.
+• Explain the difference between ethical and legal.
+• Identify five reasons for an organization to promote a work environment 
+where employees are encouraged to act ethically.
+• Outline a five-step ethical decision-making process.
+• Define the primary intent and two key elements of an effective code of ethics.
+• Identify four benefits of following a professional code of ethics.
+The use of technology 
+requires balancing the 
+needs of those who use the 
+information that is ­collected 
+against the rights of those 
+whose information is being 
+used.
+• Summarize the differences between U.S. and EU fair information practices.
+• Identify three subject areas where measures have been taken to protect per-
+sonal data.
+• Identify four measures you should take to protect your personal privacy.
+• Discuss the tradeoffs between security and privacy.
+• Discuss how three U.S. federal statutes protect citizens from government 
+­surveillance while at the same time authorize the government to collect data.
+• Discuss how the First Amendment and anonymous expression safeguard 
+our freedom of speech.
+• Describe the impact of censorship on the operation of Internet service providers.
+• Identify measures taken to address defamation, hate speech, and pornog-
+raphy on the Internet.
+Software developers must 
+make ­trade-offs between 
+project schedules, project 
+costs, system reliability, and 
+software quality.
+• Distinguish between a high-quality software system and safety-critical system.
+• Give three reasons why developing a safety-critical system takes longer 
+and is more expensive.
+• Identify two ethical dilemmas that software developers face when building 
+high-quality or safety-critical systems.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 89
+
+IS in Action
+Facebook and Cambridge Analytica
+ Social and Ethical Issues, TECHNOLOGY IN SOCIETY
+Cambridge Analytica was a British political consulting firm whose Web site claimed it used 
+data to change audience behavior—both commercially and politically. The firm paid a 
+Soviet-born researcher named Aleksandr Kogan and his company Global Science Research 
+$800,000 to collect basic profile data of Facebook users including what they chose to 
+“Like.” This was done through an app called This Is Your Digital Life that prompted users 
+to answer questions to develop a psychological profile.
+Some 300,000 Facebook users downloaded Kogan’s app. The app’s terms of service 
+disclosed that it would collect data on users and their Facebook friends if their privacy set-
+tings allowed it. The data gathering occurred during 2013 at which time Facebook allowed 
+third-party developers to build and offer their own applications and collect information on 
+friends of those who chose to use their apps. It was not until 2014 that Facebook modified 
+its rules to limit a developer’s access to user data. This ensured that a third-party was no 
+longer able to access a user’s friend’s data without gaining permission first.
+In the 2016 election, Donald Trump’s team hired Cambridge Analytica who may have 
+used the This Is Your Digital Life data to develop psychographic profiles of American ­voters 
+and deliver pro-Trump material to them online based on their profile. (Psychographics is 
+the study and classification of people according to their attitudes, aspirations, and other 
+psychological criteria. It includes data about a person’s buying habits, hobbies, spend-
+ing habits, and values.) This is a matter of contention as some executives at ­Cambridge 
+­Analytica have denied that any of the data was used in connection to the Trump campaign. 
+Another point of contention is whether Cambridge Analytica’s psychographic profiles are 
+effective as some of the firm’s clients claim they saw little value in them.
+In March 2018, The Guardian and The New York Times reported that (when including 
+friends of users) some 50 million Facebook profiles were harvested for Cambridge ­Analytica. 
+This revelation and its implications ignited a firestorm that threatened to further downgrade 
+the already frayed reputation of the embattled social media giant. Facebook shares dropped 
+22%, from a high of $218 to $171 in the two weeks following disclosure of this event. The 
+number of Facebook users affected was later revised to as many as 87 million.
+It took five days after the news broke before there was any response from Facebook. 
+CEO Mark Zuckerberg posted a lengthy response on his personal Facebook page, apol-
+ogizing for the company’s failure to protect its user’s data and announcing changes to 
+the platform intended to do just that. The delay in Facebook communications about the 
+incident further angered Facebook users. Two weeks after the reports were published, 
+Zuckerberg took out full-page ads in several British and American newspapers to apol-
+ogize for a “breach of trust.” “I’m sorry we didn’t do more at the time. We’re now taking 
+steps to ensure that this doesn’t happen again,” he said in the ads.
+Facebook settled previous privacy complaints with the U.S. Federal Trade Commission 
+(FTC) by agreeing to get clear consent from users before sharing their data with others. 
+The FTC is now investigating whether Facebook violated the terms of that 2011 consent 
+decree. If Facebook is found to have violated this agreement, it is facing potential penal-
+ties of up to $40,000 per user per day, which could in theory add up to billions of dollars.
+The Cambridge Analytica incident is yet another example that shows that average social 
+media users do not know how their data is being used. Their personal data can be taken 
+away for companies, organizations, and campaigns to use in a variety of ways. A combina-
+tion of improved user education, clearer privacy notices, and increased regulation is needed 
+to avoid future such incidents at Facebook and other social media networks and services.
+As you read about corporate and individual responsibility, consider the 
+following:
+• How can you include ethical factors in your decision-making process?
+• How can you protect sensitive personal data?
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 90
+
+	 What Is Ethics?
+Ethics is the set of principles about what is right and wrong that individuals 
+use to make choices to guide their decisions. Ethical behavior conforms to 
+generally accepted norms, which may change over time to meet the evolving 
+needs of society or a group of people who share similar laws, traditions, and 
+values that provide structure to enable them to live in an organized manner. 
+Ethics help members of a group understand their roles and responsibilities, so 
+that they can work together to achieve mutual benefits such as security, access 
+to resources, and the pursuit of life goals.
+Although nearly everyone would agree that certain behaviors—such as 
+lying and cheating—are wrong, opinions about what constitutes right and 
+wrong behavior can vary dramatically. For example, attitudes toward software 
+piracy—a form of copyright infringement that involves making copies of soft-
+ware or enabling others to access software to which they are not ­entitled—
+range from strong opposition to acceptance of the practice as a standard 
+approach to conducting business. According to the Business Software Alliance 
+(BSA), the global rate of software piracy stands at around 37 percent of soft-
+ware installed on personal computers; however, over a dozen countries have 
+a rate exceeding 80 percent.1 In many of these countries, users simply cannot 
+afford software licenses, pirated copies are readily available at cut-rate prices, 
+and software piracy has become an accepted business practice.
+Individual views of what behavior is ethical may by impacted by a person’s 
+age, cultural group, ethnic background, religion, life experiences, education, 
+and gender along with many other factors. Even within the same society, peo-
+ple can have strong disagreements over important ethical issues. In the United 
+States, for example, issues such as abortion, stem cell research, the death 
+ethics:  The set of principles about 
+what is right and wrong that individuals 
+use to make choices to guide their 
+decisions.
+Part 1 • Information ­Systems in Business and Society
+68
+Why Learn about Corporate and Individual 
+Accountability?
+Opportunities and threats surround a wide range of nontechnical issues associated with the use of infor-
+mation systems and the Internet. Some of the key issues involve avoiding violations of privacy; balancing 
+security and privacy while collecting personal data; implementing measures to safeguard freedom of 
+speech; and making tradeoffs between cost, time, and features when developing information systems. It 
+is essential that you have some basis to guide you in making ethical decisions in dealing with these issues 
+and acting with integrity.
+If you become a member of the human resources, information systems, or legal department within 
+an organization, you will likely be challenged with leading your organization in dealing with these and 
+other issues related to information systems. Also, as a user of information systems and the Internet, it is 
+in your own self-interest to become well versed on these issues and to learn what measures you can take 
+to protect your personal privacy. Developing a better understanding of the topics covered in this chapter 
+will help you to manage in an ethical manner and avoid technology-related problems.
+Computer-based information systems provide organizations with significant benefits including 
+increased profits, superior goods and services, and higher quality of work life. Computers have become 
+such valuable tools that most businesspeople today have difficulty imagining how they would accomplish 
+their work without them. Yet, the use of information systems has brought with it concerns about the 
+information privacy rights of individuals, censorship versus freedom of information, the safety of users, 
+and the negative impact of information systems on the work environment.
+No business organization, and hence, no information system, operates in a vacuum. All IS profes-
+sionals, business managers, and users have a responsibility to see that the potential consequences of IS 
+use are fully considered. Even entrepreneurs, especially those who use computers and the Internet, must 
+be aware of the potential personal and social impact of computers.
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 91
+
+Chapter 3 • Corporate and Individual Accountability: Ethical, Legal, and Social Issues
+69
+penalty, marijuana usage, and gun control are continuously debated, and peo-
+ple on both sides of these debates feel that their arguments are on solid moral 
+ground. The reality is that the world has many systems of beliefs about what 
+is right and wrong, each with many proponents.
+Ethical Versus Legal
+Law is a system of rules that tells us what we can and cannot do. Laws are 
+enforced by a set of institutions (the police, courts, and law-making bodies). 
+Violation of a law can result in censure, fines, and/or imprisonment. Laws in 
+the United States are made by the various local, state, and federal legislatures. 
+Sometimes the laws of these various jurisdictions are in conflict, creating con-
+fusion and uncertainty. In addition, laws are not static; new laws are constantly 
+being introduced and existing laws repealed or modified. As a result, the precise 
+meaning of a particular law may be different in the future from what it is today.
+Legal acts conform to the law. Ethical acts conform to what an individual 
+believes to be the right thing to do. Laws can proclaim an act as legal, although 
+many people may consider the act unethical. Examples of this include abor-
+tion or possession of an automatic weapon. Laws may also proclaim an act as 
+illegal, although many people may consider the act ethical. Examples of this 
+include using marijuana to relieve stress and nausea for people undergoing 
+chemotherapy treatment for cancer.
+Laws raise important and complex issues concerning equality, fairness, and 
+justice, but do not provide a complete guide to ethical behavior. Just because 
+an activity is defined as legal does not mean that it is ethical (see Figure 3.1). 
+As a result, practitioners in many professions subscribe to a code of ethics 
+that states the principles and core values that are essential to their work and, 
+therefore, govern their behavior. The code can become a reference point for 
+helping an individual determine what is legal and what is ethical; however, an 
+individual will also be guided by his/her set of morals.
+Figure 3.1
+The Difference Between 
+Acting Ethically and Acting 
+Legally
+Ethical
+Unethical
+Ethical
+and
+illegal
+Illegal
+Legal
+Ethical
+and
+legal
+Unethical
+and
+illegal
+Unethical
+and
+legal
+Fostering Corporate Social Responsibility and  
+Good Business Ethics
+Organizations have at least five good reasons to promote a work environment 
+in which employees are encouraged to act ethically when making business 
+decisions:
+• Gaining the goodwill of the community
+• Creating an organization that operates consistently
+• Fostering good business practices
+• Protecting the organization and its employees from legal action
+• Avoiding unfavorable publicity
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 92
+
+Part 1 • Information ­Systems in Business and Society
+70
+Gaining the Goodwill of the Community
+Although organizations exist primarily to earn profits or provide services to 
+customers, they also have some fundamental responsibilities to society. Com-
+panies often declare these responsibilities in specific corporate social respon-
+sibility (CSR) goals.
+All successful organizations, including technology firms, recognize that they 
+must attract and maintain loyal customers. Philanthropy is one way in which 
+an organization can demonstrate its values in action and make a positive con-
+nection with its customers, employees, suppliers, business partners, and other 
+parties. As a result, many organizations initiate or support socially responsible 
+activities. These activities may include making contributions to charitable orga-
+nizations and nonprofit institutions, providing benefits for employees in excess 
+of any legal requirements, and devoting organizational resources to initiatives 
+that are more socially desirable than profitable. Here a few examples of some 
+of the CSR activities supported by major IT organizations.
+• Dell employees donated over $1.2 million to disaster relief organiza-
+tions worldwide and contributed over 23,000 hours in disaster relief 
+efforts. In addition, the Michael and Susan Dell Foundation commit-
+ted $36 million in relief efforts to support the Hurricane Harvey relief 
+efforts. Many of Harvey’s victims were based in Dell’s home state of 
+Texas. Overall, Dell employees spent over 809,000 hours volunteering 
+for various causes in 2017.2
+• During 2017, Microsoft donated more than $1.2 billion in software and 
+services and an additional $1 billion in cloud technology to non-profits 
+and university researchers. Its employees donated $149 million to various 
+charities. The company is also working to bring broadband connectivity 
+to 2 million people in rural America by 2022.3
+• Oracle has a multi-pronged set of CSR initiatives aimed at advancing 
+education, protecting the environment, and enriching community life. 
+Its Oracle Academy and Oracle Education Foundation help students 
+develop technical skills and build their creativity. The company is a 
+leader in sustainability and is ranked in the top 10 percent of companies 
+in this arena. Oracle donated millions of dollars in cash to nonprofit 
+organizations and its employees in 45 countries donated 110,000 hours 
+of their time to support nonprofit organizations.4
+The goodwill that CSR activities generate can make it easier for corpora-
+tions to conduct their business. For example, a company known for treating its 
+employees well will find it easier to compete for the top job candidates. On the 
+other hand, businesses that are not socially responsible run the risk of alienat-
+ing their customer base. A study of more than 10,000 shoppers in ten different 
+countries revealed that more than 90 percent are likely to switch to brands that 
+support a socially responsible cause, given similar price and quality. In addition, 
+90 percent of the shoppers surveyed would boycott a company if they learned 
+that the firm engaged in socially irresponsible business practices. Indeed, 55 
+percent of the respondents had already done so in the previous year.5
+Creating an Organization That Operates Consistently
+Organizations develop and abide by values to create an organizational culture 
+and to define a consistent approach for dealing with the needs of their stake-
+holders. Stakeholders include shareholders, employees, customers, suppliers, 
+and the community. Such consistency ensures that employees know what is 
+expected of them and can employ the organization’s values to help them in 
+their decision making. Consistency also means that shareholders, customers, 
+suppliers, and the community know what they can expect of the organization. 
+With consistency, the company will behave in the future much as it has in 
+the past. It is especially important for multinational or global organizations to 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 93
+
+Chapter 3 • Corporate and Individual Accountability: Ethical, Legal, and Social Issues
+71
+present a consistent face to their shareholders, customers, and suppliers no 
+matter where those stakeholders live or operate their business. Although each 
+company’s value system is different, many share the following values:
+• Operate with honesty and integrity, staying true to organizational principles
+• Operate according to standards of ethical conduct, in words and action
+• Treat colleagues, customers, and consumers with respect
+• Strive to be the best at what matters most to the organization
+• Value diversity
+• Make decisions based on facts and principles
+Fostering Good Business Practices
+In many cases, good ethics can mean good business and improved ­profits. 
+­Companies that produce safe and effective products avoid costly recalls 
+and lawsuits. (The recall of the weight loss drug Fen-Phen cost its maker, 
+­Wyeth-Ayerst Laboratories, almost $14 billion in awards to victims, many of 
+whom developed serious health problems due to taking the drug.6) Companies 
+that provide excellent service retain their customers instead of losing them to 
+competitors. Companies that develop and maintain strong employee relations 
+enjoy lower turnover rates and better employee morale. Suppliers and other 
+business partners often place a priority on working with companies that oper-
+ate in a fair and ethical manner. All these factors tend to increase revenue and 
+profits while decreasing expenses. As a result, ethical companies should tend 
+to be more profitable over the long term than unethical companies.
+On the other hand, bad ethics can lead to bad business results. Bad 
+­ethics can have a negative impact on employees, many of whom may develop 
+­negative attitudes if they perceive a difference between their own values and 
+those stated or implied by an organization’s actions. In such an environment, 
+employees may suppress their tendency to act in a manner that seems ethical 
+to them and instead act in a manner that will protect them against anticipated 
+punishment. When such a discrepancy between employee and organizational 
+ethics occurs, it destroys employee commitment to organizational goals and 
+objectives, creates low morale, fosters poor performance, erodes employee 
+involvement in organizational improvement initiatives, and builds indifference 
+to the organization’s needs.
+Protecting the Organization and Its Employees from Legal Action
+In a 1909 ruling (United States v. New York Central & Hudson River Railroad 
+Co.), the U.S. Supreme Court established that an employer can be held respon-
+sible for the acts of its employees even if the employees act in a manner 
+contrary to corporate policy and their employer’s directions.7 The principle 
+established is called respondeat superior, or “let the master answer.”
+When it was uncovered that employees of Wells Fargo Bank opened over 2 
+million credit card accounts not authorized by its customers, the bank was fined 
+over $185 million and ordered to pay customers full restitution for any fees or 
+charges they may have incurred. The practice began at least as early as 2011 and 
+was an attempt by thousands of bank employees to achieve their sales targets 
+for cross-selling and be rewarded with higher sales bonuses.8 Cross-selling is the 
+practice of selling existing customers multiple products. The products included 
+savings accounts, checking accounts, auto loans, mortgages, and credit cards. 
+Cross-selling to existing customers is less costly than locating and selling to 
+brand new customers. It also tends to lock existing customers into your bank.
+Avoiding Unfavorable Publicity
+The public reputation of a company strongly influences the value of its stock, 
+how consumers regard its products and services, the degree of oversight it 
+receives from government agencies, and the amount of support and cooperation 
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. Due to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).
+Editorial review has deemed that any suppressed content does not materially affect the overall learning experience. Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.
+
+## Page 94
+
+Part 1 • Information ­Systems in Business and Society
+72
+it receives from its business partners. Thus, many organizations are motivated 
+to build a strong ethics program to avoid negative publicity. If an organization 
+is perceived as operating ethically, customers, business partners, shareholders, 
+consumer advocates, financial institutions, and regulatory bodies will usually 
+regard it more favorably.
+Prominent ad buyers and marketers are angry with Facebook after finding 
+out that the world’s largest online social network service greatly exaggerated 
+the average viewing time of video ads on its platform. This is a key metric used 
+by advertisers in deciding how much to spend on Facebook video versus other 
+video services such as You Tube, Twitter, and TV networks. It turns out that 

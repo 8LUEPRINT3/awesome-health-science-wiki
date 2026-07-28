@@ -1,0 +1,3006 @@
+---
+title: The Human Body - Part 3
+source: The Human Body.md
+category: health-science
+---
+
+dermis and is composed of about 30 layers of dead
+structures such as the hair and certain glands are em-
+flattened keratinized cells. The dead cells are continu-
+bedded within the dermis. Also located within the der-
+ously sloughed off, exfoliated (eks-FOH-lee-a-tid), or
+mis are blood vessels, nervous tissue, and some muscle
+desquamated (des-kwah-MAY-tid) through wear and
+tissue. Many of the nerves have specialized endings
+tear. The dead sloughed cells are called dander; when
+called sensory receptors that detect pain, temperature,
+dander is clumped together by the oil on the skull, it is
+pressure, and touch.
+called dandruff. The sloughed cells are replaced by oth-
+er cells that are constantly moving up from the deeper
+layers. You shed about 40,000 skin cells each min- Re-Think
+ute; each month you have a new layer of epithelium. 1. L ist the two layers of the skin.
+Interesting fact: the ink used in creating a tattoo must 2. W hat “happens” in the stratum germinativum?
+be deposited into the dermis because of the sloughing 3. D escribe two changes that the cells undergo as they are
+characteristic of the epidermis. Ouch! pushed upward to the stratum corneum.
+DERMIS
+THE SKIN TELLS A STORY
+The dermis is located beneath the epidermis and is the
+largest portion of the skin; it is composed of dense fi- The skin tells a story: skin often reveals what is going
+brous connective tissue. It contains numerous collagen on “underneath” it all. The skin tells stories of systemic
+and elastin fibers surrounded by a gel-like substance. disease, drug reactions, exposure to irritants, and emo-
+The fibers make the dermis strong and stretchable; tional distress.
+
+Integumentary System and Body Temperature CHAPTER 7 97
+• Systemic disease may be characterized by lesions or Do You Know
+…
+changes in the skin. For example, a person with her-
+How You Inject a Medication Into the Subcutaneous Layer?
+pes zoster (shingles)—an inflammation of nerves
+caused by the chickenpox virus—develops painful When you are injecting medication subcutaneously, you have
+skin lesions along the path of the nerve. A person to use the right-sized needle and insert the needle at the
+proper angle. The needle must penetrate the epidermis and
+with a severe generalized staphylococcal infection
+dermis such that the tip of the needle is located in the subcu-
+may develop scalded skin syndrome, a condition
+taneous layer, where the medication is deposited.
+in which the skin appears scalded and peels off in
+layers.
+• Drug reactions are often revealed by skin changes.
+For example, a person allergic to penicillin may
+develop hives, or urticaria (er-ti-KAIR-ee-ah).
+Skin
+Similarly, a person allergic to sulfa drugs may de-
+velop a generalized rash that can progress to a lethal Subcutaneous
+condition called Stevens-Johnson syndrome. tissue
+• Chronic irritation causes skin changes. For exam-
+ple, constant irritation or rubbing of an area causes Muscle
+the rate of epidermal cell division to increase, pro-
+ducing a thickened area called a callus. Constant
+rubbing of a toe by a poorly fitting shoe can also
+produce an overgrowth of epidermal cells arranged
+in a conical shape. This overgrowth is called a corn. THE SKIN: DRUGS, AND CHEMICALS
+• The skin mirrors your emotional temperature. How The skin can absorb many chemicals; this is good news
+many times have you become stressed out and then and bad news. The good news is concerned with drug
+broken out? The skin truly reveals on the outside absorption.
+what is going on inside! • Transdermal. Drugs can be placed on the surface
+of the skin and absorbed transdermally (across
+Do You Know the skin) to achieve a systemic effect (through-
+…
+out the body). For example, nitroglycerin can
+About Margarita Dermatitis?
+be applied using an adhesive patch on the skin.
+Exposure to the ultraviolet radiation of sunshine while you are The drug penetrates the skin, is absorbed by the
+mixing up tangy margaritas can cause a severe skin reaction dermal blood vessels, and is transported by the
+called margarita dermatitis. This is a phytophotodermatitis
+blood throughout the body, where it exerts its
+(from the words parts meaning “plant,” “light,” “skin,” and
+effects.
+“inflammation”) that resembles a second-degree burn: blis-
+• Intradermal. The skin can also be used to detect al-
+tering, pain, and related misery. The skin reaction is appar-
+lergies by injecting antigens (possible allergic sub-
+ently caused by exposure of skin to the lime juice used in
+stances) intradermally. An allergic response will
+preparing a margarita. Although lime is the usual toxic culprit,
+the dermatitis can also develop in response to other citrus appear as a skin reaction (redness, swelling, and
+fruits as well as celery. If left untreated, severe dermatitis may itching).
+cause an irreversible hyperpigmentation of the affected skin. • Topical. Drugs can also be applied topically; the drug
+S o party on…in the shade. is meant to exert its effect locally, on the surface of
+the skin.
+• Subcutaneous. Last, the subcutaneous route is a
+SUBCUTANEOUS LAYER
+common way to inject drugs for faster systemic
+The dermis lies on the subcutaneous layer. This layer effects.
+is not considered part of the skin; it lies under the skin The bad news? Skin can absorb toxins; these include
+and is therefore called the subcutaneous layer, or hy- pesticides, cleaning fluids, the acetone in nail polish re-
+podermis. The subcutaneous layer is composed pri- mover, mercury, common skin lotions, and many other
+marily of loose connective and adipose tissue. It has toxic chemicals that we encounter daily. Farm workers
+two main roles: to help insulate the body from extreme exposed to chemical sprays are commonly treated for
+temperature changes in the external environment and pesticide poisoning.
+to anchor the skin to the underlying structures. A few Interesting! Green, a favorite color in Victorian
+areas of the body have no subcutaneous layer; there England, sometimes proved to be a lethal fashion
+the skin anchors directly to the bone. Look at the skin statement. Seems that green was made from an ar-
+over your knuckles. It is wrinkled and creased because senic-based dye that was readily absorbed across
+it attaches directly to bone. Imagine what you would the skin. Not so today…green is good and safe. Do
+look like if all your skin were anchored directly to un- not underestimate the ability of the skin to absorb
+derlying bone. toxins!
+
+98 CHAPTER 7 Integumentary System and Body Temperature
+Re-Think liver disease is unable to excrete a pigment called
+bilirubin (bil-ih-ROO-bin). This pigment is instead
+1. L ist four “skin routes” of drug administration.
+deposited in the skin, causing it to turn yellow—a
+2. E xplain why systemic drug effects are achieved using the
+condition known as jaundice.
+transdermal route, whereas local effects are achieved by
+• What If a person eats excessive amounts of dietary
+applying a drug topically.
+carotene (i.e., carrots, sweet potatoes)? The skin may
+come to appear more yellow. This color change is
+SKIN COLOR most often observed in infants who are new to their
+veggies, especially carrots.
+Why are there different colors of skin? Skin color is de-
+termined by many factors: some genetic, some physi-
+Do You Know
+ologic, and some caused by disease. When we think of …
+skin color, we generally think of black, brown, yellow, About Your “Tats” and an Imaging Procedure?
+and white—as well as the many shades in between!
+We are an increasingly tattooed society with beautiful and
+These skin colors are genetically determined.
+sometimes extensive body art. But can a tattooed individual
+Deep within the epidermal layer of the skin are cells safely undergo magnetic resonance imaging (MRI)? Here’s the
+called melanocytes (meh-LAN-oh-sytes). They secrete a problem: MRI uses magnetic forces to accomplish the imag-
+skin-darkening pigment called melanin, which stains ing of internal structures. Metals are affected by these mag-
+the surrounding cells, causing them to darken. The more netic forces and can distort them. There are numerous heavy
+melanin secreted, the darker the skin color. Interestingly, metals in tattoo ink, including lead, copper, zinc, chromium,
+we all have the same numbers of melanocytes. What nickel, and mercury. The more colorful your tattoo, the wider
+the variety of heavy metals in the ink. So, is it safe for a tat-
+determines our skin color is not the numbers of mela-
+nocytes but the amount of melanin secreted. Can mela-
+tooed person to have an MRI? The answer is…generally yes.
+There have been rare instances where serious problems arose
+nocytes increase their secretion of melanin? Yes! When
+because of the metals. However, the more common and less
+exposed to the ultraviolet radiation of sunlight, the me-
+serious experiences are complaints of minor tingling or burning
+lanocytes secrete more melanin. The skin darkens in an
+at the tattoo site. Complications are more common if you are
+attempt to protect the deeper layers from the harmful heavily tattooed, have more colorful tattoos, or have old tat-
+effects of radiation. This effort creates the famous sum- toos, because the older inks contained more metal. The newer
+mer tan. The yellowish tint of carotene in most persons inks are better regulated and have fewer metals. In addition to
+is hidden by the effects of melanin. Because some peo- the concern for burns, tattoo ink is also capable of distorting
+ple of Asian descent have little melanin in their skin, the the results of the MRI, yielding less than satisfactory images.
+carotene gives their skin a yellow tint. On a precautionary note, if you are tattooed or have
+permanent eyeliner, inform your physician and MRI technician.
+What accounts for the pinkish color of fair-skinned per-
+The alerted physician may indicate that the procedure is safe
+sons, especially newborns? It’s because so little melanin is
+or prescribe a different diagnostic procedure. The physician
+produced in the skin that the blood in the dermal blood
+an d technician will be aware of the possibility of burns.
+vessels is visible, thereby giving the skin a pinkish tinge.
+THE WHAT-IFS OF SKIN COLOR CHANGE
+• What If the melanocytes do not function? If the me- Re-Think
+lanocytes completely fail to secrete melanin, the skin,
+Describe the underlying causes of the following color chang-
+hair, and colored part of the eye (iris) are white. This
+es : cyanosis, flushing, pallor, jaundice, tanning, and vitiligo.
+condition is referred to as albinism. Other persons de-
+velop a condition called vitiligo (vit-i-LYE-go), which
+involves a loss of pigment (melanin) only in certain
+Sum It Up!
+areas, creating patches of white skin. Melanin can
+also stain unevenly. Freckles and moles are examples The integumentary system is composed of the skin and ac-
+of melanin that becomes concentrated in local areas. cessory organs (hair, nails, and glands). It is a complex organ
+that performs many functions. It affords protection for the entire
+• What If there is a change in dermal blood flow?
+body, acts as a barrier, regulates temperature, detects sensa-
+Poorly oxygenated blood has a bluish tinge and
+tions (e.g., touch, pressure, temperature, and pain), synthesizes
+causes the skin to look blue. This condition is called
+vitamin D, participates in the immune response, and acts as an
+cyanosis (sye-ah-NO-sis). Embarrassment causes the
+excretory organ. The skin is composed of two layers: the epider-
+blood vessels in the skin to dilate, which increases
+mis and dermis. The dermis sits on a subcutaneous layer called
+blood flow to the skin, causing the person to blush the hypodermis. There are different colors of skin. Our natural
+or flush. What about the saying, “He was white as a skin color is genetically determined; we are light skinned, dark
+sheet”? In a person who is scared the blood vessels skinned, and many shades in between. Our skin color changes
+in the skin constrict, so that the amount of oxygen- in response to certain stimuli or underlying conditions; these
+ated blood decreases. The resulting pale or ashen changes include tanning, blushing, cyanosis, and jaundice. The
+color is called pallor. skin can also reveal certain disease states, such as allergic re-
+sponses, infections, liver disease, and stress. The skin often an-
+• What If a person has a condition that increases the
+no unces on the outside what is happening on the inside.
+amount of bilirubin in the blood? A person with
+
+Integumentary System and Body Temperature CHAPTER 7 99
+ACCESSORY STRUCTURES OF THE SKIN hair. The excessive growth of hair is called hirsutism
+(HER-soo-tiz-em), from a Greek word meaning “shag-
+The skin is the home of several accessory structures,
+gy.” One more thing: apparently hair growth responds
+including the hair, nails, and glands.
+rather well to mind-body signals. When men who
+have been at sea for an extended period of time are
+HAIR told that they are going ashore, their beards have a
+growth spurt.
+Thousands and thousands of years ago, we humans
+Forensically, hair is a gold mine. For example, ar-
+were a hairy lot. Like our furry friends, our pets, we de-
+senic is called inheritance powder because it is a long-
+pended on a thick crop of hair to keep us warm. Today,
+time favorite for dispatching wealthy family members.
+most of the hair covering our bodies is sparse and very
+Chronic arsenic poisoning is difficult to detect medi-
+fine, with the exception of the hair on our heads (and
+cally, but analysis of the hair can detect not only the
+for some, that too is sparse). The main function of our
+presence of arsenic but also the time course of the in-
+sparse body hair is to sense insects on the skin before
+gestion and/or poisoning.
+they can sting us. Some body parts are hairless. These
+include the palms of the hands, soles of the feet, lips, PARTS OF A HAIR
+nipples, and parts of the external reproductive organs.
+The chief parts of a hair are the shaft (the part above
+Some areas of hair perform other functions. For ex-
+the surface of the skin) and the root (the part that ex-
+ample, the eyelashes and eyebrows protect the eyes
+tends from the dermis to the surface) (Fig. 7.2). Each
+from dust and perspiration. The nasal hairs trap dust
+hair arises from a group of epidermal cells that pen-
+and prevent it from being inhaled into the lungs. The
+etrate the dermis. This downward extension of epider-
+hair of the scalp helps keep us warm and, of course,
+mal cells forms the hair follicle. The epidermal cells of
+plays an important cosmetic role.
+the hair follicle receive a rich supply of blood from the
+Hair growth and distribution are influenced by the
+dermal blood vessels. As these cells divide and grow,
+sex hormones estrogen and testosterone. The onset
+the older cells are pushed toward the surface of the
+of puberty is heralded by the growth of hair in the
+skin. As they move away from their source of nourish-
+axillary and pubic areas in males and females. In the
+ment, the cells die. Like other cells that compose the
+man, the surge of testosterone also produces a beard
+skin, the hair cells also become keratinized. The hair
+and hairy chest. Estrogen, of course, does not have
+that we brush, blow dry, and curl every day is a collec-
+this effect. When a woman has too much testoster-
+tion of dead, keratinized cells.
+one, excessive hair growth occurs, including facial
+Hair shaft
+Epidermis
+Arrector
+pili muscle
+Sebaceous
+gland
+Dermis
+Hair follicle
+Hair root
+Dermal blood
+vessel
+Subcutaneous
+layer
+Fig. 7.2 Hair Follicle and Parts of the Hair.
+
+100 CHAPTER 7 Integumentary System and Body Temperature
+Go Figure (Refer to Fig. 7.2) reaction is the basis of goose flesh, or goose bumps.
+Unlike Kitty’s hair, the erect human hair does not do
+1. F rom what skin layer does the hair follicle arise?
+much to trap heat.
+_____________ (hypodermis, SC layer, epidermis,
+stratum corneum)
+HAIR LOSS
+2. I n what layer are the arrector pili muscles? ___________
+(dermis, epidermis, SC layer, hypodermis) Cosmetically, hair is important. Hair loss to the point
+of baldness is distressing—enter the combover. Loss
+of hair is called alopecia (al-o-PEE-sha), which comes
+HAIR COLOR from a word meaning “fox mange.” The most com-
+Hair color is determined by the type and amount of mon type of baldness is male-pattern baldness, which
+melanin secretion. An abundance of melanin pro- is a hereditary condition characterized by a gradual
+duces dark hair, whereas less melanin produces loss of hair with aging—hair today, gone tomorrow!
+blond hair. With age, the melanocytes become less A second common cause of hair loss is related to drug
+active; the absence of melanin produces white hair. toxicity, as with chemotherapy or radiation therapy.
+Gray hair is caused by a mixture of pigmented and Anticancer drugs are so cytotoxic that they often
+nonpigmented hairs. Interestingly, red hair is caused destroy hair-producing epithelial cells. When drug
+by a modified type of melanin that contains iron. therapy is terminated, the cells regenerate and start
+And…redheads require more anesthesia before sur- to grow hair again. Interestingly, the new hair may be
+gery than people with other colored hair. And then a different color or texture from the original (predrug)
+there is Maxine. When she saw her first gray hair, she hair.
+thought she would dye!
+Re-Think
+CURLY, WAVY, OR STRAIGHT
+1. W hat is the function of the hair follicle?
+Curly, wavy, or straight—this is determined by the
+2. W hat effect do the sex hormones, such as estrogen and
+shape of the hair shaft. A round shaft produces straight
+testosterone, have on hair growth and distribution?
+hair, whereas an oval shaft produces wavy hair. Curly 3 . D ifferentiate between hirsutism and alopecia.
+and kinky strands of hair are the result of flat hair
+shafts. Hair can be curled by chemically flattening the
+hair shafts. NAILS
+STANDING ON END…AND THE GOOSE BUMP Nails are thin plates of stratified squamous epithe-
+How does Frightened Kitty get her hair to stand on lial cells that contain a very hard form of keratin
+end? Attached to the hair follicle is a group of smooth (Fig. 7.3). The nails are found on the distal ends of
+muscle cells called the arrector pili (ah-REK-tor PYE- the fingers and toes and protect these structures from
+lye) muscles (see Fig. 7.2). Contraction of these muscles injury.
+causes the hair to stand on end. When frightened, the Each nail has the following structures: a free edge,
+cat’s brain sends its panic message along the nerves a nail body (fingernail), and a nail root. The cells of
+to these muscles. The muscles then contract and pull the nail body develop and are keratinized in the nail
+the hair into an upright position. Kitty looks more fero- root. The extent of nail growth is represented by the
+cious with her fur standing on end, and the spiked look half-moon–shaped lunula (LOO-nyoo-lah), located at
+helps frighten off her attackers. Her fur also stands on the base of the nail. As the nail body grows, it slides
+end when she is cold; the raised fur traps heat and over a layer called the nail bed, a part of the epidermis.
+helps keep her warm. The pink color of nails is caused by the blood vessels
+in the underlying dermal layer beneath the nail. The
+cuticle is a fold of stratum corneum that grows onto the
+proximal portion of the nail body.
+Interesting! The fingernail on the middle finger
+grows the fastest, whereas the thumb nail grows the
+slowest.
+THE NAILS TELL STORIES
+Although humans may not benefit as much from Like the skin, the nails also tell stories. The condition
+hair as do our furry friends, we respond to fear and of the nails provides important diagnostic information
+cold in the same way. Contraction of the arrector pili regarding systemic disease. Nails should be examined
+muscles also causes our hair to stand on end. As the for shape, dorsal curvature, adhesion to the nail bed,
+hair stands, it pulls the skin up into little bumps. This color, and thickness.
+
+Integumentary System and Body Temperature CHAPTER 7 101
+Nail body Nail root
+Lunula
+Free Nailbed
+edge
+Cuticle Bone
+Nail body
+Fig. 7.3 Nail.
+THE WHAT-IFS OF NAILS
+Go Figure (Refer to Fig. 7.3)
+• What If a person suffers from chronic poorly oxy-
+Circle the structure that is not part of the nail (free edge,
+genated blood? Chronic lung and heart disease
+lunula, cuticle).
+cause clubbing, a condition indicating that the
+fingertips have received an insufficient supply of
+oxygenated blood over a period of time. Clubbing
+Sebaceous
+involves changes in the fingertips and nails; the fin-
+gland
+gertips enlarge, and the nails become thick, hard,
+shiny, and curved at the free end. With severe club-
+bing, the nail may detach from its base.
+• What If a hemorrhaging person has insufficient
+oxygen in his blood? Hemorrhaging (bleeding) di- Epidermis
+minishes the amount of oxygenated blood delivered
+to the fingers. Nail color should be pink. Poor blood
+flow and therefore poor oxygenation makes the
+Dermis
+nails appear bluish.
+• What If the nails appear brittle? Nails may also be
+described as brittle; often the brittle nails detach
+from the nail bed. This is generally caused by poor Subcu-
+taneous
+oxygenation, thyroid gland dysfunction, and nutri-
+layer
+tional anemia.
+Apocrine gland
+Re-Think
+(sweat gland)
+Eccrine gland
+1. W hat is clubbing, and why is it indicative of heart and/or (sweat gland)
+lung disease? Fig. 7.4 Skin Glands: Sebaceous Glands and Sweat Glands
+(Apocrine and Eccrine Glands).
+GLANDS
+Go Figure (Refer to Fig. 7.4)
+Two major exocrine glands are associated with the skin:
+1. W hich word describes apocrine and eccrine?
+the sebaceous glands and the sweat glands (Fig. 7.4).
+_____________ (sebaceous, mucus, sweat, keratin)
+Most sebaceous (seh-BAY-shus) glands, or oil
+2. W hich word is not descriptive of the sudoriferous
+glands, are associated with hair follicles and are found glands? ___________ (eccrine, sebum, apocrine, sweat)
+in all areas of the body that have hair. They secrete an
+oily substance called sebum that flows into the hair root The vernix caseosa protects the skin of the fetus from
+and then out onto the surface of the skin. A small num- the macerating effects of amniotic fluid.
+ber of sebaceous glands open directly onto the surface
+of the skin. The sebum lubricates and helps waterproof
+THE WHAT-IFS OF SEBACEOUS GLANDS
+the hair and skin; it also inhibits the growth of bacteria • What If a sebaceous gland becomes blocked by
+on the surface of the skin. With aging, sebum produc- sebum? Sometimes the sebaceous glands become
+tion gradually decreases. This change partly accounts blocked by accumulated sebum and other debris.
+for the dry skin and brittle hair seen in older persons. When the sebum is exposed to the air and dries
+The sebaceous glands play a unique role in the fetus. out, it turns black, forming a blackhead. When the
+Babies are born with a covering resembling cream blocked sebum becomes infected with staphylococ-
+cheese called the vernix caseosa (VERN-iks kay-see- ci, it is a pimple (pustule). The formation of black-
+OH-sah), which is secreted by the sebaceous glands. heads and pimples is common among adolescents
+
+102 CHAPTER 7 Integumentary System and Body Temperature
+because sebaceous gland activity responds to the The eccrine (EK-rin) glands are the more numerous
+hormonal changes associated with puberty. and widely distributed of the sweat glands. They are
+• What If the sebaceous glands on a newborn’s scalp located throughout the body and are especially numer-
+oversecretes sebum, producing oily scales? This is ous on the forehead, neck, back, upper lip, palms, and
+called cradle cap because it occurs during the cradle soles. Unlike apocrine glands, the eccrine glands are
+period. not associated with hair follicles.
+Do You Know...
+About Blackheads and Worms?
+There is a long history of persons squeezing (not a good
+idea!) or expressing the contents (sebum) of a blackhead or
+comedo. The expressed sebum resembles a long worm. The
+ancients concluded that the skin was being eaten into by a
+worm; hence the word comedo (from a Latin word meaning
+“t o eat into”).
+The sweat glands, or sudoriferous (soo-dor-IF-er-us)
+The sweat secreted by the eccrine glands plays an
+glands, are located in the dermis (see Fig. 7.4). As the
+important role in the regulation of body temperature.
+name implies, these glands secrete sweat; the sweat is se-
+As sweat evaporates from the skin surface, heat is lost.
+creted into a duct that opens onto the skin as a pore. An
+These are the glands that sweat profusely on hot days
+individual has approximately 3 million sweat glands.
+or during periods of strenuous exercise. Unlike the
+Two types of sweat glands are the apocrine and ec-
+apocrine glands, which become active during puberty,
+crine sweat glands. The apocrine (AP-oh-krin) glands
+the eccrine glands function throughout an entire life-
+are usually associated with hair follicles and are found
+time. Eccrine secretion is composed primarily of water
+in the axillary and genital areas. The apocrine glands re-
+and a few salts.
+spond to emotional stress and become active when the
+Modified sweat glands include the mammary
+person is frightened, upset, in pain, or sexually excited.
+glands and ceruminous (ser-ROO-mi-nus) glands. The
+Because the development of these glands is stimulated
+mammary glands are located in the breasts and secrete
+by the sex hormones, they become more active during
+milk. (The secretion of milk is discussed further in
+puberty. The sweat produced by these glands does not
+Chapter 26.) The ceruminous glands are found in the
+have a strong odor. If allowed to accumulate on the skin,
+external auditory canal of the ear. They secrete ceru-
+however, the substances in sweat are degraded by bac-
+men (seh-ROO-men), or ear wax. This yellow, sticky,
+teria into chemicals with a strong unpleasant odor. This
+waxlike secretion repels insects and traps foreign
+is called body odor and is the reason we use deodorant.
+material. Silkworms and spiders use modified sweat
+glands to secrete silk and weave intricate webs.
+Do You Know
+…
+Think all sweat looks the same? Not so! Some dyes,
+‘Bout Them “Apples”? foods, and drugs are excreted in the sweat and may
+In some species of animals, the olfactory area of the brain, color the sweat in a variety of bright hues. This condi-
+the “smell brain,” is the largest part of the brain. The sur- tion is called chromhidrosis.
+vival of these animals depends heavily on the sense of smell.
+Humans also have a smell brain that, although very small,
+Re-Think
+plays a powerful role in our emotional responses and is re-
+sponsible for some very strange responses. For example, 1. W hat are the two major exocrine glands of the skin?
+in Elizabethan times, lovers exchanged “love apples.” And 2. L ist the two types of sudoriferous (sweat) glands.
+where did they get them? They made them. A woman peeled 3 . W hat is the function of vernix caseosa?
+a common apple and placed it in her armpit until it was satu-
+rated with her perspiration (thanks to the apocrine glands).
+The sweat-soaked apple was then given to her lover to
+Sum It Up!
+sm ell—for his pleasure, at his leisure.
+The skin is the home of several accessory structures, in-
+Some of these secretions act as sex attractants. Watch cluding the hair, nails, and glands. There are two major exo-
+how eagerly Rover sniffs when a potential mate is in crine glands: the sebaceous glands and the sweat glands
+the immediate area. These sex attractants are called (also called sudoriferous glands). There are two types of
+pheromones (FAIR-o-mohns). The vaginal secretions sweat glands: the eccrine glands and the apocrine glands.
+Modified sweat glands include the ceruminous glands,
+of an ovulating female contain pheromones called
+which secrete ear wax, and the mammary glands, which
+copulines. The copulines can cause a testosterone surge
+se crete milk.
+(and an urge to merge) in the male.
+
+Integumentary System and Body Temperature CHAPTER 7 103
+BODY TEMPERATURE REGULATION OF TEMPERATURE
+Body temperature refers to the average temperature of Normal body temperature is regulated by several
+the body and is measured by a thermometer. Normal mechanisms. The thermostat of the body is located in
+body temperature is said to be 98.6°F, although it can a part of the brain called the hypothalamus (Fig. 7.5).
+range from 97° to 100°F. The temperature fluctuates The hypothalamus (hye-poh-THAHL-ah-mus) senses
+about 1.8°F in a 24-hour period, being lowest in the changes in body temperature and sends information to
+early morning and highest in the late afternoon. Body the skin (blood vessels and sweat glands) and skeletal
+temperature also differs from one part of the body to muscle.
+another. The inner parts of the body (cranial, thoracic, How does the body respond to temperature eleva-
+and abdominal cavities) reflect the higher core temper- tion? In two ways: by increasing blood flow to the skin
+ature. The more surface areas (skin and mouth) reflect and by sweating. The blood vessels of the skin dilate,
+the cooler shell temperature. For example, the rectal thereby allowing more blood to flow to the skin. This
+temperature measures core temperature and ranges activity transfers heat from the deeper tissues to the
+between 99° and 99.7°F, whereas the oral and axillary surface of the body. Note how flushed our jogger is be-
+temperatures are about 1°F lower. cause of the blood coming to the surface. Heat radiates
+Body temperature is maintained by balancing heat from the warm reddened skin blood to the surround-
+production and heat loss. The regulation of body tem- ing environment, thereby lowering body temperature.
+perature is called thermoregulation. Failure to thermo- Temperature elevation also stimulates the activity of
+regulate causes body temperature to fluctuate outside the sweat glands. As the sweat evaporates from the
+the normal range; an excessive decrease in body tem- surface of the body, heat is lost. Under extreme condi-
+perature is called hypothermia, and an excessive in- tions of heat, 12 L of sweat can be secreted in a 24-hour
+crease is called hyperthermia. Extreme changes in body period.
+temperature can be fatal.
+MORE ABOUT SWEATING AND CHILLING
+Perspiration is the polite word for sweat, the salty wa-
+HEAT PRODUCTION
+tery secretion of the sweat glands. Perspiration can be
+Heat is thermal energy and is produced by the millions of classified as sensible perspiration and insensible per-
+chemical reactions occurring in the cells of the body. The spiration. Sensible perspiration refers to the activity of
+heat is picked up and distributed throughout the body by the eccrine glands on a hot day; these glands secrete
+the blood. In the resting state, the greatest amount of heat sweat onto the surface of the skin. As the sweat evapo-
+is produced by the muscles, liver, and endocrine glands. rates, heat is lost. A significant amount of water can be
+The amount of heat produced can be affected by many lost with profuse sweating, so much so that the person
+factors, such as food consumption, the amounts and may become dehydrated, experience low blood vol-
+types of hormones secreted, and physical activity. With ume, shock, and die. Insensible perspiration, also called
+exercise, the amount of heat produced by the muscles insensible water loss, refers to the secretion of a small
+may increase enormously. The hormonal effects on heat amount of sweat; it occurs before one is aware of or
+production are dramatically illustrated by persons with senses the sweating, hence the word insensible. It also
+thyroid gland disease. The hypothyroid person generally includes the water lost through evaporation from the
+has a lower-than-normal body temperature and com- lungs (approximately 500 mL/day).
+plains of being cold. The hyperthyroid person has an ele- Chilling: Check out some of the heat-losing mecha-
+vated temperature and complains of being hot. In fact, an nisms of our animal friends. Squirrels cool off by wav-
+extreme hyperthyroid state (thyroid storm) can elevate ing their bushy tails, and elephants flap their wonder-
+body temperature into a range that is potentially lethal. ful ears. And we all know that Rover pants. On a less
+appealing note, the vulture cannot sweat and cools it-
+self by excreting waste along its own legs. The vulture?
+HEAT LOSS
+Not a house-friendly pet.
+Most heat loss (80%) occurs through the skin; heat loss is What about Mr. Ear Muffs in Fig. 7.5? How does his
+achieved through changing the amount of blood deliv- body respond as his temperature decreases? He elicits
+ered to the skin and also through the secretion of sweat. the help of his blood vessels and skeletal muscles. First,
+The remaining 20% is lost through the respiratory system the blood vessels in the skin constrict, reducing blood
+(lungs) and in the excretory products (urine and feces). flow to the skin. This response traps the blood and heat
+in the deeper tissues, preventing heat loss. Second, the
+Re-Think sweat glands become less active, also preventing heat
+loss through evaporation. Third, skeletal muscles con-
+1. D ifferentiate between core and shell temperature.
+tract vigorously and involuntarily, causing shivering
+2. W hat is the origin of body temperature?
+and an increase in the production of heat. The shivering
+3 . Define thermoregulation.
+is called shivering thermogenesis, the making of heat
+
+104 CHAPTER 7 Integumentary System and Body Temperature
+Thermostat
+HYPOTHALAMUS
+INCREASED DECREASED
+TEMPERATURE: TEMPERATURE:
+Blood vessels dilate, Blood vessels
+giving flushed constrict, heat is
+appearance. trapped in deeper
+Sweat glands tissues.
+become more Sweat glands become
+active. less active.
+Skeletal muscles
+contract, causing
+shivering.
+Fig. 7.5 Temperature Regulation.
+through vigorous skeletal muscle contraction. These
+Go Figure (Refer to Fig. 7.5)
+three activities raise body temperature. Contraction of
+1. C ircle the correct response. Physiologically, why is
+the arrector pili muscles causes goose bumps, indicat-
+the jogger flushed? (nonshivering thermogenesis,
+ing a decline in body temperature, but it also contrib-
+vasodilation, eccrine activity, insensible perspiration)
+utes minimally to heat conservation. In furry animals,
+2. T he ____________ is the part of the brain called the
+the story is a little different; contraction of the arrec-
+body’s thermostat.
+tor pili muscles pulls the fur upright, thereby trapping 3. W hose skin blood vessels are constricted? (jogger or Mr.
+warm air. So, it’s not good to shave Rover in the winter. Ear Muffs)
+NEWBORNS AND BODY TEMPERATURE
+In the delivery room, everyone is relieved when the
+baby (neonate) takes its first breath and delivers its The neonate, like a squirrel, produces heat by a pro-
+first wail. Next to establishing respiratory activity, cess called nonshivering thermogenesis. A neonate has
+however, is the infant’s need to conserve body heat. In brown adipose tissue (BAT), or brown fat, scattered
+short, the neonate produces only about two-thirds of throughout its body, especially around the neck and
+the heat produced by an adult but loses twice as much. shoulder area. Metabolism of BAT generates more heat
+Several factors contribute to the excess heat loss. than the metabolism of ordinary adipose tissue (white
+• The neonate generally has a large surface area, fat). The heat produced by BAT is picked up by the
+which increases heat loss. (The curled-up position blood and dispersed throughout the body.
+of the infant decreases surface area and conserves Although we are generally concerned about exces-
+heat.) Interestingly, considerable heat is lost from sive heat loss in the neonate, we must also be con-
+the head area; hence, the use of caps in the newborn cerned about excess heat. An infant has a very limited
+nursery. capacity to dissipate heat and is therefore at risk for
+• The neonate generally has only a thin layer of sub- hyperthermia. Do not leave the baby in a hot car!
+cutaneous fat. (Fat acts as an insulator, thus prevent-
+TRANSFER OF HEAT: TERMINOLOGY
+ing heat loss.)
+• The neonate cannot shiver. (Shivering produces Four terms are used describe heat transfer: radiation,
+heat.) conduction, convection, and evaporation.
+
+Integumentary System and Body Temperature CHAPTER 7 105
+• Radiation means that heat is lost from a warm object
+• H yperthermia. The left side of the thermometer
+(the body) to the cooler air surrounding the warm
+illustrates hyperthermia and hypothermia.
+object. Thus a person loses heat in a cold room.
+Hyperthermia refers to an elevation of body
+• Conduction is the loss of heat from a warm body to a temperature caused by the body’s inability to get
+cooler object in contact with the warm body. For ex- rid of excess heat; the body simply cannot cool
+ample, a person (warm object) becomes cold when itself. The cause of hyperthermia is most often
+sitting on a block of ice (cooler object). Clinically, environmental; the person is subjected to prolonged
+a cooling blanket may reduce a dangerously high exposure to high temperatures, as in the case of
+fever. an infant left in a car during the hot weather. Unlike
+fever, hyperthermia is not caused by resetting the
+• Convection is the loss of heat by cool air currents
+thermostat; the set point is normal. Treatment
+moving over the surface of the skin. For example, a
+measures focus on cooling the body; antipyretics
+fan moves air across the surface of the skin, thereby
+are not effective because the set point is normal.
+constantly removing the layer of heated air next to
+In the advanced state (104°F [40°C]), hyperthermia
+the body.
+is called heat stroke or sunstroke and represents
+• Evaporation is the process whereby a liquid turns thermoregulatory failure. Without immediate
+into a gas in response to temperature. However, treatment, death ensues.
+it’s not all about the temperature; humidity is a • H ypothermia. This refers to a decrease in body
+big factor. For example, during strenuous exercise, temperature that is usually caused by prolonged
+sweat on the surface of the skin evaporates and exposure to cold, as in falling through ice into cold
+cools the body. The evaporation of water is asso- water. The body’s temperature falls so low that the
+body cannot sustain its metabolism. Death usually
+ciated with the loss of a considerable amount of
+ensues when the body temperature drops below 95°F
+heat. On a hot, humid day, water cannot evaporate
+(35°C).
+from the surface of the skin; thus heat loss is di-
+minished. This is why we feel the heat so intensely C(cid:31) F(cid:31)
+on a hot, humid day.
+42 107.6
+Re-Think
+1. E xplain why shivering and vasoconstriction increase 41 105.8
+body temperature.
+2 . L ist two physiologic mechanisms that cool the body. Fever
+Hyperthermia 40 104.0 (pyrexia)
+39 102.2
+Ramp It Up!
+Temperature Terms and the Body Thermostat
+38 100.4
+Unlike your cold-blooded pet boa, you are warm blooded
+and therefore maintain your body temperature within a nar-
+37 98.6
+row range. Body temperature, however, changes under many Normothermia
+clinical conditions and gives rise to several confusing terms.
+Refer to the diagram of the thermometer as we define these 36 96.8
+terms. The temperatures on the thermometer were recorded
+orally; temperatures recorded by other techniques (rectal or 35 95.0
+axillary) are higher or lower.
+• N ormothermia. This refers to the normal range of body Hypothermia
+34 93.2
+temperature from 97° to 99.6°F (36.1° to 37.6°C).
+• F ever (pyrexia). The right side of the thermometer
+illustrates an increase in temperature, called a fever,
+or pyrexia. Pyrogenic cytokines, often secreted by
+Ranges Temperature recorded orally
+pathogens, increase the hypothalamic set point
+C = Celsius
+(thermostat). Then, vasoconstriction (to conserve
+F = Fahrenheit
+heat) and shivering (to produce heat) cause the body
+temperature to reach the elevated set point. The set
+point can be lowered, usually by resolving its cause
+(often infection) or by the use of a fever-lowering drug
+WHEN SKIN IS BURNED
+(e.g., aspirin), called an antipyretic. Then the body loses
+heat through vasodilation and sweating. Laypersons
+Large areas of skin are often lost because of burns. Burns
+often describe this late phase as one in which the “fever
+are classified according to the depth of the burn and
+has broken.” A very high, life-threatening fever is called
+the extent of the surface area burned (Fig. 7.6A). On the
+hyperpyrexia (105.8°F [41°C]).
+basis of depth, burns are classified as partial-thickness
+
+106 CHAPTER 7 Integumentary System and Body Temperature
+Partial Full
+thickness thickness
+Epidermis
+Dermis
+Subcutaneous
+layer
+A
+4.5% Head and neck 4.5%
+9%
+Arms, hands,
+18% and shoulders 18%
+18%
+4.5% 4.5% 4.5% 4.5%
+1%
+9% 9% 9% 9%
+B Anterior Posterior
+Fig. 7.6 (A) Parts of the skin damaged by burns. Partial-thickness (first- and second-degree burns) and full-thickness
+burns (third-degree burns). (B) The rule of nines.
+burns or full-thickness burns. Partial-thickness burns Go Figure (Refer to Fig. 7.6)
+are further divided into first-degree and second-degree
+1. A person is burned over his entire posterior body.
+burns. A first-degree burn is red, painful, and slightly Indicate the percent (%) of the burn surface.
+edematous (swollen). Only the epidermis is involved. ____________________________
+Sunburn is an example of a first-degree burn. A second- 2. T /F __ A person is burned over his entire posterior body;
+degree burn involves damage to both the epidermis and this means that he has sustained full-thickness burns
+dermis. With little damage to the dermis, the symptoms over half his body.
+of a second-degree burn include redness, pain, edema,
+and blister formation. With greater damage to the der- deeper underlying layers as well. Although first- and
+mis, the skin may appear red, tan, or white. second-degree burns are painful, third-degree burns
+Full-thickness burns are also called third-degree are painless because the sensory receptors have been
+burns. With a burn this severe, both the epidermis and destroyed. Third-degree burns may appear white, tan,
+dermis are destroyed, often with destruction of the brown, black, or deep cherry red.
+
+Integumentary System and Body Temperature CHAPTER 7 107
+The extent of the burn injury is initially evaluated As You Age
+according to the rule of nines (see Fig. 7.6B). In this sys-
+1. Aging causes a generalized thinning of the epidermis;
+tem, the total body surface area is divided into regions.
+the epidermal cells reproduce more slowly and are
+The assigned percentages are related to the number 9. larger and more irregular. These changes result in
+For example, the head and neck are considered to be thinner, more translucent skin.
+9% of the total body surface area. Each upper limb is 2. Melanocyte activity decreases, resulting in decreased
+9%, whereas each lower limb is 18% (9 × 2). Note the protection from ultraviolet light and greater susceptibility
+percentages assigned to each specific body region. To to sunburn and skin cancer. Selected melanocytes
+determine proper treatment, the clinician must evalu- increase melanin production, resulting in brown spots,
+or age spots, especially in areas exposed to the sun.
+ate the depth and extent of the burn injury.
+3. The dermis becomes thinner, with a decreased amount
+Severe burns are associated with eschar (ESS-kahr)
+of collagen and decreased number of elastin fibers. The
+formation. Eschar is dead, burned tissue that forms a
+result is increased fragility of the skin as well as more
+thick, inflexible, scab-like layer over the burned surface.
+wrinkles. The skin also heals more slowly.
+Eschar is a problem for two reasons. First, it may sur-
+4. There are fewer dermal blood vessels with a slower rate
+round an area, such as a leg, and act like a tourniquet, of repair. This change causes the skin to become more
+thereby cutting off the flow of blood to the extremity. susceptible to small hemorrhages and pressure ulcers.
+More seriously, if the eschar surrounds the chest, it pre- 5. Blood vessels in the subcutaneous tissue decrease, so
+vents chest expansion and breathing. Second, eschar, drugs administered subcutaneously are absorbed more
+which is initially sterile, becomes a breeding ground slowly.
+for bacteria and secretes potentially lethal toxins into 6. The amount of adipose tissue in the subcutaneous
+layer decreases, resulting in more wrinkled skin that
+the blood. These toxins adversely affect various organs
+has a lower ability to maintain body temperature. The
+in the body, such as the lungs and kidneys. Because es-
+person tends to feel cold.
+char can have such serious consequences, it is often slit
+7. Sebaceous gland activity decreases, resulting in dry,
+(escharotomy) to allow expansion of the burned area
+coarse, itchy skin.
+or removed to rid the body of a source of toxin.
+8. Sweat gland activity decreases, resulting in a
+decreased ability to regulate body temperature as well
+Re-Think as intolerance to cold.
+9. The rate of melanin production by the hair follicle
+1. E xplain why an extensive body burn causes fluid and
+decreases. As a result, hair may become lighter in
+electrolyte imbalance.
+color, turning gray or white. Hair does not replace itself
+2. E xplain how the “rule of nines” allows one to quickly
+as often and becomes thinner.
+assess the extent of a burn.
+10. Blood supply to the nail bed decreases. Consequently
+the nails can become dull, brittle, hard, and thick; their
+growth rate also slows.
+Sum It Up!
+Body temperature is caused by metabolizing cells.
+Metabolism, in turn, is affected by several factors: food Move It
+…
+consumption, hormones, exercise, and disease states.
+• The beneficial effect of exercise on the skin is primarily
+Thermoregulatory mechanisms balance heat production
+due to improved blood flow. The blood delivers oxygen
+and heat loss. These mechanisms include the coordinated
+and nutrients and also removes waste. Consequently,
+activities of the hypothalamus, blood vessels, skeletal mus-
+skin color and tone improve.
+cle (shivering), and sweat glands (sensible perspiration).
+• Because exercise lowers stress levels, exercise improves
+Conservation of heat in a newborn is a delivery room chal-
+some chronic skin conditions such as acne.
+lenge. Because the skin performs so many vital functions,
+extensive burns severely compromise many organ systems,
+often causing death. An initial assessment of burns includes
+th e extent of the burn surface and the depth of the burn.
+
+| 108 CHAPTER 7  | Integumentary System and Body Temperature |     |     |
+| -------------- | ----------------------------------------- | --- | --- |
+      Medical Terminology and Disorders  Disorders of the Integumentary System
+WORD PART
+MEANING OR
+| MEDICAL TERM | WORD PARTS | DERIVATION | DESCRIPTION |
+| ------------ | ---------- | ---------- | ----------- |
+Words
+cutaneous cutane/o- skin Cutaneous means “relating to the skin,”.
+|     | -ous | pertaining to |     |
+| --- | ---- | ------------- | --- |
+dermis derm/o- skin The dermis is the thick layer of skin under the epidermis.
+epidermis epi- upon The epidermis is the layer that lies upon the dermis and forms
+|     | derm/o- | skin | the outer layer of skin. |
+| --- | ------- | ---- | ------------------------ |
+melanocyte melan/o- black A melanocyte is an epidermal cell that secretes melanin, a
+pigment that darkens the skin.
+|     | -cyte | cell |     |
+| --- | ----- | ---- | --- |
+thermogenesis therm/o- heat Thermogenesis refers to the production of heat by physiologic
+processes; there is shivering and nonshivering thermogenesis
+|           | -genesis | production |                               |
+| --------- | -------- | ---------- | ----------------------------- |
+| xeroderma | xer/o-   | dry        | Xeroderma refers to dry skin. |
+|           | -derm/a  | skin       |                               |
+Disorders
+Cancers of the Skin
+nonmelanomas non- not Nonmelanomas are neoplasms that arise from epithelial tissue
+and most commonly occur on sun-exposed areas of the body.
+|     | -melan/o- | black |     |
+| --- | --------- | ----- | --- |
+Actinic keratosis (kerat/o- = hard), or solar keratosis, is a
+-oma tumor premalignant form of squamous cell carcinoma. Basal cell
+carcinoma (BCC) is the most common skin cancer and arises
+from epidermal basal cells that fail to mature and keratinize.
+Squamous cell carcinoma (SCC) arises from squamous
+epithelial cells.
+malignant  melan/o- melas-, for “dark” Malignant melanoma is a malignant neoplasm of the
+melanoma melanocytes. Because of its tendency to metastasize
+|     | -oma | tumor |     |
+| --- | ---- | ----- | --- |
+extensively, it is the most deadly form of skin cancer.
+Cutaneous Lesions
+macule -ule -ule means “little one” A macule is a flat lesion, also called a blemish. Macules include
+freckles, flat moles (nevi), vitiligo, port-wine stains, the rashes
+of measles and smallpox, some drug-induced reactions, and
+petechiae (pinpoint hemorrhages under the skin). A congenital
+nevus is a birthmark. There are many types of nevi, including
+hemangiomas (strawberry marks), which are vascular nevi.
+papule word meaning  An elevated lesion that looks like a solid blister. Examples of
+|     |     | “pustule” | papules include elevated moles (nevi), lichen planus, insect  |
+| --- | --- | --------- | ------------------------------------------------------------- |
+bites, some skin cancers, and verrucae (warts). A wart
+is a contagious viral infection caused by one of the many
+human papillomaviruses (HPVs). A nodule is a firm papule
+that extends into the dermis or subcutaneous tissue. Nodules
+include cysts, lipomas, and fibromas.
+pustule word meaning “swell  A small pus-containing elevation of the skin that is seen in conditions
+|     |     | up” | such as acne and impetigo. A pimple is a small pustule. |
+| --- | --- | --- | ------------------------------------------------------- |
+wheal word meaning “to  Also called a hive. Multiple hives are called urticaria, a pruritic or
+|     |     | go around,” as a  | itchy skin eruption. Urticaria is usually an allergic response to  |
+| --- | --- | ----------------- | ------------------------------------------------------------------ |
+|     |     | wheel             | medication, food, or insect venom.                                 |
+vesicle vesic/o- Means “little bladder” Also called a blister. A vesicle is a round lesion filled with serous
+fluid. Vesicular lesions characterize herpes zoster (shingles),
+-icle
+herpes simplex infection, and contact dermatitis. A larger
+vesicle is called a bulla.
+ulcer means “wound” A crater-like lesion formed by the loss of the epidermis and
+dermis. Examples include a decubitus ulcer and a chancre.
+A decubitus ulcer is a pressure-induced ulcer. A chancre,
+meaning “little ulcer,” is the lesion that develops in syphilis.
+
+|     |     |     | Integumentary System and Body Temperature  | CHAPTER 7  | 109 |
+| --- | --- | --- | ------------------------------------------ | ---------- | --- |
+      Medical Terminology and Disorders  Disorders of the Integumentary System—cont’d
+WORD PART
+MEANING OR
+| MEDICAL TERM | WORD PARTS | DERIVATION | DESCRIPTION |     |     |
+| ------------ | ---------- | ---------- | ----------- | --- | --- |
+Disorders of Pigmentation
+hypopigmentation hypo- insufficient Vitiligo and albinism are conditions of hypopigmentation, in
+which the melanocytes fail to secrete melanin.
+|     | -pigment- | pigment            |     |     |     |
+| --- | --------- | ------------------ | --- | --- | --- |
+|     | -a/tion   | state or condition |     |     |     |
+hyperpigmentation hyper- more than normal Hyperpigmentation is a condition wherein there is an abnormally
+high amount of pigment in the skin. Dermal melanocytosis
+|     | -pigment- | coloring matter |     |     |     |
+| --- | --------- | --------------- | --- | --- | --- |
+(mongolian spots) is congenital; the spots appear as a
+|     | -a/tion | state or condition |     |     |     |
+| --- | ------- | ------------------ | --- | --- | --- |
+blue-gray pigmentation in the sacral area. Melasma, related
+to hormone sensitivity, occurs during pregnancy (“mask of
+pregnancy”) and with the use of oral contraceptives. Lentigo
+refers to brown to black flat lesions, called “liver spots,” often
+seen in older persons (senile lentigo). The spots may occur in
+sun-exposed areas (solar lentigo).
+Infections of the Skin
+bacterial bacteri- baktērion, for “staff” Impetigo (from a word meaning “to attack”) is a bacterial
+infection that appears most often on the face and is caused
+|     | -al | pertaining to |     |     |     |
+| --- | --- | ------------- | --- | --- | --- |
+by beta-hemolytic streptococci or staphylococci. A furuncle
+is a deep staphylococcal infection around a hair follicle. A
+carbuncle is a group of interconnecting furuncles. Cellulitis
+is an inflammation of the subcutaneous tissue and is most
+commonly caused by S. aureus or streptococci.
+viral means “poison” The most common viral infections of the skin are herpes simplex,
+herpes zoster, and warts. Herpes comes from a word meaning
+“to creep along,” a reference to the progression of vesicular
+development. The varicella zoster virus causes chickenpox
+(see Chapter 5). Warts (verrucae) are hyperkeratotic papular
+growths caused by the human papillomavirus (HPV).
+fungal infections means “mushroom,”  Dermatophytosis, or “ringworm,” refers to infection by a group
+|     |     | in reference to the  | of fungi called dermatophytes; it occurs primarily in the skin,  |     |     |
+| --- | --- | -------------------- | ---------------------------------------------------------------- | --- | --- |
+|     |     | appearance of        | nails, and hair. Ringworm conditions are named according         |     |     |
+|     |     | fungi                | to location: tinea pedis (athlete’s foot), tinea cruris (“jock   |     |     |
+itch”), tinea capitis (scalp), tinea corporis (body), tinea
+faciei (face), tinea manuum (hands). Candidiasis, also called
+moniliasis, is a yeast infection caused by Candida albicans.
+Cutaneous candidiasis appears primarily in moist areas such
+as the thigh and beneath the breasts.
+infestations and  There are numerous possibilities with regard to insect bites and
+insect bites infestations. Infestation with lice is called pediculosis (head,
+body, and pubic). Scabies develops in response to a parasitic
+mite that seeks out skin creases or folds in which to deposit
+eggs.
+Disorders of the Hair and Nails
+onychocryptosis onych/o- nail An onychocryptosis is an ingrown nail, usually on the big toe. It
+is most often caused by improper cutting of the toenails or the
+|     | -crypt/o- | hidden, secret |     |     |     |
+| --- | --------- | -------------- | --- | --- | --- |
+wearing of tight shoes.
+|     | -osis | condition of |     |     |     |
+| --- | ----- | ------------ | --- | --- | --- |
+onychomycosis onych/o- nail Onychomycosis is called “ringworm of the nail,” a fungal
+|     | -myc/o- | fungus       | infection. |     |     |
+| --- | ------- | ------------ | ---------- | --- | --- |
+|     | -osis   | condition of |            |     |     |
+paronychia para- alongside of A paronychia is a skin infection around the nail, usually at the
+site of a hangnail or cuticle.
+|     | -onych/o- | nail         |     |     |     |
+| --- | --------- | ------------ | --- | --- | --- |
+|     | -ia       | condition of |     |     |     |
+Continued
+
+110 CHAPTER 7 Integumentary System and Body Temperature
+Medical Terminology and Disorders Disorders of the Integumentary System—cont’d
+WORD PART
+MEANING OR
+MEDICAL TERM WORD PARTS DERIVATION DESCRIPTION
+trichotillomania trich/o- hair Trichotillomania is an impulse-control disorder in which the
+person compulsively twists strands of hair until they break off.
+-tilo- means “I pull out”
+-mania abnormal impulse
+Skin Diseases
+acne Means “point,” as Acne vulgaris—common acne—is characterized by scaly red
+in the point of a skin, comedones (whiteheads and blackheads), papules,
+pimple nodules, and pustules. These changes are caused by plugging
+of the sebaceous ducts (by sebum and dead skin cells).
+dermatitis dermat/o- skin Dermatitis is a general term referring to inflammation of the
+skin. There are different forms of dermatitis, including contact
+-itis inflammation
+(poison ivy), seborrheic (greasy oil/sebum), and atopic
+dermatitis (eczema).
+psoriasis psor- means “to have the An autoimmune disease often confused with eczema. Psoriasis
+itch” affects the life cycle of skin cells, causing them to build up on
+the surface of the skin.
+Get Ready for Exams!
+Summary Outline 2. Main parts of a hair: shaft, root, and follicle
+3. Hair color: determined by the amount and type of
+The integumentary system includes the skin, accessory
+melanin
+structures, and subcutaneous tissue that covers the body,
+4. Nails are thin plates of stratified squamous epithe-
+protects the internal organs, and plays an important role in
+lial cells that contain a hard form of keratin.
+the regulation of body temperature.
+5. There are two major exocrine glands: sebaceous
+I. Structures: Organs of the Integumentary System glands and sweat glands.
+A. Skin 6. Sebaceous glands secrete sebum (lubricates hair
+1. Called the cutaneous membrane or integument. and skin). In the fetus, these glands secrete vernix
+2. Functions: acts as mechanical barrier, protects caseosa, a cheeselike substance that coats the
+internal organs, performs immune function, skin of a newborn.
+excretes waste, synthesizes vitamin D, houses 7. There are two types of sweat glands (sudorifer-
+sensory receptors, contributes to temperature ous glands): apocrine glands and eccrine glands
+regulation. (especially important in temperature regulation).
+3. Has two layers: an outer layer called the epidermis 8. Modified sweat glands: Mammary glands secrete
+and an inner layer called the dermis. milk; ceruminous glands secrete ear wax.
+4. The epidermis has five layers. The stratum ger- C. Subcutaneous tissue (hypodermis)
+minativum is the layer in which cell division takes 1. Anchors the dermis to underlying structures
+place. The outer layer is the stratum corneum and 2. Acts as an insulator; it prevents heat loss
+consists of flattened, dead, keratinized cells.
+II. Regulation of Body Temperature (Thermoregulation)
+5. The dermis is the largest part of the skin and
+A. Body temperature
+contains blood vessels, nerves, and sensory
+1. Core temperature/shell temperature
+receptors.
+2. Range and circadian rhythm
+6. The dermis lies on the subcutaneous tissue.
+3. Thermogenesis definition: shivering and nonshiv-
+7. Skin color is determined by many factors, some
+ering thermogenesis
+genetic, some physiologic, and some caused by
+B. Heat production: heat produced by metabolizing cells
+disease. Melanin causes skin to darken. Caro-
+C. Heat loss; most of the heat (80%) is lost through the
+tene causes skin to appear yellow. The amount of
+skin.
+blood in the skin affects skin color (e.g., flushing),
+D. Heat is increased/conserved (when body temperature
+as does the appearance of abnormal substances
+decreases) by
+such as bilirubin (jaundice) and a low blood oxy-
+1. Vasoconstriction.
+gen content (cyanosis).
+2. Shivering thermogenesis.
+B. Accessory structures of the skin
+3. Decreased sweating.
+1. The location of the hair determines its function.
+E. Heat is eliminated (when temperature increases) by
+Eyebrows and eyelashes protect the eyes from
+1. Vasodilation.
+dust and perspiration.
+2. Increased sweating.
+
+|                                      |     | Integumentary System and Body Temperature  |     | CHAPTER 7  | 111 |
+| ------------------------------------ | --- | ------------------------------------------ | --- | ---------- | --- |
+|   F.   Newborns and body temperature |     | Matching: Colors                           |     |            |     |
+  1.   Heat conservation Directions: Match the following words with their descrip-
+  2.   Heat production: nonshivering thermogenesis/ tions. Some words may be used more than once.
+| brown fat |     | a. jaundice | 1. ___  Tanning pigment |     |     |
+| --------- | --- | ----------- | ----------------------- | --- | --- |
+ III.  When Skin Is Burned
+b. cyanosis 2. ___  Condition in which the skin has
+  A.  Physiologic effects
+c. melanin a bluish tint because of poor
+  1.   Short-term effects (e.g., fluid and electrolyte  d. vitiligo oxygenation
+losses, shock, inability to regulate body tempera- e. pallor 3. ___  Yellowing of the skin because of
+ture, infection, eschar formation) bilirubin
+  2.   Long-term effects (e.g., scarring, loss of function,
+4. ___  Patches of white skin caused by
+and cosmetic and emotional problems)
+loss of pigmentation
+  B.  Classification of burns 5. ___  Ashen color due to decreased
+  1.   Classified according to the thickness of the burn  amount of oxygenated
+(partial, full); also first-, second-, and third-degree  blood
+burns
+
+  2.   The rule of nines is a way to evaluate burns.
+Multiple Choice
+ 1.  Which of the following is most apt to increase body
+Review Your Knowledge
+temperature?
+  a.  Dilation of the blood vessels in the skin
+Matching: Skin
+  b.  Shivering
+Directions: Match the following words with their descrip-
+  c.  Secretion of the eccrine glands
+tions. Some words may be used more than once.
+  d.  Secretion of sebum
+a. keratin 1. ___  Thin outer layer of skin  2.  The stratum germinativum
+b. dermis 2. ___  Layer that sits on the    a.  is a dermal layer.
+| c. subcutaneous  | hypodermis and supports the  |     |     |     |     |
+| ---------------- | ---------------------------- | --- | --- | --- | --- |
+  b.  gives rise to epidermal cells.
+| layer | epidermis |     |     |     |     |
+| ----- | --------- | --- | --- | --- | --- |
+  c.  contains the blood vessels that nourish the
+| d. epidermis | 3. ___  A protein that flattens,  |     | epidermis.                     |     |     |
+| ------------ | --------------------------------- | --- | ------------------------------ | --- | --- |
+|              | hardens, and makes the skin       |     | d.  is part of the hypodermis. |     |     |
+water resistant
+ 3.  The epidermis is nourished by the
+4. ___  A layer of insulation
+  a.  air in the environment that diffuses into the
+5. ___  Contains the stratum germin-
+pores.
+|     | ativum and stratum corneum |     | b.  blood vessels in the hair shafts. |     |     |
+| --- | -------------------------- | --- | ------------------------------------- | --- | --- |
+6. ___  Contains blood vessels
+  c.  blood vessels in the underlying dermis.
+that nourish the stratum
+  d.  oxygen and glucose in the sebum.
+germinativum
+ 4.  Which of the following is true of the stratum
+
+corneum?
+Matching: Glands
+  a.  Continuously produces epidermal cells
+Directions: Match the following words with their descrip-   b.  Secretes keratin for making the skin water
+| tions. Some words may be used more than once. |     |     | resistant |     |     |
+| --------------------------------------------- | --- | --- | --------- | --- | --- |
+  c.  Is the dead layer that is sloughed off
+| a. eccrine | 1. ___  Oil glands |     |     |     |     |
+| ---------- | ------------------ | --- | --- | --- | --- |
+b. sebaceous 2. ___  Glands that secrete vernix    d.  Continuously secretes bilirubin
+c. ceruminous caseosa  5.  Which of the following best describes the function of
+the stratum germinativum?
+| d. mammary | 3. ___  Glands that play a crucial role in  |                                      |                             |     |     |
+| ---------- | ------------------------------------------- | ------------------------------------ | --------------------------- | --- | --- |
+|            | body temperature regulation                 |                                      | a.  Desquamation            |     |     |
+|            | 4. ___  Modified sweat glands that          |                                      | b.  Mitosis                 |     |     |
+|            | secrete ear wax                             |                                      | c.  Keratinization          |     |     |
+|            | 5. ___  Modified sweat glands that          |                                      | d.  Shivering thermogenesis |     |     |
+|            | secrete milk                                |  6.  Secretion of the eccrine glands |                             |     |     |
+|            | 6. ___  Classified as sudoriferous          |                                      | a.  “oils” the hair shafts. |     |     |
+7. ___  Most related to blackheads,    b.  produces vernix caseosa that protects the skin of
+|     | pimples, and cradle cap |     | the fetus. |     |     |
+| --- | ----------------------- | --- | ---------- | --- | --- |
+8. ___ S ecretes sweat during intense
+  c.  lowers body temperature.
+|     | exercise |                           | d.  tans the skin. |     |     |
+| --- | -------- | ------------------------- | ------------------ | --- | --- |
+|     |          |  7.  Cyanosis occurs when |                    |     |     |
+  a.  the blood in the cutaneous blood vessels is
+unoxygenated.
+  b.  bilirubin deposits in the skin and mucous membrane.
+  c.  cutaneous blood vessels dilate.
+  d.  sebum is exposed to air and changes color.
+
+112 CHAPTER 7 Integumentary System and Body Temperature
+8. Which of the following pertains to the terms apocrine, 12. Which of the following is least descriptive of the seba-
+sudoriferous, eccrine, and sebaceous? ceous glands?
+a. Sweat glands a. Sebum
+b. Vernix caseosa b. Vernix caseosa
+c. Sebum c. Oily
+d. Exocrine glands d. Sweat
+9. Shivering thermogenesis 13. With which skin function are the words core and shell
+a. is due to metabolism of brown fat. most concerned?
+b. increases body temperature. a. Bilirubin metabolism
+c. is primarily due to the contraction of the arrector pili b. Vitamin D synthesis
+muscles. c. Thermoregulation
+d. is triggered by hypoxemia and cyanosis. d. Skin color determination
+10. Blushing, flushing, and pallor are due to 14. Which of the following word roots refers to nail?
+a. deposition of melanin in the dermal cells. a. Trich/o-, as in trichotillomania
+b. changes in blood flow through the dermal blood b. Onych/o, as in paronychia
+vessels. c. Melan/o, as in melanoma
+c. the rate of keratinization of the epidermal cells. d. Dermat/o, as in dermatologist
+d. staining of tissues by bilirubin. 15. Pyrexia, antipyretic, and pyrogenic all refer to
+11. Which of the following is true of the group of smooth a. pathogens.
+muscle cells attached to a hair follicle? b. fever.
+a. Called the arrector pili muscles c. infection.
+b. Cause “goose bumps” when contracted d. antibiotics.
+c. Contract in response to fear and exposure to cold
+temperatures
+d. All of the above
+
+8
+Skeletal System
+http://evolve.elsevier.com/Herlihy
+Objectives
+1. List the functions of the skeletal system and the 5. List the bones of the axial skeleton and label important
+classification of bones by size and shape. landmarks on selected bones.
+2. Differentiate between the composition and location of 6. List the bones of the appendicular skeleton and label
+compact and spongy bone. important landmarks on selected bones.
+3. Describe the structure of a long bone. 7. List the main types and functions of joints and describe the
+4. Describe the roles of osteoblasts and osteoclasts and types of joint movement.
+explain how bones grow in length and width.
+Key Terms
+abduction (p. 141) extension (p. 141) pelvic girdle (p. 120)
+adduction (p. 141) flexion (p. 141) periosteum (p. 116)
+appendicular skeleton (p. 120) fontanels (p. 124) pronation (p. 132)
+articulation (p. 117) haversian system (p. 115) spongy bone (p. 115)
+axial skeleton (p. 120) ossification (p. 117) supination (p. 132)
+circumduction (p. 141) osteoblasts (p. 115) suture (p. 124)
+compact bone (p. 115) osteoclasts (p. 118) synovial joints (p. 137)
+diaphysis (p. 116) osteocytes (p. 115) thoracic cage (p. 128)
+epiphyseal disc (p. 118) osteon (p. 115) vertebral column (p. 120)
+e pi physis (p. 116) pectoral girdle (p. 130)
+The skeletal system consists of the bones, joints, and
+caused by osteoporosis are the hips, wrists, and vertebrae.
+cartilage and ligaments associated with the joints. Bone Osteoporosis may also affect the vertebral column. As the
+tissue is living and metabolically active, but because it vertebrae collapse, nerves may be pinched, causing severe
+contains so much nonliving material, such as calcium pain. The collapsed vertebrae also cause a shortening of the
+and phosphorus, it appears dead or dried up. In fact, vertebral column (growing down) and a change in its curva-
+the word skeleton comes from a Greek word meaning ture. This change in shape, in turn, may impair the function-
+“dried-up body.” ing of organs such as the lungs.
+Is estrogen deprivation the only culprit in our bone-
+The skeletal system, however, is anything but
+crumbling experience? No! We have long known that
+dead. It contains 206 bones that are very much alive
+osteoporosis is associated with other factors: sedentary
+and perform a number of important functions. This is
+lifestyle, the frequent ingestion of sodas with their high
+how busy bone is: the average 70-year-old person has
+phosphate content, the long-term use of steroids, and the
+replaced seven complete skeletons during his or her
+ingestion of thyroid hormone–containing weight-reduction
+lifetime! p ills.
+Do You Know
+…
+ARRANGEMENT AND FUNCTIONS OF
+About Growing Down With Osteoporosis?
+BONES
+Osteoporosis is a common bone disorder, especially in
+postmenopausal women and in response to a decline in The bones of the skeletal system are arranged to pro-
+estrogen. It is characterized by a decline in bone-making vide a framework for our bodies (Fig. 8.1), giving us
+activity and the loss of bone tissue. As tissue is lost, the our basic shape. The skeletal system does this and
+bones weaken and break. Common sites of fracture
+more.
+113
+
+114 CHAPTER 8 Skeletal System
+Cranium
+Facial bones
+Clavicle
+Mandible
+Scapula
+Sternum
+Humerus Costal
+cartilage
+Vertebral
+column
+Ribs
+Ulna
+Radius
+Carpals Sacrum
+Metacarpals Coxal
+(hip)
+Phalanges bone
+Femur
+Patella
+Axial skeleton
+Appendicular
+Tibia skeleton
+Fibula
+Tarsals
+Metatarsals
+Phalanges
+Calcaneus
+Fig. 8.1 Skeleton. Axial skeleton (pink) and appendicular skeleton (tan).
+
+Skeletal System CHAPTER 8 115
+Go Figure (Refer to Fig. 8.1) containing calcium, other minerals, and protein
+fibers. The osteoblasts mature into osteocytes that
+1. L ist the two divisions of the skeletal system. (_________,
+sit within the hard bone matrix and maintain the
+_____________)
+bone.
+2. T /F__The appendicular skeleton contains the bones of
+the upper and lower limbs.
+3. C ircle the bone that is not part of the appendicular COMPACT AND SPONGY BONE
+skeleton. (femur, humerus, sternum, tibia)
+There are two types of bone: compact and spongy
+(Fig. 8.3). Compact bone refers to dense, hard bone
+THE SKELETAL SYSTEM: WHAT IT DOES tissue found primarily in the shafts of long bones and
+on the outer surfaces of other bones. Spongy bone is
+In addition to shaping us up, the skeletal system per-
+located primarily at the ends of long bones and in the
+forms other functions.
+center of other bones. Spongy or cancellous bone is less
+• The bones of the lower extremities support the
+dense than compact bone.
+weight of the body.
+Compact and spongy bone tissues look differ-
+• The bones support and protect the soft body organs.
+ent under the microscope. Compact bone is tightly
+• With the assistance of muscles, the skeletal system
+packed, so its density can provide a great deal of
+enables the body to move about.
+strength (see Fig. 8.3B). The microscopic unit of
+• Bones store a number of minerals, the most impor-
+compact bone is the osteon, or haversian (hah-VER-
+tant being calcium and phosphorus.
+shun) system. Each haversian system consists of
+• Bones participate in the regulation of plasma
+layers of mature osteocytes arranged in concentric
+calcium.
+circles around large blood vessels. The area sur-
+• Red bone marrow produces blood cells.
+rounding the osteocytes is filled with protein fibers,
+calcium, and other minerals. The protein fibers pro-
+MANY SIZES AND SHAPES OF BONES vide elasticity, and the minerals make bone tissue
+hard and strong. Each haversian system looks like
+Bones come in many sizes and shapes, from the pea-
+a long cylinder.
+sized bones in the wrist to the 24-in femur in the
+Compact bone consists of many haversian sys-
+thigh. The size and shape of a bone reflect its function
+tems running parallel to each other. Communicating
+(Fig. 8.2). The long, strong femur in the thigh, for
+blood vessels run laterally and connect the haver-
+example, supports a great deal of weight and can with-
+sian systems with each other and with the perios-
+stand considerable force. Some of the skull bones, on
+teal lining that surrounds the bone. The network of
+the other hand, are thin, flat, and curved. Their func-
+blood vessels ensures that the bone tissue receives
+tion is to encase and protect the brain.
+an adequate supply of oxygen and nutrient-rich
+Bones are classified as follows:
+blood.
+• Long bones. Long bones are longer than they are
+Spongy, or cancellous, bone has a much different
+wide. They are found in the arms, forearms, palms,
+structure than compact bone (see Fig. 8.3B). Unlike
+fingers, thighs, legs, and instep. Although it is
+compact bone, spongy bone does not contain haversian
+obvious that the femur (thigh) and the humerus
+systems. In spongy bone, the bone tissue is arranged in
+(arm) are long bones, even small bones such as the
+plates called trabeculae (trah-BEK-yoo-lay). These bony
+metacarpals and finger bones are considered long
+plates are separated by holes that give spongy bone a
+bones.
+punched-out Swiss cheese appearance. The holes are
+• Short bones. Short bones are shaped like cubes and
+important for two reasons: (1) they decrease the weight
+are found primarily in the wrists and ankles.
+of the bone, and (2) they contain red bone marrow. The
+• Flat bones. Flat bones are thin, flat, and curved. They
+red bone marrow richly supplies the spongy bone with
+form the ribs, breastbone, cranium, and bones of the
+blood and also produces blood cells for use through-
+shoulder girdle.
+out the body. Spongy bone is located in the short, flat,
+• Irregular bones. Irregular bones are differently
+and irregular bones. It is also found in the ends of long
+shaped and are not classified as long, short, or flat.
+bones.
+They include the hip bones, vertebrae, and various
+bones in the skull.
+BONE TISSUE AND BONE FORMATION Re-Think
+Bone is also called osseous tissue, and the process 1. W hat are the four shapes/sizes of bone?
+of bone formation is called ossification. Bone cells, 2. W hat are two types of bone tissue?
+called osteoblasts, secrete an intercellular matrix 3 . D escribe the structure of an osteon, or haversian system.
+
+116 CHAPTER 8 Skeletal System
+Irregular bone
+Flat bone
+Short bones
+Long bone
+Fig. 8.2 Types of Bones: Long, Short, Flat, and Irregular.
+of cartilage is the epiphyseal disc, or growth plate. It
+Go Figure (Refer to Fig. 8.2)
+is here that longitudinal bone growth occurs.
+1. T /F__ Most long bones are located in the upper and • Medullary cavity. The medullary cavity is the hol-
+lower limbs. low center of the diaphysis. In infancy, the cavity
+2. W hat type of bone forms vertebrae in the spinal column?
+is filled with red bone marrow for blood cell pro-
+_________ (long, short, irregular, flat)
+duction. In the adult, the medullary cavity is filled
+with yellow bone marrow and functions as a stor-
+age site for fat. The inside of the medullary cavity
+PARTS OF LONG BONES
+is lined with connective tissue called the endosteum
+Long bones are made up of the following parts (see (en-DOS-tee-um).
+Fig. 8.3A): • Periosteum. The periosteum is a tough, fibrous con-
+• Diaphysis. The diaphysis (dye-AF-i-sis) is the long nective tissue membrane that covers the outside of
+shaft of the bone. It is composed primarily of compact the diaphysis. It is anchored firmly to the outside
+bone and therefore provides considerable strength. of the bone on all surfaces except the articular car-
+• Epiphysis. The enlarged ends of the long bone are the tilage. The periosteum protects the bone, serves as
+epiphyses. The epiphysis (eh-PIF-i-sis) of a bone ar- a point of attachment for muscle, and contains the
+ticulates, or meets, with a second bone at a joint. Each blood vessels that nourish the underlying bone.
+epiphysis consists of a thin layer of compact bone Because the periosteum carries the blood supply to
+overlying spongy bone. The epiphyses are covered the underlying bone, injury to this structure has se-
+by cartilage. rious consequences for the health of the bone. As in
+• Epiphyseal disc. A growing long bone contains a band the case of any other organ, the loss of blood supply
+of hyaline cartilage located near its ends. This band can cause its death.
+
+Skeletal System CHAPTER 8 117
+Humerus
+Epiphyseal
+disc Articular
+cartilage
+Spongy
+Epiphysis
+bone
+Red marrow
+cavities
+Close-up view
+Compact of compact and
+bone spongy bone Haversian
+system
+(osteon)
+Periosteum
+Endosteum
+Yellow bone marrow
+(in medullary cavity)
+Diaphysis
+Canaliculi
+Periosteum
+Haversian
+Blood canal
+vessel
+Blood vessels
+Compact
+Epiphysis bone
+Spongy
+bone
+Articular
+A cartilage
+B Osteocyte
+Fig. 8.3 Bone. (A) Anatomy of a long bone. (B) Compact and spongy bone.
+Go Figure (Refer to Fig. 8.3) OSSIFICATION
+1. T he ends of a long bone are referred to as the _________. The process of bone formation is called ossification. It
+(diaphysis, periosteum, bone marrow, epiphyses) begins in the late embryonic period with the formation
+2. T he osteon or Haversian system forms
+of fibrous connective tissue and hyaline cartilage that is
+_____________________. (bone marrow, epiphyseal
+shaped like a miniskeleton (Fig. 8.4). As the fetus matures,
+discs, compact bone, spongy bone)
+the cartilage and connective tissue change into bone, a
+3. T he outer connective tissue lining of the diaphysis
+process called ossification. This occurs in two ways: intra-
+is called the _______________. (medullary cavity,
+membranous ossification and endochondral ossification.
+periosteum, bone marrow, epiphyseal discs)
+OSSIFICATION OF FLAT BONES
+• Articular cartilage. The articular cartilage is found on In the fetus, the flat bones (those in the skull) consist
+the outer surface of the epiphysis. It forms a smooth, of thin connective tissue membranes. Ossification be-
+shiny surface that decreases friction within a joint. gins when osteoblasts, or bone-forming cells, migrate
+Because a joint is also called an articulation, this car- to the region of the flat bones. The osteoblasts secrete
+tilage is called articular cartilage. calcium and other minerals into the spaces between
+
+118 CHAPTER 8 Skeletal System
+Ossification of and (2) bones grow thicker and become wider to sup-
+connective tissue port the weight of the adult body.
+membrane
+GROWING TALLER
+Longitudinal bone growth occurs at the epiphyseal
+disc (also called the growth plate; see Fig. 8.3A). The car-
+tilage adjacent to the epiphysis continues to multiply
+and grow toward the diaphysis. The cartilage next to
+the diaphysis, however, is invaded by osteoblasts and
+becomes ossified. As long as the cartilage continues to
+form within the epiphyseal disc, the bone continues to
+lengthen. Longitudinal bone growth ceases when the
+epiphyseal disc becomes ossified and fused.
+The epiphyseal disc is sensitive to the effects of cer-
+tain hormones, especially growth hormone and the
+sex hormones. Growth hormone stimulates growth
+at the epiphyseal disc, making the child taller. The
+sex hormones estrogen and testosterone, however,
+Ossification cause the epiphyseal disc to fuse, thereby inhibiting
+of cartilage
+further longitudinal growth. Because the epiphyseal
+disc is especially sensitive to the effects of the female
+hormone estrogen, girls tend to be shorter than boys.
+After puberty, which is associated with increasing
+plasma levels of sex hormones, longitudinal growth
+gradually ceases.
+Fig. 8.4 Ossification: Intramembranous, Endochondral The What-Ifs of the Epiphyseal Disc
+• What If there is an oversecretion or undersecretion
+Go Figure (Refer to Fig. 8.4) of growth hormone? Gigantism occurs with hyper-
+1. T /F__ Intramembranous ossification is illustrated by the secretion, whereas a type of dwarfism develops
+red area in the skull. with hyposecretion.
+2. T /F__ Endochondral ossification, represented by the • What If the epiphyseal disc is injured? Longitudinal
+blue, refers to the replacement of the cartilage by bone. bone growth is impaired in the injured bone. A child
+who injures the epiphyseal disc in a leg bone, for
+the membranes, thereby forming bone. This type of os- example, may end up with that leg considerably
+sification involves the replacement of thin membrane shorter than the noninjured leg.
+with bone; it is called intramembranous ossification. • What If a young athlete uses anabolic steroids to
+enhance performance? Steroids induce premature
+OSSIFICATION OF LONG BONES
+fusion of the epiphyseal plate, thereby permanently
+Most bones are formed by endochondral ossification stunting growth.
+as bone tissue replaces cartilage. The fetal skeleton is
+composed largely of cartilage, and the layout of the GROWING THICKER AND WIDER
+cartilage in the fetus provides a model for bone for- During and long after longitudinal bone growth has
+mation (see Fig. 8.4). As the fetus matures, osteoblasts ceased, bones continue to increase in thickness and width.
+invade the cartilage and gradually replace the carti- The bones are continuously being reshaped in a process
+lage with bone. This process continues in each long called bone remodeling. This is accomplished by the
+bone until all but the articular cartilage and epiphy- combined actions of osteoblasts, which are bone-forming
+seal disc have been replaced by bone. By the time the cells, and osteoclasts, which are bone-destroying cells.
+fetus has fully matured, most cartilage of the body Osteoblasts on the undersurface of the periosteum con-
+has been replaced by bone. Only isolated pieces of tinuously deposit bone on the external bone surface.
+cartilage remain, such as the bridge of the nose, parts Fig. 8.5 depicts osteoblastic activity, which is like the
+of the ribs, and the epiphyses of long bones. work of a bricklayer. Whereas osteoblasts build new
+bone, osteoclasts, found on the inner bone surface sur-
+rounding the medullary cavity, break down bone tis-
+GROWING BONES
+sue, thereby hollowing out the interior of the bone.
+Maturation from infancy to adulthood is characterized Osteoclastic activity is like sculpting. The bricklayer
+by two types of bone growth: (1) bones grow longitu- and the sculptor gradually create a large, wide, hollow
+dinally and thus determine the height of an individual bone that is strong but not too heavy.
+
+Skeletal System CHAPTER 8 119
+Table 8.1 Bone Markings
+BONE MARKINGS DEFINITION
+Projections or Processes
+Condyle A large rounded knob that usually
+articulates with another bone
+Epicondyle An enlargement near or above a
+condyle
+Head An enlarged and rounded end of a
+bone
+Facet A small flattened surface
+Crest A ridge on a bone
+Fig. 8.5 Bone Remodeling: Osteoblasts and Osteoclasts.
+Process A prominent projection on a bone
+Spine A sharp projection
+Go Figure (Refer to Fig. 8.5)
+Tubercle (tuberosity) A knoblike projection
+1. I dentify the inside sculpting person as either “osteoclast
+Trochanter A large tubercle (tuberosity) found
+guy” or “osteoblast guy.” (___________)
+only on the femur
+2. I dentify the outside bricklayer as either “osteoclast guy”
+or “osteoblast guy.” (________) Depressions or Openings
+Foramen An opening through a bone;
+The process whereby osteoclasts break down bone ma- usually serves as a passageway
+trix is called bone resorption (not to be confused with reab- for nerves, blood vessels, and
+sorption). Bone resorption not only widens bone but also ligaments
+moves calcium from the bone to the blood. In this way, Fossa A depression or groove
+bone resorption also plays a crucial role in the regulation Meatus A tunnel or tubelike passageway
+of blood calcium levels. The influence of parathyroid hor-
+Sinus A cavity or hollow space
+mone on bone resorption is described in Chapter 14.
+Factors that stimulate bone growth are weight bearing
+and exercise; both activities keep calcium in the bone and fits into a round depression in a shoulder bone, form-
+increase bone mass. The bones of bedridden or sedentary ing the shoulder joint. The specific bone markings are
+people tend to lose mass and are more easily broken when summarized in Table 8.1. Note the various markings
+stressed. The weightlessness experienced by astronauts on individual bones as they are described.
+similarly causes a loss of bone mass and leads to easily
+BROKEN BONES
+broken bones. The beneficial effects of exercise and weight
+bearing on bone strength cannot be overemphasized. Occasionally a bone breaks, or fractures (Fig. 8.6). A
+simple fracture is a break in which the overlying skin
+Re-Think remains intact; local tissue damage is minimal. A com-
+pound fracture is a broken bone that has also pierced
+1. R eferencing the long bone, describe the function of the
+the skin. The ends of the broken bone usually cause
+diaphysis, epiphysis, epiphyseal disc, and the red bone
+extensive tissue damage. The risk of infection is a con-
+marrow.
+cern with a compound fracture.
+2. D ifferentiate between the functions of osteoblasts and
+osteoclasts. A greenstick fracture is an incomplete break in the
+3. D escribe how a bone grows in length and in width. bone and usually occurs in children. Why is it called a
+4. Describe how bone resorption is involved in bone greenstick fracture? If you were to bend a branch of a
+growth. young tree, the branch would not snap and break apart
+completely. It would, instead, bend and perhaps break
+incompletely. The branch responds this way because it
+BUMPS AND GROOVES
+is young and pliable, much like a child’s bone.
+The surface of bone appears irregular and bumpy as There are many other types of bone fractures. For
+a result of numerous ridges, projections, depressions, example, there is a spiral fracture, in which the line of
+and grooves called bone surface markings. The pro- the fracture extends in a spiral direction along the di-
+jecting bone markings (the markings that stick out) aphysis. It is caused when the bone is subjected to a
+serve as points of attachment for muscles, tendons, twisting type of force. There is a comminuted fracture,
+and ligaments. The grooves and depressions form the in which there are more than two bone fragments; the
+routes traveled by blood vessels and nerves as they small fragments seem to be floating. An impacted frac-
+pass over and through the bones and joints. The pro- ture is a comminuted fracture in which the two parts
+jections and depressions also help form joints. The of the broken bone have been jammed into each other.
+rounded head of the proximal arm bone, for example, The list of fractures goes on!
+
+120 CHAPTER 8 Skeletal System
+Closed (simple) Open (compound)
+Incomplete (greenstick)
+Fig. 8.6 Common Types of Fractures: Simple, Compound, Incomplete (Greenstick).
+Go Figure (Refer to Fig. 8.6) middle ear bones, hyoid bone, vertebral column, and
+bony thorax. The appendicular skeleton includes the
+1. W hich type of fracture is most apt to be associated
+bones of the pelvic girdle, the upper extremities (arms,
+with the development of an infection? _____ (simple,
+forearms, wrist, palms, and fingers), and lower limbs
+compound, greenstick)
+(thighs, legs, ankles, instep, and toes). The names of
+2. W hat type of fracture most often occurs in a young
+child? ________ (simple, compound, greenstick) the 206 bones of the skeleton are listed in Table 8.2.
+AXIAL SKELETON
+Sum It Up!
+SKULL
+The skeletal system consists of bones, joints, cartilage, and liga-
+The skull sits on top of the vertebral column and is
+ments found in and around the joints. Bones are composed of
+formed by two groups of bones: the cranium and the
+two types of osseous tissue: compact (dense bone) and spongy
+facial bones (Fig. 8.7).
+(cancellous bone). Bones come in a variety of sizes and shapes
+and are classified as long, short, flat, or irregular. We begin life
+in the womb as a skeleton-like frame made of cartilage and Cranium
+thin connective tissue membrane. With maturation, the process The cranium is a bony structure that encases and
+of ossification changes most of the cartilage and certain con-
+protects the brain. The cranium is composed of eight
+nective tissue membranes into bone. As a person matures, the
+bones, most of which are curved.
+sk eleton enlarges as the bones grow longer, wider, and thicker.
+• Frontal bone. The frontal bone forms the forehead
+and the upper part of the bony structure surround-
+DIVISIONS OF THE SKELETAL SYSTEM ing the eyes. It extends back toward the coronal
+suture.
+The skeleton is divided into the axial skeleton and ap- • Parietal bones. The two parietal (pah-RYE-i-tal) bones
+pendicular skeletons (see Fig. 8.1). The axial (AK-see- form the upper sides of the head and the roof of the
+all) skeleton includes the bones of the cranium, face, cranial cavity (top of the head).
+
+|     |     |     | Skeletal System  | CHAPTER 8 | 121 |
+| --- | --- | --- | ---------------- | --------- | --- |
+Table 8.2      Bones of the Adult Skeleton
+| BONES               | NUMBER | BONES              |     | NUMBER |     |
+| ------------------- | ------ | ------------------ | --- | ------ | --- |
+| Axial Skeleton (80) |        | Thoracic Cage (25) |     |        |     |
+| Skull (28)          |        | True ribs          |     | 14     |     |
+|                     |        | False ribs         |     | 10     |     |
+Cranium (8)
+| Frontal  | 1   | Sternum                     |     | 1   |     |
+| -------- | --- | --------------------------- | --- | --- | --- |
+| Parietal | 2   | Appendicular Skeleton (126) |     |     |     |
+| Temporal | 2   |                             |     |     |     |
+Pectoral Girdle (4)
+| Occipital | 1   | Scapula          |     | 2   |     |
+| --------- | --- | ---------------- | --- | --- | --- |
+| Sphenoid  | 1   | Clavicle         |     | 2   |     |
+| Ethmoid   | 1   | Upper Limbs (60) |     |     |     |
+|           |     | Humerus          |     | 2   |     |
+Facial (14)
+| Maxilla         | 2   | Radius            |     | 2   |     |
+| --------------- | --- | ----------------- | --- | --- | --- |
+|                 |     | Ulna              |     | 2   |     |
+| Zygomatic       | 2   |                   |     |     |     |
+|                 |     | Carpals           |     | 16  |     |
+| Palatine        | 2   |                   |     |     |     |
+| Mandible        | 1   | Metacarpals       |     | 10  |     |
+| Lacrimal        | 2   | Phalanges         |     | 28  |     |
+| Nasal           | 2   | Pelvic Girdle (2) |     |     |     |
+|                 |     | Coxal bones       |     | 2   |     |
+| Inferior concha | 2   |                   |     |     |     |
+Lower Limbs (60)
+| Vomer | 1   |       |     |     |     |
+| ----- | --- | ----- | --- | --- | --- |
+|       |     | Femur |     | 2   |     |
+Middle Ear Bones (6)
+|         |     | Tibia   |     | 2   |     |
+| ------- | --- | ------- | --- | --- | --- |
+| Malleus | 2   |         |     |     |     |
+|         |     | Fibula  |     | 2   |     |
+| Incus   | 2   |         |     |     |     |
+|         |     | Patella |     | 2   |     |
+| Stapes  | 2   |         |     |     |     |
+|         |     | Tarsals |     | 14  |     |
+Hyoid Bone (1)
+|     |     | Metatarsals |     | 10  |     |
+| --- | --- | ----------- | --- | --- | --- |
+Vertebral Column (26)
+| Cervical vertebrae | 7   | Phalanges             |     | 28  |     |
+| ------------------ | --- | --------------------- | --- | --- | --- |
+| Thoracic vertebrae | 12  | Total Number of Bones |     | 206 |     |
+| Lumbar vertebrae   | 5   |                       |     |     |     |
+| Sacrum             | 1   |                       |     |     |     |
+| Coccyx             | 1   |                       |     |     |     |
+	•	  Temporal bones. The two temporal bones are on the  Here’s an interesting note about the temporal bone.
+lower walls of the head, close to the ears (commonly  Tempor is a Latin word meaning “time.” As men age,
+called the temples). The temporal bone also houses  over time, they usually develop their first gray hairs
+most of the structures of the ear. Several important  over the temple area. So, the name of the temporal
+bone markings are found on the temporal bones.  bone is a reference to aging.
+They include the following: 	•	  Occipital bone (see Fig. 8.7C). The occipital (ok-SIP-
+	 •	  External auditory meatus (mee-AY-tus), an open- it-al) bone is located at the back and base of the cra-
+ing for the ear nium; it has a number of bone markings. You can
+	 •	  Zygomatic (zye-goh-MAT-ik) process, which ar- feel the occipital protuberance as a large bump at
+ticulates with the cheekbone (not to be confused  the lower back of the head; it is the site of attach-
+with the zygomatic bones) ment of the nuchal ligament, which attaches the
+	 •	  Styloid process, a sharp projection used as a point  skull to the vertebral column. A large hole in the oc-
+of attachment for several muscles associated with  cipital bone, called the foramen magnum, allows the
+the tongue and larynx brain stem to extend downward and become the
+	 •	  Mastoid process, which forms a point of attach- spinal cord. On either side of the foramen magnum
+ment for some of the muscles of the neck. The  are bony projections, called occipital condyles (KON-
+mastoid process, felt as a bump just behind the  dylz), that sit on the first vertebra of the vertebral
+earlobe, contains tiny air-filled sacs that com- column. Unfortunately, the foramen magnum can
+municate with the middle ear. Hence, the rela- act as a death trap, because it provides the only es-
+tionship between middle ear infections, inflam- cape hatch in the cranium in the event that the brain
+mation of the mastoid process (mastoiditis), and  swells. The increased intracranial pressure created
+infection of the brain. by the swollen brain pushes the brain through the
+
+122 CHAPTER 8 Skeletal System
+Coronal suture
+Frontal bone
+Parietal bone
+Sphenoid bone
+Squamous suture
+Nasal bone
+Lacrimal bone
+Ethmoid bone Temporal bone
+Zygomatic
+Lambdoidal suture
+bone
+Maxilla Occipital bone
+External auditory
+meatus
+Temporomandibular
+joint
+Mastoid process
+Styloid process
+A Mandible Zygomatic process
+Frontal
+bone Occipital
+bone
+Sphenoid Foramen
+bone magnum
+Parietal
+bone
+Nasal Occipital
+bone condyle
+Lacrimal Sphenoid
+bone bone
+Vomer
+Vomer
+Palatine bone
+Palatine process
+of maxilla
+B C
+foramen magnum and into the spinal region. The and sides of the cranium (see Fig. 8.7C). The sphe-
+downward displacement or herniation of the brain noid bone also helps form the orbits surrounding
+exerts pressure on the brain stem, causing respira- the eyes. Several foramina within the bone allow
+tory arrest and death. for the passage of nerves and blood vessels that are
+• Sphenoid bone. The sphenoid (SFEE-noyd) bone is a concerned with vision. As the name implies, the
+butterfly-shaped bone that forms part of the floor sphenoidal sinus has its home in this bone. In the
+etalap
+draH
+Parietal
+bone
+Temporal
+bone
+Zygomatic
+bone
+Mastoid
+process
+Maxilla
+Mandible
+Fig. 8.7 Bones of the Skull. (A) Side view. (B) Frontal view. (C) Base of the skull.
+
+Skeletal System CHAPTER 8 123
+Go Figure (Refer to Fig. 8.7) temporomandibular joint (TMJ). The TMJ can
+be felt as the depression immediately in front
+1. T he foramen magnum, best viewed in 8.7C, is a large
+of the ear. Tension or stress often causes pain in
+circular opening in the ___________ bone. (frontal,
+the TMJ. This condition is often associated with
+ethmoid, temporal, occipital)
+tooth grinding (bruxism) during sleep. Bony
+2. T he coronal suture joins the ___________ and
+processes on the mandible serve as points of at-
+_______________ bones. (frontal, zygomatic, occipital,
+parietal) tachment for chewing muscles.
+3 . T /F__ Most of the facial bones are flat bones. • Maxilla. Two maxillary bones fuse to form the upper
+jaw. The maxilla (mak-SIH-lah) carries the upper
+teeth. An extension of the maxilla, the palatine pro-
+midline of the sphenoid bone is a depression called
+cess, forms the anterior portion of the hard palate
+the sella turcica (Turk’s saddle); it forms the seat for
+(roof) of the mouth (see Fig. 8.7C). These bones also
+the pituitary gland (not shown).
+form parts of the nasal cavity and eye orbits.
+• Ethmoid bone. The ethmoid bone is a porous, irregularly
+• Palatine bones. Two palatine (PAL-ah-tine) bones
+shaped cranial bone located in the upper nasal cavity be-
+form the posterior part of the hard palate and the
+tween the eye orbits. It separates the nasal cavity from
+floor of the nasal cavity. The palate separates the na-
+the brain. There are three parts of the ethmoid bone: a
+sal cavity from the oral cavity. Failure of the palatine
+perpendicular plate that forms most of the upper nasal
+and/or maxillary bones to fuse causes a cleft pal-
+septum; the labyrinth, which contains air-filled spaces
+ate (an opening in the roof of the mouth), making
+that constitute the ethmoidal sinus; and the cribriform
+suckling very difficult for an infant and contributing
+plate. The cribriform plate is a thin, porous bone orient-
+to a host of other developmental issues (i.e., dental,
+ed horizontally and perpendicularly that is attached to
+cosmetic, speech). Fortunately, a cleft palate can be
+the meninges. The meninges are membranes that sur-
+repaired surgically.
+round the brain and contain cerebrospinal fluid (CSF).
+• Zygomatic bones. The zygomatic bones are the
+The cribriform plate houses the olfactory bulbs and has
+cheekbones. They also form a part of the orbits of
+small foramina that allow for the passage of the olfactory
+the eyes.
+nerves. The olfactory system is necessary for the sense of
+• Nasal bones. There are two nasal bones; they form the
+smell.
+bridge of the nose. They also support cartilage that
+shapes the lower part of the nose. Feel the bridge of
+The What-Ifs of the Ethmoid Bone
+your nose and the cartilage.
+• What If a sharp upward blow to the face (i.e., the
+• Other facial bones. Several other bones complete the
+meeting of the face with the steering wheel in a car
+facial structure, including the lacrimal bones, vo-
+wreck) drives the horizontally oriented ethmoid
+mer, and inferior nasal conchae.
+bone into the brain? The bone can sever parts of the
+brain, causing brain damage and death. The trauma Do You Know
+…
+also tears the meninges, thereby causing CSF to leak
+About Two Drug-Induced Jaw-Breaking Events?
+through the nose (called CSF rhinorrhea)—an im-
+portant diagnostic sign. The mandible often takes it on the chin! A rather common
+mandibular event is the alcohol-fueled Saturday night brawl
+• What If injury or damage to the cribriform plate, as in
+that often culminates in a broken jaw. Unlike a broken leg
+cocaine snorting, creates a direct communication be-
+bone, which can be immobilized by a cast, the mandible
+tween the nasal cavity and the brain? Microorganisms
+(lower jaw) can be immobilized only by wiring it to the maxilla
+enter the brain, causing brain infection and death.
+(upper jaw). Can’t talk, can’t eat, can’t expel vomit. In fact,
+• What If a trauma-related event fractures the crib-
+people with wired jaws must have access to wire cutters in
+riform plate, thereby damaging the olfactory bulbs case they vomit. What about nutrition? Puréed food is deliv-
+and nerves? Such a person would lose the sense of ered through a straw.
+smell, a condition called anosmia. A second mandibular malady is a drug-induced “Fossy
+jaw.” Alendronate (Fosamax), which belongs to a group of
+drugs called bisphosphonates, is used in the prevention and
+Facial Bones
+treatment of osteoporosis in postmenopausal women. It
+The face has 14 facial bones, most of which are paired
+works by inhibiting bone resorption by osteoclasts. A rare but
+(see Fig. 8.7B). Only the mandible and vomer are single
+distressing side effect of Fosamax is osteonecrosis of the jaw,
+bones.
+characterized by loose teeth and a crumbling jaw bone—hence
+• Mandible. The mandible (MAN-di-bal), the low- the term dead jaw, or Fossy jaw. In addition to osteonecrosis,
+er jaw bone, carries the lower teeth. The an- a small group of patients treated with bisphosphonates also
+terior portion of the mandible forms the chin. experienced a distinctive type of low-energy fracture of the
+The mandible forms the only freely movable femur. One theory has suggested that by suppressing bone
+joint in the skull. Two posterior upright pro- turnover (diminished osteoclastic activity), normal wear-and-
+jections on the mandible have bony processes tear microscopic bone cracks are not repaired daily and
+ul timately progress to bone weakening and fracture.
+that articulate with the temporal bones at the
+
+124 CHAPTER 8 Skeletal System
+make your face hurt? Allergies often cause the mucous
+membranes that line the facial sinuses to oversecrete
+mucus, and mucus forms an excellent medium for
+bacterial growth. As the mucus accumulates and the
+Ethmoidal membranes swell, pressure and discomfort are often
+Frontal sinuses experienced in the facial region overlying the sinuses
+sinus
+(around the eyes and nose).
+Sutures: How the Skull Bones Are Held Together
+The bones of the adult skull form a unique type of
+joint called a suture (see Fig. 8.7A). The sutures join
+the bones of the skull, much like a zipper. The major
+sutures include the coronal suture, the lambdoidal su-
+ture, the squamosal suture, and the sagittal suture (not
+shown). Unlike other joints in the body, no significant
+Sphenoidal
+Maxillary movement occurs between cranial bones.
+sinus
+sinus
+The Infant Skull
+The infant skull has two unique features: fontanels and
+unfused sutures.
+Fontanels (FON-tah-nels) are sheets of fibrous mem-
+branes located between the infant cranial bones. These
+Fig. 8.8 Paranasal Sinuses.
+membranes have not yet been converted to bone by
+intramembranous ossification. Because they are soft
+to touch, they are called a baby’s soft spots. Also, the
+Go Figure (Refer to Fig. 8.8) rhythm of the baby’s pulse can be felt in these soft spots,
+so they are called fontanels, meaning “little fountains.”
+1. S inuses are __________________cavities located in the
+The two major fontanels are the larger, diamond-
+facial and cranial bones. (bone-filled, sebum-filled, air-
+filled, blood-filled) shaped anterior fontanel and the smaller, posterior
+2. T /F __ Inflammation of the frontal sinuses is most apt to occipital fontanel. Two smaller fontanels are located
+present as discomfort of the lower jaw. more laterally—the anterolateral and posterolateral
+fontanels (Fig. 8.9). By the time a child reaches 2 years
+of age, these fontanels have been gradually converted
+Re-Think to bone and can no longer be felt.
+1. W hat are the two groups of bones that form the skull? The fontanels are one reason why the skull
+2. L ist the cranial bones that articulate with the parietal bones of an infant are more movable than those of
+bone. an adult. Another reason is that the sutures of the
+3. W hat are the functions of the foramen magnum and infant skull are not fused. Unfused sutures allow
+occipital condyles? the skull to be compressed during birth. They also
+4. W ith regard to head injury, why is the foramen magnum allow for the continued growth of the brain and
+called a death trap?
+skull after birth and throughout infancy. This also
+explains why your adorable newborn may look
+like a “conehead.” The fetal skull is too large to fit
+Sinuses through the birth canal, so the movable bones over-
+Sinuses are air-filled cavities located in several of the lap, thereby decreasing the diameter of the head.
+bones of the skull. They perform two important func- Fortunately, the pointy skull is reshaped shortly
+tions: (1) they lessen the weight of the skull and (2) after birth. All sutures usually fuse by early adult-
+they modulate the sound of the voice. hood (20s or early 30s).
+The four sinuses are called the paranasal sinuses because
+they surround and connect with the nasal structures The What-Ifs of the Fontanels and Sutures
+(Fig. 8.8). The names of the four sinuses reflect their lo- • What If the sutures of the infant skull fuse too early
+cation within the various skull bones: frontal sinus, eth- after birth? This condition, called microcephalia,
+moidal sinuses, sphenoidal sinus, and maxillary sinuses. prevents the growth of the brain and is character-
+Because the sinuses connect with the nasal passages ized by a small cranium, restricted brain growth,
+and the throat, infections may spread from the nose and impaired intellectual functioning.
+and throat into the sinuses. An inflammation of the • What If the skull expands excessively, in response
+sinus is called sinusitis. Why do allergies sometimes to “water on the brain”? Impaired drainage of
+
+Skeletal System CHAPTER 8 125
+Anterior fontanel
+Frontal bone
+Frontal bone
+Parietal
+bone
+Occipital
+bone
+Posterior Posterolateral Anterolateral
+fontanel fontanel fontanel
+Fig. 8.9 Fontanels in the Infant Skull.
+VERTEBRAL COLUMN
+Go Figure (Refer to Fig. 8.9)
+The Back and Its Stack of Bones
+1. T /F__ Fontanels are the same as sinuses.
+The vertebral column, also called the backbone or
+2. T he intramembranous membrane of the anterior fontanel
+connects the __________ and ____________ bones. spine, extends from the skull to the pelvis (Fig. 8.10).
+(occipital, maxillary, parietal, frontal) The vertebral column consists of 26 bones, called
+vertebrae (VER-teh-bray), aligned and stacked in a
+column. Sitting between each vertebra is a cartilagi-
+cerebrospinal fluid results in an accumulation of ex-
+nous disc. The vertebral column performs four ma-
+cess fluid within the brain of an infant, forcing the
+jor functions:
+bones apart and enlarging the skull.This is called
+• Forms a supporting structure for the head and
+hydrocephalus.
+thorax
+• What If an infant is severely dehydrated? The fon-
+• Forms an attachment for the pelvic girdle
+tanels appear sunken, an indication of low blood
+• Encases and protects the spinal cord
+volume, dehydration, and impending shock.
+• Provides flexibility for the body
+The vertebrae are named according to their loca-
+Re-Think
+tion. Seven cervical vertebrae (C1–C7) are located in
+1. W hy does your face “hurt” in response to sinusitis? the neck region. If you bend your head forward and
+2. W hat are fontanels? run your hand down the cervical vertebrae, you will
+3. Why is it important that the infant’s sutures are feel a large bump; this large vertebra is C7, which
+unfused? is called the vertebra prominens (VER-teh-bra PRAH-
+meh-nenz) and is used as a landmark in assessing
+surface anatomy. Twelve thoracic vertebrae (T1–T12)
+BONES ASSOCIATED WITH THE SKULL are located in the chest region, and the five lumbar
+vertebrae (L1–L5) are located in the lower back re-
+Seven bones are associated with but not part of the
+gion. If you place your hands on your hips, you are
+skull. They are a single hyoid bone and the six bones
+at the level of L4. In addition, five sacral vertebrae
+or ossicles of the middle ear.
+fuse into one sacrum. The sacrum forms the poste-
+rior wall of the pelvis. How did the sacrum get its
+Hyoid Bone
+name? The ancients thought that the seat of the soul
+The hyoid (HYE-oyd) bone is a U-shaped bone lo-
+was located at the base of the spine and therefore
+cated in the upper neck. It anchors the tongue and
+called the sacred area the “sacrum.” The tailbone is
+is associated with swallowing. The hyoid bone is of-
+called the coccyx (KOHK-iks) because it resembles
+ten fractured during strangulation or death by hang-
+ing. Watch for this during an autopsy, you forensic
+the beak of a cuckoo bird.
+sleuths!
+VERTEBRAE
+Bones of the Middle Ear Characteristics of Vertebrae
+Each ear contains three small bones called ossicles (see The vertebra is an irregular bone that contains several
+Chapter 13 for the role of the ossicles in hearing). distinct structures (Fig. 8.11).
+
+126 CHAPTER 8 Skeletal System
+Do You Know
+C1 …
+C2 Why Your Spine Hates Texting?
+Cervical
+Cervical C3 curve Poor spine! All hunched over from heavy backpacks and
+vertebrae various other totes. Not only do we get to carry all our stuff
+C4
+everywhere, but something new is bothering the spine. The
+C5
+latest in spine aggravation is “texting,” the nonstop bending of
+C6
+our heads to check and dispatch our messages. The texting
+C7 craze has us permanently hunched, even while sitting. “Text
+T1 neck” is a disorder that has been implicated as a major source
+T2 of chronic back pain. An explanation: Your “squash” weighs
+T3 about 10 to 12 lb, a weight that is easily supported by your
+T4 Thoracic spine and muscles. When your head tips forward, as in texting,
+T5 curve the spine and muscles experience a much heavier weight,
+Thoracic
+vertebrae T6 maybe as much as 60 lb. Over time, the increased weight
+T7 ca uses wear and tear on the spine and chronic back pain.
+T8
+T9 • Vertebral foramen. The vertebral foramen is the
+T10 opening for the spinal cord; the vertebral foramen
+of the stacked vertebrae forms the vertebral canal.
+T11
+Note that the spinal cord descends from the base
+T12 of the brain through the vertebral foramen of the
+stack of vertebrae (vertebral canal). Injury to the
+L1
+vertebral column at any point can compress or sev-
+L2 er the spinal cord, causing paralysis. You must use
+extreme caution while treating or moving a person
+Lumbar L3 with a spinal cord injury. Immobility is a key term
+vertebrae in the first-aid treatment of suspected spinal cord
+Lumbar
+L4 injury.
+curve
+• Spinous processes. The vertebrae are aligned so that
+L5 if you run your hand down your back, you will feel
+the spinous processes. For this reason, the vertebral
+column is also called the spine. Note that the ver-
+Sacral
+tebrae become larger as the vertebral column de-
+curve
+Sacrum
+scends. The larger lower vertebrae support a heavi-
+er load.
+The bodies of the vertebrae are padded and sepa-
+Coccyx rated by cartilaginous discs. The intervertebral discs
+(tailbone) contain an inner gelatinous mass called the nucleus
+Fig. 8.10 Vertebral Column: Cervical Vertebrae (7), Thoracic pulposus, which is surrounded by a ring of fibrocar-
+Vertebrae (12), Lumbar Vertebrae (5), Sacrum and Coccyx. Vertebral tilage. The discs act as shock absorbers and as “spac-
+curves: cervical, thoracic, lumbar, and sacral.
+ers” between vertebrae, allowing peripheral nerves
+to connect to the spinal cord without being squashed.
+Go Figure (Refer to Fig. 8.10) (Ouch!)
+1. T he fused vertebrae below L5 are known as the
+_________________. (atlas, sacrum, thorax, cervical Do You Know …
+vertebrae)
+Why You Are 1% Shorter When You Go to Bed at Night Than
+2. T /F __ 7, 12, and 5, are the numbers of vertebrae found
+When You Arise in the Morning?
+in the sacrum, coccyx, and tailbone.
+3 . T /F __ All spinal curvatures are abnormal. During the day, while you are standing, the weight of the
+body squeezes water out of the discs, thereby decreasing
+your height. At night, when the compression on the discs
+• Body. The body of the vertebra is composed of is relieved, the discs absorb water, swell, and restore your
+spongy bone and bone marrow. It is padded by a he ight.
+cartilaginous disc and supports the weight of the
+vertebra sitting on top of it. Some processes pro-
+vide sites of attachment for ligaments, tendons, and Two Special Vertebrae: Atlas (C1) and Axis (C2)
+muscles; other processes articulate with bones such The first and second cervical vertebrae have several spe-
+as the ribs. cial features and names (see Fig. 8.11). The first cervical
+
+Skeletal System CHAPTER 8 127
+Depression
+for occipital
+condyles
+“yes”
+Atlas (C1)
+“Swivel point”
+(dens)
+Vertebral
+foramen
+“no”
+Lamina
+Axis (C2)
+Spinous process
+Lamina
+Vertebral
+foramen
+Body
+Thoracic vertebra
+Fig. 8.11 Anatomy of a Vertebra: The Atlas (C1) and Axis (C2) and a Thoracic Vertebra.
+Go Figure (Refer to Fig. 8.11) for the toothlike odontoid process), which fits into the
+1. T /F __ The atlas and axis are thoracic vertebrae. atlas and acts as a pivot or swivel for the atlas. The axis
+2. O n which vertebra do the occipital condyles sit? allows your head to rotate from side to side as you say
+____________ (lumbar, thoracic, atlas, C7) “no.” A strong blow to the top of the head can force the
+3. W hich two vertebrae form a joint at the dens thereby dens through the foramen magnum and into the base
+allowing you to gesture “no”? ________, _________ of the brain, causing sudden death. Not good! In chil-
+(atlas, C2, C7, L5)?
+dren, the fusion between the dens and the axis is in-
+complete. Shaking a child can easily dislocate the dens,
+vertebra (C1) is called the atlas. The atlas has no body causing injury to the spinal cord and brain.
+but does have depressions into which fit the bony pro-
+jections (occipital condyles) of the occipital bone of the Curvatures
+skull. The atlas supports the skull and allows you to nod When viewed from the side, the vertebral column
+“yes.” The atlas is named after a figure in Greek mythol- has four normal curvatures (see Fig. 8.10): the cervi-
+ogy, Atlas, who carried the earth on his shoulders. cal, thoracic, lumbar, and sacral curves. The directions
+The second cervical vertebra (C2) is called the axis. of the curvatures are important. The cervical and the
+The axis has a projection, called the dens (nicknamed lumbar curvatures bend toward the front of the body.
+
+128 CHAPTER 8 Skeletal System
+Scoliosis Kyphosis Lordosis
+Fig. 8.12 Abnormal Curvatures of the Vertebral Column: Scoliosis, Kyphosis, and Lordosis.
+Go Figure (Refer to Fig. 8.12)
+Re-Think
+1. W hich curvature is called scoliosis? _____________
+1. H ow does the structure and function of C1 and C2 differ
+(kyphosis, swayback, lordosis, lateral curvature)
+from that of other vertebrae?
+2. W hat is a commonly used word describing kyphosis?
+2. W hat is the function of the vertebral foramen?
+_________ (hunchback, swayback, scoliosis, coccyx)
+3. W hy are the lumbar vertebrae larger than the cervical
+3. T /F__ Scoliosis can adversely affect the structure of the
+vertebrae?
+thoracic (chest) cage.
+4 . L ist the four curvatures of the vertebral column.
+The thoracic and sacral curvatures bend away from the
+THORACIC CAGE
+front of the body. These curves center the head over the
+body, thereby providing the balance needed to walk in The term thorax (THOH-raks) refers to the chest region.
+an upright position. The thoracic cage is the skeletal part of the chest and is
+The curvature of the fetal spine is different. Its composed of the sternum, ribs, and thoracic vertebrae
+single C-shaped curve bends away from the front of (Fig. 8.13). The bony, cone-shaped thoracic cage per-
+the body. Its shape reflects the curled-up position of forms three main functions:
+the fetus during its 9 months in its cozy but cramped • Surrounds and protects the lungs, heart, large blood
+uterine living quarters. The cervical curvature devel- vessels, and some of the abdominal organs, such as
+ops about 3 to 4 months after birth as infants start to the liver, spleen, and kidneys.
+hold up their heads. The lumbar curvature develops • Plays a crucial role in breathing. If you put your
+at about 1 year of age, when children begin standing hand on your chest and take a deep breath, you will
+and walking. feel your thoracic cage move up and out.
+Fig. 8.12 illustrates several abnormal curvatures of • Helps support the bones of the shoulder.
+the spine. Scoliosis (skoh-lee-OH-sis) refers to a lateral
+curvature, usually involving the thoracic vertebrae. If Sternum
+severe, a lateral curvature can compress abdominal or- The sternum, or breastbone, is a dagger-shaped bone
+gans. It can also diminish expansion of the rib cage and located along the midline of the anterior chest. Its three
+therefore impair breathing. Kyphosis (kye-FOH-sis) is parts are the manubrium (man-OO-bree-ahm), body,
+an exaggerated thoracic curvature; it too can impair and xiphoid (ZYE-foyd) process. The manubrium,
+breathing and is sometimes called hunchback. It may meaning handle-like, is the superior part of the ster-
+be caused by osteoporosis in adults and in adolescents num. The suprasternal notch, also called the jugular
+who engage in spine-loading sports such as weight notch, is a depression on the top of the manubrium. On
+lifting. Lordosis is an exaggerated lumbar curvature each side of the suprasternal notch are the sternocla-
+and is sometimes called swayback; it is often associated vicular joints, the points at which the manubrium ar-
+with increased abdominal weight, as in pregnancy and ticulates (forms joints) with the clavicles (collarbones).
+obesity. The manubrium also articulates with the body of the
+
+Skeletal System CHAPTER 8 129
+Midsternal line
+Suprasternal notch
+Costal
+cartilage Clavicle
+1 Midclavicular line
+2 Manubrium
+Sterno-
+True ribs 3 manubrial
+joint
+4
+Body Sternum
+5
+6
+Xiphoid
+7
+process
+8
+False ribs
+9
+10 L1
+11
+12
+Floating Costal Costal angle
+ribs margin
+Fig. 8.13 Thoracic Cage: The Sternum, Ribs, and Thoracic Vertebrae. Note in Red: Costal Margin, Costal Angle,
+Midsternal Line, and Midclavicular Lines.
+Go Figure (Refer to Fig. 8.13) is located at the level of the second rib and is there-
+fore a landmark used in counting ribs. The body is the
+1. W hat is the name of the joint located at the level
+longest part of the sternum and extends to the xiphoid
+of the second rib? ___________ (xiphoid process,
+process. The xiphoid process is the tip of the sternum
+sternomanubrial joint, sternoclavicular joint, suprasternal
+notch) and serves as a point of attachment for some abdomi-
+2. W hich words best describe rib numbers 1 to 7? nal muscles. The xiphoid is fragile and is easily bro-
+__________ (false ribs, floating ribs, xiphoid process, true ken during attempts at cardiopulmonary resuscitation
+ribs) (CPR).
+sternum, forming the sternomanubrial joint, also called Ribs
+the angle of Louis. Palpate your suprasternal notch Twelve pairs of ribs attach posteriorly to the thoracic
+and slide your fingertips downward to the first hori- vertebrae. Anteriorly, the top seven pairs of ribs at-
+zontal ridge that you feel. The sternomanubrial joint tach directly to the sternum by costal cartilage and are
+
+130 CHAPTER 8 Skeletal System
+called true ribs. The next five pairs attach indirectly APPENDICULAR SKELETON
+to the sternum by cartilage or do not attach at all and
+The appendicular skeleton is composed of the bones
+are called false ribs. The bottom two pairs of false ribs
+of the shoulder girdle, upper limbs, pelvic girdle, and
+lack sternal attachment and are therefore called float-
+lower limbs (see Fig. 8.1). The primary function of the
+ing ribs. Because of their location and lack of sternal
+appendicular skeletal system is movement. Skeletal
+support, the floating ribs are easily broken. They are a
+muscles and ligaments connect the bones of the appen-
+favorite target of boxers who try to disable their spar-
+dicular skeleton to each other and to the axial skeleton.
+ring opponents by breaking them. Note that the ribs
+are numbered, which allows us to describe the loca-
+SHOULDER GIRDLE
+tion of thoracic structures. The spaces between the ribs
+The shoulder girdle is also called the pectoral girdle. Each
+(intercostal spaces) are also numbered. For example,
+shoulder girdle contains two bones: one clavicle (KLAV-
+the heart is located between the second rib and fifth
+i-kul) and one scapula (SKAP-yoo-lah) (Fig. 8.14). The
+intercostal space (the space between the fifth and sixth
+shoulder girdle supports the upper limbs and serves as
+ribs). You will spend a lot of time counting ribs and
+a place of attachment for muscles. The shoulder girdle is
+intercostal spaces as part of your clinical practice.
+designed for great flexibility; move your shoulder and
+arm around and note how many different movements
+Lines, Margins and Angles
+you can make. Compare this with the limited movement
+The lines, margins, and angles are commonly used
+you have at the elbow and the knee.
+clinically (see Fig. 8.13).
+• Midsternal line—an imaginary line drawn vertical-
+Clavicle
+ly from the suprasternal notch through the middle
+The clavicle is also called the collarbone. It looks like a
+of the sternum.
+long, slender, S-shaped rod and articulates with both
+• Midclavicular lines (right and left)—imaginary lines
+the sternum and scapula. The clavicle helps stabilize
+drawn vertically from the midpoints of the clavicles
+the shoulder; the attachment, however, is weak. The
+(collarbones) and parallel to the midsternal line.
+clavicle is easily dislocated and is the most frequently
+• Costal margins—the edges of the cartilage that form
+broken bone in the body.
+an angle as they converge near the xiphoid process.
+• Costal angle—the angle formed by the intersection Scapula
+of the costal margins; it should be less than 90 de- The scapula, also called the shoulder blade or wing bone, is
+grees. The costal angle can change size; for example, a large flat bone shaped like a triangle. The two scapulae
+during pregnancy, the angle increases. It also in- are located on the posterior thorax overlying rib num-
+creases when the chest diameter expands with cer- bers 2 to 7. Two large processes on the scapula allow it
+tain lung diseases, such as emphysema. to articulate with the clavicle; they serve as points of at-
+• Angle of Louis (sternomanubrial joint)—a joint that tachment for arm and chest muscles. The glenoid cavity
+is referenced in counting ribs. The joint is located at on the scapula is the site where the head of the humerus
+the level of the second rib. (arm bone) fits, thereby allowing you to rotate your arm
+at the shoulder. Note the acromion process and coracoid
+Re-Think process on the scapula near the glenoid cavity. Both pro-
+cesses serve as points of attachment for ligaments and
+1. W hat bones form the thoracic cage?
+muscles. The acromion process forms the “pointy” part
+2. W ith what bony structures do the ribs articulate?
+3. D ifferentiate between the true, false, and floating ribs. of the shoulder and articulates with the clavicle.
+4 . W hy is the sternomanubrial joint an important landmark?
+Do You Know
+…
+About Xtreme Modeling, Surgical Removal of Ribs, and Toe
+Sum It Up!
+Cleavage?
+The skeleton is divided into the axial and appendicular skel-
+The saying, “You can never be too thin” (or off balance) has
+etons. The axial skeleton includes the bones of the skull (fa-
+taken on a new meaning. In addition to a starvation diet,
+cial and cranial), hyoid bone, bones of the middle ear, bones
+Xtreme Modeling has taken surgical aim at the skeletal sys-
+of the vertebral column, and bones of the thoracic cage (ribs
+tem. It’s called “remodeling the model.” How so? Surgeons
+and sternum). The skull contains the facial bones, cranial
+have successfully shortened or removed toes, thereby allow-
+bones, and air-filled cavities called sinuses. The skull of a
+ing the foot to fit into stylish “pointy” shoes. More importantly,
+newborn contains fontanels, which are membranous areas
+toe removal also creates revealing toe cleavage. The toe is
+that allow brain growth. The vertebral column is formed from
+not the only osseous victim of this skeletal redesign. Removal
+24 vertebrae, one sacrum, and one coccyx. The vertebrae
+of the lower floating ribs further slims the slim. When accom-
+are separated by cartilaginous discs. The vertebral column
+panied by high colonic irrigations (enemas), our remodeled
+of the adult has four curvatures: cervical, thoracic, lum-
+model easily slips into the elusive size 0. Of obvious concern:
+bar, and sacral. The thoracic cage is a bony cone-shaped
+the risk of general anesthesia, the loss of ribs that normally
+cage formed by the sternum, 12 pairs of ribs, and thoracic
+protect the kidneys, and the loss of toes that assist in walk-
+ve rtebrae.
+in g, balance, and overall comfort! Go figure!
+
+Skeletal System CHAPTER 8 131
+Acromion process
+Coracoid process
+Clavicle
+Glenoid
+cavity
+Shoulder
+girdle
+Arm
+Scapula
+Olecranon
+fossa Humerus
+Olecranon
+process
+Elbow
+Elbow,
+posterior view Radial
+tuberosity
+Forearm
+Ulna
+Styloid Radius
+process
+Supination
+Styloid
+process
+s
+u
+Carpals a
+di
+a
+R n
+Ul
+Hand Metacarpals Ul n a a di u s Pronation
+R
+Phalanges
+A
+B
+Fig. 8.14 Bones of the Shoulder and Upper Limb. (A) Shoulder girdle, arm, forearm, and hand. (B) Position of the
+radius and ulna during supination and pronation.
+UPPER LIMBS Humerus
+The upper limbs (also called upper extremities) con- The humerus is the arm bone. The proximal humerus
+tain the bones of the arm (humerus), forearm (ulna (closest to the chest) contains a head, which fits into
+and radius), and hand (carpals, metacarpals, and the glenoid cavity of the scapula, allowing the arm
+phalanges). to rotate at the shoulder joint. At the distal end of the
+
+132 CHAPTER 8 Skeletal System
+Go Figure (Refer to Fig. 8.14) Re-Think
+1. I nto which structure does the head of the humerus fit? 1. L ist the bones of the pectoral girdle.
+__________ (olecranon fossa, glenoid cavity, elbow, 2. L ist the bones of the upper limbs
+acromium process) 3. W hat “happens” at the glenoid cavity?
+2. T hese bones articulate both with the metacarpals and 4. W hat bones form the elbow? What is the olecranon
+the distal radius. ______________ (humerus, phalanges, process?
+carpals, acromion/coracoid processes)
+Do You Know
+humerus (at the elbow) are several processes that al- …
+low it to articulate with the bones of the forearm. The About Dr. Pollex and Mr. Blackberry’s Thumb?
+olecranon (oh-LEK-rah-non) fossa is a depression of
+Mr. Blackberry went to his family physician, Dr. Pollex, with a
+the humerus that holds the olecranon process of the
+chief complaint of extreme pain in his left thumb. He writhed
+ulna when the elbow is extended (not bent). Like other in pain and sobbed uncontrollably as he punched numbers
+bones, the humerus contains numerous bony projec- into his cell and frantically sent text messages to everyone
+tions for muscle attachments and grooves for the pas- he had ever met. Dr. Pollex, however, was all over it. “Thumb
+sage of nerves and blood vessels. abuse!” he roared. He explained to Mr. Blackberry. “Your
+thumb [pollex] was not designed to click away 24/7; it’s ach-
+Radius ing for relief. The sheath around your thumb is inflamed and
+swollen.” The digit doc assured Mr. Blackberry that with rest
+The radius is one of two bones of the forearm. It is lo-
+and retraining, he would quiet down the tenosynovitis and
+cated on the lateral or thumb side when the palm of the
+would once again be clicking away. Thumb pain resulting
+hand is facing forward. The head of the proximal ra-
+from repetitive thumb-clicking marathons is a malady called
+dius articulates with the humerus and proximal ulna,
+Blackberry thumb, a reference to the once popular hand-
+whereas the distal end articulates with the distal ulna
+held device. Blackberry thumb is a catch-all phrase that de-
+and the carpal or wrist bones. The radial tuberosity at scribes a repetitive stress injury (RSI) as a result of overuse of
+the proximal end of the radius is the site of attachment sm all thumb-operated devices.
+for one of the muscles responsible for bending the fore-
+arm at the elbow.
+Pelvic Girdle
+Ulna The pelvic girdle is composed of two coxal bones that
+The ulna is the second bone of the forearm. The lon- articulate with each other anteriorly and with the sa-
+ger of the two bones, the ulna, is located on the me- crum posteriorly (Fig. 8.15A). The pelvic girdle per-
+dial or little finger side of the forearm. It has process- forms three functions:
+es and depressions that allow it to articulate with the • It bears the weight of the body.
+humerus and radius proximally and with the radius • It serves as a place of attachment for the thighs.
+distally. The olecranon process of the ulna is what • It protects the organs located in the pelvic cavity,
+you feel as the bony point of the elbow. Note that including the urinary bladder and reproductive
+the distal ends of both the ulna and radius have a organs.
+pointed styloid process; the styloid processes can be
+felt at the wrist. Pelvis
+Also note the relationship of the radius to the ulna The pelvis is formed by the pelvic girdle, sacrum, and
+when the hand moves from a palm-up (supination) to a coccyx.
+palm-down (pronation) position. When the palm is up,
+the two bones are parallel. When the palm is down, the Male and Female Differences. The differences be-
+two bones cross to achieve this movement. tween the female and male pelvis are related to the
+childbearing role of the female. In general, the female
+Hand pelvis is broader and shallower than the male pelvis.
+The hand is composed of a wrist, palm, and fingers. The male pelvis is narrow and funnel shaped (see
+The wrist contains eight bones called carpal bones, Figs. 8.15C and D).
+which are tightly bound by ligaments. Five metacar-
+pal bones form the palm of the hand; each metacar- Coxal Bone
+pal bone is aligned with a finger. Feel your metacarpal The coxal bone is the hip bone (see Fig. 8.15B). Each
+bones on the back of your hand; note how each aligns coxal bone is composed of three parts: the ilium, ischi-
+with your fingers. The heads of the metacarpal bones um, and pubis. The three bones join together to form
+are prominent as the knuckles when a fist is made. The a depression called the acetabulum (ass-it-TAH-buhl-
+14 finger bones are called phalanges (fah-LAN-jeez), or um). The acetabulum is important because it receives
+digits. Note that each digit has three bones except the the head of the femur and therefore enables the thigh
+thumb (called the pollex), which has only two bones. to rotate at the hip joint.
+
+|     | Skeletal System  | CHAPTER 8 | 133 |
+| --- | ---------------- | --------- | --- |
+Pelvis
+Coxal bone
+Sacrum
+Coccyx
+Obturator
+A
+| foramen | Symphysis |     |     |
+| ------- | --------- | --- | --- |
+pubis
+Coxal bone,
+right lateral view
+|     | Female pelvis | Greater (false) |     |
+| --- | ------------- | --------------- | --- |
+ pelvis
+Iliac crest
+Ilium
+|     | Pelvic | Inlet of |     |
+| --- | ------ | -------- | --- |
+Greater
+| Acetabulum | brim (true) | true pelvis |     |
+| ---------- | ----------- | ----------- | --- |
+sciatic Pelvic
+C pelvis
+notch outlet
+Ischial
+spine Greater (false)
+|     | Male pelvis |  pelvis |     |
+| --- | ----------- | ------- | --- |
+Pubis
+Ischium
+Obturator
+Ischial foramen
+tuberosity
+B
+Inlet of
+|     | D   | true pelvis |     |
+| --- | --- | ----------- | --- |
+Fig. 8.15 Pelvic Cavity. (A) Bones that make up the pelvis. (B) Coxal bone (ilium, ischium, and pubis). (C) Female pelvis.
+(D) Male pelvis.
+
+134 CHAPTER 8 Skeletal System
+Go Figure (Refer to Fig. 8.15) Re-Think
+1. I nto which coxal structure does the head of the femur fit? 1. N ame the three bones that form the coxal bone.
+__________ (iliac crest, symphysis pubis, acetabulum, 2. W hat is the function of the acetabulum?
+obturator foramen) 3. L ocate the symphysis pubis. Explain how it affects the
+2. T he two pubic bones meet anteriorly as the ___________ size of the pelvis during pregnancy.
+___________. (obturator foramen, greater sciatic notch,
+acetabulum, symphysis pubis)
+LOWER LIMBS
+The lower limbs (also called the lower extremities) in-
+cludes the bones of the thigh, kneecap, leg, and foot
+Ilium. The ilium (IL-ee-um) is the largest part of the (Fig. 8.16).
+coxal bone. The ilium is the flared upper part of the
+bone and can be felt at the hip. The outer edge of Femur
+the ilium is called the iliac crest. The ilium connects in The femur is the thigh bone; it is the longest and stron-
+the back with the sacrum, forming the sacroiliac joint. gest bone in the body. The femur articulates proximal-
+The greater sciatic notch is the site where blood ves- ly with the coxal bone to form the hip joint and distally
+sels and the sciatic nerve pass from the pelvic cavity with the bones of the leg to form the knee joint. The
+into the posterior thigh region. Like the sternum, the head of the femur sits in the acetabulum of the coxal
+ilium produces blood cells and is a site for bone mar- bone and allows the thigh to rotate at the hip joint. The
+row biopsy. head of the femur attaches to the rest of the femur by
+the neck. A number of bony processes are on the femur.
+Ischium. The ischium (ISH-ee-um) is the most in- The most important are the greater and lesser trochan-
+ferior part of the coxal bone. The ischium contains ters (tro-KAN-ters). These trochanters provide sites of
+three important structures: the ischial tuberosity, is- attachment for many powerful muscles.
+chial spine, and lesser sciatic notch. The ischial tu- In older persons, the neck of the femur is easily bro-
+berosity is the part of the coxal bone on which you ken during a fall and is known as a broken hip. The forced
+sit. The ischial spine projects into the pelvic cavity immobility (bed rest) associated with a broken hip often
+and narrows the outlet of the pelvis. If the spines of results in serious complications. For example, because
+a woman’s two ischial bones are too close together, of the weight of the injured leg, an immobile bedridden
+the pelvic outlet becomes too small to allow for the person may experience an outward rotation of the hip. If
+birth of a baby. The measurement of the distance allowed to develop, this outward rotation makes walking
+between the two spines therefore provides valuable very difficult and therefore delays rehabilitation. Other
+information about the adequacy of the pelvis for hazards of immobility, such as blood clots and pneumo-
+childbearing. nia, contribute to the seriousness of a fractured hip.
+Pubis. The pubis is the most anterior part of the Patella
+coxal bone. The two pubic bones meet in front as The patella is the kneecap. It is a triangular bone locat-
+the symphysis (SIM-fi-sis) pubis. A disc of cartilage ed within a tendon that passes over the knee. It both
+separates the pubic bones at the symphysis pubis. articulates with the distal femur and protects the ante-
+In women, the disc expands in response to the hor- rior surface of the knee joint. Interestingly, an infant is
+mones of pregnancy, thereby enlarging the pelvic born without kneecaps; somewhere between the ages
+cavity to provide a bigger space for the growing fe- of 2 and 6 years, in response to weight bearing, a small
+tus. The symphysis pubis is a forensic gold mine. It sesamoid bone (one that looks like a sesame seed) in the
+is an accurate indicator of age, gender, and evidence patellar region enlarges, thereby forming the kneecap.
+of past pregnancies.
+A large hole called the obturator foramen is formed Tibia and Fibula
+as the pubic bone fuses with a part of the ischium. The The tibia and the fibula form the leg. The tibia is the
+obturator is the largest foramen in the body. shinbone and articulates with the distal femur at the
+What is meant by the true pelvis and false pelvis? knee. The tibia is the larger weight-bearing bone of
+The false pelvis is the area surrounded by the flaring the leg. A protuberance called the tibial tuberosity is
+parts of the two iliac bones (see Fig. 8.15C). The true the site of attachment for the muscles and ligaments
+pelvis lies lower and is smaller than the false pelvis. from the thigh. At the distal end of the tibia, a protu-
+The true pelvis is a ring formed by the fusion of the berance called the medial malleolus (mah-LEE-oh-lis)
+pelvic bones. The pelvic brim is the border between articulates with the talus, a tarsal bone. The medial
+the false and true pelves. The true pelvis has an inlet malleolus can be felt as a large bump on the inner
+and outlet area. In women, the size of these areas is ankle area.
+important because they must be large enough to allow The fibula (FIB-yoo-lah) is a long, thin bone po-
+for childbirth. sitioned laterally alongside the tibia in the leg. The
+
+|     |     |     | Skeletal System  | CHAPTER 8 | 135 |
+| --- | --- | --- | ---------------- | --------- | --- |
+ Go Figure (Refer to Fig. 8.16)
+ 1. W  hich bone articulates with both the coxal bone and the
+tibia? _________ (calcaneus, fibula, femur, patella)
+ 2. T he medial and lateral malleoli are closest to the ______
+    joint. (hip, ankle, knee)
+proximal end of the fibula articulates laterally with the
+tibia. It does not articulate with the femur, is not part
+of the knee, and bears much less weight than does the
+tibia. The distal end forms the lateral malleolus, which
+articulates with the talus. The lateral malleolus can be
+felt as a large bump on the outer ankle area. The articu-
+Hip lation of the distal tibia (medial malleolus) and fibula
+Coxal
+|     |  bone | (lateral malleolus) with the talus forms the ankle joint  |     |     |     |
+| --- | ----- | --------------------------------------------------------- | --- | --- | --- |
+or talocrural joint. Skiers often twist their ankles and
+|     | Head | break the fibula at the lateral malleolus. You don’t need  |     |     |     |
+| --- | ---- | ---------------------------------------------------------- | --- | --- | --- |
+snow, however, to hobble. Just roll the ankle and you
+too can be on crutches!
+Neck
+| Greater Lesser        |     |     |     |     |     |
+| --------------------- | --- | --- | --- | --- | --- |
+| trochanter trochanter |     |     |     |     |     |
+Thigh
+Femur
+|     | Medial  | How  do                                                  | we  remember  | the  positions  | of  the  leg  |
+| --- | ------- | -------------------------------------------------------- | ------------- | --------------- | ------------- |
+|     | condyle | bones? The tibia is the Thick Inner Bone; the fibula is  |               |                 |               |
+Lateral
+| condyle | Patella | LAteral to the tibia.  |     |     |     |
+| ------- | ------- | ---------------------- | --- | --- | --- |
+Foot
+Tibial
+One-quarter of all the bones in the body are in the feet.
+tuberosity
+Each foot (Fig. 8.17) has an ankle, instep, and five toes.
+Seven tarsal bones form the ankle. The most proximal
+of the tarsal bones, the talus, articulates with the tibia
+|     | Tibia | and fibula. Most of the weight of the body is supported  |     |     |     |
+| --- | ----- | -------------------------------------------------------- | --- | --- | --- |
+| Leg |       | by two of the tarsal bones, the talus and the calcaneus  |     |     |     |
+(kal-KAY-nee-us), or heel bone. The posterior end of
+the calcaneus is the point of attachment of the calca-
+|     | Fibula | neal tendon (Achilles) for the calf muscles in the pos- |     |     |     |
+| --- | ------ | ------------------------------------------------------- | --- | --- | --- |
+terior leg.
+The arched instep of the foot is formed by five meta-
+tarsal bones. The ball of the foot is formed by the distal
+Medial
+ends of the metatarsals. The tarsals, metatarsals, and
+malleolus
+Lateral
+associated tendons and ligaments form the arch of the
+| malleolus Tarsals |     |     |     |     |     |
+| ----------------- | --- | --- | --- | --- | --- |
+foot. If the ligaments and tendons weaken, the arches
+can fall, and the person is said to have flat feet. The toes
+Metatarsals
+Foot contain 14 phalanges. The great toe is called the hallux.
+Foot Notes and Toe Woes: We all know about the
+| Phalanges |     | thrill of victory (looking great in heels and flaunting  |     |     |     |
+| --------- | --- | -------------------------------------------------------- | --- | --- | --- |
+the latest in toe cleavage). What about the “agony of
+Fig. 8.16 Bones of the Hip and Lower Limb: Thigh, Leg, and  de-feet”? Think about it. Sometimes we jam our square
+feet into pointy shoes, creating an unnatural, uncom-
+Foot.
+fortable, and crippling tiptoe gait. The entire weight
+
+136 CHAPTER 8 Skeletal System
+Tibia
+Bunion
+Fibula
+Medial
+malleolus
+Lateral
+malleolus
+Talus
+Calcaneus Tarsals Metatarsals Phalanges
+Fig. 8.17 Bones of the Foot: Tarsals, Metatarsals, and Phalanges. Arches support the structure of the foot.
+Go Figure (Refer to Fig. 8.17)
+bone. Pump bump is so common that it has its own
+1. T /F __ The tarsal bone and the calcaneus are both
+medical name: the Haglund deformity.
+metatarsal bones that articulate with the hallux.
+• Knee pain. The shift in weight adds unnatural stress
+2. T he distal tibia and fibula both articulate with the
+to the knee joint; knee joint replacement is more
+___________________. (calcaneus, hallux, femur, talus)
+common in women and is often related to wearing
+abusive footwear.
+of the body is pushed forward to the balls of the feet. • Last but not least. There have been several document-
+What do we get for this stylish effort? ed cases of death associated with falling while wear-
+ing platform shoes.
+What to do? Although it can be performed, the sur-
+gical removal of toes is not the answer. Instituting a
+fashion change is certainly less painful than redesign-
+ing the foot. In any event, heels are definitely an ana-
+tomical step in the wrong direction!
+Do You Know
+…
+About Those Men in Heels?
+High heels were originally worn by men. Persian horseback rid-
+• Bunions. Bunions develop in response to excessive ers used heels to help their feet stay in the stirrups. They were
+first used for riding and not walking! The high-heel trend eventu-
+force, whereby the big toe is compressed and forced
+ally spread to the upper crust in Europe, among both men and
+toward the second toe. The joint becomes distorted,
+women, for walking. The wealthy and well shod thus gave rise
+inflamed, and painful.
+to the expression “well heeled.” The trend died down for men,
+• Neuromas. The shift of body weight to the balls of the
+who wisely retreated to the comfortable low-heeled shoe for
+feet causes painful and debilitating nerve growths
+walking, while fashionable women retained the high-heel look
+(neuromas) between the toes. and continued to dance around in physiologically unfit props.
+• Metatarsalgia. The shift of body weight causes meta- Want to change the spiked-heel craze? Be brave like King
+tarsalgia, or pain in the ball of the foot. Charles VIII in instituting fashion change! He had six toes on
+• Shortening of the Achilles tendon. The tiptoe position each foot, a condition called polydactyly. Did he wear heels?
+causes contraction of the Achilles tendon; the shortened No, he made it fashionable to wear the very comfortable
+tendon then makes the use of flat shoes uncomfortable. albeit ugly square-toed shoes. You don’t have to go ugly,
+but you do have to be kinder to those distal digits if you want
+• Pump bump. Excess pressure of the heel of the shoe
+th em to walk you into your 90s!
+on bone causes an enlargement (bump) on the heel
+
+Skeletal System CHAPTER 8 137
+JOINT CLASSIFICATION
+Re-Think
+1. L ist the bones that articulate with the femur. IMMOVABLE JOINTS
+2. W hat bones articulate at the knee?
+Immovable joints permit no movement. The sutures in
+3 . W hat bones form the ankle? foot?
+the skull are immovable joints. The sutures are formed
+as the irregular edges of the skull bones interlock and
+Sum It Up! are bound by fibrous connective tissue. When fused,
+they look like zippers. Sutures are found only in the
+The appendicular skeleton includes bones of the pectoral
+skull.
+girdle (clavicle, scapula), upper limbs (humerus, radius, ulna,
+carpals, metacarpals, phalanges), pelvic girdle (coxal bones),
+and lower limbs (femur, patella, tibia, fibula, tarsals, metatar-
+sa ls, phalanges).
+JOINTS (ARTICULATIONS)
+A joint, also called an articulation or arthrosis, is a
+meeting site—a meeting between two bones, between
+a bone and cartilage, and between a bone and teeth.
+Joints perform two functions: they hold the bones
+together and provide flexibility to a rigid skeleton.
+Without joints, we would move around stiffly, like
+robots. Think of how awkward a basketball player
+would look with a completely rigid skeleton. The
+SLIGHTLY MOVABLE JOINTS
+branch of science that studies joints is called arthrology;
+the branch of medicine that studies disease of the joints Slightly movable joints permit limited movement.
+is called rheumatology. Limited movement is usually achieved by bones con-
+Joints can be classified into three groups according nected by a cartilaginous disc. For example, movement
+to the amount of movement: immovable, slightly mov- of the spinal column occurs at the intervertebral discs.
+able, and freely movable (Table 8.3). Joints can also be Also, during pregnancy, the symphysis pubis allows
+classified anatomically according to the types of tis- the pelvis to widen. A cartilaginous joint is called a
+sues—fibrous, cartilaginous, or synovial—that bind symphysis.
+the bones at the joint. This text prefers the functional
+FREELY MOVABLE JOINTS
+classification.
+Freely movable joints provide much more flexibility
+Do You Know and movement than the other two types of joints. Most
+…
+of the joints of the skeletal system are freely movable.
+What Do Dripping “Humors” Have to Do With Gout?
+All freely movable joints are known as synovial (si-NO-
+The typical cartoon of a person experiencing gout is that vee-all) joints (Fig. 8.18). The most prominent charac-
+of an older, red-faced, obese, well-heeled man. His el- teristic of a synovial joint is the synovial or joint cavity,
+evated, throbbing big toe fits the picture perfectly. Gout is a small space between the articulating bones. A typical
+caused by an increase of uric acid in the blood. The uric
+synovial joint such as the knee includes the following
+acid deposits in joints, where it forms tiny sharp crystals
+structures:
+(called tophi) that inflame the joint and cause intense pain.
+• Articular cartilage. The articulating surface of each of
+Foods high in uric acid can bring on an attack of gout. A
+the two bones is lined with articular cartilage, form-
+diet of meat and alcohol (the rich man’s diet) can cause it;
+ing a smooth surface within the joint. The articular
+hence the caricature of a glutton—wealthy, obese, and red-
+faced—comes to mind. The term gout comes from gutta, cartilage reduces friction and exerts a cushioning ef-
+a Latin word meaning “to drop.” It was originally believed fect within the joint.
+that gout was caused by unhealthy humors (fluids) or poi- • Joint capsule. The joint capsule, or articular capsule,
+sons that dropped or dripped into the joints, particularly is made of fibrous connective tissue. It encloses the
+the joint of the great toe. This disease was so common joint in a strong sleeve-like covering. The outermost
+that the pubs often had gout stools for their portly persons layer of the capsule is continuous with the perios-
+Remember this:
+teum of the articulating bones. The innermost layer
+G great toe is called the synovial membrane; it secretes synovial
+O one joint, usually the great toe fluid into the joint cavity.
+U uric acid
+• Synovial fluid. Synovial fluid nourishes and lubricates
+T tophi
+the inner joint surfaces in the joint cavity. Synovial
+Y Yikes, that hurts!
+fluid gets its name from an ovum or egg because the
+thick consistency of the synovial fluid resembles the
+
+138 CHAPTER 8 Skeletal System
+Table 8.3 Types of Joints
+TYPE DESCRIPTION EXAMPLES
+Immovable Suture, or “zipper” Cranial bones
+Slightly movable Disc of cartilage between two bones Intervertebral discs; symphysis pubis
+Freely movable Ball and socket Shoulder (scapula and humerus): hip (coxal bone and femur)
+Hinge Elbow (humerus and ulna, humerus and radius): knee (femur
+and tibia); fingers
+Pivot Atlas and axis; allows for rotation (side-to-side movement) of
+the head, indicating “no”
+Saddle Thumb (carpometacarpal joint); sternoclavicular joint
+Gliding Carpals
+Condyloid Temporal bone and mandible (jaw); knuckles
+Femur
+Patella
+Joint cavity
+(filled with
+synovial fluid)
+Articular
+cartilage
+Synovial
+membrane
+Capsule Lateral
+meniscus
+Tibia
+Fig. 8.18 Synovial Joint (Knee) Structures.
+Go Figure (Refer to Fig. 8.18)
+small sacs of synovial fluid that serve to reduce fric-
+1. T he knee joint is classified as being both tion. Bursae are most often located outside the joint,
+____________________, and _______________. (synovial, between tendons and bone, muscles and bone, and
+symphysis, suture, freely movable). between ligaments and bone. Overuse of a joint may
+2 . T /F __ Synovial fluid is found within the joint cavity. cause a painful inflammation of the bursae, called
+bursitis.
+• Supporting ligaments and menisci. Surrounding and
+consistency of an egg white. Warming-up exercises within the joint are supporting ligaments. There
+stimulate the secretion of synovial fluid, thereby re- are collateral ligaments found on the sides of the
+ducing wear and tear within the joints. knee and cruciate ligaments (anterior and posterior)
+• Bursae. Some synovial joints, like the shoulder and found inside the knee joint. Some synovial joints
+knee joints, contain bursae (sing., bursa). Bursae are also contain crescent-shaped pads of fibrocartilage
+
+Skeletal System CHAPTER 8 139
+joints. The name indicates that the metacarpal bone
+articulates with a phalange (finger). Some names
+Temporomandibular
+specify the bony process rather than the bone. For
+Sternoclavicular
+example, the glenohumeral joint names the glenoid
+Sternomanubrial
+cavity of the scapula and humerus, the arm bone that
+Acromioclavicular
+Glenohumeral fits into the glenoid cavity. The acromioclavicular joint
+is the articulation between the acromion process of the
+scapula and the clavicle.
+Humeroulnar FREELY MOVABLE (SYNOVIAL) JOINTS:
+CLASSIFICATION ACCORDING TO MOVEMENT
+Proximal
+and distal
+The body contains many types of freely movable sy-
+radioulnar
+Radiocarpal novial joints. The type of motion and the degree of
+flexibility vary with each type of joint. For example,
+if you move your elbow, your arm and forearm will
+move like two boards joined by a hinge. This mo-
+Metacarpophalangeal tion is very different from the arm-swinging motion
+at the shoulder joint. Both the elbow and shoulder
+Tibiofemoral
+joints are freely movable, but the types of movement
+Proximal differ.
+tibiofibular Six types of freely movable joints are classified ac-
+cording to the type of movement allowed by the joint
+(Fig. 8.20; see Table 8.3).
+Distal
+tibiofibular HINGE JOINT
+The hinge joint allows movement similar to the move-
+Fig. 8.19 Naming of Joints. ment of two boards joined together by a hinge. The
+hinge allows movement in one direction, where the
+angle at the hinge increases or decreases. Hinge joints
+Go Figure (Refer to Fig. 8.19)
+include elbows, knees, and fingers. Move each of these
+1. W hat is the name of the elbow joint? __________ joints to clarify the movement described here. Move
+(talocrural, radiocarpal, humeroulnar, glenohumeral) your knee and identify the hinge.
+2. T he tibiofemoral joint is better known as the
+_______________ joint. (knee, ankle, hip, shoulder) BALL-AND-SOCKET JOINT
+3. W hich of the following joints is located in the lower
+A ball-and-socket joint is formed when the ball-
+extremities? ___________ (radiocarpal, humeroulnar,
+shaped end of one bone fits into the cup-shaped
+talocrural, sternomanubrial)
+socket of another bone, allowing the bones to move
+in many directions around a central point. The
+called menisci. The menisci act as shock absorbers shoulder and hip joints are ball-and-socket joints.
+and play a role on weight distribution within the The head of the humerus fits into the glenoid cavity
+joint. of the scapula in the shoulder joint. The head of the
+• Nerves. Synovial joints contain many nerve endings femur fits into the acetabulum of the coxal bone in
+that supply the articular capsule. Some nerve end- the hip joint.
+ings convey pain to the brain and spinal cord. Other Move your shoulder all around (as in pitching a
+nerve endings respond to stretch; this information softball) and note the freedom of movement. Compare
+is used by the nervous system to reflexively coordi- this movement with the limited movement at the el-
+nate skeletal muscle movement. bow or knee hinge joints. Although the ball-and-socket
+joint allows for a wide range of movement, it also pre-
+NAMING OF JOINTS disposes the joint to easy displacement. When a strong
+force (as in falling) is applied to the shoulder, for ex-
+The joints of the body are often named according to ample, a dislocation may occur.
+the bones they connect. Refer to Fig. 8.19 as we iden-
+tify several joints. The temporomandibular joint PIVOT JOINT
+connects the temporal bone in the skull with the A pivot joint allows for rotation around the length of
+mandible (lower jaw). The tibiofemoral joint is the a bone. The pivot joint allows only for rotation. An ex-
+articulation between the tibia and the femur—the ample is the side-to-side movement of the head indicat-
+knee. The knuckles refer to the metacarpophalangeal ing “no.” This rotation occurs as the atlas (first cervical
+
+140 CHAPTER 8 Skeletal System
+SADDLE JOINT
+A saddle joint is formed when the surfaces of both ar-
+ticulating bones are saddle shaped; the saddle shape
+of one bone is concave whereas the saddle shape of
+the second bone is convex. The position of the articu-
+lating bones is like that of a rider in a saddle. The
+clearest example of a saddle joint is the carpometa-
+carpal joint at the base of the thumb, which gives the
+Pivot joint
+Atlas–axis thumb a wide range of motion. Move your thumb
+joint
+all around to check out its versatility. Now touch the
+tip of each finger with your thumb, a movement re-
+ferred to as opposition. Interestingly, having an op-
+posable thumb is one of the bragging points for be-
+ing classified as human!
+Ball-and-socket GLIDING JOINT
+joint
+A gliding joint is formed by the interaction of the flat
+Shoulder
+joint surfaces of the articulating bones. It allows for a lim-
+ited but complex gliding movement. Gliding joints are
+found in the wrist (intercarpal joints), ankle (intertarsal
+joints), and vertebral column.
+CONDYLOID JOINT
+A condyloid (KON-di-loyd) joint is formed when the
+Hinge
+joint oval articular surface of one bone fits into the oval de-
+Elbow pression of the second articulating bone. The radiocar-
+pal joint (wrist) and the metacarpophalangeal joints
+(knuckles) at the bases of the fingers are examples of
+condyloid joints.
+CLINICALLY “BIG” SYNOVIAL JOINTS
+KNEE
+Carpo-
+metacarpal Gliding joint The knee joint, called the tibiofemoral joint, is the
+joint
+largest and most complex freely movable joint in the
+body. It is a hinge joint. In addition to all the struc-
+tures contained in a synovial joint, the knee joint
+contains extra cushioning in the form of pads of car-
+Saddle joint
+tilage. These pads absorb the shock of walking and
+jumping. Two crescent-shaped pads of cartilage, the
+medial meniscus (min-ISS-kiss) and lateral menis-
+Metacarpo- cus, rest on the tibia. Like other synovial joints, the
+phalangeal joint knee joint is reinforced and aligned by supporting
+Condyloid
+ligaments, the cruciate (KROO-she-ate) ligaments
+joint
+in particular. There is an anterior cruciate ligament
+Fig. 8.20 Freely Movable Joints.
+(ACL) and a posterior cruciate ligament (PCL). All
+Go Figure (Refer to Fig. 8.20) athletes are very aware of these joint-stabilizing
+structures. Football penalties, in particular, acknowl-
+1. T he joint that allows your head to turn indicating “no” is a
+edge the seriousness of the hinged nature of the knee
+_________________ joint. (hinge, ball and socket, saddle,
+by assessing a 15-yard penalty for clipping—an at-
+pivot)
+2. W hich of the following is a ball-and-socket joint? tempt to convert a hinge joint to a ball-and-socket
+__________ (elbow, wrist, humeroulnar, glenohumeral) arrangement.
+3. W hich of the following is not a freely movable joint? In addition to the stabilizing influence of the joint
+________ (saddle, ball and socket, hinge, suture) ligaments, joints are stabilized by the surrounding large
+skeletal muscles. For instance, the knee joint is stabilized
+vertebra) swivels around, or pivots, on the axis (second by the quadriceps tendon anteriorly and hamstring
+cervical vertebra). This joint is called the atlantoaxial joint. muscles posteriorly. Strengthening of these surrounding
+
+Skeletal System CHAPTER 8 141
+muscles diminishes the risk of knee injury. Moreover, pressure on the attached bone. These movements are
+therapy for knee injury or surgery often involves the illustrated in Fig. 8.21 and defined as follows:
+strengthening of the surrounding muscles. • Flexion. Flexion is the bending of a joint that decreas-
+es the angle between the bones (e.g., bending the leg
+SHOULDER
+at the knee or the fingers).
+The shoulder joint is called the glenohumeral joint, • Extension. Extension is the straightening of a joint
+indicating that the head of the humerus fits into the so that the angle between the bones increases (e.g.,
+glenoid cavity of the scapula. The shoulder joint is a straightening the leg at the knee or the fingers to
+ball-and-socket joint that permits the greatest range open the hand).
+of motion. The joint is stabilized by surrounding • Plantar flexion. This is bending the foot down, as in
+skeletal muscles, tendons, and ligaments. The ro- toe dancing.
+tator cuff muscles and tendons, in particular, hold • Dorsiflexion. This is bending the foot up toward the
+the head of the humerus in the glenoid cavity. The leg.
+wide range of motion of the shoulder joint comes at • Hyperextension. This is overextending the joint beyond
+a price. The shoulder joint is the most frequently dis- its normally straightened position, as in moving the
+located joint. hand toward the upper surface of the wrist.
+• Abduction. Abduction is movement away from the
+ELBOW
+midline of the body (as when you move your leg
+The elbow is a hinge joint formed by two articulations: sideways, away from your body).
+the humeroulnar joint and the humeroradial joint. The • Adduction. Adduction is movement toward the mid-
+olecranon process of the ulna forms the pointy part of line of the body (as when you return your leg to-
+the elbow when it is flexed. The elbow is a hinge joint ward your body).
+that is very stable; nonetheless, it can be injured. For • Inversion. This is turning the sole of the foot inward
+example, “nursemaid’s elbow” is caused by an impa- so that it faces the opposite foot.
+tient parent or “nursemaid” dragging a toddler by the • Eversion. This is turning the sole of the foot outward.
+arm. The upward twisting pull causes a partial dislo- • Supination. This is turning the hand so that the palm
+cation of the child’s elbow and possible damage to the faces upward.
+growth plate (epiphyseal disc). • Pronation. This is turning the hand so that the palm
+There is a third joint in the elbow region called the faces downward.
+proximal radioulnar joint; it does not, however, con- • Circumduction. Circumduction This is a combina-
+tribute to the hinge movement. tion of movements, as in the circular arm move-
+ment that a softball pitcher makes while pitching
+HIP
+the ball.
+The hip, called the coxal joint, is a ball-and-socket joint
+formed where the head of the femur articulates with Re-Think
+the acetabulum, the depression formed by the three
+Refer to Figs. 8.19 and 8.21 and describe the types of joint
+coxal bones. The hip is strengthened by surrounding
+movements of the following parts: left hand at the wrist, right
+muscles, tendons, and ligaments. A fractured hip refers
+leg at the knee, right forearm at the elbow, left forearm at the
+to a break in the neck of the femur.
+el bow, and right hand at the wrist.
+Re-Think
+Sum It Up!
+1. G ive one example of each type of joint: immovable,
+slightly movable, and freely movable. A joint, or articulation, is the place where two or more bones
+2. C lassify each of the following freely movable joints: meet. The three types of joints are immovable joints, slightly
+tibiofemoral, humeroulnar, glenohumeral, atlas–axis, movable joints, and freely movable joints. Freely movable
+talocrural, and hip. joints are synovial joints. Types of freely movable joints in-
+clude hinge, ball-and-socket, pivot, gliding, saddle, and
+condyloid joints. Because of the diverse types of joints, the
+Types of Joint Movements sk eleton is capable of a variety of movements.
+Movements at freely movable joints occur when the
+muscles that lie across the joints contract and exert
+
+142 CHAPTER 8 Skeletal System
+EExxtteennssiioonn
+FFlleexxiioonn Supination Pronation
+Eversion Inversion
+Hyperextension
+Dorsiflexion
+Extension
+Adduction
+Flexion
+Plantar
+flexion
+Abduction
+Circumduction
+Fig. 8.21 Types of Movements at Joints.
+
+Skeletal System CHAPTER 8 143
+Go Figure (Refer to Fig. 8.21) Move It
+. . .
+1. T /F __ The only part of the skeleton that can be flexed or 1. E xercise, especially weight-bearing exercise, increases
+extended is the leg (at the knee). bone density through an increase in mineral deposition
+2. T /F __ Adduction moves a body part toward the midline. and synthesis of collagen. This observation is attested
+3. W hich of the following best describes a tippy-toe to by the loss of bone seen in bedridden persons and
+stance? _______________ (pronation, eversion, plantar astronauts.
+flexion, dorsiflexion) 2. E xercise increases the production and distribution of
+synovial fluid within the joints. Synovial fluid is absorbed
+by the articular cartilage, causing it to swell and affording
+As You Age increased padding within the joints. Exercise lubricates the
+1. B ecause of loss of calcium and organic material, bones joints.
+are less strong and more brittle. Many older women 3. E xercise makes the ligaments stronger and more
+develop osteoporosis. As a result, bones fracture more resistant to injury.
+easily. Moreover, fractured bones heal incompletely and 4. E xercise stimulates the pituitary gland to secrete growth
+more slowly. hormone, which, in turn, stimulates bone growth.
+2. A s sex hormones in the blood decrease, there is a 5. E xercise stimulates the bone to secrete osteocalcin,
+decrease in new bone growth and in bone mass, thus which, in turn, enhances the activity of insulin to lower
+increasing the susceptibility to osteoporosis. blood glucose.
+3. T endons and ligaments are less flexible. As a result, 6. E xercise increases capillarization, thereby improving
+joints have a decreased range of motion. A thinning of blood flow and the delivery of oxygen and nutrients.
+the articular cartilage and bony overgrowths in the joints 7. E xercise prevents age-related bone fragility and delays
+contributes to joint stiffness. the worsening of conditions such as osteoarthritis.
+4. T he intervertebral discs shrink. Because of the
+compressed discs and the loss of bone mass, body
+height decreases and the thoracic spine curves (causing
+kyphosis).
+Note: The Medical Terminology and Disorders table
+appears in Chapter 9.
+Get ready for exams!
+Summary Outline II. Divisions of the Skeletal System. The names of the
+206 bones of the skeleton are listed in Table 8.2.
+The skeletal system supports the weight of the body, sup-
+A. Axial skeleton
+ports and protects body organs, enables the body to move,
+1. The axial skeleton includes the bones of the skull
+acts as a storage site for minerals, helps regulate plasma
+(cranium and face), hyoid bone, bones of the
+calcium levels, and produces blood cells.
+middle ear, bones of the vertebral column, and
+I. Bones: An Overview thoracic cage.
+A. Sizes, shapes, and markings 2. The skull of a newborn contains fontanels, which
+1. Bones are classified as long, short, flat, and irregular. are membranous areas that allow brain growth.
+2. Bone markings: projections and depressions; 3. The skull contains air-filled cavities called sinuses.
+function as sites of muscle attachments and pas- 4. The vertebral column is formed from 24 vertebrae,
+sages for nerves and blood vessels one sacrum, and one coccyx. The vertebrae are
+3. Composed of compact (dense) bone and spongy separated by cartilaginous discs. The vertebral
+(cancellous) bone column of the adult has four curvatures: cervical,
+B. Parts of a long bone thoracic, lumbar, and sacral.
+1. Diaphysis (shaft) 5. The thoracic cage is a bony cone-shaped cage
+2. Epiphyses (ends), covered by articular cartilage formed by the sternum, 12 pairs of ribs, and tho-
+3. Other components: medullary cavity, periosteum, racic vertebrae.
+bone marrow, epiphyseal disc, endosteum, and B. Appendicular skeleton
+articular cartilage 1. The appendicular skeleton includes the bones of
+C. Ossification the limbs (arms and legs) and the bones of the hip
+1. Intramembranous and pectoral (shoulder) girdles.
+2. Endochondral 2. The pectoral (shoulder) girdle consists of the
+D. Bone growth scapula and clavicle.
+1. Bones grow longitudinally at the epiphyseal disc, 3. The pelvic girdle is formed by the two coxal bones
+determining height. and is secured to the axial skeleton at the sacrum.
+2. Bones grow thicker and wider to support the
+weight of the body.
+
+144 CHAPTER 8 Skeletal System
+III. Joints—A joint or articulation is the site where two Matching: Joints and Joint Movement
+bones meet. Directions: Match the following words with their descrip-
+A. Types of joints (based on the degree of movement) tions. Some words may be used more than once.
+1. Immovable joints
+2. Slightly movable joints
+a. b all and socket 1. _ __ T ype of joint movement at
+3. Freely movable joints or synovial joints—struc-
+b. a dduction the elbow (angle decreases)
+tures within a synovial joint (knee) are the articular
+c. fl exion 2. _ __ Turning the forearm so that
+cartilage, joint capsule, synovial membrane, syno-
+d. p ronation the palm of the hand “looks”
+vial fluid, bursae, and supporting ligaments.
+e. d orsiflexion at the sky
+4. The types of freely movable joints include hinge,
+f. c ircumduction 3. _ __ M ovement away from the
+ball-and-socket, pivot, gliding, saddle, and condy-
+g. e xtension midline of the body
+loid joints.
